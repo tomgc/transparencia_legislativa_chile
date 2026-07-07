@@ -65,38 +65,35 @@ DOMINIO_CAMARA_ORIGEN <- c(
   "2" = "senado"
 )
 
-# ---- Mapeo partido -> tendencia (izquierda / derecha) -----------------------
+# ---- Mapeo partido -> tendencia --------------------------------------------
 # DECISION METODOLOGICA DEL TITULAR, NO DEL ASISTENTE.
-# El eje izquierda/derecha NO viene en la API. Se enumeran aqui los 18 partidos
-# con militancia vigente en el roster real del periodo 2026-2030 (extraidos de
-# retornarDiputadosPeriodoActual). Todos quedan en NA_character_: la
-# clasificacion politica de cada partido es una decision del titular, no del
-# asistente (el encargo lo instruye explicitamente: "no inventes la
-# clasificacion de un partido: NA y reportalo").
-#
-# # REVISAR: el titular debe reemplazar NA_character_ por "izquierda" /
-# "derecha" / "centro" (u otra taxonomia que decida) en cada partido que
-# corresponda. Los partidos que queden en NA se reportaran como tendencia
-# desconocida en el JSON. La llave es el Id de partido de la API (character).
+# El eje de tendencia NO viene en la API: es una columna derivada. La
+# clasificacion de cada partido la fijo el titular en la sesion 2 (2026-07-06)
+# con una TAXONOMIA DE 5 NIVELES:
+#   izquierda / centroizquierda / centro / centroderecha / derecha.
+# Llaves = Id de partido de la API (character), los 18 con militancia vigente en
+# el roster del periodo 2026-2030. IND (Independientes) queda deliberadamente en
+# NA_character_: no es un partido y sus militantes no son clasificables por este
+# eje. El asistente NO altera estos valores por criterio propio (invariante 🔒).
 MAPA_PARTIDO_TENDENCIA <- c(
-  "PREP" = NA_character_,  # Partido Republicano                  (28 diputados)
-  "IND"  = NA_character_,  # Independientes                       (25)
-  "FA"   = NA_character_,  # Frente Amplio                        (16)
-  "PDG"  = NA_character_,  # Partido de la Gente                  (14)
-  "UDI"  = NA_character_,  # Union Democrata Independiente        (13)
-  "RN"   = NA_character_,  # Renovacion Nacional                  (11)
-  "PS"   = NA_character_,  # Partido Socialista                   (10)
-  "PC"   = NA_character_,  # Partido Comunista                     (8)
-  "PNL"  = NA_character_,  # Partido Nacional Libertario           (8)
-  "DC"   = NA_character_,  # Partido Democrata Cristiano           (7)
-  "PPD"  = NA_character_,  # Partido Por la Democracia             (4)
-  "PSC"  = NA_character_,  # Partido Social Cristiano              (3)
-  "EVOP" = NA_character_,  # Evolucion Politica                    (2)
-  "PL"   = NA_character_,  # Partido Liberal de Chile              (2)
-  "DEM"  = NA_character_,  # Partido Democratas Chile              (1)
-  "FRVS" = NA_character_,  # Federacion Regionalista Verde Social  (1)
-  "PAH"  = NA_character_,  # Partido Accion Humanista              (1)
-  "PR"   = NA_character_   # Partido Radical de Chile              (1)
+  "PREP" = "derecha",          # Partido Republicano                  (28 diputados)
+  "IND"  = NA_character_,       # Independientes: sin militancia, no clasificable (25)
+  "FA"   = "izquierda",        # Frente Amplio                        (16)
+  "PDG"  = "centro",           # Partido de la Gente                  (14)
+  "UDI"  = "derecha",          # Union Democrata Independiente        (13)
+  "RN"   = "centroderecha",    # Renovacion Nacional                  (11)
+  "PS"   = "centroizquierda",  # Partido Socialista                   (10)
+  "PC"   = "izquierda",        # Partido Comunista                     (8)
+  "PNL"  = "derecha",          # Partido Nacional Libertario           (8)
+  "DC"   = "centro",           # Partido Democrata Cristiano           (7)
+  "PPD"  = "centroizquierda",  # Partido Por la Democracia             (4)
+  "PSC"  = "derecha",          # Partido Social Cristiano              (3)
+  "EVOP" = "centroderecha",    # Evolucion Politica                    (2)
+  "PL"   = "centroizquierda",  # Partido Liberal de Chile              (2)
+  "DEM"  = "centro",           # Partido Democratas Chile              (1)
+  "FRVS" = "izquierda",        # Federacion Regionalista Verde Social  (1)
+  "PAH"  = "izquierda",        # Partido Accion Humanista              (1)
+  "PR"   = "centroizquierda"   # Partido Radical de Chile              (1)
 )
 
 # Helper: traduce un Id de partido a su tendencia declarada (NA si no mapeado).
