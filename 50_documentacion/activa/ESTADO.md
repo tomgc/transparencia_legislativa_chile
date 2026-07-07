@@ -3,24 +3,25 @@ slug: transparencia_legislativa_chile
 nombre_real: Transparencia Legislativa Chile
 categoria: activo
 semaforo: activo
-sesion_actual: v01
+sesion_actual: v02
 ultima_actividad: 2026-07-06
 maneja_sensibles: false
 tipo_pendiente: nuevo
 ---
 ## En que vamos
-Fase 1 completa: scaffold Rama A y pipeline R que extrae de la Camara
-(opendata.camara.cl) roster, asistencia, votaciones y proyectos, y los
-consolida en JSON estaticos (indice + 155 perfiles). `run_all()` corre de cero
-sin error; auditoria adversarial 10/10. Sin push (a la espera del titular).
+Fase 1 completa y anno completo corrido: el pipeline R extrae de la Camara
+(672 votaciones, 218 mociones, 155 diputados) y produce indice + 155 perfiles
+con tendencia clasificada por el titular (5 niveles; los 25 IND quedan NA).
+Auditoria adversarial en R: distribucion re-derivada identica al indice. Sin push.
 
 ## Proximo paso
-Que el titular clasifique la tendencia (izq/der) de los 18 partidos del roster
-en `MAPA_PARTIDO_TENDENCIA`, y decidir si se corre el anno completo (topes en
-Inf) antes de encarar la Fase 2 (dashboard).
+Disenar y construir la Fase 2: dashboard estatico que consuma el JSON. Resolver
+primero dos decisiones de diseno: (a) carga perezosa de perfiles (~17 MB en 155
+archivos), (b) tratamiento de los 25 diputados IND sin tendencia en la vista
+segmentada.
 
 ## Bloqueantes
-Ninguno para el pipeline. Diferido al titular: la clasificacion politica de los
-partidos (tendencia hoy NA para los 155). Nota: `tipo_pendiente=nuevo` es el
-default conservador para una decision metodologica que habilita una
-segmentacion (no calza literal en el enum de prioridad de §1.2.4).
+Ninguno para el pipeline. Deuda tecnica menor pendiente: la clave de cache no
+codifica el tope de extraccion (# REVISAR; forzar refresco al cambiar topes).
+tipo_pendiente=nuevo: el trabajo que encabeza el proximo arranque es
+funcionalidad nueva (dashboard Fase 2).
