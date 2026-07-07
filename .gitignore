@@ -1,0 +1,42 @@
+# ===== Credenciales =====
+.env
+.Renviron
+*credentials*
+*secret*
+*token*
+*password*
+
+# ===== Sistema R =====
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# ===== Sistema operativo =====
+.DS_Store
+Thumbs.db
+
+# ===== Snapshots y backups locales =====
+_archivo/
+*.bak
+
+# ===== Outputs temporales =====
+*_freeze/
+.quarto/
+*.log
+
+# ===== Outputs accidentales en raiz y scripts de diagnostico =====
+/*.docx
+/*.pdf
+/*.html
+/diagnostico_*.md
+/verificar_*.R
+/listar_*.R
+
+# NOTA: proyecto de datos 100% PUBLICOS (Rama A, POLITICA 8.2). No se
+# incluye el bloque de blindaje de datos: 20_insumos/ (capturas crudas de la
+# API, provenance) y 40_salidas/json/ (entregable para GitHub Pages) SI se
+# versionan (son datos publicos del Estado, ver README).
+
+# ===== Intermedios regenerables (cache tidy; no son entregable ni fuente) =====
+40_salidas/intermedios/*.rds
