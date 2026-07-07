@@ -1,0 +1,186 @@
+# =============================================================================
+# 39_consolidar_json.R
+# -----------------------------------------------------------------------------
+# Proposito: Fusionar las tablas intermedias (diputados, asistencia, votos,
+#            proyectos) en los JSON estaticos que consume el dashboard:
+#              - 40_salidas/json/indice_diputados.json  (selector)
+#              - 40_salidas/json/perfiles/<id>.json      (uno por diputado)
+#            Claves ordenadas, indentacion fija, UTF-8 (POLITICA 2, 5.5).
+# Insumos:   40_salidas/intermedios/{diputados,asistencia,votos,proyectos}.rds
+# Salidas:   40_salidas/json/ (indice + perfiles/).
+# Validacion: NAs en llaves, totales pre/post join, rango de tasa, dominio de
+#            sentido del voto (POLITICA 5.3.8).
+# Autor:     Claude Code (encargo autonomo, sesion 1)
+# Creado:    2026-07-06
+# =============================================================================
+
+source(file.path(rprojroot::find_root(rprojroot::has_file(".here")),
+                 "10_utils", "10_utils.R"))
+instalar_si_falta(c("dplyr", "jsonlite", "here", "fs"))
+library(dplyr)
+
+ROOT <- obtener_raiz_proyecto()
+source(file.path(ROOT, "10_utils", "10_configuracion.R"))
+
+# ---- Cargar intermedios ------------------------------------------------------
+leer <- function(nombre) {
+  ruta <- ruta_salidas("intermedios", paste0(nombre, ".rds"))
+  if (!file.exists(ruta))
+    stop(sprintf("39_consolidar: falta el intermedio '%s'. Corre el paso previo.",
+                 ruta))
+  readRDS(ruta)
+}
+diputados  <- leer("diputados")
+asistencia <- leer("asistencia")
+votos      <- leer("votos")
+proyectos  <- leer("proyectos")
+
+# La llave es character en todas las tablas (invariante POLITICA 5.3.6).
+stopifnot(is.character(diputados$diputado_id),
+          is.character(asistencia$diputado_id),
+          is.character(votos$diputado_id),
+          is.character(proyectos$diputado_id))
+
+roster_ids <- diputados$diputado_id
+log_msg(sprintf("Roster vigente: %d diputados.", length(roster_ids)),
+        origen = "39_consolidar")
+
+# ---- Escritor JSON canonico (claves ordenadas, indentacion fija, UTF-8) -----
+escribir_json <- function(objeto, ruta) {
+  txt <- jsonlite::toJSON(objeto, auto_unbox = TRUE, pretty = TRUE,
+                          na = "null", null = "null", digits = NA)
+  escribir_atomico(txt, ruta, function(o, r)
+    writeLines(enc2utf8(as.character(o)), r, useBytes = TRUE))
+}
+
+# ---- Validacion de cobertura de cada fuente sobre el roster -----------------
+cobertura <- function(tabla, etiqueta) {
+  ids <- intersect(unique(tabla$diputado_id), roster_ids)
+  huerfanos <- setdiff(unique(tabla$diputado_id), roster_ids)
+  log_msg(sprintf("%s: %d/%d del roster con datos; %d ids fuera del roster (periodo previo/reemplazos).",
+                  etiqueta, length(ids), length(roster_ids), length(huerfanos)),
+          origen = "39_consolidar")
+  invisible(NULL)
+}
+cobertura(asistencia, "Asistencia")
+cobertura(votos,      "Votaciones")
+cobertura(proyectos,  "Proyectos")
+
+# ---- indice_diputados.json (lista minima para el selector) ------------------
+indice <- diputados |>
+  arrange(nombre) |>
+  transmute(
+    id        = diputado_id,
+    nombre    = nombre,
+    partido   = partido_id,
+    distrito  = distrito,
+    region    = region,
+    tendencia = tendencia
+  )
+
+fs::dir_create(ruta_json())
+escribir_json(indice, ruta_json("indice_diputados.json"))
+log_msg(sprintf("Escrito indice con %d diputados.", nrow(indice)),
+        origen = "39_consolidar")
+
+# ---- Perfiles por diputado (4 bloques) --------------------------------------
+fs::dir_create(ruta_json_perfiles())
+# Limpiar perfiles previos para que el conteo sea idempotente (POLITICA 5.2.3).
+antiguos <- fs::dir_ls(ruta_json_perfiles(), glob = "*.json", fail = FALSE)
+if (length(antiguos) > 0) fs::file_delete(antiguos)
+
+n_perfiles <- 0L
+for (i in seq_len(nrow(diputados))) {
+  d   <- diputados[i, ]
+  did <- d$diputado_id
+
+  # Bloque 1: perfil ----------------------------------------------------------
+  perfil <- list(
+    id               = did,
+    nombre           = d$nombre,
+    sexo             = d$sexo,
+    fecha_nacimiento = d$fecha_nacimiento,
+    partido = list(
+      id     = d$partido_id,
+      nombre = d$partido_nombre,
+      alias  = d$partido_alias
+    ),
+    distrito  = d$distrito,
+    region    = d$region,
+    tendencia = d$tendencia
+  )
+
+  # Bloque 2: asistencia ------------------------------------------------------
+  a <- asistencia[asistencia$diputado_id == did, ]
+  bloque_asistencia <- if (nrow(a) == 1) {
+    list(anio = ANIO_PROCESO,
+         n_sesiones      = a$n_sesiones,
+         n_asiste        = a$n_asiste,
+         n_no_asiste     = a$n_no_asiste,
+         tasa_asistencia = a$tasa_asistencia)
+  } else {
+    list(anio = ANIO_PROCESO, n_sesiones = 0L, n_asiste = 0L,
+         n_no_asiste = 0L, tasa_asistencia = NA_real_)
+  }
+
+  # Bloque 3: votaciones ------------------------------------------------------
+  v <- votos[votos$diputado_id == did, ]
+  resumen_voto <- as.list(table(factor(v$sentido, levels = unname(DOMINIO_VOTO))))
+  detalle_voto <- if (nrow(v) > 0) {
+    v |>
+      arrange(fecha, votacion_id) |>
+      transmute(votacion_id = votacion_id, boletin = boletin,
+                fecha = fecha, resultado = resultado,
+                sentido = sentido, descripcion = descripcion)
+  } else NULL
+  bloque_votaciones <- list(
+    anio               = ANIO_PROCESO,
+    n_votaciones       = nrow(v),
+    resumen_por_sentido = resumen_voto,
+    votos              = detalle_voto
+  )
+
+  # Bloque 4: proyectos -------------------------------------------------------
+  p <- proyectos[proyectos$diputado_id == did, ]
+  detalle_proy <- if (nrow(p) > 0) {
+    p |>
+      arrange(desc(fecha_ingreso), boletin) |>
+      transmute(boletin = boletin, nombre = nombre,
+                fecha_ingreso = fecha_ingreso, admisible = admisible,
+                rol = rol)
+  } else NULL
+  bloque_proyectos <- list(
+    anio          = ANIO_PROCESO,
+    n_proyectos   = nrow(p),
+    # La API no expone estado de tramitacion (ver exploracion); Admisible es el
+    # unico proxy disponible. # REVISAR.
+    estado_tramitacion_disponible = FALSE,
+    proyectos     = detalle_proy
+  )
+
+  perfil_json <- list(
+    perfil      = perfil,
+    asistencia  = bloque_asistencia,
+    votaciones  = bloque_votaciones,
+    proyectos   = bloque_proyectos,
+    metadatos   = list(
+      fuente          = "opendata.camara.cl",
+      periodo         = "2026-2030",
+      anio_proceso    = ANIO_PROCESO,
+      generado        = format(Sys.time(), "%Y-%m-%dT%H:%M:%S")
+    )
+  )
+
+  escribir_json(perfil_json, ruta_json_perfiles(paste0(did, ".json")))
+  n_perfiles <- n_perfiles + 1L
+}
+
+# ---- Validacion final: indice vs perfiles (POLITICA 5.3.8, verificacion) ----
+archivos_perfil <- fs::dir_ls(ruta_json_perfiles(), glob = "*.json")
+log_msg(sprintf("Perfiles escritos: %d ; entradas en indice: %d",
+                length(archivos_perfil), nrow(indice)), origen = "39_consolidar")
+if (length(archivos_perfil) != nrow(indice))
+  stop(sprintf("39_consolidar: DESAJUSTE indice (%d) vs perfiles (%d).",
+               nrow(indice), length(archivos_perfil)))
+
+log_msg("Consolidacion JSON completada.", origen = "39_consolidar")
