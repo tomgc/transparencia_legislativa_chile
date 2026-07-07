@@ -22,8 +22,14 @@ estático (Fase 2) visualiza en el navegador.
 
 ## Invariantes (🔒 — intocables)
 
-1. 🔒 **R es el único lenguaje de procesamiento de datos.** Nada de Python en
-   el pipeline.
+1. 🔒 **R es el único lenguaje del proyecto.** El alcance es total, no solo el
+   pipeline de datos del producto: aplica también a toda verificación,
+   auditoría o script auxiliar del proyecto, sin excepción. **Nada de Python en
+   ningún contexto.** La independencia adversarial de una auditoría se logra
+   **en R** — sesión limpia, pull fresco de la fuente, y código que no comparta
+   funciones con el pipeline (para no heredar sus puntos ciegos) —, nunca
+   cambiando de lenguaje. (Precisión que cierra la ambigüedad registrada en el
+   traspaso v01 §15, error 2.)
 2. 🔒 **El navegador NO ejecuta R ni llama APIs en caliente:** solo lee JSON
    estático precomputado. Toda extracción y cálculo ocurre en el pipeline R.
 3. 🔒 **Web estática autocontenida:** HTML5 semántico, CSS/JS inline o local,
