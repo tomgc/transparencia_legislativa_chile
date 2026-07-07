@@ -1,8 +1,8 @@
 ============================================================
  ESTRUCTURA DEL PROYECTO
  Raíz: /Users/tomgc/Projects/transparencia_legislativa_chile
- Fecha: 2026-07-06 20:13:16
- Total: 15 carpetas, 180 archivos
+ Fecha: 2026-07-06 20:18:36
+ Total: 15 carpetas, 187 archivos
 ============================================================
 
 ├── 10_utils/
@@ -188,14 +188,21 @@
 ├── 50_documentacion/
 │   ├── activa/
 │   │   ├── decisiones/
+│   │   ├── ESTADO.md    [1.04K]
 │   │   ├── POLITICA_PROYECTO.md    [34.61K]
 │   │   ├── SETTINGS_Y_PROMPTS_OPERACIONALES.md    [62.85K]
 │   │   ├── documentacion_tecnica_v1.md    [4.44K]
 │   │   ├── exploracion_api_camara.md    [7.29K]
 │   ├── andamios/
 │   │   ├── logs/
+│   │   │   ├── 20260706_fase1_log.md    [5.92K]
 │   ├── estructura/
+│   │   ├── 20260706_201316_estructura.md    [9.63K]
+│   │   ├── 20260706_201316_estructura.txt    [9.68K]
+│   │   ├── estructura_actual.md    [9.63K]
+│   │   ├── estructura_actual.txt    [9.68K]
 │   ├── traspasos/
+│   │   ├── traspaso_cierre_v01.md    [13.54K]
 ├── 00_escanear_proyecto.R    [8.14K]
 ├── 00_run_all.R    [4.46K]
 ├── CLAUDE.md    [3.96K]
@@ -206,6 +213,7 @@
 ============================================================
 
   .json            156
+  .md               11
   .R                10
   .rds               8
-  .md                6
+  .txt               2
