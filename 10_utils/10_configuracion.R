@@ -26,15 +26,18 @@ options(camara.base_url = CAMARA_WS_BASE)
 # numero magico embebido.
 ANIO_PROCESO <- 2026L
 
-# ---- Topes de extraccion para la corrida de validacion (Fase 1) -------------
-# La corrida completa de un anno implica cientos de llamadas de detalle
-# (una por votacion, una por mocion). Para PROBAR LA ARQUITECTURA extremo a
-# extremo en tiempo acotado, se topa el numero de detalles procesados. Poner
-# en Inf para procesar el anno COMPLETO (produccion). Decision metodologica
-# declarada como constante (POLITICA 5.3.10), reportada en el traspaso.
-MAX_SESIONES_DETALLE   <- Inf   # asistencia por sesion (calls baratas: ~61/anno)
-MAX_VOTACIONES_DETALLE <- 120L  # detalle de voto nominal por votacion
-MAX_PROYECTOS_DETALLE  <- 150L  # detalle de autores por mocion (origen Camara)
+# ---- Topes de extraccion --------------------------------------------------
+# VALORES DE PRODUCCION: anno COMPLETO (todos los detalles del anno de proceso).
+# Los topes existen para acotar la corrida de validacion de arquitectura; en
+# produccion se ponen en Inf para no truncar cobertura. Decision metodologica
+# declarada como constante (POLITICA 5.3.10).
+# NOTA (# REVISAR): la clave del cache (con_cache) NO codifica el tope; si se
+# cambia un tope, hay que forzar el refresco (options(camara.refrescar = TRUE))
+# para que el snapshot del dia se regenere en vez de reutilizar uno con tope
+# distinto.
+MAX_SESIONES_DETALLE   <- Inf   # asistencia por sesion (todas las celebradas)
+MAX_VOTACIONES_DETALLE <- Inf   # detalle de voto nominal por votacion (todas)
+MAX_PROYECTOS_DETALLE  <- Inf   # detalle de autores por mocion (todas, origen Camara)
 
 # Pausa cortesia entre llamadas de detalle a la API (segundos).
 PAUSA_API_SEG <- 0.12
