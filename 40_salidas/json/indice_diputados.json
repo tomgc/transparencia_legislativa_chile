@@ -1,0 +1,1242 @@
+[
+  {
+    "id": "1165",
+    "nombre": "Agustín Romero Leiva",
+    "partido": "PREP",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1257",
+    "nombre": "Alejandra Valdebenito Torres",
+    "partido": "UDI",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1013",
+    "nombre": "Alejandro Bernales Maldonado",
+    "partido": "PL",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1245",
+    "nombre": "Alejandro Riquelme Ducci",
+    "partido": "PREP",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1230",
+    "nombre": "Alex Nahuelquin Nahuelquin",
+    "partido": "PDG",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1128",
+    "nombre": "Ana María Gazmuri Vieira",
+    "partido": "PAH",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1222",
+    "nombre": "Andrea Macías Palma",
+    "partido": "PS",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1061",
+    "nombre": "Andrea Parra Sauterel",
+    "partido": "PPD",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1021",
+    "nombre": "Andrés Celis Montt",
+    "partido": "RN",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1221",
+    "nombre": "Benjamín Lorca Inzunza",
+    "partido": "PREP",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1150",
+    "nombre": "Benjamín Moreno Bascur",
+    "partido": "PREP",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1250",
+    "nombre": "Bernardo Salinas Maya",
+    "partido": "IND",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1012",
+    "nombre": "Boris Barrera Moreno",
+    "partido": "PC",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1187",
+    "nombre": "Carlo Arqueros Pizarro",
+    "partido": "PREP",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1110",
+    "nombre": "Carlos Bianchi Chelech",
+    "partido": "IND",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1195",
+    "nombre": "Carlos Carvajal Gallardo",
+    "partido": "IND",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1197",
+    "nombre": "Carlos Chandía Alarcón",
+    "partido": "RN",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1205",
+    "nombre": "Carlos Cuadrado Prats",
+    "partido": "PPD",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1206",
+    "nombre": "Carolina Cucumides Calderón",
+    "partido": "IND",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1177",
+    "nombre": "Carolina Tello Rojas",
+    "partido": "FA",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1025",
+    "nombre": "Catalina Del Real Mihovilovic",
+    "partido": "PREP",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1104",
+    "nombre": "Chiara Barchiesi Chávez",
+    "partido": "PREP",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1227",
+    "nombre": "Claudia Mora Vega",
+    "partido": "RN",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1244",
+    "nombre": "Claudia Reyes Larenas",
+    "partido": "PREP",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1153",
+    "nombre": "Coca Ericka Ñanco Vásquez",
+    "partido": "FA",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1214",
+    "nombre": "Constanza Hube Portus",
+    "partido": "UDI",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1252",
+    "nombre": "Constanza Schonhaut Soto",
+    "partido": "FA",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1180",
+    "nombre": "Consuelo Veloso Ávila",
+    "partido": "FA",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1200",
+    "nombre": "Cristian Contreras Radovic",
+    "partido": "PDG",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1224",
+    "nombre": "Cristian Mella Andaur",
+    "partido": "DC",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1225",
+    "nombre": "Cristian Menchaca Pinochet",
+    "partido": "IND",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1232",
+    "nombre": "Cristian Neira Martínez",
+    "partido": "PREP",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1100",
+    "nombre": "Cristián Araya Lerdo de Tejada",
+    "partido": "PREP",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1175",
+    "nombre": "Cristián Tapia Ramos",
+    "partido": "IND",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1143",
+    "nombre": "Cristóbal Martínez Ramírez",
+    "partido": "UDI",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1082",
+    "nombre": "Cristóbal Urruticoechea Ríos",
+    "partido": "PNL",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1260",
+    "nombre": "César Valenzuela Maass",
+    "partido": "PS",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1194",
+    "nombre": "Daniel Bustos Leal",
+    "partido": "PREP",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1140",
+    "nombre": "Daniel Lilayu Vivanco",
+    "partido": "UDI",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1142",
+    "nombre": "Daniel Manouchehri Lobos",
+    "partido": "PS",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1261",
+    "nombre": "Daniel Valenzuela Salazar",
+    "partido": "IND",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1173",
+    "nombre": "Daniela Serrano Salazar",
+    "partido": "PC",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1075",
+    "nombre": "Diego Schalper Sepúlveda",
+    "partido": "RN",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1262",
+    "nombre": "Diego Vergara Rodríguez",
+    "partido": "PREP",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1202",
+    "nombre": "Eduardo Cretton Rebolledo",
+    "partido": "UDI",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1028",
+    "nombre": "Eduardo Durán Salinas",
+    "partido": "RN",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1255",
+    "nombre": "Eileen Urqueta Rojas",
+    "partido": "PDG",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1056",
+    "nombre": "Emilia Nuyado Ancapichun",
+    "partido": "PS",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1171",
+    "nombre": "Emilia Schneider Videla",
+    "partido": "FA",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1190",
+    "nombre": "Enrique Bassaletti Riess",
+    "partido": "IND",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1212",
+    "nombre": "Erich Grohs Marín",
+    "partido": "PNL",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1239",
+    "nombre": "Fabián Ossandón Briceño",
+    "partido": "PDG",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1116",
+    "nombre": "Felipe Camaño Cárdenas",
+    "partido": "IND",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1248",
+    "nombre": "Felipe Ross Correa",
+    "partido": "PREP",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1253",
+    "nombre": "Fernando Ugarte Tejeda",
+    "partido": "PREP",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1264",
+    "nombre": "Fernando Zamorano Peralta",
+    "partido": "PPD",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1201",
+    "nombre": "Flor Contreras Vivallo",
+    "partido": "PDG",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1183",
+    "nombre": "Flor Weisse Novoa",
+    "partido": "UDI",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1054",
+    "nombre": "Francesca Muñoz González",
+    "partido": "PSC",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1204",
+    "nombre": "Francisco Crisóstomo Llanos",
+    "partido": "PS",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1237",
+    "nombre": "Francisco Orrego Gutiérrez",
+    "partido": "RN",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1114",
+    "nombre": "Félix Bugueño Sotelo",
+    "partido": "FA",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1087",
+    "nombre": "Gael Yeomans Araya",
+    "partido": "FA",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "915",
+    "nombre": "Germán Verdugo Soto",
+    "partido": "PNL",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1152",
+    "nombre": "Gloria Naveillan Arriagada",
+    "partido": "PNL",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1086",
+    "nombre": "Gonzalo Winter Etcheberry",
+    "partido": "FA",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1065",
+    "nombre": "Guillermo Ramírez Diez",
+    "partido": "UDI",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1258",
+    "nombre": "Guillermo Valdés Carmona",
+    "partido": "PDG",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1210",
+    "nombre": "Gustavo Gatica Villarroel",
+    "partido": "IND",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1223",
+    "nombre": "Hans Marowski Cuevas",
+    "partido": "PNL",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1176",
+    "nombre": "Hotuiti Teao Drago",
+    "partido": "IND",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1105",
+    "nombre": "Héctor Barría Angulo",
+    "partido": "DC",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1178",
+    "nombre": "Héctor Ulloa Aguilera",
+    "partido": "IND",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1186",
+    "nombre": "Ignacio Achurra Díaz",
+    "partido": "FA",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1254",
+    "nombre": "Ignacio Urcullú Clèment-Lund",
+    "partido": "PREP",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1213",
+    "nombre": "Irací Hassler Jacob",
+    "partido": "PC",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1099",
+    "nombre": "Jaime Araya Guerrero",
+    "partido": "IND",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1189",
+    "nombre": "Jaime Bassa Mercado",
+    "partido": "FA",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1199",
+    "nombre": "Jaime Coloma Álamos",
+    "partido": "UDI",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "872",
+    "nombre": "Jaime Mulet Martínez",
+    "partido": "FRVS",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1229",
+    "nombre": "Javier Muñoz Riquelme",
+    "partido": "DC",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1235",
+    "nombre": "Javier Olivares Avendaño",
+    "partido": "PDG",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1148",
+    "nombre": "Javiera Morales Alvarado",
+    "partido": "FA",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1247",
+    "nombre": "Javiera Rodríguez Pascual",
+    "partido": "PREP",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1062",
+    "nombre": "Joanna Pérez Olea",
+    "partido": "DEM",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1009",
+    "nombre": "Jorge Alessandri Vergara",
+    "partido": "UDI",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1015",
+    "nombre": "Jorge Brito Hasbún",
+    "partido": "FA",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1208",
+    "nombre": "Jorge Díaz Ibarra",
+    "partido": "DC",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1132",
+    "nombre": "Jorge Guzmán Zepeda",
+    "partido": "EVOP",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1218",
+    "nombre": "José Antonio Kast Adriasola",
+    "partido": "PREP",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1246",
+    "nombre": "José Antonio Rivas Villalobos",
+    "partido": "PS",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1146",
+    "nombre": "José Carlos Meza Pereira",
+    "partido": "PREP",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1226",
+    "nombre": "José Montalva Feuerhake",
+    "partido": "IND",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1108",
+    "nombre": "Juan Carlos Beltrán Silva",
+    "partido": "RN",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1133",
+    "nombre": "Juan Irarrázaval Rossel",
+    "partido": "PREP",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1259",
+    "nombre": "Juan Marcelo Valenzuela Henríquez",
+    "partido": "PDG",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1073",
+    "nombre": "Juan Santana Castillo",
+    "partido": "PS",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1220",
+    "nombre": "Leandro Kunstmann Collado",
+    "partido": "PREP",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1192",
+    "nombre": "Lilian Betancurt Delgado",
+    "partido": "PDG",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1127",
+    "nombre": "Lorena Fries Monleón",
+    "partido": "FA",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1159",
+    "nombre": "Lorena Pizarro Sierra",
+    "partido": "PC",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1122",
+    "nombre": "Luis Alberto Cuello Peña y Lillo",
+    "partido": "PC",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1141",
+    "nombre": "Luis Malla Valenzuela",
+    "partido": "PL",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1060",
+    "nombre": "Luis Pardo Sáinz",
+    "partido": "RN",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1170",
+    "nombre": "Luis Sánchez Ossa",
+    "partido": "PREP",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1251",
+    "nombre": "Macarena Santelices Cañas",
+    "partido": "PREP",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "986",
+    "nombre": "Marcela Hernando Pérez",
+    "partido": "PR",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1174",
+    "nombre": "Marco Antonio Sulantay Olivares",
+    "partido": "UDI",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1188",
+    "nombre": "Marcos Barraza Gómez",
+    "partido": "PC",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1038",
+    "nombre": "Marcos Ilabaca Cerda",
+    "partido": "PS",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1234",
+    "nombre": "Mario Olavarría Rodríguez",
+    "partido": "UDI",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1074",
+    "nombre": "Marisela Santibáñez Novoa",
+    "partido": "IND",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1157",
+    "nombre": "Marlene Pérez Cartes",
+    "partido": "IND",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1107",
+    "nombre": "María Francisca Bello Campos",
+    "partido": "FA",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1209",
+    "nombre": "Matías Fernández Hartwig",
+    "partido": "FA",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1131",
+    "nombre": "Mauro González Villarroel",
+    "partido": "RN",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1166",
+    "nombre": "Natalia Romero Talguia",
+    "partido": "IND",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1117",
+    "nombre": "Nathalie Castillo Rojas",
+    "partido": "PC",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1181",
+    "nombre": "Nelson Venegas Salazar",
+    "partido": "PS",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1249",
+    "nombre": "Omar Sabat Guzmán",
+    "partido": "IND",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1039",
+    "nombre": "Pamela Jiles Moreno",
+    "partido": "PDG",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1193",
+    "nombre": "Patricio Briones Moller",
+    "partido": "PDG",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1241",
+    "nombre": "Patricio Pinilla Valencia",
+    "partido": "DC",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1236",
+    "nombre": "Paula Olmos Contreras",
+    "partido": "PDG",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1228",
+    "nombre": "Paulina Muñoz Minte",
+    "partido": "PNL",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1198",
+    "nombre": "Paz Charpentier Rajcevich",
+    "partido": "PREP",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1217",
+    "nombre": "Pier Karlezi Hazleby",
+    "partido": "PNL",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1196",
+    "nombre": "Priscilla Castillo Gerli",
+    "partido": "DC",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1044",
+    "nombre": "Raúl Leiva Carvajal",
+    "partido": "PS",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1077",
+    "nombre": "Raúl Soto Mardones",
+    "partido": "PPD",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "803",
+    "nombre": "René Alinco Bustos",
+    "partido": "IND",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "843",
+    "nombre": "René Manuel García García",
+    "partido": "RN",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1233",
+    "nombre": "Ricardo Neumann Bertín",
+    "partido": "UDI",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1102",
+    "nombre": "Roberto Arroyo Muñoz",
+    "partido": "PSC",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1184",
+    "nombre": "Roberto Celedón Fernández",
+    "partido": "IND",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1242",
+    "nombre": "Rodrigo Ramírez Parra",
+    "partido": "IND",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1119",
+    "nombre": "Sara Concha Smith",
+    "partido": "PSC",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1203",
+    "nombre": "Sebastián Cristoffanini Jaraquemada",
+    "partido": "PREP",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1182",
+    "nombre": "Sebastián Videla Castillo",
+    "partido": "IND",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1263",
+    "nombre": "Sebastián Zamora Soto",
+    "partido": "IND",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "815",
+    "nombre": "Sergio Bobadilla Muñoz",
+    "partido": "UDI",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1211",
+    "nombre": "Sofía González Cortés",
+    "partido": "PC",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1172",
+    "nombre": "Stephan Schubert Rubio",
+    "partido": "PREP",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1216",
+    "nombre": "Stephanie Jéldrez Ortiz",
+    "partido": "PREP",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1243",
+    "nombre": "Tamara Ramírez Ramírez",
+    "partido": "PDG",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1256",
+    "nombre": "Tatiana Urrutia Herrera",
+    "partido": "FA",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1219",
+    "nombre": "Tomás Kast Sommerhoff",
+    "partido": "EVOP",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1191",
+    "nombre": "Valentina Becerra Peña",
+    "partido": "PREP",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1207",
+    "nombre": "Valentina Cáceres Monsálvez",
+    "partido": "IND",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1231",
+    "nombre": "Ximena Naranjo Pinto",
+    "partido": "IND",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1059",
+    "nombre": "Ximena Ossandón Irarrázabal",
+    "partido": "RN",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1240",
+    "nombre": "Zandra Parisi Fernández",
+    "partido": "PDG",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1017",
+    "nombre": "Álvaro Carter Fernández",
+    "partido": "PREP",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1215",
+    "nombre": "Álvaro Jofré Cáceres",
+    "partido": "PNL",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  },
+  {
+    "id": "1238",
+    "nombre": "Álvaro Ortiz Vera",
+    "partido": "DC",
+    "distrito": null,
+    "region": null,
+    "tendencia": null
+  }
+]
