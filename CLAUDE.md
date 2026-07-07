@@ -69,9 +69,11 @@ estático (Fase 2) visualiza en el navegador.
 
 - **Distrito y región** no los expone la API de la Cámara → `NA`. Requeriría
   una segunda fuente (BCN/SERVEL), fuera del alcance de Fase 1.
-- **Tendencia (izq/der)** no viene en la API: se deriva de
-  `MAPA_PARTIDO_TENDENCIA`, decisión metodológica del titular. Hoy los 18
-  partidos del roster están sin clasificar (`NA`).
+- **Tendencia** no viene en la API: es columna derivada de
+  `MAPA_PARTIDO_TENDENCIA`, decisión metodológica del titular (taxonomía de 5
+  niveles: izquierda/centroizquierda/centro/centroderecha/derecha). Los 18
+  partidos del roster están clasificados (sesión 2); `IND` queda `NA` por no
+  ser partido.
 - **Estado de tramitación** de un proyecto no se expone → `NA`; se conserva
   `admisible` como proxy.
 - **Rol autor/coautor:** la API entrega `Orden=0` para todos los firmantes; no

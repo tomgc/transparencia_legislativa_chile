@@ -5,7 +5,7 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1257",
@@ -13,7 +13,7 @@
     "partido": "UDI",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1013",
@@ -21,7 +21,7 @@
     "partido": "PL",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centroizquierda"
   },
   {
     "id": "1245",
@@ -29,7 +29,7 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1230",
@@ -37,7 +37,7 @@
     "partido": "PDG",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centro"
   },
   {
     "id": "1128",
@@ -45,7 +45,7 @@
     "partido": "PAH",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "izquierda"
   },
   {
     "id": "1222",
@@ -53,7 +53,7 @@
     "partido": "PS",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centroizquierda"
   },
   {
     "id": "1061",
@@ -61,7 +61,7 @@
     "partido": "PPD",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centroizquierda"
   },
   {
     "id": "1021",
@@ -69,7 +69,7 @@
     "partido": "RN",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centroderecha"
   },
   {
     "id": "1221",
@@ -77,7 +77,7 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1150",
@@ -85,7 +85,7 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1250",
@@ -101,7 +101,7 @@
     "partido": "PC",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "izquierda"
   },
   {
     "id": "1187",
@@ -109,7 +109,7 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1110",
@@ -133,7 +133,7 @@
     "partido": "RN",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centroderecha"
   },
   {
     "id": "1205",
@@ -141,7 +141,7 @@
     "partido": "PPD",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centroizquierda"
   },
   {
     "id": "1206",
@@ -157,7 +157,7 @@
     "partido": "FA",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "izquierda"
   },
   {
     "id": "1025",
@@ -165,7 +165,7 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1104",
@@ -173,7 +173,7 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1227",
@@ -181,7 +181,7 @@
     "partido": "RN",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centroderecha"
   },
   {
     "id": "1244",
@@ -189,7 +189,7 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1153",
@@ -197,7 +197,7 @@
     "partido": "FA",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "izquierda"
   },
   {
     "id": "1214",
@@ -205,7 +205,7 @@
     "partido": "UDI",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1252",
@@ -213,7 +213,7 @@
     "partido": "FA",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "izquierda"
   },
   {
     "id": "1180",
@@ -221,7 +221,7 @@
     "partido": "FA",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "izquierda"
   },
   {
     "id": "1200",
@@ -229,7 +229,7 @@
     "partido": "PDG",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centro"
   },
   {
     "id": "1224",
@@ -237,7 +237,7 @@
     "partido": "DC",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centro"
   },
   {
     "id": "1225",
@@ -253,7 +253,7 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1100",
@@ -261,7 +261,7 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1175",
@@ -277,7 +277,7 @@
     "partido": "UDI",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1082",
@@ -285,7 +285,7 @@
     "partido": "PNL",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1260",
@@ -293,7 +293,7 @@
     "partido": "PS",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centroizquierda"
   },
   {
     "id": "1194",
@@ -301,7 +301,7 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1140",
@@ -309,7 +309,7 @@
     "partido": "UDI",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1142",
@@ -317,7 +317,7 @@
     "partido": "PS",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centroizquierda"
   },
   {
     "id": "1261",
@@ -333,7 +333,7 @@
     "partido": "PC",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "izquierda"
   },
   {
     "id": "1075",
@@ -341,7 +341,7 @@
     "partido": "RN",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centroderecha"
   },
   {
     "id": "1262",
@@ -349,7 +349,7 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1202",
@@ -357,7 +357,7 @@
     "partido": "UDI",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1028",
@@ -365,7 +365,7 @@
     "partido": "RN",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centroderecha"
   },
   {
     "id": "1255",
@@ -373,7 +373,7 @@
     "partido": "PDG",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centro"
   },
   {
     "id": "1056",
@@ -381,7 +381,7 @@
     "partido": "PS",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centroizquierda"
   },
   {
     "id": "1171",
@@ -389,7 +389,7 @@
     "partido": "FA",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "izquierda"
   },
   {
     "id": "1190",
@@ -405,7 +405,7 @@
     "partido": "PNL",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1239",
@@ -413,7 +413,7 @@
     "partido": "PDG",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centro"
   },
   {
     "id": "1116",
@@ -429,7 +429,7 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1253",
@@ -437,7 +437,7 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1264",
@@ -445,7 +445,7 @@
     "partido": "PPD",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centroizquierda"
   },
   {
     "id": "1201",
@@ -453,7 +453,7 @@
     "partido": "PDG",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centro"
   },
   {
     "id": "1183",
@@ -461,7 +461,7 @@
     "partido": "UDI",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1054",
@@ -469,7 +469,7 @@
     "partido": "PSC",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1204",
@@ -477,7 +477,7 @@
     "partido": "PS",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centroizquierda"
   },
   {
     "id": "1237",
@@ -485,7 +485,7 @@
     "partido": "RN",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centroderecha"
   },
   {
     "id": "1114",
@@ -493,7 +493,7 @@
     "partido": "FA",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "izquierda"
   },
   {
     "id": "1087",
@@ -501,7 +501,7 @@
     "partido": "FA",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "izquierda"
   },
   {
     "id": "915",
@@ -509,7 +509,7 @@
     "partido": "PNL",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1152",
@@ -517,7 +517,7 @@
     "partido": "PNL",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1086",
@@ -525,7 +525,7 @@
     "partido": "FA",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "izquierda"
   },
   {
     "id": "1065",
@@ -533,7 +533,7 @@
     "partido": "UDI",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1258",
@@ -541,7 +541,7 @@
     "partido": "PDG",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centro"
   },
   {
     "id": "1210",
@@ -557,7 +557,7 @@
     "partido": "PNL",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1176",
@@ -573,7 +573,7 @@
     "partido": "DC",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centro"
   },
   {
     "id": "1178",
@@ -589,7 +589,7 @@
     "partido": "FA",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "izquierda"
   },
   {
     "id": "1254",
@@ -597,7 +597,7 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1213",
@@ -605,7 +605,7 @@
     "partido": "PC",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "izquierda"
   },
   {
     "id": "1099",
@@ -621,7 +621,7 @@
     "partido": "FA",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "izquierda"
   },
   {
     "id": "1199",
@@ -629,7 +629,7 @@
     "partido": "UDI",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "872",
@@ -637,7 +637,7 @@
     "partido": "FRVS",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "izquierda"
   },
   {
     "id": "1229",
@@ -645,7 +645,7 @@
     "partido": "DC",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centro"
   },
   {
     "id": "1235",
@@ -653,7 +653,7 @@
     "partido": "PDG",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centro"
   },
   {
     "id": "1148",
@@ -661,7 +661,7 @@
     "partido": "FA",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "izquierda"
   },
   {
     "id": "1247",
@@ -669,7 +669,7 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1062",
@@ -677,7 +677,7 @@
     "partido": "DEM",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centro"
   },
   {
     "id": "1009",
@@ -685,7 +685,7 @@
     "partido": "UDI",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1015",
@@ -693,7 +693,7 @@
     "partido": "FA",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "izquierda"
   },
   {
     "id": "1208",
@@ -701,7 +701,7 @@
     "partido": "DC",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centro"
   },
   {
     "id": "1132",
@@ -709,7 +709,7 @@
     "partido": "EVOP",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centroderecha"
   },
   {
     "id": "1218",
@@ -717,7 +717,7 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1246",
@@ -725,7 +725,7 @@
     "partido": "PS",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centroizquierda"
   },
   {
     "id": "1146",
@@ -733,7 +733,7 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1226",
@@ -749,7 +749,7 @@
     "partido": "RN",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centroderecha"
   },
   {
     "id": "1133",
@@ -757,7 +757,7 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1259",
@@ -765,7 +765,7 @@
     "partido": "PDG",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centro"
   },
   {
     "id": "1073",
@@ -773,7 +773,7 @@
     "partido": "PS",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centroizquierda"
   },
   {
     "id": "1220",
@@ -781,7 +781,7 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1192",
@@ -789,7 +789,7 @@
     "partido": "PDG",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centro"
   },
   {
     "id": "1127",
@@ -797,7 +797,7 @@
     "partido": "FA",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "izquierda"
   },
   {
     "id": "1159",
@@ -805,7 +805,7 @@
     "partido": "PC",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "izquierda"
   },
   {
     "id": "1122",
@@ -813,7 +813,7 @@
     "partido": "PC",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "izquierda"
   },
   {
     "id": "1141",
@@ -821,7 +821,7 @@
     "partido": "PL",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centroizquierda"
   },
   {
     "id": "1060",
@@ -829,7 +829,7 @@
     "partido": "RN",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centroderecha"
   },
   {
     "id": "1170",
@@ -837,7 +837,7 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1251",
@@ -845,7 +845,7 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "986",
@@ -853,7 +853,7 @@
     "partido": "PR",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centroizquierda"
   },
   {
     "id": "1174",
@@ -861,7 +861,7 @@
     "partido": "UDI",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1188",
@@ -869,7 +869,7 @@
     "partido": "PC",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "izquierda"
   },
   {
     "id": "1038",
@@ -877,7 +877,7 @@
     "partido": "PS",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centroizquierda"
   },
   {
     "id": "1234",
@@ -885,7 +885,7 @@
     "partido": "UDI",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1074",
@@ -909,7 +909,7 @@
     "partido": "FA",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "izquierda"
   },
   {
     "id": "1209",
@@ -917,7 +917,7 @@
     "partido": "FA",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "izquierda"
   },
   {
     "id": "1131",
@@ -925,7 +925,7 @@
     "partido": "RN",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centroderecha"
   },
   {
     "id": "1166",
@@ -941,7 +941,7 @@
     "partido": "PC",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "izquierda"
   },
   {
     "id": "1181",
@@ -949,7 +949,7 @@
     "partido": "PS",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centroizquierda"
   },
   {
     "id": "1249",
@@ -965,7 +965,7 @@
     "partido": "PDG",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centro"
   },
   {
     "id": "1193",
@@ -973,7 +973,7 @@
     "partido": "PDG",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centro"
   },
   {
     "id": "1241",
@@ -981,7 +981,7 @@
     "partido": "DC",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centro"
   },
   {
     "id": "1236",
@@ -989,7 +989,7 @@
     "partido": "PDG",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centro"
   },
   {
     "id": "1228",
@@ -997,7 +997,7 @@
     "partido": "PNL",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1198",
@@ -1005,7 +1005,7 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1217",
@@ -1013,7 +1013,7 @@
     "partido": "PNL",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1196",
@@ -1021,7 +1021,7 @@
     "partido": "DC",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centro"
   },
   {
     "id": "1044",
@@ -1029,7 +1029,7 @@
     "partido": "PS",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centroizquierda"
   },
   {
     "id": "1077",
@@ -1037,7 +1037,7 @@
     "partido": "PPD",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centroizquierda"
   },
   {
     "id": "803",
@@ -1053,7 +1053,7 @@
     "partido": "RN",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centroderecha"
   },
   {
     "id": "1233",
@@ -1061,7 +1061,7 @@
     "partido": "UDI",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1102",
@@ -1069,7 +1069,7 @@
     "partido": "PSC",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1184",
@@ -1093,7 +1093,7 @@
     "partido": "PSC",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1203",
@@ -1101,7 +1101,7 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1182",
@@ -1125,7 +1125,7 @@
     "partido": "UDI",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1211",
@@ -1133,7 +1133,7 @@
     "partido": "PC",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "izquierda"
   },
   {
     "id": "1172",
@@ -1141,7 +1141,7 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1216",
@@ -1149,7 +1149,7 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1243",
@@ -1157,7 +1157,7 @@
     "partido": "PDG",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centro"
   },
   {
     "id": "1256",
@@ -1165,7 +1165,7 @@
     "partido": "FA",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "izquierda"
   },
   {
     "id": "1219",
@@ -1173,7 +1173,7 @@
     "partido": "EVOP",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centroderecha"
   },
   {
     "id": "1191",
@@ -1181,7 +1181,7 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1207",
@@ -1205,7 +1205,7 @@
     "partido": "RN",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centroderecha"
   },
   {
     "id": "1240",
@@ -1213,7 +1213,7 @@
     "partido": "PDG",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centro"
   },
   {
     "id": "1017",
@@ -1221,7 +1221,7 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1215",
@@ -1229,7 +1229,7 @@
     "partido": "PNL",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "derecha"
   },
   {
     "id": "1238",
@@ -1237,6 +1237,6 @@
     "partido": "DC",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centro"
   }
 ]

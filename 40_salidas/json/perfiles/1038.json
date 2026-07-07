@@ -11,7 +11,7 @@
     },
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": "centroizquierda"
   },
   "asistencia": {
     "anio": 2026,
@@ -22,15 +22,4431 @@
   },
   "votaciones": {
     "anio": 2026,
-    "n_votaciones": 120,
+    "n_votaciones": 672,
     "resumen_por_sentido": {
-      "en_contra": 39,
-      "a_favor": 64,
-      "abstencion": 7,
+      "en_contra": 121,
+      "a_favor": 452,
+      "abstencion": 26,
       "dispensado": 0,
-      "no_vota": 10
+      "no_vota": 73
     },
     "votos": [
+      {
+        "votacion_id": "87057",
+        "boletin": null,
+        "fecha": "2026-01-05",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "87063",
+        "boletin": "13822-07",
+        "fecha": "2026-01-05",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 13822-07"
+      },
+      {
+        "votacion_id": "87064",
+        "boletin": "15096-09",
+        "fecha": "2026-01-05",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 15096-09"
+      },
+      {
+        "votacion_id": "87065",
+        "boletin": "17251-14",
+        "fecha": "2026-01-05",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17251-14"
+      },
+      {
+        "votacion_id": "87066",
+        "boletin": "17251-14",
+        "fecha": "2026-01-05",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17251-14"
+      },
+      {
+        "votacion_id": "87067",
+        "boletin": "17251-14",
+        "fecha": "2026-01-05",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17251-14"
+      },
+      {
+        "votacion_id": "87074",
+        "boletin": null,
+        "fecha": "2026-01-06",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "87077",
+        "boletin": null,
+        "fecha": "2026-01-06",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1585"
+      },
+      {
+        "votacion_id": "87078",
+        "boletin": null,
+        "fecha": "2026-01-06",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1586"
+      },
+      {
+        "votacion_id": "87079",
+        "boletin": null,
+        "fecha": "2026-01-06",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1587"
+      },
+      {
+        "votacion_id": "87080",
+        "boletin": null,
+        "fecha": "2026-01-06",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1588"
+      },
+      {
+        "votacion_id": "87081",
+        "boletin": null,
+        "fecha": "2026-01-06",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1589"
+      },
+      {
+        "votacion_id": "87082",
+        "boletin": null,
+        "fecha": "2026-01-06",
+        "resultado": "Aprobado",
+        "sentido": "abstencion",
+        "descripcion": "Proyecto de Resolución N° 1590"
+      },
+      {
+        "votacion_id": "87083",
+        "boletin": null,
+        "fecha": "2026-01-06",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1591"
+      },
+      {
+        "votacion_id": "87084",
+        "boletin": null,
+        "fecha": "2026-01-06",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1592"
+      },
+      {
+        "votacion_id": "87085",
+        "boletin": null,
+        "fecha": "2026-01-06",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1593"
+      },
+      {
+        "votacion_id": "87086",
+        "boletin": null,
+        "fecha": "2026-01-06",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1594"
+      },
+      {
+        "votacion_id": "87087",
+        "boletin": "17961-10",
+        "fecha": "2026-01-06",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17961-10"
+      },
+      {
+        "votacion_id": "87088",
+        "boletin": "16705-04",
+        "fecha": "2026-01-06",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16705-04"
+      },
+      {
+        "votacion_id": "87089",
+        "boletin": "16705-04",
+        "fecha": "2026-01-06",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16705-04"
+      },
+      {
+        "votacion_id": "87090",
+        "boletin": "16705-04",
+        "fecha": "2026-01-06",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16705-04"
+      },
+      {
+        "votacion_id": "87091",
+        "boletin": "16705-04",
+        "fecha": "2026-01-06",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16705-04"
+      },
+      {
+        "votacion_id": "87092",
+        "boletin": "16705-04",
+        "fecha": "2026-01-06",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16705-04"
+      },
+      {
+        "votacion_id": "87093",
+        "boletin": "16705-04",
+        "fecha": "2026-01-06",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16705-04"
+      },
+      {
+        "votacion_id": "87094",
+        "boletin": "16705-04",
+        "fecha": "2026-01-06",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16705-04"
+      },
+      {
+        "votacion_id": "87095",
+        "boletin": "16703-25",
+        "fecha": "2026-01-06",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16703-25"
+      },
+      {
+        "votacion_id": "87096",
+        "boletin": "16703-25",
+        "fecha": "2026-01-06",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16703-25"
+      },
+      {
+        "votacion_id": "87120",
+        "boletin": null,
+        "fecha": "2026-01-07",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "87122",
+        "boletin": null,
+        "fecha": "2026-01-07",
+        "resultado": "Rechazado",
+        "sentido": "abstencion",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "87123",
+        "boletin": null,
+        "fecha": "2026-01-07",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "87133",
+        "boletin": null,
+        "fecha": "2026-01-07",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1595"
+      },
+      {
+        "votacion_id": "87134",
+        "boletin": null,
+        "fecha": "2026-01-07",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1596"
+      },
+      {
+        "votacion_id": "87135",
+        "boletin": null,
+        "fecha": "2026-01-07",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1597"
+      },
+      {
+        "votacion_id": "87136",
+        "boletin": null,
+        "fecha": "2026-01-07",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1598"
+      },
+      {
+        "votacion_id": "87137",
+        "boletin": "17959-10",
+        "fecha": "2026-01-07",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17959-10"
+      },
+      {
+        "votacion_id": "87138",
+        "boletin": "16767-06",
+        "fecha": "2026-01-07",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16767-06"
+      },
+      {
+        "votacion_id": "87139",
+        "boletin": "17960-10",
+        "fecha": "2026-01-07",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17960-10"
+      },
+      {
+        "votacion_id": "87140",
+        "boletin": "15630-07",
+        "fecha": "2026-01-07",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 15630-07"
+      },
+      {
+        "votacion_id": "87141",
+        "boletin": "15630-07",
+        "fecha": "2026-01-07",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 15630-07"
+      },
+      {
+        "votacion_id": "87142",
+        "boletin": "17044-02",
+        "fecha": "2026-01-07",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17044-02"
+      },
+      {
+        "votacion_id": "87174",
+        "boletin": null,
+        "fecha": "2026-01-12",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1690"
+      },
+      {
+        "votacion_id": "87175",
+        "boletin": null,
+        "fecha": "2026-01-12",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1691"
+      },
+      {
+        "votacion_id": "87176",
+        "boletin": null,
+        "fecha": "2026-01-12",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1692"
+      },
+      {
+        "votacion_id": "87177",
+        "boletin": null,
+        "fecha": "2026-01-12",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1693"
+      },
+      {
+        "votacion_id": "87185",
+        "boletin": null,
+        "fecha": "2026-01-12",
+        "resultado": "Aprobado",
+        "sentido": "abstencion",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "87188",
+        "boletin": "16905-31",
+        "fecha": "2026-01-12",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16905-31"
+      },
+      {
+        "votacion_id": "87189",
+        "boletin": "16631-07",
+        "fecha": "2026-01-12",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16631-07"
+      },
+      {
+        "votacion_id": "87190",
+        "boletin": "17629-10",
+        "fecha": "2026-01-12",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17629-10"
+      },
+      {
+        "votacion_id": "87191",
+        "boletin": "17329-09",
+        "fecha": "2026-01-12",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17329-09"
+      },
+      {
+        "votacion_id": "87197",
+        "boletin": null,
+        "fecha": "2026-01-13",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "87206",
+        "boletin": null,
+        "fecha": "2026-01-13",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1599"
+      },
+      {
+        "votacion_id": "87207",
+        "boletin": null,
+        "fecha": "2026-01-13",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1600"
+      },
+      {
+        "votacion_id": "87208",
+        "boletin": null,
+        "fecha": "2026-01-13",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1601"
+      },
+      {
+        "votacion_id": "87209",
+        "boletin": null,
+        "fecha": "2026-01-13",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1602"
+      },
+      {
+        "votacion_id": "87210",
+        "boletin": null,
+        "fecha": "2026-01-13",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1603"
+      },
+      {
+        "votacion_id": "87211",
+        "boletin": null,
+        "fecha": "2026-01-13",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "87212",
+        "boletin": "17702-15",
+        "fecha": "2026-01-13",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17702-15"
+      },
+      {
+        "votacion_id": "87213",
+        "boletin": "14876-14",
+        "fecha": "2026-01-13",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 14876-14"
+      },
+      {
+        "votacion_id": "87234",
+        "boletin": null,
+        "fecha": "2026-01-14",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "87235",
+        "boletin": null,
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "87243",
+        "boletin": "17722-10",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17722-10"
+      },
+      {
+        "votacion_id": "87244",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87245",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87246",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87247",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87248",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87249",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87250",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87251",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87252",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87253",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87254",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87255",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87256",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87257",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87258",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87259",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87260",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87261",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87262",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87263",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87264",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87265",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87266",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87267",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87268",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87269",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87270",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87271",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87272",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87273",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87274",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87275",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87276",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87277",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87278",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87279",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87280",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87281",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87282",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87283",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87284",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87285",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87286",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87287",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87288",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87289",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87290",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87291",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87292",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87293",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87294",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87295",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87296",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87297",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87298",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87299",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87300",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87301",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Rechazado",
+        "sentido": "abstencion",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87302",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87303",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87304",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87305",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87306",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87307",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87308",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87309",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87310",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87311",
+        "boletin": "18036-05",
+        "fecha": "2026-01-14",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87347",
+        "boletin": null,
+        "fecha": "2026-01-19",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "87348",
+        "boletin": "17924-10",
+        "fecha": "2026-01-19",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17924-10"
+      },
+      {
+        "votacion_id": "87350",
+        "boletin": "18032-07",
+        "fecha": "2026-01-19",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18032-07"
+      },
+      {
+        "votacion_id": "87351",
+        "boletin": "18032-07",
+        "fecha": "2026-01-19",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18032-07"
+      },
+      {
+        "votacion_id": "87352",
+        "boletin": "18032-07",
+        "fecha": "2026-01-19",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18032-07"
+      },
+      {
+        "votacion_id": "87353",
+        "boletin": "18032-07",
+        "fecha": "2026-01-19",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18032-07"
+      },
+      {
+        "votacion_id": "87369",
+        "boletin": null,
+        "fecha": "2026-01-20",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "87375",
+        "boletin": null,
+        "fecha": "2026-01-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1604"
+      },
+      {
+        "votacion_id": "87376",
+        "boletin": null,
+        "fecha": "2026-01-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1605"
+      },
+      {
+        "votacion_id": "87377",
+        "boletin": null,
+        "fecha": "2026-01-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1606"
+      },
+      {
+        "votacion_id": "87378",
+        "boletin": null,
+        "fecha": "2026-01-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1607"
+      },
+      {
+        "votacion_id": "87379",
+        "boletin": "16781-04",
+        "fecha": "2026-01-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16781-04"
+      },
+      {
+        "votacion_id": "87380",
+        "boletin": "16781-04",
+        "fecha": "2026-01-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16781-04"
+      },
+      {
+        "votacion_id": "87381",
+        "boletin": "16781-04",
+        "fecha": "2026-01-20",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16781-04"
+      },
+      {
+        "votacion_id": "87382",
+        "boletin": "16781-04",
+        "fecha": "2026-01-20",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16781-04"
+      },
+      {
+        "votacion_id": "87383",
+        "boletin": "16781-04",
+        "fecha": "2026-01-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16781-04"
+      },
+      {
+        "votacion_id": "87384",
+        "boletin": "16781-04",
+        "fecha": "2026-01-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16781-04"
+      },
+      {
+        "votacion_id": "87385",
+        "boletin": "16781-04",
+        "fecha": "2026-01-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16781-04"
+      },
+      {
+        "votacion_id": "87386",
+        "boletin": "16781-04",
+        "fecha": "2026-01-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16781-04"
+      },
+      {
+        "votacion_id": "87387",
+        "boletin": "16781-04",
+        "fecha": "2026-01-20",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16781-04"
+      },
+      {
+        "votacion_id": "87388",
+        "boletin": "16781-04",
+        "fecha": "2026-01-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16781-04"
+      },
+      {
+        "votacion_id": "87389",
+        "boletin": "16781-04",
+        "fecha": "2026-01-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16781-04"
+      },
+      {
+        "votacion_id": "87390",
+        "boletin": "16781-04",
+        "fecha": "2026-01-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16781-04"
+      },
+      {
+        "votacion_id": "87391",
+        "boletin": "16781-04",
+        "fecha": "2026-01-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16781-04"
+      },
+      {
+        "votacion_id": "87392",
+        "boletin": "16781-04",
+        "fecha": "2026-01-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16781-04"
+      },
+      {
+        "votacion_id": "87393",
+        "boletin": "16781-04",
+        "fecha": "2026-01-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16781-04"
+      },
+      {
+        "votacion_id": "87394",
+        "boletin": "16781-04",
+        "fecha": "2026-01-20",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16781-04"
+      },
+      {
+        "votacion_id": "87395",
+        "boletin": "16781-04",
+        "fecha": "2026-01-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16781-04"
+      },
+      {
+        "votacion_id": "87396",
+        "boletin": "16781-04",
+        "fecha": "2026-01-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16781-04"
+      },
+      {
+        "votacion_id": "87397",
+        "boletin": "16781-04",
+        "fecha": "2026-01-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16781-04"
+      },
+      {
+        "votacion_id": "87398",
+        "boletin": "16781-04",
+        "fecha": "2026-01-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16781-04"
+      },
+      {
+        "votacion_id": "87399",
+        "boletin": "16781-04",
+        "fecha": "2026-01-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16781-04"
+      },
+      {
+        "votacion_id": "87400",
+        "boletin": "16781-04",
+        "fecha": "2026-01-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16781-04"
+      },
+      {
+        "votacion_id": "87401",
+        "boletin": "16781-04",
+        "fecha": "2026-01-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16781-04"
+      },
+      {
+        "votacion_id": "87402",
+        "boletin": "16781-04",
+        "fecha": "2026-01-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16781-04"
+      },
+      {
+        "votacion_id": "87403",
+        "boletin": "16781-04",
+        "fecha": "2026-01-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16781-04"
+      },
+      {
+        "votacion_id": "87404",
+        "boletin": "16781-04",
+        "fecha": "2026-01-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16781-04"
+      },
+      {
+        "votacion_id": "87405",
+        "boletin": "16781-04",
+        "fecha": "2026-01-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16781-04"
+      },
+      {
+        "votacion_id": "87406",
+        "boletin": "16781-04",
+        "fecha": "2026-01-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16781-04"
+      },
+      {
+        "votacion_id": "87407",
+        "boletin": "16781-04",
+        "fecha": "2026-01-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16781-04"
+      },
+      {
+        "votacion_id": "87408",
+        "boletin": "16781-04",
+        "fecha": "2026-01-20",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16781-04"
+      },
+      {
+        "votacion_id": "87409",
+        "boletin": "16781-04",
+        "fecha": "2026-01-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16781-04"
+      },
+      {
+        "votacion_id": "87410",
+        "boletin": "16781-04",
+        "fecha": "2026-01-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16781-04"
+      },
+      {
+        "votacion_id": "87411",
+        "boletin": "16781-04",
+        "fecha": "2026-01-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16781-04"
+      },
+      {
+        "votacion_id": "87412",
+        "boletin": "16781-04",
+        "fecha": "2026-01-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16781-04"
+      },
+      {
+        "votacion_id": "87413",
+        "boletin": "16781-04",
+        "fecha": "2026-01-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16781-04"
+      },
+      {
+        "votacion_id": "87414",
+        "boletin": "16781-04",
+        "fecha": "2026-01-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16781-04"
+      },
+      {
+        "votacion_id": "87415",
+        "boletin": "16781-04",
+        "fecha": "2026-01-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16781-04"
+      },
+      {
+        "votacion_id": "87417",
+        "boletin": null,
+        "fecha": "2026-01-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "87418",
+        "boletin": "17295-04",
+        "fecha": "2026-01-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17295-04"
+      },
+      {
+        "votacion_id": "87419",
+        "boletin": "17295-04",
+        "fecha": "2026-01-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17295-04"
+      },
+      {
+        "votacion_id": "87420",
+        "boletin": "17295-04",
+        "fecha": "2026-01-20",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17295-04"
+      },
+      {
+        "votacion_id": "87421",
+        "boletin": "17295-04",
+        "fecha": "2026-01-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17295-04"
+      },
+      {
+        "votacion_id": "87422",
+        "boletin": "17295-04",
+        "fecha": "2026-01-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17295-04"
+      },
+      {
+        "votacion_id": "87423",
+        "boletin": "16895-13",
+        "fecha": "2026-01-20",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 16895-13"
+      },
+      {
+        "votacion_id": "87424",
+        "boletin": "16895-13",
+        "fecha": "2026-01-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16895-13"
+      },
+      {
+        "votacion_id": "87445",
+        "boletin": null,
+        "fecha": "2026-01-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1608"
+      },
+      {
+        "votacion_id": "87446",
+        "boletin": null,
+        "fecha": "2026-01-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1609"
+      },
+      {
+        "votacion_id": "87447",
+        "boletin": null,
+        "fecha": "2026-01-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1611"
+      },
+      {
+        "votacion_id": "87448",
+        "boletin": null,
+        "fecha": "2026-01-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1612"
+      },
+      {
+        "votacion_id": "87449",
+        "boletin": null,
+        "fecha": "2026-01-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1613"
+      },
+      {
+        "votacion_id": "87450",
+        "boletin": null,
+        "fecha": "2026-01-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1614"
+      },
+      {
+        "votacion_id": "87451",
+        "boletin": null,
+        "fecha": "2026-01-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1615"
+      },
+      {
+        "votacion_id": "87452",
+        "boletin": null,
+        "fecha": "2026-01-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1616"
+      },
+      {
+        "votacion_id": "87453",
+        "boletin": null,
+        "fecha": "2026-01-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1617"
+      },
+      {
+        "votacion_id": "87454",
+        "boletin": null,
+        "fecha": "2026-01-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1618"
+      },
+      {
+        "votacion_id": "87455",
+        "boletin": "18036-05",
+        "fecha": "2026-01-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87456",
+        "boletin": "18036-05",
+        "fecha": "2026-01-21",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87457",
+        "boletin": "18036-05",
+        "fecha": "2026-01-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87458",
+        "boletin": "18036-05",
+        "fecha": "2026-01-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87459",
+        "boletin": "18036-05",
+        "fecha": "2026-01-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87460",
+        "boletin": "18036-05",
+        "fecha": "2026-01-21",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18036-05"
+      },
+      {
+        "votacion_id": "87461",
+        "boletin": "15351-07",
+        "fecha": "2026-01-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 15351-07"
+      },
+      {
+        "votacion_id": "87462",
+        "boletin": "15351-07",
+        "fecha": "2026-01-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 15351-07"
+      },
+      {
+        "votacion_id": "87463",
+        "boletin": "15351-07",
+        "fecha": "2026-01-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 15351-07"
+      },
+      {
+        "votacion_id": "87464",
+        "boletin": "15351-07",
+        "fecha": "2026-01-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 15351-07"
+      },
+      {
+        "votacion_id": "87465",
+        "boletin": "17933-05",
+        "fecha": "2026-01-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17933-05"
+      },
+      {
+        "votacion_id": "87466",
+        "boletin": "17933-05",
+        "fecha": "2026-01-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17933-05"
+      },
+      {
+        "votacion_id": "87467",
+        "boletin": "17933-05",
+        "fecha": "2026-01-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17933-05"
+      },
+      {
+        "votacion_id": "87468",
+        "boletin": "17933-05",
+        "fecha": "2026-01-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17933-05"
+      },
+      {
+        "votacion_id": "87469",
+        "boletin": "17933-05",
+        "fecha": "2026-01-21",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17933-05"
+      },
+      {
+        "votacion_id": "87507",
+        "boletin": null,
+        "fecha": "2026-01-26",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "2-Acusacion Constitucional"
+      },
+      {
+        "votacion_id": "87518",
+        "boletin": null,
+        "fecha": "2026-01-26",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "87519",
+        "boletin": "16781-04",
+        "fecha": "2026-01-26",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16781-04"
+      },
+      {
+        "votacion_id": "87520",
+        "boletin": "17117-03",
+        "fecha": "2026-01-26",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17117-03"
+      },
+      {
+        "votacion_id": "87521",
+        "boletin": "17117-03",
+        "fecha": "2026-01-26",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17117-03"
+      },
+      {
+        "votacion_id": "87522",
+        "boletin": "17117-03",
+        "fecha": "2026-01-26",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17117-03"
+      },
+      {
+        "votacion_id": "87523",
+        "boletin": "17117-03",
+        "fecha": "2026-01-26",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17117-03"
+      },
+      {
+        "votacion_id": "87524",
+        "boletin": "17117-03",
+        "fecha": "2026-01-26",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17117-03"
+      },
+      {
+        "votacion_id": "87525",
+        "boletin": "17923-10",
+        "fecha": "2026-01-26",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17923-10"
+      },
+      {
+        "votacion_id": "87540",
+        "boletin": null,
+        "fecha": "2026-01-27",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "87546",
+        "boletin": null,
+        "fecha": "2026-01-27",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "87547",
+        "boletin": null,
+        "fecha": "2026-01-27",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Acuerdo N° 52"
+      },
+      {
+        "votacion_id": "87548",
+        "boletin": null,
+        "fecha": "2026-01-27",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1619"
+      },
+      {
+        "votacion_id": "87549",
+        "boletin": null,
+        "fecha": "2026-01-27",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1620"
+      },
+      {
+        "votacion_id": "87550",
+        "boletin": null,
+        "fecha": "2026-01-27",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "87551",
+        "boletin": null,
+        "fecha": "2026-01-27",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "87552",
+        "boletin": "16374-07",
+        "fecha": "2026-01-27",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16374-07"
+      },
+      {
+        "votacion_id": "87553",
+        "boletin": "11608-09",
+        "fecha": "2026-01-27",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 11608-09"
+      },
+      {
+        "votacion_id": "87554",
+        "boletin": "11608-09",
+        "fecha": "2026-01-27",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 11608-09"
+      },
+      {
+        "votacion_id": "87555",
+        "boletin": "11608-09",
+        "fecha": "2026-01-27",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 11608-09"
+      },
+      {
+        "votacion_id": "87556",
+        "boletin": "11608-09",
+        "fecha": "2026-01-27",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 11608-09"
+      },
+      {
+        "votacion_id": "87575",
+        "boletin": null,
+        "fecha": "2026-01-28",
+        "resultado": "Aprobado",
+        "sentido": "abstencion",
+        "descripcion": "2-Acusacion Constitucional"
+      },
+      {
+        "votacion_id": "87579",
+        "boletin": null,
+        "fecha": "2026-01-28",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "87581",
+        "boletin": null,
+        "fecha": "2026-01-28",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Acuerdo N° 53"
+      },
+      {
+        "votacion_id": "87582",
+        "boletin": null,
+        "fecha": "2026-01-28",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1621"
+      },
+      {
+        "votacion_id": "87583",
+        "boletin": null,
+        "fecha": "2026-01-28",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1623"
+      },
+      {
+        "votacion_id": "87584",
+        "boletin": "12234-02",
+        "fecha": "2026-01-28",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 12234-02"
+      },
+      {
+        "votacion_id": "87585",
+        "boletin": "17567-11",
+        "fecha": "2026-01-28",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17567-11"
+      },
+      {
+        "votacion_id": "87586",
+        "boletin": "16705-04",
+        "fecha": "2026-01-28",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16705-04"
+      },
+      {
+        "votacion_id": "87587",
+        "boletin": "17489-04",
+        "fecha": "2026-01-28",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17489-04"
+      },
+      {
+        "votacion_id": "87588",
+        "boletin": "17489-04",
+        "fecha": "2026-01-28",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17489-04"
+      },
+      {
+        "votacion_id": "87589",
+        "boletin": "17903-03",
+        "fecha": "2026-01-28",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17903-03"
+      },
+      {
+        "votacion_id": "87590",
+        "boletin": "10795-33",
+        "fecha": "2026-01-28",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 10795-33"
+      },
+      {
+        "votacion_id": "87591",
+        "boletin": "10795-33",
+        "fecha": "2026-01-28",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 10795-33"
+      },
+      {
+        "votacion_id": "87661",
+        "boletin": null,
+        "fecha": "2026-03-02",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "87662",
+        "boletin": "17641-13",
+        "fecha": "2026-03-02",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17641-13"
+      },
+      {
+        "votacion_id": "87663",
+        "boletin": "17641-13",
+        "fecha": "2026-03-02",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17641-13"
+      },
+      {
+        "votacion_id": "87664",
+        "boletin": "17641-13",
+        "fecha": "2026-03-02",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17641-13"
+      },
+      {
+        "votacion_id": "87665",
+        "boletin": "17641-13",
+        "fecha": "2026-03-02",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17641-13"
+      },
+      {
+        "votacion_id": "87666",
+        "boletin": "17641-13",
+        "fecha": "2026-03-02",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17641-13"
+      },
+      {
+        "votacion_id": "87667",
+        "boletin": "17641-13",
+        "fecha": "2026-03-02",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17641-13"
+      },
+      {
+        "votacion_id": "87668",
+        "boletin": "17641-13",
+        "fecha": "2026-03-02",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17641-13"
+      },
+      {
+        "votacion_id": "87682",
+        "boletin": null,
+        "fecha": "2026-03-03",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1624"
+      },
+      {
+        "votacion_id": "87683",
+        "boletin": null,
+        "fecha": "2026-03-03",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1625"
+      },
+      {
+        "votacion_id": "87684",
+        "boletin": null,
+        "fecha": "2026-03-03",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Proyecto de Resolución N° 1626"
+      },
+      {
+        "votacion_id": "87685",
+        "boletin": null,
+        "fecha": "2026-03-03",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1627"
+      },
+      {
+        "votacion_id": "87686",
+        "boletin": null,
+        "fecha": "2026-03-03",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1628"
+      },
+      {
+        "votacion_id": "87687",
+        "boletin": null,
+        "fecha": "2026-03-03",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Proyecto de Resolución N° 1629"
+      },
+      {
+        "votacion_id": "87688",
+        "boletin": "16335-14",
+        "fecha": "2026-03-03",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16335-14"
+      },
+      {
+        "votacion_id": "87689",
+        "boletin": "16335-14",
+        "fecha": "2026-03-03",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16335-14"
+      },
+      {
+        "votacion_id": "87690",
+        "boletin": "16335-14",
+        "fecha": "2026-03-03",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16335-14"
+      },
+      {
+        "votacion_id": "87691",
+        "boletin": "16335-14",
+        "fecha": "2026-03-03",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16335-14"
+      },
+      {
+        "votacion_id": "87692",
+        "boletin": "16335-14",
+        "fecha": "2026-03-03",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16335-14"
+      },
+      {
+        "votacion_id": "87693",
+        "boletin": "16335-14",
+        "fecha": "2026-03-03",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16335-14"
+      },
+      {
+        "votacion_id": "87694",
+        "boletin": "16335-14",
+        "fecha": "2026-03-03",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16335-14"
+      },
+      {
+        "votacion_id": "87695",
+        "boletin": "16335-14",
+        "fecha": "2026-03-03",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16335-14"
+      },
+      {
+        "votacion_id": "87696",
+        "boletin": "16335-14",
+        "fecha": "2026-03-03",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16335-14"
+      },
+      {
+        "votacion_id": "87697",
+        "boletin": "16335-14",
+        "fecha": "2026-03-03",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16335-14"
+      },
+      {
+        "votacion_id": "87698",
+        "boletin": "17839-17",
+        "fecha": "2026-03-03",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17839-17"
+      },
+      {
+        "votacion_id": "87699",
+        "boletin": "16853-15",
+        "fecha": "2026-03-03",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16853-15"
+      },
+      {
+        "votacion_id": "87716",
+        "boletin": null,
+        "fecha": "2026-03-04",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1630"
+      },
+      {
+        "votacion_id": "87717",
+        "boletin": null,
+        "fecha": "2026-03-04",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1632"
+      },
+      {
+        "votacion_id": "87718",
+        "boletin": null,
+        "fecha": "2026-03-04",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1633"
+      },
+      {
+        "votacion_id": "87719",
+        "boletin": null,
+        "fecha": "2026-03-04",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1634"
+      },
+      {
+        "votacion_id": "87720",
+        "boletin": null,
+        "fecha": "2026-03-04",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1635"
+      },
+      {
+        "votacion_id": "87721",
+        "boletin": null,
+        "fecha": "2026-03-04",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1636"
+      },
+      {
+        "votacion_id": "87722",
+        "boletin": null,
+        "fecha": "2026-03-04",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1637"
+      },
+      {
+        "votacion_id": "87723",
+        "boletin": null,
+        "fecha": "2026-03-04",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1639"
+      },
+      {
+        "votacion_id": "87724",
+        "boletin": null,
+        "fecha": "2026-03-04",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1640"
+      },
+      {
+        "votacion_id": "87725",
+        "boletin": null,
+        "fecha": "2026-03-04",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1641"
+      },
+      {
+        "votacion_id": "87726",
+        "boletin": "17640-06",
+        "fecha": "2026-03-04",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17640-06"
+      },
+      {
+        "votacion_id": "87727",
+        "boletin": "17640-06",
+        "fecha": "2026-03-04",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 17640-06"
+      },
+      {
+        "votacion_id": "87728",
+        "boletin": "17640-06",
+        "fecha": "2026-03-04",
+        "resultado": "Aprobado",
+        "sentido": "abstencion",
+        "descripcion": "Boletín N° 17640-06"
+      },
+      {
+        "votacion_id": "87729",
+        "boletin": "17640-06",
+        "fecha": "2026-03-04",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17640-06"
+      },
+      {
+        "votacion_id": "87730",
+        "boletin": "17640-06",
+        "fecha": "2026-03-04",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17640-06"
+      },
+      {
+        "votacion_id": "87731",
+        "boletin": "17640-06",
+        "fecha": "2026-03-04",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17640-06"
+      },
+      {
+        "votacion_id": "87732",
+        "boletin": "17640-06",
+        "fecha": "2026-03-04",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 17640-06"
+      },
+      {
+        "votacion_id": "87733",
+        "boletin": "17640-06",
+        "fecha": "2026-03-04",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17640-06"
+      },
+      {
+        "votacion_id": "87735",
+        "boletin": "17640-06",
+        "fecha": "2026-03-04",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17640-06"
+      },
+      {
+        "votacion_id": "87736",
+        "boletin": "17640-06",
+        "fecha": "2026-03-04",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 17640-06"
+      },
+      {
+        "votacion_id": "87737",
+        "boletin": "17640-06",
+        "fecha": "2026-03-04",
+        "resultado": "Aprobado",
+        "sentido": "abstencion",
+        "descripcion": "Boletín N° 17640-06"
+      },
+      {
+        "votacion_id": "87738",
+        "boletin": "17640-06",
+        "fecha": "2026-03-04",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 17640-06"
+      },
+      {
+        "votacion_id": "87739",
+        "boletin": "18031-24",
+        "fecha": "2026-03-04",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18031-24"
+      },
+      {
+        "votacion_id": "87740",
+        "boletin": "18031-24",
+        "fecha": "2026-03-04",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18031-24"
+      },
+      {
+        "votacion_id": "87752",
+        "boletin": null,
+        "fecha": "2026-03-04",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "2-Acusacion Constitucional"
+      },
+      {
+        "votacion_id": "87753",
+        "boletin": "17095-17",
+        "fecha": "2026-03-04",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 17095-17"
+      },
+      {
+        "votacion_id": "87754",
+        "boletin": "16481-25",
+        "fecha": "2026-03-04",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16481-25"
+      },
+      {
+        "votacion_id": "87755",
+        "boletin": null,
+        "fecha": "2026-03-04",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "87756",
+        "boletin": null,
+        "fecha": "2026-03-04",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "87782",
+        "boletin": "15975-25",
+        "fecha": "2026-03-05",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 15975-25"
+      },
+      {
+        "votacion_id": "87783",
+        "boletin": "15975-25",
+        "fecha": "2026-03-05",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 15975-25"
+      },
+      {
+        "votacion_id": "87784",
+        "boletin": "15975-25",
+        "fecha": "2026-03-05",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 15975-25"
+      },
+      {
+        "votacion_id": "87785",
+        "boletin": "15975-25",
+        "fecha": "2026-03-05",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 15975-25"
+      },
+      {
+        "votacion_id": "87786",
+        "boletin": "15975-25",
+        "fecha": "2026-03-05",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 15975-25"
+      },
+      {
+        "votacion_id": "87787",
+        "boletin": "15975-25",
+        "fecha": "2026-03-05",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 15975-25"
+      },
+      {
+        "votacion_id": "87788",
+        "boletin": "15975-25",
+        "fecha": "2026-03-05",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 15975-25"
+      },
+      {
+        "votacion_id": "87789",
+        "boletin": "15975-25",
+        "fecha": "2026-03-05",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 15975-25"
+      },
+      {
+        "votacion_id": "87790",
+        "boletin": "15975-25",
+        "fecha": "2026-03-05",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 15975-25"
+      },
+      {
+        "votacion_id": "87791",
+        "boletin": "17675-25",
+        "fecha": "2026-03-05",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17675-25"
+      },
+      {
+        "votacion_id": "87792",
+        "boletin": "17675-25",
+        "fecha": "2026-03-05",
+        "resultado": "Rechazado",
+        "sentido": "abstencion",
+        "descripcion": "Boletín N° 17675-25"
+      },
+      {
+        "votacion_id": "87793",
+        "boletin": "17675-25",
+        "fecha": "2026-03-05",
+        "resultado": "Aprobado",
+        "sentido": "abstencion",
+        "descripcion": "Boletín N° 17675-25"
+      },
+      {
+        "votacion_id": "87794",
+        "boletin": "17027-04",
+        "fecha": "2026-03-05",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17027-04"
+      },
+      {
+        "votacion_id": "88294",
+        "boletin": null,
+        "fecha": "2026-03-17",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "88295",
+        "boletin": null,
+        "fecha": "2026-03-17",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "88442",
+        "boletin": "16944-25",
+        "fecha": "2026-03-18",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16944-25"
+      },
+      {
+        "votacion_id": "88448",
+        "boletin": null,
+        "fecha": "2026-03-23",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "88450",
+        "boletin": "15347-07",
+        "fecha": "2026-03-23",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 15347-07"
+      },
+      {
+        "votacion_id": "88451",
+        "boletin": "15347-07",
+        "fecha": "2026-03-23",
+        "resultado": "Aprobado",
+        "sentido": "abstencion",
+        "descripcion": "Boletín N° 15347-07"
+      },
+      {
+        "votacion_id": "88452",
+        "boletin": "15347-07",
+        "fecha": "2026-03-23",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 15347-07"
+      },
+      {
+        "votacion_id": "88453",
+        "boletin": "15347-07",
+        "fecha": "2026-03-23",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 15347-07"
+      },
+      {
+        "votacion_id": "88454",
+        "boletin": "15347-07",
+        "fecha": "2026-03-23",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 15347-07"
+      },
+      {
+        "votacion_id": "88455",
+        "boletin": "15347-07",
+        "fecha": "2026-03-23",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 15347-07"
+      },
+      {
+        "votacion_id": "88456",
+        "boletin": "15347-07",
+        "fecha": "2026-03-23",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 15347-07"
+      },
+      {
+        "votacion_id": "88466",
+        "boletin": null,
+        "fecha": "2026-03-24",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "88470",
+        "boletin": null,
+        "fecha": "2026-03-24",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Acuerdo N° 1"
+      },
+      {
+        "votacion_id": "88471",
+        "boletin": null,
+        "fecha": "2026-03-24",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 1"
+      },
+      {
+        "votacion_id": "88472",
+        "boletin": "17737-14",
+        "fecha": "2026-03-24",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17737-14"
+      },
+      {
+        "votacion_id": "88473",
+        "boletin": null,
+        "fecha": "2026-03-24",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "88474",
+        "boletin": "17474-06",
+        "fecha": "2026-03-24",
+        "resultado": "Aprobado",
+        "sentido": "abstencion",
+        "descripcion": "Boletín N° 17474-06"
+      },
+      {
+        "votacion_id": "88475",
+        "boletin": "17474-06",
+        "fecha": "2026-03-24",
+        "resultado": "Aprobado",
+        "sentido": "abstencion",
+        "descripcion": "Boletín N° 17474-06"
+      },
+      {
+        "votacion_id": "88476",
+        "boletin": "16985-06",
+        "fecha": "2026-03-24",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16985-06"
+      },
+      {
+        "votacion_id": "88477",
+        "boletin": "16487-12",
+        "fecha": "2026-03-24",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16487-12"
+      },
+      {
+        "votacion_id": "88478",
+        "boletin": null,
+        "fecha": "2026-03-24",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "88489",
+        "boletin": "18137-05",
+        "fecha": "2026-03-24",
+        "resultado": "Aprobado",
+        "sentido": "abstencion",
+        "descripcion": "Boletín N° 18137-05"
+      },
+      {
+        "votacion_id": "88490",
+        "boletin": "18137-05",
+        "fecha": "2026-03-24",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18137-05"
+      },
+      {
+        "votacion_id": "88491",
+        "boletin": "18137-05",
+        "fecha": "2026-03-24",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18137-05"
+      },
+      {
+        "votacion_id": "88492",
+        "boletin": "18137-05",
+        "fecha": "2026-03-24",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18137-05"
+      },
+      {
+        "votacion_id": "88493",
+        "boletin": "18137-05",
+        "fecha": "2026-03-24",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18137-05"
+      },
+      {
+        "votacion_id": "88494",
+        "boletin": "18137-05",
+        "fecha": "2026-03-24",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18137-05"
+      },
+      {
+        "votacion_id": "88499",
+        "boletin": null,
+        "fecha": "2026-03-25",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Acuerdo N° 2"
+      },
+      {
+        "votacion_id": "88500",
+        "boletin": "18003-35",
+        "fecha": "2026-03-25",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18003-35"
+      },
+      {
+        "votacion_id": "88501",
+        "boletin": "10634-29",
+        "fecha": "2026-03-25",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 10634-29"
+      },
+      {
+        "votacion_id": "88502",
+        "boletin": "10634-29",
+        "fecha": "2026-03-25",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 10634-29"
+      },
+      {
+        "votacion_id": "88503",
+        "boletin": "10634-29",
+        "fecha": "2026-03-25",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 10634-29"
+      },
+      {
+        "votacion_id": "88504",
+        "boletin": "10634-29",
+        "fecha": "2026-03-25",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 10634-29"
+      },
+      {
+        "votacion_id": "88505",
+        "boletin": "10634-29",
+        "fecha": "2026-03-25",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 10634-29"
+      },
+      {
+        "votacion_id": "88506",
+        "boletin": "10634-29",
+        "fecha": "2026-03-25",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 10634-29"
+      },
+      {
+        "votacion_id": "88507",
+        "boletin": "10634-29",
+        "fecha": "2026-03-25",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 10634-29"
+      },
+      {
+        "votacion_id": "88517",
+        "boletin": "18137-05",
+        "fecha": "2026-03-25",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18137-05"
+      },
+      {
+        "votacion_id": "88518",
+        "boletin": "18137-05",
+        "fecha": "2026-03-25",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18137-05"
+      },
+      {
+        "votacion_id": "88519",
+        "boletin": "18137-05",
+        "fecha": "2026-03-25",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18137-05"
+      },
+      {
+        "votacion_id": "88543",
+        "boletin": null,
+        "fecha": "2026-04-06",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "88544",
+        "boletin": "16569-25",
+        "fecha": "2026-04-06",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 16569-25"
+      },
+      {
+        "votacion_id": "88545",
+        "boletin": "17234-15",
+        "fecha": "2026-04-06",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17234-15"
+      },
+      {
+        "votacion_id": "88558",
+        "boletin": null,
+        "fecha": "2026-04-07",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "2-Acusacion Constitucional"
+      },
+      {
+        "votacion_id": "88559",
+        "boletin": null,
+        "fecha": "2026-04-07",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "88560",
+        "boletin": null,
+        "fecha": "2026-04-07",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "88562",
+        "boletin": null,
+        "fecha": "2026-04-07",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Acuerdo N° 3"
+      },
+      {
+        "votacion_id": "88563",
+        "boletin": null,
+        "fecha": "2026-04-07",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 2"
+      },
+      {
+        "votacion_id": "88564",
+        "boletin": "17504-22",
+        "fecha": "2026-04-07",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17504-22"
+      },
+      {
+        "votacion_id": "88584",
+        "boletin": null,
+        "fecha": "2026-04-08",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "88592",
+        "boletin": null,
+        "fecha": "2026-04-08",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Acuerdo N° 4"
+      },
+      {
+        "votacion_id": "88593",
+        "boletin": null,
+        "fecha": "2026-04-08",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Proyecto de Resolución N° 3"
+      },
+      {
+        "votacion_id": "88594",
+        "boletin": "17246-15",
+        "fecha": "2026-04-08",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17246-15"
+      },
+      {
+        "votacion_id": "88595",
+        "boletin": null,
+        "fecha": "2026-04-08",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "88606",
+        "boletin": null,
+        "fecha": "2026-04-13",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "3-Creacion Comision Investigadora"
+      },
+      {
+        "votacion_id": "88610",
+        "boletin": null,
+        "fecha": "2026-04-13",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "88611",
+        "boletin": "17880-13",
+        "fecha": "2026-04-13",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 17880-13"
+      },
+      {
+        "votacion_id": "88612",
+        "boletin": "17170-07",
+        "fecha": "2026-04-13",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 17170-07"
+      },
+      {
+        "votacion_id": "88613",
+        "boletin": "17170-07",
+        "fecha": "2026-04-13",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 17170-07"
+      },
+      {
+        "votacion_id": "88614",
+        "boletin": "17170-07",
+        "fecha": "2026-04-13",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 17170-07"
+      },
+      {
+        "votacion_id": "88628",
+        "boletin": null,
+        "fecha": "2026-04-14",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Proyecto de Acuerdo N° 5"
+      },
+      {
+        "votacion_id": "88629",
+        "boletin": null,
+        "fecha": "2026-04-14",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Proyecto de Resolución N° 25"
+      },
+      {
+        "votacion_id": "88630",
+        "boletin": null,
+        "fecha": "2026-04-14",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Proyecto de Resolución N° 26"
+      },
+      {
+        "votacion_id": "88631",
+        "boletin": null,
+        "fecha": "2026-04-14",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Proyecto de Resolución N° 31"
+      },
+      {
+        "votacion_id": "88632",
+        "boletin": null,
+        "fecha": "2026-04-14",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Proyecto de Resolución N° 58"
+      },
+      {
+        "votacion_id": "88633",
+        "boletin": "17354-37",
+        "fecha": "2026-04-14",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 17354-37"
+      },
+      {
+        "votacion_id": "88634",
+        "boletin": "17690-07",
+        "fecha": "2026-04-14",
+        "resultado": "Rechazado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 17690-07"
+      },
+      {
+        "votacion_id": "88643",
+        "boletin": null,
+        "fecha": "2026-04-15",
+        "resultado": "Rechazado",
+        "sentido": "no_vota",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "88644",
+        "boletin": null,
+        "fecha": "2026-04-15",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Proyecto de Acuerdo N° 6"
+      },
+      {
+        "votacion_id": "88645",
+        "boletin": null,
+        "fecha": "2026-04-15",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Proyecto de Resolución N° 4"
+      },
+      {
+        "votacion_id": "88646",
+        "boletin": "17757-29",
+        "fecha": "2026-04-15",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 17757-29"
+      },
+      {
+        "votacion_id": "88647",
+        "boletin": "17522-12",
+        "fecha": "2026-04-15",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 17522-12"
+      },
+      {
+        "votacion_id": "88648",
+        "boletin": "17522-12",
+        "fecha": "2026-04-15",
+        "resultado": "Rechazado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 17522-12"
+      },
+      {
+        "votacion_id": "88668",
+        "boletin": null,
+        "fecha": "2026-04-20",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "88669",
+        "boletin": null,
+        "fecha": "2026-04-20",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "88670",
+        "boletin": null,
+        "fecha": "2026-04-20",
+        "resultado": "Rechazado",
+        "sentido": "no_vota",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "88677",
+        "boletin": null,
+        "fecha": "2026-04-21",
+        "resultado": "Rechazado",
+        "sentido": "no_vota",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "88678",
+        "boletin": null,
+        "fecha": "2026-04-21",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "88679",
+        "boletin": "18043-06",
+        "fecha": "2026-04-21",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18043-06"
+      },
+      {
+        "votacion_id": "88680",
+        "boletin": "18156-04",
+        "fecha": "2026-04-21",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18156-04"
+      },
+      {
+        "votacion_id": "88681",
+        "boletin": "18156-04",
+        "fecha": "2026-04-21",
+        "resultado": "Rechazado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18156-04"
+      },
+      {
+        "votacion_id": "88682",
+        "boletin": "18156-04",
+        "fecha": "2026-04-21",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18156-04"
+      },
+      {
+        "votacion_id": "88683",
+        "boletin": "18156-04",
+        "fecha": "2026-04-21",
+        "resultado": "Rechazado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18156-04"
+      },
+      {
+        "votacion_id": "88684",
+        "boletin": "18156-04",
+        "fecha": "2026-04-21",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18156-04"
+      },
+      {
+        "votacion_id": "88685",
+        "boletin": "18156-04",
+        "fecha": "2026-04-21",
+        "resultado": "Rechazado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18156-04"
+      },
+      {
+        "votacion_id": "88686",
+        "boletin": "18156-04",
+        "fecha": "2026-04-21",
+        "resultado": "Rechazado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18156-04"
+      },
+      {
+        "votacion_id": "88687",
+        "boletin": "18156-04",
+        "fecha": "2026-04-21",
+        "resultado": "Rechazado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18156-04"
+      },
+      {
+        "votacion_id": "88688",
+        "boletin": "18156-04",
+        "fecha": "2026-04-21",
+        "resultado": "Rechazado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18156-04"
+      },
+      {
+        "votacion_id": "88689",
+        "boletin": "18156-04",
+        "fecha": "2026-04-21",
+        "resultado": "Rechazado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18156-04"
+      },
+      {
+        "votacion_id": "88690",
+        "boletin": "18156-04",
+        "fecha": "2026-04-21",
+        "resultado": "Rechazado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18156-04"
+      },
+      {
+        "votacion_id": "88691",
+        "boletin": "18156-04",
+        "fecha": "2026-04-21",
+        "resultado": "Rechazado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18156-04"
+      },
+      {
+        "votacion_id": "88692",
+        "boletin": "18156-04",
+        "fecha": "2026-04-21",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18156-04"
+      },
+      {
+        "votacion_id": "88693",
+        "boletin": "18156-04",
+        "fecha": "2026-04-21",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18156-04"
+      },
+      {
+        "votacion_id": "88694",
+        "boletin": "18156-04",
+        "fecha": "2026-04-21",
+        "resultado": "Rechazado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18156-04"
+      },
+      {
+        "votacion_id": "88695",
+        "boletin": "18156-04",
+        "fecha": "2026-04-21",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18156-04"
+      },
+      {
+        "votacion_id": "88696",
+        "boletin": "18156-04",
+        "fecha": "2026-04-21",
+        "resultado": "Rechazado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18156-04"
+      },
+      {
+        "votacion_id": "88697",
+        "boletin": "18156-04",
+        "fecha": "2026-04-21",
+        "resultado": "Rechazado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18156-04"
+      },
+      {
+        "votacion_id": "88698",
+        "boletin": "18156-04",
+        "fecha": "2026-04-21",
+        "resultado": "Rechazado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18156-04"
+      },
+      {
+        "votacion_id": "88699",
+        "boletin": "18156-04",
+        "fecha": "2026-04-21",
+        "resultado": "Rechazado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18156-04"
+      },
+      {
+        "votacion_id": "88700",
+        "boletin": "18156-04",
+        "fecha": "2026-04-21",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18156-04"
+      },
+      {
+        "votacion_id": "88701",
+        "boletin": "18156-04",
+        "fecha": "2026-04-21",
+        "resultado": "Rechazado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18156-04"
+      },
+      {
+        "votacion_id": "88702",
+        "boletin": "18156-04",
+        "fecha": "2026-04-21",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18156-04"
+      },
+      {
+        "votacion_id": "88703",
+        "boletin": "18156-04",
+        "fecha": "2026-04-21",
+        "resultado": "Rechazado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18156-04"
+      },
+      {
+        "votacion_id": "88704",
+        "boletin": "18156-04",
+        "fecha": "2026-04-21",
+        "resultado": "Rechazado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18156-04"
+      },
+      {
+        "votacion_id": "88705",
+        "boletin": "18156-04",
+        "fecha": "2026-04-21",
+        "resultado": "Rechazado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18156-04"
+      },
+      {
+        "votacion_id": "88706",
+        "boletin": "18156-04",
+        "fecha": "2026-04-21",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18156-04"
+      },
+      {
+        "votacion_id": "88707",
+        "boletin": "18156-04",
+        "fecha": "2026-04-21",
+        "resultado": "Rechazado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18156-04"
+      },
+      {
+        "votacion_id": "88712",
+        "boletin": null,
+        "fecha": "2026-04-22",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "2-Acusacion Constitucional"
+      },
+      {
+        "votacion_id": "88713",
+        "boletin": null,
+        "fecha": "2026-04-22",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "3-Creacion Comision Investigadora"
+      },
+      {
+        "votacion_id": "88716",
+        "boletin": null,
+        "fecha": "2026-04-22",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Acuerdo N° 7"
+      },
+      {
+        "votacion_id": "88717",
+        "boletin": null,
+        "fecha": "2026-04-22",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Proyecto de Resolución N° 5"
+      },
+      {
+        "votacion_id": "88718",
+        "boletin": "17235-07",
+        "fecha": "2026-04-22",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17235-07"
+      },
+      {
+        "votacion_id": "88730",
+        "boletin": null,
+        "fecha": "2026-05-04",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "88731",
+        "boletin": null,
+        "fecha": "2026-05-04",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "88736",
+        "boletin": null,
+        "fecha": "2026-05-04",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "88737",
+        "boletin": null,
+        "fecha": "2026-05-04",
+        "resultado": "Rechazado",
+        "sentido": "no_vota",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "88738",
+        "boletin": "16851-14",
+        "fecha": "2026-05-04",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16851-14"
+      },
+      {
+        "votacion_id": "88752",
+        "boletin": null,
+        "fecha": "2026-05-05",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Acuerdo N° 8"
+      },
+      {
+        "votacion_id": "88753",
+        "boletin": null,
+        "fecha": "2026-05-05",
+        "resultado": "Aprobado",
+        "sentido": "abstencion",
+        "descripcion": "Proyecto de Resolución N° 6"
+      },
+      {
+        "votacion_id": "88754",
+        "boletin": "17724-34",
+        "fecha": "2026-05-05",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17724-34"
+      },
+      {
+        "votacion_id": "88755",
+        "boletin": "18016-13",
+        "fecha": "2026-05-05",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18016-13"
+      },
+      {
+        "votacion_id": "88756",
+        "boletin": "17381-03",
+        "fecha": "2026-05-05",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17381-03"
+      },
+      {
+        "votacion_id": "88757",
+        "boletin": "17381-03",
+        "fecha": "2026-05-05",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17381-03"
+      },
+      {
+        "votacion_id": "88758",
+        "boletin": "17471-07",
+        "fecha": "2026-05-05",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 17471-07"
+      },
+      {
+        "votacion_id": "88759",
+        "boletin": "17872-33",
+        "fecha": "2026-05-05",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17872-33"
+      },
+      {
+        "votacion_id": "88760",
+        "boletin": "17872-33",
+        "fecha": "2026-05-05",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17872-33"
+      },
+      {
+        "votacion_id": "88761",
+        "boletin": "17405-07",
+        "fecha": "2026-05-05",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 17405-07"
+      },
+      {
+        "votacion_id": "88774",
+        "boletin": null,
+        "fecha": "2026-05-05",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 93"
+      },
+      {
+        "votacion_id": "88775",
+        "boletin": null,
+        "fecha": "2026-05-05",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 94"
+      },
+      {
+        "votacion_id": "88776",
+        "boletin": null,
+        "fecha": "2026-05-05",
+        "resultado": "Aprobado",
+        "sentido": "abstencion",
+        "descripcion": "Proyecto de Resolución N° 95"
+      },
+      {
+        "votacion_id": "88777",
+        "boletin": null,
+        "fecha": "2026-05-05",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 96"
+      },
+      {
+        "votacion_id": "88779",
+        "boletin": null,
+        "fecha": "2026-05-05",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 97"
+      },
+      {
+        "votacion_id": "88780",
+        "boletin": null,
+        "fecha": "2026-05-05",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 98"
+      },
+      {
+        "votacion_id": "88781",
+        "boletin": null,
+        "fecha": "2026-05-05",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 99"
+      },
+      {
+        "votacion_id": "88782",
+        "boletin": null,
+        "fecha": "2026-05-05",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 100"
+      },
+      {
+        "votacion_id": "88783",
+        "boletin": null,
+        "fecha": "2026-05-05",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "Proyecto de Resolución N° 101"
+      },
+      {
+        "votacion_id": "88787",
+        "boletin": null,
+        "fecha": "2026-05-06",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "2-Acusacion Constitucional"
+      },
+      {
+        "votacion_id": "88788",
+        "boletin": null,
+        "fecha": "2026-05-06",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "88790",
+        "boletin": null,
+        "fecha": "2026-05-06",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Acuerdo N° 9"
+      },
+      {
+        "votacion_id": "88791",
+        "boletin": null,
+        "fecha": "2026-05-06",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Proyecto de Resolución N° 7"
+      },
+      {
+        "votacion_id": "88792",
+        "boletin": null,
+        "fecha": "2026-05-06",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "2-Acusacion Constitucional"
+      },
+      {
+        "votacion_id": "88793",
+        "boletin": null,
+        "fecha": "2026-05-06",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "88794",
+        "boletin": "18107-07",
+        "fecha": "2026-05-06",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18107-07"
+      },
+      {
+        "votacion_id": "88808",
+        "boletin": null,
+        "fecha": "2026-05-11",
+        "resultado": "Rechazado",
+        "sentido": "abstencion",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "88810",
+        "boletin": "14309-04",
+        "fecha": "2026-05-11",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 14309-04"
+      },
+      {
+        "votacion_id": "88811",
+        "boletin": "14309-04",
+        "fecha": "2026-05-11",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 14309-04"
+      },
+      {
+        "votacion_id": "88812",
+        "boletin": "14309-04",
+        "fecha": "2026-05-11",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 14309-04"
+      },
+      {
+        "votacion_id": "88813",
+        "boletin": "14309-04",
+        "fecha": "2026-05-11",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 14309-04"
+      },
+      {
+        "votacion_id": "88822",
+        "boletin": null,
+        "fecha": "2026-05-12",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "88824",
+        "boletin": null,
+        "fecha": "2026-05-12",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Proyecto de Acuerdo N° 10"
+      },
+      {
+        "votacion_id": "88825",
+        "boletin": null,
+        "fecha": "2026-05-12",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Proyecto de Resolución N° 9"
+      },
+      {
+        "votacion_id": "88826",
+        "boletin": "17112-19",
+        "fecha": "2026-05-12",
+        "resultado": "Rechazado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 17112-19"
+      },
+      {
+        "votacion_id": "88846",
+        "boletin": null,
+        "fecha": "2026-05-12",
+        "resultado": "Aprobado",
+        "sentido": "abstencion",
+        "descripcion": "Proyecto de Resolución N° 113"
+      },
+      {
+        "votacion_id": "88847",
+        "boletin": null,
+        "fecha": "2026-05-12",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 114"
+      },
+      {
+        "votacion_id": "88848",
+        "boletin": null,
+        "fecha": "2026-05-12",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 115"
+      },
+      {
+        "votacion_id": "88849",
+        "boletin": null,
+        "fecha": "2026-05-12",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 116"
+      },
+      {
+        "votacion_id": "88850",
+        "boletin": null,
+        "fecha": "2026-05-12",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 117"
+      },
+      {
+        "votacion_id": "88851",
+        "boletin": null,
+        "fecha": "2026-05-12",
+        "resultado": "Aprobado",
+        "sentido": "abstencion",
+        "descripcion": "Proyecto de Resolución N° 118"
+      },
+      {
+        "votacion_id": "88852",
+        "boletin": null,
+        "fecha": "2026-05-12",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 119"
+      },
+      {
+        "votacion_id": "88853",
+        "boletin": null,
+        "fecha": "2026-05-12",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 120"
+      },
+      {
+        "votacion_id": "88854",
+        "boletin": null,
+        "fecha": "2026-05-12",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 121"
+      },
+      {
+        "votacion_id": "88859",
+        "boletin": null,
+        "fecha": "2026-05-13",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "88860",
+        "boletin": null,
+        "fecha": "2026-05-13",
+        "resultado": "Rechazado",
+        "sentido": "no_vota",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "88865",
+        "boletin": null,
+        "fecha": "2026-05-13",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "88867",
+        "boletin": null,
+        "fecha": "2026-05-13",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Acuerdo N° 11"
+      },
+      {
+        "votacion_id": "88868",
+        "boletin": null,
+        "fecha": "2026-05-13",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Proyecto de Resolución N° 10"
+      },
+      {
+        "votacion_id": "88869",
+        "boletin": "18215-10",
+        "fecha": "2026-05-13",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18215-10"
+      },
+      {
+        "votacion_id": "88870",
+        "boletin": "18155-25",
+        "fecha": "2026-05-13",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18155-25"
+      },
+      {
+        "votacion_id": "88871",
+        "boletin": "18155-25",
+        "fecha": "2026-05-13",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18155-25"
+      },
+      {
+        "votacion_id": "88872",
+        "boletin": "15258-25",
+        "fecha": "2026-05-13",
+        "resultado": "Aprobado",
+        "sentido": "abstencion",
+        "descripcion": "Boletín N° 15258-25"
+      },
+      {
+        "votacion_id": "88879",
+        "boletin": null,
+        "fecha": "2026-05-18",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "88880",
+        "boletin": null,
+        "fecha": "2026-05-18",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "88881",
+        "boletin": "18232-25",
+        "fecha": "2026-05-18",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18232-25"
+      },
+      {
+        "votacion_id": "88888",
+        "boletin": null,
+        "fecha": "2026-05-20",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "3-Creacion Comision Investigadora"
+      },
+      {
+        "votacion_id": "88889",
+        "boletin": null,
+        "fecha": "2026-05-20",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "3-Creacion Comision Investigadora"
+      },
+      {
+        "votacion_id": "88890",
+        "boletin": null,
+        "fecha": "2026-05-20",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "2-Acusacion Constitucional"
+      },
+      {
+        "votacion_id": "88892",
+        "boletin": null,
+        "fecha": "2026-05-20",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros"
+      },
+      {
+        "votacion_id": "88893",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88894",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88895",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88896",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88897",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88898",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88899",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88900",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88901",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88902",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88903",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88904",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88905",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88906",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88907",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88908",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88909",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88910",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88911",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88912",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88913",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88914",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88915",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88916",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88917",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88918",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88919",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88920",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88921",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88922",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88923",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88924",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88925",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88926",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88927",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88928",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88929",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88930",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88931",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88932",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88933",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88934",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88935",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88936",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88937",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88938",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88939",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88940",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88941",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88942",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88943",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88944",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88945",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88946",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88947",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88948",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88949",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88950",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88951",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88952",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88953",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88954",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88955",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05"
+      },
+      {
+        "votacion_id": "88956",
+        "boletin": "18216-05",
+        "fecha": "2026-05-20",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05"
+      },
       {
         "votacion_id": "88957",
         "boletin": "18216-05",
@@ -995,9 +5411,16 @@
   },
   "proyectos": {
     "anio": 2026,
-    "n_proyectos": 3,
+    "n_proyectos": 4,
     "estado_tramitacion_disponible": false,
     "proyectos": [
+      {
+        "boletin": "18395-07",
+        "nombre": "Sanciona penalmente la usura y la obtención de lucro en las contrataciones con el Estado en situaciones de emergencia o catástrofe",
+        "fecha_ingreso": "2026-06-16",
+        "admisible": "true",
+        "rol": "firmante"
+      },
       {
         "boletin": "18145-07",
         "nombre": "Modifica la Carta Fundamental para derogar la facultad presidencial de otorgar indultos particulares",
@@ -1025,6 +5448,6 @@
     "fuente": "opendata.camara.cl",
     "periodo": "2026-2030",
     "anio_proceso": 2026,
-    "generado": "2026-07-06T20:11:19"
+    "generado": "2026-07-06T20:35:48"
   }
 }
