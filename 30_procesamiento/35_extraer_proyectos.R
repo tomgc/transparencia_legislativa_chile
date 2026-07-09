@@ -77,7 +77,7 @@ extraer_proyectos_long <- function() {
         by = "boletin")
     }
     autores_long
-  }, origen = "35_proyectos")
+  }, tope = MAX_PROYECTOS_DETALLE, origen = "35_proyectos")
 }
 
 proyectos <- extraer_proyectos_long()
