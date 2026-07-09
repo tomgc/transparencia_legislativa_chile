@@ -2,7 +2,9 @@
   {
     "id": "1165",
     "nombre": "Agustín Romero Leiva",
+    "sexo": "Masculino",
     "partido": "PREP",
+    "partido_nombre": "Partido Republicano",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -13,7 +15,9 @@
   {
     "id": "1257",
     "nombre": "Alejandra Valdebenito Torres",
+    "sexo": "Femenino",
     "partido": "UDI",
+    "partido_nombre": "Unión Demócrata Independiente",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -24,7 +28,9 @@
   {
     "id": "1013",
     "nombre": "Alejandro Bernales Maldonado",
+    "sexo": "Masculino",
     "partido": "PL",
+    "partido_nombre": "Partido Liberal de Chile",
     "distrito": null,
     "region": null,
     "tendencia": "centroizquierda",
@@ -35,7 +41,9 @@
   {
     "id": "1245",
     "nombre": "Alejandro Riquelme Ducci",
+    "sexo": "Masculino",
     "partido": "PREP",
+    "partido_nombre": "Partido Republicano",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -46,7 +54,9 @@
   {
     "id": "1230",
     "nombre": "Alex Nahuelquin Nahuelquin",
+    "sexo": "Masculino",
     "partido": "PDG",
+    "partido_nombre": "Partido de la Gente",
     "distrito": null,
     "region": null,
     "tendencia": "centro",
@@ -57,7 +67,9 @@
   {
     "id": "1128",
     "nombre": "Ana María Gazmuri Vieira",
+    "sexo": "Femenino",
     "partido": "PAH",
+    "partido_nombre": "Partido Acción Humanista",
     "distrito": null,
     "region": null,
     "tendencia": "izquierda",
@@ -68,7 +80,9 @@
   {
     "id": "1222",
     "nombre": "Andrea Macías Palma",
+    "sexo": "Femenino",
     "partido": "PS",
+    "partido_nombre": "Partido Socialista",
     "distrito": null,
     "region": null,
     "tendencia": "centroizquierda",
@@ -79,7 +93,9 @@
   {
     "id": "1061",
     "nombre": "Andrea Parra Sauterel",
+    "sexo": "Femenino",
     "partido": "PPD",
+    "partido_nombre": "Partido Por la Democracia",
     "distrito": null,
     "region": null,
     "tendencia": "centroizquierda",
@@ -90,7 +106,9 @@
   {
     "id": "1021",
     "nombre": "Andrés Celis Montt",
+    "sexo": "Masculino",
     "partido": "RN",
+    "partido_nombre": "Renovación Nacional",
     "distrito": null,
     "region": null,
     "tendencia": "centroderecha",
@@ -101,7 +119,9 @@
   {
     "id": "1221",
     "nombre": "Benjamín Lorca Inzunza",
+    "sexo": "Masculino",
     "partido": "PREP",
+    "partido_nombre": "Partido Republicano",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -112,7 +132,9 @@
   {
     "id": "1150",
     "nombre": "Benjamín Moreno Bascur",
+    "sexo": "Masculino",
     "partido": "PREP",
+    "partido_nombre": "Partido Republicano",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -123,7 +145,9 @@
   {
     "id": "1250",
     "nombre": "Bernardo Salinas Maya",
+    "sexo": "Masculino",
     "partido": "IND",
+    "partido_nombre": "Independientes",
     "distrito": null,
     "region": null,
     "tendencia": null,
@@ -134,7 +158,9 @@
   {
     "id": "1012",
     "nombre": "Boris Barrera Moreno",
+    "sexo": "Masculino",
     "partido": "PC",
+    "partido_nombre": "Partido Comunista",
     "distrito": null,
     "region": null,
     "tendencia": "izquierda",
@@ -145,7 +171,9 @@
   {
     "id": "1187",
     "nombre": "Carlo Arqueros Pizarro",
+    "sexo": "Masculino",
     "partido": "PREP",
+    "partido_nombre": "Partido Republicano",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -156,7 +184,9 @@
   {
     "id": "1110",
     "nombre": "Carlos Bianchi Chelech",
+    "sexo": "Masculino",
     "partido": "IND",
+    "partido_nombre": "Independientes",
     "distrito": null,
     "region": null,
     "tendencia": null,
@@ -167,7 +197,9 @@
   {
     "id": "1195",
     "nombre": "Carlos Carvajal Gallardo",
+    "sexo": "Masculino",
     "partido": "IND",
+    "partido_nombre": "Independientes",
     "distrito": null,
     "region": null,
     "tendencia": null,
@@ -178,7 +210,9 @@
   {
     "id": "1197",
     "nombre": "Carlos Chandía Alarcón",
+    "sexo": "Masculino",
     "partido": "RN",
+    "partido_nombre": "Renovación Nacional",
     "distrito": null,
     "region": null,
     "tendencia": "centroderecha",
@@ -189,7 +223,9 @@
   {
     "id": "1205",
     "nombre": "Carlos Cuadrado Prats",
+    "sexo": "Masculino",
     "partido": "PPD",
+    "partido_nombre": "Partido Por la Democracia",
     "distrito": null,
     "region": null,
     "tendencia": "centroizquierda",
@@ -200,7 +236,9 @@
   {
     "id": "1206",
     "nombre": "Carolina Cucumides Calderón",
+    "sexo": "Femenino",
     "partido": "IND",
+    "partido_nombre": "Independientes",
     "distrito": null,
     "region": null,
     "tendencia": null,
@@ -211,7 +249,9 @@
   {
     "id": "1177",
     "nombre": "Carolina Tello Rojas",
+    "sexo": "Femenino",
     "partido": "FA",
+    "partido_nombre": "Frente Amplio",
     "distrito": null,
     "region": null,
     "tendencia": "izquierda",
@@ -222,7 +262,9 @@
   {
     "id": "1025",
     "nombre": "Catalina Del Real Mihovilovic",
+    "sexo": "Femenino",
     "partido": "PREP",
+    "partido_nombre": "Partido Republicano",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -233,7 +275,9 @@
   {
     "id": "1104",
     "nombre": "Chiara Barchiesi Chávez",
+    "sexo": "Femenino",
     "partido": "PREP",
+    "partido_nombre": "Partido Republicano",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -244,7 +288,9 @@
   {
     "id": "1227",
     "nombre": "Claudia Mora Vega",
+    "sexo": "Femenino",
     "partido": "RN",
+    "partido_nombre": "Renovación Nacional",
     "distrito": null,
     "region": null,
     "tendencia": "centroderecha",
@@ -255,7 +301,9 @@
   {
     "id": "1244",
     "nombre": "Claudia Reyes Larenas",
+    "sexo": "Femenino",
     "partido": "PREP",
+    "partido_nombre": "Partido Republicano",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -266,7 +314,9 @@
   {
     "id": "1153",
     "nombre": "Coca Ericka Ñanco Vásquez",
+    "sexo": "Femenino",
     "partido": "FA",
+    "partido_nombre": "Frente Amplio",
     "distrito": null,
     "region": null,
     "tendencia": "izquierda",
@@ -277,7 +327,9 @@
   {
     "id": "1214",
     "nombre": "Constanza Hube Portus",
+    "sexo": "Femenino",
     "partido": "UDI",
+    "partido_nombre": "Unión Demócrata Independiente",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -288,7 +340,9 @@
   {
     "id": "1252",
     "nombre": "Constanza Schonhaut Soto",
+    "sexo": "Femenino",
     "partido": "FA",
+    "partido_nombre": "Frente Amplio",
     "distrito": null,
     "region": null,
     "tendencia": "izquierda",
@@ -299,7 +353,9 @@
   {
     "id": "1180",
     "nombre": "Consuelo Veloso Ávila",
+    "sexo": "Femenino",
     "partido": "FA",
+    "partido_nombre": "Frente Amplio",
     "distrito": null,
     "region": null,
     "tendencia": "izquierda",
@@ -310,7 +366,9 @@
   {
     "id": "1200",
     "nombre": "Cristian Contreras Radovic",
+    "sexo": "Masculino",
     "partido": "PDG",
+    "partido_nombre": "Partido de la Gente",
     "distrito": null,
     "region": null,
     "tendencia": "centro",
@@ -321,7 +379,9 @@
   {
     "id": "1224",
     "nombre": "Cristian Mella Andaur",
+    "sexo": "Masculino",
     "partido": "DC",
+    "partido_nombre": "Partido Demócrata Cristiano",
     "distrito": null,
     "region": null,
     "tendencia": "centro",
@@ -332,7 +392,9 @@
   {
     "id": "1225",
     "nombre": "Cristian Menchaca Pinochet",
+    "sexo": "Masculino",
     "partido": "IND",
+    "partido_nombre": "Independientes",
     "distrito": null,
     "region": null,
     "tendencia": null,
@@ -343,7 +405,9 @@
   {
     "id": "1232",
     "nombre": "Cristian Neira Martínez",
+    "sexo": "Masculino",
     "partido": "PREP",
+    "partido_nombre": "Partido Republicano",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -354,7 +418,9 @@
   {
     "id": "1100",
     "nombre": "Cristián Araya Lerdo de Tejada",
+    "sexo": "Masculino",
     "partido": "PREP",
+    "partido_nombre": "Partido Republicano",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -365,7 +431,9 @@
   {
     "id": "1175",
     "nombre": "Cristián Tapia Ramos",
+    "sexo": "Masculino",
     "partido": "IND",
+    "partido_nombre": "Independientes",
     "distrito": null,
     "region": null,
     "tendencia": null,
@@ -376,7 +444,9 @@
   {
     "id": "1143",
     "nombre": "Cristóbal Martínez Ramírez",
+    "sexo": "Masculino",
     "partido": "UDI",
+    "partido_nombre": "Unión Demócrata Independiente",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -387,7 +457,9 @@
   {
     "id": "1082",
     "nombre": "Cristóbal Urruticoechea Ríos",
+    "sexo": "Masculino",
     "partido": "PNL",
+    "partido_nombre": "Partido Nacional Libertario",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -398,7 +470,9 @@
   {
     "id": "1260",
     "nombre": "César Valenzuela Maass",
+    "sexo": "Masculino",
     "partido": "PS",
+    "partido_nombre": "Partido Socialista",
     "distrito": null,
     "region": null,
     "tendencia": "centroizquierda",
@@ -409,7 +483,9 @@
   {
     "id": "1194",
     "nombre": "Daniel Bustos Leal",
+    "sexo": "Masculino",
     "partido": "PREP",
+    "partido_nombre": "Partido Republicano",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -420,7 +496,9 @@
   {
     "id": "1140",
     "nombre": "Daniel Lilayu Vivanco",
+    "sexo": "Masculino",
     "partido": "UDI",
+    "partido_nombre": "Unión Demócrata Independiente",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -431,7 +509,9 @@
   {
     "id": "1142",
     "nombre": "Daniel Manouchehri Lobos",
+    "sexo": "Masculino",
     "partido": "PS",
+    "partido_nombre": "Partido Socialista",
     "distrito": null,
     "region": null,
     "tendencia": "centroizquierda",
@@ -442,7 +522,9 @@
   {
     "id": "1261",
     "nombre": "Daniel Valenzuela Salazar",
+    "sexo": "Masculino",
     "partido": "IND",
+    "partido_nombre": "Independientes",
     "distrito": null,
     "region": null,
     "tendencia": null,
@@ -453,7 +535,9 @@
   {
     "id": "1173",
     "nombre": "Daniela Serrano Salazar",
+    "sexo": "Femenino",
     "partido": "PC",
+    "partido_nombre": "Partido Comunista",
     "distrito": null,
     "region": null,
     "tendencia": "izquierda",
@@ -464,7 +548,9 @@
   {
     "id": "1075",
     "nombre": "Diego Schalper Sepúlveda",
+    "sexo": "Masculino",
     "partido": "RN",
+    "partido_nombre": "Renovación Nacional",
     "distrito": null,
     "region": null,
     "tendencia": "centroderecha",
@@ -475,7 +561,9 @@
   {
     "id": "1262",
     "nombre": "Diego Vergara Rodríguez",
+    "sexo": "Masculino",
     "partido": "PREP",
+    "partido_nombre": "Partido Republicano",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -486,7 +574,9 @@
   {
     "id": "1202",
     "nombre": "Eduardo Cretton Rebolledo",
+    "sexo": "Masculino",
     "partido": "UDI",
+    "partido_nombre": "Unión Demócrata Independiente",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -497,7 +587,9 @@
   {
     "id": "1028",
     "nombre": "Eduardo Durán Salinas",
+    "sexo": "Masculino",
     "partido": "RN",
+    "partido_nombre": "Renovación Nacional",
     "distrito": null,
     "region": null,
     "tendencia": "centroderecha",
@@ -508,7 +600,9 @@
   {
     "id": "1255",
     "nombre": "Eileen Urqueta Rojas",
+    "sexo": "Femenino",
     "partido": "PDG",
+    "partido_nombre": "Partido de la Gente",
     "distrito": null,
     "region": null,
     "tendencia": "centro",
@@ -519,7 +613,9 @@
   {
     "id": "1056",
     "nombre": "Emilia Nuyado Ancapichun",
+    "sexo": "Femenino",
     "partido": "PS",
+    "partido_nombre": "Partido Socialista",
     "distrito": null,
     "region": null,
     "tendencia": "centroizquierda",
@@ -530,7 +626,9 @@
   {
     "id": "1171",
     "nombre": "Emilia Schneider Videla",
+    "sexo": "Femenino",
     "partido": "FA",
+    "partido_nombre": "Frente Amplio",
     "distrito": null,
     "region": null,
     "tendencia": "izquierda",
@@ -541,7 +639,9 @@
   {
     "id": "1190",
     "nombre": "Enrique Bassaletti Riess",
+    "sexo": "Masculino",
     "partido": "IND",
+    "partido_nombre": "Independientes",
     "distrito": null,
     "region": null,
     "tendencia": null,
@@ -552,7 +652,9 @@
   {
     "id": "1212",
     "nombre": "Erich Grohs Marín",
+    "sexo": "Masculino",
     "partido": "PNL",
+    "partido_nombre": "Partido Nacional Libertario",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -563,7 +665,9 @@
   {
     "id": "1239",
     "nombre": "Fabián Ossandón Briceño",
+    "sexo": "Masculino",
     "partido": "PDG",
+    "partido_nombre": "Partido de la Gente",
     "distrito": null,
     "region": null,
     "tendencia": "centro",
@@ -574,7 +678,9 @@
   {
     "id": "1116",
     "nombre": "Felipe Camaño Cárdenas",
+    "sexo": "Masculino",
     "partido": "IND",
+    "partido_nombre": "Independientes",
     "distrito": null,
     "region": null,
     "tendencia": null,
@@ -585,7 +691,9 @@
   {
     "id": "1248",
     "nombre": "Felipe Ross Correa",
+    "sexo": "Masculino",
     "partido": "PREP",
+    "partido_nombre": "Partido Republicano",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -596,7 +704,9 @@
   {
     "id": "1253",
     "nombre": "Fernando Ugarte Tejeda",
+    "sexo": "Masculino",
     "partido": "PREP",
+    "partido_nombre": "Partido Republicano",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -607,7 +717,9 @@
   {
     "id": "1264",
     "nombre": "Fernando Zamorano Peralta",
+    "sexo": "Masculino",
     "partido": "PPD",
+    "partido_nombre": "Partido Por la Democracia",
     "distrito": null,
     "region": null,
     "tendencia": "centroizquierda",
@@ -618,7 +730,9 @@
   {
     "id": "1201",
     "nombre": "Flor Contreras Vivallo",
+    "sexo": "Femenino",
     "partido": "PDG",
+    "partido_nombre": "Partido de la Gente",
     "distrito": null,
     "region": null,
     "tendencia": "centro",
@@ -629,7 +743,9 @@
   {
     "id": "1183",
     "nombre": "Flor Weisse Novoa",
+    "sexo": "Femenino",
     "partido": "UDI",
+    "partido_nombre": "Unión Demócrata Independiente",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -640,7 +756,9 @@
   {
     "id": "1054",
     "nombre": "Francesca Muñoz González",
+    "sexo": "Femenino",
     "partido": "PSC",
+    "partido_nombre": "Partido Social Cristiano",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -651,7 +769,9 @@
   {
     "id": "1204",
     "nombre": "Francisco Crisóstomo Llanos",
+    "sexo": "Masculino",
     "partido": "PS",
+    "partido_nombre": "Partido Socialista",
     "distrito": null,
     "region": null,
     "tendencia": "centroizquierda",
@@ -662,7 +782,9 @@
   {
     "id": "1237",
     "nombre": "Francisco Orrego Gutiérrez",
+    "sexo": "Masculino",
     "partido": "RN",
+    "partido_nombre": "Renovación Nacional",
     "distrito": null,
     "region": null,
     "tendencia": "centroderecha",
@@ -673,7 +795,9 @@
   {
     "id": "1114",
     "nombre": "Félix Bugueño Sotelo",
+    "sexo": "Masculino",
     "partido": "FA",
+    "partido_nombre": "Frente Amplio",
     "distrito": null,
     "region": null,
     "tendencia": "izquierda",
@@ -684,7 +808,9 @@
   {
     "id": "1087",
     "nombre": "Gael Yeomans Araya",
+    "sexo": "Femenino",
     "partido": "FA",
+    "partido_nombre": "Frente Amplio",
     "distrito": null,
     "region": null,
     "tendencia": "izquierda",
@@ -695,7 +821,9 @@
   {
     "id": "915",
     "nombre": "Germán Verdugo Soto",
+    "sexo": "Masculino",
     "partido": "PNL",
+    "partido_nombre": "Partido Nacional Libertario",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -706,7 +834,9 @@
   {
     "id": "1152",
     "nombre": "Gloria Naveillan Arriagada",
+    "sexo": "Femenino",
     "partido": "PNL",
+    "partido_nombre": "Partido Nacional Libertario",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -717,7 +847,9 @@
   {
     "id": "1086",
     "nombre": "Gonzalo Winter Etcheberry",
+    "sexo": "Masculino",
     "partido": "FA",
+    "partido_nombre": "Frente Amplio",
     "distrito": null,
     "region": null,
     "tendencia": "izquierda",
@@ -728,7 +860,9 @@
   {
     "id": "1065",
     "nombre": "Guillermo Ramírez Diez",
+    "sexo": "Masculino",
     "partido": "UDI",
+    "partido_nombre": "Unión Demócrata Independiente",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -739,7 +873,9 @@
   {
     "id": "1258",
     "nombre": "Guillermo Valdés Carmona",
+    "sexo": "Masculino",
     "partido": "PDG",
+    "partido_nombre": "Partido de la Gente",
     "distrito": null,
     "region": null,
     "tendencia": "centro",
@@ -750,7 +886,9 @@
   {
     "id": "1210",
     "nombre": "Gustavo Gatica Villarroel",
+    "sexo": "Masculino",
     "partido": "IND",
+    "partido_nombre": "Independientes",
     "distrito": null,
     "region": null,
     "tendencia": null,
@@ -761,7 +899,9 @@
   {
     "id": "1223",
     "nombre": "Hans Marowski Cuevas",
+    "sexo": "Masculino",
     "partido": "PNL",
+    "partido_nombre": "Partido Nacional Libertario",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -772,7 +912,9 @@
   {
     "id": "1176",
     "nombre": "Hotuiti Teao Drago",
+    "sexo": "Masculino",
     "partido": "IND",
+    "partido_nombre": "Independientes",
     "distrito": null,
     "region": null,
     "tendencia": null,
@@ -783,7 +925,9 @@
   {
     "id": "1105",
     "nombre": "Héctor Barría Angulo",
+    "sexo": "Masculino",
     "partido": "DC",
+    "partido_nombre": "Partido Demócrata Cristiano",
     "distrito": null,
     "region": null,
     "tendencia": "centro",
@@ -794,7 +938,9 @@
   {
     "id": "1178",
     "nombre": "Héctor Ulloa Aguilera",
+    "sexo": "Masculino",
     "partido": "IND",
+    "partido_nombre": "Independientes",
     "distrito": null,
     "region": null,
     "tendencia": null,
@@ -805,7 +951,9 @@
   {
     "id": "1186",
     "nombre": "Ignacio Achurra Díaz",
+    "sexo": "Masculino",
     "partido": "FA",
+    "partido_nombre": "Frente Amplio",
     "distrito": null,
     "region": null,
     "tendencia": "izquierda",
@@ -816,7 +964,9 @@
   {
     "id": "1254",
     "nombre": "Ignacio Urcullú Clèment-Lund",
+    "sexo": "Masculino",
     "partido": "PREP",
+    "partido_nombre": "Partido Republicano",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -827,7 +977,9 @@
   {
     "id": "1213",
     "nombre": "Irací Hassler Jacob",
+    "sexo": "Femenino",
     "partido": "PC",
+    "partido_nombre": "Partido Comunista",
     "distrito": null,
     "region": null,
     "tendencia": "izquierda",
@@ -838,7 +990,9 @@
   {
     "id": "1099",
     "nombre": "Jaime Araya Guerrero",
+    "sexo": "Masculino",
     "partido": "IND",
+    "partido_nombre": "Independientes",
     "distrito": null,
     "region": null,
     "tendencia": null,
@@ -849,7 +1003,9 @@
   {
     "id": "1189",
     "nombre": "Jaime Bassa Mercado",
+    "sexo": "Masculino",
     "partido": "FA",
+    "partido_nombre": "Frente Amplio",
     "distrito": null,
     "region": null,
     "tendencia": "izquierda",
@@ -860,7 +1016,9 @@
   {
     "id": "1199",
     "nombre": "Jaime Coloma Álamos",
+    "sexo": "Masculino",
     "partido": "UDI",
+    "partido_nombre": "Unión Demócrata Independiente",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -871,7 +1029,9 @@
   {
     "id": "872",
     "nombre": "Jaime Mulet Martínez",
+    "sexo": "Masculino",
     "partido": "FRVS",
+    "partido_nombre": "Federación Regionalista Verde Social",
     "distrito": null,
     "region": null,
     "tendencia": "izquierda",
@@ -882,7 +1042,9 @@
   {
     "id": "1229",
     "nombre": "Javier Muñoz Riquelme",
+    "sexo": "Masculino",
     "partido": "DC",
+    "partido_nombre": "Partido Demócrata Cristiano",
     "distrito": null,
     "region": null,
     "tendencia": "centro",
@@ -893,7 +1055,9 @@
   {
     "id": "1235",
     "nombre": "Javier Olivares Avendaño",
+    "sexo": "Masculino",
     "partido": "PDG",
+    "partido_nombre": "Partido de la Gente",
     "distrito": null,
     "region": null,
     "tendencia": "centro",
@@ -904,7 +1068,9 @@
   {
     "id": "1148",
     "nombre": "Javiera Morales Alvarado",
+    "sexo": "Femenino",
     "partido": "FA",
+    "partido_nombre": "Frente Amplio",
     "distrito": null,
     "region": null,
     "tendencia": "izquierda",
@@ -915,7 +1081,9 @@
   {
     "id": "1247",
     "nombre": "Javiera Rodríguez Pascual",
+    "sexo": "Femenino",
     "partido": "PREP",
+    "partido_nombre": "Partido Republicano",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -926,7 +1094,9 @@
   {
     "id": "1062",
     "nombre": "Joanna Pérez Olea",
+    "sexo": "Femenino",
     "partido": "DEM",
+    "partido_nombre": "Partido Demócratas Chile",
     "distrito": null,
     "region": null,
     "tendencia": "centro",
@@ -937,7 +1107,9 @@
   {
     "id": "1009",
     "nombre": "Jorge Alessandri Vergara",
+    "sexo": "Masculino",
     "partido": "UDI",
+    "partido_nombre": "Unión Demócrata Independiente",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -948,7 +1120,9 @@
   {
     "id": "1015",
     "nombre": "Jorge Brito Hasbún",
+    "sexo": "Masculino",
     "partido": "FA",
+    "partido_nombre": "Frente Amplio",
     "distrito": null,
     "region": null,
     "tendencia": "izquierda",
@@ -959,7 +1133,9 @@
   {
     "id": "1208",
     "nombre": "Jorge Díaz Ibarra",
+    "sexo": "Masculino",
     "partido": "DC",
+    "partido_nombre": "Partido Demócrata Cristiano",
     "distrito": null,
     "region": null,
     "tendencia": "centro",
@@ -970,7 +1146,9 @@
   {
     "id": "1132",
     "nombre": "Jorge Guzmán Zepeda",
+    "sexo": "Masculino",
     "partido": "EVOP",
+    "partido_nombre": "Evolución Política",
     "distrito": null,
     "region": null,
     "tendencia": "centroderecha",
@@ -981,7 +1159,9 @@
   {
     "id": "1218",
     "nombre": "José Antonio Kast Adriasola",
+    "sexo": "Masculino",
     "partido": "PREP",
+    "partido_nombre": "Partido Republicano",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -992,7 +1172,9 @@
   {
     "id": "1246",
     "nombre": "José Antonio Rivas Villalobos",
+    "sexo": "Masculino",
     "partido": "PS",
+    "partido_nombre": "Partido Socialista",
     "distrito": null,
     "region": null,
     "tendencia": "centroizquierda",
@@ -1003,7 +1185,9 @@
   {
     "id": "1146",
     "nombre": "José Carlos Meza Pereira",
+    "sexo": "Masculino",
     "partido": "PREP",
+    "partido_nombre": "Partido Republicano",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -1014,7 +1198,9 @@
   {
     "id": "1226",
     "nombre": "José Montalva Feuerhake",
+    "sexo": "Masculino",
     "partido": "IND",
+    "partido_nombre": "Independientes",
     "distrito": null,
     "region": null,
     "tendencia": null,
@@ -1025,7 +1211,9 @@
   {
     "id": "1108",
     "nombre": "Juan Carlos Beltrán Silva",
+    "sexo": "Masculino",
     "partido": "RN",
+    "partido_nombre": "Renovación Nacional",
     "distrito": null,
     "region": null,
     "tendencia": "centroderecha",
@@ -1036,7 +1224,9 @@
   {
     "id": "1133",
     "nombre": "Juan Irarrázaval Rossel",
+    "sexo": "Masculino",
     "partido": "PREP",
+    "partido_nombre": "Partido Republicano",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -1047,7 +1237,9 @@
   {
     "id": "1259",
     "nombre": "Juan Marcelo Valenzuela Henríquez",
+    "sexo": "Masculino",
     "partido": "PDG",
+    "partido_nombre": "Partido de la Gente",
     "distrito": null,
     "region": null,
     "tendencia": "centro",
@@ -1058,7 +1250,9 @@
   {
     "id": "1073",
     "nombre": "Juan Santana Castillo",
+    "sexo": "Masculino",
     "partido": "PS",
+    "partido_nombre": "Partido Socialista",
     "distrito": null,
     "region": null,
     "tendencia": "centroizquierda",
@@ -1069,7 +1263,9 @@
   {
     "id": "1220",
     "nombre": "Leandro Kunstmann Collado",
+    "sexo": "Masculino",
     "partido": "PREP",
+    "partido_nombre": "Partido Republicano",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -1080,7 +1276,9 @@
   {
     "id": "1192",
     "nombre": "Lilian Betancurt Delgado",
+    "sexo": "Femenino",
     "partido": "PDG",
+    "partido_nombre": "Partido de la Gente",
     "distrito": null,
     "region": null,
     "tendencia": "centro",
@@ -1091,7 +1289,9 @@
   {
     "id": "1127",
     "nombre": "Lorena Fries Monleón",
+    "sexo": "Femenino",
     "partido": "FA",
+    "partido_nombre": "Frente Amplio",
     "distrito": null,
     "region": null,
     "tendencia": "izquierda",
@@ -1102,7 +1302,9 @@
   {
     "id": "1159",
     "nombre": "Lorena Pizarro Sierra",
+    "sexo": "Femenino",
     "partido": "PC",
+    "partido_nombre": "Partido Comunista",
     "distrito": null,
     "region": null,
     "tendencia": "izquierda",
@@ -1113,7 +1315,9 @@
   {
     "id": "1122",
     "nombre": "Luis Alberto Cuello Peña y Lillo",
+    "sexo": "Masculino",
     "partido": "PC",
+    "partido_nombre": "Partido Comunista",
     "distrito": null,
     "region": null,
     "tendencia": "izquierda",
@@ -1124,7 +1328,9 @@
   {
     "id": "1141",
     "nombre": "Luis Malla Valenzuela",
+    "sexo": "Masculino",
     "partido": "PL",
+    "partido_nombre": "Partido Liberal de Chile",
     "distrito": null,
     "region": null,
     "tendencia": "centroizquierda",
@@ -1135,7 +1341,9 @@
   {
     "id": "1060",
     "nombre": "Luis Pardo Sáinz",
+    "sexo": "Masculino",
     "partido": "RN",
+    "partido_nombre": "Renovación Nacional",
     "distrito": null,
     "region": null,
     "tendencia": "centroderecha",
@@ -1146,7 +1354,9 @@
   {
     "id": "1170",
     "nombre": "Luis Sánchez Ossa",
+    "sexo": "Masculino",
     "partido": "PREP",
+    "partido_nombre": "Partido Republicano",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -1157,7 +1367,9 @@
   {
     "id": "1251",
     "nombre": "Macarena Santelices Cañas",
+    "sexo": "Femenino",
     "partido": "PREP",
+    "partido_nombre": "Partido Republicano",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -1168,7 +1380,9 @@
   {
     "id": "986",
     "nombre": "Marcela Hernando Pérez",
+    "sexo": "Femenino",
     "partido": "PR",
+    "partido_nombre": "Partido Radical de Chile",
     "distrito": null,
     "region": null,
     "tendencia": "centroizquierda",
@@ -1179,7 +1393,9 @@
   {
     "id": "1174",
     "nombre": "Marco Antonio Sulantay Olivares",
+    "sexo": "Masculino",
     "partido": "UDI",
+    "partido_nombre": "Unión Demócrata Independiente",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -1190,7 +1406,9 @@
   {
     "id": "1188",
     "nombre": "Marcos Barraza Gómez",
+    "sexo": "Masculino",
     "partido": "PC",
+    "partido_nombre": "Partido Comunista",
     "distrito": null,
     "region": null,
     "tendencia": "izquierda",
@@ -1201,7 +1419,9 @@
   {
     "id": "1038",
     "nombre": "Marcos Ilabaca Cerda",
+    "sexo": "Masculino",
     "partido": "PS",
+    "partido_nombre": "Partido Socialista",
     "distrito": null,
     "region": null,
     "tendencia": "centroizquierda",
@@ -1212,7 +1432,9 @@
   {
     "id": "1234",
     "nombre": "Mario Olavarría Rodríguez",
+    "sexo": "Masculino",
     "partido": "UDI",
+    "partido_nombre": "Unión Demócrata Independiente",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -1223,7 +1445,9 @@
   {
     "id": "1074",
     "nombre": "Marisela Santibáñez Novoa",
+    "sexo": "Femenino",
     "partido": "IND",
+    "partido_nombre": "Independientes",
     "distrito": null,
     "region": null,
     "tendencia": null,
@@ -1234,7 +1458,9 @@
   {
     "id": "1157",
     "nombre": "Marlene Pérez Cartes",
+    "sexo": "Femenino",
     "partido": "IND",
+    "partido_nombre": "Independientes",
     "distrito": null,
     "region": null,
     "tendencia": null,
@@ -1245,7 +1471,9 @@
   {
     "id": "1107",
     "nombre": "María Francisca Bello Campos",
+    "sexo": "Femenino",
     "partido": "FA",
+    "partido_nombre": "Frente Amplio",
     "distrito": null,
     "region": null,
     "tendencia": "izquierda",
@@ -1256,7 +1484,9 @@
   {
     "id": "1209",
     "nombre": "Matías Fernández Hartwig",
+    "sexo": "Masculino",
     "partido": "FA",
+    "partido_nombre": "Frente Amplio",
     "distrito": null,
     "region": null,
     "tendencia": "izquierda",
@@ -1267,7 +1497,9 @@
   {
     "id": "1131",
     "nombre": "Mauro González Villarroel",
+    "sexo": "Masculino",
     "partido": "RN",
+    "partido_nombre": "Renovación Nacional",
     "distrito": null,
     "region": null,
     "tendencia": "centroderecha",
@@ -1278,7 +1510,9 @@
   {
     "id": "1166",
     "nombre": "Natalia Romero Talguia",
+    "sexo": "Femenino",
     "partido": "IND",
+    "partido_nombre": "Independientes",
     "distrito": null,
     "region": null,
     "tendencia": null,
@@ -1289,7 +1523,9 @@
   {
     "id": "1117",
     "nombre": "Nathalie Castillo Rojas",
+    "sexo": "Femenino",
     "partido": "PC",
+    "partido_nombre": "Partido Comunista",
     "distrito": null,
     "region": null,
     "tendencia": "izquierda",
@@ -1300,7 +1536,9 @@
   {
     "id": "1181",
     "nombre": "Nelson Venegas Salazar",
+    "sexo": "Masculino",
     "partido": "PS",
+    "partido_nombre": "Partido Socialista",
     "distrito": null,
     "region": null,
     "tendencia": "centroizquierda",
@@ -1311,7 +1549,9 @@
   {
     "id": "1249",
     "nombre": "Omar Sabat Guzmán",
+    "sexo": "Masculino",
     "partido": "IND",
+    "partido_nombre": "Independientes",
     "distrito": null,
     "region": null,
     "tendencia": null,
@@ -1322,7 +1562,9 @@
   {
     "id": "1039",
     "nombre": "Pamela Jiles Moreno",
+    "sexo": "Femenino",
     "partido": "PDG",
+    "partido_nombre": "Partido de la Gente",
     "distrito": null,
     "region": null,
     "tendencia": "centro",
@@ -1333,7 +1575,9 @@
   {
     "id": "1193",
     "nombre": "Patricio Briones Moller",
+    "sexo": "Masculino",
     "partido": "PDG",
+    "partido_nombre": "Partido de la Gente",
     "distrito": null,
     "region": null,
     "tendencia": "centro",
@@ -1344,7 +1588,9 @@
   {
     "id": "1241",
     "nombre": "Patricio Pinilla Valencia",
+    "sexo": "Masculino",
     "partido": "DC",
+    "partido_nombre": "Partido Demócrata Cristiano",
     "distrito": null,
     "region": null,
     "tendencia": "centro",
@@ -1355,7 +1601,9 @@
   {
     "id": "1236",
     "nombre": "Paula Olmos Contreras",
+    "sexo": "Femenino",
     "partido": "PDG",
+    "partido_nombre": "Partido de la Gente",
     "distrito": null,
     "region": null,
     "tendencia": "centro",
@@ -1366,7 +1614,9 @@
   {
     "id": "1228",
     "nombre": "Paulina Muñoz Minte",
+    "sexo": "Femenino",
     "partido": "PNL",
+    "partido_nombre": "Partido Nacional Libertario",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -1377,7 +1627,9 @@
   {
     "id": "1198",
     "nombre": "Paz Charpentier Rajcevich",
+    "sexo": "Femenino",
     "partido": "PREP",
+    "partido_nombre": "Partido Republicano",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -1388,7 +1640,9 @@
   {
     "id": "1217",
     "nombre": "Pier Karlezi Hazleby",
+    "sexo": "Masculino",
     "partido": "PNL",
+    "partido_nombre": "Partido Nacional Libertario",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -1399,7 +1653,9 @@
   {
     "id": "1196",
     "nombre": "Priscilla Castillo Gerli",
+    "sexo": "Femenino",
     "partido": "DC",
+    "partido_nombre": "Partido Demócrata Cristiano",
     "distrito": null,
     "region": null,
     "tendencia": "centro",
@@ -1410,7 +1666,9 @@
   {
     "id": "1044",
     "nombre": "Raúl Leiva Carvajal",
+    "sexo": "Masculino",
     "partido": "PS",
+    "partido_nombre": "Partido Socialista",
     "distrito": null,
     "region": null,
     "tendencia": "centroizquierda",
@@ -1421,7 +1679,9 @@
   {
     "id": "1077",
     "nombre": "Raúl Soto Mardones",
+    "sexo": "Masculino",
     "partido": "PPD",
+    "partido_nombre": "Partido Por la Democracia",
     "distrito": null,
     "region": null,
     "tendencia": "centroizquierda",
@@ -1432,7 +1692,9 @@
   {
     "id": "803",
     "nombre": "René Alinco Bustos",
+    "sexo": "Masculino",
     "partido": "IND",
+    "partido_nombre": "Independientes",
     "distrito": null,
     "region": null,
     "tendencia": null,
@@ -1443,7 +1705,9 @@
   {
     "id": "843",
     "nombre": "René Manuel García García",
+    "sexo": "Masculino",
     "partido": "RN",
+    "partido_nombre": "Renovación Nacional",
     "distrito": null,
     "region": null,
     "tendencia": "centroderecha",
@@ -1454,7 +1718,9 @@
   {
     "id": "1233",
     "nombre": "Ricardo Neumann Bertín",
+    "sexo": "Masculino",
     "partido": "UDI",
+    "partido_nombre": "Unión Demócrata Independiente",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -1465,7 +1731,9 @@
   {
     "id": "1102",
     "nombre": "Roberto Arroyo Muñoz",
+    "sexo": "Masculino",
     "partido": "PSC",
+    "partido_nombre": "Partido Social Cristiano",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -1476,7 +1744,9 @@
   {
     "id": "1184",
     "nombre": "Roberto Celedón Fernández",
+    "sexo": "Masculino",
     "partido": "IND",
+    "partido_nombre": "Independientes",
     "distrito": null,
     "region": null,
     "tendencia": null,
@@ -1487,7 +1757,9 @@
   {
     "id": "1242",
     "nombre": "Rodrigo Ramírez Parra",
+    "sexo": "Masculino",
     "partido": "IND",
+    "partido_nombre": "Independientes",
     "distrito": null,
     "region": null,
     "tendencia": null,
@@ -1498,7 +1770,9 @@
   {
     "id": "1119",
     "nombre": "Sara Concha Smith",
+    "sexo": "Femenino",
     "partido": "PSC",
+    "partido_nombre": "Partido Social Cristiano",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -1509,7 +1783,9 @@
   {
     "id": "1203",
     "nombre": "Sebastián Cristoffanini Jaraquemada",
+    "sexo": "Masculino",
     "partido": "PREP",
+    "partido_nombre": "Partido Republicano",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -1520,7 +1796,9 @@
   {
     "id": "1182",
     "nombre": "Sebastián Videla Castillo",
+    "sexo": "Masculino",
     "partido": "IND",
+    "partido_nombre": "Independientes",
     "distrito": null,
     "region": null,
     "tendencia": null,
@@ -1531,7 +1809,9 @@
   {
     "id": "1263",
     "nombre": "Sebastián Zamora Soto",
+    "sexo": "Masculino",
     "partido": "IND",
+    "partido_nombre": "Independientes",
     "distrito": null,
     "region": null,
     "tendencia": null,
@@ -1542,7 +1822,9 @@
   {
     "id": "815",
     "nombre": "Sergio Bobadilla Muñoz",
+    "sexo": "Masculino",
     "partido": "UDI",
+    "partido_nombre": "Unión Demócrata Independiente",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -1553,7 +1835,9 @@
   {
     "id": "1211",
     "nombre": "Sofía González Cortés",
+    "sexo": "Femenino",
     "partido": "PC",
+    "partido_nombre": "Partido Comunista",
     "distrito": null,
     "region": null,
     "tendencia": "izquierda",
@@ -1564,7 +1848,9 @@
   {
     "id": "1172",
     "nombre": "Stephan Schubert Rubio",
+    "sexo": "Masculino",
     "partido": "PREP",
+    "partido_nombre": "Partido Republicano",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -1575,7 +1861,9 @@
   {
     "id": "1216",
     "nombre": "Stephanie Jéldrez Ortiz",
+    "sexo": "Femenino",
     "partido": "PREP",
+    "partido_nombre": "Partido Republicano",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -1586,7 +1874,9 @@
   {
     "id": "1243",
     "nombre": "Tamara Ramírez Ramírez",
+    "sexo": "Femenino",
     "partido": "PDG",
+    "partido_nombre": "Partido de la Gente",
     "distrito": null,
     "region": null,
     "tendencia": "centro",
@@ -1597,7 +1887,9 @@
   {
     "id": "1256",
     "nombre": "Tatiana Urrutia Herrera",
+    "sexo": "Femenino",
     "partido": "FA",
+    "partido_nombre": "Frente Amplio",
     "distrito": null,
     "region": null,
     "tendencia": "izquierda",
@@ -1608,7 +1900,9 @@
   {
     "id": "1219",
     "nombre": "Tomás Kast Sommerhoff",
+    "sexo": "Masculino",
     "partido": "EVOP",
+    "partido_nombre": "Evolución Política",
     "distrito": null,
     "region": null,
     "tendencia": "centroderecha",
@@ -1619,7 +1913,9 @@
   {
     "id": "1191",
     "nombre": "Valentina Becerra Peña",
+    "sexo": "Femenino",
     "partido": "PREP",
+    "partido_nombre": "Partido Republicano",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -1630,7 +1926,9 @@
   {
     "id": "1207",
     "nombre": "Valentina Cáceres Monsálvez",
+    "sexo": "Femenino",
     "partido": "IND",
+    "partido_nombre": "Independientes",
     "distrito": null,
     "region": null,
     "tendencia": null,
@@ -1641,7 +1939,9 @@
   {
     "id": "1231",
     "nombre": "Ximena Naranjo Pinto",
+    "sexo": "Femenino",
     "partido": "IND",
+    "partido_nombre": "Independientes",
     "distrito": null,
     "region": null,
     "tendencia": null,
@@ -1652,7 +1952,9 @@
   {
     "id": "1059",
     "nombre": "Ximena Ossandón Irarrázabal",
+    "sexo": "Femenino",
     "partido": "RN",
+    "partido_nombre": "Renovación Nacional",
     "distrito": null,
     "region": null,
     "tendencia": "centroderecha",
@@ -1663,7 +1965,9 @@
   {
     "id": "1240",
     "nombre": "Zandra Parisi Fernández",
+    "sexo": "Femenino",
     "partido": "PDG",
+    "partido_nombre": "Partido de la Gente",
     "distrito": null,
     "region": null,
     "tendencia": "centro",
@@ -1674,7 +1978,9 @@
   {
     "id": "1017",
     "nombre": "Álvaro Carter Fernández",
+    "sexo": "Masculino",
     "partido": "PREP",
+    "partido_nombre": "Partido Republicano",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -1685,7 +1991,9 @@
   {
     "id": "1215",
     "nombre": "Álvaro Jofré Cáceres",
+    "sexo": "Masculino",
     "partido": "PNL",
+    "partido_nombre": "Partido Nacional Libertario",
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
@@ -1696,7 +2004,9 @@
   {
     "id": "1238",
     "nombre": "Álvaro Ortiz Vera",
+    "sexo": "Masculino",
     "partido": "DC",
+    "partido_nombre": "Partido Demócrata Cristiano",
     "distrito": null,
     "region": null,
     "tendencia": "centro",
