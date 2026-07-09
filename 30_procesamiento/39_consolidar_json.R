@@ -4,7 +4,9 @@
 # Proposito: Fusionar las tablas intermedias (diputados, asistencia, votos,
 #            proyectos) en los JSON estaticos que consume el dashboard:
 #              - 40_salidas/json/indice_diputados.json  (selector, con metricas
-#                resumen por diputado: tasa_asistencia, n_proyectos, n_votaciones)
+#                resumen por diputado: tasa_asistencia, n_proyectos, n_votaciones;
+#                y sexo/partido_nombre para que el cliente no fabrique ni
+#                embeba a mano lo que ya viene en la fuente)
 #              - 40_salidas/json/perfiles/<id>.json      (uno por diputado)
 #            Claves ordenadas, indentacion fija, UTF-8 (POLITICA 2, 5.5).
 #            Publica ademas una copia en docs/data/ para GitHub Pages (Fase 2).
@@ -14,7 +16,8 @@
 # Validacion: NAs en llaves, totales pre/post join, rango de tasa, dominio de
 #            sentido del voto (POLITICA 5.3.8).
 # Autor:     Claude Code (encargo autonomo, sesion 1; metricas resumen +
-#            publicacion docs/data, sesion 3)
+#            publicacion docs/data, sesion 3; sexo + partido_nombre en el
+#            indice, sesion 3 continuacion)
 # Creado:    2026-07-06
 # =============================================================================
 
@@ -96,7 +99,9 @@ indice <- diputados |>
   transmute(
     id              = diputado_id,
     nombre          = nombre,
+    sexo            = sexo,
     partido         = partido_id,
+    partido_nombre  = partido_nombre,
     distrito        = distrito,
     region          = region,
     tendencia       = tendencia,
