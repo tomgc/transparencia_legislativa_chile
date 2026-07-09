@@ -3,14 +3,18 @@
 # -----------------------------------------------------------------------------
 # Proposito: Fusionar las tablas intermedias (diputados, asistencia, votos,
 #            proyectos) en los JSON estaticos que consume el dashboard:
-#              - 40_salidas/json/indice_diputados.json  (selector)
+#              - 40_salidas/json/indice_diputados.json  (selector, con metricas
+#                resumen por diputado: tasa_asistencia, n_proyectos, n_votaciones)
 #              - 40_salidas/json/perfiles/<id>.json      (uno por diputado)
 #            Claves ordenadas, indentacion fija, UTF-8 (POLITICA 2, 5.5).
+#            Publica ademas una copia en docs/data/ para GitHub Pages (Fase 2).
 # Insumos:   40_salidas/intermedios/{diputados,asistencia,votos,proyectos}.rds
-# Salidas:   40_salidas/json/ (indice + perfiles/).
+# Salidas:   40_salidas/json/ (indice + perfiles/, canonico) y docs/data/
+#            (indice + perfiles/, publicacion; copia fiel de 40_salidas/json/).
 # Validacion: NAs en llaves, totales pre/post join, rango de tasa, dominio de
 #            sentido del voto (POLITICA 5.3.8).
-# Autor:     Claude Code (encargo autonomo, sesion 1)
+# Autor:     Claude Code (encargo autonomo, sesion 1; metricas resumen +
+#            publicacion docs/data, sesion 3)
 # Creado:    2026-07-06
 # =============================================================================
 
@@ -66,16 +70,39 @@ cobertura(asistencia, "Asistencia")
 cobertura(votos,      "Votaciones")
 cobertura(proyectos,  "Proyectos")
 
-# ---- indice_diputados.json (lista minima para el selector) ------------------
+# ---- Metricas resumen por diputado (para el indice) --------------------------
+# left_join sobre el roster (nunca inner_join): un diputado sin votos/proyectos
+# debe quedar con 0, no desaparecer del indice. tasa_asistencia queda NA si el
+# diputado no tiene fila en asistencia (mismo criterio que el bloque de perfil).
+resumen_asistencia <- asistencia |>
+  select(diputado_id, tasa_asistencia)
+
+resumen_votos <- votos |>
+  summarise(n_votaciones = n(), .by = diputado_id)
+
+resumen_proyectos <- proyectos |>
+  summarise(n_proyectos = n(), .by = diputado_id)
+
+# ---- indice_diputados.json (lista minima para el selector, con metricas) ----
 indice <- diputados |>
+  left_join(resumen_asistencia, by = "diputado_id") |>
+  left_join(resumen_votos,      by = "diputado_id") |>
+  left_join(resumen_proyectos,  by = "diputado_id") |>
+  mutate(
+    n_votaciones = coalesce(n_votaciones, 0L),
+    n_proyectos  = coalesce(n_proyectos, 0L)
+  ) |>
   arrange(nombre) |>
   transmute(
-    id        = diputado_id,
-    nombre    = nombre,
-    partido   = partido_id,
-    distrito  = distrito,
-    region    = region,
-    tendencia = tendencia
+    id              = diputado_id,
+    nombre          = nombre,
+    partido         = partido_id,
+    distrito        = distrito,
+    region          = region,
+    tendencia       = tendencia,
+    tasa_asistencia = tasa_asistencia,
+    n_proyectos     = n_proyectos,
+    n_votaciones    = n_votaciones
   )
 
 fs::dir_create(ruta_json())
@@ -184,3 +211,25 @@ if (length(archivos_perfil) != nrow(indice))
                nrow(indice), length(archivos_perfil)))
 
 log_msg("Consolidacion JSON completada.", origen = "39_consolidar")
+
+# ---- Publicar copia en docs/data/ (GitHub Pages sirve desde /docs) ----------
+# 40_salidas/json/ sigue siendo el output canonico; docs/data/ es su
+# publicacion (copia fiel, hecha en R, nunca a mano). Idempotente: limpia
+# docs/data/perfiles/ antes de copiar, igual que ya se hace con los perfiles
+# canonicos.
+ruta_docs_data <- function(...) file.path(ROOT, "docs", "data", ...)
+fs::dir_create(ruta_docs_data("perfiles"))
+
+antiguos_docs <- fs::dir_ls(ruta_docs_data("perfiles"), glob = "*.json", fail = FALSE)
+if (length(antiguos_docs) > 0) fs::file_delete(antiguos_docs)
+
+fs::file_copy(ruta_json("indice_diputados.json"),
+              ruta_docs_data("indice_diputados.json"), overwrite = TRUE)
+fs::file_copy(archivos_perfil, ruta_docs_data("perfiles"), overwrite = TRUE)
+
+archivos_perfil_docs <- fs::dir_ls(ruta_docs_data("perfiles"), glob = "*.json")
+log_msg(sprintf("Publicado en docs/data/: indice + %d perfiles.",
+                length(archivos_perfil_docs)), origen = "39_consolidar")
+if (length(archivos_perfil_docs) != nrow(indice))
+  stop(sprintf("39_consolidar: DESAJUSTE docs/data perfiles (%d) vs indice (%d).",
+               length(archivos_perfil_docs), nrow(indice)))

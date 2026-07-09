@@ -5,7 +5,10 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 0.982758620689655,
+    "n_proyectos": 2,
+    "n_votaciones": 672
   },
   {
     "id": "1257",
@@ -13,7 +16,10 @@
     "partido": "UDI",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 0.95,
+    "n_proyectos": 15,
+    "n_votaciones": 360
   },
   {
     "id": "1013",
@@ -21,7 +27,10 @@
     "partido": "PL",
     "distrito": null,
     "region": null,
-    "tendencia": "centroizquierda"
+    "tendencia": "centroizquierda",
+    "tasa_asistencia": 0.982758620689655,
+    "n_proyectos": 14,
+    "n_votaciones": 672
   },
   {
     "id": "1245",
@@ -29,7 +38,10 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 1,
+    "n_proyectos": 1,
+    "n_votaciones": 360
   },
   {
     "id": "1230",
@@ -37,7 +49,10 @@
     "partido": "PDG",
     "distrito": null,
     "region": null,
-    "tendencia": "centro"
+    "tendencia": "centro",
+    "tasa_asistencia": 1,
+    "n_proyectos": 4,
+    "n_votaciones": 360
   },
   {
     "id": "1128",
@@ -45,7 +60,10 @@
     "partido": "PAH",
     "distrito": null,
     "region": null,
-    "tendencia": "izquierda"
+    "tendencia": "izquierda",
+    "tasa_asistencia": 0.948275862068966,
+    "n_proyectos": 24,
+    "n_votaciones": 672
   },
   {
     "id": "1222",
@@ -53,7 +71,10 @@
     "partido": "PS",
     "distrito": null,
     "region": null,
-    "tendencia": "centroizquierda"
+    "tendencia": "centroizquierda",
+    "tasa_asistencia": 0.95,
+    "n_proyectos": 4,
+    "n_votaciones": 360
   },
   {
     "id": "1061",
@@ -61,7 +82,10 @@
     "partido": "PPD",
     "distrito": null,
     "region": null,
-    "tendencia": "centroizquierda"
+    "tendencia": "centroizquierda",
+    "tasa_asistencia": 1,
+    "n_proyectos": 13,
+    "n_votaciones": 360
   },
   {
     "id": "1021",
@@ -69,7 +93,10 @@
     "partido": "RN",
     "distrito": null,
     "region": null,
-    "tendencia": "centroderecha"
+    "tendencia": "centroderecha",
+    "tasa_asistencia": 0.948275862068966,
+    "n_proyectos": 17,
+    "n_votaciones": 672
   },
   {
     "id": "1221",
@@ -77,7 +104,10 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 1,
+    "n_proyectos": 2,
+    "n_votaciones": 360
   },
   {
     "id": "1150",
@@ -85,7 +115,10 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 1,
+    "n_proyectos": 3,
+    "n_votaciones": 672
   },
   {
     "id": "1250",
@@ -93,7 +126,10 @@
     "partido": "IND",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": null,
+    "tasa_asistencia": 1,
+    "n_proyectos": 2,
+    "n_votaciones": 360
   },
   {
     "id": "1012",
@@ -101,7 +137,10 @@
     "partido": "PC",
     "distrito": null,
     "region": null,
-    "tendencia": "izquierda"
+    "tendencia": "izquierda",
+    "tasa_asistencia": 1,
+    "n_proyectos": 8,
+    "n_votaciones": 672
   },
   {
     "id": "1187",
@@ -109,7 +148,10 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 1,
+    "n_proyectos": 1,
+    "n_votaciones": 360
   },
   {
     "id": "1110",
@@ -117,7 +159,10 @@
     "partido": "IND",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": null,
+    "tasa_asistencia": 0.96551724137931,
+    "n_proyectos": 14,
+    "n_votaciones": 672
   },
   {
     "id": "1195",
@@ -125,7 +170,10 @@
     "partido": "IND",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": null,
+    "tasa_asistencia": 1,
+    "n_proyectos": 12,
+    "n_votaciones": 360
   },
   {
     "id": "1197",
@@ -133,7 +181,10 @@
     "partido": "RN",
     "distrito": null,
     "region": null,
-    "tendencia": "centroderecha"
+    "tendencia": "centroderecha",
+    "tasa_asistencia": 1,
+    "n_proyectos": 11,
+    "n_votaciones": 360
   },
   {
     "id": "1205",
@@ -141,7 +192,10 @@
     "partido": "PPD",
     "distrito": null,
     "region": null,
-    "tendencia": "centroizquierda"
+    "tendencia": "centroizquierda",
+    "tasa_asistencia": 0.975,
+    "n_proyectos": 14,
+    "n_votaciones": 360
   },
   {
     "id": "1206",
@@ -149,7 +203,10 @@
     "partido": "IND",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": null,
+    "tasa_asistencia": 1,
+    "n_proyectos": 7,
+    "n_votaciones": 360
   },
   {
     "id": "1177",
@@ -157,7 +214,10 @@
     "partido": "FA",
     "distrito": null,
     "region": null,
-    "tendencia": "izquierda"
+    "tendencia": "izquierda",
+    "tasa_asistencia": 0.96551724137931,
+    "n_proyectos": 14,
+    "n_votaciones": 672
   },
   {
     "id": "1025",
@@ -165,7 +225,10 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 0.827586206896552,
+    "n_proyectos": 5,
+    "n_votaciones": 672
   },
   {
     "id": "1104",
@@ -173,7 +236,10 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 0.982758620689655,
+    "n_proyectos": 6,
+    "n_votaciones": 672
   },
   {
     "id": "1227",
@@ -181,7 +247,10 @@
     "partido": "RN",
     "distrito": null,
     "region": null,
-    "tendencia": "centroderecha"
+    "tendencia": "centroderecha",
+    "tasa_asistencia": 0.95,
+    "n_proyectos": 12,
+    "n_votaciones": 360
   },
   {
     "id": "1244",
@@ -189,7 +258,10 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 1,
+    "n_proyectos": 4,
+    "n_votaciones": 360
   },
   {
     "id": "1153",
@@ -197,7 +269,10 @@
     "partido": "FA",
     "distrito": null,
     "region": null,
-    "tendencia": "izquierda"
+    "tendencia": "izquierda",
+    "tasa_asistencia": 0.862068965517241,
+    "n_proyectos": 7,
+    "n_votaciones": 672
   },
   {
     "id": "1214",
@@ -205,7 +280,10 @@
     "partido": "UDI",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 1,
+    "n_proyectos": 3,
+    "n_votaciones": 360
   },
   {
     "id": "1252",
@@ -213,7 +291,10 @@
     "partido": "FA",
     "distrito": null,
     "region": null,
-    "tendencia": "izquierda"
+    "tendencia": "izquierda",
+    "tasa_asistencia": 1,
+    "n_proyectos": 2,
+    "n_votaciones": 360
   },
   {
     "id": "1180",
@@ -221,7 +302,10 @@
     "partido": "FA",
     "distrito": null,
     "region": null,
-    "tendencia": "izquierda"
+    "tendencia": "izquierda",
+    "tasa_asistencia": 0.982758620689655,
+    "n_proyectos": 15,
+    "n_votaciones": 672
   },
   {
     "id": "1200",
@@ -229,7 +313,10 @@
     "partido": "PDG",
     "distrito": null,
     "region": null,
-    "tendencia": "centro"
+    "tendencia": "centro",
+    "tasa_asistencia": 0.95,
+    "n_proyectos": 11,
+    "n_votaciones": 360
   },
   {
     "id": "1224",
@@ -237,7 +324,10 @@
     "partido": "DC",
     "distrito": null,
     "region": null,
-    "tendencia": "centro"
+    "tendencia": "centro",
+    "tasa_asistencia": 1,
+    "n_proyectos": 12,
+    "n_votaciones": 360
   },
   {
     "id": "1225",
@@ -245,7 +335,10 @@
     "partido": "IND",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": null,
+    "tasa_asistencia": 1,
+    "n_proyectos": 2,
+    "n_votaciones": 360
   },
   {
     "id": "1232",
@@ -253,7 +346,10 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 1,
+    "n_proyectos": 2,
+    "n_votaciones": 360
   },
   {
     "id": "1100",
@@ -261,7 +357,10 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 0.931034482758621,
+    "n_proyectos": 5,
+    "n_votaciones": 672
   },
   {
     "id": "1175",
@@ -269,7 +368,10 @@
     "partido": "IND",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": null,
+    "tasa_asistencia": 0.96551724137931,
+    "n_proyectos": 10,
+    "n_votaciones": 672
   },
   {
     "id": "1143",
@@ -277,7 +379,10 @@
     "partido": "UDI",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 0.931034482758621,
+    "n_proyectos": 14,
+    "n_votaciones": 672
   },
   {
     "id": "1082",
@@ -285,7 +390,10 @@
     "partido": "PNL",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 0.96551724137931,
+    "n_proyectos": 6,
+    "n_votaciones": 672
   },
   {
     "id": "1260",
@@ -293,7 +401,10 @@
     "partido": "PS",
     "distrito": null,
     "region": null,
-    "tendencia": "centroizquierda"
+    "tendencia": "centroizquierda",
+    "tasa_asistencia": 1,
+    "n_proyectos": 8,
+    "n_votaciones": 360
   },
   {
     "id": "1194",
@@ -301,7 +412,10 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 1,
+    "n_proyectos": 1,
+    "n_votaciones": 360
   },
   {
     "id": "1140",
@@ -309,7 +423,10 @@
     "partido": "UDI",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 0.982758620689655,
+    "n_proyectos": 14,
+    "n_votaciones": 672
   },
   {
     "id": "1142",
@@ -317,7 +434,10 @@
     "partido": "PS",
     "distrito": null,
     "region": null,
-    "tendencia": "centroizquierda"
+    "tendencia": "centroizquierda",
+    "tasa_asistencia": 0.948275862068966,
+    "n_proyectos": 6,
+    "n_votaciones": 672
   },
   {
     "id": "1261",
@@ -325,7 +445,10 @@
     "partido": "IND",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": null,
+    "tasa_asistencia": 0.925,
+    "n_proyectos": 10,
+    "n_votaciones": 360
   },
   {
     "id": "1173",
@@ -333,7 +456,10 @@
     "partido": "PC",
     "distrito": null,
     "region": null,
-    "tendencia": "izquierda"
+    "tendencia": "izquierda",
+    "tasa_asistencia": 0.982758620689655,
+    "n_proyectos": 10,
+    "n_votaciones": 672
   },
   {
     "id": "1075",
@@ -341,7 +467,10 @@
     "partido": "RN",
     "distrito": null,
     "region": null,
-    "tendencia": "centroderecha"
+    "tendencia": "centroderecha",
+    "tasa_asistencia": 0.862068965517241,
+    "n_proyectos": 9,
+    "n_votaciones": 672
   },
   {
     "id": "1262",
@@ -349,7 +478,10 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 1,
+    "n_proyectos": 0,
+    "n_votaciones": 360
   },
   {
     "id": "1202",
@@ -357,7 +489,10 @@
     "partido": "UDI",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 1,
+    "n_proyectos": 10,
+    "n_votaciones": 360
   },
   {
     "id": "1028",
@@ -365,7 +500,10 @@
     "partido": "RN",
     "distrito": null,
     "region": null,
-    "tendencia": "centroderecha"
+    "tendencia": "centroderecha",
+    "tasa_asistencia": 1,
+    "n_proyectos": 20,
+    "n_votaciones": 672
   },
   {
     "id": "1255",
@@ -373,7 +511,10 @@
     "partido": "PDG",
     "distrito": null,
     "region": null,
-    "tendencia": "centro"
+    "tendencia": "centro",
+    "tasa_asistencia": 1,
+    "n_proyectos": 10,
+    "n_votaciones": 360
   },
   {
     "id": "1056",
@@ -381,7 +522,10 @@
     "partido": "PS",
     "distrito": null,
     "region": null,
-    "tendencia": "centroizquierda"
+    "tendencia": "centroizquierda",
+    "tasa_asistencia": 1,
+    "n_proyectos": 5,
+    "n_votaciones": 672
   },
   {
     "id": "1171",
@@ -389,7 +533,10 @@
     "partido": "FA",
     "distrito": null,
     "region": null,
-    "tendencia": "izquierda"
+    "tendencia": "izquierda",
+    "tasa_asistencia": 1,
+    "n_proyectos": 8,
+    "n_votaciones": 672
   },
   {
     "id": "1190",
@@ -397,7 +544,10 @@
     "partido": "IND",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": null,
+    "tasa_asistencia": 1,
+    "n_proyectos": 3,
+    "n_votaciones": 360
   },
   {
     "id": "1212",
@@ -405,7 +555,10 @@
     "partido": "PNL",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 0.925,
+    "n_proyectos": 1,
+    "n_votaciones": 360
   },
   {
     "id": "1239",
@@ -413,7 +566,10 @@
     "partido": "PDG",
     "distrito": null,
     "region": null,
-    "tendencia": "centro"
+    "tendencia": "centro",
+    "tasa_asistencia": 1,
+    "n_proyectos": 8,
+    "n_votaciones": 360
   },
   {
     "id": "1116",
@@ -421,7 +577,10 @@
     "partido": "IND",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": null,
+    "tasa_asistencia": 0.879310344827586,
+    "n_proyectos": 15,
+    "n_votaciones": 672
   },
   {
     "id": "1248",
@@ -429,7 +588,10 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 0.95,
+    "n_proyectos": 2,
+    "n_votaciones": 360
   },
   {
     "id": "1253",
@@ -437,7 +599,10 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 1,
+    "n_proyectos": 2,
+    "n_votaciones": 360
   },
   {
     "id": "1264",
@@ -445,7 +610,10 @@
     "partido": "PPD",
     "distrito": null,
     "region": null,
-    "tendencia": "centroizquierda"
+    "tendencia": "centroizquierda",
+    "tasa_asistencia": 1,
+    "n_proyectos": 8,
+    "n_votaciones": 360
   },
   {
     "id": "1201",
@@ -453,7 +621,10 @@
     "partido": "PDG",
     "distrito": null,
     "region": null,
-    "tendencia": "centro"
+    "tendencia": "centro",
+    "tasa_asistencia": 1,
+    "n_proyectos": 6,
+    "n_votaciones": 360
   },
   {
     "id": "1183",
@@ -461,7 +632,10 @@
     "partido": "UDI",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 0.931034482758621,
+    "n_proyectos": 10,
+    "n_votaciones": 672
   },
   {
     "id": "1054",
@@ -469,7 +643,10 @@
     "partido": "PSC",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 0.948275862068966,
+    "n_proyectos": 5,
+    "n_votaciones": 672
   },
   {
     "id": "1204",
@@ -477,7 +654,10 @@
     "partido": "PS",
     "distrito": null,
     "region": null,
-    "tendencia": "centroizquierda"
+    "tendencia": "centroizquierda",
+    "tasa_asistencia": 1,
+    "n_proyectos": 1,
+    "n_votaciones": 360
   },
   {
     "id": "1237",
@@ -485,7 +665,10 @@
     "partido": "RN",
     "distrito": null,
     "region": null,
-    "tendencia": "centroderecha"
+    "tendencia": "centroderecha",
+    "tasa_asistencia": 1,
+    "n_proyectos": 8,
+    "n_votaciones": 360
   },
   {
     "id": "1114",
@@ -493,7 +676,10 @@
     "partido": "FA",
     "distrito": null,
     "region": null,
-    "tendencia": "izquierda"
+    "tendencia": "izquierda",
+    "tasa_asistencia": 0.982758620689655,
+    "n_proyectos": 5,
+    "n_votaciones": 672
   },
   {
     "id": "1087",
@@ -501,7 +687,10 @@
     "partido": "FA",
     "distrito": null,
     "region": null,
-    "tendencia": "izquierda"
+    "tendencia": "izquierda",
+    "tasa_asistencia": 0.982758620689655,
+    "n_proyectos": 11,
+    "n_votaciones": 672
   },
   {
     "id": "915",
@@ -509,7 +698,10 @@
     "partido": "PNL",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 1,
+    "n_proyectos": 1,
+    "n_votaciones": 360
   },
   {
     "id": "1152",
@@ -517,7 +709,10 @@
     "partido": "PNL",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 0.758620689655172,
+    "n_proyectos": 4,
+    "n_votaciones": 672
   },
   {
     "id": "1086",
@@ -525,7 +720,10 @@
     "partido": "FA",
     "distrito": null,
     "region": null,
-    "tendencia": "izquierda"
+    "tendencia": "izquierda",
+    "tasa_asistencia": 0.896551724137931,
+    "n_proyectos": 8,
+    "n_votaciones": 672
   },
   {
     "id": "1065",
@@ -533,7 +731,10 @@
     "partido": "UDI",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 0.948275862068966,
+    "n_proyectos": 9,
+    "n_votaciones": 672
   },
   {
     "id": "1258",
@@ -541,7 +742,10 @@
     "partido": "PDG",
     "distrito": null,
     "region": null,
-    "tendencia": "centro"
+    "tendencia": "centro",
+    "tasa_asistencia": 1,
+    "n_proyectos": 8,
+    "n_votaciones": 360
   },
   {
     "id": "1210",
@@ -549,7 +753,10 @@
     "partido": "IND",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": null,
+    "tasa_asistencia": 1,
+    "n_proyectos": 4,
+    "n_votaciones": 360
   },
   {
     "id": "1223",
@@ -557,7 +764,10 @@
     "partido": "PNL",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 1,
+    "n_proyectos": 7,
+    "n_votaciones": 360
   },
   {
     "id": "1176",
@@ -565,7 +775,10 @@
     "partido": "IND",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": null,
+    "tasa_asistencia": 0.96551724137931,
+    "n_proyectos": 13,
+    "n_votaciones": 672
   },
   {
     "id": "1105",
@@ -573,7 +786,10 @@
     "partido": "DC",
     "distrito": null,
     "region": null,
-    "tendencia": "centro"
+    "tendencia": "centro",
+    "tasa_asistencia": 0.931034482758621,
+    "n_proyectos": 9,
+    "n_votaciones": 672
   },
   {
     "id": "1178",
@@ -581,7 +797,10 @@
     "partido": "IND",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": null,
+    "tasa_asistencia": 1,
+    "n_proyectos": 19,
+    "n_votaciones": 672
   },
   {
     "id": "1186",
@@ -589,7 +808,10 @@
     "partido": "FA",
     "distrito": null,
     "region": null,
-    "tendencia": "izquierda"
+    "tendencia": "izquierda",
+    "tasa_asistencia": 1,
+    "n_proyectos": 4,
+    "n_votaciones": 360
   },
   {
     "id": "1254",
@@ -597,7 +819,10 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 1,
+    "n_proyectos": 2,
+    "n_votaciones": 360
   },
   {
     "id": "1213",
@@ -605,7 +830,10 @@
     "partido": "PC",
     "distrito": null,
     "region": null,
-    "tendencia": "izquierda"
+    "tendencia": "izquierda",
+    "tasa_asistencia": 1,
+    "n_proyectos": 10,
+    "n_votaciones": 360
   },
   {
     "id": "1099",
@@ -613,7 +841,10 @@
     "partido": "IND",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": null,
+    "tasa_asistencia": 0.948275862068966,
+    "n_proyectos": 15,
+    "n_votaciones": 672
   },
   {
     "id": "1189",
@@ -621,7 +852,10 @@
     "partido": "FA",
     "distrito": null,
     "region": null,
-    "tendencia": "izquierda"
+    "tendencia": "izquierda",
+    "tasa_asistencia": 1,
+    "n_proyectos": 6,
+    "n_votaciones": 360
   },
   {
     "id": "1199",
@@ -629,7 +863,10 @@
     "partido": "UDI",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 1,
+    "n_proyectos": 9,
+    "n_votaciones": 360
   },
   {
     "id": "872",
@@ -637,7 +874,10 @@
     "partido": "FRVS",
     "distrito": null,
     "region": null,
-    "tendencia": "izquierda"
+    "tendencia": "izquierda",
+    "tasa_asistencia": 0.948275862068966,
+    "n_proyectos": 9,
+    "n_votaciones": 672
   },
   {
     "id": "1229",
@@ -645,7 +885,10 @@
     "partido": "DC",
     "distrito": null,
     "region": null,
-    "tendencia": "centro"
+    "tendencia": "centro",
+    "tasa_asistencia": 1,
+    "n_proyectos": 3,
+    "n_votaciones": 360
   },
   {
     "id": "1235",
@@ -653,7 +896,10 @@
     "partido": "PDG",
     "distrito": null,
     "region": null,
-    "tendencia": "centro"
+    "tendencia": "centro",
+    "tasa_asistencia": 1,
+    "n_proyectos": 14,
+    "n_votaciones": 360
   },
   {
     "id": "1148",
@@ -661,7 +907,10 @@
     "partido": "FA",
     "distrito": null,
     "region": null,
-    "tendencia": "izquierda"
+    "tendencia": "izquierda",
+    "tasa_asistencia": 0.327586206896552,
+    "n_proyectos": 7,
+    "n_votaciones": 672
   },
   {
     "id": "1247",
@@ -669,7 +918,10 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 1,
+    "n_proyectos": 4,
+    "n_votaciones": 360
   },
   {
     "id": "1062",
@@ -677,7 +929,10 @@
     "partido": "DEM",
     "distrito": null,
     "region": null,
-    "tendencia": "centro"
+    "tendencia": "centro",
+    "tasa_asistencia": 0.931034482758621,
+    "n_proyectos": 9,
+    "n_votaciones": 672
   },
   {
     "id": "1009",
@@ -685,7 +940,10 @@
     "partido": "UDI",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 0.896551724137931,
+    "n_proyectos": 4,
+    "n_votaciones": 672
   },
   {
     "id": "1015",
@@ -693,7 +951,10 @@
     "partido": "FA",
     "distrito": null,
     "region": null,
-    "tendencia": "izquierda"
+    "tendencia": "izquierda",
+    "tasa_asistencia": 0.982758620689655,
+    "n_proyectos": 4,
+    "n_votaciones": 672
   },
   {
     "id": "1208",
@@ -701,7 +962,10 @@
     "partido": "DC",
     "distrito": null,
     "region": null,
-    "tendencia": "centro"
+    "tendencia": "centro",
+    "tasa_asistencia": 0.975,
+    "n_proyectos": 7,
+    "n_votaciones": 360
   },
   {
     "id": "1132",
@@ -709,7 +973,10 @@
     "partido": "EVOP",
     "distrito": null,
     "region": null,
-    "tendencia": "centroderecha"
+    "tendencia": "centroderecha",
+    "tasa_asistencia": 0.982758620689655,
+    "n_proyectos": 8,
+    "n_votaciones": 672
   },
   {
     "id": "1218",
@@ -717,7 +984,10 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 1,
+    "n_proyectos": 3,
+    "n_votaciones": 360
   },
   {
     "id": "1246",
@@ -725,7 +995,10 @@
     "partido": "PS",
     "distrito": null,
     "region": null,
-    "tendencia": "centroizquierda"
+    "tendencia": "centroizquierda",
+    "tasa_asistencia": 0.975,
+    "n_proyectos": 1,
+    "n_votaciones": 360
   },
   {
     "id": "1146",
@@ -733,7 +1006,10 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 0.96551724137931,
+    "n_proyectos": 3,
+    "n_votaciones": 672
   },
   {
     "id": "1226",
@@ -741,7 +1017,10 @@
     "partido": "IND",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": null,
+    "tasa_asistencia": 0.925,
+    "n_proyectos": 12,
+    "n_votaciones": 360
   },
   {
     "id": "1108",
@@ -749,7 +1028,10 @@
     "partido": "RN",
     "distrito": null,
     "region": null,
-    "tendencia": "centroderecha"
+    "tendencia": "centroderecha",
+    "tasa_asistencia": 0.913793103448276,
+    "n_proyectos": 11,
+    "n_votaciones": 672
   },
   {
     "id": "1133",
@@ -757,7 +1039,10 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 0.896551724137931,
+    "n_proyectos": 5,
+    "n_votaciones": 672
   },
   {
     "id": "1259",
@@ -765,7 +1050,10 @@
     "partido": "PDG",
     "distrito": null,
     "region": null,
-    "tendencia": "centro"
+    "tendencia": "centro",
+    "tasa_asistencia": 0.975,
+    "n_proyectos": 11,
+    "n_votaciones": 360
   },
   {
     "id": "1073",
@@ -773,7 +1061,10 @@
     "partido": "PS",
     "distrito": null,
     "region": null,
-    "tendencia": "centroizquierda"
+    "tendencia": "centroizquierda",
+    "tasa_asistencia": 0.982758620689655,
+    "n_proyectos": 8,
+    "n_votaciones": 672
   },
   {
     "id": "1220",
@@ -781,7 +1072,10 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 1,
+    "n_proyectos": 3,
+    "n_votaciones": 360
   },
   {
     "id": "1192",
@@ -789,7 +1083,10 @@
     "partido": "PDG",
     "distrito": null,
     "region": null,
-    "tendencia": "centro"
+    "tendencia": "centro",
+    "tasa_asistencia": 0.775,
+    "n_proyectos": 6,
+    "n_votaciones": 360
   },
   {
     "id": "1127",
@@ -797,7 +1094,10 @@
     "partido": "FA",
     "distrito": null,
     "region": null,
-    "tendencia": "izquierda"
+    "tendencia": "izquierda",
+    "tasa_asistencia": 0.96551724137931,
+    "n_proyectos": 8,
+    "n_votaciones": 672
   },
   {
     "id": "1159",
@@ -805,7 +1105,10 @@
     "partido": "PC",
     "distrito": null,
     "region": null,
-    "tendencia": "izquierda"
+    "tendencia": "izquierda",
+    "tasa_asistencia": 0.896551724137931,
+    "n_proyectos": 7,
+    "n_votaciones": 672
   },
   {
     "id": "1122",
@@ -813,7 +1116,10 @@
     "partido": "PC",
     "distrito": null,
     "region": null,
-    "tendencia": "izquierda"
+    "tendencia": "izquierda",
+    "tasa_asistencia": 1,
+    "n_proyectos": 16,
+    "n_votaciones": 672
   },
   {
     "id": "1141",
@@ -821,7 +1127,10 @@
     "partido": "PL",
     "distrito": null,
     "region": null,
-    "tendencia": "centroizquierda"
+    "tendencia": "centroizquierda",
+    "tasa_asistencia": 1,
+    "n_proyectos": 17,
+    "n_votaciones": 672
   },
   {
     "id": "1060",
@@ -829,7 +1138,10 @@
     "partido": "RN",
     "distrito": null,
     "region": null,
-    "tendencia": "centroderecha"
+    "tendencia": "centroderecha",
+    "tasa_asistencia": 0.975,
+    "n_proyectos": 6,
+    "n_votaciones": 360
   },
   {
     "id": "1170",
@@ -837,7 +1149,10 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 1,
+    "n_proyectos": 3,
+    "n_votaciones": 672
   },
   {
     "id": "1251",
@@ -845,7 +1160,10 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 0.925,
+    "n_proyectos": 6,
+    "n_votaciones": 360
   },
   {
     "id": "986",
@@ -853,7 +1171,10 @@
     "partido": "PR",
     "distrito": null,
     "region": null,
-    "tendencia": "centroizquierda"
+    "tendencia": "centroizquierda",
+    "tasa_asistencia": 1,
+    "n_proyectos": 11,
+    "n_votaciones": 360
   },
   {
     "id": "1174",
@@ -861,7 +1182,10 @@
     "partido": "UDI",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 0.982758620689655,
+    "n_proyectos": 14,
+    "n_votaciones": 672
   },
   {
     "id": "1188",
@@ -869,7 +1193,10 @@
     "partido": "PC",
     "distrito": null,
     "region": null,
-    "tendencia": "izquierda"
+    "tendencia": "izquierda",
+    "tasa_asistencia": 1,
+    "n_proyectos": 6,
+    "n_votaciones": 360
   },
   {
     "id": "1038",
@@ -877,7 +1204,10 @@
     "partido": "PS",
     "distrito": null,
     "region": null,
-    "tendencia": "centroizquierda"
+    "tendencia": "centroizquierda",
+    "tasa_asistencia": 0.913793103448276,
+    "n_proyectos": 4,
+    "n_votaciones": 672
   },
   {
     "id": "1234",
@@ -885,7 +1215,10 @@
     "partido": "UDI",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 0.875,
+    "n_proyectos": 16,
+    "n_votaciones": 360
   },
   {
     "id": "1074",
@@ -893,7 +1226,10 @@
     "partido": "IND",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": null,
+    "tasa_asistencia": 0.648148148148148,
+    "n_proyectos": 13,
+    "n_votaciones": 672
   },
   {
     "id": "1157",
@@ -901,7 +1237,10 @@
     "partido": "IND",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": null,
+    "tasa_asistencia": 1,
+    "n_proyectos": 16,
+    "n_votaciones": 672
   },
   {
     "id": "1107",
@@ -909,7 +1248,10 @@
     "partido": "FA",
     "distrito": null,
     "region": null,
-    "tendencia": "izquierda"
+    "tendencia": "izquierda",
+    "tasa_asistencia": 0.0344827586206897,
+    "n_proyectos": 10,
+    "n_votaciones": 672
   },
   {
     "id": "1209",
@@ -917,7 +1259,10 @@
     "partido": "FA",
     "distrito": null,
     "region": null,
-    "tendencia": "izquierda"
+    "tendencia": "izquierda",
+    "tasa_asistencia": 1,
+    "n_proyectos": 7,
+    "n_votaciones": 360
   },
   {
     "id": "1131",
@@ -925,7 +1270,10 @@
     "partido": "RN",
     "distrito": null,
     "region": null,
-    "tendencia": "centroderecha"
+    "tendencia": "centroderecha",
+    "tasa_asistencia": 0.844827586206897,
+    "n_proyectos": 8,
+    "n_votaciones": 672
   },
   {
     "id": "1166",
@@ -933,7 +1281,10 @@
     "partido": "IND",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": null,
+    "tasa_asistencia": 1,
+    "n_proyectos": 8,
+    "n_votaciones": 672
   },
   {
     "id": "1117",
@@ -941,7 +1292,10 @@
     "partido": "PC",
     "distrito": null,
     "region": null,
-    "tendencia": "izquierda"
+    "tendencia": "izquierda",
+    "tasa_asistencia": 0.775862068965517,
+    "n_proyectos": 11,
+    "n_votaciones": 672
   },
   {
     "id": "1181",
@@ -949,7 +1303,10 @@
     "partido": "PS",
     "distrito": null,
     "region": null,
-    "tendencia": "centroizquierda"
+    "tendencia": "centroizquierda",
+    "tasa_asistencia": 0.913793103448276,
+    "n_proyectos": 4,
+    "n_votaciones": 672
   },
   {
     "id": "1249",
@@ -957,7 +1314,10 @@
     "partido": "IND",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": null,
+    "tasa_asistencia": 1,
+    "n_proyectos": 13,
+    "n_votaciones": 360
   },
   {
     "id": "1039",
@@ -965,7 +1325,10 @@
     "partido": "PDG",
     "distrito": null,
     "region": null,
-    "tendencia": "centro"
+    "tendencia": "centro",
+    "tasa_asistencia": 1,
+    "n_proyectos": 10,
+    "n_votaciones": 672
   },
   {
     "id": "1193",
@@ -973,7 +1336,10 @@
     "partido": "PDG",
     "distrito": null,
     "region": null,
-    "tendencia": "centro"
+    "tendencia": "centro",
+    "tasa_asistencia": 1,
+    "n_proyectos": 22,
+    "n_votaciones": 360
   },
   {
     "id": "1241",
@@ -981,7 +1347,10 @@
     "partido": "DC",
     "distrito": null,
     "region": null,
-    "tendencia": "centro"
+    "tendencia": "centro",
+    "tasa_asistencia": 1,
+    "n_proyectos": 12,
+    "n_votaciones": 360
   },
   {
     "id": "1236",
@@ -989,7 +1358,10 @@
     "partido": "PDG",
     "distrito": null,
     "region": null,
-    "tendencia": "centro"
+    "tendencia": "centro",
+    "tasa_asistencia": 0.95,
+    "n_proyectos": 13,
+    "n_votaciones": 360
   },
   {
     "id": "1228",
@@ -997,7 +1369,10 @@
     "partido": "PNL",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 1,
+    "n_proyectos": 6,
+    "n_votaciones": 360
   },
   {
     "id": "1198",
@@ -1005,7 +1380,10 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 1,
+    "n_proyectos": 0,
+    "n_votaciones": 360
   },
   {
     "id": "1217",
@@ -1013,7 +1391,10 @@
     "partido": "PNL",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 0.95,
+    "n_proyectos": 11,
+    "n_votaciones": 360
   },
   {
     "id": "1196",
@@ -1021,7 +1402,10 @@
     "partido": "DC",
     "distrito": null,
     "region": null,
-    "tendencia": "centro"
+    "tendencia": "centro",
+    "tasa_asistencia": 1,
+    "n_proyectos": 4,
+    "n_votaciones": 360
   },
   {
     "id": "1044",
@@ -1029,7 +1413,10 @@
     "partido": "PS",
     "distrito": null,
     "region": null,
-    "tendencia": "centroizquierda"
+    "tendencia": "centroizquierda",
+    "tasa_asistencia": 1,
+    "n_proyectos": 6,
+    "n_votaciones": 672
   },
   {
     "id": "1077",
@@ -1037,7 +1424,10 @@
     "partido": "PPD",
     "distrito": null,
     "region": null,
-    "tendencia": "centroizquierda"
+    "tendencia": "centroizquierda",
+    "tasa_asistencia": 0.948275862068966,
+    "n_proyectos": 7,
+    "n_votaciones": 672
   },
   {
     "id": "803",
@@ -1045,7 +1435,10 @@
     "partido": "IND",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": null,
+    "tasa_asistencia": 0.96551724137931,
+    "n_proyectos": 1,
+    "n_votaciones": 672
   },
   {
     "id": "843",
@@ -1053,7 +1446,10 @@
     "partido": "RN",
     "distrito": null,
     "region": null,
-    "tendencia": "centroderecha"
+    "tendencia": "centroderecha",
+    "tasa_asistencia": 0.9,
+    "n_proyectos": 9,
+    "n_votaciones": 360
   },
   {
     "id": "1233",
@@ -1061,7 +1457,10 @@
     "partido": "UDI",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 1,
+    "n_proyectos": 7,
+    "n_votaciones": 360
   },
   {
     "id": "1102",
@@ -1069,7 +1468,10 @@
     "partido": "PSC",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 0.879310344827586,
+    "n_proyectos": 15,
+    "n_votaciones": 672
   },
   {
     "id": "1184",
@@ -1077,7 +1479,10 @@
     "partido": "IND",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": null,
+    "tasa_asistencia": 1,
+    "n_proyectos": 2,
+    "n_votaciones": 672
   },
   {
     "id": "1242",
@@ -1085,7 +1490,10 @@
     "partido": "IND",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": null,
+    "tasa_asistencia": 1,
+    "n_proyectos": 9,
+    "n_votaciones": 360
   },
   {
     "id": "1119",
@@ -1093,7 +1501,10 @@
     "partido": "PSC",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 1,
+    "n_proyectos": 7,
+    "n_votaciones": 672
   },
   {
     "id": "1203",
@@ -1101,7 +1512,10 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 1,
+    "n_proyectos": 2,
+    "n_votaciones": 360
   },
   {
     "id": "1182",
@@ -1109,7 +1523,10 @@
     "partido": "IND",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": null,
+    "tasa_asistencia": 0.982758620689655,
+    "n_proyectos": 10,
+    "n_votaciones": 672
   },
   {
     "id": "1263",
@@ -1117,7 +1534,10 @@
     "partido": "IND",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": null,
+    "tasa_asistencia": 1,
+    "n_proyectos": 3,
+    "n_votaciones": 360
   },
   {
     "id": "815",
@@ -1125,7 +1545,10 @@
     "partido": "UDI",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 0.982758620689655,
+    "n_proyectos": 9,
+    "n_votaciones": 672
   },
   {
     "id": "1211",
@@ -1133,7 +1556,10 @@
     "partido": "PC",
     "distrito": null,
     "region": null,
-    "tendencia": "izquierda"
+    "tendencia": "izquierda",
+    "tasa_asistencia": 1,
+    "n_proyectos": 6,
+    "n_votaciones": 360
   },
   {
     "id": "1172",
@@ -1141,7 +1567,10 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 0.913793103448276,
+    "n_proyectos": 1,
+    "n_votaciones": 672
   },
   {
     "id": "1216",
@@ -1149,7 +1578,10 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 0.95,
+    "n_proyectos": 2,
+    "n_votaciones": 360
   },
   {
     "id": "1243",
@@ -1157,7 +1589,10 @@
     "partido": "PDG",
     "distrito": null,
     "region": null,
-    "tendencia": "centro"
+    "tendencia": "centro",
+    "tasa_asistencia": 0.925,
+    "n_proyectos": 10,
+    "n_votaciones": 360
   },
   {
     "id": "1256",
@@ -1165,7 +1600,10 @@
     "partido": "FA",
     "distrito": null,
     "region": null,
-    "tendencia": "izquierda"
+    "tendencia": "izquierda",
+    "tasa_asistencia": 1,
+    "n_proyectos": 5,
+    "n_votaciones": 360
   },
   {
     "id": "1219",
@@ -1173,7 +1611,10 @@
     "partido": "EVOP",
     "distrito": null,
     "region": null,
-    "tendencia": "centroderecha"
+    "tendencia": "centroderecha",
+    "tasa_asistencia": 0.875,
+    "n_proyectos": 11,
+    "n_votaciones": 360
   },
   {
     "id": "1191",
@@ -1181,7 +1622,10 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 0.975,
+    "n_proyectos": 1,
+    "n_votaciones": 360
   },
   {
     "id": "1207",
@@ -1189,7 +1633,10 @@
     "partido": "IND",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": null,
+    "tasa_asistencia": 1,
+    "n_proyectos": 4,
+    "n_votaciones": 360
   },
   {
     "id": "1231",
@@ -1197,7 +1644,10 @@
     "partido": "IND",
     "distrito": null,
     "region": null,
-    "tendencia": null
+    "tendencia": null,
+    "tasa_asistencia": 1,
+    "n_proyectos": 16,
+    "n_votaciones": 360
   },
   {
     "id": "1059",
@@ -1205,7 +1655,10 @@
     "partido": "RN",
     "distrito": null,
     "region": null,
-    "tendencia": "centroderecha"
+    "tendencia": "centroderecha",
+    "tasa_asistencia": 1,
+    "n_proyectos": 26,
+    "n_votaciones": 672
   },
   {
     "id": "1240",
@@ -1213,7 +1666,10 @@
     "partido": "PDG",
     "distrito": null,
     "region": null,
-    "tendencia": "centro"
+    "tendencia": "centro",
+    "tasa_asistencia": 0.975,
+    "n_proyectos": 9,
+    "n_votaciones": 360
   },
   {
     "id": "1017",
@@ -1221,7 +1677,10 @@
     "partido": "PREP",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 1,
+    "n_proyectos": 3,
+    "n_votaciones": 672
   },
   {
     "id": "1215",
@@ -1229,7 +1688,10 @@
     "partido": "PNL",
     "distrito": null,
     "region": null,
-    "tendencia": "derecha"
+    "tendencia": "derecha",
+    "tasa_asistencia": 1,
+    "n_proyectos": 8,
+    "n_votaciones": 360
   },
   {
     "id": "1238",
@@ -1237,6 +1699,9 @@
     "partido": "DC",
     "distrito": null,
     "region": null,
-    "tendencia": "centro"
+    "tendencia": "centro",
+    "tasa_asistencia": 1,
+    "n_proyectos": 8,
+    "n_votaciones": 360
   }
 ]
