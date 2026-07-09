@@ -145,3 +145,28 @@ attr_nodo <- function(nodo, xpath, attr) {
   v <- xml2::xml_attr(n, attr)
   if (is.na(v) || v == "") NA_character_ else v
 }
+
+# ---- Parser de contenido de un proyecto (retornarProyectoLey) ---------------
+# Extrae del response de retornarProyectoLey los campos de CONTENIDO que el
+# pipeline no usaba: titulo, tipo de iniciativa (texto legible, no el atributo
+# Valor) y las materias (categoria tematica). La cobertura de materias es
+# PARCIAL: la mayoria de las mociones recientes vienen sin materias (0), y solo
+# algunos proyectos mas avanzados las traen (ver diagnostico
+# 50_documentacion/andamios/logs/20260709_diagnostico_contenido_legible.md).
+# Cuando no hay materias se devuelve un data.frame de 0 filas, NUNCA se fabrica.
+# Compartido por 35 (proyectos autorados) y 36 (proyectos votados) -> DRY.
+# El id de materia se conserva como character (invariante de llave, POLITICA 5.3.6).
+parsear_contenido_proyecto <- function(doc) {
+  root <- xml2::xml_root(doc)
+  ms <- xml2::xml_find_all(root, ".//Materias/Materia")
+  materias <- data.frame(
+    id     = vapply(ms, function(m) como_llave(texto_nodo(m, "./Id")), character(1)),
+    nombre = vapply(ms, function(m) texto_nodo(m, "./Nombre") %||% NA_character_, character(1)),
+    stringsAsFactors = FALSE
+  )
+  list(
+    nombre          = texto_nodo(root, "./Nombre"),
+    tipo_iniciativa = texto_nodo(root, "./TipoIniciativa"),  # texto legible ("Mocion"/"Mensaje")
+    materias        = materias
+  )
+}
