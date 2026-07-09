@@ -291,16 +291,15 @@ var PALETTES = {
 };
 var SCHEME_LABELS = {rojoAzul:'Divergente rojo-azul', teal:'Secuencial teal', sobria:'Categórica sobria'};
 
-/* Nombre completo por sigla: dato real, extraido de docs/data/perfiles/*.json
-   (perfil.partido.nombre) — no son datos ficticios. */
-var PARTIDO_NOMBRES = {
-  DC:'Partido Demócrata Cristiano', DEM:'Partido Demócratas Chile', EVOP:'Evolución Política',
-  FA:'Frente Amplio', FRVS:'Federación Regionalista Verde Social', IND:'Independientes',
-  PAH:'Partido Acción Humanista', PC:'Partido Comunista', PDG:'Partido de la Gente',
-  PL:'Partido Liberal de Chile', PNL:'Partido Nacional Libertario', PPD:'Partido Por la Democracia',
-  PR:'Partido Radical de Chile', PREP:'Partido Republicano', PS:'Partido Socialista',
-  PSC:'Partido Social Cristiano', RN:'Renovación Nacional', UDI:'Unión Demócrata Independiente'
-};
+/* El nombre completo del partido viene en cada fila del indice
+   (r.partido_nombre, dato real de la fuente) — no se embebe a mano aqui. */
+
+/* Etiqueta de genero por fila: dominio real de "sexo" en la fuente
+   (inspeccionado en R sobre la tabla diputados: {"Femenino","Masculino"},
+   sin NA). Si un valor no esta en este mapeo (o es null), el llamador cae al
+   neutro "Diputada/Diputado" — nunca se adivina el genero. */
+var SEXO_LABEL = {Femenino:'Diputada', Masculino:'Diputado'};
+var SEXO_LABEL_NEUTRO = 'Diputada/Diputado';
 
 /* Las 16 regiones de Chile (geografía real, no dato ficticio). El filtro
    Región queda preparado: la fuente actual no expone region/distrito (ver
@@ -369,7 +368,7 @@ function computeStatic(idx){
   SEAT_GROUP_ORDER.forEach(function(k){ for(var i=0;i<fullCounts[k];i++) seatTend.push(k); });
   var partidosBySigla = {};
   idx.forEach(function(r){
-    if(!partidosBySigla[r.partido]) partidosBySigla[r.partido] = {sigla:r.partido, tendencia:r.tendencia, count:0};
+    if(!partidosBySigla[r.partido]) partidosBySigla[r.partido] = {sigla:r.partido, nombre:r.partido_nombre, tendencia:r.tendencia, count:0};
     partidosBySigla[r.partido].count++;
   });
   var partidos = Object.keys(partidosBySigla).map(function(k){ return partidosBySigla[k]; });
@@ -549,7 +548,7 @@ function buildPartyPanel(){
     var pal = currentPalette();
     var color = p.tendencia ? pal[p.tendencia] : pal.sinclasificar;
     var dotStyle = p.tendencia ? ('background:'+color) : ('background:transparent;border:1.5px dashed '+color);
-    var nombre = PARTIDO_NOMBRES[p.sigla] || p.sigla;
+    var nombre = p.nombre || p.sigla;
     return ''
     +'<div class="opt-row" data-action="toggle-party" data-sigla="'+esc(p.sigla)+'">'
       +'<span class="opt-checkbox '+(checked?'checked':'unchecked')+'">'+(checked?'✓':'')+'</span>'
@@ -695,7 +694,8 @@ function buildRows(rows){
     var tkey = r.tendencia || 'sinclasificar';
     var color = pal[tkey];
     var pct = Math.round((r.tasa_asistencia||0)*100);
-    var partyNombre = PARTIDO_NOMBRES[r.partido] || r.partido;
+    var partyNombre = r.partido_nombre || r.partido;
+    var sexoLabel = SEXO_LABEL[r.sexo] || SEXO_LABEL_NEUTRO;
     var dotStyle = r.tendencia ? ('background:'+color+';border:1px solid '+color) : ('background:#F4EFE2;border:1px solid '+color);
     var tendLabel = r.tendencia ? TEND_LABELS[tkey] : 'Independiente';
     var barHtml = state.showBar ? ('<div class="asist-bar-track"><div class="asist-bar-fill" style="width:'+pct+'%;background:'+color+'"></div></div>') : '';
@@ -703,7 +703,7 @@ function buildRows(rows){
     +'<div class="data-row '+state.density+'" data-action="open-profile" data-id="'+esc(r.id)+'">'
       +'<div class="cell-nombre">'
         +'<span class="cell-nombre-name">'+esc(r.nombre)+'</span>'
-        +(nar?'':'<span class="cell-nombre-sub">Diputada/Diputado</span>')
+        +(nar?'':'<span class="cell-nombre-sub">'+esc(sexoLabel)+'</span>')
       +'</div>'
       +'<div class="cell-partido"><span class="chip-sigla" title="'+esc(partyNombre)+'">'+esc(r.partido)+'</span></div>'
       +'<div class="cell-tend"><span class="tend-dot" style="'+dotStyle+'"></span><span class="tend-label">'+esc(tendLabel)+'</span></div>'
@@ -877,7 +877,7 @@ function buildProfileView(){
   var tkey = rec.tendencia || 'sinclasificar';
   var color = pal[tkey];
   var pct = Math.round((rec.tasa_asistencia||0)*100);
-  var partyNombre = PARTIDO_NOMBRES[rec.partido] || rec.partido;
+  var partyNombre = rec.partido_nombre || rec.partido;
   var tendChipStyle = rec.tendencia
     ? ('background:'+color+';color:#FBFAF5')
     : ('background:transparent;color:var(--text-muted);border:1px solid '+pal.sinclasificar);
