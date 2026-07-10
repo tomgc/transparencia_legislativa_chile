@@ -97,16 +97,35 @@ descargar_xml_camara <- function(operacion,
        call. = FALSE)
 }
 
+# ---- Sufijo de tope para la clave de cache ----------------------------------
+# La clave de cache debe codificar TODO parametro que altere el contenido
+# cacheado; si no, cambiar ese parametro reutiliza en silencio un snapshot con
+# el valor viejo (POLITICA 5.3.6; aprendizaje del traspaso v02 §7, deuda de la
+# clave de cache sin tope). El tope de extraccion (MAX_*_DETALLE) es uno de esos
+# parametros: acota cuantos detalles se bajan, asi que dos corridas del mismo
+# dia con topes distintos producen contenidos distintos y deben cachearse aparte.
+#   tope = NULL   -> ""            (sin sufijo; retrocompatible para llaves sin tope)
+#   tope = Inf    -> "_tope-inf"   (produccion, anno completo)
+#   tope = n      -> "_tope-<n>"   (n entero)
+sufijo_tope <- function(tope) {
+  if (is.null(tope)) return("")
+  if (is.infinite(tope)) return("_tope-inf")
+  sprintf("_tope-%s", format(as.integer(tope), scientific = FALSE))
+}
+
 # ---- Cache de captura cruda de la API ---------------------------------------
 # Idempotencia y cortesia con la fuente (POLITICA 5.2.3): si ya existe el
 # snapshot del dia y no se pidio refrescar, se reutiliza en vez de re-golpear
 # la API. La captura se guarda date-stamped en 20_insumos/camara/ (esa es la
 # forma "cruda" de nuestro insumo: la fuente es un servicio, no un archivo).
+# La clave codifica el tope de extraccion (ver sufijo_tope): un cambio de tope
+# genera una clave distinta, no reutiliza el snapshot viejo.
 # Depende de ruta_insumos() y REFRESCAR_API, definidos en 10_configuracion.R
 # (disponibles en tiempo de ejecucion, ya que config se carga antes de extraer).
-con_cache <- function(nombre_cache, fn_descarga, origen = "cache") {
+con_cache <- function(nombre_cache, fn_descarga, tope = NULL, origen = "cache") {
   ruta <- ruta_insumos("camara",
-                       sprintf("%s_%s.rds", format(Sys.Date(), "%Y%m%d"), nombre_cache))
+                       sprintf("%s_%s%s.rds", format(Sys.Date(), "%Y%m%d"),
+                               nombre_cache, sufijo_tope(tope)))
   refrescar <- isTRUE(getOption("camara.refrescar", REFRESCAR_API))
   if (file.exists(ruta) && !refrescar) {
     log_msg(sprintf("cache hit: %s", basename(ruta)), origen = origen)

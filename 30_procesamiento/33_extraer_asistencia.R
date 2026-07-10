@@ -58,7 +58,7 @@ extraer_asistencia_long <- function() {
       Sys.sleep(PAUSA_API_SEG)
     }
     bind_rows(filas)
-  }, origen = "33_asistencia")
+  }, tope = MAX_SESIONES_DETALLE, origen = "33_asistencia")
 }
 
 asis_long <- extraer_asistencia_long()
