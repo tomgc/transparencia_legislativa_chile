@@ -34,2882 +34,4842 @@
       {
         "votacion_id": "88294",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-03-17",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "88295",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-03-17",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "88442",
         "boletin": "16944-25",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-03-18",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 16944-25"
+        "descripcion": "Boletín N° 16944-25",
+        "proyecto": {
+          "boletin": "16944-25",
+          "nombre": "Crea el tipo penal especial de daños en infraestructura penitenciaria",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88448",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-03-23",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "88450",
         "boletin": "15347-07",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-03-23",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 15347-07"
+        "descripcion": "Boletín N° 15347-07",
+        "proyecto": {
+          "boletin": "15347-07",
+          "nombre": "Modifica la ley N° 20.000, que sustituye la ley Nº 19.366, que sanciona el tráfico ilícito de estupefacientes y sustancias sicotrópicas, con el objeto de incorporar las circunstancias agravantes que se indican.",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88451",
         "boletin": "15347-07",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-03-23",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 15347-07"
+        "descripcion": "Boletín N° 15347-07",
+        "proyecto": {
+          "boletin": "15347-07",
+          "nombre": "Modifica la ley N° 20.000, que sustituye la ley Nº 19.366, que sanciona el tráfico ilícito de estupefacientes y sustancias sicotrópicas, con el objeto de incorporar las circunstancias agravantes que se indican.",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88452",
         "boletin": "15347-07",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-03-23",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 15347-07"
+        "descripcion": "Boletín N° 15347-07",
+        "proyecto": {
+          "boletin": "15347-07",
+          "nombre": "Modifica la ley N° 20.000, que sustituye la ley Nº 19.366, que sanciona el tráfico ilícito de estupefacientes y sustancias sicotrópicas, con el objeto de incorporar las circunstancias agravantes que se indican.",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88453",
         "boletin": "15347-07",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-03-23",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 15347-07"
+        "descripcion": "Boletín N° 15347-07",
+        "proyecto": {
+          "boletin": "15347-07",
+          "nombre": "Modifica la ley N° 20.000, que sustituye la ley Nº 19.366, que sanciona el tráfico ilícito de estupefacientes y sustancias sicotrópicas, con el objeto de incorporar las circunstancias agravantes que se indican.",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88454",
         "boletin": "15347-07",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-03-23",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 15347-07"
+        "descripcion": "Boletín N° 15347-07",
+        "proyecto": {
+          "boletin": "15347-07",
+          "nombre": "Modifica la ley N° 20.000, que sustituye la ley Nº 19.366, que sanciona el tráfico ilícito de estupefacientes y sustancias sicotrópicas, con el objeto de incorporar las circunstancias agravantes que se indican.",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88455",
         "boletin": "15347-07",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-03-23",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 15347-07"
+        "descripcion": "Boletín N° 15347-07",
+        "proyecto": {
+          "boletin": "15347-07",
+          "nombre": "Modifica la ley N° 20.000, que sustituye la ley Nº 19.366, que sanciona el tráfico ilícito de estupefacientes y sustancias sicotrópicas, con el objeto de incorporar las circunstancias agravantes que se indican.",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88456",
         "boletin": "15347-07",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-03-23",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 15347-07"
+        "descripcion": "Boletín N° 15347-07",
+        "proyecto": {
+          "boletin": "15347-07",
+          "nombre": "Modifica la ley N° 20.000, que sustituye la ley Nº 19.366, que sanciona el tráfico ilícito de estupefacientes y sustancias sicotrópicas, con el objeto de incorporar las circunstancias agravantes que se indican.",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88466",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-03-24",
         "resultado": "Rechazado",
         "sentido": "en_contra",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "88470",
         "boletin": null,
+        "tipo": "Proyecto de Acuerdo",
         "fecha": "2026-03-24",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Acuerdo N° 1"
+        "descripcion": "Proyecto de Acuerdo N° 1",
+        "proyecto": null
       },
       {
         "votacion_id": "88471",
         "boletin": null,
+        "tipo": "Proyecto de Resolución",
         "fecha": "2026-03-24",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Resolución N° 1"
+        "descripcion": "Proyecto de Resolución N° 1",
+        "proyecto": null
       },
       {
         "votacion_id": "88472",
         "boletin": "17737-14",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-03-24",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 17737-14"
+        "descripcion": "Boletín N° 17737-14",
+        "proyecto": {
+          "boletin": "17737-14",
+          "nombre": "Modifica la ley N° 21.442, que aprueba nueva Ley de Copropiedad Inmobiliaria, a fin de facultar a los administradores de condominios para emitir certificados de residencia",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88473",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-03-24",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "88474",
         "boletin": "17474-06",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-03-24",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 17474-06"
+        "descripcion": "Boletín N° 17474-06",
+        "proyecto": {
+          "boletin": "17474-06",
+          "nombre": "Modifica la ley Nº 21.325, de Migración y Extranjería, para restringir el acceso de inmigrantes en situación irregular a beneficios de cargo fiscal",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88475",
         "boletin": "17474-06",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-03-24",
         "resultado": "Aprobado",
         "sentido": "abstencion",
-        "descripcion": "Boletín N° 17474-06"
+        "descripcion": "Boletín N° 17474-06",
+        "proyecto": {
+          "boletin": "17474-06",
+          "nombre": "Modifica la ley Nº 21.325, de Migración y Extranjería, para restringir el acceso de inmigrantes en situación irregular a beneficios de cargo fiscal",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88476",
         "boletin": "16985-06",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-03-24",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 16985-06"
+        "descripcion": "Boletín N° 16985-06",
+        "proyecto": {
+          "boletin": "16985-06",
+          "nombre": "Establece, para el personal de Gendarmería de Chile, la obligación de efectuar declaraciones de intereses y patrimonio, en conformidad con lo dispuesto en la ley N° 20.880, sobre probidad en la función pública y prevención de los conflictos de intereses",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88477",
         "boletin": "16487-12",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-03-24",
         "resultado": "Rechazado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 16487-12"
+        "descripcion": "Boletín N° 16487-12",
+        "proyecto": {
+          "boletin": "16487-12",
+          "nombre": "Modifica la ley N° 20.920, que establece marco para la gestión de residuos, la responsabilidad extendida del productor y fomento al reciclaje, para prohibir temporalmente la importación de plásticos que indica, que sean destinados a la elaboración de productos de un solo uso",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88478",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-03-24",
         "resultado": "Aprobado",
         "sentido": "no_vota",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "88489",
         "boletin": "18137-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-03-24",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18137-05"
+        "descripcion": "Boletín N° 18137-05",
+        "proyecto": {
+          "boletin": "18137-05",
+          "nombre": "Adopta medidas transitorias para contener el precio del kerosene doméstico en el contexto de la emergencia energética internacional, y otras medidas que indica",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88490",
         "boletin": "18137-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-03-24",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18137-05"
+        "descripcion": "Boletín N° 18137-05",
+        "proyecto": {
+          "boletin": "18137-05",
+          "nombre": "Adopta medidas transitorias para contener el precio del kerosene doméstico en el contexto de la emergencia energética internacional, y otras medidas que indica",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88491",
         "boletin": "18137-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-03-24",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18137-05"
+        "descripcion": "Boletín N° 18137-05",
+        "proyecto": {
+          "boletin": "18137-05",
+          "nombre": "Adopta medidas transitorias para contener el precio del kerosene doméstico en el contexto de la emergencia energética internacional, y otras medidas que indica",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88492",
         "boletin": "18137-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-03-24",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18137-05"
+        "descripcion": "Boletín N° 18137-05",
+        "proyecto": {
+          "boletin": "18137-05",
+          "nombre": "Adopta medidas transitorias para contener el precio del kerosene doméstico en el contexto de la emergencia energética internacional, y otras medidas que indica",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88493",
         "boletin": "18137-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-03-24",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18137-05"
+        "descripcion": "Boletín N° 18137-05",
+        "proyecto": {
+          "boletin": "18137-05",
+          "nombre": "Adopta medidas transitorias para contener el precio del kerosene doméstico en el contexto de la emergencia energética internacional, y otras medidas que indica",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88494",
         "boletin": "18137-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-03-24",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18137-05"
+        "descripcion": "Boletín N° 18137-05",
+        "proyecto": {
+          "boletin": "18137-05",
+          "nombre": "Adopta medidas transitorias para contener el precio del kerosene doméstico en el contexto de la emergencia energética internacional, y otras medidas que indica",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88499",
         "boletin": null,
+        "tipo": "Proyecto de Acuerdo",
         "fecha": "2026-03-25",
         "resultado": "Rechazado",
         "sentido": "abstencion",
-        "descripcion": "Proyecto de Acuerdo N° 2"
+        "descripcion": "Proyecto de Acuerdo N° 2",
+        "proyecto": null
       },
       {
         "votacion_id": "88500",
         "boletin": "18003-35",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-03-25",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18003-35"
+        "descripcion": "Boletín N° 18003-35",
+        "proyecto": {
+          "boletin": "18003-35",
+          "nombre": "Modifica la ley N° 18.700, orgánica constitucional sobre Votaciones Populares y Escrutinios, para eximir al Servicio Electoral del deber de denunciar a personas postradas y electrodependientes, por incumplimiento de la obligación de sufragar",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88501",
         "boletin": "10634-29",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-03-25",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 10634-29"
+        "descripcion": "Boletín N° 10634-29",
+        "proyecto": {
+          "boletin": "10634-29",
+          "nombre": "Modifica la ley N° 20.019, que Regula las Sociedades Anónimas Deportivas Profesionales, en materia de fiscalización, de conflictos de interés, y de fomento de la participación de los hinchas en la propiedad de las mismas",
+          "tipo_iniciativa": "Moción",
+          "materias": [
+            {
+              "id": "19458",
+              "nombre": "SOCIEDADES ANÓNIMAS DEPORTIVAS PROFESIONALES"
+            },
+            {
+              "id": "3912",
+              "nombre": "SOCIEDADES ANÓNIMAS DEPORTIVAS"
+            }
+          ]
+        }
       },
       {
         "votacion_id": "88502",
         "boletin": "10634-29",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-03-25",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 10634-29"
+        "descripcion": "Boletín N° 10634-29",
+        "proyecto": {
+          "boletin": "10634-29",
+          "nombre": "Modifica la ley N° 20.019, que Regula las Sociedades Anónimas Deportivas Profesionales, en materia de fiscalización, de conflictos de interés, y de fomento de la participación de los hinchas en la propiedad de las mismas",
+          "tipo_iniciativa": "Moción",
+          "materias": [
+            {
+              "id": "19458",
+              "nombre": "SOCIEDADES ANÓNIMAS DEPORTIVAS PROFESIONALES"
+            },
+            {
+              "id": "3912",
+              "nombre": "SOCIEDADES ANÓNIMAS DEPORTIVAS"
+            }
+          ]
+        }
       },
       {
         "votacion_id": "88503",
         "boletin": "10634-29",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-03-25",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 10634-29"
+        "descripcion": "Boletín N° 10634-29",
+        "proyecto": {
+          "boletin": "10634-29",
+          "nombre": "Modifica la ley N° 20.019, que Regula las Sociedades Anónimas Deportivas Profesionales, en materia de fiscalización, de conflictos de interés, y de fomento de la participación de los hinchas en la propiedad de las mismas",
+          "tipo_iniciativa": "Moción",
+          "materias": [
+            {
+              "id": "19458",
+              "nombre": "SOCIEDADES ANÓNIMAS DEPORTIVAS PROFESIONALES"
+            },
+            {
+              "id": "3912",
+              "nombre": "SOCIEDADES ANÓNIMAS DEPORTIVAS"
+            }
+          ]
+        }
       },
       {
         "votacion_id": "88504",
         "boletin": "10634-29",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-03-25",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 10634-29"
+        "descripcion": "Boletín N° 10634-29",
+        "proyecto": {
+          "boletin": "10634-29",
+          "nombre": "Modifica la ley N° 20.019, que Regula las Sociedades Anónimas Deportivas Profesionales, en materia de fiscalización, de conflictos de interés, y de fomento de la participación de los hinchas en la propiedad de las mismas",
+          "tipo_iniciativa": "Moción",
+          "materias": [
+            {
+              "id": "19458",
+              "nombre": "SOCIEDADES ANÓNIMAS DEPORTIVAS PROFESIONALES"
+            },
+            {
+              "id": "3912",
+              "nombre": "SOCIEDADES ANÓNIMAS DEPORTIVAS"
+            }
+          ]
+        }
       },
       {
         "votacion_id": "88505",
         "boletin": "10634-29",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-03-25",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 10634-29"
+        "descripcion": "Boletín N° 10634-29",
+        "proyecto": {
+          "boletin": "10634-29",
+          "nombre": "Modifica la ley N° 20.019, que Regula las Sociedades Anónimas Deportivas Profesionales, en materia de fiscalización, de conflictos de interés, y de fomento de la participación de los hinchas en la propiedad de las mismas",
+          "tipo_iniciativa": "Moción",
+          "materias": [
+            {
+              "id": "19458",
+              "nombre": "SOCIEDADES ANÓNIMAS DEPORTIVAS PROFESIONALES"
+            },
+            {
+              "id": "3912",
+              "nombre": "SOCIEDADES ANÓNIMAS DEPORTIVAS"
+            }
+          ]
+        }
       },
       {
         "votacion_id": "88506",
         "boletin": "10634-29",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-03-25",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 10634-29"
+        "descripcion": "Boletín N° 10634-29",
+        "proyecto": {
+          "boletin": "10634-29",
+          "nombre": "Modifica la ley N° 20.019, que Regula las Sociedades Anónimas Deportivas Profesionales, en materia de fiscalización, de conflictos de interés, y de fomento de la participación de los hinchas en la propiedad de las mismas",
+          "tipo_iniciativa": "Moción",
+          "materias": [
+            {
+              "id": "19458",
+              "nombre": "SOCIEDADES ANÓNIMAS DEPORTIVAS PROFESIONALES"
+            },
+            {
+              "id": "3912",
+              "nombre": "SOCIEDADES ANÓNIMAS DEPORTIVAS"
+            }
+          ]
+        }
       },
       {
         "votacion_id": "88507",
         "boletin": "10634-29",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-03-25",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 10634-29"
+        "descripcion": "Boletín N° 10634-29",
+        "proyecto": {
+          "boletin": "10634-29",
+          "nombre": "Modifica la ley N° 20.019, que Regula las Sociedades Anónimas Deportivas Profesionales, en materia de fiscalización, de conflictos de interés, y de fomento de la participación de los hinchas en la propiedad de las mismas",
+          "tipo_iniciativa": "Moción",
+          "materias": [
+            {
+              "id": "19458",
+              "nombre": "SOCIEDADES ANÓNIMAS DEPORTIVAS PROFESIONALES"
+            },
+            {
+              "id": "3912",
+              "nombre": "SOCIEDADES ANÓNIMAS DEPORTIVAS"
+            }
+          ]
+        }
       },
       {
         "votacion_id": "88517",
         "boletin": "18137-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-03-25",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18137-05"
+        "descripcion": "Boletín N° 18137-05",
+        "proyecto": {
+          "boletin": "18137-05",
+          "nombre": "Adopta medidas transitorias para contener el precio del kerosene doméstico en el contexto de la emergencia energética internacional, y otras medidas que indica",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88518",
         "boletin": "18137-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-03-25",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18137-05"
+        "descripcion": "Boletín N° 18137-05",
+        "proyecto": {
+          "boletin": "18137-05",
+          "nombre": "Adopta medidas transitorias para contener el precio del kerosene doméstico en el contexto de la emergencia energética internacional, y otras medidas que indica",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88519",
         "boletin": "18137-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-03-25",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18137-05"
+        "descripcion": "Boletín N° 18137-05",
+        "proyecto": {
+          "boletin": "18137-05",
+          "nombre": "Adopta medidas transitorias para contener el precio del kerosene doméstico en el contexto de la emergencia energética internacional, y otras medidas que indica",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88543",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-04-06",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "88544",
         "boletin": "16569-25",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-04-06",
         "resultado": "Rechazado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 16569-25"
+        "descripcion": "Boletín N° 16569-25",
+        "proyecto": {
+          "boletin": "16569-25",
+          "nombre": "Amplía la penalización dispuesta en el artículo 304 bis del Código Penal, para fortalecer la seguridad perimetral de los recintos penales",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88545",
         "boletin": "17234-15",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-04-06",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 17234-15"
+        "descripcion": "Boletín N° 17234-15",
+        "proyecto": {
+          "boletin": "17234-15",
+          "nombre": "Modifica el decreto ley N° 3.063, de 1979, para exigir la emisión de un permiso de circulación estandarizado en todas las comunas del país",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88558",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-04-07",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "2-Acusacion Constitucional"
+        "descripcion": "2-Acusacion Constitucional",
+        "proyecto": null
       },
       {
         "votacion_id": "88559",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-04-07",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "88560",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-04-07",
         "resultado": "Rechazado",
         "sentido": "en_contra",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "88562",
         "boletin": null,
+        "tipo": "Proyecto de Acuerdo",
         "fecha": "2026-04-07",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Acuerdo N° 3"
+        "descripcion": "Proyecto de Acuerdo N° 3",
+        "proyecto": null
       },
       {
         "votacion_id": "88563",
         "boletin": null,
+        "tipo": "Proyecto de Resolución",
         "fecha": "2026-04-07",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Resolución N° 2"
+        "descripcion": "Proyecto de Resolución N° 2",
+        "proyecto": null
       },
       {
         "votacion_id": "88564",
         "boletin": "17504-22",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-04-07",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 17504-22"
+        "descripcion": "Boletín N° 17504-22",
+        "proyecto": {
+          "boletin": "17504-22",
+          "nombre": "Fortalece la transparencia y probidad en la entrega de recursos por parte del Estado",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88584",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-04-08",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "88592",
         "boletin": null,
+        "tipo": "Proyecto de Acuerdo",
         "fecha": "2026-04-08",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Acuerdo N° 4"
+        "descripcion": "Proyecto de Acuerdo N° 4",
+        "proyecto": null
       },
       {
         "votacion_id": "88593",
         "boletin": null,
+        "tipo": "Proyecto de Resolución",
         "fecha": "2026-04-08",
         "resultado": "Aprobado",
         "sentido": "abstencion",
-        "descripcion": "Proyecto de Resolución N° 3"
+        "descripcion": "Proyecto de Resolución N° 3",
+        "proyecto": null
       },
       {
         "votacion_id": "88594",
         "boletin": "17246-15",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-04-08",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 17246-15"
+        "descripcion": "Boletín N° 17246-15",
+        "proyecto": {
+          "boletin": "17246-15",
+          "nombre": "Modifica las leyes que indica para mejorar la fiscalización y aumentar las sanciones por evasión del pago de tarifas en el transporte público remunerado de pasajeros",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88595",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-04-08",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "88606",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-04-13",
         "resultado": "Aprobado",
         "sentido": "abstencion",
-        "descripcion": "3-Creacion Comision Investigadora"
+        "descripcion": "3-Creacion Comision Investigadora",
+        "proyecto": null
       },
       {
         "votacion_id": "88610",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-04-13",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "88611",
         "boletin": "17880-13",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-04-13",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 17880-13"
+        "descripcion": "Boletín N° 17880-13",
+        "proyecto": {
+          "boletin": "17880-13",
+          "nombre": "Crea un nuevo Juzgado de Letras del Trabajo en Santiago y fortalece los juzgados de letras del trabajo que indica",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88612",
         "boletin": "17170-07",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-04-13",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 17170-07"
+        "descripcion": "Boletín N° 17170-07",
+        "proyecto": {
+          "boletin": "17170-07",
+          "nombre": "Modifica el Código Penal para agravar la pena y agregar una nueva circunstancia en el delito de robo en lugar no habitado",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88613",
         "boletin": "17170-07",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-04-13",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 17170-07"
+        "descripcion": "Boletín N° 17170-07",
+        "proyecto": {
+          "boletin": "17170-07",
+          "nombre": "Modifica el Código Penal para agravar la pena y agregar una nueva circunstancia en el delito de robo en lugar no habitado",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88614",
         "boletin": "17170-07",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-04-13",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 17170-07"
+        "descripcion": "Boletín N° 17170-07",
+        "proyecto": {
+          "boletin": "17170-07",
+          "nombre": "Modifica el Código Penal para agravar la pena y agregar una nueva circunstancia en el delito de robo en lugar no habitado",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88628",
         "boletin": null,
+        "tipo": "Proyecto de Acuerdo",
         "fecha": "2026-04-14",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Acuerdo N° 5"
+        "descripcion": "Proyecto de Acuerdo N° 5",
+        "proyecto": null
       },
       {
         "votacion_id": "88629",
         "boletin": null,
+        "tipo": "Proyecto de Resolución",
         "fecha": "2026-04-14",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Resolución N° 25"
+        "descripcion": "Proyecto de Resolución N° 25",
+        "proyecto": null
       },
       {
         "votacion_id": "88630",
         "boletin": null,
+        "tipo": "Proyecto de Resolución",
         "fecha": "2026-04-14",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Resolución N° 26"
+        "descripcion": "Proyecto de Resolución N° 26",
+        "proyecto": null
       },
       {
         "votacion_id": "88631",
         "boletin": null,
+        "tipo": "Proyecto de Resolución",
         "fecha": "2026-04-14",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Resolución N° 31"
+        "descripcion": "Proyecto de Resolución N° 31",
+        "proyecto": null
       },
       {
         "votacion_id": "88632",
         "boletin": null,
+        "tipo": "Proyecto de Resolución",
         "fecha": "2026-04-14",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Resolución N° 58"
+        "descripcion": "Proyecto de Resolución N° 58",
+        "proyecto": null
       },
       {
         "votacion_id": "88633",
         "boletin": "17354-37",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-04-14",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 17354-37"
+        "descripcion": "Boletín N° 17354-37",
+        "proyecto": {
+          "boletin": "17354-37",
+          "nombre": "Autoriza erigir un monumento en memoria del ex Presidente de la República, señor Sebastián Piñera Echenique",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88634",
         "boletin": "17690-07",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-04-14",
         "resultado": "Rechazado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 17690-07"
+        "descripcion": "Boletín N° 17690-07",
+        "proyecto": {
+          "boletin": "17690-07",
+          "nombre": "Modifica el Código Penal para disponer la intervención de la fiscalía militar en la investigación del delito de espionaje",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88643",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-04-15",
         "resultado": "Rechazado",
         "sentido": "en_contra",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "88644",
         "boletin": null,
+        "tipo": "Proyecto de Acuerdo",
         "fecha": "2026-04-15",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Acuerdo N° 6"
+        "descripcion": "Proyecto de Acuerdo N° 6",
+        "proyecto": null
       },
       {
         "votacion_id": "88645",
         "boletin": null,
+        "tipo": "Proyecto de Resolución",
         "fecha": "2026-04-15",
         "resultado": "Aprobado",
         "sentido": "abstencion",
-        "descripcion": "Proyecto de Resolución N° 4"
+        "descripcion": "Proyecto de Resolución N° 4",
+        "proyecto": null
       },
       {
         "votacion_id": "88646",
         "boletin": "17757-29",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-04-15",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 17757-29"
+        "descripcion": "Boletín N° 17757-29",
+        "proyecto": {
+          "boletin": "17757-29",
+          "nombre": "Modifica la ley N° 19.327 para imponer nuevas obligaciones a los organizadores de espectáculos de fútbol profesional",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88647",
         "boletin": "17522-12",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-04-15",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 17522-12"
+        "descripcion": "Boletín N° 17522-12",
+        "proyecto": {
+          "boletin": "17522-12",
+          "nombre": "Aumenta sanciones aplicables a la incineración de basura y promueve la educación ambiental en manejo de residuos",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88648",
         "boletin": "17522-12",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-04-15",
         "resultado": "Rechazado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 17522-12"
+        "descripcion": "Boletín N° 17522-12",
+        "proyecto": {
+          "boletin": "17522-12",
+          "nombre": "Aumenta sanciones aplicables a la incineración de basura y promueve la educación ambiental en manejo de residuos",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88668",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-04-20",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "88669",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-04-20",
         "resultado": "Aprobado",
         "sentido": "abstencion",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "88670",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-04-20",
         "resultado": "Rechazado",
         "sentido": "en_contra",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "88677",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-04-21",
         "resultado": "Rechazado",
         "sentido": "a_favor",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "88678",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-04-21",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "88679",
         "boletin": "18043-06",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-04-21",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18043-06"
+        "descripcion": "Boletín N° 18043-06",
+        "proyecto": {
+          "boletin": "18043-06",
+          "nombre": "Concede, por especial gracia, la nacionalidad chilena al sacerdote alemán Wolter Josef Tilmann Dütting",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88680",
         "boletin": "18156-04",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-04-21",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18156-04"
+        "descripcion": "Boletín N° 18156-04",
+        "proyecto": {
+          "boletin": "18156-04",
+          "nombre": "Establece medidas de seguridad, orden y respeto para la comunidad educativa",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88681",
         "boletin": "18156-04",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-04-21",
         "resultado": "Rechazado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18156-04"
+        "descripcion": "Boletín N° 18156-04",
+        "proyecto": {
+          "boletin": "18156-04",
+          "nombre": "Establece medidas de seguridad, orden y respeto para la comunidad educativa",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88682",
         "boletin": "18156-04",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-04-21",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18156-04"
+        "descripcion": "Boletín N° 18156-04",
+        "proyecto": {
+          "boletin": "18156-04",
+          "nombre": "Establece medidas de seguridad, orden y respeto para la comunidad educativa",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88683",
         "boletin": "18156-04",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-04-21",
         "resultado": "Rechazado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18156-04"
+        "descripcion": "Boletín N° 18156-04",
+        "proyecto": {
+          "boletin": "18156-04",
+          "nombre": "Establece medidas de seguridad, orden y respeto para la comunidad educativa",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88684",
         "boletin": "18156-04",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-04-21",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18156-04"
+        "descripcion": "Boletín N° 18156-04",
+        "proyecto": {
+          "boletin": "18156-04",
+          "nombre": "Establece medidas de seguridad, orden y respeto para la comunidad educativa",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88685",
         "boletin": "18156-04",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-04-21",
         "resultado": "Rechazado",
         "sentido": "abstencion",
-        "descripcion": "Boletín N° 18156-04"
+        "descripcion": "Boletín N° 18156-04",
+        "proyecto": {
+          "boletin": "18156-04",
+          "nombre": "Establece medidas de seguridad, orden y respeto para la comunidad educativa",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88686",
         "boletin": "18156-04",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-04-21",
         "resultado": "Rechazado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18156-04"
+        "descripcion": "Boletín N° 18156-04",
+        "proyecto": {
+          "boletin": "18156-04",
+          "nombre": "Establece medidas de seguridad, orden y respeto para la comunidad educativa",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88687",
         "boletin": "18156-04",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-04-21",
         "resultado": "Rechazado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18156-04"
+        "descripcion": "Boletín N° 18156-04",
+        "proyecto": {
+          "boletin": "18156-04",
+          "nombre": "Establece medidas de seguridad, orden y respeto para la comunidad educativa",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88688",
         "boletin": "18156-04",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-04-21",
         "resultado": "Rechazado",
         "sentido": "abstencion",
-        "descripcion": "Boletín N° 18156-04"
+        "descripcion": "Boletín N° 18156-04",
+        "proyecto": {
+          "boletin": "18156-04",
+          "nombre": "Establece medidas de seguridad, orden y respeto para la comunidad educativa",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88689",
         "boletin": "18156-04",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-04-21",
         "resultado": "Rechazado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18156-04"
+        "descripcion": "Boletín N° 18156-04",
+        "proyecto": {
+          "boletin": "18156-04",
+          "nombre": "Establece medidas de seguridad, orden y respeto para la comunidad educativa",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88690",
         "boletin": "18156-04",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-04-21",
         "resultado": "Rechazado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18156-04"
+        "descripcion": "Boletín N° 18156-04",
+        "proyecto": {
+          "boletin": "18156-04",
+          "nombre": "Establece medidas de seguridad, orden y respeto para la comunidad educativa",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88691",
         "boletin": "18156-04",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-04-21",
         "resultado": "Rechazado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18156-04"
+        "descripcion": "Boletín N° 18156-04",
+        "proyecto": {
+          "boletin": "18156-04",
+          "nombre": "Establece medidas de seguridad, orden y respeto para la comunidad educativa",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88692",
         "boletin": "18156-04",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-04-21",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18156-04"
+        "descripcion": "Boletín N° 18156-04",
+        "proyecto": {
+          "boletin": "18156-04",
+          "nombre": "Establece medidas de seguridad, orden y respeto para la comunidad educativa",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88693",
         "boletin": "18156-04",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-04-21",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18156-04"
+        "descripcion": "Boletín N° 18156-04",
+        "proyecto": {
+          "boletin": "18156-04",
+          "nombre": "Establece medidas de seguridad, orden y respeto para la comunidad educativa",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88694",
         "boletin": "18156-04",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-04-21",
         "resultado": "Rechazado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18156-04"
+        "descripcion": "Boletín N° 18156-04",
+        "proyecto": {
+          "boletin": "18156-04",
+          "nombre": "Establece medidas de seguridad, orden y respeto para la comunidad educativa",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88695",
         "boletin": "18156-04",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-04-21",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18156-04"
+        "descripcion": "Boletín N° 18156-04",
+        "proyecto": {
+          "boletin": "18156-04",
+          "nombre": "Establece medidas de seguridad, orden y respeto para la comunidad educativa",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88696",
         "boletin": "18156-04",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-04-21",
         "resultado": "Rechazado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18156-04"
+        "descripcion": "Boletín N° 18156-04",
+        "proyecto": {
+          "boletin": "18156-04",
+          "nombre": "Establece medidas de seguridad, orden y respeto para la comunidad educativa",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88697",
         "boletin": "18156-04",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-04-21",
         "resultado": "Rechazado",
         "sentido": "abstencion",
-        "descripcion": "Boletín N° 18156-04"
+        "descripcion": "Boletín N° 18156-04",
+        "proyecto": {
+          "boletin": "18156-04",
+          "nombre": "Establece medidas de seguridad, orden y respeto para la comunidad educativa",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88698",
         "boletin": "18156-04",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-04-21",
         "resultado": "Rechazado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18156-04"
+        "descripcion": "Boletín N° 18156-04",
+        "proyecto": {
+          "boletin": "18156-04",
+          "nombre": "Establece medidas de seguridad, orden y respeto para la comunidad educativa",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88699",
         "boletin": "18156-04",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-04-21",
         "resultado": "Rechazado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18156-04"
+        "descripcion": "Boletín N° 18156-04",
+        "proyecto": {
+          "boletin": "18156-04",
+          "nombre": "Establece medidas de seguridad, orden y respeto para la comunidad educativa",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88700",
         "boletin": "18156-04",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-04-21",
         "resultado": "Aprobado",
         "sentido": "abstencion",
-        "descripcion": "Boletín N° 18156-04"
+        "descripcion": "Boletín N° 18156-04",
+        "proyecto": {
+          "boletin": "18156-04",
+          "nombre": "Establece medidas de seguridad, orden y respeto para la comunidad educativa",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88701",
         "boletin": "18156-04",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-04-21",
         "resultado": "Rechazado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18156-04"
+        "descripcion": "Boletín N° 18156-04",
+        "proyecto": {
+          "boletin": "18156-04",
+          "nombre": "Establece medidas de seguridad, orden y respeto para la comunidad educativa",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88702",
         "boletin": "18156-04",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-04-21",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18156-04"
+        "descripcion": "Boletín N° 18156-04",
+        "proyecto": {
+          "boletin": "18156-04",
+          "nombre": "Establece medidas de seguridad, orden y respeto para la comunidad educativa",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88703",
         "boletin": "18156-04",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-04-21",
         "resultado": "Rechazado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18156-04"
+        "descripcion": "Boletín N° 18156-04",
+        "proyecto": {
+          "boletin": "18156-04",
+          "nombre": "Establece medidas de seguridad, orden y respeto para la comunidad educativa",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88704",
         "boletin": "18156-04",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-04-21",
         "resultado": "Rechazado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18156-04"
+        "descripcion": "Boletín N° 18156-04",
+        "proyecto": {
+          "boletin": "18156-04",
+          "nombre": "Establece medidas de seguridad, orden y respeto para la comunidad educativa",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88705",
         "boletin": "18156-04",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-04-21",
         "resultado": "Rechazado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18156-04"
+        "descripcion": "Boletín N° 18156-04",
+        "proyecto": {
+          "boletin": "18156-04",
+          "nombre": "Establece medidas de seguridad, orden y respeto para la comunidad educativa",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88706",
         "boletin": "18156-04",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-04-21",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18156-04"
+        "descripcion": "Boletín N° 18156-04",
+        "proyecto": {
+          "boletin": "18156-04",
+          "nombre": "Establece medidas de seguridad, orden y respeto para la comunidad educativa",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88707",
         "boletin": "18156-04",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-04-21",
         "resultado": "Rechazado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18156-04"
+        "descripcion": "Boletín N° 18156-04",
+        "proyecto": {
+          "boletin": "18156-04",
+          "nombre": "Establece medidas de seguridad, orden y respeto para la comunidad educativa",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88712",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-04-22",
         "resultado": "Rechazado",
         "sentido": "en_contra",
-        "descripcion": "2-Acusacion Constitucional"
+        "descripcion": "2-Acusacion Constitucional",
+        "proyecto": null
       },
       {
         "votacion_id": "88713",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-04-22",
         "resultado": "Rechazado",
         "sentido": "en_contra",
-        "descripcion": "3-Creacion Comision Investigadora"
+        "descripcion": "3-Creacion Comision Investigadora",
+        "proyecto": null
       },
       {
         "votacion_id": "88716",
         "boletin": null,
+        "tipo": "Proyecto de Acuerdo",
         "fecha": "2026-04-22",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Acuerdo N° 7"
+        "descripcion": "Proyecto de Acuerdo N° 7",
+        "proyecto": null
       },
       {
         "votacion_id": "88717",
         "boletin": null,
+        "tipo": "Proyecto de Resolución",
         "fecha": "2026-04-22",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Resolución N° 5"
+        "descripcion": "Proyecto de Resolución N° 5",
+        "proyecto": null
       },
       {
         "votacion_id": "88718",
         "boletin": "17235-07",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-04-22",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 17235-07"
+        "descripcion": "Boletín N° 17235-07",
+        "proyecto": {
+          "boletin": "17235-07",
+          "nombre": "Modifica el Código Penal para crear el tipo especial de robo cometido por tumulto o multitud",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88730",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-05-04",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "88731",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-05-04",
         "resultado": "Rechazado",
         "sentido": "en_contra",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "88736",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-05-04",
         "resultado": "Rechazado",
         "sentido": "en_contra",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "88737",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-05-04",
         "resultado": "Rechazado",
         "sentido": "en_contra",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "88738",
         "boletin": "16851-14",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-04",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 16851-14"
+        "descripcion": "Boletín N° 16851-14",
+        "proyecto": {
+          "boletin": "16851-14",
+          "nombre": "Modifica la ley N° 21.450 para autorizar la adquisición de terrenos, destinados a viviendas para familias vulnerables, emplazados en comunas distintas de aquellas que registran mayor demanda de estos grupos",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88752",
         "boletin": null,
+        "tipo": "Proyecto de Acuerdo",
         "fecha": "2026-05-05",
         "resultado": "Rechazado",
         "sentido": "en_contra",
-        "descripcion": "Proyecto de Acuerdo N° 8"
+        "descripcion": "Proyecto de Acuerdo N° 8",
+        "proyecto": null
       },
       {
         "votacion_id": "88753",
         "boletin": null,
+        "tipo": "Proyecto de Resolución",
         "fecha": "2026-05-05",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Resolución N° 6"
+        "descripcion": "Proyecto de Resolución N° 6",
+        "proyecto": null
       },
       {
         "votacion_id": "88754",
         "boletin": "17724-34",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-05",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 17724-34"
+        "descripcion": "Boletín N° 17724-34",
+        "proyecto": {
+          "boletin": "17724-34",
+          "nombre": "Reemplaza el artículo 5 bis del decreto ley N° 3.500, de 1980",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88755",
         "boletin": "18016-13",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-05",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18016-13"
+        "descripcion": "Boletín N° 18016-13",
+        "proyecto": {
+          "boletin": "18016-13",
+          "nombre": "Modifica el Código del Trabajo en lo tocante a la jornada laboral de los trabajadores del cine y el audiovisual que indica",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88756",
         "boletin": "17381-03",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-05",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 17381-03"
+        "descripcion": "Boletín N° 17381-03",
+        "proyecto": {
+          "boletin": "17381-03",
+          "nombre": "Prohíbe subcontratar servicios de teleoperadores que funcionen fuera del territorio nacional",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88757",
         "boletin": "17381-03",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-05",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 17381-03"
+        "descripcion": "Boletín N° 17381-03",
+        "proyecto": {
+          "boletin": "17381-03",
+          "nombre": "Prohíbe subcontratar servicios de teleoperadores que funcionen fuera del territorio nacional",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88758",
         "boletin": "17471-07",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-05",
         "resultado": "Rechazado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 17471-07"
+        "descripcion": "Boletín N° 17471-07",
+        "proyecto": {
+          "boletin": "17471-07",
+          "nombre": "Modifica la ley N° 18.119 para tipificar los delitos de robo y receptación de medidores de agua potable",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88759",
         "boletin": "17872-33",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-05",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 17872-33"
+        "descripcion": "Boletín N° 17872-33",
+        "proyecto": {
+          "boletin": "17872-33",
+          "nombre": "Modifica la ley N° 18.902, que crea la Superintendencia de Servicios Sanitarios, para establecer un estándar mínimo de reducción de aguas no facturadas",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88760",
         "boletin": "17872-33",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-05",
         "resultado": "Rechazado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 17872-33"
+        "descripcion": "Boletín N° 17872-33",
+        "proyecto": {
+          "boletin": "17872-33",
+          "nombre": "Modifica la ley N° 18.902, que crea la Superintendencia de Servicios Sanitarios, para establecer un estándar mínimo de reducción de aguas no facturadas",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88761",
         "boletin": "17405-07",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-05",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 17405-07"
+        "descripcion": "Boletín N° 17405-07",
+        "proyecto": {
+          "boletin": "17405-07",
+          "nombre": "Regula la prestación de servicios de cuidado de vehículos y limpieza de parabrisas en la vía pública, y sanciona el ejercicio no autorizado de dichas actividades",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88774",
         "boletin": null,
+        "tipo": "Proyecto de Resolución",
         "fecha": "2026-05-05",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Resolución N° 93"
+        "descripcion": "Proyecto de Resolución N° 93",
+        "proyecto": null
       },
       {
         "votacion_id": "88775",
         "boletin": null,
+        "tipo": "Proyecto de Resolución",
         "fecha": "2026-05-05",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Resolución N° 94"
+        "descripcion": "Proyecto de Resolución N° 94",
+        "proyecto": null
       },
       {
         "votacion_id": "88776",
         "boletin": null,
+        "tipo": "Proyecto de Resolución",
         "fecha": "2026-05-05",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Resolución N° 95"
+        "descripcion": "Proyecto de Resolución N° 95",
+        "proyecto": null
       },
       {
         "votacion_id": "88777",
         "boletin": null,
+        "tipo": "Proyecto de Resolución",
         "fecha": "2026-05-05",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Resolución N° 96"
+        "descripcion": "Proyecto de Resolución N° 96",
+        "proyecto": null
       },
       {
         "votacion_id": "88779",
         "boletin": null,
+        "tipo": "Proyecto de Resolución",
         "fecha": "2026-05-05",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Resolución N° 97"
+        "descripcion": "Proyecto de Resolución N° 97",
+        "proyecto": null
       },
       {
         "votacion_id": "88780",
         "boletin": null,
+        "tipo": "Proyecto de Resolución",
         "fecha": "2026-05-05",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Resolución N° 98"
+        "descripcion": "Proyecto de Resolución N° 98",
+        "proyecto": null
       },
       {
         "votacion_id": "88781",
         "boletin": null,
+        "tipo": "Proyecto de Resolución",
         "fecha": "2026-05-05",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Resolución N° 99"
+        "descripcion": "Proyecto de Resolución N° 99",
+        "proyecto": null
       },
       {
         "votacion_id": "88782",
         "boletin": null,
+        "tipo": "Proyecto de Resolución",
         "fecha": "2026-05-05",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Resolución N° 100"
+        "descripcion": "Proyecto de Resolución N° 100",
+        "proyecto": null
       },
       {
         "votacion_id": "88783",
         "boletin": null,
+        "tipo": "Proyecto de Resolución",
         "fecha": "2026-05-05",
         "resultado": "Rechazado",
         "sentido": "abstencion",
-        "descripcion": "Proyecto de Resolución N° 101"
+        "descripcion": "Proyecto de Resolución N° 101",
+        "proyecto": null
       },
       {
         "votacion_id": "88787",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-05-06",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "2-Acusacion Constitucional"
+        "descripcion": "2-Acusacion Constitucional",
+        "proyecto": null
       },
       {
         "votacion_id": "88788",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-05-06",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "88790",
         "boletin": null,
+        "tipo": "Proyecto de Acuerdo",
         "fecha": "2026-05-06",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Acuerdo N° 9"
+        "descripcion": "Proyecto de Acuerdo N° 9",
+        "proyecto": null
       },
       {
         "votacion_id": "88791",
         "boletin": null,
+        "tipo": "Proyecto de Resolución",
         "fecha": "2026-05-06",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Resolución N° 7"
+        "descripcion": "Proyecto de Resolución N° 7",
+        "proyecto": null
       },
       {
         "votacion_id": "88792",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-05-06",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "2-Acusacion Constitucional"
+        "descripcion": "2-Acusacion Constitucional",
+        "proyecto": null
       },
       {
         "votacion_id": "88793",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-05-06",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "88794",
         "boletin": "18107-07",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-06",
         "resultado": "Rechazado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18107-07"
+        "descripcion": "Boletín N° 18107-07",
+        "proyecto": {
+          "boletin": "18107-07",
+          "nombre": "Modifica la ley N° 18.918, orgánica constitucional del Congreso Nacional, en materia de quórum necesario para revertir la declaración de inadmisibilidad recaída en proyectos de ley e indicaciones",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88808",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-05-11",
         "resultado": "Rechazado",
         "sentido": "no_vota",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "88810",
         "boletin": "14309-04",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-11",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 14309-04"
+        "descripcion": "Boletín N° 14309-04",
+        "proyecto": {
+          "boletin": "14309-04",
+          "nombre": "Establece un sistema de subvenciones para la modalidad educativa de reingreso",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88811",
         "boletin": "14309-04",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-11",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 14309-04"
+        "descripcion": "Boletín N° 14309-04",
+        "proyecto": {
+          "boletin": "14309-04",
+          "nombre": "Establece un sistema de subvenciones para la modalidad educativa de reingreso",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88812",
         "boletin": "14309-04",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-11",
         "resultado": "Rechazado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 14309-04"
+        "descripcion": "Boletín N° 14309-04",
+        "proyecto": {
+          "boletin": "14309-04",
+          "nombre": "Establece un sistema de subvenciones para la modalidad educativa de reingreso",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88813",
         "boletin": "14309-04",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-11",
         "resultado": "Rechazado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 14309-04"
+        "descripcion": "Boletín N° 14309-04",
+        "proyecto": {
+          "boletin": "14309-04",
+          "nombre": "Establece un sistema de subvenciones para la modalidad educativa de reingreso",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88822",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-05-12",
         "resultado": "Rechazado",
         "sentido": "en_contra",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "88824",
         "boletin": null,
+        "tipo": "Proyecto de Acuerdo",
         "fecha": "2026-05-12",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Acuerdo N° 10"
+        "descripcion": "Proyecto de Acuerdo N° 10",
+        "proyecto": null
       },
       {
         "votacion_id": "88825",
         "boletin": null,
+        "tipo": "Proyecto de Resolución",
         "fecha": "2026-05-12",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Resolución N° 9"
+        "descripcion": "Proyecto de Resolución N° 9",
+        "proyecto": null
       },
       {
         "votacion_id": "88826",
         "boletin": "17112-19",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-12",
         "resultado": "Rechazado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 17112-19"
+        "descripcion": "Boletín N° 17112-19",
+        "proyecto": {
+          "boletin": "17112-19",
+          "nombre": "Establece límites al desarrollo de la inteligencia artificial, en resguardo de los derechos humanos fundamentales",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88846",
         "boletin": null,
+        "tipo": "Proyecto de Resolución",
         "fecha": "2026-05-12",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Resolución N° 113"
+        "descripcion": "Proyecto de Resolución N° 113",
+        "proyecto": null
       },
       {
         "votacion_id": "88847",
         "boletin": null,
+        "tipo": "Proyecto de Resolución",
         "fecha": "2026-05-12",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Resolución N° 114"
+        "descripcion": "Proyecto de Resolución N° 114",
+        "proyecto": null
       },
       {
         "votacion_id": "88848",
         "boletin": null,
+        "tipo": "Proyecto de Resolución",
         "fecha": "2026-05-12",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Resolución N° 115"
+        "descripcion": "Proyecto de Resolución N° 115",
+        "proyecto": null
       },
       {
         "votacion_id": "88849",
         "boletin": null,
+        "tipo": "Proyecto de Resolución",
         "fecha": "2026-05-12",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Resolución N° 116"
+        "descripcion": "Proyecto de Resolución N° 116",
+        "proyecto": null
       },
       {
         "votacion_id": "88850",
         "boletin": null,
+        "tipo": "Proyecto de Resolución",
         "fecha": "2026-05-12",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Resolución N° 117"
+        "descripcion": "Proyecto de Resolución N° 117",
+        "proyecto": null
       },
       {
         "votacion_id": "88851",
         "boletin": null,
+        "tipo": "Proyecto de Resolución",
         "fecha": "2026-05-12",
         "resultado": "Aprobado",
         "sentido": "abstencion",
-        "descripcion": "Proyecto de Resolución N° 118"
+        "descripcion": "Proyecto de Resolución N° 118",
+        "proyecto": null
       },
       {
         "votacion_id": "88852",
         "boletin": null,
+        "tipo": "Proyecto de Resolución",
         "fecha": "2026-05-12",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Resolución N° 119"
+        "descripcion": "Proyecto de Resolución N° 119",
+        "proyecto": null
       },
       {
         "votacion_id": "88853",
         "boletin": null,
+        "tipo": "Proyecto de Resolución",
         "fecha": "2026-05-12",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Resolución N° 120"
+        "descripcion": "Proyecto de Resolución N° 120",
+        "proyecto": null
       },
       {
         "votacion_id": "88854",
         "boletin": null,
+        "tipo": "Proyecto de Resolución",
         "fecha": "2026-05-12",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Resolución N° 121"
+        "descripcion": "Proyecto de Resolución N° 121",
+        "proyecto": null
       },
       {
         "votacion_id": "88859",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-05-13",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "88860",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-05-13",
         "resultado": "Rechazado",
         "sentido": "no_vota",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "88865",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-05-13",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "88867",
         "boletin": null,
+        "tipo": "Proyecto de Acuerdo",
         "fecha": "2026-05-13",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Acuerdo N° 11"
+        "descripcion": "Proyecto de Acuerdo N° 11",
+        "proyecto": null
       },
       {
         "votacion_id": "88868",
         "boletin": null,
+        "tipo": "Proyecto de Resolución",
         "fecha": "2026-05-13",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Resolución N° 10"
+        "descripcion": "Proyecto de Resolución N° 10",
+        "proyecto": null
       },
       {
         "votacion_id": "88869",
         "boletin": "18215-10",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-13",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18215-10"
+        "descripcion": "Boletín N° 18215-10",
+        "proyecto": {
+          "boletin": "18215-10",
+          "nombre": "Acuerdo de mutua exención del requisito de visa para los titulares de pasaportes diplomáticos, especiales y oficiales entre el Gobierno de la República de Chile y el Gobierno del Estado de Catar",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88870",
         "boletin": "18155-25",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-13",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18155-25"
+        "descripcion": "Boletín N° 18155-25",
+        "proyecto": {
+          "boletin": "18155-25",
+          "nombre": "Modifica el Código Penal para establecer nuevas agravantes por delitos cometidos contra la comunidad educativa y en recintos educacionales",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88871",
         "boletin": "18155-25",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-13",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18155-25"
+        "descripcion": "Boletín N° 18155-25",
+        "proyecto": {
+          "boletin": "18155-25",
+          "nombre": "Modifica el Código Penal para establecer nuevas agravantes por delitos cometidos contra la comunidad educativa y en recintos educacionales",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88872",
         "boletin": "15258-25",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-13",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 15258-25"
+        "descripcion": "Boletín N° 15258-25",
+        "proyecto": {
+          "boletin": "15258-25",
+          "nombre": "Modifica la ley N°20.931, para permitir la aplicación de medidas de control de identidad preventivo en zonas fronterizas, instalaciones estratégicas y sus inmediaciones",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88879",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-05-18",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "88880",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-05-18",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "88881",
         "boletin": "18232-25",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-18",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18232-25"
+        "descripcion": "Boletín N° 18232-25",
+        "proyecto": {
+          "boletin": "18232-25",
+          "nombre": "Modifica la ley N° 21.659, sobre seguridad privada, para aumentar el plazo de presentación y pronunciamiento sobre los estudios de seguridad que dispone, y extiende la prórroga de vigencia de la última autorización del personal de seguridad privada que indica",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88888",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "3-Creacion Comision Investigadora"
+        "descripcion": "3-Creacion Comision Investigadora",
+        "proyecto": null
       },
       {
         "votacion_id": "88889",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "abstencion",
-        "descripcion": "3-Creacion Comision Investigadora"
+        "descripcion": "3-Creacion Comision Investigadora",
+        "proyecto": null
       },
       {
         "votacion_id": "88890",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-05-20",
         "resultado": "Rechazado",
         "sentido": "abstencion",
-        "descripcion": "2-Acusacion Constitucional"
+        "descripcion": "2-Acusacion Constitucional",
+        "proyecto": null
       },
       {
         "votacion_id": "88892",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-05-20",
         "resultado": "Rechazado",
         "sentido": "en_contra",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "88893",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88894",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88895",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88896",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88897",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88898",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88899",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Rechazado",
         "sentido": "abstencion",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88900",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Rechazado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88901",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88902",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88903",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88904",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Rechazado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88905",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88906",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88907",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88908",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "abstencion",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88909",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88910",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88911",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88912",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88913",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Rechazado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88914",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Rechazado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88915",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88916",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Rechazado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88917",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Rechazado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88918",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Rechazado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88919",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88920",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88921",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88922",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88923",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88924",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88925",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88926",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88927",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88928",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88929",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Rechazado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88930",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88931",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88932",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Rechazado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88933",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Rechazado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88934",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88935",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88936",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88937",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88938",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88939",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88940",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88941",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88942",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88943",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88944",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Rechazado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88945",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Rechazado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88946",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88947",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88948",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88949",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Rechazado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88950",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Rechazado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88951",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Rechazado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88952",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Rechazado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88953",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Rechazado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88954",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Rechazado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88955",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Rechazado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88956",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Rechazado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88957",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Rechazado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88958",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88959",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88960",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88961",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88962",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88963",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88964",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88965",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88966",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88967",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88968",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88969",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88970",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88971",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "abstencion",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88972",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88973",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88974",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Rechazado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88975",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Rechazado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88976",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Rechazado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88977",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Rechazado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88978",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Rechazado",
         "sentido": "abstencion",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88979",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Rechazado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88980",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Rechazado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88981",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88984",
         "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-05-20",
         "resultado": "Rechazado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18216-05"
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "88990",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-06-02",
         "resultado": "Aprobado",
         "sentido": "abstencion",
-        "descripcion": "2-Acusacion Constitucional"
+        "descripcion": "2-Acusacion Constitucional",
+        "proyecto": null
       },
       {
         "votacion_id": "88993",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-06-02",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "2-Acusacion Constitucional"
+        "descripcion": "2-Acusacion Constitucional",
+        "proyecto": null
       },
       {
         "votacion_id": "88996",
         "boletin": null,
+        "tipo": "Proyecto de Acuerdo",
         "fecha": "2026-06-02",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Acuerdo N° 12"
+        "descripcion": "Proyecto de Acuerdo N° 12",
+        "proyecto": null
       },
       {
         "votacion_id": "88997",
         "boletin": null,
+        "tipo": "Proyecto de Resolución",
         "fecha": "2026-06-02",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Resolución N° 11"
+        "descripcion": "Proyecto de Resolución N° 11",
+        "proyecto": null
       },
       {
         "votacion_id": "88998",
         "boletin": null,
+        "tipo": "Proyecto de Resolución",
         "fecha": "2026-06-02",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Resolución N° 12"
+        "descripcion": "Proyecto de Resolución N° 12",
+        "proyecto": null
       },
       {
         "votacion_id": "88999",
         "boletin": null,
+        "tipo": "Proyecto de Resolución",
         "fecha": "2026-06-02",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Resolución N° 13"
+        "descripcion": "Proyecto de Resolución N° 13",
+        "proyecto": null
       },
       {
         "votacion_id": "89000",
         "boletin": "18156-04",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-06-02",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18156-04"
+        "descripcion": "Boletín N° 18156-04",
+        "proyecto": {
+          "boletin": "18156-04",
+          "nombre": "Establece medidas de seguridad, orden y respeto para la comunidad educativa",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "89001",
         "boletin": "18156-04",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-06-02",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18156-04"
+        "descripcion": "Boletín N° 18156-04",
+        "proyecto": {
+          "boletin": "18156-04",
+          "nombre": "Establece medidas de seguridad, orden y respeto para la comunidad educativa",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "89002",
         "boletin": "18156-04",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-06-02",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18156-04"
+        "descripcion": "Boletín N° 18156-04",
+        "proyecto": {
+          "boletin": "18156-04",
+          "nombre": "Establece medidas de seguridad, orden y respeto para la comunidad educativa",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "89003",
         "boletin": "17287-14",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-06-02",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 17287-14"
+        "descripcion": "Boletín N° 17287-14",
+        "proyecto": {
+          "boletin": "17287-14",
+          "nombre": "Modifica textos legales que indica para agilizar la obtención de permisos de urbanización y edificación",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "89020",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-06-03",
         "resultado": "Aprobado",
         "sentido": "no_vota",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "89021",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-06-03",
         "resultado": "Aprobado",
         "sentido": "no_vota",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "89022",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-06-03",
         "resultado": "Aprobado",
         "sentido": "abstencion",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "89023",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-06-03",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "89029",
         "boletin": null,
+        "tipo": "Proyecto de Acuerdo",
         "fecha": "2026-06-03",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Acuerdo N° 13"
+        "descripcion": "Proyecto de Acuerdo N° 13",
+        "proyecto": null
       },
       {
         "votacion_id": "89030",
         "boletin": null,
+        "tipo": "Proyecto de Resolución",
         "fecha": "2026-06-03",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Resolución N° 14"
+        "descripcion": "Proyecto de Resolución N° 14",
+        "proyecto": null
       },
       {
         "votacion_id": "89031",
         "boletin": "16808-25",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-06-03",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 16808-25"
+        "descripcion": "Boletín N° 16808-25",
+        "proyecto": {
+          "boletin": "16808-25",
+          "nombre": "Modifica la ley N° 19.913 para prevenir y sancionar con mayor rigurosidad el lavado de activos asociado al comercio ilegal",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "89032",
         "boletin": "16808-25",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-06-03",
         "resultado": "Rechazado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 16808-25"
+        "descripcion": "Boletín N° 16808-25",
+        "proyecto": {
+          "boletin": "16808-25",
+          "nombre": "Modifica la ley N° 19.913 para prevenir y sancionar con mayor rigurosidad el lavado de activos asociado al comercio ilegal",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "89033",
         "boletin": "18230-13",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-06-03",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18230-13"
+        "descripcion": "Boletín N° 18230-13",
+        "proyecto": {
+          "boletin": "18230-13",
+          "nombre": "Reajusta el monto del ingreso mínimo mensual, así como de la asignación familiar y maternal y del subsidio familiar",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "89034",
         "boletin": "18230-13",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-06-03",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18230-13"
+        "descripcion": "Boletín N° 18230-13",
+        "proyecto": {
+          "boletin": "18230-13",
+          "nombre": "Reajusta el monto del ingreso mínimo mensual, así como de la asignación familiar y maternal y del subsidio familiar",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "89035",
         "boletin": "18230-13",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-06-03",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18230-13"
+        "descripcion": "Boletín N° 18230-13",
+        "proyecto": {
+          "boletin": "18230-13",
+          "nombre": "Reajusta el monto del ingreso mínimo mensual, así como de la asignación familiar y maternal y del subsidio familiar",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "89036",
         "boletin": "18230-13",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-06-03",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18230-13"
+        "descripcion": "Boletín N° 18230-13",
+        "proyecto": {
+          "boletin": "18230-13",
+          "nombre": "Reajusta el monto del ingreso mínimo mensual, así como de la asignación familiar y maternal y del subsidio familiar",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "89037",
         "boletin": "18230-13",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-06-03",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18230-13"
+        "descripcion": "Boletín N° 18230-13",
+        "proyecto": {
+          "boletin": "18230-13",
+          "nombre": "Reajusta el monto del ingreso mínimo mensual, así como de la asignación familiar y maternal y del subsidio familiar",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "89038",
         "boletin": "18230-13",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-06-03",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18230-13"
+        "descripcion": "Boletín N° 18230-13",
+        "proyecto": {
+          "boletin": "18230-13",
+          "nombre": "Reajusta el monto del ingreso mínimo mensual, así como de la asignación familiar y maternal y del subsidio familiar",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "89054",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-06-08",
         "resultado": "Rechazado",
         "sentido": "a_favor",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "89055",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-06-08",
         "resultado": "Rechazado",
         "sentido": "abstencion",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "89057",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-06-08",
         "resultado": "Aprobado",
         "sentido": "abstencion",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "89058",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-06-08",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "89066",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-06-08",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "89067",
         "boletin": "17956-10",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-06-08",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 17956-10"
+        "descripcion": "Boletín N° 17956-10",
+        "proyecto": {
+          "boletin": "17956-10",
+          "nombre": "Aprueba el &quot;Acuerdo sobre transporte aéreo entre la República de Chile y el Reino de España&quot;, suscrito en Montreal, Canadá, el 1 de octubre de 2022",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "89068",
         "boletin": "17957-10",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-06-08",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 17957-10"
+        "descripcion": "Boletín N° 17957-10",
+        "proyecto": {
+          "boletin": "17957-10",
+          "nombre": "Aprueba el &quot;Acuerdo entre el Gobierno de la República de Chile y el Gobierno de la República Helénica en materia de servicios aéreos&quot;, suscrito en Atenas, Grecia, el 27 de mayo de 2021",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "89069",
         "boletin": "17958-10",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-06-08",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 17958-10"
+        "descripcion": "Boletín N° 17958-10",
+        "proyecto": {
+          "boletin": "17958-10",
+          "nombre": "Aprueba el &quot;Acuerdo de servicios aéreos entre el Reino de los Países Bajos y la República de Chile&quot;, suscrito en Santiago, Chile, el 24 de mayo de 2021",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "89070",
         "boletin": "18178-10",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-06-08",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18178-10"
+        "descripcion": "Boletín N° 18178-10",
+        "proyecto": {
+          "boletin": "18178-10",
+          "nombre": "Aprueba el Acuerdo entre el Gobierno de la República de Chile y el Gobierno de la República de Tayikistán sobre la exención mutua del requisito de visa para titulares de pasaportes diplomáticos oficiales y de servicio, suscrito en Dushanbe, República de Tayikistán, el 9 de marzo de 2023",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "89071",
         "boletin": "18030-12",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-06-08",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18030-12"
+        "descripcion": "Boletín N° 18030-12",
+        "proyecto": {
+          "boletin": "18030-12",
+          "nombre": "Modifica la ley N° 21.600, que crea el Servicio de Biodiversidad y Áreas Protegidas y el Sistema Nacional de Áreas Protegidas, para impedir el establecimiento de nuevos sitios prioritarios mientras no se dicte el reglamento que señala",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "89072",
         "boletin": "18157-33",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-06-08",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18157-33"
+        "descripcion": "Boletín N° 18157-33",
+        "proyecto": {
+          "boletin": "18157-33",
+          "nombre": "Prorroga el plazo para la regularización e inscripción de derechos de aprovechamiento de aguas hasta el año 2030",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "89080",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-06-09",
         "resultado": "Rechazado",
         "sentido": "abstencion",
-        "descripcion": "3-Creacion Comision Investigadora"
+        "descripcion": "3-Creacion Comision Investigadora",
+        "proyecto": null
       },
       {
         "votacion_id": "89082",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-06-09",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "89083",
         "boletin": null,
+        "tipo": "Proyecto de Acuerdo",
         "fecha": "2026-06-09",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Acuerdo N° 14"
+        "descripcion": "Proyecto de Acuerdo N° 14",
+        "proyecto": null
       },
       {
         "votacion_id": "89084",
         "boletin": null,
+        "tipo": "Proyecto de Resolución",
         "fecha": "2026-06-09",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Resolución N° 15"
+        "descripcion": "Proyecto de Resolución N° 15",
+        "proyecto": null
       },
       {
         "votacion_id": "89085",
         "boletin": "16686-19",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-06-09",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 16686-19"
+        "descripcion": "Boletín N° 16686-19",
+        "proyecto": {
+          "boletin": "16686-19",
+          "nombre": "Dicta normas sobre transferencia de tecnología y conocimiento",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "89086",
         "boletin": "16686-19",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-06-09",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 16686-19"
+        "descripcion": "Boletín N° 16686-19",
+        "proyecto": {
+          "boletin": "16686-19",
+          "nombre": "Dicta normas sobre transferencia de tecnología y conocimiento",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "89087",
         "boletin": "15258-25",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-06-09",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 15258-25"
+        "descripcion": "Boletín N° 15258-25",
+        "proyecto": {
+          "boletin": "15258-25",
+          "nombre": "Modifica la ley N°20.931, para permitir la aplicación de medidas de control de identidad preventivo en zonas fronterizas, instalaciones estratégicas y sus inmediaciones",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "89099",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-06-10",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "2-Acusacion Constitucional"
+        "descripcion": "2-Acusacion Constitucional",
+        "proyecto": null
       },
       {
         "votacion_id": "89100",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-06-10",
         "resultado": "Aprobado",
         "sentido": "no_vota",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "89101",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-06-10",
         "resultado": "Aprobado",
         "sentido": "no_vota",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "89102",
         "boletin": null,
+        "tipo": "Proyecto de Acuerdo",
         "fecha": "2026-06-10",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Acuerdo N° 15"
+        "descripcion": "Proyecto de Acuerdo N° 15",
+        "proyecto": null
       },
       {
         "votacion_id": "89103",
         "boletin": null,
+        "tipo": "Proyecto de Resolución",
         "fecha": "2026-06-10",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Resolución N° 16"
+        "descripcion": "Proyecto de Resolución N° 16",
+        "proyecto": null
       },
       {
         "votacion_id": "89104",
         "boletin": "18048-06",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-06-10",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18048-06"
+        "descripcion": "Boletín N° 18048-06",
+        "proyecto": {
+          "boletin": "18048-06",
+          "nombre": "Concede, por especial gracia, la nacionalidad chilena a la destacada deportista juvenil colombiana María Camila Valencia Mosquera",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "89105",
         "boletin": "17630-10",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-06-10",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 17630-10"
+        "descripcion": "Boletín N° 17630-10",
+        "proyecto": {
+          "boletin": "17630-10",
+          "nombre": "Aprueba el &quot;Acuerdo entre la República de Chile y la República Federativa de Brasil para el reconocimiento recíproco de licencias de conductor&quot;, hecho en Santiago, República de Chile, el 5 de agosto de 2024.",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "89106",
         "boletin": "18256-10",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-06-10",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18256-10"
+        "descripcion": "Boletín N° 18256-10",
+        "proyecto": {
+          "boletin": "18256-10",
+          "nombre": "Aprueba el Acuerdo entre la República de Chile y la República Helénica sobre el empleo remunerado de dependientes de miembros de una misión diplomática o representación consular, suscrito en Santiago, el 24 de abril de 2024",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "89107",
         "boletin": "16725-06",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-06-10",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 16725-06"
+        "descripcion": "Boletín N° 16725-06",
+        "proyecto": {
+          "boletin": "16725-06",
+          "nombre": "Modifica cuerpos legales que indica para derogar el feriado en días de elecciones y plebiscitos",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "89108",
         "boletin": "16725-06",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-06-10",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 16725-06"
+        "descripcion": "Boletín N° 16725-06",
+        "proyecto": {
+          "boletin": "16725-06",
+          "nombre": "Modifica cuerpos legales que indica para derogar el feriado en días de elecciones y plebiscitos",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "89109",
         "boletin": "15936-18",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-06-10",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 15936-18"
+        "descripcion": "Boletín N° 15936-18",
+        "proyecto": {
+          "boletin": "15936-18",
+          "nombre": "Modifica cuerpos legales que indica para prohibir el porte y tenencia de armas de fuego a personas procesadas o condenadas por violencia intrafamiliar",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "89110",
         "boletin": "15936-18",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-06-10",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 15936-18"
+        "descripcion": "Boletín N° 15936-18",
+        "proyecto": {
+          "boletin": "15936-18",
+          "nombre": "Modifica cuerpos legales que indica para prohibir el porte y tenencia de armas de fuego a personas procesadas o condenadas por violencia intrafamiliar",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "89111",
         "boletin": "15936-18",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-06-10",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 15936-18"
+        "descripcion": "Boletín N° 15936-18",
+        "proyecto": {
+          "boletin": "15936-18",
+          "nombre": "Modifica cuerpos legales que indica para prohibir el porte y tenencia de armas de fuego a personas procesadas o condenadas por violencia intrafamiliar",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "89112",
         "boletin": "15936-18",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-06-10",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 15936-18"
+        "descripcion": "Boletín N° 15936-18",
+        "proyecto": {
+          "boletin": "15936-18",
+          "nombre": "Modifica cuerpos legales que indica para prohibir el porte y tenencia de armas de fuego a personas procesadas o condenadas por violencia intrafamiliar",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "89113",
         "boletin": "15936-18",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-06-10",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 15936-18"
+        "descripcion": "Boletín N° 15936-18",
+        "proyecto": {
+          "boletin": "15936-18",
+          "nombre": "Modifica cuerpos legales que indica para prohibir el porte y tenencia de armas de fuego a personas procesadas o condenadas por violencia intrafamiliar",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "89129",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-06-15",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "89132",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-06-15",
         "resultado": "Rechazado",
         "sentido": "a_favor",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "89149",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-06-16",
         "resultado": "Rechazado",
         "sentido": "no_vota",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "89150",
         "boletin": null,
+        "tipo": "Proyecto de Acuerdo",
         "fecha": "2026-06-16",
         "resultado": "Rechazado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Acuerdo N° 16"
+        "descripcion": "Proyecto de Acuerdo N° 16",
+        "proyecto": null
       },
       {
         "votacion_id": "89151",
         "boletin": null,
+        "tipo": "Proyecto de Resolución",
         "fecha": "2026-06-16",
         "resultado": "Aprobado",
         "sentido": "abstencion",
-        "descripcion": "Proyecto de Resolución N° 17"
+        "descripcion": "Proyecto de Resolución N° 17",
+        "proyecto": null
       },
       {
         "votacion_id": "89152",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-06-16",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "89153",
         "boletin": "16857-07",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-06-16",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 16857-07"
+        "descripcion": "Boletín N° 16857-07",
+        "proyecto": {
+          "boletin": "16857-07",
+          "nombre": "Modifica el Código Penal para autorizar el uso de agentes encubiertos en Internet para la persecución de delitos sexuales contra niños, niñas y adolescentes",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "89154",
         "boletin": "16857-07",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-06-16",
         "resultado": "Rechazado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 16857-07"
+        "descripcion": "Boletín N° 16857-07",
+        "proyecto": {
+          "boletin": "16857-07",
+          "nombre": "Modifica el Código Penal para autorizar el uso de agentes encubiertos en Internet para la persecución de delitos sexuales contra niños, niñas y adolescentes",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "89155",
         "boletin": "16857-07",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-06-16",
         "resultado": "Rechazado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 16857-07"
+        "descripcion": "Boletín N° 16857-07",
+        "proyecto": {
+          "boletin": "16857-07",
+          "nombre": "Modifica el Código Penal para autorizar el uso de agentes encubiertos en Internet para la persecución de delitos sexuales contra niños, niñas y adolescentes",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "89156",
         "boletin": "16857-07",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-06-16",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 16857-07"
+        "descripcion": "Boletín N° 16857-07",
+        "proyecto": {
+          "boletin": "16857-07",
+          "nombre": "Modifica el Código Penal para autorizar el uso de agentes encubiertos en Internet para la persecución de delitos sexuales contra niños, niñas y adolescentes",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "89157",
         "boletin": "16857-07",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-06-16",
         "resultado": "Rechazado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 16857-07"
+        "descripcion": "Boletín N° 16857-07",
+        "proyecto": {
+          "boletin": "16857-07",
+          "nombre": "Modifica el Código Penal para autorizar el uso de agentes encubiertos en Internet para la persecución de delitos sexuales contra niños, niñas y adolescentes",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "89158",
         "boletin": "16857-07",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-06-16",
         "resultado": "Rechazado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 16857-07"
+        "descripcion": "Boletín N° 16857-07",
+        "proyecto": {
+          "boletin": "16857-07",
+          "nombre": "Modifica el Código Penal para autorizar el uso de agentes encubiertos en Internet para la persecución de delitos sexuales contra niños, niñas y adolescentes",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "89159",
         "boletin": "16857-07",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-06-16",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 16857-07"
+        "descripcion": "Boletín N° 16857-07",
+        "proyecto": {
+          "boletin": "16857-07",
+          "nombre": "Modifica el Código Penal para autorizar el uso de agentes encubiertos en Internet para la persecución de delitos sexuales contra niños, niñas y adolescentes",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "89160",
         "boletin": "16857-07",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-06-16",
         "resultado": "Rechazado",
         "sentido": "en_contra",
-        "descripcion": "Boletín N° 16857-07"
+        "descripcion": "Boletín N° 16857-07",
+        "proyecto": {
+          "boletin": "16857-07",
+          "nombre": "Modifica el Código Penal para autorizar el uso de agentes encubiertos en Internet para la persecución de delitos sexuales contra niños, niñas y adolescentes",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "89161",
         "boletin": "16857-07",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-06-16",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 16857-07"
+        "descripcion": "Boletín N° 16857-07",
+        "proyecto": {
+          "boletin": "16857-07",
+          "nombre": "Modifica el Código Penal para autorizar el uso de agentes encubiertos en Internet para la persecución de delitos sexuales contra niños, niñas y adolescentes",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "89162",
         "boletin": "17222-07",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-06-16",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 17222-07"
+        "descripcion": "Boletín N° 17222-07",
+        "proyecto": {
+          "boletin": "17222-07",
+          "nombre": "Modifica la ley N° 18.918, orgánica constitucional del Congreso Nacional, para permitir la votación dividida de las acusaciones constitucionales, en los casos que indica",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "89169",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-06-17",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "89170",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-06-17",
         "resultado": "Aprobado",
         "sentido": "abstencion",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "89172",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-06-17",
         "resultado": "Aprobado",
         "sentido": "no_vota",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "89176",
         "boletin": null,
+        "tipo": "Proyecto de Acuerdo",
         "fecha": "2026-06-17",
         "resultado": "Rechazado",
         "sentido": "abstencion",
-        "descripcion": "Proyecto de Acuerdo N° 17"
+        "descripcion": "Proyecto de Acuerdo N° 17",
+        "proyecto": null
       },
       {
         "votacion_id": "89177",
         "boletin": null,
+        "tipo": "Proyecto de Resolución",
         "fecha": "2026-06-17",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Resolución N° 18"
+        "descripcion": "Proyecto de Resolución N° 18",
+        "proyecto": null
       },
       {
         "votacion_id": "89178",
         "boletin": "18296-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-06-17",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18296-05"
+        "descripcion": "Boletín N° 18296-05",
+        "proyecto": {
+          "boletin": "18296-05",
+          "nombre": "Autoriza mayor endeudamiento del gobierno central durante el año 2026",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "89179",
         "boletin": "18296-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-06-17",
         "resultado": "Rechazado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18296-05"
+        "descripcion": "Boletín N° 18296-05",
+        "proyecto": {
+          "boletin": "18296-05",
+          "nombre": "Autoriza mayor endeudamiento del gobierno central durante el año 2026",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "89180",
         "boletin": "18296-05",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-06-17",
         "resultado": "Rechazado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18296-05"
+        "descripcion": "Boletín N° 18296-05",
+        "proyecto": {
+          "boletin": "18296-05",
+          "nombre": "Autoriza mayor endeudamiento del gobierno central durante el año 2026",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "89210",
         "boletin": "10986-24",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-06-22",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 10986-24"
+        "descripcion": "Boletín N° 10986-24",
+        "proyecto": {
+          "boletin": "10986-24",
+          "nombre": "Autoriza erigir un monumento, en la comuna de Lota, en memoria del escritor chileno Baldomero Lillo Figueroa",
+          "tipo_iniciativa": "Moción",
+          "materias": [
+            {
+              "id": "20080",
+              "nombre": "BALDOMERO LILLO FIGUEROA"
+            },
+            {
+              "id": "1252",
+              "nombre": "MONUMENTOS"
+            },
+            {
+              "id": "20078",
+              "nombre": "COMUNA DE LOTA"
+            },
+            {
+              "id": "20079",
+              "nombre": "ESCRITOR CHILENO"
+            }
+          ]
+        }
       },
       {
         "votacion_id": "89223",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-06-23",
         "resultado": "Aprobado",
         "sentido": "no_vota",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "89225",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-06-23",
         "resultado": "Rechazado",
         "sentido": "en_contra",
-        "descripcion": "4-Informe Comision Investigadora"
+        "descripcion": "4-Informe Comision Investigadora",
+        "proyecto": null
       },
       {
         "votacion_id": "89226",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-06-23",
         "resultado": "Aprobado",
         "sentido": "en_contra",
-        "descripcion": "2-Acusacion Constitucional"
+        "descripcion": "2-Acusacion Constitucional",
+        "proyecto": null
       },
       {
         "votacion_id": "89227",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-06-23",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "2-Acusacion Constitucional"
+        "descripcion": "2-Acusacion Constitucional",
+        "proyecto": null
       },
       {
         "votacion_id": "89234",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-06-24",
         "resultado": "Aprobado",
         "sentido": "no_vota",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "89239",
         "boletin": null,
+        "tipo": "Proyecto de Acuerdo",
         "fecha": "2026-06-24",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Acuerdo N° 18"
+        "descripcion": "Proyecto de Acuerdo N° 18",
+        "proyecto": null
       },
       {
         "votacion_id": "89240",
         "boletin": null,
+        "tipo": "Proyecto de Resolución",
         "fecha": "2026-06-24",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Proyecto de Resolución N° 19"
+        "descripcion": "Proyecto de Resolución N° 19",
+        "proyecto": null
       },
       {
         "votacion_id": "89241",
         "boletin": "18257-10",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-06-24",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18257-10"
+        "descripcion": "Boletín N° 18257-10",
+        "proyecto": {
+          "boletin": "18257-10",
+          "nombre": "Aprueba el Acuerdo general sobre los privilegios e inmunidades de la Organización Internacional de Policía Criminal-INTERPOL, aprobado en Marrakech, Marruecos, el 24 de noviembre de 2025",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       },
       {
         "votacion_id": "89242",
         "boletin": "18211-25",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-06-24",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 18211-25"
+        "descripcion": "Boletín N° 18211-25",
+        "proyecto": {
+          "boletin": "18211-25",
+          "nombre": "Modifica el código penal, con el objeto de tipificar el delito de ocultamiento de identidad en el contexto de eventos masivos y desórdenes públicos",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "89277",
         "boletin": null,
+        "tipo": "Otros",
         "fecha": "2026-07-06",
         "resultado": "Rechazado",
         "sentido": "a_favor",
-        "descripcion": "1-Otros"
+        "descripcion": "1-Otros",
+        "proyecto": null
       },
       {
         "votacion_id": "89287",
         "boletin": "16851-14",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-07-06",
         "resultado": "Aprobado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 16851-14"
+        "descripcion": "Boletín N° 16851-14",
+        "proyecto": {
+          "boletin": "16851-14",
+          "nombre": "Modifica la ley N° 21.450 para autorizar la adquisición de terrenos, destinados a viviendas para familias vulnerables, emplazados en comunas distintas de aquellas que registran mayor demanda de estos grupos",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       },
       {
         "votacion_id": "89288",
         "boletin": "16851-14",
+        "tipo": "Proyecto de Ley",
         "fecha": "2026-07-06",
         "resultado": "Rechazado",
         "sentido": "a_favor",
-        "descripcion": "Boletín N° 16851-14"
+        "descripcion": "Boletín N° 16851-14",
+        "proyecto": {
+          "boletin": "16851-14",
+          "nombre": "Modifica la ley N° 21.450 para autorizar la adquisición de terrenos, destinados a viviendas para familias vulnerables, emplazados en comunas distintas de aquellas que registran mayor demanda de estos grupos",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       }
     ]
   },
@@ -2923,56 +4883,72 @@
         "nombre": "Modifica la ley N° 19.451, que establece normas sobre trasplante y donación de órganos, para impedir la discriminación en el acceso a esta prestación médica respecto de personas adoptadas, con filiación desconocida o sin vínculos familiares biológicos (Ley Thiare)",
         "fecha_ingreso": "2026-06-19",
         "admisible": "true",
-        "rol": "firmante"
+        "rol": "firmante",
+        "tipo_iniciativa": "Moción",
+        "materias": []
       },
       {
         "boletin": "18352-04",
         "nombre": "Modifica la ley N°20.370, General de Educación, para incorporar la educación emocional y salud mental en el sistema escolar",
         "fecha_ingreso": "2026-06-10",
         "admisible": "true",
-        "rol": "firmante"
+        "rol": "firmante",
+        "tipo_iniciativa": "Moción",
+        "materias": []
       },
       {
         "boletin": "18354-07",
         "nombre": "Modifica el artículo 19 N°16 de la Constitución Política, para disponer un procedimiento de negociación de reajustes salariales en el sector público y privado",
         "fecha_ingreso": "2026-06-10",
         "admisible": "true",
-        "rol": "firmante"
+        "rol": "firmante",
+        "tipo_iniciativa": "Moción",
+        "materias": []
       },
       {
         "boletin": "18280-21",
         "nombre": "Modifica la ley N°21.069, que crea el Instituto Nacional de Desarrollo Sustentable de la Pesca Artesanal y de la Acuicultura de Pequeña Escala, Indespa, en lo relativo a la manera de regular el periodo de inscripción y postulación a beneficios que indica",
         "fecha_ingreso": "2026-05-31",
         "admisible": "true",
-        "rol": "firmante"
+        "rol": "firmante",
+        "tipo_iniciativa": "Moción",
+        "materias": []
       },
       {
         "boletin": "18251-07",
         "nombre": "Modifica el artículo 445 del Código de Procedimiento Civil para establecer un régimen excepcional de inembargabilidad de la vivienda principal del deudor",
         "fecha_ingreso": "2026-05-09",
         "admisible": "true",
-        "rol": "firmante"
+        "rol": "firmante",
+        "tipo_iniciativa": "Moción",
+        "materias": []
       },
       {
         "boletin": "18252-07",
         "nombre": "Modifica el artículo 38 bis de la Constitución Política de la República",
         "fecha_ingreso": "2026-05-09",
         "admisible": "true",
-        "rol": "firmante"
+        "rol": "firmante",
+        "tipo_iniciativa": "Moción",
+        "materias": []
       },
       {
         "boletin": "18248-07",
         "nombre": "Modifica el artículo 149 del Código Procesal Penal con el objeto de permitir la interposición verbal del recurso de apelación por parte del Ministerio Público en el caso de delitos cometidos en contexto de violencia intrafamiliar",
         "fecha_ingreso": "2026-05-06",
         "admisible": "true",
-        "rol": "firmante"
+        "rol": "firmante",
+        "tipo_iniciativa": "Moción",
+        "materias": []
       },
       {
         "boletin": "18249-07",
         "nombre": "Modifica el artículo 325 del Código Procesal Penal con el objeto de permitir la rendición de prueba anticipada en el juicio oral en caso de incomparecencia injustificada del imputado",
         "fecha_ingreso": "2026-05-06",
         "admisible": "true",
-        "rol": "firmante"
+        "rol": "firmante",
+        "tipo_iniciativa": "Moción",
+        "materias": []
       }
     ]
   },
@@ -2980,6 +4956,6 @@
     "fuente": "opendata.camara.cl",
     "periodo": "2026-2030",
     "anio_proceso": 2026,
-    "generado": "2026-07-09T08:56:05"
+    "generado": "2026-07-09T14:48:56"
   }
 }
