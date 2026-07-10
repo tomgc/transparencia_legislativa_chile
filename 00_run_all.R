@@ -47,6 +47,12 @@ PASOS <- list(
 # ---- Funcion principal ----
 run_all <- function(from = NULL, to = NULL, only = NULL, skip = NULL) {
 
+  # Precondicion: CORTE_FECHA fijado y valido (falla AQUI, no a mitad de
+  # pipeline). corte_para_clave() valida formato AAAA-MM-DD y hace stop() claro
+  # si falta; se descarta el valor, solo interesa disparar la validacion.
+  invisible(corte_para_clave())
+  log_msg(sprintf("Corte temporal: %s", CORTE_FECHA), origen = "00_run_all")
+
   ids <- vapply(PASOS, function(p) p$id, integer(1))
 
   # Validar que los argumentos referencian IDs existentes.
