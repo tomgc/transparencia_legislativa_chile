@@ -262,6 +262,14 @@ a:hover{color:var(--accent-blue-hover)}
 .pill-adm.no{color:var(--accent-red);background:rgba(166,72,63,.1);border:1px solid rgba(166,72,63,.3)}
 .empty-italic{padding:22px 0 6px;font-size:13.5px;color:var(--text-muted-2);font-style:italic}
 
+/* ---- Contenido legible: tipo de iniciativa y materias (chips) ---- */
+.materias-line{display:flex;flex-wrap:wrap;gap:4px;margin-top:5px}
+.materia-chip{font-size:10px;color:var(--text-secondary-2);background:var(--surface-tertiary);border:1px solid var(--border-card);border-radius:10px;padding:1px 8px;letter-spacing:.02em;white-space:nowrap}
+.materia-empty{font-size:11px;color:var(--text-muted-4);font-style:italic;margin-top:4px;display:inline-block}
+.tipo-tag{display:inline-block;font-family:var(--font-mono);font-size:9.5px;font-weight:500;letter-spacing:.06em;text-transform:uppercase;color:var(--text-muted-2);background:var(--chip-fill);border-radius:4px;padding:1px 6px;margin-top:4px}
+.voto-proyecto-nombre{font-size:13px;color:var(--text-secondary);font-weight:500}
+.voto-tipo-sinbol{font-size:12px;color:var(--text-muted-4);font-style:italic}
+
 .skel-block{width:100%;animation:shimmer 1.4s infinite linear;background:linear-gradient(90deg,#E7E1D2 25%,#F1ECDF 37%,#E7E1D2 63%);background-size:720px 100%;border-radius:14px}
 
 @media (max-width:820px){
@@ -777,6 +785,16 @@ function buildProfileHeaderSkeleton(){
   +'</div>';
 }
 
+// Materias como chips legibles; emptyMsg (opcional) cuando no hay materias.
+function renderMaterias(materias, emptyMsg){
+  if(!materias || materias.length===0){
+    return emptyMsg ? '<span class="materia-empty">'+esc(emptyMsg)+'</span>' : '';
+  }
+  return '<div class="materias-line">'+materias.map(function(m){
+    return '<span class="materia-chip" title="Materia '+esc(m.id)+'">'+esc(m.nombre)+'</span>';
+  }).join('')+'</div>';
+}
+
 function buildVotacionesSection(p){
   var v = p.votaciones;
   var SENT_META = {a_favor:{label:'A favor',color:'#4B7A52'}, en_contra:{label:'En contra',color:'#A6483F'}, abstencion:{label:'Abstención',color:'#B0873C'}, dispensado:{label:'Dispensado',color:'#8C8578'}, no_vota:{label:'No vota',color:'#8C8578'}};
@@ -801,12 +819,26 @@ function buildVotacionesSection(p){
     var resColor = row.resultado==='Aprobado' ? 'var(--accent-green)' : (row.resultado==='Rechazado' ? 'var(--accent-red)' : 'var(--text-muted)');
     var sentColor = {a_favor:'var(--accent-green)',en_contra:'var(--accent-red)',abstencion:'var(--accent-amber)',dispensado:'var(--accent-gray)',no_vota:'var(--accent-gray)'}[row.sentido] || 'var(--text-muted)';
     var sentLabel = SENT_META[row.sentido] ? SENT_META[row.sentido].label : row.sentido;
-    var boletin = row.boletin || 'Sin boletín';
-    var boletinCls = row.boletin ? '' : ' style="font-style:italic;color:var(--text-muted-4)"';
+    // Columna "Boletin": si hay boletin lo muestra; si no, el TIPO del voto
+    // (Proyecto de Resolucion/Acuerdo/Otros) en italica -> deja claro que es un
+    // instrumento sin boletin, no un dato faltante.
+    var colBoletin = row.boletin
+      ? '<span class="mini-cell-boletin">'+esc(row.boletin)+'</span>'
+      : '<span class="mini-cell-boletin voto-tipo-sinbol">'+esc(row.tipo||'Sin boletín')+'</span>';
+    // Columna "Materia": si el voto tiene proyecto resuelto, muestra el TITULO
+    // real del proyecto votado y sus materias (que trata de...); si no, cae a la
+    // descripcion cruda de la votacion.
+    var colDesc;
+    if(row.proyecto){
+      colDesc = '<span class="mini-cell-desc"><span class="voto-proyecto-nombre">'+esc(row.proyecto.nombre)+'</span>'
+        +renderMaterias(row.proyecto.materias)+'</span>';
+    } else {
+      colDesc = '<span class="mini-cell-desc">'+esc(row.descripcion||'—')+'</span>';
+    }
     return '<div class="mini-row">'
-      +'<span class="mini-cell-boletin"'+boletinCls+'>'+esc(boletin)+'</span>'
+      +colBoletin
       +'<span class="mini-cell-fecha">'+esc(fmtFecha(row.fecha))+'</span>'
-      +'<span class="mini-cell-desc">'+esc(row.descripcion||'—')+'</span>'
+      +colDesc
       +'<span class="mini-cell-res" style="color:'+resColor+'">'+esc(row.resultado||'—')+'</span>'
       +'<span class="mini-cell-sent" style="color:'+sentColor+'">'+esc(sentLabel)+'</span>'
     +'</div>';
@@ -846,9 +878,15 @@ function buildProyectosSection(p){
        autor/adherente (ver CLAUDE.md, huecos). No se fabrica esa jerarquia:
        se muestra el rol real "firmante" (capitalizado). */
     var rolLabel = row.rol ? (row.rol.charAt(0).toUpperCase()+row.rol.slice(1)) : '—';
+    // Contenido legible: tipo de iniciativa (etiqueta) y materias (chips), o
+    // "Sin materias registradas" explicito (decision de diseno; no se oculta).
+    var tipoTag = row.tipo_iniciativa ? '<span class="tipo-tag">'+esc(row.tipo_iniciativa)+'</span>' : '';
+    var materiasHtml = renderMaterias(row.materias, 'Sin materias registradas');
     return '<div class="proy-row">'
       +'<span class="proy-cell-boletin">'+esc(row.boletin||'Sin boletín')+'</span>'
-      +'<span class="proy-cell-nombre">'+esc(row.nombre||'—')+'</span>'
+      +'<span class="proy-cell-nombre">'+esc(row.nombre||'—')
+        +'<div>'+tipoTag+'</div>'+materiasHtml
+      +'</span>'
       +'<span class="proy-cell-fecha">'+esc(fmtFecha(row.fecha_ingreso))+'</span>'
       +'<span class="proy-cell-rol">'+esc(rolLabel)+'</span>'
       +'<span class="proy-cell-adm"><span class="pill-adm '+admCls+'">'+admLabel+'</span></span>'

@@ -41,12 +41,30 @@ diputados  <- leer("diputados")
 asistencia <- leer("asistencia")
 votos      <- leer("votos")
 proyectos  <- leer("proyectos")
+# Detalle de contenido por boletin (tipo_iniciativa, materias) del paso 36.
+# Habilita: proyectos legibles (materias) y trazabilidad voto->proyecto.
+proyectos_detalle <- leer("proyectos_detalle")
 
 # La llave es character en todas las tablas (invariante POLITICA 5.3.6).
 stopifnot(is.character(diputados$diputado_id),
           is.character(asistencia$diputado_id),
           is.character(votos$diputado_id),
-          is.character(proyectos$diputado_id))
+          is.character(proyectos$diputado_id),
+          is.character(proyectos_detalle$boletin))
+
+# ---- Lookup de contenido por boletin (O(1) por llave) -----------------------
+# det_map[[boletin]] -> list(boletin, nombre, tipo_iniciativa, materias(df)).
+# NULL si el boletin no tiene detalle resuelto o es NA (voto sin boletin).
+det_map <- lapply(seq_len(nrow(proyectos_detalle)), function(i) list(
+  boletin         = proyectos_detalle$boletin[i],
+  nombre          = proyectos_detalle$nombre[i],
+  tipo_iniciativa = proyectos_detalle$tipo_iniciativa[i],
+  materias        = proyectos_detalle$materias[[i]]
+))
+names(det_map) <- proyectos_detalle$boletin
+detalle_de <- function(bol) if (is.na(bol)) NULL else det_map[[bol]]
+MATERIAS_VACIO <- data.frame(id = character(0), nombre = character(0),
+                             stringsAsFactors = FALSE)
 
 roster_ids <- diputados$diputado_id
 log_msg(sprintf("Roster vigente: %d diputados.", length(roster_ids)),
@@ -159,11 +177,31 @@ for (i in seq_len(nrow(diputados))) {
   v <- votos[votos$diputado_id == did, ]
   resumen_voto <- as.list(table(factor(v$sentido, levels = unname(DOMINIO_VOTO))))
   detalle_voto <- if (nrow(v) > 0) {
-    v |>
-      arrange(fecha, votacion_id) |>
-      transmute(votacion_id = votacion_id, boletin = boletin,
-                fecha = fecha, resultado = resultado,
-                sentido = sentido, descripcion = descripcion)
+    v_ord <- v |> arrange(fecha, votacion_id)
+    lapply(seq_len(nrow(v_ord)), function(k) {
+      bol <- v_ord$boletin[k]
+      det <- detalle_de(bol)
+      # proyecto anidado si el voto tiene boletin resuelto; null si no (los ~31%
+      # estructurales: acuerdos/resoluciones/otros sin boletin, o no resuelto).
+      proyecto <- if (!is.null(det)) list(
+        boletin         = det$boletin,
+        nombre          = det$nombre,
+        tipo_iniciativa = det$tipo_iniciativa,
+        materias        = det$materias
+      ) else NULL
+      list(
+        votacion_id = v_ord$votacion_id[k],
+        boletin     = bol,
+        # tipo de la votacion (ya venia en votos.rds; hace legible por que un
+        # voto no tiene proyecto: "Proyecto de Acuerdo"/"Otros" no tienen boletin).
+        tipo        = v_ord$tipo[k],
+        fecha       = v_ord$fecha[k],
+        resultado   = v_ord$resultado[k],
+        sentido     = v_ord$sentido[k],
+        descripcion = v_ord$descripcion[k],
+        proyecto    = proyecto
+      )
+    })
   } else NULL
   bloque_votaciones <- list(
     anio               = ANIO_PROCESO,
@@ -175,11 +213,21 @@ for (i in seq_len(nrow(diputados))) {
   # Bloque 4: proyectos -------------------------------------------------------
   p <- proyectos[proyectos$diputado_id == did, ]
   detalle_proy <- if (nrow(p) > 0) {
-    p |>
-      arrange(desc(fecha_ingreso), boletin) |>
-      transmute(boletin = boletin, nombre = nombre,
-                fecha_ingreso = fecha_ingreso, admisible = admisible,
-                rol = rol)
+    p_ord <- p |> arrange(desc(fecha_ingreso), boletin)
+    lapply(seq_len(nrow(p_ord)), function(k) {
+      det <- detalle_de(p_ord$boletin[k])
+      list(
+        boletin         = p_ord$boletin[k],
+        nombre          = p_ord$nombre[k],
+        fecha_ingreso   = p_ord$fecha_ingreso[k],
+        admisible       = p_ord$admisible[k],
+        rol             = p_ord$rol[k],
+        # Contenido del paso 36: tipo (Mocion/Mensaje) y materias (categoria
+        # tematica). materias vacio -> [] explicito, nunca fabricado.
+        tipo_iniciativa = if (!is.null(det)) det$tipo_iniciativa else NA_character_,
+        materias        = if (!is.null(det)) det$materias else MATERIAS_VACIO
+      )
+    })
   } else NULL
   bloque_proyectos <- list(
     anio          = ANIO_PROCESO,

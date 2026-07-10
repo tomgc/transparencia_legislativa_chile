@@ -38,6 +38,8 @@ PASOS <- list(
        ruta = "30_procesamiento/34_extraer_votaciones.R"),
   list(id = 35L, etiqueta = "Extraer proyectos (mociones)",
        ruta = "30_procesamiento/35_extraer_proyectos.R"),
+  list(id = 36L, etiqueta = "Extraer detalle de proyectos (contenido: tipo, materias)",
+       ruta = "30_procesamiento/36_extraer_detalle_proyectos.R"),
   list(id = 39L, etiqueta = "Consolidar JSON estatico",
        ruta = "30_procesamiento/39_consolidar_json.R")
 )
