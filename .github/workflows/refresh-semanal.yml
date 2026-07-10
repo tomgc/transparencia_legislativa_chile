@@ -1,0 +1,107 @@
+# =============================================================================
+# refresh-semanal.yml - Actualizacion automatica del corpus (pendiente 3)
+# -----------------------------------------------------------------------------
+# Materializa el esqueleto de 50_documentacion/activa/procedimiento_actualizacion.md
+# El YAML SOLO orquesta (checkout, R, correr comandos): la logica de negocio vive
+# en R (00_run_all.R, 10_diff_conteos.R). Lo unico que la automatizacion aporta
+# es CALCULAR el corte (fecha de hoy) e inyectarlo como CORTE_FECHA; el resto es
+# el run_all() ya existente.
+#
+# Decisiones fijadas en diseno (sesion 4): el corte se inyecta con sed sobre
+# 10_configuracion.R; el push usa el GITHUB_TOKEN automatico (sin PAT); el gate
+# de conteos aborta el job (sin commit ni push) ante cualquier caida.
+# =============================================================================
+name: refresh semanal del corpus
+
+on:
+  schedule:
+    # Lunes 11:00 UTC = 07:00 en Chile (CLT, UTC-4, invierno austral) /
+    # 08:00 (CLST, UTC-3, verano). El cron de Actions es SIEMPRE UTC y no ajusta
+    # por horario de verano; 11:00 UTC cae temprano el lunes en Chile todo el anno.
+    - cron: "0 11 * * 1"
+  workflow_dispatch: {}   # ejecucion manual a demanda desde la pestana Actions
+
+# GITHUB_TOKEN automatico con permiso de escritura para commit + push del refresh.
+# No se usa ni referencia un PAT dedicado.
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del repo
+        uses: actions/checkout@v4
+
+      - name: Instalar R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true   # repositorio de binarios (RSPM) -> instalacion rapida
+
+      - name: Instalar paquetes R del pipeline
+        run: |
+          Rscript -e 'install.packages(c("dplyr","jsonlite","here","fs","httr","xml2","rprojroot"))'
+
+      - name: Calcular corte, respaldar JSON previo e inyectar CORTE_FECHA
+        env:
+          JSON_PREVIO: ${{ runner.temp }}/json_previo
+        run: |
+          CORTE=$(date +%Y-%m-%d)
+          echo "CORTE=$CORTE" >> "$GITHUB_ENV"
+          # JSON "anterior" = el del commit ya presente en el checkout (HEAD),
+          # copiado ANTES de que run_all lo sobrescriba. Es el equivalente a
+          # 'git show HEAD:40_salidas/json/...' pero sobre el arbol ya checkouteado
+          # (no un respaldo local persistente, que no existe en el runner).
+          cp -r 40_salidas/json "$JSON_PREVIO"
+          # Inyectar el corte en la UNICA linea de asignacion (los comentarios
+          # que mencionan CORTE_FECHA empiezan con '#', no matchean '^CORTE_FECHA').
+          sed -i "s/^CORTE_FECHA <- .*/CORTE_FECHA <- \"$CORTE\"/" 10_utils/10_configuracion.R
+          echo "Corte del refresh: $CORTE"
+          grep -n '^CORTE_FECHA <- ' 10_utils/10_configuracion.R
+
+      - name: Correr el pipeline (run_all)
+        run: |
+          Rscript -e 'source("00_run_all.R"); run_all()'
+
+      - name: Gate de conteos (aborta el job si hubo caida)
+        env:
+          JSON_PREVIO: ${{ runner.temp }}/json_previo
+          RESUMEN: ${{ runner.temp }}/resumen_diff.txt
+        run: |
+          Rscript -e '
+            source("10_utils/10_diff_conteos.R")
+            # capture.output imprime la tabla Y asigna el retorno (con $gate).
+            salida <- capture.output(r <- diff_conteos_json(Sys.getenv("JSON_PREVIO"),
+                                                            "40_salidas/json"))
+            writeLines(salida, Sys.getenv("RESUMEN"))
+            cat(salida, sep = "\n")
+            if (identical(r$gate, "FAIL")) {
+              cat("\n### GATE FALLIDO -> NO se publica ###\n")
+              cat(paste0("  - ", r$motivos), sep = "\n"); cat("\n")
+              quit(status = 1)   # falla el step -> job en rojo, sin commit ni push
+            }
+            cat("\n### GATE OK -> se publica ###\n")
+          '
+
+      - name: Commit y push del refresh
+        env:
+          RESUMEN: ${{ runner.temp }}/resumen_diff.txt
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # El commit incluye el cambio de CORTE_FECHA junto con los datos.
+          git add 10_utils/10_configuracion.R 20_insumos/camara 40_salidas/json docs/data
+          if git diff --cached --quiet; then
+            echo "Sin cambios que commitear (corpus identico al corte previo)."
+            exit 0
+          fi
+          {
+            echo "data: refresh corte ${CORTE} (automatizado)"
+            echo
+            echo "Resumen de conteos (previo -> nuevo):"
+            echo
+            cat "$RESUMEN"
+          } > "${RUNNER_TEMP}/commit_msg.txt"
+          git commit -F "${RUNNER_TEMP}/commit_msg.txt"
+          git push
+          # GitHub Pages republica docs/ automaticamente tras el push a main.

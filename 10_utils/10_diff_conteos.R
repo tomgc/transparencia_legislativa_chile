@@ -50,9 +50,21 @@ contar_conteos_json <- function(dir_json) {
     votos_sin_proyecto = sin_proy)
 }
 
+# Metricas acumulativas / de calidad que NUNCA deben CAER en un refresh sano (el
+# corpus de la API solo crece): una caida indica perdida de datos o regresion
+# del join voto->proyecto. votos_sin_proyecto se REPORTA pero no gatea (una caida
+# ahi es mejora -> mas votos trazados a su proyecto, no perdida).
+METRICAS_GATE <- c("perfiles", "votaciones", "mociones", "votos_con_proyecto")
+
 # ---- Diff de conteos entre dos versiones (A = previo, B = nuevo) -------------
-# Imprime una tabla a consola y devuelve (invisible) un data.frame con el diff.
-diff_conteos_json <- function(dir_a, dir_b) {
+# Imprime una tabla a consola (comportamiento standalone sin cambios) y devuelve
+# (invisible) una LISTA con los conteos de ambos lados, el diff, y un veredicto
+# de GATE programatico (para la compuerta de CI):
+#   gate = "OK"    -> se puede publicar
+#   gate = "FAIL"  -> abortar; $motivos explica que cayo y de cuanto a cuanto
+# El gate falla si perfiles_B < piso_perfiles (piso absoluto) o si alguna
+# METRICAS_GATE cayo (B < A). Un crecimiento es aceptable; una caida no.
+diff_conteos_json <- function(dir_a, dir_b, piso_perfiles = 155L) {
   a <- contar_conteos_json(dir_a)
   b <- contar_conteos_json(dir_b)
   metricas <- names(a)
@@ -71,10 +83,25 @@ diff_conteos_json <- function(dir_a, dir_b) {
         "HAY diferencias de conteo -> revisar antes de publicar (crecimiento moderado es esperable; caidas o saltos anomalos, no).\n"
       else
         "Sin diferencias de conteo (JSON equivalentes en totales clave).\n")
-  invisible(data.frame(conteo = metricas,
-                       A = as.integer(a), B = as.integer(b),
-                       diff = as.integer(b - a), row.names = NULL,
-                       stringsAsFactors = FALSE))
+
+  # ---- Veredicto del GATE (para la compuerta de CI) ----
+  motivos <- character()
+  if (b[["perfiles"]] < piso_perfiles)
+    motivos <- c(motivos, sprintf("perfiles %d < piso %d", b[["perfiles"]], piso_perfiles))
+  for (m in METRICAS_GATE) {
+    if (b[[m]] < a[[m]])
+      motivos <- c(motivos, sprintf("%s cayo: %d -> %d (%+d)", m, a[[m]], b[[m]], b[[m]] - a[[m]]))
+  }
+  gate <- if (length(motivos) > 0) "FAIL" else "OK"
+
+  invisible(list(
+    conteos = data.frame(conteo = metricas,
+                         A = as.integer(a), B = as.integer(b),
+                         diff = as.integer(b - a), row.names = NULL,
+                         stringsAsFactors = FALSE),
+    gate    = gate,
+    motivos = motivos
+  ))
 }
 
 # ---- Punto de entrada standalone --------------------------------------------
