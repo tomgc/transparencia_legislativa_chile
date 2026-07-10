@@ -3,25 +3,29 @@ slug: transparencia_legislativa_chile
 nombre_real: Transparencia Legislativa Chile
 categoria: activo
 semaforo: activo
-sesion_actual: v02
-ultima_actividad: 2026-07-06
+sesion_actual: v03
+ultima_actividad: 2026-07-10
 maneja_sensibles: false
 tipo_pendiente: nuevo
 ---
 ## En que vamos
-Fase 1 completa y anno completo corrido: el pipeline R extrae de la Camara
-(672 votaciones, 218 mociones, 155 diputados) y produce indice + 155 perfiles
-con tendencia clasificada por el titular (5 niveles; los 25 IND quedan NA).
-Auditoria adversarial en R: distribucion re-derivada identica al indice. Sin push.
+Fase 2 completa: dashboard estatico (docs/index.html, vanilla, sin CDN, carga
+perezosa, hemiciclo por tendencia con IND explicito) que consume el JSON, con
+contenido legible (tipo_iniciativa, materias) y trazabilidad voto->proyecto (cada
+voto de Proyecto de Ley enlaza a su proyecto; el 31,5% sin boletin queda null,
+hueco estructural). Se corrigio la clave de cache (codifica el tope) y se
+integraron las tres ramas a main (71ff7c3, fuente unica). Sin push (no hay remoto).
 
 ## Proximo paso
-Disenar y construir la Fase 2: dashboard estatico que consuma el JSON. Resolver
-primero dos decisiones de diseno: (a) carga perezosa de perfiles (~17 MB en 155
-archivos), (b) tratamiento de los 25 diputados IND sin tendencia en la vista
-segmentada.
+Sesion de DISENO (conversacional, no encargo a Claude Code) del sistema de
+actualizacion y del versionado del corte temporal: el date-stamping (Sys.Date en
+la clave) impide regenerar hoy sin re-descargar y cambiar conteos. Definir fuente,
+procedimiento, canal sin tokens (Positron o GitHub Actions) y periodicidad.
+Alternativa de orden: migrar a GitHub primero (protocolo 4.3) y disenar despues.
 
 ## Bloqueantes
-Ninguno para el pipeline. Deuda tecnica menor pendiente: la clave de cache no
-codifica el tope de extraccion (# REVISAR; forzar refresco al cambiar topes).
-tipo_pendiente=nuevo: el trabajo que encabeza el proximo arranque es
-funcionalidad nueva (dashboard Fase 2).
+Ninguno bloquea el estado actual (main integro y verificado). Limitacion activa
+(no bloqueante del cierre, si del refresh futuro): el pipeline no se regenera hoy
+sin drift por el date-stamping de la clave de cache. tipo_pendiente=nuevo: el
+trabajo que encabeza el proximo arranque es diseno de funcionalidad/operacion
+nueva (sistema de actualizacion), no un bug ni un bloqueante activo.
