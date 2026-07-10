@@ -69,7 +69,7 @@ extraer_votos_long <- function() {
       Sys.sleep(PAUSA_API_SEG)
     }
     bind_rows(filas)
-  }, origen = "34_votaciones")
+  }, tope = MAX_VOTACIONES_DETALLE, origen = "34_votaciones")
 }
 
 votos <- extraer_votos_long()
