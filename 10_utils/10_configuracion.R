@@ -26,15 +26,28 @@ options(camara.base_url = CAMARA_WS_BASE)
 # numero magico embebido.
 ANIO_PROCESO <- 2026L
 
+# ---- Corte temporal explicito (clave de cache) ------------------------------
+# CORTE_FECHA es la fecha "as-of" del refresh: la clave de cache (con_cache) la
+# usa EN VEZ DE Sys.Date(), para que un snapshot descargado un dia de un CORTE
+# dado de cache-hit en cualquier dia posterior con el MISMO corte -> reproducible,
+# sin re-descarga ni drift (el corpus de la API crece dia a dia). Es el parametro
+# REAL que fija "de que momento son los datos"; codificarlo en la clave sigue el
+# mismo principio que el tope (la clave codifica todo lo que altera el contenido).
+#
+# Formato AAAA-MM-DD, character. SIN default silencioso: si no esta fijada (no
+# definida o vacia), el pipeline se detiene al inicio con mensaje claro
+# (00_run_all.R / con_cache), nunca a mitad de corrida. Se cambia MANUALMENTE en
+# cada refresh semanal (ver 50_documentacion/activa/procedimiento_actualizacion.md).
+CORTE_FECHA <- "2026-07-06"
+
 # ---- Topes de extraccion --------------------------------------------------
 # VALORES DE PRODUCCION: anno COMPLETO (todos los detalles del anno de proceso).
 # Los topes existen para acotar la corrida de validacion de arquitectura; en
 # produccion se ponen en Inf para no truncar cobertura. Decision metodologica
 # declarada como constante (POLITICA 5.3.10).
-# NOTA (# REVISAR): la clave del cache (con_cache) NO codifica el tope; si se
-# cambia un tope, hay que forzar el refresco (options(camara.refrescar = TRUE))
-# para que el snapshot del dia se regenere en vez de reutilizar uno con tope
-# distinto.
+# NOTA: la clave del cache (con_cache) codifica el tope (sufijo_tope, sesion 3)
+# Y el corte temporal (CORTE_FECHA, sesion 4): cambiar cualquiera genera una
+# clave distinta, sin reutilizacion silenciosa.
 MAX_SESIONES_DETALLE   <- Inf   # asistencia por sesion (todas las celebradas)
 MAX_VOTACIONES_DETALLE <- Inf   # detalle de voto nominal por votacion (todas)
 MAX_PROYECTOS_DETALLE  <- Inf   # detalle de autores por mocion (todas, origen Camara)

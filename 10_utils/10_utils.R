@@ -113,18 +113,40 @@ sufijo_tope <- function(tope) {
   sprintf("_tope-%s", format(as.integer(tope), scientific = FALSE))
 }
 
+# ---- Corte temporal explicito para la clave de cache ------------------------
+# Valida CORTE_FECHA (definida en 10_configuracion.R) y devuelve su forma
+# compacta AAAAMMDD para la clave de cache. Reemplaza Sys.Date(): un snapshot de
+# un CORTE dado da cache-hit en cualquier dia con el mismo corte (reproducible,
+# sin re-descarga ni drift). SIN default silencioso: si CORTE_FECHA no esta
+# fijada o es invalida, stop() claro (nunca a mitad de pipeline; ver 00_run_all).
+# Depende de CORTE_FECHA (global de config, disponible en tiempo de ejecucion).
+corte_para_clave <- function() {
+  if (!exists("CORTE_FECHA", inherits = TRUE) || is.null(CORTE_FECHA) ||
+      !nzchar(trimws(as.character(CORTE_FECHA))))
+    stop(paste0("CORTE_FECHA no esta fijada. Definela como AAAA-MM-DD en ",
+                "10_utils/10_configuracion.R (corte temporal del refresh)."),
+         call. = FALSE)
+  cf <- trimws(as.character(CORTE_FECHA))
+  if (!grepl("^[0-9]{4}-[0-9]{2}-[0-9]{2}$", cf))
+    stop(sprintf("CORTE_FECHA invalida: '%s'. Formato esperado AAAA-MM-DD.", cf),
+         call. = FALSE)
+  gsub("-", "", cf)
+}
+
 # ---- Cache de captura cruda de la API ---------------------------------------
 # Idempotencia y cortesia con la fuente (POLITICA 5.2.3): si ya existe el
 # snapshot del dia y no se pidio refrescar, se reutiliza en vez de re-golpear
 # la API. La captura se guarda date-stamped en 20_insumos/camara/ (esa es la
 # forma "cruda" de nuestro insumo: la fuente es un servicio, no un archivo).
-# La clave codifica el tope de extraccion (ver sufijo_tope): un cambio de tope
-# genera una clave distinta, no reutiliza el snapshot viejo.
-# Depende de ruta_insumos() y REFRESCAR_API, definidos en 10_configuracion.R
-# (disponibles en tiempo de ejecucion, ya que config se carga antes de extraer).
+# La clave codifica el CORTE temporal (CORTE_FECHA, ver corte_para_clave) y el
+# tope de extraccion (ver sufijo_tope): un cambio de cualquiera genera una clave
+# distinta, no reutiliza el snapshot viejo. NO usa Sys.Date(): el corte es
+# explicito para que el refresh sea reproducible entre dias, sin drift.
+# Depende de ruta_insumos(), REFRESCAR_API y CORTE_FECHA (de 10_configuracion.R,
+# disponibles en tiempo de ejecucion, ya que config se carga antes de extraer).
 con_cache <- function(nombre_cache, fn_descarga, tope = NULL, origen = "cache") {
   ruta <- ruta_insumos("camara",
-                       sprintf("%s_%s%s.rds", format(Sys.Date(), "%Y%m%d"),
+                       sprintf("%s_%s%s.rds", corte_para_clave(),
                                nombre_cache, sufijo_tope(tope)))
   refrescar <- isTRUE(getOption("camara.refrescar", REFRESCAR_API))
   if (file.exists(ruta) && !refrescar) {
