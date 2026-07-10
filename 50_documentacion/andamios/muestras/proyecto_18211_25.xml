@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProyectoLey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://opendata.camara.cl/camaradiputados/v1">
+  <Id>18875</Id>
+  <NumeroBoletin>18211-25</NumeroBoletin>
+  <Nombre>Modifica el código penal, con el objeto de tipificar el delito de ocultamiento de identidad en el contexto de eventos masivos y desórdenes públicos</Nombre>
+  <FechaIngreso>2026-04-22T00:00:00</FechaIngreso>
+  <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+  <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+  <Autores>
+    <ParlamentarioAutor>
+      <Orden>0</Orden>
+      <Diputado>
+        <Id>1259</Id>
+        <Nombre>Juan Marcelo</Nombre>
+        <ApellidoPaterno>Valenzuela</ApellidoPaterno>
+        <ApellidoMaterno>Henríquez</ApellidoMaterno>
+      </Diputado>
+    </ParlamentarioAutor>
+    <ParlamentarioAutor>
+      <Orden>0</Orden>
+      <Diputado>
+        <Id>1243</Id>
+        <Nombre>Tamara</Nombre>
+        <ApellidoPaterno>Ramírez</ApellidoPaterno>
+        <ApellidoMaterno>Ramírez</ApellidoMaterno>
+      </Diputado>
+    </ParlamentarioAutor>
+    <ParlamentarioAutor>
+      <Orden>0</Orden>
+      <Diputado>
+        <Id>1258</Id>
+        <Nombre>Guillermo</Nombre>
+        <ApellidoPaterno>Valdés</ApellidoPaterno>
+        <ApellidoMaterno>Carmona</ApellidoMaterno>
+      </Diputado>
+    </ParlamentarioAutor>
+    <ParlamentarioAutor>
+      <Orden>0</Orden>
+      <Diputado>
+        <Id>1236</Id>
+        <Nombre>Paula</Nombre>
+        <ApellidoPaterno>Olmos</ApellidoPaterno>
+        <ApellidoMaterno>Contreras</ApellidoMaterno>
+      </Diputado>
+    </ParlamentarioAutor>
+    <ParlamentarioAutor>
+      <Orden>0</Orden>
+      <Diputado>
+        <Id>1235</Id>
+        <Nombre>Javier</Nombre>
+        <ApellidoPaterno>Olivares</ApellidoPaterno>
+        <ApellidoMaterno>Avendaño</ApellidoMaterno>
+      </Diputado>
+    </ParlamentarioAutor>
+    <ParlamentarioAutor>
+      <Orden>0</Orden>
+      <Diputado>
+        <Id>1193</Id>
+        <Nombre>Patricio</Nombre>
+        <ApellidoPaterno>Briones</ApellidoPaterno>
+        <ApellidoMaterno>Moller</ApellidoMaterno>
+      </Diputado>
+    </ParlamentarioAutor>
+  </Autores>
+  <Votaciones>
+    <VotacionProyectoLey>
+      <Id>89242</Id>
+      <Descripcion>Boletín N°18211-25</Descripcion>
+      <Fecha>2026-06-24T13:15:24</Fecha>
+      <TotalSi>100</TotalSi>
+      <TotalNo>36</TotalNo>
+      <TotalAbstencion>2</TotalAbstencion>
+      <TotalDispensado>0</TotalDispensado>
+      <Quorum Valor="1">Quórum Simple</Quorum>
+      <Resultado Valor="1">Aprobado</Resultado>
+      <Tipo Valor="1">Proyecto de Ley</Tipo>
+      <TipoVotacionProyectoLey Valor="1">General</TipoVotacionProyectoLey>
+      <Articulo />
+      <TramiteConstitucional Id="1">Primer Trámite</TramiteConstitucional>
+      <TramiteReglamentario Id="1">Primer Informe</TramiteReglamentario>
+    </VotacionProyectoLey>
+  </Votaciones>
+  <Materias />
+  <Admisible>true</Admisible>
+</ProyectoLey>

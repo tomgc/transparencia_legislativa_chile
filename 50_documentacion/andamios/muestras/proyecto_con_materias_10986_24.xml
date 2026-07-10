@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProyectoLey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://opendata.camara.cl/camaradiputados/v1">
+  <Id>11502</Id>
+  <NumeroBoletin>10986-24</NumeroBoletin>
+  <Nombre>Autoriza erigir un monumento, en la comuna de Lota, en memoria del escritor chileno Baldomero Lillo Figueroa</Nombre>
+  <FechaIngreso>2016-11-23T00:00:00</FechaIngreso>
+  <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+  <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+  <Autores>
+    <ParlamentarioAutor>
+      <Orden>0</Orden>
+      <Diputado>
+        <Id>956</Id>
+        <Nombre>Guillermo</Nombre>
+        <ApellidoPaterno>Teillier</ApellidoPaterno>
+        <ApellidoMaterno>Del Valle</ApellidoMaterno>
+      </Diputado>
+    </ParlamentarioAutor>
+    <ParlamentarioAutor>
+      <Orden>0</Orden>
+      <Diputado>
+        <Id>880</Id>
+        <Nombre>Clemira</Nombre>
+        <ApellidoPaterno>Pacheco</ApellidoPaterno>
+        <ApellidoMaterno>Rivas</ApellidoMaterno>
+      </Diputado>
+    </ParlamentarioAutor>
+    <ParlamentarioAutor>
+      <Orden>0</Orden>
+      <Diputado>
+        <Id>920</Id>
+        <Nombre>Marcelo</Nombre>
+        <ApellidoPaterno>Schilling</ApellidoPaterno>
+        <ApellidoMaterno>Rodríguez</ApellidoMaterno>
+      </Diputado>
+    </ParlamentarioAutor>
+    <ParlamentarioAutor>
+      <Orden>0</Orden>
+      <Diputado>
+        <Id>941</Id>
+        <Nombre>Luis</Nombre>
+        <ApellidoPaterno>Lemus</ApellidoPaterno>
+        <ApellidoMaterno>Aracena</ApellidoMaterno>
+      </Diputado>
+    </ParlamentarioAutor>
+    <ParlamentarioAutor>
+      <Orden>0</Orden>
+      <Diputado>
+        <Id>957</Id>
+        <Nombre>Víctor</Nombre>
+        <ApellidoPaterno>Torres</ApellidoPaterno>
+        <ApellidoMaterno>Jeldes</ApellidoMaterno>
+      </Diputado>
+    </ParlamentarioAutor>
+    <ParlamentarioAutor>
+      <Orden>0</Orden>
+      <Diputado>
+        <Id>981</Id>
+        <Nombre>Maya</Nombre>
+        <ApellidoPaterno>Fernández</ApellidoPaterno>
+        <ApellidoMaterno>Allende</ApellidoMaterno>
+      </Diputado>
+    </ParlamentarioAutor>
+    <ParlamentarioAutor>
+      <Orden>0</Orden>
+      <Diputado>
+        <Id>969</Id>
+        <Nombre>Claudio</Nombre>
+        <ApellidoPaterno>Arriagada</ApellidoPaterno>
+        <ApellidoMaterno>Macaya</ApellidoMaterno>
+      </Diputado>
+    </ParlamentarioAutor>
+    <ParlamentarioAutor>
+      <Orden>0</Orden>
+      <Diputado>
+        <Id>997</Id>
+        <Nombre>Roberto</Nombre>
+        <ApellidoPaterno>Poblete</ApellidoPaterno>
+        <ApellidoMaterno>Zapata</ApellidoMaterno>
+      </Diputado>
+    </ParlamentarioAutor>
+    <ParlamentarioAutor>
+      <Orden>0</Orden>
+      <Diputado>
+        <Id>999</Id>
+        <Nombre>Jorge</Nombre>
+        <ApellidoPaterno>Rathgeb</ApellidoPaterno>
+        <ApellidoMaterno>Schifferli</ApellidoMaterno>
+      </Diputado>
+    </ParlamentarioAutor>
+    <ParlamentarioAutor>
+      <Orden>0</Orden>
+      <Diputado>
+        <Id>1001</Id>
+        <Nombre>Raúl</Nombre>
+        <ApellidoPaterno>Saldívar</ApellidoPaterno>
+        <ApellidoMaterno>Auger</ApellidoMaterno>
+      </Diputado>
+    </ParlamentarioAutor>
+  </Autores>
+  <Votaciones>
+    <VotacionProyectoLey>
+      <Id>89210</Id>
+      <Descripcion>Boletín N°10986-24</Descripcion>
+      <Fecha>2026-06-22T19:21:53</Fecha>
+      <TotalSi>130</TotalSi>
+      <TotalNo>0</TotalNo>
+      <TotalAbstencion>0</TotalAbstencion>
+      <TotalDispensado>0</TotalDispensado>
+      <Quorum Valor="1">Quórum Simple</Quorum>
+      <Resultado Valor="1">Aprobado</Resultado>
+      <Tipo Valor="1">Proyecto de Ley</Tipo>
+      <TipoVotacionProyectoLey Valor="1">General</TipoVotacionProyectoLey>
+      <Articulo />
+      <TramiteConstitucional Id="1">Primer Trámite</TramiteConstitucional>
+      <TramiteReglamentario Id="1">Primer Informe</TramiteReglamentario>
+    </VotacionProyectoLey>
+  </Votaciones>
+  <Materias>
+    <Materia>
+      <Id>20080</Id>
+      <Nombre>BALDOMERO LILLO FIGUEROA</Nombre>
+    </Materia>
+    <Materia>
+      <Id>1252</Id>
+      <Nombre>MONUMENTOS</Nombre>
+    </Materia>
+    <Materia>
+      <Id>20078</Id>
+      <Nombre>COMUNA DE LOTA</Nombre>
+    </Materia>
+    <Materia>
+      <Id>20079</Id>
+      <Nombre>ESCRITOR CHILENO</Nombre>
+    </Materia>
+  </Materias>
+  <Admisible>true</Admisible>
+</ProyectoLey>

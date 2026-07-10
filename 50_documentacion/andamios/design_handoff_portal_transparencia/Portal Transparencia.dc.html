@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:wght@400;500;600;700&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:#EFEBE0}
+input,button{font-family:inherit;color:inherit}
+button{cursor:pointer}
+a{color:#2F5578;text-decoration:none}
+a:hover{color:#21384f}
+::selection{background:#E1D7C0}
+@keyframes shimmer{0%{background-position:-360px 0}100%{background-position:360px 0}}
+@keyframes fadeUp{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+</style>
+</helmet>
+<div style="min-height:100vh;font-family:'Public Sans',system-ui,sans-serif;color:#2A2622">
+
+<div style="display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;padding:14px 24px;background:#241F18;color:#F1ECDF">
+<div style="display:flex;align-items:center;gap:13px">
+<div style="width:36px;height:36px;flex:0 0 auto;border:1.5px solid #6A6250;border-radius:7px;display:flex;align-items:center;justify-content:center"><div style="width:13px;height:13px;background:#B4AC9C;transform:rotate(45deg)"></div></div>
+<div style="line-height:1.25">
+<div style="font-size:11px;letter-spacing:0.06em;color:#B4AC9C">Cámara de Diputadas y Diputados · Chile</div>
+<div style="font-family:'Spectral',serif;font-size:17px;font-weight:600;letter-spacing:-0.01em">Portal de Transparencia Legislativa</div>
+</div>
+</div>
+<span style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:0.08em;color:#241F18;background:#C9B896;padding:5px 10px;border-radius:5px">Propuesta · datos ficticios</span>
+</div>
+
+<sc-if value="{{ isIndex }}" hint-placeholder-val="{{ true }}">
+<div>
+
+<div style="{{ stickyZoneStyle }}">
+<div style="max-width:1200px;margin:0 auto;display:flex;flex-direction:column;gap:15px">
+
+<div style="display:flex;flex-wrap:wrap;align-items:center;gap:10px">
+<div style="flex:1 1 220px;min-width:170px;position:relative">
+<input value="{{ search }}" onInput="{{ onSearch }}" placeholder="Buscar por nombre…" style="width:100%;padding:10px 14px;border:1px solid #DED6C2;border-radius:9px;background:#FBFAF5;font-size:14px;color:#2A2622;outline:none" style-focus="border-color:#2F5578;box-shadow:0 0 0 3px rgba(47,85,120,.12)">
+</div>
+<div style="position:relative;flex:0 0 auto">
+<button onClick="{{ onTogglePartyPanel }}" style="display:flex;align-items:center;gap:8px;padding:10px 14px;border:1px solid #DED6C2;border-radius:9px;background:#FBFAF5;font-size:14px;font-weight:500;color:#3A342A" style-hover="border-color:#C4B492">Partido{{ partyBtnSuffix }} <span style="color:#A59C82">▾</span></button>
+<sc-if value="{{ partyPanelOpen }}" hint-placeholder-val="{{ false }}">
+<div style="position:absolute;top:calc(100% + 6px);left:0;z-index:30;width:308px;max-height:344px;overflow:auto;background:#FBFAF5;border:1px solid #DED6C2;border-radius:12px;box-shadow:0 14px 32px rgba(50,40,20,.17);padding:8px">
+<sc-for list="{{ partyOptions }}" as="opt" hint-placeholder-count="9">
+<div onClick="{{ opt.onToggle }}" style="display:flex;align-items:center;gap:9px;padding:8px 10px;border-radius:8px;cursor:pointer" style-hover="background:#F0EBDE">
+<span style="{{ opt.boxStyle }}">{{ opt.check }}</span>
+<span style="{{ opt.dotStyle }}"></span>
+<span style="font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:600;color:#4A4436;width:44px;flex:0 0 44px">{{ opt.sigla }}</span>
+<span style="font-size:12.5px;color:#6B634F;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">{{ opt.nombre }}</span>
+</div>
+</sc-for>
+</div>
+</sc-if>
+</div>
+<div style="position:relative;flex:0 0 auto">
+<button onClick="{{ onToggleRegionPanel }}" style="display:flex;align-items:center;gap:8px;padding:10px 14px;border:1px solid #DED6C2;border-radius:9px;background:#FBFAF5;font-size:14px;font-weight:500;color:#3A342A" style-hover="border-color:#C4B492">{{ regionLabel }} <span style="color:#A59C82">▾</span></button>
+<sc-if value="{{ regionPanelOpen }}" hint-placeholder-val="{{ false }}">
+<div style="position:absolute;top:calc(100% + 6px);left:0;z-index:30;width:250px;max-height:320px;overflow:auto;background:#FBFAF5;border:1px solid #DED6C2;border-radius:12px;box-shadow:0 14px 32px rgba(50,40,20,.17);padding:8px">
+<sc-for list="{{ regionOptions }}" as="ro" hint-placeholder-count="6">
+<div onClick="{{ ro.onSelect }}" style="display:flex;align-items:center;gap:8px;padding:8px 10px;border-radius:8px;cursor:pointer;font-size:13px;color:#3A342A" style-hover="background:#F0EBDE"><span style="width:14px;flex:0 0 14px;color:#2F5578;font-weight:700">{{ ro.check }}</span>{{ ro.label }}</div>
+</sc-for>
+</div>
+</sc-if>
+</div>
+<sc-if value="{{ hasFilters }}" hint-placeholder-val="{{ false }}">
+<button onClick="{{ onReset }}" style="background:none;border:none;font-size:13px;font-weight:600;color:#A6483F;padding:8px 4px" style-hover="text-decoration:underline">Limpiar</button>
+</sc-if>
+<span style="margin-left:auto;font-size:13px;color:#6B634F">Mostrando <strong style="color:#2A2622">{{ resultCount }}</strong> de 155</span>
+</div>
+</div>
+</div>
+
+<div style="max-width:1200px;margin:0 auto;padding:18px 24px 0">
+<div style="background:#FBFAF5;border:1px solid #E4DDCB;border-radius:12px;padding:16px 20px 14px">
+<div style="font-size:14px;color:#3A342A;font-weight:600;margin-bottom:9px">Distribución de los <span style="font-variant-numeric:tabular-nums">{{ baseCount }}</span> diputadas y diputados:</div>
+<div style="display:flex;flex-wrap:wrap;justify-content:center;gap:6px 12px;margin-bottom:4px">
+<sc-for list="{{ hemiLegend }}" as="lg" hint-placeholder-count="6">
+<span onClick="{{ lg.onClick }}" title="{{ lg.title }}" style="{{ lg.wrapStyle }}"><span style="{{ lg.swatch }}"></span>{{ lg.label }} <strong style="color:#241F18;font-variant-numeric:tabular-nums">{{ lg.count }}</strong> <span style="color:#8A8266;font-size:11.5px;font-variant-numeric:tabular-nums">{{ lg.pct }}</span></span>
+</sc-for>
+</div>
+<div style="max-width:500px;margin:0 auto">
+<svg viewBox="-6 -6 212 110" style="width:100%;height:auto;display:block">
+<sc-for list="{{ hemiSeats }}" as="seat" hint-placeholder-count="30">
+<circle cx="{{ seat.cx }}" cy="{{ seat.cy }}" r="{{ seat.r }}" style="{{ seat.style }}" onClick="{{ seat.onClick }}"></circle>
+</sc-for>
+</svg>
+</div>
+</div>
+
+</div>
+
+<div style="max-width:1200px;margin:0 auto;padding:20px 24px 64px">
+<div style="border:1px solid #E4DDCB;border-radius:12px;overflow:hidden;background:#FBFAF5;box-shadow:0 1px 2px rgba(60,50,30,.05)">
+
+<sc-if value="{{ headerVisible }}" hint-placeholder-val="{{ false }}">
+<div style="display:flex;align-items:center;padding:0 22px;height:46px;background:#F0EBDE;border-bottom:1px solid #DED6C2">
+<button onClick="{{ onSortNombre }}" style="flex:1 1 auto;min-width:160px;text-align:left;background:none;border:none;padding:0;font-size:11.5px;font-weight:700;letter-spacing:0.01em;color:#6B634F">Nombre {{ aNombre }}</button>
+<span title="Sigla del partido — pasa el cursor sobre cada sigla en la tabla para ver el nombre completo" style="width:70px;flex:0 0 70px;font-size:11.5px;font-weight:700;letter-spacing:0.01em;color:#6B634F;cursor:help">Partido</span>
+<span style="width:156px;flex:0 0 156px;font-size:11.5px;font-weight:700;letter-spacing:0.01em;color:#6B634F">Tendencia</span>
+<span style="width:118px;flex:0 0 118px;font-size:11.5px;font-weight:700;letter-spacing:0.01em;color:#6B634F">Región / Distrito</span>
+<button onClick="{{ onSortAsist }}" style="width:96px;flex:0 0 96px;text-align:right;background:none;border:none;padding:0;font-size:11.5px;font-weight:700;letter-spacing:0.01em;line-height:1.15;color:#6B634F">Asistencia {{ aAsist }}</button>
+<button onClick="{{ onSortProy }}" style="width:104px;flex:0 0 104px;text-align:right;background:none;border:none;padding:0;font-size:11.5px;font-weight:700;letter-spacing:0.01em;line-height:1.15;color:#6B634F">Proyectos presentados {{ aProy }}</button>
+<button onClick="{{ onSortVot }}" style="width:104px;flex:0 0 104px;text-align:right;background:none;border:none;padding:0;font-size:11.5px;font-weight:700;letter-spacing:0.01em;line-height:1.15;color:#6B634F">Votaciones {{ aVot }}</button>
+</div>
+</sc-if>
+
+<sc-if value="{{ indexLoading }}" hint-placeholder-val="{{ true }}">
+<div>
+<div style="display:flex;align-items:center;gap:18px;padding:0 22px;height:62px;border-bottom:1px solid #ECE6D8"><div style="animation:shimmer 1.4s infinite linear;background:linear-gradient(90deg,#E7E1D2 25%,#F1ECDF 37%,#E7E1D2 63%);background-size:720px 100%;border-radius:5px;width:190px;height:14px"></div><div style="animation:shimmer 1.4s infinite linear;background:linear-gradient(90deg,#E7E1D2 25%,#F1ECDF 37%,#E7E1D2 63%);background-size:720px 100%;border-radius:5px;width:46px;height:14px"></div><div style="animation:shimmer 1.4s infinite linear;background:linear-gradient(90deg,#E7E1D2 25%,#F1ECDF 37%,#E7E1D2 63%);background-size:720px 100%;border-radius:5px;width:130px;height:14px"></div><div style="animation:shimmer 1.4s infinite linear;background:linear-gradient(90deg,#E7E1D2 25%,#F1ECDF 37%,#E7E1D2 63%);background-size:720px 100%;border-radius:5px;flex:1;height:14px"></div></div>
+<div style="display:flex;align-items:center;gap:18px;padding:0 22px;height:62px;border-bottom:1px solid #ECE6D8"><div style="animation:shimmer 1.4s infinite linear;background:linear-gradient(90deg,#E7E1D2 25%,#F1ECDF 37%,#E7E1D2 63%);background-size:720px 100%;border-radius:5px;width:160px;height:14px"></div><div style="animation:shimmer 1.4s infinite linear;background:linear-gradient(90deg,#E7E1D2 25%,#F1ECDF 37%,#E7E1D2 63%);background-size:720px 100%;border-radius:5px;width:46px;height:14px"></div><div style="animation:shimmer 1.4s infinite linear;background:linear-gradient(90deg,#E7E1D2 25%,#F1ECDF 37%,#E7E1D2 63%);background-size:720px 100%;border-radius:5px;width:130px;height:14px"></div><div style="animation:shimmer 1.4s infinite linear;background:linear-gradient(90deg,#E7E1D2 25%,#F1ECDF 37%,#E7E1D2 63%);background-size:720px 100%;border-radius:5px;flex:1;height:14px"></div></div>
+<div style="display:flex;align-items:center;gap:18px;padding:0 22px;height:62px;border-bottom:1px solid #ECE6D8"><div style="animation:shimmer 1.4s infinite linear;background:linear-gradient(90deg,#E7E1D2 25%,#F1ECDF 37%,#E7E1D2 63%);background-size:720px 100%;border-radius:5px;width:210px;height:14px"></div><div style="animation:shimmer 1.4s infinite linear;background:linear-gradient(90deg,#E7E1D2 25%,#F1ECDF 37%,#E7E1D2 63%);background-size:720px 100%;border-radius:5px;width:46px;height:14px"></div><div style="animation:shimmer 1.4s infinite linear;background:linear-gradient(90deg,#E7E1D2 25%,#F1ECDF 37%,#E7E1D2 63%);background-size:720px 100%;border-radius:5px;width:130px;height:14px"></div><div style="animation:shimmer 1.4s infinite linear;background:linear-gradient(90deg,#E7E1D2 25%,#F1ECDF 37%,#E7E1D2 63%);background-size:720px 100%;border-radius:5px;flex:1;height:14px"></div></div>
+</div>
+</sc-if>
+
+<sc-if value="{{ hasRows }}" hint-placeholder-val="{{ false }}">
+<div>
+<sc-for list="{{ viewRows }}" as="row" hint-placeholder-count="10">
+<div onClick="{{ row.onClick }}" style="{{ row.rowStyle }}" style-hover="{{ row.hoverStyle }}">
+<div style="{{ row.cNombre }}"><span style="font-weight:600;font-size:15px;color:#2A2622;letter-spacing:-0.01em">{{ row.nombre }}</span><span style="font-size:11.5px;color:#96907C">{{ row.sexoLabel }}</span></div>
+<div style="{{ row.cPartido }}"><span title="{{ row.partyNombre }}" style="font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:600;color:#4A4436;background:#EAE4D4;border:1px solid #DED6C2;padding:2px 7px;border-radius:5px">{{ row.sigla }}</span></div>
+<div style="{{ row.cTend }}"><span style="{{ row.dotStyle }}"></span><span style="font-size:13px;color:#524B3C">{{ row.tendLabel }}</span></div>
+<div style="{{ row.cRegion }}"><span style="font-size:12px;font-style:italic;color:#A59C82">Sin dato</span></div>
+<div style="{{ row.cAsist }}"><span style="{{ row.cLbl }}">Asistencia</span><span style="font-size:14.5px;font-weight:600;color:#2A2622;font-variant-numeric:tabular-nums">{{ row.pct }}</span><sc-if value="{{ row.showBar }}" hint-placeholder-val="{{ false }}"><div style="width:54px;height:5px;background:#EAE4D4;border-radius:3px;overflow:hidden"><div style="{{ row.pctBarStyle }}"></div></div></sc-if></div>
+<div style="{{ row.cProy }}"><span style="{{ row.cLbl }}">Proyectos presentados</span><span style="font-size:14.5px;font-weight:600;color:#2A2622;font-variant-numeric:tabular-nums">{{ row.proyectos }}</span></div>
+<div style="{{ row.cVot }}"><span style="{{ row.cLbl }}">Votaciones</span><span style="font-size:14.5px;font-weight:600;color:#2A2622;font-variant-numeric:tabular-nums">{{ row.votaciones }}</span></div>
+</div>
+</sc-for>
+</div>
+</sc-if>
+
+<sc-if value="{{ isEmptyReady }}" hint-placeholder-val="{{ false }}">
+<div style="padding:56px 24px;text-align:center">
+<div style="font-family:'Spectral',serif;font-size:20px;color:#524B3C;margin-bottom:8px">Sin resultados</div>
+<sc-if value="{{ emptyRegion }}" hint-placeholder-val="{{ false }}"><div style="font-size:13.5px;color:#8A8266;max-width:460px;margin:0 auto;line-height:1.55">Ningún diputado o diputada tiene la región <strong>{{ regionName }}</strong> registrada. El dato de región/distrito aún no está disponible en la fuente para el período vigente.</div></sc-if>
+<sc-if value="{{ noResultsGeneric }}" hint-placeholder-val="{{ false }}"><div style="font-size:13.5px;color:#8A8266">Ajusta los filtros o la búsqueda.</div></sc-if>
+</div>
+</sc-if>
+
+</div>
+</div>
+
+</div>
+</sc-if>
+
+<sc-if value="{{ isProfile }}" hint-placeholder-val="{{ false }}">
+<div style="max-width:1080px;margin:0 auto;padding:22px 20px 64px;animation:fadeUp .3s ease">
+
+<button onClick="{{ onBack }}" style="display:inline-flex;align-items:center;gap:7px;background:none;border:1px solid #DED6C2;border-radius:8px;padding:8px 14px;font-size:13px;font-weight:600;color:#524B3C;margin-bottom:18px" style-hover="border-color:#C4B492;background:#FBFAF5"><span style="font-size:15px">‹</span> Volver al índice</button>
+
+<div style="display:flex;flex-wrap:wrap;gap:22px;align-items:stretch;justify-content:space-between;background:#FBFAF5;border:1px solid #E4DDCB;border-radius:14px;padding:24px 26px;box-shadow:0 1px 2px rgba(60,50,30,.05)">
+<div style="flex:1 1 340px;min-width:260px;display:flex;flex-direction:column;gap:14px;justify-content:center">
+<div>
+<div style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.1em;color:#A59C82;margin-bottom:5px">Ficha de diputada o diputado</div>
+<h1 style="margin:0;font-family:'Spectral',serif;font-size:30px;font-weight:600;letter-spacing:-0.01em;color:#241F18;line-height:1.12">{{ profile.nombre }}</h1>
+</div>
+<div style="display:flex;flex-wrap:wrap;gap:9px;align-items:center">
+<span style="{{ profile.tendChipStyle }}"><span style="{{ profile.tendDotStyle }}"></span>{{ profile.tendLabel }}</span>
+<span style="display:inline-flex;align-items:center;gap:8px;padding:5px 11px;border-radius:8px;background:#EAE4D4;border:1px solid #DED6C2"><span style="font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:600;color:#4A4436">{{ profile.sigla }}</span><span style="font-size:12.5px;color:#6B634F">{{ profile.partyNombre }}</span></span>
+<span style="display:inline-flex;align-items:center;gap:6px;padding:5px 11px;border-radius:8px;border:1px solid #E4DDCB;color:#96907C;font-size:12.5px"><span style="font-style:italic">Región/distrito: Sin dato</span></span>
+</div>
+</div>
+<div style="flex:0 0 300px;max-width:100%;background:#F3EEE1;border:1px solid #E4DDCB;border-radius:12px;padding:16px 18px;display:flex;flex-direction:column;justify-content:center">
+<div style="display:flex;align-items:baseline;justify-content:space-between;gap:8px;margin-bottom:10px">
+<span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.05em;color:#8A8266">Asistencia</span>
+<span style="display:inline-flex;align-items:baseline;gap:3px"><span style="font-family:'Spectral',serif;font-size:40px;font-weight:600;color:#241F18;line-height:1">{{ profile.headerPct }}</span><span style="font-family:'Spectral',serif;font-size:22px;color:#4B7A52;font-weight:600">%</span></span>
+</div>
+<div style="height:7px;border-radius:5px;background:#EAE4D4;overflow:hidden;margin-bottom:12px"><div style="{{ profile.headerBarStyle }}"></div></div>
+<sc-if value="{{ profile.loaded }}" hint-placeholder-val="{{ false }}">
+<div style="display:flex;gap:8px">
+<div style="flex:1 1 0;background:#FBFAF5;border:1px solid #E4DDCB;border-radius:8px;padding:9px 4px;text-align:center"><div style="font-size:18px;font-weight:600;color:#2A2622;font-variant-numeric:tabular-nums">{{ profile.cs.n_sesiones }}</div><div style="font-size:10px;color:#8A8266;margin-top:2px">Sesiones</div></div>
+<div style="flex:1 1 0;background:#FBFAF5;border:1px solid #E4DDCB;border-radius:8px;padding:9px 4px;text-align:center"><div style="font-size:18px;font-weight:600;color:#4B7A52;font-variant-numeric:tabular-nums">{{ profile.cs.asiste }}</div><div style="font-size:10px;color:#8A8266;margin-top:2px">Asiste</div></div>
+<div style="flex:1 1 0;background:#FBFAF5;border:1px solid #E4DDCB;border-radius:8px;padding:9px 4px;text-align:center"><div style="font-size:18px;font-weight:600;color:#A6483F;font-variant-numeric:tabular-nums">{{ profile.cs.no_asiste }}</div><div style="font-size:10px;color:#8A8266;margin-top:2px">No asiste</div></div>
+</div>
+</sc-if>
+<sc-if value="{{ profile.loading }}" hint-placeholder-val="{{ true }}">
+<div style="display:flex;gap:8px">
+<div style="flex:1 1 0;height:46px;animation:shimmer 1.4s infinite linear;background:linear-gradient(90deg,#E7E1D2 25%,#F1ECDF 37%,#E7E1D2 63%);background-size:720px 100%;border-radius:8px"></div>
+<div style="flex:1 1 0;height:46px;animation:shimmer 1.4s infinite linear;background:linear-gradient(90deg,#E7E1D2 25%,#F1ECDF 37%,#E7E1D2 63%);background-size:720px 100%;border-radius:8px"></div>
+<div style="flex:1 1 0;height:46px;animation:shimmer 1.4s infinite linear;background:linear-gradient(90deg,#E7E1D2 25%,#F1ECDF 37%,#E7E1D2 63%);background-size:720px 100%;border-radius:8px"></div>
+</div>
+</sc-if>
+</div>
+</div>
+
+<sc-if value="{{ profile.loading }}" hint-placeholder-val="{{ true }}">
+<div style="display:flex;flex-direction:column;gap:18px;margin-top:18px">
+<div style="width:100%;height:240px;animation:shimmer 1.4s infinite linear;background:linear-gradient(90deg,#E7E1D2 25%,#F1ECDF 37%,#E7E1D2 63%);background-size:720px 100%;border-radius:14px"></div>
+<div style="width:100%;height:150px;animation:shimmer 1.4s infinite linear;background:linear-gradient(90deg,#E7E1D2 25%,#F1ECDF 37%,#E7E1D2 63%);background-size:720px 100%;border-radius:14px"></div>
+</div>
+</sc-if>
+
+<sc-if value="{{ profile.loaded }}" hint-placeholder-val="{{ false }}">
+<div style="animation:fadeUp .3s ease">
+<div style="display:flex;flex-wrap:wrap;gap:18px;margin-top:18px">
+
+<div style="width:100%;background:#FBFAF5;border:1px solid #E4DDCB;border-radius:14px;padding:22px 24px">
+<div style="display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin-bottom:14px">
+<span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.08em;color:#8A8266">Votaciones</span>
+<span style="font-size:12.5px;color:#8A8266"><strong style="font-size:20px;color:#241F18;font-family:'Spectral',serif">{{ profile.votTotal }}</strong> registradas</span>
+</div>
+<div style="display:flex;height:14px;border-radius:7px;overflow:hidden;background:#EAE4D4;margin-bottom:12px">
+<sc-for list="{{ profile.votSeg }}" as="g" hint-placeholder-count="4"><div style="{{ g.segStyle }}"></div></sc-for>
+</div>
+<div style="display:flex;flex-wrap:wrap;gap:8px 16px;margin-bottom:18px">
+<sc-for list="{{ profile.votSeg }}" as="g" hint-placeholder-count="4">
+<span style="display:inline-flex;align-items:center;gap:7px;font-size:12.5px;color:#524B3C"><span style="{{ g.dotStyle }}"></span>{{ g.label }} <strong style="color:#241F18;font-variant-numeric:tabular-nums">{{ g.count }}</strong></span>
+</sc-for>
+</div>
+<div style="display:flex;align-items:center;gap:12px;padding:0 0 7px;border-bottom:1px solid #DED6C2;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.04em;color:#A59C82">
+<span style="width:82px;flex:0 0 82px">Boletín</span><span style="width:88px;flex:0 0 88px">Fecha</span><span style="flex:1 1 auto;min-width:160px">Materia</span><span style="width:92px;flex:0 0 92px">Resultado</span><span style="width:88px;flex:0 0 88px">Mi voto</span>
+</div>
+<div style="max-height:280px;overflow:auto">
+<sc-for list="{{ profile.votList }}" as="v" hint-placeholder-count="6">
+<div style="display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;padding:9px 0;border-top:1px solid #EDE7D9">
+<span style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#8A8266;width:82px;flex:0 0 82px">{{ v.boletin }}</span>
+<span style="font-size:12px;color:#8A8266;width:88px;flex:0 0 88px">{{ v.fecha }}</span>
+<span style="flex:1 1 auto;font-size:13px;color:#3A342A;min-width:160px">{{ v.desc }}</span>
+<span style="{{ v.resStyle }};width:92px;flex:0 0 92px;white-space:nowrap">{{ v.resultado }}</span>
+<span style="{{ v.sentStyle }};width:88px;flex:0 0 88px;white-space:nowrap">{{ v.sentido }}</span>
+</div>
+</sc-for>
+</div>
+<sc-if value="{{ profile.votListNote }}" hint-placeholder-val="{{ false }}"><div style="font-size:11.5px;color:#A59C82;margin-top:10px;font-style:italic">Se muestra una muestra de 16 votaciones del total registrado.</div></sc-if>
+</div>
+
+</div>
+
+<div style="width:100%;background:#FBFAF5;border:1px solid #E4DDCB;border-radius:14px;padding:22px 24px;margin-top:18px">
+<div style="display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:6px">
+<span style="font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.08em;color:#8A8266">Proyectos presentados · mociones <strong style="color:#241F18;font-family:'Spectral',serif;font-size:18px;margin-left:6px">{{ profile.proyTotal }}</strong></span>
+<span style="font-size:11.5px;color:#96907C;background:#F3EEE1;border:1px solid #E4DDCB;border-radius:6px;padding:4px 9px">El estado de tramitación no está disponible en la fuente</span>
+</div>
+<sc-if value="{{ profile.proyEmpty }}" hint-placeholder-val="{{ false }}">
+<div style="padding:22px 0 6px;font-size:13.5px;color:#8A8266;font-style:italic">No presentó mociones en el período.</div>
+</sc-if>
+<sc-if value="{{ profile.hasProy }}" hint-placeholder-val="{{ false }}">
+<div style="margin-top:12px">
+<div style="display:flex;align-items:center;gap:12px;padding:0 0 7px;border-bottom:1px solid #DED6C2;font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:0.04em;color:#A59C82">
+<span style="width:88px;flex:0 0 88px">Boletín</span><span style="flex:1 1 auto;min-width:180px">Nombre del proyecto</span><span style="width:96px;flex:0 0 96px">Ingreso</span><span style="width:90px;flex:0 0 90px">Rol</span><span style="width:96px;flex:0 0 96px">Admisible</span>
+</div>
+<sc-for list="{{ profile.proyList }}" as="p" hint-placeholder-count="4">
+<div style="display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;padding:11px 0;border-top:1px solid #EDE7D9">
+<span style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#8A8266;width:88px;flex:0 0 88px">{{ p.boletin }}</span>
+<span style="flex:1 1 auto;font-size:13px;color:#3A342A;min-width:200px">{{ p.nombre }}</span>
+<span style="font-size:12px;color:#8A8266;width:96px;flex:0 0 96px">{{ p.fecha }}</span>
+<span style="font-size:12px;color:#6B634F;width:90px;flex:0 0 90px">{{ p.rol }}</span>
+<span style="width:96px;flex:0 0 96px"><span style="{{ p.admStyle }}">{{ p.admLabel }}</span></span>
+</div>
+</sc-for>
+</div>
+</sc-if>
+</div>
+
+</div>
+</sc-if>
+
+</div>
+</sc-if>
+
+<sc-if value="{{ anyPanelOpen }}" hint-placeholder-val="{{ false }}">
+<div onClick="{{ onCloseOverlay }}" style="position:fixed;inset:0;z-index:20;background:transparent"></div>
+</sc-if>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;tendenciaScheme&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;Divergente rojo-azul&quot;,&quot;Secuencial teal&quot;,&quot;Categórica sobria&quot;],&quot;default&quot;:&quot;Divergente rojo-azul&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Codificación de tendencia&quot;},&quot;rowDensity&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;Cómoda&quot;,&quot;Compacta&quot;],&quot;default&quot;:&quot;Cómoda&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Tabla&quot;},&quot;showAsistenciaBar&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:false,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Tabla&quot;}}">
+class Component extends DCLogic {
+  constructor(props){
+    super(props);
+    this.MESES=['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
+    this.TEND_ORDER=['izquierda','centroizquierda','centro','centroderecha','derecha'];
+    this.TEND_LABELS={izquierda:'Izquierda',centroizquierda:'Centroizquierda',centro:'Centro',centroderecha:'Centroderecha',derecha:'Derecha',sinclasificar:'Independiente'};
+    this.PALETTES={
+      'Divergente rojo-azul':{izquierda:'#AE3B34',centroizquierda:'#CB7B62',centro:'#9A917F',centroderecha:'#5E86AC',derecha:'#2F5578',sinclasificar:'#B4AC9C'},
+      'Secuencial teal':{izquierda:'#A9CFC9',centroizquierda:'#79B2A9',centro:'#4E9086',centroderecha:'#2F7268',derecha:'#17534A',sinclasificar:'#B4AC9C'},
+      'Categórica sobria':{izquierda:'#A6564E',centroizquierda:'#B0863F',centro:'#6E8E68',centroderecha:'#4E7C93',derecha:'#6A5B8A',sinclasificar:'#B4AC9C'}
+    };
+    this.PARTIDOS=[
+      {sigla:'MPP',nombre:'Movimiento Popular Progresista',tendencia:'izquierda',count:9},
+      {sigla:'UI',nombre:'Unidad de Izquierda',tendencia:'izquierda',count:6},
+      {sigla:'PSD',nombre:'Partido Social Demócrata',tendencia:'centroizquierda',count:14},
+      {sigla:'PPC',nombre:'Partido Progresista Ciudadano',tendencia:'centroizquierda',count:8},
+      {sigla:'PL',nombre:'Partido Liberal Reformista',tendencia:'centroizquierda',count:6},
+      {sigla:'VE',nombre:'Verdes Ecologistas',tendencia:'centroizquierda',count:4},
+      {sigla:'PDC',nombre:'Partido Demócrata Comunal',tendencia:'centro',count:7},
+      {sigla:'PRC',nombre:'Partido Radical Ciudadano',tendencia:'centro',count:5},
+      {sigla:'PDG',nombre:'Partido de la Gente Común',tendencia:'centro',count:6},
+      {sigla:'PCN',nombre:'Partido Centro Nacional',tendencia:'centroderecha',count:7},
+      {sigla:'EVP',nombre:'Evolución Popular',tendencia:'centroderecha',count:9},
+      {sigla:'RDN',nombre:'Renovación Democrática Nacional',tendencia:'centroderecha',count:6},
+      {sigla:'PAH',nombre:'Partido Amplio Humanista',tendencia:'centroderecha',count:5},
+      {sigla:'UNR',nombre:'Unión Nacional Republicana',tendencia:'derecha',count:16},
+      {sigla:'PON',nombre:'Partido del Orden Nacional',tendencia:'derecha',count:8},
+      {sigla:'PREP',nombre:'Partido Republicano Popular',tendencia:'derecha',count:10},
+      {sigla:'PSC',nombre:'Partido Social Conservador',tendencia:'derecha',count:4},
+      {sigla:'IND',nombre:'Independiente',tendencia:null,count:25}
+    ];
+    this.partyMap={}; this.PARTIDOS.forEach(p=>{this.partyMap[p.sigla]=p;});
+    this.FEM=['María','Camila','Javiera','Francisca','Valentina','Antonia','Constanza','Catalina','Fernanda','Daniela','Paulina','Carolina','Andrea','Bárbara','Rocío','Ignacia','Josefa','Emilia','Isidora','Loreto','Macarena','Gabriela','Natalia','Alejandra'];
+    this.MASC=['Juan','José','Diego','Matías','Sebastián','Cristóbal','Felipe','Rodrigo','Gonzalo','Ignacio','Vicente','Tomás','Benjamín','Nicolás','Andrés','Francisco','Manuel','Pablo','Álvaro','Esteban','Joaquín','Mauricio','Claudio','Hernán'];
+    this.SUR=['Fuentealba','Cárdenas','Riquelme','Sepúlveda','Cofré','Bustos','Manríquez','Villagrán','Contreras','Gutiérrez','Muñoz','Rojas','Araya','Cortés','Espinoza','Vergara','Salazar','Carrasco','Tapia','Navarro','Cáceres','Zúñiga','Pizarro','Aguilera','Henríquez','Ibáñez','Maldonado','Ortega','Quezada','Sandoval','Toro','Ulloa','Valenzuela','Yáñez','Zamora','Cornejo','Donoso','Escobar','Godoy','Herrera'];
+    this.REGIONES=['Arica y Parinacota','Tarapacá','Antofagasta','Atacama','Coquimbo','Valparaíso','Metropolitana','O\u2019Higgins','Maule','Ñuble','Biobío','La Araucanía','Los Ríos','Los Lagos','Aysén','Magallanes'];
+    this.LEYES=['Reforma al sistema de pensiones','Modifica la jornada laboral','Ley de presupuestos del sector público','Royalty a la actividad minera','Ley de protección de datos personales','Fortalece la atención primaria de salud','Regula el uso del agua en cuencas','Establece el permiso postnatal parental','Crea el Servicio de Protección a la Niñez','Regula plataformas digitales de transporte','Ley marco de cambio climático','Aumenta sanciones a delitos económicos','Reforma tributaria y cumplimiento fiscal','Subsidio al arriendo para clase media','Modifica la Ley General de Educación','Regula el financiamiento de la política','Modifica el Código de Aguas','Fortalece la seguridad pública'];
+    this.MOCIONES=['Modifica el Código del Trabajo en materia de descanso','Establece normas sobre etiquetado de alimentos','Reconoce el derecho a la conectividad digital','Fortalece la fiscalización de servicios básicos','Regula la tenencia responsable de mascotas','Crea un registro de deudores de pensiones','Modifica la Ley de Copropiedad Inmobiliaria','Establece medidas de eficiencia energética','Sanciona el maltrato a personas mayores','Promueve la seguridad vial en zonas escolares','Reconoce la labor de cuidadores no remunerados','Modifica normas sobre acceso a la información','Establece un plan nacional de reciclaje','Regula la publicidad de productos financieros','Fortalece la salud mental en establecimientos educacionales','Modifica el Código Sanitario en materia de farmacias','Establece incentivos al empleo juvenil','Protege los humedales urbanos y periurbanos'];
+    this.index=this.buildIndex();
+    this.FULL_COUNTS={izquierda:0,centroizquierda:0,centro:0,centroderecha:0,derecha:0,sinclasificar:0};
+    this.index.forEach(r=>{this.FULL_COUNTS[r.tendencia||'sinclasificar']++;});
+    this.HEMI=this.computeHemicycle(155,8,0.42);
+    this.seatTend=[]; ['derecha','centroderecha','centro','sinclasificar','centroizquierda','izquierda'].forEach(k=>{for(let i=0;i<this.FULL_COUNTS[k];i++)this.seatTend.push(k);});
+    this.state={view:'index',selectedId:null,loadingProfile:false,profileRaw:null,indexReady:false,search:'',selectedParties:{},selectedTend:{},region:'',sort:{field:'nombre',dir:'asc'},partyPanelOpen:false,regionPanelOpen:false,vw:(typeof window!=='undefined'?window.innerWidth:1280)};
+    this._onResize=()=>this.setState({vw:window.innerWidth});
+  }
+  componentDidMount(){ window.addEventListener('resize',this._onResize); setTimeout(()=>this.setState({indexReady:true}),320); }
+  componentWillUnmount(){ window.removeEventListener('resize',this._onResize); }
+  isNarrow(){ return this.state.vw<820; }
+  currentPalette(){ return this.PALETTES[this.props.tendenciaScheme]||this.PALETTES['Divergente rojo-azul']; }
+  mulberry32(a){ return function(){ a|=0;a=a+0x6D2B79F5|0; let t=Math.imul(a^a>>>15,1|a); t=t+Math.imul(t^t>>>7,61|t)^t; return ((t^t>>>14)>>>0)/4294967296; }; }
+  coreStats(id){ const r=this.mulberry32(id*7919+13); const n_sesiones=42+Math.floor(r()*38); const rate=0.58+r()*0.42; const asiste=Math.round(n_sesiones*rate); const no_asiste=n_sesiones-asiste; const pct=Math.round(asiste/n_sesiones*100); const n_proyectos=Math.floor(r()*r()*30); const n_votaciones=Math.round(n_sesiones*(3+r()*7)); return {n_sesiones,asiste,no_asiste,pct,n_proyectos,n_votaciones}; }
+  buildIndex(){ const bag=[]; this.PARTIDOS.forEach(p=>{for(let k=0;k<p.count;k++)bag.push(p.sigla);}); const r=this.mulberry32(20260708); for(let i=bag.length-1;i>0;i--){const j=Math.floor(r()*(i+1)); const t=bag[i];bag[i]=bag[j];bag[j]=t;} const arr=[]; for(let i=1;i<=155;i++){ const sigla=bag[i-1]; const party=this.partyMap[sigla]; const nr=this.mulberry32(i*40503+7); const sexo=nr()<0.46?'F':'M'; const pool=sexo==='F'?this.FEM:this.MASC; const first=pool[Math.floor(nr()*pool.length)]; const s1=this.SUR[Math.floor(nr()*this.SUR.length)]; let s2=this.SUR[Math.floor(nr()*this.SUR.length)]; if(s2===s1)s2=this.SUR[(this.SUR.indexOf(s1)+3)%this.SUR.length]; const cs=this.coreStats(i); arr.push({id:i,nombre:first+' '+s1+' '+s2,sexo,partySigla:sigla,tendencia:party.tendencia,region:null,distrito:null,pct:cs.pct,n_proyectos:cs.n_proyectos,n_votaciones:cs.n_votaciones}); } return arr; }
+  fmtFecha(r){ const y=2022+Math.floor(r()*4); const m=Math.floor(r()*12); const d=1+Math.floor(r()*28); return d+' '+this.MESES[m]+' '+y; }
+  boletin(r){ return (10000+Math.floor(r()*9800))+'-'+String(1+Math.floor(r()*30)).padStart(2,'0'); }
+  buildProfile(id){ const cs=this.coreStats(id); const r=this.mulberry32(id*777+99); const total=cs.n_votaciones; let afavor=Math.round(total*(0.42+r()*0.22)); let encontra=Math.round(total*(0.18+r()*0.2)); let abst=Math.round((total-afavor-encontra)*(0.35+r()*0.4)); let pareo=Math.max(0,total-afavor-encontra-abst); const SENT=[{key:'afavor',label:'A favor',color:'#4B7A52',count:afavor},{key:'encontra',label:'En contra',color:'#A6483F',count:encontra},{key:'abstencion',label:'Abstención',color:'#B0873C',count:abst},{key:'pareo',label:'Pareo',color:'#8C8578',count:pareo}]; const sum=(afavor+encontra+abst+pareo)||1; const votSeg=SENT.map(x=>({key:x.key,label:x.label,color:x.color,count:x.count,pct:Math.round(x.count/sum*100)})); const nVL=Math.min(16,total); const votList=[]; for(let i=0;i<nVL;i++){ const desc=this.LEYES[Math.floor(r()*this.LEYES.length)]; const res=r()<0.62?'Aprobado':'Rechazado'; const pick=r()*sum; let acc=0,sent=SENT[0]; for(const x of SENT){acc+=x.count; if(pick<=acc){sent=x;break;}} const fd=this.randFecha(r); votList.push({boletin:this.boletin(r),fecha:fd.label,ts:fd.ts,desc,resultado:res,sentido:sent.label,sentidoColor:sent.color}); } votList.sort((a,b)=>b.ts-a.ts); const nP=cs.n_proyectos; const proyList=[]; for(let i=0;i<Math.min(nP,24);i++){ const adm=r()<0.8; const fd=this.randFecha(r); proyList.push({boletin:this.boletin(r),nombre:this.MOCIONES[Math.floor(r()*this.MOCIONES.length)],fecha:fd.label,ts:fd.ts,admisible:adm,rol:r()<0.5?'Autor/a':'Adherente'}); } proyList.sort((a,b)=>b.ts-a.ts); return {cs,votTotal:total,votSeg,votList,votListNote:total>16,proyTotal:nP,proyList,proyEmpty:nP===0}; }
+  openProfile(id){ this.setState({view:'profile',selectedId:id,loadingProfile:true,profileRaw:null,partyPanelOpen:false,regionPanelOpen:false}); try{window.scrollTo(0,0);}catch(e){} setTimeout(()=>{ if(this.state.selectedId===id){ this.setState({loadingProfile:false,profileRaw:this.buildProfile(id)}); } },480); }
+  back(){ this.setState({view:'index',selectedId:null,profileRaw:null}); }
+  toggleTend(k){ this.setState(s=>{const n=Object.assign({},s.selectedTend); if(n[k])delete n[k]; else n[k]=true; return {selectedTend:n};}); }
+  toggleParty(sig){ this.setState(s=>{const n=Object.assign({},s.selectedParties); if(n[sig])delete n[sig]; else n[sig]=true; return {selectedParties:n};}); }
+  setRegion(v){ this.setState({region:v,regionPanelOpen:false}); }
+  setSort(field){ this.setState(s=>{ if(s.sort.field===field){ return {sort:{field,dir:s.sort.dir==='asc'?'desc':'asc'}}; } return {sort:{field,dir:field==='nombre'?'asc':'desc'}}; }); }
+  reset(){ this.setState({search:'',selectedParties:{},selectedTend:{},region:''}); }
+  deskCells(){ return { nombre:{flex:'1 1 auto',minWidth:'160px',display:'flex',flexDirection:'column',gap:'1px',paddingRight:'12px'}, partido:{width:'70px',flex:'0 0 70px'}, tend:{width:'156px',flex:'0 0 156px',display:'flex',alignItems:'center',gap:'8px'}, region:{width:'118px',flex:'0 0 118px'}, asist:{width:'96px',flex:'0 0 96px',display:'flex',flexDirection:'column',alignItems:'flex-end',gap:'3px'}, proy:{width:'104px',flex:'0 0 104px',textAlign:'right'}, vot:{width:'104px',flex:'0 0 104px',textAlign:'right'}, lbl:{display:'none'} }; }
+  mobileCells(){ return { nombre:{flexBasis:'100%',display:'flex',flexDirection:'column',gap:'2px'}, partido:{flex:'0 0 auto'}, tend:{flex:'1 1 auto',display:'flex',alignItems:'center',gap:'8px',minWidth:'150px'}, region:{flexBasis:'100%',marginTop:'1px'}, asist:{flex:'1 1 28%',display:'flex',flexDirection:'column',gap:'3px',minWidth:'80px'}, proy:{flex:'1 1 28%',display:'flex',flexDirection:'column',gap:'3px',minWidth:'80px'}, vot:{flex:'1 1 28%',display:'flex',flexDirection:'column',gap:'3px',minWidth:'80px'}, lbl:{display:'block',fontSize:'10.5px',fontWeight:600,letterSpacing:'0.01em',color:'#8A8266'} }; }
+  computeHemicycle(total,rows,ratio){
+    const radii=[]; for(let i=0;i<rows;i++){radii.push(ratio+(1-ratio)*(i/(rows-1)));}
+    const sum=radii.reduce((a,b)=>a+b,0);
+    const raw=radii.map(r=>r/sum*total);
+    const counts=raw.map(x=>Math.floor(x));
+    const rem=total-counts.reduce((a,b)=>a+b,0);
+    const fr=raw.map((x,i)=>({i,f:x-Math.floor(x)})).sort((a,b)=>b.f-a.f);
+    for(let k=0;k<rem;k++){counts[fr[k].i]++;}
+    const seats=[];
+    radii.forEach((r,ri)=>{ const c=counts[ri]; for(let j=0;j<c;j++){ const t=c===1?0.5:(j/(c-1)); const ang=Math.PI*(1-t); seats.push({r,ang}); } });
+    seats.sort((a,b)=> b.ang-a.ang || a.r-b.r);
+    const R=95,cx=100,cy=100;
+    return seats.map(s=>({cx:cx+R*s.r*Math.cos(s.ang),cy:cy-R*s.r*Math.sin(s.ang)}));
+  }
+  randFecha(r){ const y=2022+Math.floor(r()*4); const m=Math.floor(r()*12); const d=1+Math.floor(r()*28); return {ts:y*10000+m*100+d,label:d+' '+this.MESES[m]+' '+y}; }
+  renderVals(){
+    const s=this.state; const pal=this.currentPalette(); const nar=this.isNarrow();
+    const dense=this.props.rowDensity==='Compacta'; const showBar=!!this.props.showAsistenciaBar;
+    const term=s.search.trim().toLowerCase();
+    const selP=Object.keys(s.selectedParties).filter(k=>s.selectedParties[k]);
+    const selT=Object.keys(s.selectedTend).filter(k=>s.selectedTend[k]);
+    const anyT=selT.length>0;
+    const base=this.index.filter(r=>{ if(term&&r.nombre.toLowerCase().indexOf(term)<0)return false; if(selP.length&&selP.indexOf(r.partySigla)<0)return false; if(s.region&&s.region!=='__sindato__')return false; return true; });
+    const counts={sinclasificar:0}; this.TEND_ORDER.forEach(k=>{counts[k]=0;}); base.forEach(r=>{counts[r.tendencia||'sinclasificar']++;});
+    const maxC=Math.max(1,counts.izquierda,counts.centroizquierda,counts.centro,counts.centroderecha,counts.derecha,counts.sinclasificar);
+    const mk=(key)=>{ const color=pal[key]; const count=counts[key]; const sel=!!s.selectedTend[key]; const h=Math.round(5+(count/maxC)*80); const isSin=key==='sinclasificar'; return {key,label:this.TEND_LABELS[key],count,selected:sel,onClick:()=>this.toggleTend(key),title:this.TEND_LABELS[key]+': '+count+' — clic para filtrar', barStyle:{width:'100%',maxWidth:'46px',height:h+'px',borderRadius:'4px 4px 0 0',background:isSin?('repeating-linear-gradient(45deg,'+color+' 0 4px,#D8D2C4 4px 8px)'):color,opacity:anyT&&!sel?0.3:1,boxShadow:sel?('0 0 0 2px #FBFAF5,0 0 0 3.5px '+color):'none',transition:'height .25s ease,opacity .2s'}, countStyle:{fontFamily:"'Public Sans',sans-serif",fontSize:nar?'14px':'16px',fontWeight:sel?700:600,color:'#2A2622',fontVariantNumeric:'tabular-nums'}, labelStyle:{fontSize:nar?'9px':'10.5px',fontWeight:sel?700:500,letterSpacing:'0.01em',color:sel?'#2A2622':'#8A8266',textAlign:'center',lineHeight:1.15,maxWidth:'70px'} }; };
+    const distMain=this.TEND_ORDER.map(mk); const distSin=mk('sinclasificar');
+    const groupOrder=['izquierda','centroizquierda','centro','centroderecha','derecha','sinclasificar'];
+    const baseCounts={}; groupOrder.forEach(k=>{baseCounts[k]=0;}); base.forEach(r=>{baseCounts[r.tendencia||'sinclasificar']++;});
+    const seen={}; groupOrder.forEach(k=>{seen[k]=0;});
+    const hemiSeats=this.HEMI.map((pt,i)=>{ const tk=this.seatTend[i]; const idx=seen[tk]++; const inBase=idx<baseCounts[tk]; const selDim=anyT&&!s.selectedTend[tk]; let op=1; if(!inBase)op=0.12; else if(selDim)op=0.24; const isSin=tk==='sinclasificar'; const color=pal[tk]; return {cx:pt.cx.toFixed(2),cy:pt.cy.toFixed(2),r:'2.7',onClick:()=>this.toggleTend(tk),style:{fill:isSin?'#F4EFE2':color,stroke:isSin?color:'transparent',strokeWidth:isSin?'1.1px':'0',opacity:op,cursor:'pointer',transition:'opacity .2s'}}; });
+    const legTotal=base.length||1;
+    const hemiLegend=groupOrder.map(k=>{ const sel=!!s.selectedTend[k]; const isSin=k==='sinclasificar'; const color=pal[k]; const pctTot=Math.round(baseCounts[k]/legTotal*100); return {label:this.TEND_LABELS[k],count:baseCounts[k],pct:'('+pctTot+'%)',onClick:()=>this.toggleTend(k),title:this.TEND_LABELS[k]+': '+baseCounts[k]+' ('+pctTot+'%)', wrapStyle:{display:'inline-flex',alignItems:'center',gap:'5px',fontSize:'12px',color:'#524B3C',cursor:'pointer',opacity:anyT&&!sel?0.5:1,fontWeight:sel?600:400,whiteSpace:'nowrap'}, swatch:{display:'inline-block',width:'10px',height:'10px',flex:'0 0 auto',borderRadius:'50%',background:isSin?'#F4EFE2':color,border:isSin?('1px solid '+color):'none'}}; });
+    const hemiCenterBig=base.length;
+    let rows=base.filter(r=>{ if(!anyT)return true; return selT.indexOf(r.tendencia||'sinclasificar')>=0; });
+    const f=s.sort.field, mul=s.sort.dir==='asc'?1:-1;
+    rows=rows.slice().sort((a,b)=>{ if(f==='nombre')return a.nombre.localeCompare(b.nombre,'es')*mul; const av=f==='asistencia'?a.pct:f==='proyectos'?a.n_proyectos:a.n_votaciones; const bv=f==='asistencia'?b.pct:f==='proyectos'?b.n_proyectos:b.n_votaciones; if(av===bv)return a.nombre.localeCompare(b.nombre,'es'); return (av-bv)*mul; });
+    const cells=nar?this.mobileCells():this.deskCells();
+    const rowStyle=nar?{display:'flex',flexWrap:'wrap',alignItems:'baseline',columnGap:'14px',rowGap:'8px',padding:'15px 16px',borderBottom:'1px solid #ECE6D8',cursor:'pointer',background:'#FBFAF5'}:{display:'flex',alignItems:'center',padding:'0 22px',height:dense?'46px':'62px',borderBottom:'1px solid #ECE6D8',cursor:'pointer',background:'#FBFAF5'};
+    const hoverStyle={background:'#F4EFE2'};
+    const viewRows=rows.map(r=>{ const tkey=r.tendencia||'sinclasificar'; const color=pal[tkey]; return { id:r.id,nombre:r.nombre,sexoLabel:r.sexo==='F'?'Diputada':'Diputado',sigla:r.partySigla,partyNombre:this.partyMap[r.partySigla].nombre,tendLabel:r.tendencia?this.TEND_LABELS[tkey]:'Independiente', dotStyle:{width:'10px',height:'10px',borderRadius:'50%',flex:'0 0 auto',background:r.tendencia?color:'#F4EFE2',border:r.tendencia?('1px solid '+color):('1px solid '+color)}, pct:r.pct+'%', pctBarStyle:{width:r.pct+'%',height:'100%',background:color,borderRadius:'3px'}, proyectos:r.n_proyectos, votaciones:r.n_votaciones, showBar, onClick:()=>this.openProfile(r.id), rowStyle, hoverStyle, cNombre:cells.nombre,cPartido:cells.partido,cTend:cells.tend,cRegion:cells.region,cAsist:cells.asist,cProy:cells.proy,cVot:cells.vot,cLbl:cells.lbl }; });
+    const partyOptions=this.PARTIDOS.map(p=>{ const checked=!!s.selectedParties[p.sigla]; const color=p.tendencia?pal[p.tendencia]:pal.sinclasificar; return {sigla:p.sigla,nombre:p.nombre,checked,onToggle:()=>this.toggleParty(p.sigla),check:checked?'✓':'', boxStyle:{width:'16px',height:'16px',borderRadius:'4px',flex:'0 0 auto',display:'flex',alignItems:'center',justifyContent:'center',fontSize:'11px',fontWeight:700,color:'#FBFAF5',background:checked?'#2F5578':'transparent',border:checked?'1px solid #2F5578':'1.5px solid #CBC2AC'}, dotStyle:{width:'8px',height:'8px',borderRadius:'50%',flex:'0 0 auto',background:p.tendencia?color:'transparent',border:p.tendencia?'none':('1.5px dashed '+color)} }; });
+    const regionOptions=[{label:'Todas las regiones',value:''},{label:'Sin dato',value:'__sindato__'}].concat(this.REGIONES.map(x=>({label:x,value:x}))).map(o=>({label:o.label,value:o.value,check:s.region===o.value?'✓':'',onSelect:()=>this.setRegion(o.value)}));
+    const regionLabel=s.region===''?'Región':(s.region==='__sindato__'?'Región · Sin dato':'Región · '+s.region);
+    const arr=(field)=>s.sort.field===field?(s.sort.dir==='asc'?'▲':'▼'):'';
+    const hasFilters=!!(term||selP.length||selT.length||s.region);
+    let profile=null;
+    if(s.view==='profile'){
+      const rec=this.index.find(r=>r.id===s.selectedId)||{};
+      const tkey=rec.tendencia||'sinclasificar'; const color=pal[tkey];
+      profile={ loading:s.loadingProfile, loaded:!s.loadingProfile&&!!s.profileRaw, headerPct:rec.pct||0, headerBarStyle:{width:(rec.pct||0)+'%',height:'100%',background:'#4B7A52'},
+        nombre:rec.nombre||'', sigla:rec.partySigla||'', partyNombre:rec.partySigla?this.partyMap[rec.partySigla].nombre:'',
+        sexo:rec.sexo==='F'?'Femenino':'Masculino', tendLabel:rec.tendencia?this.TEND_LABELS[tkey]:'Independiente', tendColor:color,
+        tendChipStyle:{display:'inline-flex',alignItems:'center',gap:'7px',padding:'5px 11px',borderRadius:'20px',fontSize:'13px',fontWeight:600,color:rec.tendencia?'#FBFAF5':'#6B634F',background:rec.tendencia?color:'transparent',border:rec.tendencia?'none':('1px solid '+pal.sinclasificar)},
+        tendDotStyle:{width:'9px',height:'9px',borderRadius:'50%',flex:'0 0 auto',background:rec.tendencia?'rgba(255,255,255,.85)':'#F4EFE2',border:rec.tendencia?'none':('1px solid '+pal.sinclasificar)} };
+      if(profile.loaded){ const d=s.profileRaw; const cs=d.cs;
+        profile.cs=cs; profile.pct=cs.pct;
+        profile.asisteBarStyle={width:(cs.asiste/cs.n_sesiones*100)+'%',height:'100%',background:'#4B7A52'};
+        profile.votTotal=d.votTotal;
+        profile.votSeg=d.votSeg.map(g=>({label:g.label,count:g.count,pct:g.pct,segStyle:{width:g.pct+'%',height:'100%',background:g.color},dotStyle:{width:'9px',height:'9px',borderRadius:'2px',flex:'0 0 auto',background:g.color}}));
+        profile.votList=d.votList.map(v=>({boletin:v.boletin,fecha:v.fecha,desc:v.desc,resultado:v.resultado,sentido:v.sentido,resStyle:{fontSize:'12px',fontWeight:600,color:v.resultado==='Aprobado'?'#4B7A52':'#A6483F'},sentStyle:{fontSize:'12px',fontWeight:600,color:v.sentidoColor}}));
+        profile.votListNote=d.votListNote;
+        profile.proyTotal=d.proyTotal; profile.proyEmpty=d.proyEmpty; profile.hasProy=!d.proyEmpty;
+        profile.proyList=d.proyList.map(p=>({boletin:p.boletin,nombre:p.nombre,fecha:p.fecha,rol:p.rol,admLabel:p.admisible?'Admisible':'Inadmisible',admStyle:{fontSize:'11px',fontWeight:600,padding:'2px 8px',borderRadius:'20px',color:p.admisible?'#4B7A52':'#A6483F',background:p.admisible?'rgba(75,122,82,.1)':'rgba(166,72,63,.1)',border:'1px solid '+(p.admisible?'rgba(75,122,82,.3)':'rgba(166,72,63,.3)')}}));
+      }
+    }
+    return {
+      profile,
+      isIndex:s.view==='index', isProfile:s.view==='profile',
+      stickyZoneStyle:{position:nar?'static':'sticky',top:'0',zIndex:40,background:'#EFEBE0',borderBottom:'1px solid #DED6C2',padding:nar?'14px 16px':'16px 24px 14px'},
+      search:s.search, onSearch:(e)=>this.setState({search:e.target.value}),
+      distMain, distSin, hemiSeats, hemiLegend, hemiCenterBig, viewRows, baseCount:base.length, resultCount:viewRows.length,
+      hasRows:s.indexReady&&viewRows.length>0, isEmptyReady:s.indexReady&&viewRows.length===0, indexLoading:!s.indexReady,
+      emptyRegion:!!(s.region&&s.region!=='__sindato__'), regionName:s.region, noResultsGeneric:s.indexReady&&viewRows.length===0&&!(s.region&&s.region!=='__sindato__'),
+      partyPanelOpen:s.partyPanelOpen, onTogglePartyPanel:()=>this.setState(st=>({partyPanelOpen:!st.partyPanelOpen,regionPanelOpen:false})), partyOptions, partyBtnSuffix:selP.length?(' · '+selP.length):'',
+      regionPanelOpen:s.regionPanelOpen, onToggleRegionPanel:()=>this.setState(st=>({regionPanelOpen:!st.regionPanelOpen,partyPanelOpen:false})), regionOptions, regionLabel,
+      anyPanelOpen:s.partyPanelOpen||s.regionPanelOpen, onCloseOverlay:()=>this.setState({partyPanelOpen:false,regionPanelOpen:false}),
+      onReset:()=>this.reset(), hasFilters,
+      headerVisible:!nar&&s.indexReady,
+      onSortNombre:()=>this.setSort('nombre'), onSortAsist:()=>this.setSort('asistencia'), onSortProy:()=>this.setSort('proyectos'), onSortVot:()=>this.setSort('votaciones'),
+      aNombre:arr('nombre'), aAsist:arr('asistencia'), aProy:arr('proyectos'), aVot:arr('votaciones'),
+      onBack:()=>this.back()
+    };
+  }
+}
+</script>
+</body>
+</html>
