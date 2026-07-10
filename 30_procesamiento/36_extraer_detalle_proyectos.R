@@ -58,6 +58,14 @@ log_msg(sprintf("Boletines a resolver: %d (autorados %d, votados %d, union %d)."
         origen = "36_detalle")
 
 # ---- Descargar detalle por boletin (resiliente: warn, no stop) --------------
+# tope = Inf: 36 NO aplica un cap propio a su descarga; procesa TODOS los
+# boletines de la union congelada (autorados + votados) sin truncar. Inf
+# codifica en la clave que este detalle es completo, consistente con el esquema
+# _tope-inf de 33/34/35 en produccion (fix de la clave de cache). No se pasa
+# MAX_PROYECTOS_DETALLE: 36 no lo aplica (procesa mas que los autorados), asi
+# que decirlo en la clave seria mentir. # REVISAR: el CONJUNTO de boletines de
+# 36 depende de los topes de 34/35 (via proyectos.rds/votos.rds); esa dependencia
+# aguas-arriba ya queda codificada en LOS snapshots de 34/35, no en el de 36.
 extraer_detalle <- function() {
   con_cache(sprintf("detalle_proyectos_%d", ANIO_PROCESO), function() {
     filas <- list()
@@ -92,7 +100,7 @@ extraer_detalle <- function() {
                       length(no_resueltos), paste(no_resueltos, collapse = ", ")),
               "WARN", "36_detalle")
     bind_rows(filas)
-  }, origen = "36_detalle")
+  }, tope = Inf, origen = "36_detalle")
 }
 
 detalle <- extraer_detalle()
