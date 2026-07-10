@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProyectoLey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://opendata.camara.cl/camaradiputados/v1">
+  <Id>17465</Id>
+  <NumeroBoletin>16857-07</NumeroBoletin>
+  <Nombre>Modifica el Código Penal para autorizar el uso de agentes encubiertos en Internet para la persecución de delitos sexuales contra niños, niñas y adolescentes</Nombre>
+  <FechaIngreso>2024-05-15T00:00:00</FechaIngreso>
+  <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+  <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+  <Autores>
+    <ParlamentarioAutor>
+      <Orden>0</Orden>
+      <Diputado>
+        <Id>1025</Id>
+        <Nombre>Catalina</Nombre>
+        <ApellidoPaterno>Del Real</ApellidoPaterno>
+        <ApellidoMaterno>Mihovilovic</ApellidoMaterno>
+      </Diputado>
+    </ParlamentarioAutor>
+    <ParlamentarioAutor>
+      <Orden>0</Orden>
+      <Diputado>
+        <Id>1040</Id>
+        <Nombre>Harry</Nombre>
+        <ApellidoPaterno>Jürgensen</ApellidoPaterno>
+        <ApellidoMaterno>Rundshagen</ApellidoMaterno>
+      </Diputado>
+    </ParlamentarioAutor>
+    <ParlamentarioAutor>
+      <Orden>0</Orden>
+      <Diputado>
+        <Id>1082</Id>
+        <Nombre>Cristóbal</Nombre>
+        <ApellidoPaterno>Urruticoechea</ApellidoPaterno>
+        <ApellidoMaterno>Ríos</ApellidoMaterno>
+      </Diputado>
+    </ParlamentarioAutor>
+    <ParlamentarioAutor>
+      <Orden>0</Orden>
+      <Diputado>
+        <Id>1152</Id>
+        <Nombre>Gloria</Nombre>
+        <ApellidoPaterno>Naveillan</ApellidoPaterno>
+        <ApellidoMaterno>Arriagada</ApellidoMaterno>
+      </Diputado>
+    </ParlamentarioAutor>
+    <ParlamentarioAutor>
+      <Orden>0</Orden>
+      <Diputado>
+        <Id>1107</Id>
+        <Nombre>María Francisca</Nombre>
+        <ApellidoPaterno>Bello</ApellidoPaterno>
+        <ApellidoMaterno>Campos</ApellidoMaterno>
+      </Diputado>
+    </ParlamentarioAutor>
+    <ParlamentarioAutor>
+      <Orden>0</Orden>
+      <Diputado>
+        <Id>1172</Id>
+        <Nombre>Stephan</Nombre>
+        <ApellidoPaterno>Schubert</ApellidoPaterno>
+        <ApellidoMaterno>Rubio</ApellidoMaterno>
+      </Diputado>
+    </ParlamentarioAutor>
+    <ParlamentarioAutor>
+      <Orden>0</Orden>
+      <Diputado>
+        <Id>1176</Id>
+        <Nombre>Hotuiti</Nombre>
+        <ApellidoPaterno>Teao</ApellidoPaterno>
+        <ApellidoMaterno>Drago</ApellidoMaterno>
+      </Diputado>
+    </ParlamentarioAutor>
+    <ParlamentarioAutor>
+      <Orden>0</Orden>
+      <Diputado>
+        <Id>1183</Id>
+        <Nombre>Flor</Nombre>
+        <ApellidoPaterno>Weisse</ApellidoPaterno>
+        <ApellidoMaterno>Novoa</ApellidoMaterno>
+      </Diputado>
+    </ParlamentarioAutor>
+    <ParlamentarioAutor>
+      <Orden>0</Orden>
+      <Diputado>
+        <Id>1104</Id>
+        <Nombre>Chiara</Nombre>
+        <ApellidoPaterno>Barchiesi</ApellidoPaterno>
+        <ApellidoMaterno>Chávez</ApellidoMaterno>
+      </Diputado>
+    </ParlamentarioAutor>
+    <ParlamentarioAutor>
+      <Orden>0</Orden>
+      <Diputado>
+        <Id>1113</Id>
+        <Nombre>Marta</Nombre>
+        <ApellidoPaterno>Bravo</ApellidoPaterno>
+        <ApellidoMaterno>Salinas</ApellidoMaterno>
+      </Diputado>
+    </ParlamentarioAutor>
+  </Autores>
+  <Votaciones>
+    <VotacionProyectoLey>
+      <Id>89161</Id>
+      <Descripcion>Boletín N°16857-07</Descripcion>
+      <Fecha>2026-06-16T13:26:53</Fecha>
+      <TotalSi>80</TotalSi>
+      <TotalNo>42</TotalNo>
+      <TotalAbstencion>25</TotalAbstencion>
+      <TotalDispensado>0</TotalDispensado>
+      <Quorum Valor="1">Quórum Simple</Quorum>
+      <Resultado Valor="1">Aprobado</Resultado>
+      <Tipo Valor="1">Proyecto de Ley</Tipo>
+      <TipoVotacionProyectoLey Valor="2">Particular</TipoVotacionProyectoLey>
+      <Articulo>Indicación del diputado José Antonio Rivas para agregar un nuevo artículo transitorio al proyecto. 
+</Articulo>
+      <TramiteConstitucional Id="1">Primer Trámite</TramiteConstitucional>
+      <TramiteReglamentario Id="1">Primer Informe</TramiteReglamentario>
+    </VotacionProyectoLey>
+    <VotacionProyectoLey>
+      <Id>89160</Id>
+      <Descripcion>Boletín N°16857-07</Descripcion>
+      <Fecha>2026-06-16T13:24:53</Fecha>
+      <TotalSi>54</TotalSi>
+      <TotalNo>67</TotalNo>
+      <TotalAbstencion>26</TotalAbstencion>
+      <TotalDispensado>0</TotalDispensado>
+      <Quorum Valor="1">Quórum Simple</Quorum>
+      <Resultado Valor="2">Unánime</Resultado>
+      <Tipo Valor="1">Proyecto de Ley</Tipo>
+      <TipoVotacionProyectoLey Valor="2">Particular</TipoVotacionProyectoLey>
+      <Articulo>Indicación del diputado José Antonio Rivas para agregar un nuevo artículo 3° al proyecto. 
+</Articulo>
+      <TramiteConstitucional Id="1">Primer Trámite</TramiteConstitucional>
+      <TramiteReglamentario Id="1">Primer Informe</TramiteReglamentario>
+    </VotacionProyectoLey>
+    <VotacionProyectoLey>
+      <Id>89159</Id>
+      <Descripcion>Boletín N°16857-07</Descripcion>
+      <Fecha>2026-06-16T13:22:35</Fecha>
+      <TotalSi>147</TotalSi>
+      <TotalNo>0</TotalNo>
+      <TotalAbstencion>0</TotalAbstencion>
+      <TotalDispensado>0</TotalDispensado>
+      <Quorum Valor="1">Quórum Simple</Quorum>
+      <Resultado Valor="1">Aprobado</Resultado>
+      <Tipo Valor="1">Proyecto de Ley</Tipo>
+      <TipoVotacionProyectoLey Valor="2">Particular</TipoVotacionProyectoLey>
+      <Articulo>Artículo 2 del proyecto, en los términos propuestos por la Comisión de Seguridad Ciudadana, que consta en la página 7 del comparado. 
+</Articulo>
+      <TramiteConstitucional Id="1">Primer Trámite</TramiteConstitucional>
+      <TramiteReglamentario Id="1">Primer Informe</TramiteReglamentario>
+    </VotacionProyectoLey>
+    <VotacionProyectoLey>
+      <Id>89158</Id>
+      <Descripcion>Boletín N°16857-07</Descripcion>
+      <Fecha>2026-06-16T13:21:25</Fecha>
+      <TotalSi>55</TotalSi>
+      <TotalNo>38</TotalNo>
+      <TotalAbstencion>54</TotalAbstencion>
+      <TotalDispensado>0</TotalDispensado>
+      <Quorum Valor="1">Quórum Simple</Quorum>
+      <Resultado Valor="2">Unánime</Resultado>
+      <Tipo Valor="1">Proyecto de Ley</Tipo>
+      <TipoVotacionProyectoLey Valor="2">Particular</TipoVotacionProyectoLey>
+      <Articulo>Indicación sugerida por el diputado José Antonio Rivas para reemplazar el artículo 2 del proyecto.  
+</Articulo>
+      <TramiteConstitucional Id="1">Primer Trámite</TramiteConstitucional>
+      <TramiteReglamentario Id="1">Primer Informe</TramiteReglamentario>
+    </VotacionProyectoLey>
+    <VotacionProyectoLey>
+      <Id>89157</Id>
+      <Descripcion>Boletín N°16857-07</Descripcion>
+      <Fecha>2026-06-16T13:19:12</Fecha>
+      <TotalSi>62</TotalSi>
+      <TotalNo>27</TotalNo>
+      <TotalAbstencion>58</TotalAbstencion>
+      <TotalDispensado>0</TotalDispensado>
+      <Quorum Valor="1">Quórum Simple</Quorum>
+      <Resultado Valor="2">Unánime</Resultado>
+      <Tipo Valor="1">Proyecto de Ley</Tipo>
+      <TipoVotacionProyectoLey Valor="2">Particular</TipoVotacionProyectoLey>
+      <Articulo>Indicación del diputado José Antonio Rivas para agregar un nuevo inciso final en el artículo 369 ter, contenido en el artículo 1 del texto propuesto por la Comisión de Seguridad Ciudadana. 
+</Articulo>
+      <TramiteConstitucional Id="1">Primer Trámite</TramiteConstitucional>
+      <TramiteReglamentario Id="1">Primer Informe</TramiteReglamentario>
+    </VotacionProyectoLey>
+    <VotacionProyectoLey>
+      <Id>89156</Id>
+      <Descripcion>Boletín N°16857-07</Descripcion>
+      <Fecha>2026-06-16T13:17:27</Fecha>
+      <TotalSi>147</TotalSi>
+      <TotalNo>0</TotalNo>
+      <TotalAbstencion>0</TotalAbstencion>
+      <TotalDispensado>0</TotalDispensado>
+      <Quorum Valor="1">Quórum Simple</Quorum>
+      <Resultado Valor="1">Aprobado</Resultado>
+      <Tipo Valor="1">Proyecto de Ley</Tipo>
+      <TipoVotacionProyectoLey Valor="2">Particular</TipoVotacionProyectoLey>
+      <Articulo>Artículo 1 del proyecto, en los términos propuestos por la Comisión de Seguridad Ciudadana, que consta en las páginas 1 a 4 del comparado. 
+</Articulo>
+      <TramiteConstitucional Id="1">Primer Trámite</TramiteConstitucional>
+      <TramiteReglamentario Id="1">Primer Informe</TramiteReglamentario>
+    </VotacionProyectoLey>
+    <VotacionProyectoLey>
+      <Id>89155</Id>
+      <Descripcion>Boletín N°16857-07</Descripcion>
+      <Fecha>2026-06-16T13:16:06</Fecha>
+      <TotalSi>51</TotalSi>
+      <TotalNo>85</TotalNo>
+      <TotalAbstencion>11</TotalAbstencion>
+      <TotalDispensado>0</TotalDispensado>
+      <Quorum Valor="1">Quórum Simple</Quorum>
+      <Resultado Valor="2">Unánime</Resultado>
+      <Tipo Valor="1">Proyecto de Ley</Tipo>
+      <TipoVotacionProyectoLey Valor="2">Particular</TipoVotacionProyectoLey>
+      <Articulo>Artículo 1 del proyecto, en los términos propuestos por la Comisión de Seguridad Ciudadana, con la indicación sugerida por el diputado José Antonio Rivas. 
+</Articulo>
+      <TramiteConstitucional Id="1">Primer Trámite</TramiteConstitucional>
+      <TramiteReglamentario Id="1">Primer Informe</TramiteReglamentario>
+    </VotacionProyectoLey>
+    <VotacionProyectoLey>
+      <Id>89154</Id>
+      <Descripcion>Boletín N°16857-07</Descripcion>
+      <Fecha>2026-06-16T13:13:44</Fecha>
+      <TotalSi>50</TotalSi>
+      <TotalNo>85</TotalNo>
+      <TotalAbstencion>12</TotalAbstencion>
+      <TotalDispensado>0</TotalDispensado>
+      <Quorum Valor="1">Quórum Simple</Quorum>
+      <Resultado Valor="2">Unánime</Resultado>
+      <Tipo Valor="1">Proyecto de Ley</Tipo>
+      <TipoVotacionProyectoLey Valor="2">Particular</TipoVotacionProyectoLey>
+      <Articulo>Indicación de la diputada Urrutia y del diputado Salinas que reemplaza íntegramente los artículos 1 y 2 del proyecto.
+</Articulo>
+      <TramiteConstitucional Id="1">Primer Trámite</TramiteConstitucional>
+      <TramiteReglamentario Id="1">Primer Informe</TramiteReglamentario>
+    </VotacionProyectoLey>
+    <VotacionProyectoLey>
+      <Id>89153</Id>
+      <Descripcion>Boletín N°16857-07</Descripcion>
+      <Fecha>2026-06-16T13:07:09</Fecha>
+      <TotalSi>147</TotalSi>
+      <TotalNo>0</TotalNo>
+      <TotalAbstencion>0</TotalAbstencion>
+      <TotalDispensado>0</TotalDispensado>
+      <Quorum Valor="1">Quórum Simple</Quorum>
+      <Resultado Valor="1">Aprobado</Resultado>
+      <Tipo Valor="1">Proyecto de Ley</Tipo>
+      <TipoVotacionProyectoLey Valor="1">General</TipoVotacionProyectoLey>
+      <Articulo />
+      <TramiteConstitucional Id="1">Primer Trámite</TramiteConstitucional>
+      <TramiteReglamentario Id="1">Primer Informe</TramiteReglamentario>
+    </VotacionProyectoLey>
+  </Votaciones>
+  <Materias />
+  <Admisible>true</Admisible>
+</ProyectoLey>
