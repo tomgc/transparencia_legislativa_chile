@@ -38,7 +38,7 @@ ANIO_PROCESO <- 2026L
 # definida o vacia), el pipeline se detiene al inicio con mensaje claro
 # (00_run_all.R / con_cache), nunca a mitad de corrida. Se cambia MANUALMENTE en
 # cada refresh semanal (ver 50_documentacion/activa/procedimiento_actualizacion.md).
-CORTE_FECHA <- "2026-07-06"
+CORTE_FECHA <- "2026-07-10"
 
 # ---- Topes de extraccion --------------------------------------------------
 # VALORES DE PRODUCCION: anno COMPLETO (todos los detalles del anno de proceso).

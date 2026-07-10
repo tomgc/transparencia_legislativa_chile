@@ -15,20 +15,20 @@
   },
   "asistencia": {
     "anio": 2026,
-    "n_sesiones": 58,
+    "n_sesiones": 61,
     "n_asiste": 51,
-    "n_no_asiste": 7,
-    "tasa_asistencia": 0.879310344827586
+    "n_no_asiste": 10,
+    "tasa_asistencia": 0.836065573770492
   },
   "votaciones": {
     "anio": 2026,
-    "n_votaciones": 672,
+    "n_votaciones": 717,
     "resumen_por_sentido": {
       "en_contra": 178,
       "a_favor": 308,
       "abstencion": 38,
       "dispensado": 0,
-      "no_vota": 148
+      "no_vota": 193
     },
     "votos": [
       {
@@ -9189,14 +9189,628 @@
           "tipo_iniciativa": "Moción",
           "materias": []
         }
+      },
+      {
+        "votacion_id": "89296",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-07-07",
+        "resultado": "Rechazado",
+        "sentido": "no_vota",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89297",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-07-07",
+        "resultado": "Rechazado",
+        "sentido": "no_vota",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89298",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-07-07",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89299",
+        "boletin": null,
+        "tipo": "Proyecto de Acuerdo",
+        "fecha": "2026-07-07",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Proyecto de Acuerdo N° 19",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89300",
+        "boletin": null,
+        "tipo": "Proyecto de Resolución",
+        "fecha": "2026-07-07",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Proyecto de Resolución N° 20",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89301",
+        "boletin": null,
+        "tipo": "Proyecto de Resolución",
+        "fecha": "2026-07-07",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Proyecto de Resolución N° 21",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89302",
+        "boletin": "16743-04",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-07",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 16743-04",
+        "proyecto": {
+          "boletin": "16743-04",
+          "nombre": "Modifica diversos cuerpos legales, con el objeto de facilitar la creación de nuevos establecimientos educacionales",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89303",
+        "boletin": "16743-04",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-07",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 16743-04",
+        "proyecto": {
+          "boletin": "16743-04",
+          "nombre": "Modifica diversos cuerpos legales, con el objeto de facilitar la creación de nuevos establecimientos educacionales",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89304",
+        "boletin": "16743-04",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-07",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 16743-04",
+        "proyecto": {
+          "boletin": "16743-04",
+          "nombre": "Modifica diversos cuerpos legales, con el objeto de facilitar la creación de nuevos establecimientos educacionales",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89305",
+        "boletin": "16743-04",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-07",
+        "resultado": "Rechazado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 16743-04",
+        "proyecto": {
+          "boletin": "16743-04",
+          "nombre": "Modifica diversos cuerpos legales, con el objeto de facilitar la creación de nuevos establecimientos educacionales",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89306",
+        "boletin": "16743-04",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-07",
+        "resultado": "Rechazado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 16743-04",
+        "proyecto": {
+          "boletin": "16743-04",
+          "nombre": "Modifica diversos cuerpos legales, con el objeto de facilitar la creación de nuevos establecimientos educacionales",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89307",
+        "boletin": "16743-04",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-07",
+        "resultado": "Rechazado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 16743-04",
+        "proyecto": {
+          "boletin": "16743-04",
+          "nombre": "Modifica diversos cuerpos legales, con el objeto de facilitar la creación de nuevos establecimientos educacionales",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89308",
+        "boletin": "16743-04",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-07",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 16743-04",
+        "proyecto": {
+          "boletin": "16743-04",
+          "nombre": "Modifica diversos cuerpos legales, con el objeto de facilitar la creación de nuevos establecimientos educacionales",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89309",
+        "boletin": "16743-04",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-07",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 16743-04",
+        "proyecto": {
+          "boletin": "16743-04",
+          "nombre": "Modifica diversos cuerpos legales, con el objeto de facilitar la creación de nuevos establecimientos educacionales",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89310",
+        "boletin": "16743-04",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-07",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 16743-04",
+        "proyecto": {
+          "boletin": "16743-04",
+          "nombre": "Modifica diversos cuerpos legales, con el objeto de facilitar la creación de nuevos establecimientos educacionales",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89311",
+        "boletin": "16743-04",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-07",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 16743-04",
+        "proyecto": {
+          "boletin": "16743-04",
+          "nombre": "Modifica diversos cuerpos legales, con el objeto de facilitar la creación de nuevos establecimientos educacionales",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89312",
+        "boletin": "16743-04",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-07",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 16743-04",
+        "proyecto": {
+          "boletin": "16743-04",
+          "nombre": "Modifica diversos cuerpos legales, con el objeto de facilitar la creación de nuevos establecimientos educacionales",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89313",
+        "boletin": "14767-03",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-07",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 14767-03",
+        "proyecto": {
+          "boletin": "14767-03",
+          "nombre": "Modifica la ley N°17.336, sobre Propiedad Intelectual, con el objeto de regular las medidas tecnológicas de protección",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89314",
+        "boletin": "14767-03",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-07",
+        "resultado": "Rechazado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 14767-03",
+        "proyecto": {
+          "boletin": "14767-03",
+          "nombre": "Modifica la ley N°17.336, sobre Propiedad Intelectual, con el objeto de regular las medidas tecnológicas de protección",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89315",
+        "boletin": "14767-03",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-07",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 14767-03",
+        "proyecto": {
+          "boletin": "14767-03",
+          "nombre": "Modifica la ley N°17.336, sobre Propiedad Intelectual, con el objeto de regular las medidas tecnológicas de protección",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89316",
+        "boletin": "14767-03",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-07",
+        "resultado": "Rechazado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 14767-03",
+        "proyecto": {
+          "boletin": "14767-03",
+          "nombre": "Modifica la ley N°17.336, sobre Propiedad Intelectual, con el objeto de regular las medidas tecnológicas de protección",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89317",
+        "boletin": "14767-03",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-07",
+        "resultado": "Rechazado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 14767-03",
+        "proyecto": {
+          "boletin": "14767-03",
+          "nombre": "Modifica la ley N°17.336, sobre Propiedad Intelectual, con el objeto de regular las medidas tecnológicas de protección",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89318",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-07-07",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89333",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-07-08",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89337",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-07-08",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89338",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-07-08",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89339",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-07-08",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89341",
+        "boletin": null,
+        "tipo": "Proyecto de Acuerdo",
+        "fecha": "2026-07-08",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Proyecto de Acuerdo N° 20",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89342",
+        "boletin": null,
+        "tipo": "Proyecto de Resolución",
+        "fecha": "2026-07-08",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Proyecto de Resolución N° 22",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89343",
+        "boletin": null,
+        "tipo": "Proyecto de Resolución",
+        "fecha": "2026-07-08",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Proyecto de Resolución N° 23",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89344",
+        "boletin": "18384-08",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-08",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18384-08",
+        "proyecto": {
+          "boletin": "18384-08",
+          "nombre": "Ley de protección tarifaria eléctrica",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89345",
+        "boletin": "18384-08",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-08",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18384-08",
+        "proyecto": {
+          "boletin": "18384-08",
+          "nombre": "Ley de protección tarifaria eléctrica",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89346",
+        "boletin": "18384-08",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-08",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18384-08",
+        "proyecto": {
+          "boletin": "18384-08",
+          "nombre": "Ley de protección tarifaria eléctrica",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89347",
+        "boletin": "18384-08",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-08",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18384-08",
+        "proyecto": {
+          "boletin": "18384-08",
+          "nombre": "Ley de protección tarifaria eléctrica",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89348",
+        "boletin": "18384-08",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-08",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18384-08",
+        "proyecto": {
+          "boletin": "18384-08",
+          "nombre": "Ley de protección tarifaria eléctrica",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89349",
+        "boletin": "18384-08",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-08",
+        "resultado": "Rechazado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18384-08",
+        "proyecto": {
+          "boletin": "18384-08",
+          "nombre": "Ley de protección tarifaria eléctrica",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89350",
+        "boletin": "18384-08",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-08",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18384-08",
+        "proyecto": {
+          "boletin": "18384-08",
+          "nombre": "Ley de protección tarifaria eléctrica",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89351",
+        "boletin": "18384-08",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-08",
+        "resultado": "Rechazado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18384-08",
+        "proyecto": {
+          "boletin": "18384-08",
+          "nombre": "Ley de protección tarifaria eléctrica",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89352",
+        "boletin": "18384-08",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-08",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18384-08",
+        "proyecto": {
+          "boletin": "18384-08",
+          "nombre": "Ley de protección tarifaria eléctrica",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89353",
+        "boletin": "18384-08",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-08",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18384-08",
+        "proyecto": {
+          "boletin": "18384-08",
+          "nombre": "Ley de protección tarifaria eléctrica",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89354",
+        "boletin": "18384-08",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-08",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18384-08",
+        "proyecto": {
+          "boletin": "18384-08",
+          "nombre": "Ley de protección tarifaria eléctrica",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89355",
+        "boletin": "18384-08",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-08",
+        "resultado": "Rechazado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18384-08",
+        "proyecto": {
+          "boletin": "18384-08",
+          "nombre": "Ley de protección tarifaria eléctrica",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89356",
+        "boletin": "18384-08",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-08",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18384-08",
+        "proyecto": {
+          "boletin": "18384-08",
+          "nombre": "Ley de protección tarifaria eléctrica",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89357",
+        "boletin": "18384-08",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-08",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18384-08",
+        "proyecto": {
+          "boletin": "18384-08",
+          "nombre": "Ley de protección tarifaria eléctrica",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89358",
+        "boletin": "18384-08",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-08",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18384-08",
+        "proyecto": {
+          "boletin": "18384-08",
+          "nombre": "Ley de protección tarifaria eléctrica",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       }
     ]
   },
   "proyectos": {
     "anio": 2026,
-    "n_proyectos": 15,
+    "n_proyectos": 16,
     "estado_tramitacion_disponible": false,
     "proyectos": [
+      {
+        "boletin": "18433-04",
+        "nombre": "Modifica diversos cuerpos legales para promover la ciudadanía digital y establecer medidas de prevención y protección frente al daño digital en el sistema escolar",
+        "fecha_ingreso": "2026-06-25",
+        "admisible": "true",
+        "rol": "firmante",
+        "tipo_iniciativa": "Moción",
+        "materias": []
+      },
       {
         "boletin": "18411-11",
         "nombre": "Modifica la ley N° 19.451, que establece normas sobre trasplante y donación de órganos, para impedir la discriminación en el acceso a esta prestación médica respecto de personas adoptadas, con filiación desconocida o sin vínculos familiares biológicos (Ley Thiare)",
@@ -9338,6 +9952,6 @@
     "fuente": "opendata.camara.cl",
     "periodo": "2026-2030",
     "anio_proceso": 2026,
-    "generado": "2026-07-09T14:48:53"
+    "generado": "2026-07-10T16:14:02"
   }
 }
