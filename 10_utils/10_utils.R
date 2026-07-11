@@ -43,11 +43,84 @@ obtener_raiz_proyecto <- function() {
 # Garantiza que un artefacto que alimenta otros procesos nunca queda
 # parcialmente escrito (POLITICA 5.2.4). Generico para cualquier escritor
 # que reciba (objeto, ruta_destino).
-escribir_atomico <- function(objeto, ruta, escritor) {
+# SELLO DE PROCEDENCIA (fix sesion 8): si se pasa `hash_origen`, el objeto se
+# sella (ver sellar()) antes de escribirse, de modo que el .rds lleva embebido
+# el corte al que pertenece. Sin `hash_origen` (default NULL) el comportamiento
+# es identico al anterior: por eso la llamada del 39 que escribe TEXTO json NO
+# se rompe (no pasa hash_origen -> no se sella el texto).
+escribir_atomico <- function(objeto, ruta, escritor, hash_origen = NULL) {
+  if (!is.null(hash_origen)) objeto <- sellar(objeto, hash_origen)
   ruta_temp <- paste0(ruta, ".tmp")
   escritor(objeto, ruta_temp)
   fs::file_move(ruta_temp, ruta)
   invisible(ruta)
+}
+
+# ---- Sello de procedencia de un intermedio (fix sesion 8) -------------------
+# El bug (traspaso v07 §6, Bug 1): los intermedios .rds estan gitignored y no
+# declaran a que corte pertenecen, asi que un .rds residuo de otra corrida puede
+# consumirse en silencio (39 republica mal). El sello viaja como atributo dentro
+# del propio .rds (no requiere archivo lateral). Depende de CORTE_FECHA y
+# ANIO_PROCESO (globales de config, disponibles al escribir).
+sellar <- function(objeto, hash_origen) {
+  if (!exists("CORTE_FECHA", inherits = TRUE) || is.null(CORTE_FECHA) ||
+      !nzchar(trimws(as.character(CORTE_FECHA))))
+    stop("sellar: CORTE_FECHA no esta fijada; no se puede sellar la procedencia.",
+         call. = FALSE)
+  attr(objeto, "sello") <- list(
+    corte_fecha  = trimws(as.character(CORTE_FECHA)),
+    anio_proceso = as.character(if (exists("ANIO_PROCESO", inherits = TRUE)) ANIO_PROCESO else NA),
+    hash_origen  = hash_origen,
+    escrito_en   = format(Sys.time(), "%Y-%m-%dT%H:%M:%S")
+  )
+  objeto
+}
+
+# Hash (md5) de uno o mas archivos de cache crudo que alimentaron un intermedio.
+# Devuelve un vector nombrado (basename -> md5); NA si el archivo no existe.
+hash_origen_de <- function(rutas) {
+  rutas <- as.character(rutas)
+  h <- vapply(rutas, function(r)
+    if (file.exists(r)) unname(tools::md5sum(r)) else NA_character_, character(1))
+  stats::setNames(h, basename(rutas))
+}
+
+# Lee un intermedio .rds y exige que traiga sello. stop() diagnostico si falta.
+leer_sellado <- function(ruta) {
+  if (!file.exists(ruta))
+    stop(sprintf("leer_sellado: no existe el intermedio '%s'.", ruta), call. = FALSE)
+  obj <- readRDS(ruta)
+  sello <- attr(obj, "sello")
+  if (is.null(sello))
+    stop(sprintf(paste0("leer_sellado: '%s' NO trae sello de procedencia. Fue escrito ",
+                        "por una version previa del pipeline o esta adulterado. ",
+                        "Regenera los pasos 32-36."), basename(ruta)), call. = FALSE)
+  list(objeto = obj, sello = sello)
+}
+
+# Valida una lista nombrada de sellos contra el corte vigente. stop() diagnostico
+# si algun intermedio: (a) no declara corte, (b) declara un corte != CORTE_FECHA,
+# o (c) declara un corte distinto al de sus hermanos.
+validar_corte <- function(sellos, corte) {
+  corte <- trimws(as.character(corte))
+  for (nm in names(sellos)) {
+    cd <- sellos[[nm]]$corte_fecha
+    if (is.null(cd) || is.na(cd) || !nzchar(trimws(as.character(cd))))
+      stop(sprintf(paste0("validar_corte: '%s' no declara corte_fecha en su sello. ",
+                          "Regenera los pasos 32-36."), nm), call. = FALSE)
+    if (!identical(trimws(as.character(cd)), corte))
+      stop(sprintf(paste0("validar_corte: '%s' declara corte %s, pero el corte vigente ",
+                          "(CORTE_FECHA) es %s. El intermedio NO corresponde al corte ",
+                          "publicado; regenera los pasos 32-36 con CORTE_FECHA=%s."),
+                   nm, cd, corte, corte), call. = FALSE)
+  }
+  cortes <- vapply(sellos, function(s) trimws(as.character(s$corte_fecha)), character(1))
+  if (length(unique(cortes)) > 1)
+    stop(sprintf(paste0("validar_corte: intermedios con cortes distintos entre si (%s). ",
+                        "Regenera los pasos 32-36."),
+                 paste(sprintf("%s=%s", names(sellos), cortes), collapse = "; ")),
+         call. = FALSE)
+  invisible(TRUE)
 }
 
 # ---- Cliente HTTP para la API de la Camara ----------------------------------
@@ -144,10 +217,16 @@ corte_para_clave <- function() {
 # explicito para que el refresh sea reproducible entre dias, sin drift.
 # Depende de ruta_insumos(), REFRESCAR_API y CORTE_FECHA (de 10_configuracion.R,
 # disponibles en tiempo de ejecucion, ya que config se carga antes de extraer).
+# Ruta del cache crudo para (nombre_cache, tope) al corte vigente. Un solo lugar
+# construye la clave, reusado por con_cache (para leer/escribir) y por los 3x
+# (para hashear su procedencia con hash_origen_de).
+ruta_cache <- function(nombre_cache, tope = NULL) {
+  ruta_insumos("camara",
+               sprintf("%s_%s%s.rds", corte_para_clave(), nombre_cache, sufijo_tope(tope)))
+}
+
 con_cache <- function(nombre_cache, fn_descarga, tope = NULL, origen = "cache") {
-  ruta <- ruta_insumos("camara",
-                       sprintf("%s_%s%s.rds", corte_para_clave(),
-                               nombre_cache, sufijo_tope(tope)))
+  ruta <- ruta_cache(nombre_cache, tope)
   refrescar <- isTRUE(getOption("camara.refrescar", REFRESCAR_API))
   if (file.exists(ruta) && !refrescar) {
     log_msg(sprintf("cache hit: %s", basename(ruta)), origen = origen)
