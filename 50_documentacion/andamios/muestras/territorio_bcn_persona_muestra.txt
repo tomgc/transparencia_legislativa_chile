@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.1//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-2.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"  xmlns:bcnbills="http://datos.bcn.cl/ontologies/bcn-bills#"  xmlns:bcnses="http://datos.bcn.cl/ontologies/bcn-sessiondaily#"  xmlns:bcncon="http://datos.bcn.cl/ontologies/bcn-congress#"  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"  xmlns:bio="http://purl.org/vocab/bio/0.1/"  xmlns:dbpedia-owl="http://dbpedia.org/ontology/"  xmlns:bcnbio="http://datos.bcn.cl/ontologies/bcn-biographies#"  xmlns:dc="http://purl.org/dc/elements/1.1/"  xmlns:dct="http://purl.org/dc/terms/"  xmlns:wikidata-prop="https://www.wikidata.org/wiki/Property:"  xmlns:frbr="http://purl.org/vocab/frbr/core#"  xmlns:skos="http://www.w3.org/2004/02/skos/core#"  xmlns:org="http://www.w3.org/ns/org#"  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"  xmlns:bcnnorms="http://datos.bcn.cl/ontologies/bcn-norms#"  xmlns:dbpedia="http://dbpedia.org/resource/"  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"  xmlns:bcngeo="http://datos.bcn.cl/ontologies/bcn-geographics#"  xmlns:gn="http://www.geonames.org/ontology#"  xmlns:time="http://www.w3.org/2006/time#"  xmlns:bcnres="http://datos.bcn.cl/ontologies/bcn-resources#"  xmlns:owl="http://www.w3.org/2002/07/owl#"  xmlns:dcat="http://www.w3.org/ns/dcat#"  xmlns:foaf="http://xmlns.com/foaf/0.1/"  version="XHTML+RDFa 1.1" > 
+<head>
+
+<title> Resource in HTML + RDFa </title>
+<link rel="foaf:primarytopic" href="https://datos.bcn.cl/recurso/persona/1058"/>
+<link rel="stylesheet" type="text/css" href="https://datos.bcn.cl/recurso/css/rdfa.css" />
+<meta http-equiv="Content-Style-Type" content="text/css" /> 
+<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+<script type="text/javascript">
+<![CDATA[
+
+function loadTriples(resource,div){
+	
+	  var url = "resource="+resource;
+    
+  if(xmlhttp) {
+      
+    xmlhttp.open("GET","https://datos.bcn.cl/recurso/RDFaAjaxPart?"+url ,true); //gettime will be the servlet name
+    xmlhttp.onreadystatechange  = handleServerResponse(div);
+    xmlhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+    xmlhttp.send(null);
+  }
+	
+}
+
+
+
+
+function getXMLObject()  //XML OBJECT
+{
+   var xmlHttp = false;
+   try {
+     xmlHttp = new ActiveXObject("Msxml2.XMLHTTP")  // For Old Microsoft Browsers
+   }
+   catch (e) {
+     try {
+       xmlHttp = new ActiveXObject("Microsoft.XMLHTTP")  // For Microsoft IE 6.0+
+     }
+     catch (e2) {
+       xmlHttp = false   // No Browser accepts the XMLHTTP Object then false
+     }
+   }
+   if (!xmlHttp && typeof XMLHttpRequest != 'undefined') {
+     xmlHttp = new XMLHttpRequest();        //For Mozilla, Opera Browsers
+   }
+   return xmlHttp;  // Mandatory Statement returning the ajax object created
+}
+ 
+var xmlhttp = new getXMLObject();   //xmlhttp holds the ajax object
+
+
+
+
+function handleServerResponse(div) {
+       if (xmlhttp.readyState == 4) {
+         if(xmlhttp.status == 200) {
+           document.getElementById(div).innerHTML=xmlhttp.responseText; //Update the HTML Form element 
+         }
+         else {
+            alert("Error during AJAX call. Please try again");
+         }
+       }
+    }
+]]>
+</script>
+<link rel="alternate" type="text/rdf+n3" href="https://datos.bcn.cl/recurso/persona/1058/datos.n3" title="Structured Descriptor Document (n3 format)" /><link rel="alternate" type="application/rdf+xml" href="https://datos.bcn.cl/recurso/persona/1058/datos.rdf" title="Structured Descriptor Document (rdf format)" /><link rel="alternate" type="text/csv" href="https://datos.bcn.cl/recurso/persona/1058/datos.csv" title="Structured Descriptor Document (csv format)" /><link rel="alternate" type="application/rdf+json" href="https://datos.bcn.cl/recurso/persona/1058/datos.json" title="Structured Descriptor Document (json format)" /><link rel="alternate" type="application/xhtml+xml" href="https://datos.bcn.cl/recurso/persona/1058/datos.html" title="Structured Descriptor Document (html format)" /><link rel="alternate" type="text/plain" href="https://datos.bcn.cl/recurso/persona/1058/datos.ntriples" title="Structured Descriptor Document (ntriples format)" /> 
+</head>
+<body>
+
+<div class="rdfa-content"><div id="banner"><img alt="logo" src="https://datos.bcn.cl/img/logo.png" /></div><div class="entity"><ul> <li class="level--139" >
+<a href="https://datos.bcn.cl/recurso/persona/1058" > http://datos.bcn.cl/recurso/persona/1058</a>
+<ul>
+<li class="level--138" > <a href="http://xmlns.com/foaf/0.1/name"  > foaf:name</a> = <span class="value">"Domingo Echavarrieta"<span class="class-type">^^xsd:string</span></span> 
+</li>
+<li class="level--138" > <a href="https://www.wikidata.org/wiki/Property:P856"  > wikidata-prop:P856</a> = <a class="resource" href="http://historiapolitica.bcn.cl/resenas_parlamentarias/wiki/Domingo_Echavarrieta" > http://historiapolitica.bcn.cl/resenas_parlamentarias/wiki/Domingo_Echavarrieta</a> 
+</li>
+<li class="level--138" > <a href="https://www.wikidata.org/wiki/Property:P21"  > wikidata-prop:P21</a> = <span class="value">"hombre"<span class="class-type">^^xsd:string</span></span> 
+</li>
+<li class="level--138" > <a href="http://xmlns.com/foaf/0.1/givenName"  > foaf:givenName</a> = <span class="value">"Domingo"<span class="class-type">^^xsd:string</span></span> 
+</li>
+<li class="level--138" > <a href="https://datos.bcn.cl/ontologies/bcn-biographies#surnameOfFather"  > bcnbio:surnameOfFather</a> = <span class="value">"Echavarrieta"<span class="class-type">^^xsd:string</span></span> 
+</li>
+<li class="level--138" > <a href="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"  > foaf:isPrimaryTopicOf</a> = <a class="resource" href="http://historiapolitica.bcn.cl/resenas_parlamentarias/wiki/Domingo_Echavarrieta" > http://historiapolitica.bcn.cl/resenas_parlamentarias/wiki/Domingo_Echavarrieta</a> 
+</li>
+<li class="level--138" > <a href="https://datos.bcn.cl/ontologies/bcn-biographies#hasParliamentaryAppointment"  > bcnbio:hasParliamentaryAppointment</a> = <a class="resource" href="https://datos.bcn.cl/recurso/persona/1058/cargo/5654" > http://datos.bcn.cl/recurso/persona/1058/cargo/5654</a> 
+</li>
+<li class="level--138" > <a href="https://datos.bcn.cl/ontologies/bcn-biographies#hasParliamentaryAppointment"  > bcnbio:hasParliamentaryAppointment</a> = <a class="resource" href="https://datos.bcn.cl/recurso/persona/1058/cargo/100913" > http://datos.bcn.cl/recurso/persona/1058/cargo/100913</a> 
+</li>
+<li class="level--138" > <a href="http://xmlns.com/foaf/0.1/gender"  > foaf:gender</a> = <span class="value">"hombre"<span class="class-type">^^xsd:string</span></span> 
+</li>
+<li class="level--138" > <a href="http://xmlns.com/foaf/0.1/img"  > foaf:img</a> = <a class="resource" href="https://www.bcn.cl/laborparlamentaria/imagen/1058.jpg" > https://www.bcn.cl/laborparlamentaria/imagen/1058.jpg</a> 
+</li>
+<li class="level--138" > <a href="http://xmlns.com/foaf/0.1/depiction"  > foaf:depiction</a> = <a class="resource" href="https://www.bcn.cl/laborparlamentaria/imagen/1058.jpg" > https://www.bcn.cl/laborparlamentaria/imagen/1058.jpg</a> 
+</li>
+<li class="level--138" > <a href="http://xmlns.com/foaf/0.1/thumbnail"  > foaf:thumbnail</a> = <a class="resource" href="https://www.bcn.cl/laborparlamentaria/imagen/110x110/1058.jpg" > https://www.bcn.cl/laborparlamentaria/imagen/110x110/1058.jpg</a> 
+</li>
+<li class="level--138" > <a href="http://purl.org/dc/elements/1.1/identifier"  > dc:identifier</a> = <span class="value">"1058"<span class="class-type">^^xsd:integer</span></span> 
+</li>
+<li class="level--138" > <a href="https://datos.bcn.cl/ontologies/bcn-biographies#bcnPage"  > bcnbio:bcnPage</a> = <a class="resource" href="https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Domingo_Echavarrieta" > https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Domingo_Echavarrieta</a> 
+</li>
+<li class="level--138" > <a href="http://www.w3.org/2000/01/rdf-schema#label"  > rdfs:label</a> = <span class="value">"Domingo Echavarrieta"<span class="class-type">^^xsd:string</span></span> 
+</li>
+<li class="level--138" > <a href="https://datos.bcn.cl/ontologies/bcn-biographies#nationality"  > bcnbio:nationality</a> = <a class="resource" href="https://datos.bcn.cl/recurso/pais/chile" > http://datos.bcn.cl/recurso/pais/chile</a> 
+</li>
+<li class="level--138" > <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"  > rdf:type</a> = <a class="resource" href="http://purl.org/vocab/frbr/core#ResponsibleEntity" > frbr:ResponsibleEntity</a> 
+</li>
+<li class="level--138" > <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"  > rdf:type</a> = <a class="resource" href="http://xmlns.com/foaf/0.1/Person" > foaf:Person</a> 
+</li>
+<li class="level--138" > <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"  > rdf:type</a> = <a class="resource" href="https://www.wikidata.org/wiki/Q5" > https://www.wikidata.org/wiki/Q5</a> 
+</li>
+<li class="level--138" > <a href="https://datos.bcn.cl/ontologies/bcn-biographies#hasPositionPeriod"  > bcnbio:hasPositionPeriod</a> = <a class="resource" href="https://datos.bcn.cl/recurso/persona/1058/cargo/5654" > http://datos.bcn.cl/recurso/persona/1058/cargo/5654</a> 
+</li>
+<li class="level--138" > <a href="https://datos.bcn.cl/ontologies/bcn-biographies#hasPositionPeriod"  > bcnbio:hasPositionPeriod</a> = <a class="resource" href="https://datos.bcn.cl/recurso/persona/1058/cargo/100913" > http://datos.bcn.cl/recurso/persona/1058/cargo/100913</a> 
+</li>
+<li class="level--138" > <a href="http://www.w3.org/2004/02/skos/core#prefLabel"  > skos:prefLabel</a> = <span class="value">"Domingo Echavarrieta "<span class="class-type">^^xsd:string</span></span> 
+</li>
+</ul>
+</li>
+</ul> 
+</div></div><div xmlns="http://www.w3.org/1999/xhtml"  about="http://datos.bcn.cl/recurso/persona/1058">
+<div property="foaf:name" content="Domingo Echavarrieta" datatype="xsd:string" />
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml"  about="http://datos.bcn.cl/recurso/persona/1058">
+<div rel="rdf:type" resource="http://purl.org/vocab/frbr/core#ResponsibleEntity" />
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml"  about="http://datos.bcn.cl/recurso/persona/1058">
+<div property="rdfs:label" content="Domingo Echavarrieta" datatype="xsd:string" />
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml"  about="http://datos.bcn.cl/recurso/persona/1058">
+<div rel="rdf:type" resource="http://xmlns.com/foaf/0.1/Person" />
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml"  about="http://datos.bcn.cl/recurso/persona/1058">
+<div rel="foaf:isPrimaryTopicOf" resource="http://historiapolitica.bcn.cl/resenas_parlamentarias/wiki/Domingo_Echavarrieta" />
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml"  about="http://datos.bcn.cl/recurso/persona/1058">
+<div rel="wikidata-prop:P856" resource="http://historiapolitica.bcn.cl/resenas_parlamentarias/wiki/Domingo_Echavarrieta" />
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml"  about="http://datos.bcn.cl/recurso/persona/1058">
+<div rel="foaf:img" resource="https://www.bcn.cl/laborparlamentaria/imagen/1058.jpg" />
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml"  about="http://datos.bcn.cl/recurso/persona/1058">
+<div rel="bcnbio:nationality" resource="http://datos.bcn.cl/recurso/pais/chile" />
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml"  about="http://datos.bcn.cl/recurso/persona/1058">
+<div rel="rdf:type" resource="https://www.wikidata.org/wiki/Q5" />
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml"  about="http://datos.bcn.cl/recurso/persona/1058">
+<div rel="bcnbio:hasParliamentaryAppointment" resource="http://datos.bcn.cl/recurso/persona/1058/cargo/5654" />
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml"  about="http://datos.bcn.cl/recurso/persona/1058">
+<div rel="foaf:depiction" resource="https://www.bcn.cl/laborparlamentaria/imagen/1058.jpg" />
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml"  about="http://datos.bcn.cl/recurso/persona/1058">
+<div rel="foaf:thumbnail" resource="https://www.bcn.cl/laborparlamentaria/imagen/110x110/1058.jpg" />
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml"  about="http://datos.bcn.cl/recurso/persona/1058">
+<div property="wikidata-prop:P21" content="hombre" datatype="xsd:string" />
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml"  about="http://datos.bcn.cl/recurso/persona/1058">
+<div property="foaf:givenName" content="Domingo" datatype="xsd:string" />
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml"  about="http://datos.bcn.cl/recurso/persona/1058">
+<div rel="bcnbio:hasParliamentaryAppointment" resource="http://datos.bcn.cl/recurso/persona/1058/cargo/100913" />
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml"  about="http://datos.bcn.cl/recurso/persona/1058">
+<div rel="bcnbio:hasPositionPeriod" resource="http://datos.bcn.cl/recurso/persona/1058/cargo/5654" />
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml"  about="http://datos.bcn.cl/recurso/persona/1058">
+<div property="dc:identifier" content="1058" datatype="xsd:integer" />
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml"  about="http://datos.bcn.cl/recurso/persona/1058">
+<div property="skos:prefLabel" content="Domingo Echavarrieta " datatype="xsd:string" />
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml"  about="http://datos.bcn.cl/recurso/persona/1058">
+<div rel="bcnbio:hasPositionPeriod" resource="http://datos.bcn.cl/recurso/persona/1058/cargo/100913" />
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml"  about="http://datos.bcn.cl/recurso/persona/1058">
+<div rel="bcnbio:bcnPage" resource="https://www.bcn.cl/historiapolitica/resenas_parlamentarias/wiki/Domingo_Echavarrieta" />
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml"  about="http://datos.bcn.cl/recurso/persona/1058">
+<div property="foaf:gender" content="hombre" datatype="xsd:string" />
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml"  about="http://datos.bcn.cl/recurso/persona/1058">
+<div property="bcnbio:surnameOfFather" content="Echavarrieta" datatype="xsd:string" />
+</div>
+
+<div class="otherRepresentations">
+<p>Other representations</p>
+<ul>
+    <li><a href="https://datos.bcn.cl/recurso/persona/1058/datos.n3" title="Structured Descriptor Document (Notation 3 format)" >Notation 3</a></li><li><a href="https://datos.bcn.cl/recurso/persona/1058/datos.rdf" title="Structured Descriptor Document (RDF/XML format)" >RDF/XML</a></li><li><a href="https://datos.bcn.cl/recurso/persona/1058/datos.csv" title="Structured Descriptor Document (CSV format)" >CSV</a></li><li><a href="https://datos.bcn.cl/recurso/persona/1058/datos.json" title="Structured Descriptor Document (JSON format)" >JSON</a></li><li><a href="https://datos.bcn.cl/recurso/persona/1058/datos.html" title="Structured Descriptor Document (HTML+RDFa format)" >HTML+RDFa</a></li><li><a href="https://datos.bcn.cl/recurso/persona/1058/datos.ntriples" title="Structured Descriptor Document (N Triples format)" >N Triples</a></li> 
+</ul> 
+</div>
+<div class="footLogos">
+   <a href="https://datos.bcn.cl/sparql">
+		<img alt="W3C Semantic Web Technology" src="https://datos.bcn.cl/recurso/images/sw-sparql-blue.png"/>
+   </a> 
+   <a href="http://www.opendefinition.org/">
+        <img alt="This material is Open Knowledge" src="https://datos.bcn.cl/recurso/images/od_80x15_red_green.png"/>
+   </a>
+   <a resource="http://www.w3.org/TR/rdfa-syntax"
+        rel="dc:conformsTo" xmlns:dc="http://purl.org/dc/terms/"
+        href="http://validator.w3.org/check?uri=referer">
+        <img  src="https://datos.bcn.cl/recurso/images/valid-xhtml-rdfa.png" alt="Valid XHTML + RDFa" />
+   </a>
+   <a href="http://jigsaw.w3.org/css-validator/check/referer"> 
+    <img src="https://datos.bcn.cl/recurso/images/css.png" alt="Valid CSS!" /> 
+   </a> 
+   <a href="http://www.weso.es"> 
+    <img src="https://datos.bcn.cl/recurso/images/weso.png" alt="WESO Research Group" /> 
+   </a> 
+   
+</div>
+</body>
+</html>
