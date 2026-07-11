@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TiposAsistenciaColeccion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://opendata.camara.cl/camaradiputados/v1">
+  <TipoAsistencia Valor="0">No Asiste</TipoAsistencia>
+  <TipoAsistencia Valor="1">Asiste</TipoAsistencia>
+  <TipoAsistencia Valor="2">Justificado</TipoAsistencia>
+</TiposAsistenciaColeccion>

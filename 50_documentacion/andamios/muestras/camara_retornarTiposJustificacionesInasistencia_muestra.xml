@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<JustificacionInasistenciasColeccion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://opendata.camara.cl/camaradiputados/v1">
+  <JustificacionInasistencia Valor="10">
+    <Nombre>Misión oficial con Permiso Constitucional (Art. 37)</Nombre>
+    <RebajaAsistencia>true</RebajaAsistencia>
+    <RebajaQuorum>true</RebajaQuorum>
+  </JustificacionInasistencia>
+  <JustificacionInasistencia Valor="11">
+    <Nombre>Misión oficial dentro del país</Nombre>
+    <RebajaAsistencia>true</RebajaAsistencia>
+    <RebajaQuorum>false</RebajaQuorum>
+  </JustificacionInasistencia>
+  <JustificacionInasistencia Valor="12">
+    <Nombre>Misión oficial con aviso de salida del país (Art. 37)</Nombre>
+    <RebajaAsistencia>true</RebajaAsistencia>
+    <RebajaQuorum>false</RebajaQuorum>
+  </JustificacionInasistencia>
+  <JustificacionInasistencia Valor="13">
+    <Nombre>Actividad propia de la labor parlamentaria (Art. 42)</Nombre>
+    <RebajaAsistencia>false</RebajaAsistencia>
+    <RebajaQuorum>false</RebajaQuorum>
+  </JustificacionInasistencia>
+  <JustificacionInasistencia Valor="14">
+    <Nombre>Actividad oficial con el Presidente de la República (Art. 9)</Nombre>
+    <RebajaAsistencia>false</RebajaAsistencia>
+    <RebajaQuorum>false</RebajaQuorum>
+  </JustificacionInasistencia>
+  <JustificacionInasistencia Valor="15">
+    <Nombre>Salida del país con aviso (Art. 34)</Nombre>
+    <RebajaAsistencia>false</RebajaAsistencia>
+    <RebajaQuorum>false</RebajaQuorum>
+  </JustificacionInasistencia>
+  <JustificacionInasistencia Valor="16">
+    <Nombre>Desafuero (Art. 40)</Nombre>
+    <RebajaAsistencia>false</RebajaAsistencia>
+    <RebajaQuorum>true</RebajaQuorum>
+  </JustificacionInasistencia>
+  <JustificacionInasistencia Valor="17">
+    <Nombre>Gestión encomendada por la Corporación (Art. 42)</Nombre>
+    <RebajaAsistencia>true</RebajaAsistencia>
+    <RebajaQuorum>false</RebajaQuorum>
+  </JustificacionInasistencia>
+  <JustificacionInasistencia Valor="18">
+    <Nombre>Impedimento grave (Art. 42)</Nombre>
+    <RebajaAsistencia>true</RebajaAsistencia>
+    <RebajaQuorum>false</RebajaQuorum>
+  </JustificacionInasistencia>
+  <JustificacionInasistencia Valor="19">
+    <Nombre>Licencia médica (Art. 42)</Nombre>
+    <RebajaAsistencia>true</RebajaAsistencia>
+    <RebajaQuorum>false</RebajaQuorum>
+  </JustificacionInasistencia>
+  <JustificacionInasistencia Valor="21">
+    <Nombre>Permiso por motivos particulares sin goce de Dieta (Art. 42)</Nombre>
+    <RebajaAsistencia>false</RebajaAsistencia>
+    <RebajaQuorum>false</RebajaQuorum>
+  </JustificacionInasistencia>
+  <JustificacionInasistencia Valor="22">
+    <Nombre>Permiso Constitucional (Art. 60 CPR + 30 días)</Nombre>
+    <RebajaAsistencia>false</RebajaAsistencia>
+    <RebajaQuorum>true</RebajaQuorum>
+  </JustificacionInasistencia>
+  <JustificacionInasistencia Valor="29">
+    <Nombre>Permiso Parental (Art. 195 Cód. del Trabajo)</Nombre>
+    <RebajaAsistencia>true</RebajaAsistencia>
+    <RebajaQuorum>false</RebajaQuorum>
+  </JustificacionInasistencia>
+  <JustificacionInasistencia Valor="30">
+    <Nombre>Fallecimiento hijo en gestación o padres</Nombre>
+    <RebajaAsistencia>true</RebajaAsistencia>
+    <RebajaQuorum>false</RebajaQuorum>
+  </JustificacionInasistencia>
+  <JustificacionInasistencia Valor="31">
+    <Nombre>Condición de riesgo (COVID 19)</Nombre>
+    <RebajaAsistencia>true</RebajaAsistencia>
+    <RebajaQuorum>false</RebajaQuorum>
+  </JustificacionInasistencia>
+  <JustificacionInasistencia Valor="23">
+    <Nombre>Acuerdo de Comités Parlamentarios</Nombre>
+    <RebajaAsistencia>false</RebajaAsistencia>
+    <RebajaQuorum>false</RebajaQuorum>
+  </JustificacionInasistencia>
+  <JustificacionInasistencia Valor="25">
+    <Nombre>Permiso especial Comités Parlamentarios</Nombre>
+    <RebajaAsistencia>true</RebajaAsistencia>
+    <RebajaQuorum>false</RebajaQuorum>
+  </JustificacionInasistencia>
+  <JustificacionInasistencia Valor="26">
+    <Nombre>Permiso prenatal (art. 195 Cód. del Trabajo)</Nombre>
+    <RebajaAsistencia>true</RebajaAsistencia>
+    <RebajaQuorum>false</RebajaQuorum>
+  </JustificacionInasistencia>
+  <JustificacionInasistencia Valor="24">
+    <Nombre>Permiso por contraer matrimonio (Art. 207 bis Cód. del Trabajo)</Nombre>
+    <RebajaAsistencia>false</RebajaAsistencia>
+    <RebajaQuorum>false</RebajaQuorum>
+  </JustificacionInasistencia>
+  <JustificacionInasistencia Valor="27">
+    <Nombre>Permiso postnatal (art. 195 Cód. del Trabajo)</Nombre>
+    <RebajaAsistencia>true</RebajaAsistencia>
+    <RebajaQuorum>false</RebajaQuorum>
+  </JustificacionInasistencia>
+  <JustificacionInasistencia Valor="28">
+    <Nombre>Permiso postnatal parental (art. 197 bis Cód. del Trabajo)</Nombre>
+    <RebajaAsistencia>true</RebajaAsistencia>
+    <RebajaQuorum>false</RebajaQuorum>
+  </JustificacionInasistencia>
+  <JustificacionInasistencia Valor="33">
+    <Nombre>Ausencia por toma de muestra (reglamento control consumo de drogas)</Nombre>
+    <RebajaAsistencia>true</RebajaAsistencia>
+    <RebajaQuorum>false</RebajaQuorum>
+  </JustificacionInasistencia>
+</JustificacionInasistenciasColeccion>

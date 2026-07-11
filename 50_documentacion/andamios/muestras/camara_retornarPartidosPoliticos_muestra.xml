@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PartidosPoliticosColeccion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://opendata.camara.cl/camaradiputados/v1">
+  <PartidoPolitico>
+    <Id>PC</Id>
+    <Nombre>Partido Comunista</Nombre>
+    <Alias>PC</Alias>
+  </PartidoPolitico>
+  <PartidoPolitico>
+    <Id>PRI</Id>
+    <Nombre>Partido Regionalista Independiente</Nombre>
+    <Alias>PRI</Alias>
+  </PartidoPolitico>
+  <PartidoPolitico>
+    <Id>IND</Id>
+    <Nombre>Independientes</Nombre>
+    <Alias>IND</Alias>
+  </PartidoPolitico>
+  <PartidoPolitico>
+    <Id>DC</Id>
+    <Nombre>Partido Demócrata Cristiano</Nombre>
+    <Alias>DC</Alias>
+  </PartidoPolitico>
+  <PartidoPolitico>
+    <Id>PPD</Id>
+    <Nombre>Partido Por la Democracia</Nombre>
+    <Alias>PPD</Alias>
+  </PartidoPolitico>
+  <PartidoPolitico>
+    <Id>PR</Id>
+    <Nombre>Partido Radical de Chile</Nombre>
+    <Alias>PR</Alias>
+  </PartidoPolitico>
+  <PartidoPolitico>
+    <Id>PS</Id>
+    <Nombre>Partido Socialista</Nombre>
+    <Alias>PS</Alias>
+  </PartidoPolitico>
+  <PartidoPolitico>
+    <Id>RN</Id>
+    <Nombre>Renovación Nacional</Nombre>
+    <Alias>RN</Alias>
+  </PartidoPolitico>
+  <PartidoPolitico>
+    <Id>UCP</Id>
+    <Nombre>Unión de Centro Progresista</Nombre>
+    <Alias>UCP</Alias>
+  </PartidoPolitico>
+  <PartidoPolitico>
+    <Id>UDI</Id>
+    <Nombre>Unión Demócrata Independiente</Nombre>
+    <Alias>UDI</Alias>
+  </PartidoPolitico>
+  <PartidoPolitico>
+    <Id>SUR</Id>
+    <Nombre>Partido del Sur</Nombre>
+    <Alias>SUR</Alias>
+  </PartidoPolitico>
+  <PartidoPolitico>
+    <Id>FRA</Id>
+    <Nombre>Frente de Acción Regionalista</Nombre>
+    <Alias>FRA</Alias>
+  </PartidoPolitico>
+  <PartidoPolitico>
+    <Id>PAR</Id>
+    <Nombre>Partido de Acción Regionalista</Nombre>
+    <Alias>PAR</Alias>
+  </PartidoPolitico>
+  <PartidoPolitico>
+    <Id>PH</Id>
+    <Nombre>Partido Humanista</Nombre>
+    <Alias>PH</Alias>
+  </PartidoPolitico>
+  <PartidoPolitico>
+    <Id>IC</Id>
+    <Nombre>Izquierda Ciudadana</Nombre>
+    <Alias>IC</Alias>
+  </PartidoPolitico>
+  <PartidoPolitico>
+    <Id>PL</Id>
+    <Nombre>Partido Liberal de Chile</Nombre>
+    <Alias>PL</Alias>
+  </PartidoPolitico>
+  <PartidoPolitico>
+    <Id>AMPL</Id>
+    <Nombre>Amplitud</Nombre>
+    <Alias>AMPL</Alias>
+  </PartidoPolitico>
+  <PartidoPolitico>
+    <Id>RD</Id>
+    <Nombre>Revolución Democrática</Nombre>
+    <Alias>RD</Alias>
+  </PartidoPolitico>
+  <PartidoPolitico>
+    <Id>EVOP</Id>
+    <Nombre>Evolución Política</Nombre>
+    <Alias>EVOP</Alias>
+  </PartidoPolitico>
+  <PartidoPolitico>
+    <Id>MIRAS</Id>
+    <Nombre>Movimiento Independiente Regionalista Agrario y Social</Nombre>
+    <Alias>MIRAS</Alias>
+  </PartidoPolitico>
+  <PartidoPolitico>
+    <Id>PCS</Id>
+    <Nombre>Partido Convergencia Social</Nombre>
+    <Alias>PCS</Alias>
+  </PartidoPolitico>
+  <PartidoPolitico>
+    <Id>PAH</Id>
+    <Nombre>Partido Acción Humanista</Nombre>
+    <Alias>PAH</Alias>
+  </PartidoPolitico>
+  <PartidoPolitico>
+    <Id>PSC</Id>
+    <Nombre>Partido Social Cristiano</Nombre>
+    <Alias>PSC</Alias>
+  </PartidoPolitico>
+  <PartidoPolitico>
+    <Id>DEM</Id>
+    <Nombre>Partido Demócratas Chile</Nombre>
+    <Alias>DEM</Alias>
+  </PartidoPolitico>
+  <PartidoPolitico>
+    <Id>PNL</Id>
+    <Nombre>Partido Nacional Libertario</Nombre>
+    <Alias>PNL</Alias>
+  </PartidoPolitico>
+  <PartidoPolitico>
+    <Id>FRVS</Id>
+    <Nombre>Federación Regionalista Verde Social</Nombre>
+    <Alias>FRVS</Alias>
+  </PartidoPolitico>
+  <PartidoPolitico>
+    <Id>LIBERAL</Id>
+    <Nombre>Partido Liberal de Chile</Nombre>
+    <Alias>LIBERAL</Alias>
+  </PartidoPolitico>
+  <PartidoPolitico>
+    <Id>COMUNES</Id>
+    <Nombre>Partido Comunes</Nombre>
+    <Alias>COMUNES</Alias>
+  </PartidoPolitico>
+  <PartidoPolitico>
+    <Id>PEV</Id>
+    <Nombre>Partido Ecologista Verde</Nombre>
+    <Alias>PEV</Alias>
+  </PartidoPolitico>
+  <PartidoPolitico>
+    <Id>IGUAL</Id>
+    <Nombre>Partido Igualdad</Nombre>
+    <Alias>IGUAL</Alias>
+  </PartidoPolitico>
+  <PartidoPolitico>
+    <Id>PRO</Id>
+    <Nombre>Partido Progresista</Nombre>
+    <Alias>PRO</Alias>
+  </PartidoPolitico>
+  <PartidoPolitico>
+    <Id>PDG</Id>
+    <Nombre>Partido de la Gente</Nombre>
+    <Alias>PDG</Alias>
+  </PartidoPolitico>
+  <PartidoPolitico>
+    <Id>PCC</Id>
+    <Nombre>Partido Conservador Cristiano</Nombre>
+    <Alias>PCC</Alias>
+  </PartidoPolitico>
+  <PartidoPolitico>
+    <Id>FA</Id>
+    <Nombre>Frente Amplio</Nombre>
+    <Alias>FA</Alias>
+  </PartidoPolitico>
+  <PartidoPolitico>
+    <Id>PREP</Id>
+    <Nombre>Partido Republicano</Nombre>
+    <Alias>PREP</Alias>
+  </PartidoPolitico>
+  <PartidoPolitico>
+    <Id>AMA</Id>
+    <Nombre>Movimiento Amarillos por Chile</Nombre>
+    <Alias>AMA</Alias>
+  </PartidoPolitico>
+</PartidosPoliticosColeccion>

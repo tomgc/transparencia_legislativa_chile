@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProyectosLeyColeccion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://opendata.camara.cl/camaradiputados/v1">
+  <ProyectoLey>
+    <Id>18778</Id>
+    <NumeroBoletin>18115-27</NumeroBoletin>
+    <Nombre>Regula la residencia, permanencia y el traslado hacia y desde el territorio especial del Archipiélago Juan Fernández e incorpora las Islas Desventuradas a la comuna de Juan Fernández</Nombre>
+    <FechaIngreso>2026-03-06T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="1">Mensaje</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18779</Id>
+    <NumeroBoletin>18116-07</NumeroBoletin>
+    <Nombre>Modifica la Carta Fundamental, a fin de consagrar la autonomía constitucional de la Defensoría Penal Pública</Nombre>
+    <FechaIngreso>2026-03-10T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="1">Mensaje</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18800</Id>
+    <NumeroBoletin>18137-05</NumeroBoletin>
+    <Nombre>Adopta medidas transitorias para contener el precio del kerosene doméstico en el contexto de la emergencia energética internacional, y otras medidas que indica</Nombre>
+    <FechaIngreso>2026-03-24T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="1">Mensaje</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18872</Id>
+    <NumeroBoletin>18216-05</NumeroBoletin>
+    <Nombre>Para la reconstrucción nacional y el desarrollo económico y social</Nombre>
+    <FechaIngreso>2026-04-22T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="1">Mensaje</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18882</Id>
+    <NumeroBoletin>18231-35</NumeroBoletin>
+    <Nombre>Establece el Día Nacional de la Teletón y el Día Nacional del Encuentro Familiar</Nombre>
+    <FechaIngreso>2026-05-04T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="1">Mensaje</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18962</Id>
+    <NumeroBoletin>18286-03</NumeroBoletin>
+    <Nombre>Modifica la ley N° 19.799, sobre documentos electrónicos, firma electrónica y servicios de certificación de dicha firma, y otros cuerpos legales relacionados</Nombre>
+    <FechaIngreso>2026-06-02T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="1">Mensaje</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19025</Id>
+    <NumeroBoletin>18341-25</NumeroBoletin>
+    <Nombre>Crea el registro de actos vandálicos e incivilidades</Nombre>
+    <FechaIngreso>2026-06-12T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="1">Mensaje</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19062</Id>
+    <NumeroBoletin>18384-08</NumeroBoletin>
+    <Nombre>Ley de protección tarifaria eléctrica</Nombre>
+    <FechaIngreso>2026-06-22T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="1">Mensaje</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19070</Id>
+    <NumeroBoletin>18389-04</NumeroBoletin>
+    <Nombre>Faculta a los establecimientos educacionales a implementar un mecanismo de elección mutua en el proceso de admisión escolar</Nombre>
+    <FechaIngreso>2026-06-23T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="1">Mensaje</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19107</Id>
+    <NumeroBoletin>18431-31</NumeroBoletin>
+    <Nombre>Modifica la ley N° 21.805, que reconoce el derecho al cuidado y crea el Sistema Nacional de Apoyos y Cuidados, y otros cuerpos normativos que indica</Nombre>
+    <FechaIngreso>2026-07-06T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="1">Mensaje</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19119</Id>
+    <NumeroBoletin>18436-15</NumeroBoletin>
+    <Nombre>Modifica la Ley Orgánica de la Empresa de los Ferrocarriles del Estado, con el objeto de establecer una exención de derechos y tributos municipales por la ejecución de obras ferroviarias y declarar dichas obras como infraestructura ejecutada por el Estado</Nombre>
+    <FechaIngreso>2026-07-08T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="1">Mensaje</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18863</Id>
+    <NumeroBoletin>18208-25</NumeroBoletin>
+    <Nombre>Modifica el Código Procesal Penal, para regular la continuidad del juicio oral y permitir la dictación de sentencia definitiva ante la incomparecencia injustificada del acusado</Nombre>
+    <FechaIngreso>2026-04-20T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="1">Mensaje</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19012</Id>
+    <NumeroBoletin>18334-10</NumeroBoletin>
+    <Nombre>Aprueba la &amp;quot;Enmienda del Artículo VI del Estatuto del Organismo Internacional de Energía Atómica&amp;quot;, aprobada por la Conferencia General del Organismo, celebrada el 1 de octubre de 1999 en Viena, Austria </Nombre>
+    <FechaIngreso>2026-06-10T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="1">Mensaje</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18736</Id>
+    <NumeroBoletin>18072-02</NumeroBoletin>
+    <Nombre>Modifica la ley orgánica de la Dirección General del Territorio Marítimo y de Marina Mercante restituyendo la denominación Gobernación Marítima de Chiloé </Nombre>
+    <FechaIngreso>2026-01-23T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="1">Mensaje</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18922</Id>
+    <NumeroBoletin>18259-08</NumeroBoletin>
+    <Nombre>Modifica el Código de Minería y las leyes números 21.420 y 21.649, en materia de amparo minero y otras materias que indica</Nombre>
+    <FechaIngreso>2026-05-18T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="1">Mensaje</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18777</Id>
+    <NumeroBoletin>18114-10</NumeroBoletin>
+    <Nombre>Aprueba el &amp;quot;Acuerdo de Coproducción Audiovisual entre el Gobierno de la República de Chile y el Gobierno de la República Federativa del Brasil&amp;quot;, suscrito en Brasilia, el 22 de abril de 2025.</Nombre>
+    <FechaIngreso>2026-03-06T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="1">Mensaje</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18693</Id>
+    <NumeroBoletin>18031-24</NumeroBoletin>
+    <Nombre>Ley sobre fomento a las artes de la visualidad</Nombre>
+    <FechaIngreso>2026-01-05T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="1">Mensaje</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18696</Id>
+    <NumeroBoletin>18036-05</NumeroBoletin>
+    <Nombre>Otorga reajuste general de remuneraciones a las y los trabajadores del sector público, concede aguinaldos que señala, concede otros beneficios que indica y modifica diversos cuerpos legales</Nombre>
+    <FechaIngreso>2026-01-06T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="1">Mensaje</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18709</Id>
+    <NumeroBoletin>18044-13</NumeroBoletin>
+    <Nombre>Modifica el Código del Trabajo con el objeto de regular un sistema de negociación colectiva multinivel</Nombre>
+    <FechaIngreso>2026-01-09T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="1">Mensaje</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18712</Id>
+    <NumeroBoletin>18050-16</NumeroBoletin>
+    <Nombre>Modifica el Acuerdo Complementario de la ley N°19.297 y regula las materias que indica</Nombre>
+    <FechaIngreso>2026-01-13T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="1">Mensaje</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18776</Id>
+    <NumeroBoletin>18113-11</NumeroBoletin>
+    <Nombre>Delega facultades para la fijación de las plantas de personal de la Subsecretaría de Salud Pública, de la Subsecretaría de Redes Asistenciales y de la Central de Abastecimiento del Sistema Nacional de Servicios de Salud, y establece normas de encasillamiento</Nombre>
+    <FechaIngreso>2026-03-05T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="1">Mensaje</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18813</Id>
+    <NumeroBoletin>18155-25</NumeroBoletin>
+    <Nombre>Modifica el Código Penal para establecer nuevas agravantes por delitos cometidos contra la comunidad educativa y en recintos educacionales</Nombre>
+    <FechaIngreso>2026-04-07T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="1">Mensaje</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18814</Id>
+    <NumeroBoletin>18156-04</NumeroBoletin>
+    <Nombre>Establece medidas de seguridad, orden y respeto para la comunidad educativa</Nombre>
+    <FechaIngreso>2026-04-07T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="1">Mensaje</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19106</Id>
+    <NumeroBoletin>18429-10</NumeroBoletin>
+    <Nombre>Aprueba el Tratado entre la República de Chile y la República Federativa de Brasil sobre Asistencia Jurídica Mutua en Materia Penal, hecho en Brasilia, el 22 de abril de 2025</Nombre>
+    <FechaIngreso>2026-07-06T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="1">Mensaje</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18961</Id>
+    <NumeroBoletin>18279-10</NumeroBoletin>
+    <Nombre>Aprueba el Acuerdo que modifica el Convenio entre la República de Chile y el Gobierno de la República de Hungría con el Objeto de Autorizar el Ejercicio de Actividades Remuneradas en el Estado Receptor por los Familiares Dependientes del Personal Diplomático, Consular, Administrativo y Técnico de las Misiones Diplomáticas y Consulares Acreditadas ante los respectivos Gobiernos, y por los Familiares Dependientes de Nacionales Chilenos o Húngaros Acreditados ante Organizaciones Internacionales con Sede en Cualquiera de los Dos Países, adoptado por intercambio de Notas, fechadas en Santiago y Budapest, el 15 de julio de 2024.</Nombre>
+    <FechaIngreso>2026-06-02T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="1">Mensaje</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19105</Id>
+    <NumeroBoletin>18428-10</NumeroBoletin>
+    <Nombre>Aprueba el Sexto Protocolo Adicional al Acuerdo de Alcance Parcial sobre Transporte Internacional Terrestre, suscrito en Montevideo, el 4 de agosto de 2025</Nombre>
+    <FechaIngreso>2026-07-06T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="1">Mensaje</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18990</Id>
+    <NumeroBoletin>18314-07</NumeroBoletin>
+    <Nombre>Reforma la Constitución Política en materia de detención para la ejecución de expulsiones administrativas</Nombre>
+    <FechaIngreso>2026-06-08T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="1">Mensaje</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18991</Id>
+    <NumeroBoletin>18315-07</NumeroBoletin>
+    <Nombre>Amplía las hipótesis de tráfico de migrantes y modifica los textos legales que indica</Nombre>
+    <FechaIngreso>2026-06-08T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="1">Mensaje</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19085</Id>
+    <NumeroBoletin>18401-31</NumeroBoletin>
+    <Nombre>Entrega un bono extraordinario de apoyo a la niñez</Nombre>
+    <FechaIngreso>2026-06-24T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="1">Mensaje</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18989</Id>
+    <NumeroBoletin>18301-10</NumeroBoletin>
+    <Nombre>Aprueba el Convenio de Transporte Aéreo entre el Gobierno de la República de Chile y el Gobierno de la República de Costa Rica, suscrito en Lima, Perú, el 13 de diciembre de 2023</Nombre>
+    <FechaIngreso>2026-06-04T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="1">Mensaje</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18769</Id>
+    <NumeroBoletin>18104-04</NumeroBoletin>
+    <Nombre>Establece ajustes para la modernización de la educación superior y modifica la gobernanza de los centros de formación técnica estatales</Nombre>
+    <FechaIngreso>2026-03-04T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="1">Mensaje</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18695</Id>
+    <NumeroBoletin>18032-07</NumeroBoletin>
+    <Nombre>Modifica la Carta Fundamental para incorporar a Gendarmería de Chile dentro de las Fuerzas de Orden y Seguridad Pública</Nombre>
+    <FechaIngreso>2026-01-05T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="1">Mensaje</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18871</Id>
+    <NumeroBoletin>18215-10</NumeroBoletin>
+    <Nombre>Acuerdo de mutua exención del requisito de visa para los titulares de pasaportes diplomáticos, especiales y oficiales entre el Gobierno de la República de Chile y el Gobierno del Estado de Catar</Nombre>
+    <FechaIngreso>2026-04-22T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="1">Mensaje</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18918</Id>
+    <NumeroBoletin>18255-31</NumeroBoletin>
+    <Nombre>Establece un beneficio de compensación por la compra de pañales y de medicamentos</Nombre>
+    <FechaIngreso>2026-05-18T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="1">Mensaje</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18919</Id>
+    <NumeroBoletin>18256-10</NumeroBoletin>
+    <Nombre>Aprueba el Acuerdo entre la República de Chile y la República Helénica sobre el empleo remunerado de dependientes de miembros de una misión diplomática o representación consular, suscrito en Santiago, el 24 de abril de 2024</Nombre>
+    <FechaIngreso>2026-05-18T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="1">Mensaje</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18921</Id>
+    <NumeroBoletin>18258-07</NumeroBoletin>
+    <Nombre>Modifica la ley N°18.415, orgánica constitucional de los estados de excepción, en materia de control de identidad y otros</Nombre>
+    <FechaIngreso>2026-05-18T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="1">Mensaje</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18974</Id>
+    <NumeroBoletin>18296-05</NumeroBoletin>
+    <Nombre>Autoriza mayor endeudamiento del gobierno central durante el año 2026</Nombre>
+    <FechaIngreso>2026-06-03T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="1">Mensaje</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18883</Id>
+    <NumeroBoletin>18230-13</NumeroBoletin>
+    <Nombre>Reajusta el monto del ingreso mínimo mensual, así como de la asignación familiar y maternal y del subsidio familiar</Nombre>
+    <FechaIngreso>2026-04-30T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="1">Mensaje</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19063</Id>
+    <NumeroBoletin>18378-18</NumeroBoletin>
+    <Nombre>Fortalece el ejercicio de la responsabilidad parental</Nombre>
+    <FechaIngreso>2026-06-19T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="1">Mensaje</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18838</Id>
+    <NumeroBoletin>18178-10</NumeroBoletin>
+    <Nombre>Aprueba el Acuerdo entre el Gobierno de la República de Chile y el Gobierno de la República de Tayikistán sobre la exención mutua del requisito de visa para titulares de pasaportes diplomáticos oficiales y de servicio, suscrito en Dushanbe, República de Tayikistán, el 9 de marzo de 2023</Nombre>
+    <FechaIngreso>2026-04-15T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="1">Mensaje</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18886</Id>
+    <NumeroBoletin>18232-25</NumeroBoletin>
+    <Nombre>Modifica la ley N° 21.659, sobre seguridad privada, para aumentar el plazo de presentación y pronunciamiento sobre los estudios de seguridad que dispone, y extiende la prórroga de vigencia de la última autorización del personal de seguridad privada que indica</Nombre>
+    <FechaIngreso>2026-05-04T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="1">Mensaje</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18920</Id>
+    <NumeroBoletin>18257-10</NumeroBoletin>
+    <Nombre>Aprueba el Acuerdo general sobre los privilegios e inmunidades de la Organización Internacional de Policía Criminal-INTERPOL, aprobado en Marrakech, Marruecos, el 24 de noviembre de 2025</Nombre>
+    <FechaIngreso>2026-05-18T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="1">Mensaje</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18775</Id>
+    <NumeroBoletin>18112-13</NumeroBoletin>
+    <Nombre>Establece cotizaciones previsionales a los trabajadores independientes del artículo 42, numeral 2, de la Ley de Impuesto a la Renta, y modifica otros cuerpos legales que indica</Nombre>
+    <FechaIngreso>2026-03-05T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="1">Mensaje</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18774</Id>
+    <NumeroBoletin>18111-01</NumeroBoletin>
+    <Nombre>Modifica la ley orgánica del Instituto de Desarrollo Agropecuario (Indap), para fortalecer su institucionalidad y adecuar su marco normativo a los desafíos actuales y futuros de la agricultura familiar del país, y regula otras materias que indica</Nombre>
+    <FechaIngreso>2026-03-05T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="1">Mensaje</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+</ProyectosLeyColeccion>

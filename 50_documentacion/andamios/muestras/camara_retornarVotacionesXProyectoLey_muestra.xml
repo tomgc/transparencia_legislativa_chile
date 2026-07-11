@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProyectoLey xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://opendata.camara.cl/camaradiputados/v1">
+  <Id>19062</Id>
+  <NumeroBoletin>18384-08</NumeroBoletin>
+  <Nombre>Ley de protección tarifaria eléctrica</Nombre>
+  <FechaIngreso>2026-06-22T00:00:00</FechaIngreso>
+  <TipoIniciativa Valor="1">Mensaje</TipoIniciativa>
+  <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+  <MinisteriosPatrocinantes>
+    <Ministerio>
+      <Id>144</Id>
+      <Nombre>Ministerio de Energía</Nombre>
+    </Ministerio>
+    <Ministerio>
+      <Id>2</Id>
+      <Nombre>Ministerio de Hacienda</Nombre>
+    </Ministerio>
+  </MinisteriosPatrocinantes>
+  <Votaciones>
+    <VotacionProyectoLey>
+      <Id>89358</Id>
+      <Descripcion>Boletín N°18384-08</Descripcion>
+      <Fecha>2026-07-08T13:57:27</Fecha>
+      <TotalSi>131</TotalSi>
+      <TotalNo>1</TotalNo>
+      <TotalAbstencion>0</TotalAbstencion>
+      <TotalDispensado>0</TotalDispensado>
+      <Quorum Valor="1">Quórum Simple</Quorum>
+      <Resultado Valor="1">Aprobado</Resultado>
+      <Tipo Valor="1">Proyecto de Ley</Tipo>
+      <TipoVotacionProyectoLey Valor="2">Particular</TipoVotacionProyectoLey>
+      <Articulo>Indicación del Ejecutivo que agrega un nuevo numeral 8 al artículo 1° del proyecto. 
+</Articulo>
+      <TramiteConstitucional Id="1">Primer Trámite</TramiteConstitucional>
+      <TramiteReglamentario Id="1">Primer Informe</TramiteReglamentario>
+    </VotacionProyectoLey>
+    <VotacionProyectoLey>
+      <Id>89357</Id>
+      <Descripcion>Boletín N°18384-08</Descripcion>
+      <Fecha>2026-07-08T13:54:51</Fecha>
+      <TotalSi>86</TotalSi>
+      <TotalNo>40</TotalNo>
+      <TotalAbstencion>6</TotalAbstencion>
+      <TotalDispensado>0</TotalDispensado>
+      <Quorum Valor="1">Quórum Simple</Quorum>
+      <Resultado Valor="1">Aprobado</Resultado>
+      <Tipo Valor="1">Proyecto de Ley</Tipo>
+      <TipoVotacionProyectoLey Valor="2">Particular</TipoVotacionProyectoLey>
+      <Articulo>Numeral 3 del artículo 3° del proyecto, cuya votación separada ha sido solicitada por la diputada Irací Hassler y por el diputado Benjamín Moreno, y que consta en la página 64 del comparado.
+</Articulo>
+      <TramiteConstitucional Id="1">Primer Trámite</TramiteConstitucional>
+      <TramiteReglamentario Id="1">Primer Informe</TramiteReglamentario>
+    </VotacionProyectoLey>
+    <VotacionProyectoLey>
+      <Id>89356</Id>
+      <Descripcion>Boletín N°18384-08</Descripcion>
+      <Fecha>2026-07-08T13:53:15</Fecha>
+      <TotalSi>130</TotalSi>
+      <TotalNo>1</TotalNo>
+      <TotalAbstencion>1</TotalAbstencion>
+      <TotalDispensado>0</TotalDispensado>
+      <Quorum Valor="1">Quórum Simple</Quorum>
+      <Resultado Valor="1">Aprobado</Resultado>
+      <Tipo Valor="1">Proyecto de Ley</Tipo>
+      <TipoVotacionProyectoLey Valor="2">Particular</TipoVotacionProyectoLey>
+      <Articulo>Encabezado del artículo 3° y su numeral 1, en los términos propuestos por la Comisión de Minería y Energía, cuya votación separada ha sido solicitada por las diputadas Valentina Cáceres e Irací Hassler, y que consta en las páginas 60 a 62 del comparado.
+</Articulo>
+      <TramiteConstitucional Id="1">Primer Trámite</TramiteConstitucional>
+      <TramiteReglamentario Id="1">Primer Informe</TramiteReglamentario>
+    </VotacionProyectoLey>
+    <VotacionProyectoLey>
+      <Id>89355</Id>
+      <Descripcion>Boletín N°18384-08</Descripcion>
+      <Fecha>2026-07-08T13:51:35</Fecha>
+      <TotalSi>56</TotalSi>
+      <TotalNo>76</TotalNo>
+      <TotalAbstencion>0</TotalAbstencion>
+      <TotalDispensado>0</TotalDispensado>
+      <Quorum Valor="1">Quórum Simple</Quorum>
+      <Resultado Valor="2">Unánime</Resultado>
+      <Tipo Valor="1">Proyecto de Ley</Tipo>
+      <TipoVotacionProyectoLey Valor="2">Particular</TipoVotacionProyectoLey>
+      <Articulo>Reclamación de la declaración de inadmisibilidad de la indicación de las diputadas Valentina Cáceres y Marisela Santibáñez y de los diputados José Antonio Rivas y Bernardo Salinas, para modificar en el numeral 1) del artículo 3, la expresión “, 2026 y 2027” por la siguiente: “, 2026, 2027 y 2028”.  
+
+(Quienes votan a favor lo hacen por la admisibilidad; quienes votan en contra por su inadmisibilidad)
+</Articulo>
+      <TramiteConstitucional Id="1">Primer Trámite</TramiteConstitucional>
+      <TramiteReglamentario Id="1">Primer Informe</TramiteReglamentario>
+    </VotacionProyectoLey>
+    <VotacionProyectoLey>
+      <Id>89354</Id>
+      <Descripcion>Boletín N°18384-08</Descripcion>
+      <Fecha>2026-07-08T13:47:25</Fecha>
+      <TotalSi>73</TotalSi>
+      <TotalNo>59</TotalNo>
+      <TotalAbstencion>0</TotalAbstencion>
+      <TotalDispensado>0</TotalDispensado>
+      <Quorum Valor="1">Quórum Simple</Quorum>
+      <Resultado Valor="1">Aprobado</Resultado>
+      <Tipo Valor="1">Proyecto de Ley</Tipo>
+      <TipoVotacionProyectoLey Valor="2">Particular</TipoVotacionProyectoLey>
+      <Articulo>Numeral 8 del artículo 2° del proyecto, cuya votación separada ha sido solicitada por la diputada Marisela Santibáñez y por el diputado Jorge Brito, y que consta en las páginas 58 a 60 del comparado.
+</Articulo>
+      <TramiteConstitucional Id="1">Primer Trámite</TramiteConstitucional>
+      <TramiteReglamentario Id="1">Primer Informe</TramiteReglamentario>
+    </VotacionProyectoLey>
+    <VotacionProyectoLey>
+      <Id>89353</Id>
+      <Descripcion>Boletín N°18384-08</Descripcion>
+      <Fecha>2026-07-08T13:46:25</Fecha>
+      <TotalSi>72</TotalSi>
+      <TotalNo>58</TotalNo>
+      <TotalAbstencion>2</TotalAbstencion>
+      <TotalDispensado>0</TotalDispensado>
+      <Quorum Valor="1">Quórum Simple</Quorum>
+      <Resultado Valor="1">Aprobado</Resultado>
+      <Tipo Valor="1">Proyecto de Ley</Tipo>
+      <TipoVotacionProyectoLey Valor="2">Particular</TipoVotacionProyectoLey>
+      <Articulo>Numeral 6 del artículo 2° del proyecto, cuya votación separada ha sido solicitada por la diputada Marisela Santibáñez y por el diputado Jorge Brito, y que consta en las páginas 55 a 57 del comparado.
+</Articulo>
+      <TramiteConstitucional Id="1">Primer Trámite</TramiteConstitucional>
+      <TramiteReglamentario Id="1">Primer Informe</TramiteReglamentario>
+    </VotacionProyectoLey>
+    <VotacionProyectoLey>
+      <Id>89352</Id>
+      <Descripcion>Boletín N°18384-08</Descripcion>
+      <Fecha>2026-07-08T13:45:28</Fecha>
+      <TotalSi>83</TotalSi>
+      <TotalNo>45</TotalNo>
+      <TotalAbstencion>4</TotalAbstencion>
+      <TotalDispensado>0</TotalDispensado>
+      <Quorum Valor="1">Quórum Simple</Quorum>
+      <Resultado Valor="1">Aprobado</Resultado>
+      <Tipo Valor="1">Proyecto de Ley</Tipo>
+      <TipoVotacionProyectoLey Valor="2">Particular</TipoVotacionProyectoLey>
+      <Articulo>Numeral 5 del artículo 2° del proyecto, cuya votación separada ha sido solicitada por las diputadas Valentina Cáceres y Marisela Santibáñez y por el diputado Jorge Brito, y que consta en las páginas 49 a 55 del comparado.
+</Articulo>
+      <TramiteConstitucional Id="1">Primer Trámite</TramiteConstitucional>
+      <TramiteReglamentario Id="1">Primer Informe</TramiteReglamentario>
+    </VotacionProyectoLey>
+    <VotacionProyectoLey>
+      <Id>89351</Id>
+      <Descripcion>Boletín N°18384-08</Descripcion>
+      <Fecha>2026-07-08T13:44:23</Fecha>
+      <TotalSi>66</TotalSi>
+      <TotalNo>61</TotalNo>
+      <TotalAbstencion>5</TotalAbstencion>
+      <TotalDispensado>0</TotalDispensado>
+      <Quorum Valor="1">Quórum Simple</Quorum>
+      <Resultado Valor="2">Unánime</Resultado>
+      <Tipo Valor="1">Proyecto de Ley</Tipo>
+      <TipoVotacionProyectoLey Valor="2">Particular</TipoVotacionProyectoLey>
+      <Articulo>Reclamación de la declaración de inadmisibilidad de la indicación de las diputadas Valentina Cáceres y Marisela Santibáñez y de los diputados José Antonio Rivas y Bernardo Salinas, para agregar, en el numeral 2) del artículo 2° del proyecto, un inciso nuevo final en el artículo 5 propuesto. 
+
+(Quienes votan a favor lo hacen por la admisibilidad; quienes votan en contra por su inadmisibilidad)
+</Articulo>
+      <TramiteConstitucional Id="1">Primer Trámite</TramiteConstitucional>
+      <TramiteReglamentario Id="1">Primer Informe</TramiteReglamentario>
+    </VotacionProyectoLey>
+    <VotacionProyectoLey>
+      <Id>89350</Id>
+      <Descripcion>Boletín N°18384-08</Descripcion>
+      <Fecha>2026-07-08T13:40:31</Fecha>
+      <TotalSi>130</TotalSi>
+      <TotalNo>1</TotalNo>
+      <TotalAbstencion>1</TotalAbstencion>
+      <TotalDispensado>0</TotalDispensado>
+      <Quorum Valor="1">Quórum Simple</Quorum>
+      <Resultado Valor="1">Aprobado</Resultado>
+      <Tipo Valor="1">Proyecto de Ley</Tipo>
+      <TipoVotacionProyectoLey Valor="2">Particular</TipoVotacionProyectoLey>
+      <Articulo>Numeral 2) del artículo 2° del proyecto, en los términos propuestos por la Comisión de Minería y Energía, y que consta en las páginas 42 a 44 del comparado. 
+</Articulo>
+      <TramiteConstitucional Id="1">Primer Trámite</TramiteConstitucional>
+      <TramiteReglamentario Id="1">Primer Informe</TramiteReglamentario>
+    </VotacionProyectoLey>
+    <VotacionProyectoLey>
+      <Id>89349</Id>
+      <Descripcion>Boletín N°18384-08</Descripcion>
+      <Fecha>2026-07-08T13:39:28</Fecha>
+      <TotalSi>66</TotalSi>
+      <TotalNo>65</TotalNo>
+      <TotalAbstencion>1</TotalAbstencion>
+      <TotalDispensado>0</TotalDispensado>
+      <Quorum Valor="1">Quórum Simple</Quorum>
+      <Resultado Valor="2">Unánime</Resultado>
+      <Tipo Valor="1">Proyecto de Ley</Tipo>
+      <TipoVotacionProyectoLey Valor="2">Particular</TipoVotacionProyectoLey>
+      <Articulo>En votación particular el numeral 2) del artículo 2° del proyecto con la indicación renovada de las diputadas Cáceres y Santibáñez y de los diputados Rivas y Salinas, para agregar una expresión final en el artículo 5 propuesto. 
+</Articulo>
+      <TramiteConstitucional Id="1">Primer Trámite</TramiteConstitucional>
+      <TramiteReglamentario Id="1">Primer Informe</TramiteReglamentario>
+    </VotacionProyectoLey>
+    <VotacionProyectoLey>
+      <Id>89348</Id>
+      <Descripcion>Boletín N°18384-08</Descripcion>
+      <Fecha>2026-07-08T13:38:33</Fecha>
+      <TotalSi>67</TotalSi>
+      <TotalNo>64</TotalNo>
+      <TotalAbstencion>1</TotalAbstencion>
+      <TotalDispensado>0</TotalDispensado>
+      <Quorum Valor="1">Quórum Simple</Quorum>
+      <Resultado Valor="1">Aprobado</Resultado>
+      <Tipo Valor="1">Proyecto de Ley</Tipo>
+      <TipoVotacionProyectoLey Valor="2">Particular</TipoVotacionProyectoLey>
+      <Articulo>Reconsideración de la declaración de inadmisibilidad de la indicación de las diputadas Cáceres y Santibáñez y de los diputados Rivas y Salinas, para agregar una expresión final en el artículo 5 propuesto en el numeral 2 del artículo 2° del proyecto. 
+
+(Quienes votan a favor lo hacen por la admisibilidad; quienes votan en contra por su inadmisibilidad)
+</Articulo>
+      <TramiteConstitucional Id="1">Primer Trámite</TramiteConstitucional>
+      <TramiteReglamentario Id="1">Primer Informe</TramiteReglamentario>
+    </VotacionProyectoLey>
+    <VotacionProyectoLey>
+      <Id>89347</Id>
+      <Descripcion>Boletín N°18384-08</Descripcion>
+      <Fecha>2026-07-08T13:34:13</Fecha>
+      <TotalSi>78</TotalSi>
+      <TotalNo>40</TotalNo>
+      <TotalAbstencion>14</TotalAbstencion>
+      <TotalDispensado>0</TotalDispensado>
+      <Quorum Valor="1">Quórum Simple</Quorum>
+      <Resultado Valor="1">Aprobado</Resultado>
+      <Tipo Valor="1">Proyecto de Ley</Tipo>
+      <TipoVotacionProyectoLey Valor="2">Particular</TipoVotacionProyectoLey>
+      <Articulo>Numeral 7 del artículo 1° del proyecto, cuya votación separada ha sido solicitada por la diputada Marisela Santibáñez, y que consta en las páginas 34 a 39 del comparado.
+</Articulo>
+      <TramiteConstitucional Id="1">Primer Trámite</TramiteConstitucional>
+      <TramiteReglamentario Id="1">Primer Informe</TramiteReglamentario>
+    </VotacionProyectoLey>
+    <VotacionProyectoLey>
+      <Id>89346</Id>
+      <Descripcion>Boletín N°18384-08</Descripcion>
+      <Fecha>2026-07-08T13:33:24</Fecha>
+      <TotalSi>76</TotalSi>
+      <TotalNo>39</TotalNo>
+      <TotalAbstencion>17</TotalAbstencion>
+      <TotalDispensado>0</TotalDispensado>
+      <Quorum Valor="1">Quórum Simple</Quorum>
+      <Resultado Valor="1">Aprobado</Resultado>
+      <Tipo Valor="1">Proyecto de Ley</Tipo>
+      <TipoVotacionProyectoLey Valor="2">Particular</TipoVotacionProyectoLey>
+      <Articulo>Numeral 5 del artículo 1° del proyecto, cuya votación separada ha sido solicitada por la diputada Marisela Santibáñez, y que consta en las páginas 25 a 26 del comparado.
+</Articulo>
+      <TramiteConstitucional Id="1">Primer Trámite</TramiteConstitucional>
+      <TramiteReglamentario Id="1">Primer Informe</TramiteReglamentario>
+    </VotacionProyectoLey>
+    <VotacionProyectoLey>
+      <Id>89345</Id>
+      <Descripcion>Boletín N°18384-08</Descripcion>
+      <Fecha>2026-07-08T13:32:25</Fecha>
+      <TotalSi>78</TotalSi>
+      <TotalNo>34</TotalNo>
+      <TotalAbstencion>20</TotalAbstencion>
+      <TotalDispensado>0</TotalDispensado>
+      <Quorum Valor="1">Quórum Simple</Quorum>
+      <Resultado Valor="1">Aprobado</Resultado>
+      <Tipo Valor="1">Proyecto de Ley</Tipo>
+      <TipoVotacionProyectoLey Valor="2">Particular</TipoVotacionProyectoLey>
+      <Articulo>Numeral 4 del artículo 1° del proyecto, cuya votación separada ha sido solicitada por la diputada Marisela Santibáñez, y que consta en las páginas 22 a 25 del comparado.
+</Articulo>
+      <TramiteConstitucional Id="1">Primer Trámite</TramiteConstitucional>
+      <TramiteReglamentario Id="1">Primer Informe</TramiteReglamentario>
+    </VotacionProyectoLey>
+    <VotacionProyectoLey>
+      <Id>89344</Id>
+      <Descripcion>Boletín N°18384-08</Descripcion>
+      <Fecha>2026-07-08T13:30:58</Fecha>
+      <TotalSi>89</TotalSi>
+      <TotalNo>34</TotalNo>
+      <TotalAbstencion>9</TotalAbstencion>
+      <TotalDispensado>0</TotalDispensado>
+      <Quorum Valor="1">Quórum Simple</Quorum>
+      <Resultado Valor="1">Aprobado</Resultado>
+      <Tipo Valor="1">Proyecto de Ley</Tipo>
+      <TipoVotacionProyectoLey Valor="1">General</TipoVotacionProyectoLey>
+      <Articulo />
+      <TramiteConstitucional Id="1">Primer Trámite</TramiteConstitucional>
+      <TramiteReglamentario Id="1">Primer Informe</TramiteReglamentario>
+    </VotacionProyectoLey>
+  </Votaciones>
+  <Materias />
+  <Admisible>true</Admisible>
+</ProyectoLey>

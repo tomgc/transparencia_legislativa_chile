@@ -1,0 +1,3252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProyectosLeyColeccion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://opendata.camara.cl/camaradiputados/v1">
+  <ProyectoLey>
+    <Id>18835</Id>
+    <NumeroBoletin>18173-21</NumeroBoletin>
+    <Nombre>Modifica la Ley General de Pesca y Acuicultura, con el objeto de exceptuar a los armadores que señala, de la prohibición establecida en materia de artes y aparejos de pesca para la extracción de jibia</Nombre>
+    <FechaIngreso>2026-04-08T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19006</Id>
+    <NumeroBoletin>18327-07</NumeroBoletin>
+    <Nombre>Modifica la ley N° 18.918, orgánica constitucional del Congreso Nacional, para sancionar el incumplimiento de funciones parlamentarias durante la semana distrital</Nombre>
+    <FechaIngreso>2026-06-04T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18795</Id>
+    <NumeroBoletin>18132-04</NumeroBoletin>
+    <Nombre>Modifica la ley Nº 20.370, General de Educación, para sancionar a padres y apoderados cuyos hijos o pupilos participen en hechos constitutivos de acoso escolar</Nombre>
+    <FechaIngreso>2026-03-17T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18818</Id>
+    <NumeroBoletin>18153-24</NumeroBoletin>
+    <Nombre>Declara patrimonio Biocultural de la Nación las especies vegetales que indica</Nombre>
+    <FechaIngreso>2026-04-07T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18843</Id>
+    <NumeroBoletin>18180-13</NumeroBoletin>
+    <Nombre>Modifica el Código del Trabajo en lo referido al contenido del contrato de trabajo y la protección de derechos a su terminación</Nombre>
+    <FechaIngreso>2026-04-14T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18965</Id>
+    <NumeroBoletin>18289-01</NumeroBoletin>
+    <Nombre>Modifica el DFL N° 30, de 2004, que aprueba el texto refundido, coordinado y sistematizado del decreto con fuerza de ley de Hacienda N° 213, de 1953, sobre ordenanza de aduanas, para establecer sanciones en caso de contrabando de productos agropecuarios infestados</Nombre>
+    <FechaIngreso>2026-05-20T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19018</Id>
+    <NumeroBoletin>18344-07</NumeroBoletin>
+    <Nombre>Modifica el artículo 19 N° 8 de la Constitución Política de la República, para establecer la obligatoriedad de afiliación al Fondo Nacional de Salud de las altas autoridades del Estado</Nombre>
+    <FechaIngreso>2026-06-08T15:45:22</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19021</Id>
+    <NumeroBoletin>18347-29</NumeroBoletin>
+    <Nombre>Establece la obligatoriedad de exámenes de detección de drogas para el personal técnico de divisiones inferiores de clubes de fútbol profesional</Nombre>
+    <FechaIngreso>2026-06-08T19:25:04</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19031</Id>
+    <NumeroBoletin>18351-07</NumeroBoletin>
+    <Nombre>Modifica textos legales que indica en materia de cumplimiento efectivo de penas privativas de libertad respecto de delitos que indica</Nombre>
+    <FechaIngreso>2026-06-09T19:24:42</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19037</Id>
+    <NumeroBoletin>18369-07</NumeroBoletin>
+    <Nombre>Modifica la Ordenanza de Aduanas, con el objeto de aumentar las penas asignadas al delito de contrabando de tabaco y sus derivados</Nombre>
+    <FechaIngreso>2026-06-16T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19048</Id>
+    <NumeroBoletin>18361-02</NumeroBoletin>
+    <Nombre>Aumenta la pena aplicable al delito de ingreso no autorizado a recintos militares y policiales, y fortalece la protección de la seguridad pública</Nombre>
+    <FechaIngreso>2026-06-11T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19050</Id>
+    <NumeroBoletin>18359-07</NumeroBoletin>
+    <Nombre>Modifica el artículo 52 de la Constitución Política de la República en materia de cumplimiento de los requerimientos de fiscalización realizados por la Cámara de Diputados</Nombre>
+    <FechaIngreso>2026-06-10T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19052</Id>
+    <NumeroBoletin>18379-15</NumeroBoletin>
+    <Nombre>Modifica la Ley General de Telecomunicaciones, con el objeto de establecer un número telefónico para la comunicación de emergencia viales</Nombre>
+    <FechaIngreso>2026-06-17T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19065</Id>
+    <NumeroBoletin>18383-06</NumeroBoletin>
+    <Nombre>Modifica ley N° 10.336, de organización y atribuciones de la Contraloría General de la República, con el objeto de delimitar el régimen de exclusiva confianza en dicha institución</Nombre>
+    <FechaIngreso>2026-06-22T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19093</Id>
+    <NumeroBoletin>18421-07</NumeroBoletin>
+    <Nombre>Modifica diversos cuerpos legales, con el objeto de sancionar la utilización y reclutamiento de menores de edad por parte de asociaciones delictivas y criminales</Nombre>
+    <FechaIngreso>2026-06-30T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19081</Id>
+    <NumeroBoletin>18393-08</NumeroBoletin>
+    <Nombre>Modifica la ley N° 18.410, con el objeto de establecer compensaciones eléctricas automáticas agravadas para usuarios de territorios insulares y aislados afectados por interrupciones prolongadas</Nombre>
+    <FechaIngreso>2026-06-16T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19089</Id>
+    <NumeroBoletin>18406-02</NumeroBoletin>
+    <Nombre>Modifica la ley N° 18.575 orgánica constitucional de Bases Generales de la Administración del Estado, en lo relativo al régimen de protección de derechos fundamentales aplicable al personal de las Fuerzas Armadas y de Orden y Seguridad Pública</Nombre>
+    <FechaIngreso>2026-06-23T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19110</Id>
+    <NumeroBoletin>18416-07</NumeroBoletin>
+    <Nombre>Modifica el Código Penal para hacer aplicable la imprescriptibilidad de la acción penal a todos los casos de trata de personas contra víctimas menores de edad y establecer reglas especiales de protección penal</Nombre>
+    <FechaIngreso>2026-06-23T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19112</Id>
+    <NumeroBoletin>18419-11</NumeroBoletin>
+    <Nombre>Modifica el Código Sanitario para establecer el deber del médico de informar a la mujer sobre la actividad cardíaca embrionaria o fetal, y de ofrecerle la oportunidad de escucharla, en forma previa a la interrupción del embarazo</Nombre>
+    <FechaIngreso>2026-06-25T11:06:26</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19118</Id>
+    <NumeroBoletin>18433-04</NumeroBoletin>
+    <Nombre>Modifica diversos cuerpos legales para promover la ciudadanía digital y establecer medidas de prevención y protección frente al daño digital en el sistema escolar</Nombre>
+    <FechaIngreso>2026-06-25T21:10:16</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18717</Id>
+    <NumeroBoletin>18055-07</NumeroBoletin>
+    <Nombre>Modifica diversos cuerpos legales, para prohibir a los consejeros del Consejo de Defensa del Estado, la militancia y participación político partidista</Nombre>
+    <FechaIngreso>2026-01-13T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18760</Id>
+    <NumeroBoletin>18097-07</NumeroBoletin>
+    <Nombre>Modifica el Código Procesal Penal, para mejorar el recurso de revisión en materia penal, y garantiza la indemnización por error judicial</Nombre>
+    <FechaIngreso>2026-01-28T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18791</Id>
+    <NumeroBoletin>18129-03</NumeroBoletin>
+    <Nombre>Modifica la ley N° 20.423, del Sistema Institucional para el Desarrollo del Turismo, con el objeto de promover la elaboración de planes de acción para las zonas de interés turístico</Nombre>
+    <FechaIngreso>2026-03-10T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18799</Id>
+    <NumeroBoletin>18136-11</NumeroBoletin>
+    <Nombre>Modifica el Código Sanitario para exigir que el etiquetado de medicamentos y vacunas contenga información sobre precauciones y efectos adversos</Nombre>
+    <FechaIngreso>2026-03-17T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19047</Id>
+    <NumeroBoletin>18362-19</NumeroBoletin>
+    <Nombre>Establece la obligación de fijar domicilio en Chile a las plataformas digitales</Nombre>
+    <FechaIngreso>2026-06-11T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19099</Id>
+    <NumeroBoletin>18408-25</NumeroBoletin>
+    <Nombre>Modifica leyes que indica para permitir la homologación del servicio militar en los procesos de formación e ingreso institucional de Carabineros de Chile y Gendarmería de Chile</Nombre>
+    <FechaIngreso>2026-06-18T09:44:02</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18729</Id>
+    <NumeroBoletin>18068-13</NumeroBoletin>
+    <Nombre>Modifica el Código del Trabajo para imponer al empleador la obligación de proveer a los trabajadores capacitación en respiración cardiopulmonar, en los establecimientos que indica</Nombre>
+    <FechaIngreso>2026-01-20T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18738</Id>
+    <NumeroBoletin>18077-25</NumeroBoletin>
+    <Nombre>Deroga disposiciones del Código Penal que establecen una presunción especial de legítima defensa respecto de funcionarios policiales, de Gendarmería y de las Fuerzas Armadas</Nombre>
+    <FechaIngreso>2026-01-21T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18740</Id>
+    <NumeroBoletin>18078-07</NumeroBoletin>
+    <Nombre>Modifica el Código Orgánico de Tribunales para incorporar el vínculo de amistad como causal de implicancia</Nombre>
+    <FechaIngreso>2026-01-22T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18722</Id>
+    <NumeroBoletin>18051-15</NumeroBoletin>
+    <Nombre>Modifica la ley N° 18.290, de Tránsito, para diferir la renovación periódica de licencias de conducir no profesionales hasta los 65 años de edad e imponer, a quienes no los hayan cumplido, el deber de informar aquellas condiciones médicas que afecten su capacidad de conducción</Nombre>
+    <FechaIngreso>2026-01-08T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18828</Id>
+    <NumeroBoletin>18163-14</NumeroBoletin>
+    <Nombre>Modifica la ley N° 20.898, que establece un procedimiento simplificado para la regularización de viviendas de autoconstrucción, con el objeto de establecer un mecanismo para la formulación de observaciones y subsanación de éstas y extender el plazo de vigencia del procedimiento</Nombre>
+    <FechaIngreso>2026-04-08T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18895</Id>
+    <NumeroBoletin>18233-07</NumeroBoletin>
+    <Nombre>Modifica la Carta Fundamental, con el objeto de regular la conducción estratégica del Estado en materias de seguridad </Nombre>
+    <FechaIngreso>2026-04-22T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19071</Id>
+    <NumeroBoletin>18402-33</NumeroBoletin>
+    <Nombre>Modifica el Código de Aguas para fortalecer la protección de nacientes, vertientes y cabeceras de cuenca</Nombre>
+    <FechaIngreso>2026-06-17T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19072</Id>
+    <NumeroBoletin>18390-07</NumeroBoletin>
+    <Nombre>Modifica la ley N° 19.903, con el objeto de perfeccionar y digitalizar la adición, supresión, modificación y rectificación del inventario de las posesiones efectivas de las herencias intestadas</Nombre>
+    <FechaIngreso>2026-06-16T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19115</Id>
+    <NumeroBoletin>18434-07</NumeroBoletin>
+    <Nombre>Modifica cuerpos legales que indica para sancionar la explotación, facilitación y promoción de servicios sexuales remunerados de terceros</Nombre>
+    <FechaIngreso>2026-06-28T12:42:03</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19117</Id>
+    <NumeroBoletin>18432-07</NumeroBoletin>
+    <Nombre>Modifica el Código Penal para delimitar la aplicación del tipo penal de apremios ilegítimos u otros tratos crueles, inhumanos o degradantes, a conductas cometidas por empleados públicos respecto de personas bajo su custodia</Nombre>
+    <FechaIngreso>2026-06-25T16:45:04</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18756</Id>
+    <NumeroBoletin>18090-19</NumeroBoletin>
+    <Nombre>Prohíbe el acceso a plataformas de redes sociales a menores de dieciséis años y establece exigencias para los proveedores de servicios digitales</Nombre>
+    <FechaIngreso>2026-01-27T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18817</Id>
+    <NumeroBoletin>18152-07</NumeroBoletin>
+    <Nombre>Modifica normas sobre prisión preventiva, suspensión condicional del procedimiento, cumplimiento de penas sustitutivas y facultades de incautación de las fuerzas de orden y seguridad, en los delitos que indica</Nombre>
+    <FechaIngreso>2026-04-07T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18889</Id>
+    <NumeroBoletin>18223-15</NumeroBoletin>
+    <Nombre>Establece un régimen transitorio de exención de sanciones para conductores de aplicaciones de transporte remunerado de pasajeros, hasta la entrada en vigencia de la ley N° 21.553</Nombre>
+    <FechaIngreso>2026-04-25T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19036</Id>
+    <NumeroBoletin>18370-25</NumeroBoletin>
+    <Nombre>Modifica la ley N° 21.459, con el objeto de actualizar la regulación en materia de delitos informáticos</Nombre>
+    <FechaIngreso>2026-06-16T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18715</Id>
+    <NumeroBoletin>18053-07</NumeroBoletin>
+    <Nombre>Modifica diversos cuerpos legales para prevenir y sancionar con mayor severidad el uso del crédito prendario para lavado de activos</Nombre>
+    <FechaIngreso>2026-01-12T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18746</Id>
+    <NumeroBoletin>18084-13</NumeroBoletin>
+    <Nombre>Modifica el Código del Trabajo, en relación al contrato de los trabajadores portuarios eventuales</Nombre>
+    <FechaIngreso>2026-01-26T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18763</Id>
+    <NumeroBoletin>18101-07</NumeroBoletin>
+    <Nombre>Modifica la Carta Fundamental con el objeto de fijar plazo a la Cámara revisora para la tramitación de proyectos de ley</Nombre>
+    <FechaIngreso>2026-03-02T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18789</Id>
+    <NumeroBoletin>18127-02</NumeroBoletin>
+    <Nombre>Modifica la ley N° 18.948, orgánica constitucional de las Fuerzas Armadas, en cuanto a los requisitos de salud exigidos para el ingreso a las Escuelas Matrices</Nombre>
+    <FechaIngreso>2026-03-10T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18811</Id>
+    <NumeroBoletin>18148-07</NumeroBoletin>
+    <Nombre>Modifica la Carta Fundamental, para fortalecer la conducción estratégica de las Fuerzas Armadas</Nombre>
+    <FechaIngreso>2026-03-25T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18821</Id>
+    <NumeroBoletin>18162-07</NumeroBoletin>
+    <Nombre>Modifica diversos cuerpos legales, con el objeto de fortalecer el cumplimiento de las sanciones y la persecución de delitos graves en materia de responsabilidad penal adolescente</Nombre>
+    <FechaIngreso>2026-04-08T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18822</Id>
+    <NumeroBoletin>18157-33</NumeroBoletin>
+    <Nombre>Prorroga el plazo para la regularización e inscripción de derechos de aprovechamiento de aguas hasta el año 2030</Nombre>
+    <FechaIngreso>2026-04-06T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18824</Id>
+    <NumeroBoletin>18160-07</NumeroBoletin>
+    <Nombre>Modifica la Carta Fundamental a fin de suprimir la atribución del Presidente de la República para otorgar indultos particulares</Nombre>
+    <FechaIngreso>2026-04-07T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18829</Id>
+    <NumeroBoletin>18166-24</NumeroBoletin>
+    <Nombre>Introduce la obligación de las empresas productoras de conciertos y eventos musicales masivos en orden a garantizar la adecuada visibilidad del espectáculo a sus asistentes</Nombre>
+    <FechaIngreso>2026-04-08T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18832</Id>
+    <NumeroBoletin>18169-07</NumeroBoletin>
+    <Nombre>Modifica diversos cuerpos legales a fin de otorgar atención preferente para la constatación de lesiones a víctimas e imputados, así como para la realización de exámenes toxicológicos a conductores</Nombre>
+    <FechaIngreso>2026-04-09T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18839</Id>
+    <NumeroBoletin>18174-07</NumeroBoletin>
+    <Nombre>Modifica la ley N° 17.798, sobre control de armas, y el Código Penal y Código Procesal Penal, en materia de responsabilidad de los padres, adoptantes, tutores y cuidadores de menores de edad en el acceso, facilitación, porte y utilización de armas u otros elementos aptos para agredir</Nombre>
+    <FechaIngreso>2026-04-13T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18842</Id>
+    <NumeroBoletin>18179-18</NumeroBoletin>
+    <Nombre>Prohíbe la apología y promoción de la narcocultura, incorporando medidas preventivas y sancionatorias para evitar la exposición de niños, niñas y adolescentes a contenidos que incentiven la comisión de delitos</Nombre>
+    <FechaIngreso>2026-04-14T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18858</Id>
+    <NumeroBoletin>18190-11</NumeroBoletin>
+    <Nombre>Modifica la ley N° 20.606, sobre composición nutricional de los alimentos y su publicidad, con el objeto de incorporar criterios de rotulación de alimentos para animales</Nombre>
+    <FechaIngreso>2026-04-15T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18867</Id>
+    <NumeroBoletin>18202-06</NumeroBoletin>
+    <Nombre>Rehabilita la nacionalidad chilena a Carlos Javier Araya Labra</Nombre>
+    <FechaIngreso>2026-04-20T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18876</Id>
+    <NumeroBoletin>18212-07</NumeroBoletin>
+    <Nombre>Modifica el código penal y la ley Nº 20.084, con el objeto de establecer la responsabilidad penal de los padres o guardadores por omisión grave del deber de cuidado</Nombre>
+    <FechaIngreso>2026-04-21T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18879</Id>
+    <NumeroBoletin>18217-07</NumeroBoletin>
+    <Nombre>Modifica diversos cuerpos legales, con el objeto de perfeccionar las disposiciones relativas a la persecución penal de la criminalidad organizada y el terrorismo</Nombre>
+    <FechaIngreso>2026-04-22T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18881</Id>
+    <NumeroBoletin>18199-12</NumeroBoletin>
+    <Nombre>Modifica la ley N° 20.920, que establece marco para la gestión de residuos, la responsabilidad extendida del productor y fomento al reciclaje, para sancionar las infracciones en la gestión de desechos textiles</Nombre>
+    <FechaIngreso>2026-04-20T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18891</Id>
+    <NumeroBoletin>18226-15</NumeroBoletin>
+    <Nombre>Autoriza la aplicación de prefijos telefónicos en la identificación de llamadas de cobranza extrajudicial</Nombre>
+    <FechaIngreso>2026-04-28T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18723</Id>
+    <NumeroBoletin>18060-07</NumeroBoletin>
+    <Nombre>Para perfeccionar la ley N° 21.719, que regula la protección y el tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales, en los términos que indica</Nombre>
+    <FechaIngreso>2026-01-14T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18765</Id>
+    <NumeroBoletin>18100-11</NumeroBoletin>
+    <Nombre>Modifica la ley N° 19.451, que establece normas sobre trasplante y donación de órganos, para incorporar la posibilidad de acreditar la muerte de un donante, según un criterio cardiovascular</Nombre>
+    <FechaIngreso>2026-03-03T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18900</Id>
+    <NumeroBoletin>18237-33</NumeroBoletin>
+    <Nombre>Prorroga el plazo establecido en el artículo segundo transitorio de la ley N° 21.435, que reforma el Código de Aguas</Nombre>
+    <FechaIngreso>2026-05-04T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18902</Id>
+    <NumeroBoletin>18239-36</NumeroBoletin>
+    <Nombre>Establece sanciones en el caso de acusaciones, denuncias o querellas falsas y regula el procedimiento para su aplicación</Nombre>
+    <FechaIngreso>2026-05-06T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18905</Id>
+    <NumeroBoletin>18242-13</NumeroBoletin>
+    <Nombre>Modifica el Código del Trabajo, con el objeto de permitir la cesión voluntaria de parte del feriado legal a otros trabajadores, en los casos que indica</Nombre>
+    <FechaIngreso>2026-05-06T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18914</Id>
+    <NumeroBoletin>18251-07</NumeroBoletin>
+    <Nombre>Modifica el artículo 445 del Código de Procedimiento Civil para establecer un régimen excepcional de inembargabilidad de la vivienda principal del deudor</Nombre>
+    <FechaIngreso>2026-05-09T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18938</Id>
+    <NumeroBoletin>18274-07</NumeroBoletin>
+    <Nombre>Modifica la Carta Fundamental, con el objeto de consagrar el deber del Estado de resguardar la soberanía digital</Nombre>
+    <FechaIngreso>2026-05-19T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18939</Id>
+    <NumeroBoletin>18275-12</NumeroBoletin>
+    <Nombre>Modifica diversos cuerpos legales, con el objeto de precisar las funciones ecosistémicas esenciales de los humedales urbanos y los criterios para su delimitación y protección.</Nombre>
+    <FechaIngreso>2026-05-19T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18947</Id>
+    <NumeroBoletin>18270-25</NumeroBoletin>
+    <Nombre>Regula la fabricación, acondicionamiento, importación, comercialización y uso de vehículos blindados de uso particular</Nombre>
+    <FechaIngreso>2026-05-13T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18952</Id>
+    <NumeroBoletin>18271-07</NumeroBoletin>
+    <Nombre>Establece la obligación de declarar los aportes provenientes desde el extranjero para personas jurídicas sin fines de lucro</Nombre>
+    <FechaIngreso>2026-05-13T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18972</Id>
+    <NumeroBoletin>18298-07</NumeroBoletin>
+    <Nombre>Modifica la Carta Fundamental, con el objeto de incluir a las empresas del Estado entre las entidades fiscalizadas por la Contraloría General de la República</Nombre>
+    <FechaIngreso>2026-06-02T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18980</Id>
+    <NumeroBoletin>18305-04</NumeroBoletin>
+    <Nombre>Modifica la Ley sobre Subvención del Estado a Establecimientos Educacionales, con el objeto de prohibir la postulación a las instituciones educativas que indica a alumnos sancionados con la medida de expulsión</Nombre>
+    <FechaIngreso>2026-06-03T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18987</Id>
+    <NumeroBoletin>18307-03</NumeroBoletin>
+    <Nombre>Modifica la ley N° 19.496, que establece normas sobre protección de los derechos de los consumidores, para disponer la devolución íntegra del valor del pasaje cancelado en el transporte interurbano de pasajeros</Nombre>
+    <FechaIngreso>2026-05-29T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18997</Id>
+    <NumeroBoletin>18294-15</NumeroBoletin>
+    <Nombre>Modifica la ley N°18.290, de Tránsito, para eximir en todos los casos el pago de peaje a los cuerpos de bomberos</Nombre>
+    <FechaIngreso>2026-06-05T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19000</Id>
+    <NumeroBoletin>18319-07</NumeroBoletin>
+    <Nombre>Modifica el Código Penal para incorporar la circunstancia agravante de atentado contra personas que se desempeñen en centros de acogida y cuidado de niños, niñas y adolescentes reconocidos por el Estado</Nombre>
+    <FechaIngreso>2026-06-02T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19001</Id>
+    <NumeroBoletin>18323-07</NumeroBoletin>
+    <Nombre>Modifica diversos cuerpos legales con el objeto de fortalecer la persecución y sanción del delito de abigeato</Nombre>
+    <FechaIngreso>2026-06-09T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19010</Id>
+    <NumeroBoletin>18332-25</NumeroBoletin>
+    <Nombre>Modifica la ley N° 21.802, en lo relativo al plazo para considerar un delito como flagrante, en el caso de detenciones efectuadas por inspectores de seguridad municipal </Nombre>
+    <FechaIngreso>2026-06-10T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19011</Id>
+    <NumeroBoletin>18333-07</NumeroBoletin>
+    <Nombre>Modifica diversos cuerpos legales, con el objeto de sancionar penalmente el reclutamiento de personas por parte de una asociación delictiva o criminal</Nombre>
+    <FechaIngreso>2026-06-10T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19015</Id>
+    <NumeroBoletin>18336-15</NumeroBoletin>
+    <Nombre>Modifica el Código Aeronáutico, con el objeto de reforzar la protección de los derechos de los pasajeros ante imprevistos ocasionados por razones de seguridad, fuerza mayor o fenómenos meteorológicos</Nombre>
+    <FechaIngreso>2026-06-10T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19019</Id>
+    <NumeroBoletin>18348-13</NumeroBoletin>
+    <Nombre>Modifica el Código del Trabajo en materia de permiso por fallecimiento de un hijo o de la persona bajo el cuidado personal del trabajador</Nombre>
+    <FechaIngreso>2026-06-09T08:56:45</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18766</Id>
+    <NumeroBoletin>18102-02</NumeroBoletin>
+    <Nombre>Modifica el decreto ley N° 3.356, del Ministerio de Defensa Nacional, de 1980, para incorporar entre quienes pueden portar armas de fuego, a los suboficiales en retiro de las Fuerzas Armadas y de Carabineros de Chile, en los términos que indica</Nombre>
+    <FechaIngreso>2026-03-03T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18868</Id>
+    <NumeroBoletin>18200-06</NumeroBoletin>
+    <Nombre>Modifica la ley N° 19.886, de bases sobre contratos administrativos de suministro y prestación de servicios, con el objeto de establecer una inhabilidad especial respecto de las personas jurídicas que indica</Nombre>
+    <FechaIngreso>2026-04-20T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18910</Id>
+    <NumeroBoletin>18247-13</NumeroBoletin>
+    <Nombre>Modifica el Código del Trabajo para otorgar un permiso laboral en caso de fallecimiento de los abuelos o nietos del trabajador</Nombre>
+    <FechaIngreso>2026-05-06T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18954</Id>
+    <NumeroBoletin>18277-04</NumeroBoletin>
+    <Nombre>Restringe el uso de redes sociales por parte de los menores de edad que indica</Nombre>
+    <FechaIngreso>2026-05-20T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19004</Id>
+    <NumeroBoletin>18329-06</NumeroBoletin>
+    <Nombre>Sanciona la ocupación de bienes nacionales de uso público mediante instalaciones precarias que sirven de base a la comisión de delitos</Nombre>
+    <FechaIngreso>2026-06-05T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19042</Id>
+    <NumeroBoletin>18367-25</NumeroBoletin>
+    <Nombre>Establece reglas especiales para la determinación de la pena respecto de los delitos de homicidio y lesiones cometidos por adolescentes en contra de funcionarios policiales</Nombre>
+    <FechaIngreso>2026-06-12T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19059</Id>
+    <NumeroBoletin>18380-07</NumeroBoletin>
+    <Nombre>Establece causales de inhabilidades y recusación respecto de jueces y fiscales</Nombre>
+    <FechaIngreso>2026-06-15T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19075</Id>
+    <NumeroBoletin>18391-09</NumeroBoletin>
+    <Nombre>Regula la responsabilidad de empresas de servicios sanitarios para garantizar la reparación de bienes nacionales de uso público</Nombre>
+    <FechaIngreso>2026-06-16T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18710</Id>
+    <NumeroBoletin>18046-18</NumeroBoletin>
+    <Nombre>Sanciona y permite reparar las acusaciones, denuncias y querellas efectuadas en contextos de cuidado personal, relación directa y regular, alimentos y violencia intrafamiliar, que resultaren falsas</Nombre>
+    <FechaIngreso>2026-01-07T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18805</Id>
+    <NumeroBoletin>18141-07</NumeroBoletin>
+    <Nombre>Modifica la Carta Fundamental para establecer un Proyecto Educativo Nacional</Nombre>
+    <FechaIngreso>2026-03-17T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18937</Id>
+    <NumeroBoletin>18273-21</NumeroBoletin>
+    <Nombre>Modifica la Ley General de Pesca y Acuicultura, con el objeto de reconocer las actividades conexas a la pesca industrial.</Nombre>
+    <FechaIngreso>2026-05-19T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19032</Id>
+    <NumeroBoletin>18355-25</NumeroBoletin>
+    <Nombre>Modifica el Código Procesal Penal, con el objeto de promover la persecución y sanción de delitos cometidos en recintos penitenciarios</Nombre>
+    <FechaIngreso>2026-06-09T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19045</Id>
+    <NumeroBoletin>18364-07</NumeroBoletin>
+    <Nombre>Modifica la carta fundamental para establecer la jornada laboral máxima de 40 horas semanales para los funcionarios públicos</Nombre>
+    <FechaIngreso>2026-06-12T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19046</Id>
+    <NumeroBoletin>18363-06</NumeroBoletin>
+    <Nombre>Modifica la ley N° 19.925, sobre expendio y consumo de bebidas alcohólicas, en materia de requisitos para acceder a patentes de funcionamiento de establecimientos que expenden alcohol</Nombre>
+    <FechaIngreso>2026-06-11T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19049</Id>
+    <NumeroBoletin>18360-07</NumeroBoletin>
+    <Nombre>Modifica el Código Penal en materia de sanciones aplicables por delitos cometidos en contra de funcionarios y autoridades</Nombre>
+    <FechaIngreso>2026-06-10T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19053</Id>
+    <NumeroBoletin>18375-29</NumeroBoletin>
+    <Nombre>Establece normas para la regulación de la emisión de ruido generado por instalaciones deportivas</Nombre>
+    <FechaIngreso>2026-06-15T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19064</Id>
+    <NumeroBoletin>18382-29</NumeroBoletin>
+    <Nombre>Modifica ley N° 19.712, del Deporte, para establecer medidas de seguridad, protección y resguardo de la infancia y la adolescencia, en actividades físicas, deportivas y recreativas</Nombre>
+    <FechaIngreso>2026-06-15T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19077</Id>
+    <NumeroBoletin>18400-01</NumeroBoletin>
+    <Nombre>Establece medidas a favor de la seguridad de las personas y la protección de la biodiversidad y la fauna local, por medio del control de los perros asilvestrados o ferales</Nombre>
+    <FechaIngreso>2026-06-16T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19100</Id>
+    <NumeroBoletin>18412-07</NumeroBoletin>
+    <Nombre>Modifica ley N° 18.415, orgánica constitucional de los Estados de Excepción, con el objeto de introducir el concepto de bienes y servicios esenciales durante su vigencia</Nombre>
+    <FechaIngreso>2026-06-22T10:08:45</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19103</Id>
+    <NumeroBoletin>18413-07</NumeroBoletin>
+    <Nombre>Modifica la Constitución Política de la República en materia de admisibilidad y efectos de las acusaciones constitucionales</Nombre>
+    <FechaIngreso>2026-06-22T16:50:01</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19122</Id>
+    <NumeroBoletin>18439-02</NumeroBoletin>
+    <Nombre>Modifica el decreto ley N°3.356, de 1980, para permitir el porte de armas de fuego al personal en retiro de Carabineros de Chile, en las condiciones que indica</Nombre>
+    <FechaIngreso>2026-07-07T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18788</Id>
+    <NumeroBoletin>18125-07</NumeroBoletin>
+    <Nombre>Modifica el artículo 19 N° 9 de la Carta Fundamental, con el objeto de consagrar la obligación para el Estado de promover las políticas sanitarias que indica</Nombre>
+    <FechaIngreso>2026-03-10T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18798</Id>
+    <NumeroBoletin>18135-06</NumeroBoletin>
+    <Nombre>Modifica la ley N° 18.575, orgánica constitucional de Bases Generales de la Administración del Estado, para resguardar la soberanía nacional en la ejecución de políticas públicas</Nombre>
+    <FechaIngreso>2026-03-17T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18834</Id>
+    <NumeroBoletin>18171-13</NumeroBoletin>
+    <Nombre>Modifica el Código del Trabajo en lo relativo a la distribución de la jornada laboral</Nombre>
+    <FechaIngreso>2026-04-09T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18958</Id>
+    <NumeroBoletin>18285-05</NumeroBoletin>
+    <Nombre>Modifica los cuerpos legales que indica para fortalecer la publicidad y transparencia en materia de modificación presupuestaria</Nombre>
+    <FechaIngreso>2026-05-18T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19029</Id>
+    <NumeroBoletin>18349-06</NumeroBoletin>
+    <Nombre>Modifica el Código Penal y el Código Procesal Penal para tipificar como delito el empleo de bienes de uso público o de libre acceso al público para habitar o pernoctar y establecerlo como un delito de flagrancia permanente</Nombre>
+    <FechaIngreso>2026-06-09T13:06:56</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19030</Id>
+    <NumeroBoletin>18353-07</NumeroBoletin>
+    <Nombre>Conmutación de penas</Nombre>
+    <FechaIngreso>2026-06-09T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19054</Id>
+    <NumeroBoletin>18374-06</NumeroBoletin>
+    <Nombre>Modifica la ley N° 18.695, orgánica constitucional de municipalidades, para establecer la obligatoriedad de dar respuesta a los requerimientos de información y antecedentes efectuados por el Concejo Municipal o los concejales que lo integran, a las Corporaciones, Fundaciones y Asociaciones Municipales</Nombre>
+    <FechaIngreso>2026-06-15T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19055</Id>
+    <NumeroBoletin>18373-07</NumeroBoletin>
+    <Nombre>Modifica la ley N° 19.913, que crea la Unidad de Análisis Financiero, para agilizar el acceso a información amparada por secreto o reserva bancaria, manteniendo el control judicial previo</Nombre>
+    <FechaIngreso>2026-06-15T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19056</Id>
+    <NumeroBoletin>18381-02</NumeroBoletin>
+    <Nombre>Aumenta la pena aplicable al delito de ingreso no autorizado a recintos militares y policiales</Nombre>
+    <FechaIngreso>2026-06-15T16:32:02</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19086</Id>
+    <NumeroBoletin>18397-07</NumeroBoletin>
+    <Nombre>Regula el régimen de responsabilidad de organizadores, convocantes y promotores de manifestaciones públicas y modifica el Código Penal en materia de daños en bienes públicos o privados con motivo, ocasión o en contexto de su realización</Nombre>
+    <FechaIngreso>2026-06-16T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19125</Id>
+    <NumeroBoletin>18442-07</NumeroBoletin>
+    <Nombre>Modifica diversos cuerpos legales, con el objeto de agravar las sanciones en el caso de entrega o exhibición de material pornográfico e inadecuado a menores de catorce años</Nombre>
+    <FechaIngreso>2026-07-07T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18745</Id>
+    <NumeroBoletin>18083-03</NumeroBoletin>
+    <Nombre>Modifica la ley N° 20.720, con el objeto de facilitar el acceso al procedimiento concursal de renegociación a deudores en las situaciones de emergencia que indica</Nombre>
+    <FechaIngreso>2026-01-26T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18705</Id>
+    <NumeroBoletin>18045-07</NumeroBoletin>
+    <Nombre>Modifica la Carta Fundamental para reforzar el quórum de aprobación, modificación y derogación de normas relativas a los derechos laborales y previsionales que indica</Nombre>
+    <FechaIngreso>2026-01-05T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18854</Id>
+    <NumeroBoletin>18193-06</NumeroBoletin>
+    <Nombre>Modifica la ley N° 19.886, Ley de Bases sobre Contratos Administrativos de Suministro y Prestación de Servicios, con el objeto de perfeccionar las disposiciones relativas a los procedimientos de contratación</Nombre>
+    <FechaIngreso>2026-04-15T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18916</Id>
+    <NumeroBoletin>18254-11</NumeroBoletin>
+    <Nombre>Modifica diversos cuerpos legales, con el objeto de aumentar las sanciones ante el incumplimiento del período de asignación obligatoria por parte de los profesionales del área de la salud que indica</Nombre>
+    <FechaIngreso>2026-05-13T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18950</Id>
+    <NumeroBoletin>18265-07</NumeroBoletin>
+    <Nombre>Modifica textos legales que indica en materia de procedencia de la prisión preventiva y penas sustitutivas a las privativas y restrictivas de libertad</Nombre>
+    <FechaIngreso>2026-05-12T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19057</Id>
+    <NumeroBoletin>18376-13</NumeroBoletin>
+    <Nombre>Establece la modalidad de trabajo a distancia o teletrabajo respecto de trabajadores que indica</Nombre>
+    <FechaIngreso>2026-06-15T12:21:36</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19083</Id>
+    <NumeroBoletin>18398-06</NumeroBoletin>
+    <Nombre>Modifica la ley N° 18.695, orgánica constitucional de Municipalidades, en materia de descanso maternal prenatal y postnatal de las concejalas</Nombre>
+    <FechaIngreso>2026-06-16T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19084</Id>
+    <NumeroBoletin>18392-04</NumeroBoletin>
+    <Nombre>Promueve la difusión de ceremonias republicanas en los establecimientos educacionales reconocidos por el Estado</Nombre>
+    <FechaIngreso>2026-06-16T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18953</Id>
+    <NumeroBoletin>18263-03</NumeroBoletin>
+    <Nombre>Para la protección de la vivienda propia y el resguardo del pago de los créditos hipotecarios ante el alza de la unidad de fomento</Nombre>
+    <FechaIngreso>2026-05-11T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18968</Id>
+    <NumeroBoletin>18284-29</NumeroBoletin>
+    <Nombre>Establece medidas de control, prohibición y resguardo de la integridad deportiva respecto de plataformas de apuestas en línea no autorizadas</Nombre>
+    <FechaIngreso>2026-05-17T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18711</Id>
+    <NumeroBoletin>18049-04</NumeroBoletin>
+    <Nombre>Modifica diversos cuerpos legales para suprimir el límite de edad en la educación de personas con discapacidad</Nombre>
+    <FechaIngreso>2026-01-08T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18739</Id>
+    <NumeroBoletin>18073-01</NumeroBoletin>
+    <Nombre>Modifica la ley N° 21.744, que crea el Servicio Nacional Forestal y modifica la Ley General de Urbanismo y Construcciones, en materia de prevención de incendios forestales</Nombre>
+    <FechaIngreso>2026-01-26T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18836</Id>
+    <NumeroBoletin>18172-21</NumeroBoletin>
+    <Nombre>Modifica la ley N° 21.027, con el objeto de incorporar a las organizaciones de carpinteros de ribera como asignatarios de caletas artesanales</Nombre>
+    <FechaIngreso>2026-04-08T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18959</Id>
+    <NumeroBoletin>18281-15</NumeroBoletin>
+    <Nombre>Modifica la Ley de Tránsito para establecer una excepción acotada a la restricción vehicular respecto de vehículos destinados al funcionamiento de ferias libres legalmente autorizadas</Nombre>
+    <FechaIngreso>2026-05-14T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18960</Id>
+    <NumeroBoletin>18282-07</NumeroBoletin>
+    <Nombre>Modifica el Código Penal para sancionar toda forma de instrumentalización de niños, niñas y adolescentes para cometer delitos</Nombre>
+    <FechaIngreso>2026-05-15T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19023</Id>
+    <NumeroBoletin>18343-16</NumeroBoletin>
+    <Nombre>Modifica el inciso segundo del artículo 355 del Reglamento de la Cámara de Diputados, con el objeto de aumentar el quorum de los acuerdos adoptados por la Comisión de Ética que apliquen sanciones por faltas a los deberes parlamentarios</Nombre>
+    <FechaIngreso>2026-06-08T14:03:06</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18787</Id>
+    <NumeroBoletin>18126-03</NumeroBoletin>
+    <Nombre>Declara el día 1 de octubre de cada año como el Día Nacional de la Numismática y la Educación Financiera</Nombre>
+    <FechaIngreso>2026-03-10T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18790</Id>
+    <NumeroBoletin>18128-03</NumeroBoletin>
+    <Nombre>Modifica la Ley Orgánica Constitucional del Banco Central, para promover el uso de elementos del patrimonio natural y cultural del país en las monedas y billetes.</Nombre>
+    <FechaIngreso>2026-03-10T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18861</Id>
+    <NumeroBoletin>18198-15</NumeroBoletin>
+    <Nombre>Modifica cuerpos legales que indica con el objeto de fortalecer la seguridad marítima y pesquera</Nombre>
+    <FechaIngreso>2026-04-15T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19120</Id>
+    <NumeroBoletin>18437-37</NumeroBoletin>
+    <Nombre>Declara el 8 de octubre de cada año como el Día Nacional de Punta Angamos</Nombre>
+    <FechaIngreso>2026-07-07T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18809</Id>
+    <NumeroBoletin>18146-07</NumeroBoletin>
+    <Nombre>Modifica la Carta Fundamental a fin de suprimir la atribución del Presidente de la República para otorgar indultos particulares</Nombre>
+    <FechaIngreso>2026-03-25T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18815</Id>
+    <NumeroBoletin>18150-07</NumeroBoletin>
+    <Nombre>Modifica la Carta Fundamental a efectos de inhabilitar a los secretarios regionales ministeriales para ser candidatos a diputados o senadores</Nombre>
+    <FechaIngreso>2026-03-27T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18896</Id>
+    <NumeroBoletin>18220-07</NumeroBoletin>
+    <Nombre>Reforma constitucional que extiende el periodo en el que las autoridades del Gobierno deben comparecer y suministrar antecedentes ante las comisiones especiales investigadoras</Nombre>
+    <FechaIngreso>2026-04-21T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19024</Id>
+    <NumeroBoletin>18346-11</NumeroBoletin>
+    <Nombre>Modifica cuerpos legales que indica con el objeto de eximir del requisito de orden médica para la realización del examen de antígeno prostático específico (APE)</Nombre>
+    <FechaIngreso>2026-06-08T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18878</Id>
+    <NumeroBoletin>18213-07</NumeroBoletin>
+    <Nombre>Modifica la Constitución Política para restablecer la estabilidad de los precios de los combustibles</Nombre>
+    <FechaIngreso>2026-04-07T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18951</Id>
+    <NumeroBoletin>18262-06</NumeroBoletin>
+    <Nombre>Establece como requisito para el ingreso a cargos de la Administración del Estado el pago de créditos adeudados al Fisco</Nombre>
+    <FechaIngreso>2026-05-11T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18994</Id>
+    <NumeroBoletin>18321-14</NumeroBoletin>
+    <Nombre>Fortalece la seguridad en edificaciones habitacionales en altura</Nombre>
+    <FechaIngreso>2026-06-03T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19044</Id>
+    <NumeroBoletin>18365-07</NumeroBoletin>
+    <Nombre>Modifica el artículo 291 bis del Código Penal para aumentar las penas del delito de maltrato animal</Nombre>
+    <FechaIngreso>2026-06-12T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19067</Id>
+    <NumeroBoletin>18387-11</NumeroBoletin>
+    <Nombre>Incorpora responsabilidades civiles, administrativas y penales en materia de trasplante y donación de órganos</Nombre>
+    <FechaIngreso>2026-06-16T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18725</Id>
+    <NumeroBoletin>18062-18</NumeroBoletin>
+    <Nombre>Prohíbe el ingreso, registro y uso de redes sociales a personas menores de dieciséis años de edad</Nombre>
+    <FechaIngreso>2026-01-14T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18837</Id>
+    <NumeroBoletin>18176-35</NumeroBoletin>
+    <Nombre>Modifica la ley N° 19.712, del Deporte, con el objeto de promover la inclusión de personas con discapacidad en las actividades deportivas.</Nombre>
+    <FechaIngreso>2026-04-14T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18948</Id>
+    <NumeroBoletin>18269-01</NumeroBoletin>
+    <Nombre>Establece medidas de prevención y control de riesgos asociados a perros salvajes o ferales, en la seguridad de las personas, el ganado y la fauna silvestre</Nombre>
+    <FechaIngreso>2026-05-13T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18995</Id>
+    <NumeroBoletin>18317-13</NumeroBoletin>
+    <Nombre>Modifica el Código de Trabajo para eximir de la jornada ordinaria de trabajo a quienes se desempeñen en instituciones de beneficencia</Nombre>
+    <FechaIngreso>2026-06-02T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19123</Id>
+    <NumeroBoletin>18440-03</NumeroBoletin>
+    <Nombre>Modifica la ley N° 19.496, que establece normas sobre protección de los derechos de los consumidores, con el objeto de fortalecer el resguardo de los asistentes a eventos públicos ante la modificación de las condiciones ofrecidas por sus organizadores</Nombre>
+    <FechaIngreso>2026-07-07T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18727</Id>
+    <NumeroBoletin>18065-25</NumeroBoletin>
+    <Nombre>Modifica el Código Penal, con el objeto de incorporar como circunstancia agravante, cometer el delito contra el personal de Bomberos de Chile y de las entidades que indica, durante el ejercicio de sus funciones</Nombre>
+    <FechaIngreso>2026-01-20T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18753</Id>
+    <NumeroBoletin>18092-07</NumeroBoletin>
+    <Nombre>Para incorporar en la ley N° 19.640, que establece la ley orgánica constitucional del Ministerio Publico, la inhabilidad de quienes hayan sido fiscales para ser nombrados en determinados cargos públicos, en los términos que indica</Nombre>
+    <FechaIngreso>2026-01-28T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18860</Id>
+    <NumeroBoletin>18196-04</NumeroBoletin>
+    <Nombre>Amplía hipótesis de ingreso de Fuerzas de Orden y Seguridad a recintos universitarios y colegiales</Nombre>
+    <FechaIngreso>2026-04-15T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18969</Id>
+    <NumeroBoletin>18292-07</NumeroBoletin>
+    <Nombre>Modifica cuerpos legales que indica para fortalecer la persecución penal en materia de reincidencia</Nombre>
+    <FechaIngreso>2026-05-27T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18970</Id>
+    <NumeroBoletin>18291-07</NumeroBoletin>
+    <Nombre>Fortalece legítima defensa privilegiada y la protección jurídica de las víctimas de delitos violentos</Nombre>
+    <FechaIngreso>2026-05-27T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18714</Id>
+    <NumeroBoletin>18052-07</NumeroBoletin>
+    <Nombre>Modifica la Carta Fundamental para determinar los principios de política exterior que debe observar el Presidente de la República en la conducción de las relaciones internacionales</Nombre>
+    <FechaIngreso>2026-01-12T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18719</Id>
+    <NumeroBoletin>18057-07</NumeroBoletin>
+    <Nombre>Modifica la Carta Fundamental, con el objeto de permitir que personas extranjeras condenadas cumplan la pena en su país de origen o en otro Estado, en los términos que indica</Nombre>
+    <FechaIngreso>2026-01-13T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18734</Id>
+    <NumeroBoletin>18074-06</NumeroBoletin>
+    <Nombre>Modifica la ley N° 18.695, orgánica constitucional de Municipalidades, para fortalecer las facultades fiscalizadoras del concejo municipal</Nombre>
+    <FechaIngreso>2026-01-21T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18744</Id>
+    <NumeroBoletin>18081-17</NumeroBoletin>
+    <Nombre>Rehabilita la nacionalidad chilena a la señora Cecilia del Carmen Salgado Alfaro</Nombre>
+    <FechaIngreso>2026-01-26T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18759</Id>
+    <NumeroBoletin>18096-07</NumeroBoletin>
+    <Nombre>Modifica la Carta Fundamental para establecer un mecanismo de indemnización por error judicial</Nombre>
+    <FechaIngreso>2026-01-28T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18764</Id>
+    <NumeroBoletin>18103-07</NumeroBoletin>
+    <Nombre>Modifica la Carta Fundamental para restringir la entrega de beneficios sociales únicamente a personas de nacionalidad chilena y priva de esta a hijos de extranjeros que indica</Nombre>
+    <FechaIngreso>2026-03-03T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18792</Id>
+    <NumeroBoletin>18130-11</NumeroBoletin>
+    <Nombre>Modifica diversos cuerpos legales, para regular los cementerios y crematorios de mascotas y animales de compañía</Nombre>
+    <FechaIngreso>2026-03-10T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18796</Id>
+    <NumeroBoletin>18134-11</NumeroBoletin>
+    <Nombre>Modifica la ley N° 20.606, sobre composición nutricional de los alimentos y su publicidad, para exigir a los establecimientos que expendan alimentos preparados para el consumo humano, que informen si contienen o han sido elaborados con alguno de los ingredientes que indica</Nombre>
+    <FechaIngreso>2026-03-18T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18801</Id>
+    <NumeroBoletin>18139-07</NumeroBoletin>
+    <Nombre>Modifica la Carta Fundamental, para eliminar la atribución presidencial  de otorgar indultos particulares </Nombre>
+    <FechaIngreso>2026-03-24T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18823</Id>
+    <NumeroBoletin>18158-13</NumeroBoletin>
+    <Nombre>Modifica el Código del Trabajo para establecer fuero laboral para trabajadores y trabajadoras con diagnóstico de cáncer</Nombre>
+    <FechaIngreso>2026-04-06T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18825</Id>
+    <NumeroBoletin>18161-07</NumeroBoletin>
+    <Nombre>Modifica el Código Penal para fortalecer la protección de la comunidad educativa agravando las penas aplicables a los delitos cometidos en contra de docentes y trabajadores de la educación</Nombre>
+    <FechaIngreso>2026-04-07T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18840</Id>
+    <NumeroBoletin>18175-02</NumeroBoletin>
+    <Nombre>Modifica cuerpos legales que indica en materia de protección del espacio aéreo</Nombre>
+    <FechaIngreso>2026-04-10T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18841</Id>
+    <NumeroBoletin>18177-01</NumeroBoletin>
+    <Nombre>Declara el olivo y la aceituna del Valle de Azapa como patrimonio regional y promueve su denominación de origen</Nombre>
+    <FechaIngreso>2026-04-14T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18844</Id>
+    <NumeroBoletin>18181-13</NumeroBoletin>
+    <Nombre>Modifica el Código del Trabajo en materia de transparencia sindical y buena fe en las relaciones colectivas</Nombre>
+    <FechaIngreso>2026-04-14T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18752</Id>
+    <NumeroBoletin>18091-25</NumeroBoletin>
+    <Nombre>Modifica cuerpos legales que indica para regular la constitución y funcionamiento de los comités de seguridad vecinal y de vigilancia rural</Nombre>
+    <FechaIngreso>2026-01-27T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18901</Id>
+    <NumeroBoletin>18238-25</NumeroBoletin>
+    <Nombre>Regula el uso de la fuerza por parte de Gendarmería de Chile</Nombre>
+    <FechaIngreso>2026-05-05T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18716</Id>
+    <NumeroBoletin>18054-22</NumeroBoletin>
+    <Nombre>Modifica la Ley General de Servicios Eléctricos para establecer la obligación de entregar generadores de emergencia a las cooperativas y comités de agua potable rural, en los casos que señala</Nombre>
+    <FechaIngreso>2026-01-12T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19091</Id>
+    <NumeroBoletin>18426-07</NumeroBoletin>
+    <Nombre>Modifica el Código Penal, con el objeto de aumentar la sanción asignada al homicidio simple y modificar reglas de determinación de la pena respecto de los delitos que indica</Nombre>
+    <FechaIngreso>2026-06-30T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18743</Id>
+    <NumeroBoletin>18082-06</NumeroBoletin>
+    <Nombre>Modifica la ley N° 18.700, orgánica constitucional sobre Votaciones Populares y Escrutinios, para exigir la presentación de un programa de gobierno estructurado y verificable al efectuar una declaración de candidatura al cargo de Presidente de la República</Nombre>
+    <FechaIngreso>2026-01-26T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18771</Id>
+    <NumeroBoletin>18108-15</NumeroBoletin>
+    <Nombre>Modifica la ley N° 18.290, de Tránsito, a fin de establecer medidas de seguridad para el transporte de materiales combustibles o inflamables a granel</Nombre>
+    <FechaIngreso>2026-03-04T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18870</Id>
+    <NumeroBoletin>18207-06</NumeroBoletin>
+    <Nombre>Rehabilita la nacionalidad chilena a Macarena Ximena Kathia Aguilera Fernández</Nombre>
+    <FechaIngreso>2026-04-20T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18946</Id>
+    <NumeroBoletin>18267-24</NumeroBoletin>
+    <Nombre>Modifica la ley N° 19.928, sobre fomento de la música chilena, para regular y proteger la participación de teloneros chilenos en conciertos de artistas extranjeros</Nombre>
+    <FechaIngreso>2026-05-13T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19040</Id>
+    <NumeroBoletin>18371-21</NumeroBoletin>
+    <Nombre>Modifica diversos cuerpos legales, con el objeto de sancionar penalmente el tráfico ilícito de recursos hidrobiológicos</Nombre>
+    <FechaIngreso>2026-06-16T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19068</Id>
+    <NumeroBoletin>18388-06</NumeroBoletin>
+    <Nombre>Modifica la ley N° 18.700, con el objeto de mantener la actual distribución de escaños de diputados y diputadas</Nombre>
+    <FechaIngreso>2026-06-16T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19069</Id>
+    <NumeroBoletin>18386-08</NumeroBoletin>
+    <Nombre>Modifica la Ley General de Servicios Eléctricos para facilitar la incorporación y actualización del registro de personas electrodependientes</Nombre>
+    <FechaIngreso>2026-06-16T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19101</Id>
+    <NumeroBoletin>18411-11</NumeroBoletin>
+    <Nombre>Modifica la ley N° 19.451, que establece normas sobre trasplante y donación de órganos, para impedir la discriminación en el acceso a esta prestación médica respecto de personas adoptadas, con filiación desconocida o sin vínculos familiares biológicos (Ley Thiare)</Nombre>
+    <FechaIngreso>2026-06-19T17:54:28</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18718</Id>
+    <NumeroBoletin>18056-07</NumeroBoletin>
+    <Nombre>Modifica la Carta Fundamental, con el objeto de modificar las fechas de la elección presidencial y parlamentaria y de la instalación del Congreso Nacional.</Nombre>
+    <FechaIngreso>2026-01-13T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18720</Id>
+    <NumeroBoletin>18059-07</NumeroBoletin>
+    <Nombre>Modifica diversos cuerpos legales, con el objeto de impedir que abogados que se desempeñan en instituciones estatales actúen como patrocinantes o mandatarios de imputados por los delitos que indica</Nombre>
+    <FechaIngreso>2026-01-13T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18724</Id>
+    <NumeroBoletin>18061-15</NumeroBoletin>
+    <Nombre>Modifica la ley N° 18.290, de Tránsito, para incorporar la definición de zona de escuela</Nombre>
+    <FechaIngreso>2026-01-12T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18726</Id>
+    <NumeroBoletin>18063-07</NumeroBoletin>
+    <Nombre>Modifica la Carta Fundamental para declarar feriado, para la Región de Arica y Parinacota, el día siguiente a la celebración del Carnaval Internacional Andino «Con la Fuerza del Sol Inti Ch´amampi»</Nombre>
+    <FechaIngreso>2026-01-19T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18730</Id>
+    <NumeroBoletin>18067-06</NumeroBoletin>
+    <Nombre>Modifica la ley N° 19.886, Ley de Bases sobre Contratos Administrativos de Suministro y Prestación de Servicios, para garantizar el cumplimiento de obligaciones por parte de las empresas subcontratistas</Nombre>
+    <FechaIngreso>2026-01-20T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18761</Id>
+    <NumeroBoletin>18098-11</NumeroBoletin>
+    <Nombre>Modifica la ley N° 20.584 para extender el derecho de acompañamiento a las personas mayores de edad con dependencia severa</Nombre>
+    <FechaIngreso>2026-01-28T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18793</Id>
+    <NumeroBoletin>18124-07</NumeroBoletin>
+    <Nombre>Modifica la Carta Fundamental, en materia de sanciones derivadas de la declaración de culpabilidad en las acusaciones constitucionales</Nombre>
+    <FechaIngreso>2026-03-10T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18794</Id>
+    <NumeroBoletin>18131-06</NumeroBoletin>
+    <Nombre>Modifica la ley Nº 18.575, orgánica constitucional de Bases Generales de la Administración del Estado, para incorporar una nueva infracción al principio de probidad administrativa, relacionada con la contratación o nombramiento de personas inhabilitadas para trabajar con niños, niñas o adolescentes</Nombre>
+    <FechaIngreso>2026-03-17T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18803</Id>
+    <NumeroBoletin>18138-07</NumeroBoletin>
+    <Nombre>Modifica la Carta Fundamental para reconocer el derecho de todas las personas a la autodeterminación en materia de inmunización</Nombre>
+    <FechaIngreso>2026-03-17T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18810</Id>
+    <NumeroBoletin>18147-07</NumeroBoletin>
+    <Nombre>Modifica el Código Penal, con el objeto de establecer una agravante para los delitos cometidos contra autoridades o funcionarios públicos, en los casos que indica.</Nombre>
+    <FechaIngreso>2026-03-25T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18830</Id>
+    <NumeroBoletin>18167-11</NumeroBoletin>
+    <Nombre>Modifica el Código Sanitario y la ley N° 19.496, que establece normas sobre protección de los derechos de los consumidores, para sancionar la adulteración de fechas de vencimiento y rotulación de productos críticos para la salud</Nombre>
+    <FechaIngreso>2026-04-08T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18936</Id>
+    <NumeroBoletin>18272-37</NumeroBoletin>
+    <Nombre>Declara el trabajo de las mujeres descoladoras en la industria pesquera como patrimonio cultural inmaterial de Chile</Nombre>
+    <FechaIngreso>2026-05-19T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18758</Id>
+    <NumeroBoletin>18095-07</NumeroBoletin>
+    <Nombre>Modifica la ley N° 19.640, orgánica constitucional del Ministerio Público, a fin de establecer una inhabilidad temporal para que fiscales del Ministerio Público puedan asumir cargos de confianza del Presidente de la República</Nombre>
+    <FechaIngreso>2026-01-27T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18802</Id>
+    <NumeroBoletin>18142-35</NumeroBoletin>
+    <Nombre>Establece el reconocimiento y protección integral de los derechos de las personas con síndrome de Down, y modifica el Código del Trabajo, del modo que indica</Nombre>
+    <FechaIngreso>2026-03-24T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18807</Id>
+    <NumeroBoletin>18144-07</NumeroBoletin>
+    <Nombre>Modifica el Código Procesal Penal, para fortalecer la persecución penal del crimen organizado y regular el juicio oral en ausencia del imputado</Nombre>
+    <FechaIngreso>2026-03-25T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19008</Id>
+    <NumeroBoletin>18324-07</NumeroBoletin>
+    <Nombre>Introduce en el Código Procesal Penal la figura del agente encubierto en línea</Nombre>
+    <FechaIngreso>2026-06-04T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19090</Id>
+    <NumeroBoletin>18407-25</NumeroBoletin>
+    <Nombre>Modifica diversos cuerpos legales, con el objeto de agravar las sanciones aplicables en materia de lavado de activos</Nombre>
+    <FechaIngreso>2026-06-24T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18784</Id>
+    <NumeroBoletin>18121-07</NumeroBoletin>
+    <Nombre>Modifica el artículo 476 del Código Penal, con el objeto de aumentar la pena aplicable a los responsables de incendio en lugares destinados al culto religioso</Nombre>
+    <FechaIngreso>2026-03-10T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18880</Id>
+    <NumeroBoletin>18218-25</NumeroBoletin>
+    <Nombre>Modifica diversos cuerpos legales, en materia de persecución de conductas que afectan la seguridad en espacios públicos o alteran gravemente la convivencia ciudadana</Nombre>
+    <FechaIngreso>2026-04-22T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18957</Id>
+    <NumeroBoletin>18283-35</NumeroBoletin>
+    <Nombre>Dispone como beneficiarios de la cuota preferente de inclusión laboral a las y los cuidadores no remunerados y otras personas que indica</Nombre>
+    <FechaIngreso>2026-05-15T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18977</Id>
+    <NumeroBoletin>18304-06</NumeroBoletin>
+    <Nombre>Modifica la Ley Orgánica Constitucional de los Partidos Políticos, con el objeto de establecer un porcentaje mínimo de participación de afiliados para la validez de los procesos de elección de sus autoridades</Nombre>
+    <FechaIngreso>2026-06-03T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18721</Id>
+    <NumeroBoletin>18058-07</NumeroBoletin>
+    <Nombre>Modifica diversos cuerpos legales, para sancionar a quienes cometan delitos en el extranjero haciendo uso de beneficios migratorios otorgados por Chile, en los términos que indican</Nombre>
+    <FechaIngreso>2026-01-13T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18731</Id>
+    <NumeroBoletin>18069-07</NumeroBoletin>
+    <Nombre>Modifica el Código Penal, para aumentar la pena del delito de incendio en los casos y circunstancias que señala.</Nombre>
+    <FechaIngreso>2026-01-20T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18762</Id>
+    <NumeroBoletin>18099-15</NumeroBoletin>
+    <Nombre>Modifica la ley N° 18.290, de Tránsito, para prohibir la circulación de vehículos a tracción animal en zonas urbanas</Nombre>
+    <FechaIngreso>2026-03-02T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18786</Id>
+    <NumeroBoletin>18123-07</NumeroBoletin>
+    <Nombre>Modifica diversos cuerpos legales, con el objeto de eliminar el Consejo Resolutivo de Asignaciones Parlamentarias, y regular otras materias que indica</Nombre>
+    <FechaIngreso>2026-03-10T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18847</Id>
+    <NumeroBoletin>18184-07</NumeroBoletin>
+    <Nombre>Deroga la ley N° 1.187, sobre internación de mercaderías por los boquetes de Antuco, Lonquimay, Pucón y Nahuelhuapi</Nombre>
+    <FechaIngreso>2026-04-14T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18848</Id>
+    <NumeroBoletin>18185-07</NumeroBoletin>
+    <Nombre>Deroga la ley N° 1.559, que incluye a Pisagua, Coronel y Puerto Montt entre los puertos por los cuales puede incorporarse y exportarse alcoholes, licores espirituosos y vinos de todas clases</Nombre>
+    <FechaIngreso>2026-04-14T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18862</Id>
+    <NumeroBoletin>18205-29</NumeroBoletin>
+    <Nombre>Reconoce al fútbol amateur como actividad de interés público y establece normas sobre prevención de la violencia, seguridad, responsabilidad y transparencia en esa actividad</Nombre>
+    <FechaIngreso>2026-04-15T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18749</Id>
+    <NumeroBoletin>18086-07</NumeroBoletin>
+    <Nombre>Modifica el artículo 269 del Código Penal, para aumentar la pena aplicable a delitos cometidos contra el personal de Bomberos de Chile y de otras entidades destinadas a combatir un siniestro u otra calamidad</Nombre>
+    <FechaIngreso>2026-01-27T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18845</Id>
+    <NumeroBoletin>18182-07</NumeroBoletin>
+    <Nombre>Deroga la ley N° 80, que manda publicar en el Diario Oficial y en orden correlativo todos los decretos de que tome razón la Dirección del Tesoro</Nombre>
+    <FechaIngreso>2026-04-14T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18885</Id>
+    <NumeroBoletin>18219-07</NumeroBoletin>
+    <Nombre>Modifica cuerpos legales que indica para extender el estatuto de protección al denunciante de delitos de corrupción y criminalidad económica</Nombre>
+    <FechaIngreso>2026-04-22T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18899</Id>
+    <NumeroBoletin>18236-18</NumeroBoletin>
+    <Nombre>Fortalece la protección de las víctimas de violencia intrafamiliar y previene su revictimización</Nombre>
+    <FechaIngreso>2026-05-04T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18923</Id>
+    <NumeroBoletin>18260-07</NumeroBoletin>
+    <Nombre>Crea los Tribunales de Familia, con el objeto de establecer un procedimiento especial para la determinación de la responsabilidad parental en el caso de daños provocados por niños, niñas y adolescentes.</Nombre>
+    <FechaIngreso>2026-05-19T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19028</Id>
+    <NumeroBoletin>18350-25</NumeroBoletin>
+    <Nombre>Modifica la ley N° 21.659, sobre seguridad privada, para eximir del deber de contratar seguros o constituir caución a los organizadores de eventos religiosos masivos</Nombre>
+    <FechaIngreso>2026-06-09T17:25:57</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19035</Id>
+    <NumeroBoletin>18368-07</NumeroBoletin>
+    <Nombre>Interpreta el artículo 226 U del Código Procesal Penal, en materia de valoración de la prueba testimonial de personas con identidad reservada</Nombre>
+    <FechaIngreso>2026-06-17T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18708</Id>
+    <NumeroBoletin>18048-06</NumeroBoletin>
+    <Nombre>Concede, por especial gracia, la nacionalidad chilena a la destacada deportista juvenil colombiana María Camila Valencia Mosquera</Nombre>
+    <FechaIngreso>2026-01-07T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18827</Id>
+    <NumeroBoletin>18165-07</NumeroBoletin>
+    <Nombre>Modifica la Carta Fundamental, con el objeto de establecer un período de inhabilidad para que los fiscales del Ministerio Público ejerzan los cargos que indica</Nombre>
+    <FechaIngreso>2026-04-08T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18864</Id>
+    <NumeroBoletin>18201-06</NumeroBoletin>
+    <Nombre>Rehabilita la nacionalidad chilena a Manuel Guillermo Pinto Pizarro</Nombre>
+    <FechaIngreso>2026-04-20T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19041</Id>
+    <NumeroBoletin>18377-06</NumeroBoletin>
+    <Nombre>Modifica la ley N° 21.325, de migración y extranjería, en materia de requisitos en procedimientos de reunificación familiar que involucren a niños, niñas y adolescentes</Nombre>
+    <FechaIngreso>2026-06-17T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19088</Id>
+    <NumeroBoletin>18385-07</NumeroBoletin>
+    <Nombre>Concede amnistía al personal de las Fuerzas Armadas y de Orden y Seguridad Pública por hechos ejecutados en resguardo del orden público, en el período que indica</Nombre>
+    <FechaIngreso>2026-06-23T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18808</Id>
+    <NumeroBoletin>18145-07</NumeroBoletin>
+    <Nombre>Modifica la Carta Fundamental para derogar la facultad presidencial de otorgar indultos particulares</Nombre>
+    <FechaIngreso>2026-03-25T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18869</Id>
+    <NumeroBoletin>18206-13</NumeroBoletin>
+    <Nombre>Modifica el Código del Trabajo en materia de contrato por horas y educación dual</Nombre>
+    <FechaIngreso>2026-04-16T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18873</Id>
+    <NumeroBoletin>18209-04</NumeroBoletin>
+    <Nombre>Establece requisitos de legalidad, transparencia y auditoría para la ejecución de cobros de créditos educativos con garantía estatal</Nombre>
+    <FechaIngreso>2026-04-20T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18875</Id>
+    <NumeroBoletin>18211-25</NumeroBoletin>
+    <Nombre>Modifica el código penal, con el objeto de tipificar el delito de ocultamiento de identidad en el contexto de eventos masivos y desórdenes públicos</Nombre>
+    <FechaIngreso>2026-04-22T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18888</Id>
+    <NumeroBoletin>18222-06</NumeroBoletin>
+    <Nombre>Modifica el régimen jurídico aplicable a la participación de las mujeres en política</Nombre>
+    <FechaIngreso>2026-04-22T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18892</Id>
+    <NumeroBoletin>18227-11</NumeroBoletin>
+    <Nombre>Modifica el Código Sanitario para reforzar las exigencias aplicables al etiquetado de productos alimenticios en materia de fecha de vencimiento</Nombre>
+    <FechaIngreso>2026-04-28T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18897</Id>
+    <NumeroBoletin>18235-19</NumeroBoletin>
+    <Nombre>Impone a las plataformas de redes sociales la obligación de eliminar contenido que induzca a la realización de conductas extremas que pongan en riesgo la integridad o salud de las personas</Nombre>
+    <FechaIngreso>2026-04-29T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18904</Id>
+    <NumeroBoletin>18240-13</NumeroBoletin>
+    <Nombre>Modifica el artículo 66 del Código del Trabajo, con el objeto de ampliar el plazo del permiso a que tiene derecho todo trabajador en el caso de muerte de un hijo, cónyuge o conviviente civil</Nombre>
+    <FechaIngreso>2026-05-05T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18908</Id>
+    <NumeroBoletin>18246-18</NumeroBoletin>
+    <Nombre>Protege a los menores de edad frente a la adicción a las nuevas tecnologías y prohíbe el acceso a redes sociales y otras plataformas</Nombre>
+    <FechaIngreso>2026-05-06T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18967</Id>
+    <NumeroBoletin>18293-15</NumeroBoletin>
+    <Nombre>Modifica ley del tránsito para aumentar la frecuencia de la revisión técnica de los buses de dos pisos</Nombre>
+    <FechaIngreso>2026-05-28T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18982</Id>
+    <NumeroBoletin>18311-06</NumeroBoletin>
+    <Nombre>Rehabilita la nacionalidad chilena a Carolina Dawabe Valle</Nombre>
+    <FechaIngreso>2026-05-31T21:08:11</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18983</Id>
+    <NumeroBoletin>18309-14</NumeroBoletin>
+    <Nombre>Modifica la Ley General de Urbanismo y Construcciones para exigir la ejecución previa o simultánea de las medidas de mitigación directas en proyectos inmobiliarios</Nombre>
+    <FechaIngreso>2026-05-31T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18992</Id>
+    <NumeroBoletin>18310-03</NumeroBoletin>
+    <Nombre>Modifica la ley N° 19.925 para regular la venta de bebidas alcohólicas en grandes cantidades a personas no autorizadas para su expendio o comercialización</Nombre>
+    <FechaIngreso>2026-05-31T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18996</Id>
+    <NumeroBoletin>18318-19</NumeroBoletin>
+    <Nombre>Establece un estatuto de responsabilidad algorítmica y protección digital de niños, niñas y adolescentes</Nombre>
+    <FechaIngreso>2026-06-02T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18998</Id>
+    <NumeroBoletin>18316-02</NumeroBoletin>
+    <Nombre>Previene y sanciona la fabricación, adaptación y circulación de armas hechizas y dispositivos susceptibles de ser transformados en armas de fuego</Nombre>
+    <FechaIngreso>2026-06-02T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18806</Id>
+    <NumeroBoletin>18143-07</NumeroBoletin>
+    <Nombre>Modifica la Carta Fundamental para habilitar la convocatoria a plebiscito con el objeto de restituir la pena de muerte en los casos que indica</Nombre>
+    <FechaIngreso>2026-03-17T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18859</Id>
+    <NumeroBoletin>18189-14</NumeroBoletin>
+    <Nombre>Modifica la ley N° 20.898, con el objeto de ampliar el régimen excepcional de regularización de viviendas y actualizar la fecha de su aplicación</Nombre>
+    <FechaIngreso>2026-04-15T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19051</Id>
+    <NumeroBoletin>18358-03</NumeroBoletin>
+    <Nombre>Modifica la ley N° 19.496, que establece normas sobre protección de los derechos de los consumidores, para consagrar el derecho a poner término a los contratos por la misma forma, vía o canal en que fueron celebrados</Nombre>
+    <FechaIngreso>2026-06-10T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18966</Id>
+    <NumeroBoletin>18295-07</NumeroBoletin>
+    <Nombre>Modifica el Código Penal para sancionar el falso anuncio de atentados o explosivos en establecimientos educacionales</Nombre>
+    <FechaIngreso>2026-05-28T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18971</Id>
+    <NumeroBoletin>18287-11</NumeroBoletin>
+    <Nombre>Establece un marco general para la implementación de la reproducción humana asistida</Nombre>
+    <FechaIngreso>2026-05-26T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18978</Id>
+    <NumeroBoletin>18302-11</NumeroBoletin>
+    <Nombre>Modifica la ley N° 20.606, sobre composición nutricional de los alimentos y su publicidad, con el objeto de facilitar el acceso a alimentos libres de gluten en establecimientos de comercio y garantizar su inocuidad</Nombre>
+    <FechaIngreso>2026-06-03T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19013</Id>
+    <NumeroBoletin>18335-02</NumeroBoletin>
+    <Nombre>Modifica la Ley sobre Control de Armas, con el objeto de fortalecer la trazabilidad, custodia y control de las armas de fuego</Nombre>
+    <FechaIngreso>2026-06-10T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19124</Id>
+    <NumeroBoletin>18441-03</NumeroBoletin>
+    <Nombre>Modifica la ley N° 20.009, con el objeto de promover la aplicación de criterios de accesibilidad e inclusión financiera en procedimientos de autenticación de usuarios en transacciones electrónicas</Nombre>
+    <FechaIngreso>2026-07-07T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18706</Id>
+    <NumeroBoletin>18064-07</NumeroBoletin>
+    <Nombre>Modifica el Código Penal y la Ley Orgánica de Gendarmería de Chile para aumentar las sanciones aplicables a funcionarios que atenten contra la integridad de los establecimientos penitenciarios</Nombre>
+    <FechaIngreso>2026-01-06T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19034</Id>
+    <NumeroBoletin>18339-35</NumeroBoletin>
+    <Nombre>Modifica el Código Civil, con el objeto de suprimir disposiciones que limitan la capacidad jurídica de personas con discapacidad visual o auditiva</Nombre>
+    <FechaIngreso>2026-06-16T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19078</Id>
+    <NumeroBoletin>18399-06</NumeroBoletin>
+    <Nombre>Declara feriado regional el 10 de agosto de los años 2026 y 2027 en reemplazo de los feriados que indica</Nombre>
+    <FechaIngreso>2026-06-16T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19079</Id>
+    <NumeroBoletin>18403-24</NumeroBoletin>
+    <Nombre>Aumenta penalidad en delitos contra monumentos nacionales</Nombre>
+    <FechaIngreso>2026-06-17T13:42:23</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18852</Id>
+    <NumeroBoletin>18191-37</NumeroBoletin>
+    <Nombre>Establece el 13 de octubre de cada año como el Día Nacional de la Gestión Cultural</Nombre>
+    <FechaIngreso>2026-04-15T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18894</Id>
+    <NumeroBoletin>18229-11</NumeroBoletin>
+    <Nombre>Introduce la obligación de contar con desfibriladores externos automáticos en encuentros de fútbol no profesional</Nombre>
+    <FechaIngreso>2026-04-29T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18887</Id>
+    <NumeroBoletin>18228-04</NumeroBoletin>
+    <Nombre>Modifica la ley Nº 20.027, que establece normas para el financiamiento de estudios de educación superior, en materia de cobro de las deudas del Crédito con Aval del Estado</Nombre>
+    <FechaIngreso>2026-04-28T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18846</Id>
+    <NumeroBoletin>18183-07</NumeroBoletin>
+    <Nombre>Deroga la ley N° 1.025, que ordena que los conocimientos de naves vengan visados por los cónsules de la República</Nombre>
+    <FechaIngreso>2026-04-14T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18884</Id>
+    <NumeroBoletin>18221-11</NumeroBoletin>
+    <Nombre>Garantiza el acceso efectivo a prestaciones de salud en zonas rurales y aisladas mediante la incorporación del principio de pertinencia territorial en la atención primaria municipal</Nombre>
+    <FechaIngreso>2026-04-20T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19027</Id>
+    <NumeroBoletin>18354-07</NumeroBoletin>
+    <Nombre>Modifica el artículo 19 N°16 de la Constitución Política, para disponer un procedimiento de negociación de reajustes salariales en el sector público y privado</Nombre>
+    <FechaIngreso>2026-06-10T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18770</Id>
+    <NumeroBoletin>18107-07</NumeroBoletin>
+    <Nombre>Modifica la ley N° 18.918, orgánica constitucional del Congreso Nacional, en materia de quórum necesario para revertir la declaración de inadmisibilidad recaída en proyectos de ley e indicaciones</Nombre>
+    <FechaIngreso>2026-03-04T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18911</Id>
+    <NumeroBoletin>18248-07</NumeroBoletin>
+    <Nombre>Modifica el artículo 149 del Código Procesal Penal con el objeto de permitir la interposición verbal del recurso de apelación por parte del Ministerio Público en el caso de delitos cometidos en contexto de violencia intrafamiliar</Nombre>
+    <FechaIngreso>2026-05-06T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18877</Id>
+    <NumeroBoletin>18214-07</NumeroBoletin>
+    <Nombre>Modifica la Constitución Política para declarar incompatible percibir pensiones de retiro y remuneraciones por ejercer cargos de elección popular o altos cargos de la administración del Estado</Nombre>
+    <FechaIngreso>2026-04-15T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18851</Id>
+    <NumeroBoletin>18188-07</NumeroBoletin>
+    <Nombre>Deroga la ley N° 3.297, que prohíbe la exportación de los metales viejos o usados, que se indica</Nombre>
+    <FechaIngreso>2026-04-14T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18701</Id>
+    <NumeroBoletin>18037-14</NumeroBoletin>
+    <Nombre>Modifica la ley N° 21.442, que aprueba Nueva Ley de Copropiedad Inmobiliaria, con el objeto de garantizar el derecho de los copropietarios a implementar medidas de seguridad en sus unidades de dominio exclusivo</Nombre>
+    <FechaIngreso>2026-01-06T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18704</Id>
+    <NumeroBoletin>18043-06</NumeroBoletin>
+    <Nombre>Concede, por especial gracia, la nacionalidad chilena al sacerdote alemán Wolter Josef Tilmann Dütting</Nombre>
+    <FechaIngreso>2026-01-05T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19121</Id>
+    <NumeroBoletin>18438-02</NumeroBoletin>
+    <Nombre>Modifica el decreto ley N° 2.460, de 1979, que dicta Ley Orgánica de Policía de Investigaciones de Chile, con el objeto de autorizar el porte de armas de fuego al personal en retiro que señala</Nombre>
+    <FechaIngreso>2026-07-07T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18780</Id>
+    <NumeroBoletin>18117-19</NumeroBoletin>
+    <Nombre>Modifica diversos cuerpos legales, con el objeto de regular la recopilación y extracción de salidas generadas por sistemas algorítmicos, en los términos que indica</Nombre>
+    <FechaIngreso>2026-03-10T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18912</Id>
+    <NumeroBoletin>18249-07</NumeroBoletin>
+    <Nombre>Modifica el artículo 325 del Código Procesal Penal con el objeto de permitir la rendición de prueba anticipada en el juicio oral en caso de incomparecencia injustificada del imputado</Nombre>
+    <FechaIngreso>2026-05-06T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18975</Id>
+    <NumeroBoletin>18297-07</NumeroBoletin>
+    <Nombre>Interpreta el artículo primero transitorio de la ley N° 21.772, que modifica el sistema registral y notarial en sus aspectos orgánicos y funcionales, en lo relativo al procedimiento para proveer las vacantes que indica</Nombre>
+    <FechaIngreso>2026-06-02T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19017</Id>
+    <NumeroBoletin>18337-12</NumeroBoletin>
+    <Nombre>Modifica la ley N° 21.368, con el objeto de prorrogar la entrada en vigencia de su reglamento y flexibilizar la aplicación de las disposiciones que indica</Nombre>
+    <FechaIngreso>2026-06-10T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18984</Id>
+    <NumeroBoletin>18313-08</NumeroBoletin>
+    <Nombre>Modifica el decreto ley N° 1.349, de 1976, que crea la Comisión Chilena del Cobre, para otorgar a la Contraloría General de la República facultades fiscalizadoras respecto de las empresas estatales productoras de cobre y sus derivados</Nombre>
+    <FechaIngreso>2026-06-02T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18985</Id>
+    <NumeroBoletin>18306-15</NumeroBoletin>
+    <Nombre>Modifica la ley N° 18.290, de tránsito, para sancionar la negativa a aceptar el pago de tarifa escolar en el transporte público remunerado de pasajeros</Nombre>
+    <FechaIngreso>2026-05-29T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18986</Id>
+    <NumeroBoletin>18308-11</NumeroBoletin>
+    <Nombre>Modifica la ley N° 19.419, que regula actividades que indica relacionadas con el tabaco, para extender su aplicación a los dispositivos alternativos con y sin nicotina</Nombre>
+    <FechaIngreso>2026-05-29T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18993</Id>
+    <NumeroBoletin>18320-18</NumeroBoletin>
+    <Nombre>Modifica la ley N° 21.430 para incorporar medidas de protección de la infancia y la adolescencia en entornos digitales</Nombre>
+    <FechaIngreso>2026-06-02T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19092</Id>
+    <NumeroBoletin>18420-25</NumeroBoletin>
+    <Nombre>Modifica diversos cuerpos legales, con el objeto de fortalecer la seguridad portuaria ante acciones promovidas por el crimen organizado</Nombre>
+    <FechaIngreso>2026-06-24T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18773</Id>
+    <NumeroBoletin>18110-07</NumeroBoletin>
+    <Nombre>Modifica la ley N° 18.101, que fija normas especiales sobre arrendamiento de predios urbanos, con el objeto de perfeccionar el procedimiento monitorio aplicable a las acciones de restitución de inmuebles que indica </Nombre>
+    <FechaIngreso>2026-03-04T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19082</Id>
+    <NumeroBoletin>18394-16</NumeroBoletin>
+    <Nombre>Modifica el Reglamento de la Cámara de Diputados para permitir el ingreso del Subsecretario General de la Presidencia a las sesiones de Sala</Nombre>
+    <FechaIngreso>2026-06-16T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18945</Id>
+    <NumeroBoletin>18266-15</NumeroBoletin>
+    <Nombre>Establece un número único de emergencias en concesiones viales</Nombre>
+    <FechaIngreso>2026-05-12T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18976</Id>
+    <NumeroBoletin>18300-04</NumeroBoletin>
+    <Nombre>Prohíbe el acceso y uso de redes sociales a menores de catorce años y establece las obligaciones que indica para los prestadores de dichos servicios</Nombre>
+    <FechaIngreso>2026-06-03T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18981</Id>
+    <NumeroBoletin>18312-07</NumeroBoletin>
+    <Nombre>Modifica el Código Penal para agravar las sanciones aplicables a ciertos delitos cometidos por asociaciones delictivas o criminales, o por cuenta o encargo de estas</Nombre>
+    <FechaIngreso>2026-06-01T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18741</Id>
+    <NumeroBoletin>18079-17</NumeroBoletin>
+    <Nombre>Concede, en forma póstuma y por especial gracia, la nacionalidad chilena al sacerdote español señor Kepa Bilbao Laka</Nombre>
+    <FechaIngreso>2026-01-26T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18999</Id>
+    <NumeroBoletin>18322-06</NumeroBoletin>
+    <Nombre>Modifica la ley N°18.695, orgánica constitucional de municipalidades, para disponer la atribución municipal de regular el horario de funcionamiento de los establecimientos de comercio que se indican</Nombre>
+    <FechaIngreso>2026-06-03T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18772</Id>
+    <NumeroBoletin>18109-07</NumeroBoletin>
+    <Nombre>Modifica la ley N° 18.918, orgánica constitucional del Congreso Nacional, con el objeto de establecer la obligación para diputados y senadores de rendir cuenta pública de su gestión parlamentaria, en los términos que indica</Nombre>
+    <FechaIngreso>2026-03-04T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18816</Id>
+    <NumeroBoletin>18151-24</NumeroBoletin>
+    <Nombre>Modifica la ley N° 19.132, que crea empresa Televisión Nacional de Chile, con el objeto de modernizar su misión y estrategia de gobernanza</Nombre>
+    <FechaIngreso>2026-03-17T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19020</Id>
+    <NumeroBoletin>18342-02</NumeroBoletin>
+    <Nombre>Modifica la ley N° 17.798, sobre control de armas, para agravar la sanción aplicable a los delitos perpetrados mediante el uso de fuegos artificiales y facultar a los inspectores municipales para fiscalizar la comercialización, porte y uso de estos elementos</Nombre>
+    <FechaIngreso>2026-06-08T13:51:10</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19022</Id>
+    <NumeroBoletin>18345-13</NumeroBoletin>
+    <Nombre>Modifica el Código del Trabajo para resguardar la inembargabilidad de las remuneraciones de los trabajadores ante acciones de cobranza</Nombre>
+    <FechaIngreso>2026-06-08T17:26:42</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18783</Id>
+    <NumeroBoletin>18119-07</NumeroBoletin>
+    <Nombre>Modifica el artículo 19 N° 4 de la Carta Fundamental, con el objeto de consagrar el derecho a la autenticidad del ser humano</Nombre>
+    <FechaIngreso>2026-03-10T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19039</Id>
+    <NumeroBoletin>18372-25</NumeroBoletin>
+    <Nombre>Modifica la ley N° 21.659, sobre seguridad privada, con el objeto de excluir a las festividades religiosas de las reglas dispuestas para la realización de eventos masivos</Nombre>
+    <FechaIngreso>2026-06-17T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19096</Id>
+    <NumeroBoletin>18427-07</NumeroBoletin>
+    <Nombre>Modifica el artículo 52 de la Carta Fundamental, en materia de procedencia y admisibilidad de las acusaciones constitucionales</Nombre>
+    <FechaIngreso>2026-07-03T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18732</Id>
+    <NumeroBoletin>18070-37</NumeroBoletin>
+    <Nombre>Modifica la ley N° 20.019, que regula las sociedades anónimas deportivas profesionales, con el objeto de establecer exigencias en materia de responsabilidad social, comunitaria y formativa</Nombre>
+    <FechaIngreso>2026-01-21T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18819</Id>
+    <NumeroBoletin>18154-25</NumeroBoletin>
+    <Nombre>Modifica los textos legales que indica con el objeto de tipificar el tráfico internacional, la fabricación y modificación ilegal mediante tecnologías digitales, de armas y sus componentes esenciales</Nombre>
+    <FechaIngreso>2026-04-07T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18917</Id>
+    <NumeroBoletin>18253-25</NumeroBoletin>
+    <Nombre>Modifica diversos cuerpos legales, con el objeto de fortalecer la protección y seguridad en los establecimientos de salud</Nombre>
+    <FechaIngreso>2026-05-13T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19094</Id>
+    <NumeroBoletin>18423-07</NumeroBoletin>
+    <Nombre>Concede indulto general en favor de las personas que indica, por hechos acaecidos a contar del día 18 de octubre de 2019</Nombre>
+    <FechaIngreso>2026-06-30T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18751</Id>
+    <NumeroBoletin>18089-34</NumeroBoletin>
+    <Nombre>Modifica la ley N° 18.695, orgánica constitucional de Municipalidades, para incorporar la perspectiva de género en los planes comunales de seguridad pública</Nombre>
+    <FechaIngreso>2026-01-27T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18909</Id>
+    <NumeroBoletin>18245-12</NumeroBoletin>
+    <Nombre>Introduce y regula la obligación de las empresas de rellenos sanitarios de elaborar un plan para la reducción de gas metano dentro de sus instalaciones</Nombre>
+    <FechaIngreso>2026-05-05T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18754</Id>
+    <NumeroBoletin>18088-07</NumeroBoletin>
+    <Nombre>Modifica la Carta Fundamental para reconocer el derecho de las personas extranjeras a retirar la totalidad de sus fondos previsionales de capitalización individual cuando cesen definitivamente su residencia en el país</Nombre>
+    <FechaIngreso>2026-01-27T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18944</Id>
+    <NumeroBoletin>18264-07</NumeroBoletin>
+    <Nombre>Modifica el artículo 57 de la Constitución Política de la República, para eliminar la facultad de las autoridades locales y regionales de renunciar a sus cargos para ser candidatos a diputados y senadores</Nombre>
+    <FechaIngreso>2026-05-12T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19009</Id>
+    <NumeroBoletin>18331-17</NumeroBoletin>
+    <Nombre>Modifica la ley N° 20.405, del Instituto Nacional de Derechos Humanos, en materia de transparencia, responsabilidad institucional, gobierno corporativo y rendición de cuentas</Nombre>
+    <FechaIngreso>2026-06-05T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19087</Id>
+    <NumeroBoletin>18404-13</NumeroBoletin>
+    <Nombre>Modifica el Código del Trabajo, con el objeto de extender los permisos y el fuero a que tienen derecho los trabajadores en el caso de fallecimiento de familiares</Nombre>
+    <FechaIngreso>2026-06-24T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18748</Id>
+    <NumeroBoletin>18087-07</NumeroBoletin>
+    <Nombre>Modifica diversos cuerpos legales para favorecer la participación de la víctima en la investigación penal, establecer nuevos requisitos y plazos para el ejercicio de las facultades del Ministerio Público y regular la responsabilidad de los fiscales por negligencia en el cumplimiento de sus funciones y la filtración de datos investigativos</Nombre>
+    <FechaIngreso>2026-01-27T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18812</Id>
+    <NumeroBoletin>18149-07</NumeroBoletin>
+    <Nombre>Modifica la Carta Fundamental con el objeto de eliminar la atribución presidencial de otorgar indultos particulares</Nombre>
+    <FechaIngreso>2026-03-27T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18973</Id>
+    <NumeroBoletin>18299-35</NumeroBoletin>
+    <Nombre>Modifica diversos cuerpos legales, con el objeto de promover la responsabilidad familiar respecto de adultos mayores internados en establecimientos de salud</Nombre>
+    <FechaIngreso>2026-06-03T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19033</Id>
+    <NumeroBoletin>18357-06</NumeroBoletin>
+    <Nombre>Modifica la Ley Orgánica Constitucional de Municipalidades, con la finalidad de permitir la recuperación de espacios públicos ocupados en forma irregular</Nombre>
+    <FechaIngreso>2026-06-09T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18785</Id>
+    <NumeroBoletin>18122-07</NumeroBoletin>
+    <Nombre>Modifica la Carta Fundamental, con el objeto de reducir los plazos que median entre la primera vuelta de una elección presidencial y la fecha de juramento del Presidente electo</Nombre>
+    <FechaIngreso>2026-03-10T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18890</Id>
+    <NumeroBoletin>18225-07</NumeroBoletin>
+    <Nombre>Incorpora una disposición transitoria en la Carta Fundamental para establecer una tarifa gratuita para adultos mayores, personas en situación de discapacidad y cuidadores en el transporte público</Nombre>
+    <FechaIngreso>2026-04-28T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18940</Id>
+    <NumeroBoletin>18276-07</NumeroBoletin>
+    <Nombre>Modifica el número 1° del artículo 447 del Código Penal, con el objeto de actualizar los términos utilizados en la tipificación del delito de hurto doméstico</Nombre>
+    <FechaIngreso>2026-05-20T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18856</Id>
+    <NumeroBoletin>18195-07</NumeroBoletin>
+    <Nombre>Modifica la Carta Fundamental, con el objeto de establecer la exigencia para senadores y diputados de someterse a un examen para detectar el consumo de sustancias o drogas estupefacientes o sicotrópicas.</Nombre>
+    <FechaIngreso>2026-04-15T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18857</Id>
+    <NumeroBoletin>18197-04</NumeroBoletin>
+    <Nombre>Modifica la ley N° 20.027, en materia de cobro de créditos de educación superior, para fortalecer las garantías del debido proceso</Nombre>
+    <FechaIngreso>2026-04-15T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18956</Id>
+    <NumeroBoletin>18280-21</NumeroBoletin>
+    <Nombre>Modifica la ley N°21.069, que crea el Instituto Nacional de Desarrollo Sustentable de la Pesca Artesanal y de la Acuicultura de Pequeña Escala, Indespa, en lo relativo a la manera de regular el periodo de inscripción y postulación a beneficios que indica</Nombre>
+    <FechaIngreso>2026-05-31T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19097</Id>
+    <NumeroBoletin>18422-06</NumeroBoletin>
+    <Nombre>Modifica la Ley de Migración y Extranjería, con el objeto de reforzar la trazabilidad de la información referida a niños, niñas y adolescentes extranjeros que ingresan al país</Nombre>
+    <FechaIngreso>2026-06-24T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18707</Id>
+    <NumeroBoletin>18047-04</NumeroBoletin>
+    <Nombre>Modifica la ley N° 20.370, General de Educación, para incorporar, como objetivos generales de la educación parvularia, básica y media, el conocimiento y utilización de la lengua de señas chilena</Nombre>
+    <FechaIngreso>2026-01-06T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18737</Id>
+    <NumeroBoletin>18076-07</NumeroBoletin>
+    <Nombre>Modifica la Carta Fundamental para autorizar la renuncia anticipada de diputados y senadores con el objeto de postular a los cargos de alcalde o gobernador regional</Nombre>
+    <FechaIngreso>2026-01-21T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18853</Id>
+    <NumeroBoletin>18192-25</NumeroBoletin>
+    <Nombre>Modifica diversos cuerpos legales, con el objeto de fortalecer la persecución penal de la distribución digital ilícita y proteger a los consumidores</Nombre>
+    <FechaIngreso>2026-04-15T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18855</Id>
+    <NumeroBoletin>18194-08</NumeroBoletin>
+    <Nombre>Crea un régimen jurídico especial aplicable a los minerales críticos</Nombre>
+    <FechaIngreso>2026-04-15T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18866</Id>
+    <NumeroBoletin>18203-06</NumeroBoletin>
+    <Nombre>Rehabilita la nacionalidad chilena a Cristóbal Parot Fernández</Nombre>
+    <FechaIngreso>2026-04-20T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18850</Id>
+    <NumeroBoletin>18187-07</NumeroBoletin>
+    <Nombre>Deroga la ley N° 1.930, que fija la ley de las monedas de un peso y cincuenta centavos</Nombre>
+    <FechaIngreso>2026-04-14T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18755</Id>
+    <NumeroBoletin>18093-01</NumeroBoletin>
+    <Nombre>Modifica el decreto con fuerza de ley N° 294, del Ministerio de Hacienda, de 1960, para facilitar el acceso a la información sobre productos silvoagropecuarios y promover su exportación</Nombre>
+    <FechaIngreso>2026-01-28T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18913</Id>
+    <NumeroBoletin>18250-07</NumeroBoletin>
+    <Nombre>Tipifica la difusión de amenazas de violencia masiva en recintos de alta concurrencia como delito autónomo contra la seguridad colectiva</Nombre>
+    <FechaIngreso>2026-05-07T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19005</Id>
+    <NumeroBoletin>18326-18</NumeroBoletin>
+    <Nombre>Refuerza la protección integral de niños, niñas y adolescentes en procesos judiciales y establece medidas de prevención y sanción de falsos informes y denuncias</Nombre>
+    <FechaIngreso>2026-06-02T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18831</Id>
+    <NumeroBoletin>18168-03</NumeroBoletin>
+    <Nombre>Modifica la ley N° 19.496, que establece normas sobre protección de los derechos de los consumidores, para incorporar deberes de trazabilidad en la comercialización digital de bienes usados</Nombre>
+    <FechaIngreso>2026-04-08T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18865</Id>
+    <NumeroBoletin>18204-06</NumeroBoletin>
+    <Nombre>Rehabilita la nacionalidad chilena a Blanca Rosa Fernández Peirano</Nombre>
+    <FechaIngreso>2026-04-20T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19113</Id>
+    <NumeroBoletin>18417-04</NumeroBoletin>
+    <Nombre>Modifica la ley N° 21.091, para establecer la obligación de resguardar la seguridad en las instituciones de educación superior</Nombre>
+    <FechaIngreso>2026-06-23T18:03:44</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18782</Id>
+    <NumeroBoletin>18120-17</NumeroBoletin>
+    <Nombre>Rehabilita la nacionalidad chilena al señor Nicolás Antonio Sáez Vento</Nombre>
+    <FechaIngreso>2026-03-10T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18747</Id>
+    <NumeroBoletin>18085-06</NumeroBoletin>
+    <Nombre>Modifica la ley N° 19.886, Ley de Bases sobre Contratos Administrativos de Suministro y Prestación de Servicios, para incentivar la adquisición de bienes y servicios de proveedores regionales</Nombre>
+    <FechaIngreso>2026-01-21T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18797</Id>
+    <NumeroBoletin>18133-07</NumeroBoletin>
+    <Nombre>Modifica la Carta Fundamental para asignar a las Fuerzas Armadas un rol coadyuvante en el resguardo del orden público y la seguridad interior del país</Nombre>
+    <FechaIngreso>2026-03-17T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18898</Id>
+    <NumeroBoletin>18234-35</NumeroBoletin>
+    <Nombre>Establece el deber de implementar medidas de accesibilidad en la construcción y diseño de viviendas en beneficio de personas mayores</Nombre>
+    <FechaIngreso>2026-04-29T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18903</Id>
+    <NumeroBoletin>18241-03</NumeroBoletin>
+    <Nombre>Regula el corretaje de propiedades y su ejercicio mediante plataformas digitales</Nombre>
+    <FechaIngreso>2026-05-05T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19095</Id>
+    <NumeroBoletin>18425-15</NumeroBoletin>
+    <Nombre>Modifica la Ley de Tránsito, con el objeto de hacer procedente la aplicación de la medida cautelar de suspensión provisoria de la licencia de conducir, en el caso del delito que indica</Nombre>
+    <FechaIngreso>2026-06-24T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18804</Id>
+    <NumeroBoletin>18140-07</NumeroBoletin>
+    <Nombre>Modifica la Carta Fundamental para garantizar la autonomía estratégica en inversiones relevantes</Nombre>
+    <FechaIngreso>2026-03-17T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18781</Id>
+    <NumeroBoletin>18118-07</NumeroBoletin>
+    <Nombre>Modifica la ley N° 21.719, que regula la protección y el tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales, y otro cuerpo legal que indica, en materia de identidad digital y representación sintética</Nombre>
+    <FechaIngreso>2026-03-10T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19016</Id>
+    <NumeroBoletin>18340-03</NumeroBoletin>
+    <Nombre>Excluye la aplicación de la unidad de fomento como mecanismo de reajustabilidad en los contratos que señala y establece mayores deberes de transparencia en su utilización</Nombre>
+    <FechaIngreso>2026-06-10T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18874</Id>
+    <NumeroBoletin>18210-06</NumeroBoletin>
+    <Nombre>Concede la nacionalidad chilena por gracia al ciudadano uruguayo Pablo Lemoine</Nombre>
+    <FechaIngreso>2026-04-21T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19026</Id>
+    <NumeroBoletin>18352-04</NumeroBoletin>
+    <Nombre>Modifica la ley N°20.370, General de Educación, para incorporar la educación emocional y salud mental en el sistema escolar</Nombre>
+    <FechaIngreso>2026-06-10T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19098</Id>
+    <NumeroBoletin>18424-07</NumeroBoletin>
+    <Nombre>Modifica el Código de Procedimiento Civil, con el objeto de establecer la inembargabilidad de determinadas sumas de dinero pertenecientes a deudores de créditos destinados a financiar estudios de educación superior, en las condiciones que indica</Nombre>
+    <FechaIngreso>2026-06-24T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18849</Id>
+    <NumeroBoletin>18186-07</NumeroBoletin>
+    <Nombre>Deroga la ley N° 1.644, que fija la pena en que deben incurrir los tesoreros fiscales, los administradores de Aduana, el Intendente General del Ejército y de la Marina, que no rindan sus cuentas en el plazo de veinte días después de terminado el mes y período en que deben presentarlas</Nombre>
+    <FechaIngreso>2026-04-14T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18964</Id>
+    <NumeroBoletin>18290-15</NumeroBoletin>
+    <Nombre>Establece una exención del pago de peajes en situaciones de emergencia que indica</Nombre>
+    <FechaIngreso>2026-05-18T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19002</Id>
+    <NumeroBoletin>18328-05</NumeroBoletin>
+    <Nombre>Promueve la austeridad y fortalece los requisitos para destinar recursos públicos en actividades institucionales</Nombre>
+    <FechaIngreso>2026-06-05T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19003</Id>
+    <NumeroBoletin>18325-06</NumeroBoletin>
+    <Nombre>Establece un régimen especial de nacionalización para deportistas de alto rendimiento y proyección internacional</Nombre>
+    <FechaIngreso>2026-06-04T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19014</Id>
+    <NumeroBoletin>18338-06</NumeroBoletin>
+    <Nombre>Modifica la ley N° 19.886, Ley de Bases sobre Contratos Administrativos de Suministro y Prestación de Servicios, con el objeto de fortalecer la protección laboral del personal que se desempeña en la manipulación de alimentos y asegurar la correcta prestación de dichos servicios</Nombre>
+    <FechaIngreso>2026-06-10T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19043</Id>
+    <NumeroBoletin>18366-25</NumeroBoletin>
+    <Nombre>Modifica ley N° 21.560 y deroga norma del Código de Justicia Militar</Nombre>
+    <FechaIngreso>2026-06-12T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19104</Id>
+    <NumeroBoletin>18410-07</NumeroBoletin>
+    <Nombre>Modifica el artículo 60 de la Constitución Política de la República con el objeto de permitir la renuncia al cargo de diputado o senador</Nombre>
+    <FechaIngreso>2026-06-19T16:08:01</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18728</Id>
+    <NumeroBoletin>18066-06</NumeroBoletin>
+    <Nombre>Modifica la ley Nº 18.575, orgánica constitucional de Bases Generales de la Administración del Estado, para prohibir la contratación de personal en órganos y servicios de la Administración del Estado, durante el período que indica</Nombre>
+    <FechaIngreso>2026-01-20T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18826</Id>
+    <NumeroBoletin>18164-17</NumeroBoletin>
+    <Nombre>Modifica la ley N° 20.405, del Instituto Nacional de Derechos Humanos, en lo relativo a sus reglas de funcionamiento y obligaciones de información</Nombre>
+    <FechaIngreso>2026-04-08T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18833</Id>
+    <NumeroBoletin>18170-13</NumeroBoletin>
+    <Nombre>Modifica el Código de Trabajo en materia de prevención, investigación y sanción de acoso laboral y sexual</Nombre>
+    <FechaIngreso>2026-04-09T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18924</Id>
+    <NumeroBoletin>18261-13</NumeroBoletin>
+    <Nombre>Declara el día 4 de noviembre de cada año como el Día Nacional del Trabajador de Cementerios</Nombre>
+    <FechaIngreso>2026-05-19T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18955</Id>
+    <NumeroBoletin>18278-13</NumeroBoletin>
+    <Nombre>Sanciona las acusaciones falsas en materia laboral, y modifica el Código Penal y el Código del Trabajo del modo que indica</Nombre>
+    <FechaIngreso>2026-05-20T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18979</Id>
+    <NumeroBoletin>18303-15</NumeroBoletin>
+    <Nombre>Prorroga la vigencia de las licencias de conducir en los casos y plazos que señala</Nombre>
+    <FechaIngreso>2026-06-03T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19038</Id>
+    <NumeroBoletin>18356-25</NumeroBoletin>
+    <Nombre>Modifica la ley N° 21.659, sobre seguridad privada, con el objeto de eximir a las festividades religiosas y culturales que indica, de las obligaciones dispuestas para los eventos masivos</Nombre>
+    <FechaIngreso>2026-06-16T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19116</Id>
+    <NumeroBoletin>18435-01</NumeroBoletin>
+    <Nombre>Establece un mecanismo de trazabilidad y control de insumos, maquinaria y bienes críticos rurales</Nombre>
+    <FechaIngreso>2026-06-29T21:50:06</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18703</Id>
+    <NumeroBoletin>18042-22</NumeroBoletin>
+    <Nombre>Establece la obligación de contar con equipamiento especializado para el control y extinción de incendios, en recintos destinados al estacionamiento de vehículos eléctricos o almacenamiento de baterías de litio</Nombre>
+    <FechaIngreso>2026-01-05T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19074</Id>
+    <NumeroBoletin>18396-06</NumeroBoletin>
+    <Nombre>Modifica la ley N° 18.575, orgánica constitucional sobre Bases Generales de la Administración del Estado, en materia de inhabilidades para el ingreso a la función pública</Nombre>
+    <FechaIngreso>2026-06-16T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19076</Id>
+    <NumeroBoletin>18405-25</NumeroBoletin>
+    <Nombre>Autoriza administrativamente controles policiales preventivos en situaciones que indica</Nombre>
+    <FechaIngreso>2026-06-17T18:15:44</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19080</Id>
+    <NumeroBoletin>18395-07</NumeroBoletin>
+    <Nombre>Sanciona penalmente la usura y la obtención de lucro en las contrataciones con el Estado en situaciones de emergencia o catástrofe</Nombre>
+    <FechaIngreso>2026-06-16T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18742</Id>
+    <NumeroBoletin>18080-03</NumeroBoletin>
+    <Nombre>Modifica diversos cuerpos legales, con el objeto de fortalecer la transparencia y trazabilidad financiera en las operaciones prendarias</Nombre>
+    <FechaIngreso>2026-01-26T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18767</Id>
+    <NumeroBoletin>18106-06</NumeroBoletin>
+    <Nombre>Modifica la ley N° 10.336 para restituir la facultad de la Contraloría General de la República de ponderar aspectos de mérito en el ejercicio del control de legalidad y la realización de auditorías</Nombre>
+    <FechaIngreso>2026-03-04T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18963</Id>
+    <NumeroBoletin>18288-06</NumeroBoletin>
+    <Nombre>Modifica diversos cuerpos legales para eliminar la facultad de autoridades locales y regionales de renunciar antes del periodo establecido y postular a nuevos cargos de elección popular</Nombre>
+    <FechaIngreso>2026-05-21T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18907</Id>
+    <NumeroBoletin>18244-07</NumeroBoletin>
+    <Nombre>Modifica el Código Penal para agravar las sanciones en materia de secuestro</Nombre>
+    <FechaIngreso>2026-05-05T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18733</Id>
+    <NumeroBoletin>18071-17</NumeroBoletin>
+    <Nombre>Revoca la nacionalidad chilena concedida por especial gracia al señor Arley Méndez Pérez</Nombre>
+    <FechaIngreso>2026-01-21T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18735</Id>
+    <NumeroBoletin>18075-25</NumeroBoletin>
+    <Nombre>Modifica el Código Penal en materia de legítima defensa privilegiada respecto de los funcionarios de las Fuerzas de Orden y Seguridad Pública, Gendarmería de Chile, las Fuerzas Armadas y los servicios bajo su dependencia</Nombre>
+    <FechaIngreso>2026-01-21T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18893</Id>
+    <NumeroBoletin>18224-18</NumeroBoletin>
+    <Nombre>Establece un marco integral de protección de niñas, niños y adolescentes en el uso de redes sociales</Nombre>
+    <FechaIngreso>2026-04-27T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18915</Id>
+    <NumeroBoletin>18252-07</NumeroBoletin>
+    <Nombre>Modifica el artículo 38 bis de la Constitución Política de la República</Nombre>
+    <FechaIngreso>2026-05-09T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19102</Id>
+    <NumeroBoletin>18409-03</NumeroBoletin>
+    <Nombre>Modifica el artículo 38 de la Ley General de Bancos, incorporando nuevas exigencias en materia de seguridad y autenticación para las personas que realicen trámites presenciales ante instituciones bancarias del país</Nombre>
+    <FechaIngreso>2026-06-18T12:50:44</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19007</Id>
+    <NumeroBoletin>18330-07</NumeroBoletin>
+    <Nombre>Modifica el Código Procesal Penal para restringir la presentación de querellas por parte de parlamentarios en ejercicio</Nombre>
+    <FechaIngreso>2026-06-05T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19108</Id>
+    <NumeroBoletin>18418-04</NumeroBoletin>
+    <Nombre>Refuerza el cumplimiento, por parte de las familias, de las medidas convencionales tendientes a resguardar la protección de la convivencia educativa, la seguridad escolar o la integridad física y psíquica del propio estudiante o de terceros</Nombre>
+    <FechaIngreso>2026-06-23T18:36:57</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19109</Id>
+    <NumeroBoletin>18414-18</NumeroBoletin>
+    <Nombre>Modifica cuerpos legales que indica en materia de notificaciones de medidas cautelares dictadas en procesos de violencia intrafamiliar</Nombre>
+    <FechaIngreso>2026-06-22T16:53:40</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19114</Id>
+    <NumeroBoletin>18430-07</NumeroBoletin>
+    <Nombre>Modifica el Código Orgánico de Tribunales, con el objeto de actualizar las reglas de competencia penal respecto de delitos cometidos mediante sistemas informáticos, plataformas tecnológicas u otros medios digitales</Nombre>
+    <FechaIngreso>2026-06-24T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18820</Id>
+    <NumeroBoletin>18159-11</NumeroBoletin>
+    <Nombre>Establece el 6 de abril de cada año como el Día Nacional de Reconocimiento a las Organizaciones de Pacientes</Nombre>
+    <FechaIngreso>2026-04-07T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>19111</Id>
+    <NumeroBoletin>18415-18</NumeroBoletin>
+    <Nombre>Modifica la ley N° 21.663, marco de ciberseguridad, para incorporar los principios de protección a la infancia y adolescencia, restricción etaria e información preventiva en entornos digitales</Nombre>
+    <FechaIngreso>2026-06-23T13:13:03</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18757</Id>
+    <NumeroBoletin>18094-24</NumeroBoletin>
+    <Nombre>Regula la representatividad étnica de autores y agrupaciones folclóricas en la difusión de expresiones artísticas autóctonas</Nombre>
+    <FechaIngreso>2026-01-27T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18768</Id>
+    <NumeroBoletin>18105-05</NumeroBoletin>
+    <Nombre>Modifica la ley N° 20.848, en materia de apreciación estratégica de las inversiones extranjeras</Nombre>
+    <FechaIngreso>2026-03-03T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="2">Senado</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18906</Id>
+    <NumeroBoletin>18243-13</NumeroBoletin>
+    <Nombre>Establece como feriado irrenunciable el día Viernes Santo de cada año</Nombre>
+    <FechaIngreso>2026-04-16T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+  <ProyectoLey>
+    <Id>18949</Id>
+    <NumeroBoletin>18268-06</NumeroBoletin>
+    <Nombre>Modifica textos legales que indica para fortalecer la transparencia activa y la rendición de cuentas en la ejecución de los aportes fiscales de libre disposición del royalty minero</Nombre>
+    <FechaIngreso>2026-05-13T00:00:00</FechaIngreso>
+    <TipoIniciativa Valor="2">Moción</TipoIniciativa>
+    <CamaraOrigen Valor="1">Cámara de Diputados</CamaraOrigen>
+    <Admisible>true</Admisible>
+  </ProyectoLey>
+</ProyectosLeyColeccion>
