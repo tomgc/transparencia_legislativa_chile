@@ -29,13 +29,17 @@ library(dplyr)
 ROOT <- obtener_raiz_proyecto()
 source(file.path(ROOT, "10_utils", "10_configuracion.R"))
 
-# ---- Cargar intermedios ------------------------------------------------------
+# ---- Cargar intermedios CON validacion de procedencia (fix sesion 8) ---------
+# Cada intermedio debe traer sello (leer_sellado) y todos deben declarar el
+# CORTE_FECHA vigente (validar_corte). Falla ruidosa ANTES de cualquier join o
+# escritura si un .rds no corresponde al corte publicado (Bug 1 del traspaso v07):
+# evita que un residuo de otra corrida se consolide en silencio.
+sellos_intermedios <- list()
 leer <- function(nombre) {
   ruta <- ruta_salidas("intermedios", paste0(nombre, ".rds"))
-  if (!file.exists(ruta))
-    stop(sprintf("39_consolidar: falta el intermedio '%s'. Corre el paso previo.",
-                 ruta))
-  readRDS(ruta)
+  ls <- leer_sellado(ruta)  # stop() diagnostico si falta el archivo o el sello
+  sellos_intermedios[[basename(ruta)]] <<- ls$sello
+  ls$objeto
 }
 diputados  <- leer("diputados")
 asistencia <- leer("asistencia")
@@ -44,6 +48,13 @@ proyectos  <- leer("proyectos")
 # Detalle de contenido por boletin (tipo_iniciativa, materias) del paso 36.
 # Habilita: proyectos legibles (materias) y trazabilidad voto->proyecto.
 proyectos_detalle <- leer("proyectos_detalle")
+
+# Compuerta de procedencia: los cinco intermedios deben pertenecer al corte
+# vigente y ser coherentes entre si. stop() diagnostico si no. Va ANTES del
+# stopifnot de character y de todo join/escritura.
+validar_corte(sellos_intermedios, CORTE_FECHA)
+log_msg(sprintf("Procedencia validada: 5 intermedios al corte %s.", CORTE_FECHA),
+        origen = "39_consolidar")
 
 # La llave es character en todas las tablas (invariante POLITICA 5.3.6).
 stopifnot(is.character(diputados$diputado_id),
