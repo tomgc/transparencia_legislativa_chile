@@ -105,6 +105,9 @@ if (nrow(proyectos) > 0) {
 
 # ---- Persistir ---------------------------------------------------------------
 ruta_out <- ruta_salidas("intermedios", "proyectos.rds")
-escribir_atomico(proyectos, ruta_out, function(o, r) saveRDS(o, r))
+# Sello de procedencia: hash del cache crudo de proyectos (fix sesion 8).
+escribir_atomico(proyectos, ruta_out, function(o, r) saveRDS(o, r),
+                 hash_origen = hash_origen_de(
+                   ruta_cache(sprintf("proyectos_long_%d", ANIO_PROCESO), MAX_PROYECTOS_DETALLE)))
 log_msg(sprintf("Escrito: %s (%d filas)", ruta_out, nrow(proyectos)),
         origen = "35_proyectos")
