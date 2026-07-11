@@ -133,6 +133,10 @@ if (resueltos_votados < length(boletines_votados))
 
 # ---- Persistir (escritura atomica) ------------------------------------------
 ruta_out <- ruta_salidas("intermedios", "proyectos_detalle.rds")
-escribir_atomico(detalle, ruta_out, function(o, r) saveRDS(o, r))
+# Sello de procedencia: hash del cache crudo de detalle (fix sesion 8). El cache
+# de 36 usa tope = Inf (procesa TODOS los boletines de la union, sin cap propio).
+escribir_atomico(detalle, ruta_out, function(o, r) saveRDS(o, r),
+                 hash_origen = hash_origen_de(
+                   ruta_cache(sprintf("detalle_proyectos_%d", ANIO_PROCESO), Inf)))
 log_msg(sprintf("Escrito: %s (%d boletines)", ruta_out, nrow(detalle)),
         origen = "36_detalle")

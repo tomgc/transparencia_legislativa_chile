@@ -99,5 +99,7 @@ if (length(sin_tendencia) > 0)
 
 # ---- Persistir ---------------------------------------------------------------
 ruta_out <- ruta_salidas("intermedios", "diputados.rds")
-escribir_atomico(diputados, ruta_out, function(o, r) saveRDS(o, r))
+# Sello de procedencia: hash del cache crudo del roster (fix sesion 8).
+escribir_atomico(diputados, ruta_out, function(o, r) saveRDS(o, r),
+                 hash_origen = hash_origen_de(ruta_cache("diputados")))
 log_msg(sprintf("Escrito: %s (%d filas)", ruta_out, n), origen = "32_diputados")

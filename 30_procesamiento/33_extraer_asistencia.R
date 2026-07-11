@@ -101,5 +101,8 @@ if (n > 0) {
 
 # ---- Persistir ---------------------------------------------------------------
 ruta_out <- ruta_salidas("intermedios", "asistencia.rds")
-escribir_atomico(asistencia, ruta_out, function(o, r) saveRDS(o, r))
+# Sello de procedencia: hash del cache crudo de asistencia (fix sesion 8).
+escribir_atomico(asistencia, ruta_out, function(o, r) saveRDS(o, r),
+                 hash_origen = hash_origen_de(
+                   ruta_cache(sprintf("asistencia_long_%d", ANIO_PROCESO), MAX_SESIONES_DETALLE)))
 log_msg(sprintf("Escrito: %s (%d filas)", ruta_out, n), origen = "33_asistencia")

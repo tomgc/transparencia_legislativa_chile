@@ -95,5 +95,8 @@ if (nrow(votos) > 0 && any(is.na(votos$diputado_id)))
 
 # ---- Persistir ---------------------------------------------------------------
 ruta_out <- ruta_salidas("intermedios", "votos.rds")
-escribir_atomico(votos, ruta_out, function(o, r) saveRDS(o, r))
+# Sello de procedencia: hash del cache crudo de votaciones (fix sesion 8).
+escribir_atomico(votos, ruta_out, function(o, r) saveRDS(o, r),
+                 hash_origen = hash_origen_de(
+                   ruta_cache(sprintf("votos_long_%d", ANIO_PROCESO), MAX_VOTACIONES_DETALLE)))
 log_msg(sprintf("Escrito: %s (%d filas)", ruta_out, nrow(votos)), origen = "34_votaciones")
