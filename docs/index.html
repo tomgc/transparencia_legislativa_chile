@@ -170,6 +170,8 @@ a:hover{color:var(--accent-blue-hover)}
 .tend-label{font-size:13px;color:var(--text-secondary-2)}
 .cell-region{width:118px;flex:0 0 118px}
 .sin-dato{font-size:12px;font-style:italic;color:var(--text-muted-4)}
+.cell-region .region-nombre{display:block;font-size:13px;color:var(--text-primary);letter-spacing:-.01em}
+.cell-region .region-sub{display:block;font-size:11.5px;color:var(--text-muted-3)}
 .cell-asist{width:96px;flex:0 0 96px;display:flex;flex-direction:column;align-items:flex-end;gap:3px}
 .cell-proy{width:104px;flex:0 0 104px;text-align:right}
 .cell-vot{width:104px;flex:0 0 104px;text-align:right}
@@ -695,6 +697,20 @@ function buildSkeletonRows(){
   }).join('');
 }
 
+// Region/Distrito: lee el dato del indice. Degrada a "Sin dato" solo si el campo
+// viene null o vacio. Hoy la fuente no expone ninguno de los dos (ver CLAUDE.md,
+// huecos conocidos) y las 155 filas caen al degradado; cuando el pipeline los
+// pueble, la celda los muestra sin volver a tocar la UI.
+function renderRegionCell(r){
+  var region = (r.region==null || r.region==='') ? null : String(r.region);
+  var distrito = (r.distrito==null || r.distrito==='') ? null : String(r.distrito);
+  if(!region && !distrito) return '<span class="sin-dato">Sin dato</span>';
+  var out = '';
+  if(region) out += '<span class="region-nombre">'+esc(region)+'</span>';
+  if(distrito) out += '<span class="region-sub">Distrito '+esc(distrito)+'</span>';
+  return out;
+}
+
 function buildRows(rows){
   var nar = isNarrow();
   var pal = currentPalette();
@@ -715,7 +731,7 @@ function buildRows(rows){
       +'</div>'
       +'<div class="cell-partido"><span class="chip-sigla" title="'+esc(partyNombre)+'">'+esc(r.partido)+'</span></div>'
       +'<div class="cell-tend"><span class="tend-dot" style="'+dotStyle+'"></span><span class="tend-label">'+esc(tendLabel)+'</span></div>'
-      +'<div class="cell-region"><span class="sin-dato">Sin dato</span></div>'
+      +'<div class="cell-region">'+renderRegionCell(r)+'</div>'
       +'<div class="cell-asist">'
         +(nar?'<span class="mobile-lbl">Asistencia</span>':'')
         +'<span class="num-val tabnum">'+pct+'%</span>'+barHtml
