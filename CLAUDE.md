@@ -87,20 +87,25 @@ estático (Fase 2) visualiza en el navegador.
 
 ## Últimos cambios (máx. 5, más recientes primero)
 
-1. **Workflow GitHub Actions (2026-07-10):** `.github/workflows/refresh-semanal.yml`
+1. **Presentación de votos + región/distrito (2026-07-15):** Capa 1 de la ruta de
+   la sesión 8, solo `docs/index.html`. Botón `Ver los N votos` / `Ver menos` que
+   expande la lista completa en el perfil (antes recortaba a 16 de hasta 717; el
+   JSON ya venía entero al cliente, 9 ms de re-render). Región/distrito dejan de
+   estar hardcodeados: la celda de la tabla y el chip de la ficha leen
+   `region`/`distrito` y degradan a "Sin dato" solo si faltan — invisible hoy
+   (155/155 `null`), habilitante para la Capa 2. Rama `feat/presentacion-votos`
+   (sin merge, gate del titular).
+2. **Workflow GitHub Actions (2026-07-10):** `.github/workflows/refresh-semanal.yml`
    (cron lunes 11:00 UTC + `workflow_dispatch`) automatiza el refresh semanal:
    calcula el corte con `date`, lo inyecta en `CORTE_FECHA` vía `sed`, corre
    `run_all()`, y un gate (`10_diff_conteos.R`) aborta antes de commitear/pushear
    si `perfiles < 155` o cae cualquier métrica. Probado local de punta a punta;
    rama `feature/github-actions-refresh` (sin merge, gate del titular).
-2. **Corte temporal explícito (2026-07-10):** `CORTE_FECHA` reemplaza `Sys.Date()`
+3. **Corte temporal explícito (2026-07-10):** `CORTE_FECHA` reemplaza `Sys.Date()`
    en la clave de caché (refresh reproducible sin drift); procedimiento de
    actualización semanal + script de diff de conteos como compuerta.
-3. **Integración de ramas + contenido legible (2026-07-09):** merge a `main` de
+4. **Integración de ramas + contenido legible (2026-07-09):** merge a `main` de
    trazabilidad voto→proyecto y detalle de proyectos (paso 36); fix de clave de
    caché que codifica el tope.
-4. **Dashboard Fase 2 (2026-07-09):** `docs/index.html` estático (vanilla) que
+5. **Dashboard Fase 2 (2026-07-09):** `docs/index.html` estático (vanilla) que
    consume el JSON precomputado; fuentes self-hosted, sin CDN.
-5. **Sesión 1 (2026-07-06):** scaffold Fase 1 completo + pipeline de extracción
-   de la Cámara (roster, asistencia, votaciones, proyectos) validado extremo a
-   extremo hasta producir `indice_diputados.json` y 155 perfiles.
