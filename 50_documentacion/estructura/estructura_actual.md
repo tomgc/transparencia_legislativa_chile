@@ -1,8 +1,8 @@
 # Estructura del proyecto
 
 - **Raíz:** `/Users/tomgc/Projects/transparencia_legislativa_chile`
-- **Fecha:** 2026-07-15 23:23:07
-- **Total:** 22 carpetas, 403 archivos
+- **Fecha:** 2026-07-16 07:21:04
+- **Total:** 22 carpetas, 410 archivos
 
 ## Árbol
 
@@ -10,7 +10,7 @@
 ├── 10_utils/
 │   ├── 10_configuracion.R    [6.85K]
 │   ├── 10_diff_conteos.R    [5.30K]
-│   ├── 10_utils.R    [9.74K]
+│   ├── 10_utils.R    [13.74K]
 ├── 20_insumos/
 │   ├── camara/
 │   │   ├── 20260706_asistencia_long_2026_tope-inf.rds    [3.42K]
@@ -23,14 +23,18 @@
 │   │   ├── 20260710_diputados.rds    [8.02K]
 │   │   ├── 20260710_proyectos_long_2026_tope-inf.rds    [20.55K]
 │   │   ├── 20260710_votos_long_2026_tope-inf.rds    [88.96K]
+│   │   ├── 20260713_asistencia_long_2026_tope-inf.rds    [3.57K]
+│   │   ├── 20260713_detalle_proyectos_2026_tope-inf.rds    [17.77K]
+│   │   ├── 20260713_diputados.rds    [8.02K]
+│   │   ├── 20260713_proyectos_long_2026_tope-inf.rds    [20.55K]
+│   │   ├── 20260713_votos_long_2026_tope-inf.rds    [88.96K]
 ├── 30_procesamiento/
-│   ├── 31_explorar_api_camara.R    [9.94K]
-│   ├── 32_extraer_diputados.R    [4.73K]
-│   ├── 33_extraer_asistencia.R    [4.97K]
-│   ├── 34_extraer_votaciones.R    [4.72K]
-│   ├── 35_extraer_proyectos.R    [5.49K]
-│   ├── 36_extraer_detalle_proyectos.R    [6.88K]
-│   ├── 39_consolidar_json.R    [12.08K]
+│   ├── 32_extraer_diputados.R    [4.87K]
+│   ├── 33_extraer_asistencia.R    [5.18K]
+│   ├── 34_extraer_votaciones.R    [4.93K]
+│   ├── 35_extraer_proyectos.R    [5.70K]
+│   ├── 36_extraer_detalle_proyectos.R    [7.17K]
+│   ├── 39_consolidar_json.R    [12.75K]
 ├── 40_salidas/
 │   ├── intermedios/
 │   │   ├── asistencia.rds    [1.90K]
@@ -230,6 +234,7 @@
 │   │   │   ├── 20260709_integracion_ramas_log.md    [6.97K]
 │   │   │   ├── 20260710_corte_temporal_log.md    [6.99K]
 │   │   │   ├── 20260710_github_actions_refresh_log.md    [10.11K]
+│   │   │   ├── 20260711_sello_corte_log.md    [7.97K]
 │   │   │   ├── 20260715_presentacion_votos_log.md    [7.79K]
 │   │   ├── muestras/
 │   │   │   ├── catalogo_materias.xml    [816.62K]
@@ -239,15 +244,16 @@
 │   │   │   ├── votacion_detalle_89288.xml    [42.28K]
 │   │   │   ├── votaciones_x_proyecto_16857_07.xml    [10.81K]
 │   │   │   ├── votaciones_x_proyecto_18211_25.xml    [3.03K]
+│   │   ├── 31_explorar_api_camara.R    [9.94K]
 │   │   ├── explorar_contenido_proyectos.R    [13.60K]
 │   ├── estructura/
-│   │   ├── 20260710_230650_estructura.md    [22.05K]
-│   │   ├── 20260710_230650_estructura.txt    [22.20K]
 │   │   ├── 20260711_133924_estructura.md    [24.67K]
 │   │   ├── 20260711_133924_estructura.txt    [24.82K]
+│   │   ├── 20260715_232307_estructura.md    [22.02K]
 │   │   ├── 20260715_232307_estructura.txt    [22.17K]
-│   │   ├── estructura_actual.md    [24.67K]
-│   │   ├── estructura_actual.txt    [22.17K]
+│   │   ├── 20260716_072103_estructura.txt    [22.65K]
+│   │   ├── estructura_actual.md    [22.02K]
+│   │   ├── estructura_actual.txt    [22.65K]
 │   ├── traspasos/
 │   │   ├── traspaso_cierre_v01.md    [13.54K]
 │   │   ├── traspaso_cierre_v02.md    [10.69K]
@@ -256,6 +262,7 @@
 │   │   ├── traspaso_cierre_v05.md    [23.50K]
 │   │   ├── traspaso_cierre_v06.md    [30.19K]
 │   │   ├── traspaso_cierre_v07.md    [33.64K]
+│   │   ├── traspaso_cierre_v08.md    [21.43K]
 ├── docs/
 │   ├── assets/
 │   │   ├── fonts/
@@ -430,7 +437,7 @@
 │   ├── index.html    [60.20K]
 ├── 00_escanear_proyecto.R    [8.14K]
 ├── 00_run_all.R    [4.94K]
-├── CLAUDE.md    [5.94K]
+├── CLAUDE.md    [5.98K]
 ├── README.md    [3.63K]
 ```
 
@@ -439,8 +446,8 @@
 | Extensión | Cantidad |
 |-----------|----------|
 | `.json` | 312 |
-| `.md` | 39 |
-| `.rds` | 16 |
+| `.md` | 41 |
+| `.rds` | 21 |
 | `.R` | 13 |
 | `.woff2` | 10 |
 | `.xml` | 6 |
