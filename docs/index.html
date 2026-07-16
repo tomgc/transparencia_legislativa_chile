@@ -240,6 +240,10 @@ a:hover{color:var(--accent-blue-hover)}
 
 .mini-thead{display:flex;align-items:center;gap:12px;padding:0 0 7px;border-bottom:1px solid var(--border-main);font-family:var(--font-mono);font-size:10px;letter-spacing:.04em;color:var(--text-muted-4)}
 .mini-tbody{max-height:280px;overflow:auto}
+.mini-tbody.expandida{max-height:70vh}
+.btn-votos{margin-top:10px;padding:8px 13px;border:1px solid var(--border-main);border-radius:9px;background:var(--surface-card);font-size:12.5px;font-weight:600;color:var(--text-secondary)}
+.btn-votos:hover{border-color:var(--border-hover)}
+.btn-votos:focus-visible{border-color:var(--accent-blue);box-shadow:var(--focus-ring);outline:none}
 .mini-row{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;padding:9px 0;border-top:1px solid var(--border-row-alt)}
 .mini-cell-boletin{font-family:var(--font-mono);font-size:12px;color:var(--text-muted-2);width:82px;flex:0 0 82px}
 .mini-cell-fecha{font-size:12px;color:var(--text-muted-2);width:88px;flex:0 0 88px}
@@ -337,6 +341,7 @@ var state = {
   search:'', selectedParties:{}, selectedTend:{}, region:'',
   sort:{field:'nombre', dir:'asc'},
   partyPanelOpen:false, regionPanelOpen:false, settingsPanelOpen:false,
+  votosExpandidos:false, /* por perfil: se resetea en cada navegacion (syncFromHash) */
   vw: window.innerWidth,
   scheme:'rojoAzul', density:'comoda', showBar:false
 };
@@ -442,6 +447,7 @@ function syncFromHash(){
   state.view = parsed.view;
   state.selectedId = parsed.id;
   state.partyPanelOpen = false; state.regionPanelOpen = false; state.settingsPanelOpen = false;
+  state.votosExpandidos = false; /* abrir otro perfil vuelve la lista a colapsada */
   if(parsed.view==='profile' && parsed.id){
     if(state.profileCache[parsed.id]){
       state.profileLoading = false; state.profileError = false;
@@ -697,18 +703,36 @@ function buildSkeletonRows(){
   }).join('');
 }
 
-// Region/Distrito: lee el dato del indice. Degrada a "Sin dato" solo si el campo
-// viene null o vacio. Hoy la fuente no expone ninguno de los dos (ver CLAUDE.md,
-// huecos conocidos) y las 155 filas caen al degradado; cuando el pipeline los
-// pueble, la celda los muestra sin volver a tocar la UI.
+// Region/Distrito: se leen del dato, nunca se escriben fijos. Hoy la fuente no
+// expone ninguno de los dos (ver CLAUDE.md, huecos conocidos) y todo cae al
+// degradado "Sin dato"; cuando el pipeline los pueble, la UI los muestra sin
+// volver a tocarse. Normaliza null y cadena vacia a ausencia.
+function regionPartes(r){
+  return {
+    region: (r.region==null || r.region==='') ? null : String(r.region),
+    distrito: (r.distrito==null || r.distrito==='') ? null : String(r.distrito)
+  };
+}
+
+// Celda de la tabla: region arriba, distrito como sublinea.
 function renderRegionCell(r){
-  var region = (r.region==null || r.region==='') ? null : String(r.region);
-  var distrito = (r.distrito==null || r.distrito==='') ? null : String(r.distrito);
-  if(!region && !distrito) return '<span class="sin-dato">Sin dato</span>';
+  var p = regionPartes(r);
+  if(!p.region && !p.distrito) return '<span class="sin-dato">Sin dato</span>';
   var out = '';
-  if(region) out += '<span class="region-nombre">'+esc(region)+'</span>';
-  if(distrito) out += '<span class="region-sub">Distrito '+esc(distrito)+'</span>';
+  if(p.region) out += '<span class="region-nombre">'+esc(p.region)+'</span>';
+  if(p.distrito) out += '<span class="region-sub">Distrito '+esc(p.distrito)+'</span>';
   return out;
+}
+
+// Chip del encabezado de la ficha: una linea. El span interno (en italica por
+// CSS) queda reservado al degradado, igual que .sin-dato en la tabla.
+function renderRegionChip(r){
+  var p = regionPartes(r);
+  if(!p.region && !p.distrito) return '<span class="chip-region"><span>Región/distrito: Sin dato</span></span>';
+  var partes = [];
+  if(p.region) partes.push(p.region);
+  if(p.distrito) partes.push('Distrito '+p.distrito);
+  return '<span class="chip-region">'+esc(partes.join(' · '))+'</span>';
 }
 
 function buildRows(rows){
@@ -829,8 +853,13 @@ function buildVotacionesSection(p){
 
   var list = (v.votos || []).slice();
   list.sort(function(a,b){ return (b.fecha||'').localeCompare(a.fecha||''); });
-  var showNote = list.length>16;
-  var listShown = list.slice(0,16);
+  // El JSON del perfil ya viene entero al cliente: expandir no cuesta red.
+  // Colapsado por defecto (16 mas recientes); el boton muestra la lista completa
+  // en el mismo lugar para poder verificar un voto puntual con Ctrl+F.
+  var LIMITE_COLAPSADO = 16;
+  var hayMas = list.length > LIMITE_COLAPSADO;
+  var expandido = hayMas && state.votosExpandidos;
+  var listShown = expandido ? list : list.slice(0, LIMITE_COLAPSADO);
   var rowsHtml = listShown.map(function(row){
     var resColor = row.resultado==='Aprobado' ? 'var(--accent-green)' : (row.resultado==='Rechazado' ? 'var(--accent-red)' : 'var(--text-muted)');
     var sentColor = {a_favor:'var(--accent-green)',en_contra:'var(--accent-red)',abstencion:'var(--accent-amber)',dispensado:'var(--accent-gray)',no_vota:'var(--accent-gray)'}[row.sentido] || 'var(--text-muted)';
@@ -869,8 +898,11 @@ function buildVotacionesSection(p){
     +'<div class="stack-bar">'+barHtml+'</div>'
     +'<div class="vot-legend">'+legendHtml+'</div>'
     +'<div class="mini-thead"><span style="width:82px;flex:0 0 82px">Boletín</span><span style="width:88px;flex:0 0 88px">Fecha</span><span style="flex:1 1 auto;min-width:160px">Materia</span><span style="width:92px;flex:0 0 92px">Resultado</span><span style="width:88px;flex:0 0 88px">Mi voto</span></div>'
-    +'<div class="mini-tbody">'+(rowsHtml||'<div class="mini-row" style="color:var(--text-muted-2);font-style:italic">Sin votaciones registradas.</div>')+'</div>'
-    +(showNote?('<div class="note-italic">Se muestra una muestra de 16 votaciones de '+total+' registradas.</div>'):'')
+    +'<div class="mini-tbody'+(expandido?' expandida':'')+'">'+(rowsHtml||'<div class="mini-row" style="color:var(--text-muted-2);font-style:italic">Sin votaciones registradas.</div>')+'</div>'
+    +(hayMas&&!expandido?('<div class="note-italic">Se muestran las '+LIMITE_COLAPSADO+' votaciones más recientes de '+list.length+' registradas.</div>'):'')
+    +(hayMas?('<button class="btn-votos" data-action="toggle-votos">'
+        +(expandido?'Ver menos':('Ver los '+list.length+' votos'))
+      +'</button>'):'')
   +'</div>';
 }
 
@@ -986,7 +1018,7 @@ function buildProfileView(){
         +'<div class="profile-chips">'
           +'<span class="chip-tend" style="'+tendChipStyle+'"><span class="chip-tend-dot" style="'+tendDotStyle+'"></span>'+esc(tendLabel)+'</span>'
           +'<span class="chip-party"><span class="sigla">'+esc(rec.partido)+'</span><span class="nombre">'+esc(partyNombre)+'</span></span>'
-          +'<span class="chip-region"><span>Región/distrito: Sin dato</span></span>'
+          +renderRegionChip(rec)
         +'</div>'
       +'</div>'
       +'<div class="profile-right">'
@@ -1071,6 +1103,7 @@ app.addEventListener('click', function(e){
     case 'set-scheme': state.scheme = el.dataset.scheme; break;
     case 'set-density': state.density = el.dataset.density; break;
     case 'toggle-bar': state.showBar = !state.showBar; break;
+    case 'toggle-votos': state.votosExpandidos = !state.votosExpandidos; break;
     default: return;
   }
   render();
