@@ -1,8 +1,8 @@
 ============================================================
  ESTRUCTURA DEL PROYECTO
  Raíz: /Users/tomgc/Projects/transparencia_legislativa_chile
- Fecha: 2026-07-15 23:23:07
- Total: 22 carpetas, 402 archivos
+ Fecha: 2026-07-11 13:39:24
+ Total: 22 carpetas, 437 archivos
 ============================================================
 
 ├── 10_utils/
@@ -23,6 +23,8 @@
 │   │   ├── 20260710_votos_long_2026_tope-inf.rds    [88.96K]
 ├── 30_procesamiento/
 │   ├── 31_explorar_api_camara.R    [9.94K]
+│   ├── 31f_auditar_cobertura_camara.R    [13.31K]
+│   ├── 31g_diagnostico_proposito.R    [15.12K]
 │   ├── 32_extraer_diputados.R    [4.73K]
 │   ├── 33_extraer_asistencia.R    [4.97K]
 │   ├── 34_extraer_votaciones.R    [4.72K]
@@ -31,11 +33,11 @@
 │   ├── 39_consolidar_json.R    [12.08K]
 ├── 40_salidas/
 │   ├── intermedios/
-│   │   ├── asistencia.rds    [1.90K]
-│   │   ├── diputados.rds    [4.89K]
-│   │   ├── proyectos_detalle.rds    [17.98K]
-│   │   ├── proyectos.rds    [20.88K]
-│   │   ├── votos.rds    [127.27K]
+│   │   ├── asistencia.rds    [1.62K]
+│   │   ├── diputados.rds    [4.71K]
+│   │   ├── proyectos_detalle.rds    [17.13K]
+│   │   ├── proyectos.rds    [19.65K]
+│   │   ├── votos.rds    [121.47K]
 │   ├── json/
 │   │   ├── perfiles/
 │   │   │   ├── 1009.json    [325.94K]
@@ -199,15 +201,15 @@
 │   │   ├── decisiones/
 │   │   │   ├── 20260710_decision_barrido_opendata_congreso.md    [4.07K]
 │   │   │   ├── 20260710_decision_modulo_biblioteca_historica.md    [5.89K]
-│   │   │   ├── 20260711_decision_ruta_desarrollo.md    [13.10K]
 │   │   │   ├── encargo_pipeline_senado_ESQUELETO_BLOQUEADO.md    [5.13K]
+│   │   ├── auditoria_cobertura_camara.md    [16.52K]
 │   │   ├── backlog_acumulativo.md    [15.84K]
-│   │   ├── backlog_entradas_sesion_7.md    [2.92K]
+│   │   ├── diagnostico_proposito.md    [15.18K]
 │   │   ├── documentacion_tecnica_v1.md    [4.44K]
 │   │   ├── encargo_contrato_datos_camara_senado.md    [14.93K]
 │   │   ├── encargo_exploracion_asistencia_senado_h1bis.md    [14.97K]
 │   │   ├── encargo_exploracion_senado_v02.md    [15.56K]
-│   │   ├── ESTADO.md    [1.04K]
+│   │   ├── ESTADO.md    [1.35K]
 │   │   ├── exploracion_api_camara.md    [7.29K]
 │   │   ├── POLITICA_PROYECTO.md    [34.61K]
 │   │   ├── procedimiento_actualizacion.md    [5.43K]
@@ -226,25 +228,59 @@
 │   │   │   ├── 20260709_diagnostico_contenido_legible.md    [13.75K]
 │   │   │   ├── 20260709_fix_cache_key_log.md    [6.67K]
 │   │   │   ├── 20260709_integracion_ramas_log.md    [6.97K]
+│   │   │   ├── 20260710_cobertura_camara_log.md    [6.71K]
 │   │   │   ├── 20260710_corte_temporal_log.md    [6.99K]
 │   │   │   ├── 20260710_github_actions_refresh_log.md    [10.11K]
-│   │   │   ├── 20260715_presentacion_votos_log.md    [7.79K]
+│   │   │   ├── 20260711_diagnostico_proposito_log.md    [6.19K]
 │   │   ├── muestras/
+│   │   │   ├── camara_catalogo_WSComision.html    [3.68K]
+│   │   │   ├── camara_catalogo_WSComun.html    [7.75K]
+│   │   │   ├── camara_catalogo_WSDiputado.html    [3.66K]
+│   │   │   ├── camara_catalogo_WSLegislativo.html    [5.80K]
+│   │   │   ├── camara_catalogo_WSSala.html    [3.44K]
+│   │   │   ├── camara_retornarComision_muestra.xml    [30.31K]
+│   │   │   ├── camara_retornarComisionesVigentes_muestra.xml    [1.55K]
+│   │   │   ├── camara_retornarDiputado_muestra.xml    [2.12K]
+│   │   │   ├── camara_retornarDiputadosPeriodoActual_muestra.xml    [174.86K]
+│   │   │   ├── camara_retornarDiputadosXPeriodo_muestra.xml    [174.86K]
+│   │   │   ├── camara_retornarDistritos_muestra.xml    [38.45K]
+│   │   │   ├── camara_retornarMensajesXAnno_muestra.xml    [21.06K]
+│   │   │   ├── camara_retornarMocionesXAnno_muestra.xml    [169.60K]
+│   │   │   ├── camara_retornarPartidosPoliticos_muestra.xml    [4.89K]
+│   │   │   ├── camara_retornarProyectoLey_muestra.xml    [14.67K]
+│   │   │   ├── camara_retornarRegiones_muestra.xml    [48.67K]
+│   │   │   ├── camara_retornarSesionAsistencia_muestra.xml    [46.59K]
+│   │   │   ├── camara_retornarSesionesXAnno_muestra.xml    [16.17K]
+│   │   │   ├── camara_retornarSesionesXLegislatura_muestra.xml    [217.00B]
+│   │   │   ├── camara_retornarTiposAsistencia_muestra.xml    [414.00B]
+│   │   │   ├── camara_retornarTiposEstado_muestra.xml    [331.00B]
+│   │   │   ├── camara_retornarTiposJustificacionesInasistencia_muestra.xml    [5.19K]
+│   │   │   ├── camara_retornarTramitesConstitucionales_muestra.xml    [705.00B]
+│   │   │   ├── camara_retornarTramitesReglamentarios_muestra.xml    [871.00B]
+│   │   │   ├── camara_retornarVotacionDetalle_muestra.xml    [42.33K]
+│   │   │   ├── camara_retornarVotacionesXAnno_muestra.xml    [294.17K]
+│   │   │   ├── camara_retornarVotacionesXProyectoLey_muestra.xml    [14.67K]
 │   │   │   ├── catalogo_materias.xml    [816.62K]
+│   │   │   ├── f1_mapa_votacion_boletin.rds    [6.18K]
 │   │   │   ├── hallazgos_muestra.rds    [979.00B]
 │   │   │   ├── proyecto_18211_25.xml    [3.03K]
 │   │   │   ├── proyecto_con_materias_10986_24.xml    [4.42K]
+│   │   │   ├── territorio_bcn_persona_muestra.txt    [15.66K]
 │   │   │   ├── votacion_detalle_89288.xml    [42.28K]
 │   │   │   ├── votaciones_x_proyecto_16857_07.xml    [10.81K]
 │   │   │   ├── votaciones_x_proyecto_18211_25.xml    [3.03K]
 │   │   ├── explorar_contenido_proyectos.R    [13.60K]
 │   ├── estructura/
+│   │   ├── 20260709_114413_estructura.md    [19.21K]
+│   │   ├── 20260709_114413_estructura.txt    [19.35K]
+│   │   ├── 20260710_071004_estructura.md    [20.42K]
+│   │   ├── 20260710_071004_estructura.txt    [20.57K]
+│   │   ├── 20260710_224905_estructura.md    [21.99K]
+│   │   ├── 20260710_224905_estructura.txt    [22.14K]
 │   │   ├── 20260710_230650_estructura.md    [22.05K]
 │   │   ├── 20260710_230650_estructura.txt    [22.20K]
-│   │   ├── 20260711_133924_estructura.md    [24.67K]
-│   │   ├── 20260711_133924_estructura.txt    [24.82K]
-│   │   ├── estructura_actual.md    [24.67K]
-│   │   ├── estructura_actual.txt    [24.82K]
+│   │   ├── estructura_actual.md    [20.42K]
+│   │   ├── estructura_actual.txt    [20.57K]
 │   ├── traspasos/
 │   │   ├── traspaso_cierre_v01.md    [13.54K]
 │   │   ├── traspaso_cierre_v02.md    [10.69K]
@@ -252,7 +288,6 @@
 │   │   ├── traspaso_cierre_v04.md    [26.44K]
 │   │   ├── traspaso_cierre_v05.md    [23.50K]
 │   │   ├── traspaso_cierre_v06.md    [30.19K]
-│   │   ├── traspaso_cierre_v07.md    [33.64K]
 ├── docs/
 │   ├── assets/
 │   │   ├── fonts/
@@ -424,10 +459,10 @@
 │   │   │   ├── 915.json    [174.83K]
 │   │   │   ├── 986.json    [178.20K]
 │   │   ├── indice_diputados.json    [47.31K]
-│   ├── index.html    [60.20K]
+│   ├── index.html    [57.52K]
 ├── 00_escanear_proyecto.R    [8.14K]
 ├── 00_run_all.R    [4.94K]
-├── CLAUDE.md    [5.94K]
+├── CLAUDE.md    [5.58K]
 ├── README.md    [3.63K]
 
 ============================================================
@@ -435,11 +470,11 @@
 ============================================================
 
   .json            312
-  .md               39
-  .rds              16
-  .R                13
+  .md               41
+  .xml              28
+  .rds              17
+  .R                15
   .woff2            10
-  .xml               6
-  .txt               3
-  .html              2
+  .html              7
+  .txt               6
   .js                1
