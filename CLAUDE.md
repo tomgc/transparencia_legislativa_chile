@@ -58,8 +58,8 @@ estático (Fase 2) visualiza en el navegador.
   helpers de nodo XML y de llave.
 - `10_utils/10_configuracion.R` — rutas (`here::here()`), `ANIO_PROCESO`, topes
   de extracción, dominios canónicos, `MAPA_PARTIDO_TENDENCIA`.
-- `30_procesamiento/31_explorar_api_camara.R` — exploración (diagnóstico, fuera
-  del pipeline).
+- `50_documentacion/andamios/31_explorar_api_camara.R` — exploración
+  (diagnóstico, fuera del pipeline; vive en andamios, no es una etapa).
 - `30_procesamiento/{32,33,34,35}_*.R` — extracción (diputados, asistencia,
   votaciones, proyectos).
 - `30_procesamiento/39_consolidar_json.R` — fusión a JSON.
