@@ -3,8 +3,8 @@
   "configurations": [
     {
       "name": "dashboard-static",
-      "runtimeExecutable": "python3",
-      "runtimeArgs": ["-m", "http.server", "8123", "--directory", "docs"],
+      "runtimeExecutable": "Rscript",
+      "runtimeArgs": ["-e", "servr::httd(dir='docs', port=8123, browser=FALSE, daemon=FALSE)"],
       "port": 8123
     }
   ]
