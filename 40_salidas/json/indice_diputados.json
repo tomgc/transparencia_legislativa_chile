@@ -8,9 +8,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
-    "tasa_asistencia": 0.983606557377049,
+    "tasa_asistencia": 0.984615384615385,
     "n_proyectos": 2,
-    "n_votaciones": 717
+    "n_votaciones": 742
   },
   {
     "id": "1257",
@@ -21,9 +21,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
-    "tasa_asistencia": 0.953488372093023,
+    "tasa_asistencia": 0.957446808510638,
     "n_proyectos": 15,
-    "n_votaciones": 405
+    "n_votaciones": 430
   },
   {
     "id": "1013",
@@ -34,9 +34,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "centroizquierda",
-    "tasa_asistencia": 0.983606557377049,
+    "tasa_asistencia": 0.984615384615385,
     "n_proyectos": 14,
-    "n_votaciones": 717
+    "n_votaciones": 742
   },
   {
     "id": "1245",
@@ -48,8 +48,8 @@
     "region": null,
     "tendencia": "derecha",
     "tasa_asistencia": 1,
-    "n_proyectos": 1,
-    "n_votaciones": 405
+    "n_proyectos": 2,
+    "n_votaciones": 430
   },
   {
     "id": "1230",
@@ -62,7 +62,7 @@
     "tendencia": "centro",
     "tasa_asistencia": 1,
     "n_proyectos": 4,
-    "n_votaciones": 405
+    "n_votaciones": 430
   },
   {
     "id": "1128",
@@ -73,9 +73,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "izquierda",
-    "tasa_asistencia": 0.950819672131147,
-    "n_proyectos": 24,
-    "n_votaciones": 717
+    "tasa_asistencia": 0.907692307692308,
+    "n_proyectos": 26,
+    "n_votaciones": 742
   },
   {
     "id": "1222",
@@ -86,9 +86,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "centroizquierda",
-    "tasa_asistencia": 0.953488372093023,
-    "n_proyectos": 4,
-    "n_votaciones": 405
+    "tasa_asistencia": 0.957446808510638,
+    "n_proyectos": 5,
+    "n_votaciones": 430
   },
   {
     "id": "1061",
@@ -100,8 +100,8 @@
     "region": null,
     "tendencia": "centroizquierda",
     "tasa_asistencia": 1,
-    "n_proyectos": 13,
-    "n_votaciones": 405
+    "n_proyectos": 15,
+    "n_votaciones": 430
   },
   {
     "id": "1021",
@@ -112,9 +112,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "centroderecha",
-    "tasa_asistencia": 0.950819672131147,
-    "n_proyectos": 20,
-    "n_votaciones": 717
+    "tasa_asistencia": 0.892307692307692,
+    "n_proyectos": 22,
+    "n_votaciones": 742
   },
   {
     "id": "1221",
@@ -127,7 +127,7 @@
     "tendencia": "derecha",
     "tasa_asistencia": 1,
     "n_proyectos": 2,
-    "n_votaciones": 405
+    "n_votaciones": 430
   },
   {
     "id": "1150",
@@ -139,8 +139,8 @@
     "region": null,
     "tendencia": "derecha",
     "tasa_asistencia": 1,
-    "n_proyectos": 3,
-    "n_votaciones": 717
+    "n_proyectos": 4,
+    "n_votaciones": 742
   },
   {
     "id": "1250",
@@ -151,9 +151,9 @@
     "distrito": null,
     "region": null,
     "tendencia": null,
-    "tasa_asistencia": 0.930232558139535,
-    "n_proyectos": 2,
-    "n_votaciones": 405
+    "tasa_asistencia": 0.936170212765957,
+    "n_proyectos": 4,
+    "n_votaciones": 430
   },
   {
     "id": "1012",
@@ -166,7 +166,7 @@
     "tendencia": "izquierda",
     "tasa_asistencia": 1,
     "n_proyectos": 8,
-    "n_votaciones": 717
+    "n_votaciones": 742
   },
   {
     "id": "1187",
@@ -179,7 +179,7 @@
     "tendencia": "derecha",
     "tasa_asistencia": 1,
     "n_proyectos": 1,
-    "n_votaciones": 405
+    "n_votaciones": 430
   },
   {
     "id": "1110",
@@ -190,9 +190,9 @@
     "distrito": null,
     "region": null,
     "tendencia": null,
-    "tasa_asistencia": 0.967213114754098,
-    "n_proyectos": 14,
-    "n_votaciones": 717
+    "tasa_asistencia": 0.969230769230769,
+    "n_proyectos": 15,
+    "n_votaciones": 742
   },
   {
     "id": "1195",
@@ -204,8 +204,8 @@
     "region": null,
     "tendencia": null,
     "tasa_asistencia": 1,
-    "n_proyectos": 12,
-    "n_votaciones": 405
+    "n_proyectos": 13,
+    "n_votaciones": 430
   },
   {
     "id": "1197",
@@ -217,8 +217,8 @@
     "region": null,
     "tendencia": "centroderecha",
     "tasa_asistencia": 1,
-    "n_proyectos": 11,
-    "n_votaciones": 405
+    "n_proyectos": 13,
+    "n_votaciones": 430
   },
   {
     "id": "1205",
@@ -229,9 +229,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "centroizquierda",
-    "tasa_asistencia": 0.953488372093023,
-    "n_proyectos": 14,
-    "n_votaciones": 405
+    "tasa_asistencia": 0.957446808510638,
+    "n_proyectos": 15,
+    "n_votaciones": 430
   },
   {
     "id": "1206",
@@ -243,8 +243,8 @@
     "region": null,
     "tendencia": null,
     "tasa_asistencia": 1,
-    "n_proyectos": 7,
-    "n_votaciones": 405
+    "n_proyectos": 9,
+    "n_votaciones": 430
   },
   {
     "id": "1177",
@@ -255,9 +255,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "izquierda",
-    "tasa_asistencia": 0.967213114754098,
+    "tasa_asistencia": 0.969230769230769,
     "n_proyectos": 14,
-    "n_votaciones": 717
+    "n_votaciones": 742
   },
   {
     "id": "1025",
@@ -268,9 +268,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
-    "tasa_asistencia": 0.786885245901639,
-    "n_proyectos": 7,
-    "n_votaciones": 717
+    "tasa_asistencia": 0.8,
+    "n_proyectos": 8,
+    "n_votaciones": 742
   },
   {
     "id": "1104",
@@ -281,9 +281,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
-    "tasa_asistencia": 0.983606557377049,
-    "n_proyectos": 7,
-    "n_votaciones": 717
+    "tasa_asistencia": 0.984615384615385,
+    "n_proyectos": 8,
+    "n_votaciones": 742
   },
   {
     "id": "1227",
@@ -294,9 +294,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "centroderecha",
-    "tasa_asistencia": 0.953488372093023,
-    "n_proyectos": 14,
-    "n_votaciones": 405
+    "tasa_asistencia": 0.957446808510638,
+    "n_proyectos": 16,
+    "n_votaciones": 430
   },
   {
     "id": "1244",
@@ -309,7 +309,7 @@
     "tendencia": "derecha",
     "tasa_asistencia": 1,
     "n_proyectos": 6,
-    "n_votaciones": 405
+    "n_votaciones": 430
   },
   {
     "id": "1153",
@@ -320,9 +320,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "izquierda",
-    "tasa_asistencia": 0.819672131147541,
+    "tasa_asistencia": 0.769230769230769,
     "n_proyectos": 7,
-    "n_votaciones": 717
+    "n_votaciones": 742
   },
   {
     "id": "1214",
@@ -335,7 +335,7 @@
     "tendencia": "derecha",
     "tasa_asistencia": 1,
     "n_proyectos": 3,
-    "n_votaciones": 405
+    "n_votaciones": 430
   },
   {
     "id": "1252",
@@ -348,7 +348,7 @@
     "tendencia": "izquierda",
     "tasa_asistencia": 1,
     "n_proyectos": 2,
-    "n_votaciones": 405
+    "n_votaciones": 430
   },
   {
     "id": "1180",
@@ -359,9 +359,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "izquierda",
-    "tasa_asistencia": 0.983606557377049,
+    "tasa_asistencia": 0.984615384615385,
     "n_proyectos": 15,
-    "n_votaciones": 717
+    "n_votaciones": 742
   },
   {
     "id": "1200",
@@ -372,9 +372,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "centro",
-    "tasa_asistencia": 0.953488372093023,
+    "tasa_asistencia": 0.957446808510638,
     "n_proyectos": 11,
-    "n_votaciones": 405
+    "n_votaciones": 430
   },
   {
     "id": "1224",
@@ -386,8 +386,8 @@
     "region": null,
     "tendencia": "centro",
     "tasa_asistencia": 1,
-    "n_proyectos": 12,
-    "n_votaciones": 405
+    "n_proyectos": 14,
+    "n_votaciones": 430
   },
   {
     "id": "1225",
@@ -400,7 +400,7 @@
     "tendencia": null,
     "tasa_asistencia": 1,
     "n_proyectos": 2,
-    "n_votaciones": 405
+    "n_votaciones": 430
   },
   {
     "id": "1232",
@@ -413,7 +413,7 @@
     "tendencia": "derecha",
     "tasa_asistencia": 1,
     "n_proyectos": 2,
-    "n_votaciones": 405
+    "n_votaciones": 430
   },
   {
     "id": "1100",
@@ -424,9 +424,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
-    "tasa_asistencia": 0.934426229508197,
-    "n_proyectos": 5,
-    "n_votaciones": 717
+    "tasa_asistencia": 0.907692307692308,
+    "n_proyectos": 6,
+    "n_votaciones": 742
   },
   {
     "id": "1175",
@@ -437,9 +437,9 @@
     "distrito": null,
     "region": null,
     "tendencia": null,
-    "tasa_asistencia": 0.967213114754098,
-    "n_proyectos": 10,
-    "n_votaciones": 717
+    "tasa_asistencia": 0.953846153846154,
+    "n_proyectos": 12,
+    "n_votaciones": 742
   },
   {
     "id": "1143",
@@ -450,9 +450,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
-    "tasa_asistencia": 0.934426229508197,
-    "n_proyectos": 14,
-    "n_votaciones": 717
+    "tasa_asistencia": 0.938461538461538,
+    "n_proyectos": 15,
+    "n_votaciones": 742
   },
   {
     "id": "1082",
@@ -463,9 +463,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
-    "tasa_asistencia": 0.967213114754098,
+    "tasa_asistencia": 0.969230769230769,
     "n_proyectos": 8,
-    "n_votaciones": 717
+    "n_votaciones": 742
   },
   {
     "id": "1260",
@@ -478,7 +478,7 @@
     "tendencia": "centroizquierda",
     "tasa_asistencia": 1,
     "n_proyectos": 8,
-    "n_votaciones": 405
+    "n_votaciones": 430
   },
   {
     "id": "1194",
@@ -491,7 +491,7 @@
     "tendencia": "derecha",
     "tasa_asistencia": 1,
     "n_proyectos": 2,
-    "n_votaciones": 405
+    "n_votaciones": 430
   },
   {
     "id": "1140",
@@ -502,9 +502,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
-    "tasa_asistencia": 0.983606557377049,
+    "tasa_asistencia": 0.984615384615385,
     "n_proyectos": 15,
-    "n_votaciones": 717
+    "n_votaciones": 742
   },
   {
     "id": "1142",
@@ -515,9 +515,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "centroizquierda",
-    "tasa_asistencia": 0.950819672131147,
-    "n_proyectos": 6,
-    "n_votaciones": 717
+    "tasa_asistencia": 0.953846153846154,
+    "n_proyectos": 7,
+    "n_votaciones": 742
   },
   {
     "id": "1261",
@@ -528,9 +528,9 @@
     "distrito": null,
     "region": null,
     "tendencia": null,
-    "tasa_asistencia": 0.906976744186046,
-    "n_proyectos": 10,
-    "n_votaciones": 405
+    "tasa_asistencia": 0.914893617021277,
+    "n_proyectos": 12,
+    "n_votaciones": 430
   },
   {
     "id": "1173",
@@ -541,9 +541,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "izquierda",
-    "tasa_asistencia": 0.983606557377049,
+    "tasa_asistencia": 0.984615384615385,
     "n_proyectos": 10,
-    "n_votaciones": 717
+    "n_votaciones": 742
   },
   {
     "id": "1075",
@@ -554,9 +554,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "centroderecha",
-    "tasa_asistencia": 0.868852459016393,
-    "n_proyectos": 12,
-    "n_votaciones": 717
+    "tasa_asistencia": 0.876923076923077,
+    "n_proyectos": 15,
+    "n_votaciones": 742
   },
   {
     "id": "1262",
@@ -568,8 +568,8 @@
     "region": null,
     "tendencia": "derecha",
     "tasa_asistencia": 1,
-    "n_proyectos": 1,
-    "n_votaciones": 405
+    "n_proyectos": 2,
+    "n_votaciones": 430
   },
   {
     "id": "1202",
@@ -581,8 +581,8 @@
     "region": null,
     "tendencia": "derecha",
     "tasa_asistencia": 1,
-    "n_proyectos": 10,
-    "n_votaciones": 405
+    "n_proyectos": 11,
+    "n_votaciones": 430
   },
   {
     "id": "1028",
@@ -594,8 +594,8 @@
     "region": null,
     "tendencia": "centroderecha",
     "tasa_asistencia": 1,
-    "n_proyectos": 23,
-    "n_votaciones": 717
+    "n_proyectos": 27,
+    "n_votaciones": 742
   },
   {
     "id": "1255",
@@ -607,8 +607,8 @@
     "region": null,
     "tendencia": "centro",
     "tasa_asistencia": 1,
-    "n_proyectos": 10,
-    "n_votaciones": 405
+    "n_proyectos": 11,
+    "n_votaciones": 430
   },
   {
     "id": "1056",
@@ -620,8 +620,8 @@
     "region": null,
     "tendencia": "centroizquierda",
     "tasa_asistencia": 1,
-    "n_proyectos": 6,
-    "n_votaciones": 717
+    "n_proyectos": 7,
+    "n_votaciones": 742
   },
   {
     "id": "1171",
@@ -634,7 +634,7 @@
     "tendencia": "izquierda",
     "tasa_asistencia": 1,
     "n_proyectos": 8,
-    "n_votaciones": 717
+    "n_votaciones": 742
   },
   {
     "id": "1190",
@@ -646,8 +646,8 @@
     "region": null,
     "tendencia": null,
     "tasa_asistencia": 1,
-    "n_proyectos": 3,
-    "n_votaciones": 405
+    "n_proyectos": 5,
+    "n_votaciones": 430
   },
   {
     "id": "1212",
@@ -658,9 +658,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
-    "tasa_asistencia": 0.930232558139535,
+    "tasa_asistencia": 0.936170212765957,
     "n_proyectos": 1,
-    "n_votaciones": 405
+    "n_votaciones": 430
   },
   {
     "id": "1239",
@@ -673,7 +673,7 @@
     "tendencia": "centro",
     "tasa_asistencia": 1,
     "n_proyectos": 8,
-    "n_votaciones": 405
+    "n_votaciones": 430
   },
   {
     "id": "1116",
@@ -684,9 +684,9 @@
     "distrito": null,
     "region": null,
     "tendencia": null,
-    "tasa_asistencia": 0.868852459016393,
-    "n_proyectos": 16,
-    "n_votaciones": 717
+    "tasa_asistencia": 0.876923076923077,
+    "n_proyectos": 17,
+    "n_votaciones": 742
   },
   {
     "id": "1248",
@@ -697,9 +697,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
-    "tasa_asistencia": 0.953488372093023,
-    "n_proyectos": 2,
-    "n_votaciones": 405
+    "tasa_asistencia": 0.957446808510638,
+    "n_proyectos": 4,
+    "n_votaciones": 430
   },
   {
     "id": "1253",
@@ -711,8 +711,8 @@
     "region": null,
     "tendencia": "derecha",
     "tasa_asistencia": 1,
-    "n_proyectos": 2,
-    "n_votaciones": 405
+    "n_proyectos": 4,
+    "n_votaciones": 430
   },
   {
     "id": "1264",
@@ -724,8 +724,8 @@
     "region": null,
     "tendencia": "centroizquierda",
     "tasa_asistencia": 1,
-    "n_proyectos": 8,
-    "n_votaciones": 405
+    "n_proyectos": 9,
+    "n_votaciones": 430
   },
   {
     "id": "1201",
@@ -737,8 +737,8 @@
     "region": null,
     "tendencia": "centro",
     "tasa_asistencia": 1,
-    "n_proyectos": 6,
-    "n_votaciones": 405
+    "n_proyectos": 7,
+    "n_votaciones": 430
   },
   {
     "id": "1183",
@@ -749,9 +749,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
-    "tasa_asistencia": 0.934426229508197,
+    "tasa_asistencia": 0.938461538461538,
     "n_proyectos": 10,
-    "n_votaciones": 717
+    "n_votaciones": 742
   },
   {
     "id": "1054",
@@ -762,9 +762,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
-    "tasa_asistencia": 0.950819672131147,
-    "n_proyectos": 7,
-    "n_votaciones": 717
+    "tasa_asistencia": 0.953846153846154,
+    "n_proyectos": 8,
+    "n_votaciones": 742
   },
   {
     "id": "1204",
@@ -776,8 +776,8 @@
     "region": null,
     "tendencia": "centroizquierda",
     "tasa_asistencia": 1,
-    "n_proyectos": 1,
-    "n_votaciones": 405
+    "n_proyectos": 2,
+    "n_votaciones": 430
   },
   {
     "id": "1237",
@@ -789,8 +789,8 @@
     "region": null,
     "tendencia": "centroderecha",
     "tasa_asistencia": 1,
-    "n_proyectos": 11,
-    "n_votaciones": 405
+    "n_proyectos": 14,
+    "n_votaciones": 430
   },
   {
     "id": "1114",
@@ -801,9 +801,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "izquierda",
-    "tasa_asistencia": 0.983606557377049,
-    "n_proyectos": 6,
-    "n_votaciones": 717
+    "tasa_asistencia": 0.984615384615385,
+    "n_proyectos": 7,
+    "n_votaciones": 742
   },
   {
     "id": "1087",
@@ -814,9 +814,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "izquierda",
-    "tasa_asistencia": 0.983606557377049,
-    "n_proyectos": 11,
-    "n_votaciones": 717
+    "tasa_asistencia": 0.984615384615385,
+    "n_proyectos": 12,
+    "n_votaciones": 742
   },
   {
     "id": "915",
@@ -827,9 +827,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
-    "tasa_asistencia": 0.976744186046512,
+    "tasa_asistencia": 0.957446808510638,
     "n_proyectos": 2,
-    "n_votaciones": 405
+    "n_votaciones": 430
   },
   {
     "id": "1152",
@@ -840,9 +840,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
-    "tasa_asistencia": 0.754098360655738,
+    "tasa_asistencia": 0.738461538461539,
     "n_proyectos": 4,
-    "n_votaciones": 717
+    "n_votaciones": 742
   },
   {
     "id": "1086",
@@ -853,9 +853,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "izquierda",
-    "tasa_asistencia": 0.901639344262295,
+    "tasa_asistencia": 0.907692307692308,
     "n_proyectos": 8,
-    "n_votaciones": 717
+    "n_votaciones": 742
   },
   {
     "id": "1065",
@@ -866,9 +866,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
-    "tasa_asistencia": 0.950819672131147,
+    "tasa_asistencia": 0.953846153846154,
     "n_proyectos": 9,
-    "n_votaciones": 717
+    "n_votaciones": 742
   },
   {
     "id": "1258",
@@ -881,7 +881,7 @@
     "tendencia": "centro",
     "tasa_asistencia": 1,
     "n_proyectos": 9,
-    "n_votaciones": 405
+    "n_votaciones": 430
   },
   {
     "id": "1210",
@@ -894,7 +894,7 @@
     "tendencia": null,
     "tasa_asistencia": 1,
     "n_proyectos": 4,
-    "n_votaciones": 405
+    "n_votaciones": 430
   },
   {
     "id": "1223",
@@ -905,9 +905,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
-    "tasa_asistencia": 0.976744186046512,
-    "n_proyectos": 10,
-    "n_votaciones": 405
+    "tasa_asistencia": 0.978723404255319,
+    "n_proyectos": 12,
+    "n_votaciones": 430
   },
   {
     "id": "1176",
@@ -918,9 +918,9 @@
     "distrito": null,
     "region": null,
     "tendencia": null,
-    "tasa_asistencia": 0.967213114754098,
-    "n_proyectos": 13,
-    "n_votaciones": 717
+    "tasa_asistencia": 0.969230769230769,
+    "n_proyectos": 14,
+    "n_votaciones": 742
   },
   {
     "id": "1105",
@@ -931,9 +931,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "centro",
-    "tasa_asistencia": 0.934426229508197,
-    "n_proyectos": 9,
-    "n_votaciones": 717
+    "tasa_asistencia": 0.938461538461538,
+    "n_proyectos": 11,
+    "n_votaciones": 742
   },
   {
     "id": "1178",
@@ -944,9 +944,9 @@
     "distrito": null,
     "region": null,
     "tendencia": null,
-    "tasa_asistencia": 1,
-    "n_proyectos": 19,
-    "n_votaciones": 717
+    "tasa_asistencia": 0.938461538461538,
+    "n_proyectos": 21,
+    "n_votaciones": 742
   },
   {
     "id": "1186",
@@ -959,7 +959,7 @@
     "tendencia": "izquierda",
     "tasa_asistencia": 1,
     "n_proyectos": 4,
-    "n_votaciones": 405
+    "n_votaciones": 430
   },
   {
     "id": "1254",
@@ -971,8 +971,8 @@
     "region": null,
     "tendencia": "derecha",
     "tasa_asistencia": 1,
-    "n_proyectos": 2,
-    "n_votaciones": 405
+    "n_proyectos": 3,
+    "n_votaciones": 430
   },
   {
     "id": "1213",
@@ -985,7 +985,7 @@
     "tendencia": "izquierda",
     "tasa_asistencia": 1,
     "n_proyectos": 10,
-    "n_votaciones": 405
+    "n_votaciones": 430
   },
   {
     "id": "1099",
@@ -996,9 +996,9 @@
     "distrito": null,
     "region": null,
     "tendencia": null,
-    "tasa_asistencia": 0.950819672131147,
-    "n_proyectos": 16,
-    "n_votaciones": 717
+    "tasa_asistencia": 0.953846153846154,
+    "n_proyectos": 17,
+    "n_votaciones": 742
   },
   {
     "id": "1189",
@@ -1011,7 +1011,7 @@
     "tendencia": "izquierda",
     "tasa_asistencia": 1,
     "n_proyectos": 6,
-    "n_votaciones": 405
+    "n_votaciones": 430
   },
   {
     "id": "1199",
@@ -1024,7 +1024,7 @@
     "tendencia": "derecha",
     "tasa_asistencia": 1,
     "n_proyectos": 9,
-    "n_votaciones": 405
+    "n_votaciones": 430
   },
   {
     "id": "872",
@@ -1035,9 +1035,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "izquierda",
-    "tasa_asistencia": 0.918032786885246,
-    "n_proyectos": 9,
-    "n_votaciones": 717
+    "tasa_asistencia": 0.923076923076923,
+    "n_proyectos": 10,
+    "n_votaciones": 742
   },
   {
     "id": "1229",
@@ -1050,7 +1050,7 @@
     "tendencia": "centro",
     "tasa_asistencia": 1,
     "n_proyectos": 4,
-    "n_votaciones": 405
+    "n_votaciones": 430
   },
   {
     "id": "1235",
@@ -1062,8 +1062,8 @@
     "region": null,
     "tendencia": "centro",
     "tasa_asistencia": 1,
-    "n_proyectos": 14,
-    "n_votaciones": 405
+    "n_proyectos": 17,
+    "n_votaciones": 430
   },
   {
     "id": "1148",
@@ -1074,9 +1074,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "izquierda",
-    "tasa_asistencia": 0.311475409836066,
+    "tasa_asistencia": 0.292307692307692,
     "n_proyectos": 7,
-    "n_votaciones": 717
+    "n_votaciones": 742
   },
   {
     "id": "1247",
@@ -1088,8 +1088,8 @@
     "region": null,
     "tendencia": "derecha",
     "tasa_asistencia": 1,
-    "n_proyectos": 5,
-    "n_votaciones": 405
+    "n_proyectos": 7,
+    "n_votaciones": 430
   },
   {
     "id": "1062",
@@ -1100,9 +1100,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "centro",
-    "tasa_asistencia": 0.934426229508197,
-    "n_proyectos": 10,
-    "n_votaciones": 717
+    "tasa_asistencia": 0.938461538461538,
+    "n_proyectos": 11,
+    "n_votaciones": 742
   },
   {
     "id": "1009",
@@ -1113,9 +1113,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
-    "tasa_asistencia": 0.901639344262295,
-    "n_proyectos": 4,
-    "n_votaciones": 717
+    "tasa_asistencia": 0.907692307692308,
+    "n_proyectos": 6,
+    "n_votaciones": 742
   },
   {
     "id": "1015",
@@ -1126,9 +1126,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "izquierda",
-    "tasa_asistencia": 0.983606557377049,
+    "tasa_asistencia": 0.984615384615385,
     "n_proyectos": 4,
-    "n_votaciones": 717
+    "n_votaciones": 742
   },
   {
     "id": "1208",
@@ -1139,9 +1139,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "centro",
-    "tasa_asistencia": 0.953488372093023,
-    "n_proyectos": 7,
-    "n_votaciones": 405
+    "tasa_asistencia": 0.957446808510638,
+    "n_proyectos": 8,
+    "n_votaciones": 430
   },
   {
     "id": "1132",
@@ -1152,9 +1152,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "centroderecha",
-    "tasa_asistencia": 0.983606557377049,
-    "n_proyectos": 8,
-    "n_votaciones": 717
+    "tasa_asistencia": 0.984615384615385,
+    "n_proyectos": 11,
+    "n_votaciones": 742
   },
   {
     "id": "1218",
@@ -1166,8 +1166,8 @@
     "region": null,
     "tendencia": "derecha",
     "tasa_asistencia": 1,
-    "n_proyectos": 3,
-    "n_votaciones": 405
+    "n_proyectos": 5,
+    "n_votaciones": 430
   },
   {
     "id": "1246",
@@ -1178,9 +1178,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "centroizquierda",
-    "tasa_asistencia": 0.976744186046512,
-    "n_proyectos": 1,
-    "n_votaciones": 405
+    "tasa_asistencia": 0.978723404255319,
+    "n_proyectos": 2,
+    "n_votaciones": 430
   },
   {
     "id": "1146",
@@ -1191,9 +1191,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
-    "tasa_asistencia": 0.934426229508197,
+    "tasa_asistencia": 0.938461538461538,
     "n_proyectos": 3,
-    "n_votaciones": 717
+    "n_votaciones": 742
   },
   {
     "id": "1226",
@@ -1204,9 +1204,9 @@
     "distrito": null,
     "region": null,
     "tendencia": null,
-    "tasa_asistencia": 0.930232558139535,
-    "n_proyectos": 13,
-    "n_votaciones": 405
+    "tasa_asistencia": 0.936170212765957,
+    "n_proyectos": 15,
+    "n_votaciones": 430
   },
   {
     "id": "1108",
@@ -1217,9 +1217,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "centroderecha",
-    "tasa_asistencia": 0.918032786885246,
-    "n_proyectos": 12,
-    "n_votaciones": 717
+    "tasa_asistencia": 0.923076923076923,
+    "n_proyectos": 14,
+    "n_votaciones": 742
   },
   {
     "id": "1133",
@@ -1230,9 +1230,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
-    "tasa_asistencia": 0.901639344262295,
+    "tasa_asistencia": 0.907692307692308,
     "n_proyectos": 6,
-    "n_votaciones": 717
+    "n_votaciones": 742
   },
   {
     "id": "1259",
@@ -1243,9 +1243,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "centro",
-    "tasa_asistencia": 0.976744186046512,
-    "n_proyectos": 11,
-    "n_votaciones": 405
+    "tasa_asistencia": 0.978723404255319,
+    "n_proyectos": 13,
+    "n_votaciones": 430
   },
   {
     "id": "1073",
@@ -1256,9 +1256,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "centroizquierda",
-    "tasa_asistencia": 0.983606557377049,
+    "tasa_asistencia": 0.984615384615385,
     "n_proyectos": 8,
-    "n_votaciones": 717
+    "n_votaciones": 742
   },
   {
     "id": "1220",
@@ -1271,7 +1271,7 @@
     "tendencia": "derecha",
     "tasa_asistencia": 1,
     "n_proyectos": 3,
-    "n_votaciones": 405
+    "n_votaciones": 430
   },
   {
     "id": "1192",
@@ -1282,9 +1282,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "centro",
-    "tasa_asistencia": 0.720930232558139,
+    "tasa_asistencia": 0.702127659574468,
     "n_proyectos": 7,
-    "n_votaciones": 405
+    "n_votaciones": 430
   },
   {
     "id": "1127",
@@ -1295,9 +1295,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "izquierda",
-    "tasa_asistencia": 0.967213114754098,
+    "tasa_asistencia": 0.969230769230769,
     "n_proyectos": 8,
-    "n_votaciones": 717
+    "n_votaciones": 742
   },
   {
     "id": "1159",
@@ -1308,9 +1308,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "izquierda",
-    "tasa_asistencia": 0.901639344262295,
+    "tasa_asistencia": 0.907692307692308,
     "n_proyectos": 7,
-    "n_votaciones": 717
+    "n_votaciones": 742
   },
   {
     "id": "1122",
@@ -1323,7 +1323,7 @@
     "tendencia": "izquierda",
     "tasa_asistencia": 1,
     "n_proyectos": 16,
-    "n_votaciones": 717
+    "n_votaciones": 742
   },
   {
     "id": "1141",
@@ -1336,7 +1336,7 @@
     "tendencia": "centroizquierda",
     "tasa_asistencia": 1,
     "n_proyectos": 17,
-    "n_votaciones": 717
+    "n_votaciones": 742
   },
   {
     "id": "1060",
@@ -1347,9 +1347,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "centroderecha",
-    "tasa_asistencia": 0.976744186046512,
-    "n_proyectos": 8,
-    "n_votaciones": 405
+    "tasa_asistencia": 0.978723404255319,
+    "n_proyectos": 10,
+    "n_votaciones": 430
   },
   {
     "id": "1170",
@@ -1360,9 +1360,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
-    "tasa_asistencia": 0.983606557377049,
+    "tasa_asistencia": 0.984615384615385,
     "n_proyectos": 3,
-    "n_votaciones": 717
+    "n_votaciones": 742
   },
   {
     "id": "1251",
@@ -1373,9 +1373,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
-    "tasa_asistencia": 0.930232558139535,
-    "n_proyectos": 7,
-    "n_votaciones": 405
+    "tasa_asistencia": 0.936170212765957,
+    "n_proyectos": 10,
+    "n_votaciones": 430
   },
   {
     "id": "986",
@@ -1386,9 +1386,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "centroizquierda",
-    "tasa_asistencia": 1,
-    "n_proyectos": 11,
-    "n_votaciones": 405
+    "tasa_asistencia": 0.936170212765957,
+    "n_proyectos": 12,
+    "n_votaciones": 430
   },
   {
     "id": "1174",
@@ -1399,9 +1399,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
-    "tasa_asistencia": 0.983606557377049,
+    "tasa_asistencia": 0.984615384615385,
     "n_proyectos": 14,
-    "n_votaciones": 717
+    "n_votaciones": 742
   },
   {
     "id": "1188",
@@ -1414,7 +1414,7 @@
     "tendencia": "izquierda",
     "tasa_asistencia": 1,
     "n_proyectos": 6,
-    "n_votaciones": 405
+    "n_votaciones": 430
   },
   {
     "id": "1038",
@@ -1425,9 +1425,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "centroizquierda",
-    "tasa_asistencia": 0.918032786885246,
+    "tasa_asistencia": 0.923076923076923,
     "n_proyectos": 4,
-    "n_votaciones": 717
+    "n_votaciones": 742
   },
   {
     "id": "1234",
@@ -1438,9 +1438,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
-    "tasa_asistencia": 0.813953488372093,
+    "tasa_asistencia": 0.829787234042553,
     "n_proyectos": 16,
-    "n_votaciones": 405
+    "n_votaciones": 430
   },
   {
     "id": "1074",
@@ -1451,9 +1451,9 @@
     "distrito": null,
     "region": null,
     "tendencia": null,
-    "tasa_asistencia": 0.666666666666667,
+    "tasa_asistencia": 0.688524590163934,
     "n_proyectos": 14,
-    "n_votaciones": 717
+    "n_votaciones": 742
   },
   {
     "id": "1157",
@@ -1464,9 +1464,9 @@
     "distrito": null,
     "region": null,
     "tendencia": null,
-    "tasa_asistencia": 1,
-    "n_proyectos": 16,
-    "n_votaciones": 717
+    "tasa_asistencia": 0.984615384615385,
+    "n_proyectos": 17,
+    "n_votaciones": 742
   },
   {
     "id": "1107",
@@ -1477,9 +1477,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "izquierda",
-    "tasa_asistencia": 0.0327868852459016,
+    "tasa_asistencia": 0.0307692307692308,
     "n_proyectos": 10,
-    "n_votaciones": 717
+    "n_votaciones": 742
   },
   {
     "id": "1209",
@@ -1492,7 +1492,7 @@
     "tendencia": "izquierda",
     "tasa_asistencia": 1,
     "n_proyectos": 7,
-    "n_votaciones": 405
+    "n_votaciones": 430
   },
   {
     "id": "1131",
@@ -1503,9 +1503,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "centroderecha",
-    "tasa_asistencia": 0.852459016393443,
-    "n_proyectos": 10,
-    "n_votaciones": 717
+    "tasa_asistencia": 0.861538461538462,
+    "n_proyectos": 11,
+    "n_votaciones": 742
   },
   {
     "id": "1166",
@@ -1517,8 +1517,8 @@
     "region": null,
     "tendencia": null,
     "tasa_asistencia": 1,
-    "n_proyectos": 9,
-    "n_votaciones": 717
+    "n_proyectos": 10,
+    "n_votaciones": 742
   },
   {
     "id": "1117",
@@ -1529,9 +1529,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "izquierda",
-    "tasa_asistencia": 0.786885245901639,
+    "tasa_asistencia": 0.738461538461539,
     "n_proyectos": 11,
-    "n_votaciones": 717
+    "n_votaciones": 742
   },
   {
     "id": "1181",
@@ -1542,9 +1542,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "centroizquierda",
-    "tasa_asistencia": 0.918032786885246,
-    "n_proyectos": 4,
-    "n_votaciones": 717
+    "tasa_asistencia": 0.923076923076923,
+    "n_proyectos": 5,
+    "n_votaciones": 742
   },
   {
     "id": "1249",
@@ -1557,7 +1557,7 @@
     "tendencia": null,
     "tasa_asistencia": 1,
     "n_proyectos": 13,
-    "n_votaciones": 405
+    "n_votaciones": 430
   },
   {
     "id": "1039",
@@ -1570,7 +1570,7 @@
     "tendencia": "centro",
     "tasa_asistencia": 1,
     "n_proyectos": 11,
-    "n_votaciones": 717
+    "n_votaciones": 742
   },
   {
     "id": "1193",
@@ -1582,8 +1582,8 @@
     "region": null,
     "tendencia": "centro",
     "tasa_asistencia": 1,
-    "n_proyectos": 23,
-    "n_votaciones": 405
+    "n_proyectos": 24,
+    "n_votaciones": 430
   },
   {
     "id": "1241",
@@ -1595,8 +1595,8 @@
     "region": null,
     "tendencia": "centro",
     "tasa_asistencia": 1,
-    "n_proyectos": 12,
-    "n_votaciones": 405
+    "n_proyectos": 15,
+    "n_votaciones": 430
   },
   {
     "id": "1236",
@@ -1607,9 +1607,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "centro",
-    "tasa_asistencia": 0.953488372093023,
-    "n_proyectos": 13,
-    "n_votaciones": 405
+    "tasa_asistencia": 0.872340425531915,
+    "n_proyectos": 14,
+    "n_votaciones": 430
   },
   {
     "id": "1228",
@@ -1622,7 +1622,7 @@
     "tendencia": "derecha",
     "tasa_asistencia": 1,
     "n_proyectos": 6,
-    "n_votaciones": 405
+    "n_votaciones": 430
   },
   {
     "id": "1198",
@@ -1634,8 +1634,8 @@
     "region": null,
     "tendencia": "derecha",
     "tasa_asistencia": 1,
-    "n_proyectos": 2,
-    "n_votaciones": 405
+    "n_proyectos": 3,
+    "n_votaciones": 430
   },
   {
     "id": "1217",
@@ -1646,9 +1646,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
-    "tasa_asistencia": 0.953488372093023,
+    "tasa_asistencia": 0.957446808510638,
     "n_proyectos": 13,
-    "n_votaciones": 405
+    "n_votaciones": 430
   },
   {
     "id": "1196",
@@ -1661,7 +1661,7 @@
     "tendencia": "centro",
     "tasa_asistencia": 1,
     "n_proyectos": 4,
-    "n_votaciones": 405
+    "n_votaciones": 430
   },
   {
     "id": "1044",
@@ -1672,9 +1672,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "centroizquierda",
-    "tasa_asistencia": 0.950819672131147,
+    "tasa_asistencia": 0.953846153846154,
     "n_proyectos": 7,
-    "n_votaciones": 717
+    "n_votaciones": 742
   },
   {
     "id": "1077",
@@ -1685,9 +1685,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "centroizquierda",
-    "tasa_asistencia": 0.950819672131147,
-    "n_proyectos": 7,
-    "n_votaciones": 717
+    "tasa_asistencia": 0.953846153846154,
+    "n_proyectos": 9,
+    "n_votaciones": 742
   },
   {
     "id": "803",
@@ -1698,9 +1698,9 @@
     "distrito": null,
     "region": null,
     "tendencia": null,
-    "tasa_asistencia": 0.967213114754098,
+    "tasa_asistencia": 0.969230769230769,
     "n_proyectos": 1,
-    "n_votaciones": 717
+    "n_votaciones": 742
   },
   {
     "id": "843",
@@ -1711,9 +1711,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "centroderecha",
-    "tasa_asistencia": 0.906976744186046,
-    "n_proyectos": 9,
-    "n_votaciones": 405
+    "tasa_asistencia": 0.914893617021277,
+    "n_proyectos": 10,
+    "n_votaciones": 430
   },
   {
     "id": "1233",
@@ -1725,8 +1725,8 @@
     "region": null,
     "tendencia": "derecha",
     "tasa_asistencia": 1,
-    "n_proyectos": 9,
-    "n_votaciones": 405
+    "n_proyectos": 10,
+    "n_votaciones": 430
   },
   {
     "id": "1102",
@@ -1737,9 +1737,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
-    "tasa_asistencia": 0.836065573770492,
-    "n_proyectos": 16,
-    "n_votaciones": 717
+    "tasa_asistencia": 0.846153846153846,
+    "n_proyectos": 17,
+    "n_votaciones": 742
   },
   {
     "id": "1184",
@@ -1752,7 +1752,7 @@
     "tendencia": null,
     "tasa_asistencia": 1,
     "n_proyectos": 3,
-    "n_votaciones": 717
+    "n_votaciones": 742
   },
   {
     "id": "1242",
@@ -1763,9 +1763,9 @@
     "distrito": null,
     "region": null,
     "tendencia": null,
-    "tasa_asistencia": 1,
-    "n_proyectos": 10,
-    "n_votaciones": 405
+    "tasa_asistencia": 0.957446808510638,
+    "n_proyectos": 11,
+    "n_votaciones": 430
   },
   {
     "id": "1119",
@@ -1778,7 +1778,7 @@
     "tendencia": "derecha",
     "tasa_asistencia": 1,
     "n_proyectos": 11,
-    "n_votaciones": 717
+    "n_votaciones": 742
   },
   {
     "id": "1203",
@@ -1790,8 +1790,8 @@
     "region": null,
     "tendencia": "derecha",
     "tasa_asistencia": 1,
-    "n_proyectos": 3,
-    "n_votaciones": 405
+    "n_proyectos": 4,
+    "n_votaciones": 430
   },
   {
     "id": "1182",
@@ -1802,9 +1802,9 @@
     "distrito": null,
     "region": null,
     "tendencia": null,
-    "tasa_asistencia": 0.983606557377049,
-    "n_proyectos": 10,
-    "n_votaciones": 717
+    "tasa_asistencia": 0.984615384615385,
+    "n_proyectos": 11,
+    "n_votaciones": 742
   },
   {
     "id": "1263",
@@ -1815,9 +1815,9 @@
     "distrito": null,
     "region": null,
     "tendencia": null,
-    "tasa_asistencia": 0.976744186046512,
-    "n_proyectos": 3,
-    "n_votaciones": 405
+    "tasa_asistencia": 0.978723404255319,
+    "n_proyectos": 4,
+    "n_votaciones": 430
   },
   {
     "id": "815",
@@ -1828,9 +1828,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
-    "tasa_asistencia": 0.983606557377049,
-    "n_proyectos": 10,
-    "n_votaciones": 717
+    "tasa_asistencia": 0.984615384615385,
+    "n_proyectos": 11,
+    "n_votaciones": 742
   },
   {
     "id": "1211",
@@ -1843,7 +1843,7 @@
     "tendencia": "izquierda",
     "tasa_asistencia": 1,
     "n_proyectos": 6,
-    "n_votaciones": 405
+    "n_votaciones": 430
   },
   {
     "id": "1172",
@@ -1854,9 +1854,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
-    "tasa_asistencia": 0.901639344262295,
+    "tasa_asistencia": 0.907692307692308,
     "n_proyectos": 1,
-    "n_votaciones": 717
+    "n_votaciones": 742
   },
   {
     "id": "1216",
@@ -1867,9 +1867,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
-    "tasa_asistencia": 0.953488372093023,
+    "tasa_asistencia": 0.914893617021277,
     "n_proyectos": 3,
-    "n_votaciones": 405
+    "n_votaciones": 430
   },
   {
     "id": "1243",
@@ -1880,9 +1880,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "centro",
-    "tasa_asistencia": 0.930232558139535,
+    "tasa_asistencia": 0.936170212765957,
     "n_proyectos": 11,
-    "n_votaciones": 405
+    "n_votaciones": 430
   },
   {
     "id": "1256",
@@ -1895,7 +1895,7 @@
     "tendencia": "izquierda",
     "tasa_asistencia": 1,
     "n_proyectos": 5,
-    "n_votaciones": 405
+    "n_votaciones": 430
   },
   {
     "id": "1219",
@@ -1906,9 +1906,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "centroderecha",
-    "tasa_asistencia": 0.883720930232558,
-    "n_proyectos": 13,
-    "n_votaciones": 405
+    "tasa_asistencia": 0.893617021276596,
+    "n_proyectos": 14,
+    "n_votaciones": 430
   },
   {
     "id": "1191",
@@ -1919,9 +1919,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
-    "tasa_asistencia": 0.976744186046512,
-    "n_proyectos": 3,
-    "n_votaciones": 405
+    "tasa_asistencia": 0.978723404255319,
+    "n_proyectos": 4,
+    "n_votaciones": 430
   },
   {
     "id": "1207",
@@ -1933,8 +1933,8 @@
     "region": null,
     "tendencia": null,
     "tasa_asistencia": 1,
-    "n_proyectos": 4,
-    "n_votaciones": 405
+    "n_proyectos": 5,
+    "n_votaciones": 430
   },
   {
     "id": "1231",
@@ -1946,8 +1946,8 @@
     "region": null,
     "tendencia": null,
     "tasa_asistencia": 1,
-    "n_proyectos": 16,
-    "n_votaciones": 405
+    "n_proyectos": 17,
+    "n_votaciones": 430
   },
   {
     "id": "1059",
@@ -1959,8 +1959,8 @@
     "region": null,
     "tendencia": "centroderecha",
     "tasa_asistencia": 1,
-    "n_proyectos": 29,
-    "n_votaciones": 717
+    "n_proyectos": 33,
+    "n_votaciones": 742
   },
   {
     "id": "1240",
@@ -1971,9 +1971,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "centro",
-    "tasa_asistencia": 0.906976744186046,
+    "tasa_asistencia": 0.914893617021277,
     "n_proyectos": 10,
-    "n_votaciones": 405
+    "n_votaciones": 430
   },
   {
     "id": "1017",
@@ -1984,9 +1984,9 @@
     "distrito": null,
     "region": null,
     "tendencia": "derecha",
-    "tasa_asistencia": 0.983606557377049,
+    "tasa_asistencia": 0.984615384615385,
     "n_proyectos": 3,
-    "n_votaciones": 717
+    "n_votaciones": 742
   },
   {
     "id": "1215",
@@ -1999,7 +1999,7 @@
     "tendencia": "derecha",
     "tasa_asistencia": 1,
     "n_proyectos": 9,
-    "n_votaciones": 405
+    "n_votaciones": 430
   },
   {
     "id": "1238",
@@ -2011,7 +2011,7 @@
     "region": null,
     "tendencia": "centro",
     "tasa_asistencia": 1,
-    "n_proyectos": 8,
-    "n_votaciones": 405
+    "n_proyectos": 9,
+    "n_votaciones": 430
   }
 ]
