@@ -15,20 +15,20 @@
   },
   "asistencia": {
     "anio": 2026,
-    "n_sesiones": 43,
-    "n_asiste": 43,
+    "n_sesiones": 47,
+    "n_asiste": 47,
     "n_no_asiste": 0,
     "tasa_asistencia": 1
   },
   "votaciones": {
     "anio": 2026,
-    "n_votaciones": 405,
+    "n_votaciones": 430,
     "resumen_por_sentido": {
-      "en_contra": 150,
-      "a_favor": 223,
+      "en_contra": 158,
+      "a_favor": 238,
       "abstencion": 21,
       "dispensado": 0,
-      "no_vota": 11
+      "no_vota": 13
     },
     "votos": [
       {
@@ -5475,6 +5475,356 @@
           "tipo_iniciativa": "Mensaje",
           "materias": []
         }
+      },
+      {
+        "votacion_id": "89381",
+        "boletin": "18399-06",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-13",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18399-06",
+        "proyecto": {
+          "boletin": "18399-06",
+          "nombre": "Declara feriado regional el 10 de agosto de los años 2026 y 2027 en reemplazo de los feriados que indica",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89382",
+        "boletin": "18399-06",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-13",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18399-06",
+        "proyecto": {
+          "boletin": "18399-06",
+          "nombre": "Declara feriado regional el 10 de agosto de los años 2026 y 2027 en reemplazo de los feriados que indica",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89383",
+        "boletin": "18399-06",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-13",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18399-06",
+        "proyecto": {
+          "boletin": "18399-06",
+          "nombre": "Declara feriado regional el 10 de agosto de los años 2026 y 2027 en reemplazo de los feriados que indica",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89384",
+        "boletin": "16836-06",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-13",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16836-06",
+        "proyecto": {
+          "boletin": "16836-06",
+          "nombre": "Modifica la ley N° 21.325 para perfeccionar el procedimiento de expulsión administrativa",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89385",
+        "boletin": "16836-06",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-13",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 16836-06",
+        "proyecto": {
+          "boletin": "16836-06",
+          "nombre": "Modifica la ley N° 21.325 para perfeccionar el procedimiento de expulsión administrativa",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89386",
+        "boletin": "16836-06",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-13",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 16836-06",
+        "proyecto": {
+          "boletin": "16836-06",
+          "nombre": "Modifica la ley N° 21.325 para perfeccionar el procedimiento de expulsión administrativa",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89387",
+        "boletin": "16836-06",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-13",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 16836-06",
+        "proyecto": {
+          "boletin": "16836-06",
+          "nombre": "Modifica la ley N° 21.325 para perfeccionar el procedimiento de expulsión administrativa",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89388",
+        "boletin": "16836-06",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-13",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16836-06",
+        "proyecto": {
+          "boletin": "16836-06",
+          "nombre": "Modifica la ley N° 21.325 para perfeccionar el procedimiento de expulsión administrativa",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89389",
+        "boletin": "16836-06",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-13",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16836-06",
+        "proyecto": {
+          "boletin": "16836-06",
+          "nombre": "Modifica la ley N° 21.325 para perfeccionar el procedimiento de expulsión administrativa",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89390",
+        "boletin": "16836-06",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-13",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 16836-06",
+        "proyecto": {
+          "boletin": "16836-06",
+          "nombre": "Modifica la ley N° 21.325 para perfeccionar el procedimiento de expulsión administrativa",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89391",
+        "boletin": "16836-06",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-13",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 16836-06",
+        "proyecto": {
+          "boletin": "16836-06",
+          "nombre": "Modifica la ley N° 21.325 para perfeccionar el procedimiento de expulsión administrativa",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89400",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-07-14",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "3-Creacion Comision Investigadora",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89401",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-07-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89404",
+        "boletin": null,
+        "tipo": "Proyecto de Acuerdo",
+        "fecha": "2026-07-14",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Proyecto de Acuerdo N° 22",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89405",
+        "boletin": null,
+        "tipo": "Proyecto de Resolución",
+        "fecha": "2026-07-14",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Proyecto de Resolución N° 24",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89406",
+        "boletin": null,
+        "tipo": "Proyecto de Resolución",
+        "fecha": "2026-07-14",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Proyecto de Resolución N° 29",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89407",
+        "boletin": "17012-14",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17012-14",
+        "proyecto": {
+          "boletin": "17012-14",
+          "nombre": "Modifica la ley N° 21.442, que aprueba nueva ley de copropiedad inmobiliaria, con el objeto de implementar sistemas de seguridad adicionales para impedir caídas accidentales desde edificaciones en altura",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89408",
+        "boletin": "17012-14",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17012-14",
+        "proyecto": {
+          "boletin": "17012-14",
+          "nombre": "Modifica la ley N° 21.442, que aprueba nueva ley de copropiedad inmobiliaria, con el objeto de implementar sistemas de seguridad adicionales para impedir caídas accidentales desde edificaciones en altura",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89409",
+        "boletin": "17012-14",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-14",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 17012-14",
+        "proyecto": {
+          "boletin": "17012-14",
+          "nombre": "Modifica la ley N° 21.442, que aprueba nueva ley de copropiedad inmobiliaria, con el objeto de implementar sistemas de seguridad adicionales para impedir caídas accidentales desde edificaciones en altura",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89410",
+        "boletin": "17012-14",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17012-14",
+        "proyecto": {
+          "boletin": "17012-14",
+          "nombre": "Modifica la ley N° 21.442, que aprueba nueva ley de copropiedad inmobiliaria, con el objeto de implementar sistemas de seguridad adicionales para impedir caídas accidentales desde edificaciones en altura",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89411",
+        "boletin": "17012-14",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-14",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17012-14",
+        "proyecto": {
+          "boletin": "17012-14",
+          "nombre": "Modifica la ley N° 21.442, que aprueba nueva ley de copropiedad inmobiliaria, con el objeto de implementar sistemas de seguridad adicionales para impedir caídas accidentales desde edificaciones en altura",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89420",
+        "boletin": "18401-31",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-15",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18401-31",
+        "proyecto": {
+          "boletin": "18401-31",
+          "nombre": "Entrega un bono extraordinario de apoyo a la niñez",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89421",
+        "boletin": "18401-31",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-15",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18401-31",
+        "proyecto": {
+          "boletin": "18401-31",
+          "nombre": "Entrega un bono extraordinario de apoyo a la niñez",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89422",
+        "boletin": "18401-31",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-15",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18401-31",
+        "proyecto": {
+          "boletin": "18401-31",
+          "nombre": "Entrega un bono extraordinario de apoyo a la niñez",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89423",
+        "boletin": "18401-31",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-15",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18401-31",
+        "proyecto": {
+          "boletin": "18401-31",
+          "nombre": "Entrega un bono extraordinario de apoyo a la niñez",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       }
     ]
   },
@@ -5507,6 +5857,6 @@
     "fuente": "opendata.camara.cl",
     "periodo": "2026-2030",
     "anio_proceso": 2026,
-    "generado": "2026-07-13T13:36:23"
+    "generado": "2026-07-20T13:18:08"
   }
 }
