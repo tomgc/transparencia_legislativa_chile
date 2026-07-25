@@ -9,8 +9,8 @@
       "nombre": "Partido Demócrata Cristiano",
       "alias": "DC"
     },
-    "distrito": null,
-    "region": null,
+    "distrito": 21,
+    "region": "Región del Biobío",
     "tendencia": "centro"
   },
   "asistencia": {
@@ -5974,6 +5974,6 @@
     "fuente": "opendata.camara.cl",
     "periodo": "2026-2030",
     "anio_proceso": 2026,
-    "generado": "2026-07-20T13:18:17"
+    "generado": "2026-07-24T22:50:46"
   }
 }

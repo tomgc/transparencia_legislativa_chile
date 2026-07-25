@@ -9,8 +9,8 @@
       "nombre": "Partido de la Gente",
       "alias": "PDG"
     },
-    "distrito": null,
-    "region": null,
+    "distrito": 23,
+    "region": "Región de La Araucanía",
     "tendencia": "centro"
   },
   "asistencia": {
@@ -5902,6 +5902,6 @@
     "fuente": "opendata.camara.cl",
     "periodo": "2026-2030",
     "anio_proceso": 2026,
-    "generado": "2026-07-20T13:18:19"
+    "generado": "2026-07-24T22:50:47"
   }
 }
