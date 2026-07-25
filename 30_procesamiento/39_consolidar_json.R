@@ -10,7 +10,11 @@
 #              - 40_salidas/json/perfiles/<id>.json      (uno por diputado)
 #            Claves ordenadas, indentacion fija, UTF-8 (POLITICA 2, 5.5).
 #            Publica ademas una copia en docs/data/ para GitHub Pages (Fase 2).
-# Insumos:   40_salidas/intermedios/{diputados,asistencia,votos,proyectos}.rds
+# Insumos:   40_salidas/intermedios/{diputados,asistencia,votos,proyectos,
+#            proyectos_detalle,asistencia_nominal,asistencia_ambitos}.rds
+#            (los dos ultimos, Capa 3: serie nominal de asistencia y agregados
+#            por ambito temporal; se AGREGAN al bloque de asistencia sin tocar
+#            los campos legacy que el portal consume hoy)
 # Salidas:   40_salidas/json/ (indice + perfiles/, canonico) y docs/data/
 #            (indice + perfiles/, publicacion; copia fiel de 40_salidas/json/).
 # Validacion: NAs en llaves, totales pre/post join, rango de tasa, dominio de
@@ -48,12 +52,18 @@ proyectos  <- leer("proyectos")
 # Detalle de contenido por boletin (tipo_iniciativa, materias) del paso 36.
 # Habilita: proyectos legibles (materias) y trazabilidad voto->proyecto.
 proyectos_detalle <- leer("proyectos_detalle")
+# Capa 3 (sesion 11): serie nominal de asistencia y agregados por ambito. No
+# reemplazan a `asistencia` (el agregado legacy sigue alimentando los campos
+# que el portal consume hoy); se AGREGAN.
+asistencia_nominal <- leer("asistencia_nominal")
+asistencia_ambitos <- leer("asistencia_ambitos")
 
 # Compuerta de procedencia: los cinco intermedios deben pertenecer al corte
 # vigente y ser coherentes entre si. stop() diagnostico si no. Va ANTES del
 # stopifnot de character y de todo join/escritura.
 validar_corte(sellos_intermedios, CORTE_FECHA)
-log_msg(sprintf("Procedencia validada: 5 intermedios al corte %s.", CORTE_FECHA),
+log_msg(sprintf("Procedencia validada: %d intermedios al corte %s.",
+                length(sellos_intermedios), CORTE_FECHA),
         origen = "39_consolidar")
 
 # La llave es character en todas las tablas (invariante POLITICA 5.3.6).
@@ -61,7 +71,10 @@ stopifnot(is.character(diputados$diputado_id),
           is.character(asistencia$diputado_id),
           is.character(votos$diputado_id),
           is.character(proyectos$diputado_id),
-          is.character(proyectos_detalle$boletin))
+          is.character(proyectos_detalle$boletin),
+          is.character(asistencia_nominal$diputado_id),
+          is.character(asistencia_nominal$sesion_id),
+          is.character(asistencia_ambitos$diputado_id))
 
 # ---- Lookup de contenido por boletin (O(1) por llave) -----------------------
 # det_map[[boletin]] -> list(boletin, nombre, tipo_iniciativa, materias(df)).
@@ -76,6 +89,61 @@ names(det_map) <- proyectos_detalle$boletin
 detalle_de <- function(bol) if (is.na(bol)) NULL else det_map[[bol]]
 MATERIAS_VACIO <- data.frame(id = character(0), nombre = character(0),
                              stringsAsFactors = FALSE)
+
+# ---- Capa 3: lookups de asistencia nominal (O(1) por diputado) --------------
+# El alcance temporal viaja como atributo del intermedio (lo fija el 33 con la
+# fecha de instalacion que publica la API), no se re-deriva aqui.
+ALCANCE <- attr(asistencia_ambitos, "alcance")
+if (is.null(ALCANCE))
+  stop("39_consolidar: asistencia_ambitos.rds no trae el atributo 'alcance'. Regenera el paso 33.",
+       call. = FALSE)
+
+# Nota legible: impide leer el acumulado como carrera completa. Es texto, no
+# dato derivado; se construye con los valores reales del alcance.
+NOTA_ALCANCE <- sprintf(
+  paste0("Cobertura parcial: solo sesiones de sala del anno %d hasta el %s ",
+         "(%d sesiones, de %s a %s). NO es la trayectoria completa del ",
+         "parlamentario. El ambito 'periodo_vigente' cuenta las %d sesiones ",
+         "desde la instalacion del periodo %s (%s) y usa el mismo denominador ",
+         "para todos, por lo que es el comparable entre diputados; ",
+         "'en_ejercicio' cuenta solo las sesiones del alcance posteriores a la ",
+         "asuncion de cada diputado."),
+  ALCANCE$anio_proceso, ALCANCE$corte_fecha, ALCANCE$sesiones_alcance,
+  ALCANCE$fecha_primera, ALCANCE$fecha_ultima, ALCANCE$sesiones_periodo_vigente,
+  ALCANCE$periodo_nombre, ALCANCE$periodo_inicio)
+
+BLOQUE_ALCANCE <- list(
+  anio_proceso             = ALCANCE$anio_proceso,
+  corte_fecha              = ALCANCE$corte_fecha,
+  sesiones_alcance         = ALCANCE$sesiones_alcance,
+  fecha_primera            = ALCANCE$fecha_primera,
+  fecha_ultima             = ALCANCE$fecha_ultima,
+  periodo_id               = ALCANCE$periodo_id,
+  periodo_nombre           = ALCANCE$periodo_nombre,
+  periodo_inicio           = ALCANCE$periodo_inicio,
+  sesiones_periodo_vigente = ALCANCE$sesiones_periodo_vigente,
+  nota                     = NOTA_ALCANCE
+)
+
+# Conteos + tasas de un ambito, en el orden fijo del contrato.
+bloque_ambito <- function(fila) {
+  if (nrow(fila) != 1) return(NULL)
+  list(
+    n_sesiones       = fila$n_sesiones,
+    n_asiste         = fila$n_asiste,
+    n_no_asiste      = fila$n_no_asiste,
+    # Sesiones del ambito en que la fuente no registra fila para el diputado.
+    # No se imputa asistencia ni inasistencia (POLITICA: nunca fabricar dato).
+    n_sin_registro   = fila$n_sin_registro,
+    n_justificadas   = fila$n_justificadas,
+    n_injustificadas = fila$n_injustificadas,
+    # Ambas tasas comparten denominador (n_sesiones). Ninguna usa las rebajas.
+    tasa_presencia               = fila$tasa_presencia,
+    tasa_presencia_o_justificada = fila$tasa_presencia_o_justificada
+  )
+}
+amb_map <- split(asistencia_ambitos, asistencia_ambitos$diputado_id)
+serie_map <- split(asistencia_nominal, asistencia_nominal$diputado_id)
 
 roster_ids <- diputados$diputado_id
 log_msg(sprintf("Roster vigente: %d diputados.", length(roster_ids)),
@@ -99,6 +167,7 @@ cobertura <- function(tabla, etiqueta) {
   invisible(NULL)
 }
 cobertura(asistencia, "Asistencia")
+cobertura(asistencia_nominal, "Asistencia nominal")
 cobertura(votos,      "Votaciones")
 cobertura(proyectos,  "Proyectos")
 
@@ -108,6 +177,13 @@ cobertura(proyectos,  "Proyectos")
 # diputado no tiene fila en asistencia (mismo criterio que el bloque de perfil).
 resumen_asistencia <- asistencia |>
   select(diputado_id, tasa_asistencia)
+
+# Capa 3: tasa de presencia del PERIODO VIGENTE (denominador comun a los 155,
+# por eso comparable entre diputados). Se AGREGA al indice; no reemplaza a
+# tasa_asistencia, cuyo denominador es el historico del propio diputado.
+resumen_presencia <- asistencia_ambitos |>
+  filter(ambito == "periodo_vigente") |>
+  select(diputado_id, tasa_presencia)
 
 resumen_votos <- votos |>
   summarise(n_votaciones = n(), .by = diputado_id)
@@ -120,6 +196,7 @@ indice <- diputados |>
   left_join(resumen_asistencia, by = "diputado_id") |>
   left_join(resumen_votos,      by = "diputado_id") |>
   left_join(resumen_proyectos,  by = "diputado_id") |>
+  left_join(resumen_presencia,  by = "diputado_id") |>
   mutate(
     n_votaciones = coalesce(n_votaciones, 0L),
     n_proyectos  = coalesce(n_proyectos, 0L)
@@ -136,7 +213,9 @@ indice <- diputados |>
     tendencia       = tendencia,
     tasa_asistencia = tasa_asistencia,
     n_proyectos     = n_proyectos,
-    n_votaciones    = n_votaciones
+    n_votaciones    = n_votaciones,
+    # Capa 3, campo NUEVO al final: no altera el orden que el cliente ya usa.
+    tasa_presencia  = tasa_presencia
   )
 
 fs::dir_create(ruta_json())
@@ -183,6 +262,43 @@ for (i in seq_len(nrow(diputados))) {
     list(anio = ANIO_PROCESO, n_sesiones = 0L, n_asiste = 0L,
          n_no_asiste = 0L, tasa_asistencia = NA_real_)
   }
+
+  # Capa 3: se AGREGA al bloque de asistencia, despues de los campos legacy
+  # (que no cambian de nombre, formula ni valor). La serie es el espejo de
+  # votaciones.votos[]: una entrada por sesion, ordenada por fecha.
+  amb_d <- amb_map[[did]]
+  bloque_asistencia$alcance_temporal <- BLOQUE_ALCANCE
+  bloque_asistencia$periodo_vigente <- if (!is.null(amb_d))
+    bloque_ambito(amb_d[amb_d$ambito == "periodo_vigente", ]) else NULL
+  bloque_asistencia$en_ejercicio <- if (!is.null(amb_d))
+    bloque_ambito(amb_d[amb_d$ambito == "en_ejercicio", ]) else NULL
+
+  s <- serie_map[[did]]
+  bloque_asistencia$sesiones <- if (!is.null(s) && nrow(s) > 0) {
+    s_ord <- s |> arrange(fecha, sesion_id)
+    lapply(seq_len(nrow(s_ord)), function(k) {
+      cod <- s_ord$justificacion_codigo[k]
+      # justificacion anidada solo si la fuente la trae; null si no (el ausente
+      # sin justificar es un caso real y distinguible, no se fabrica glosa).
+      just <- if (!is.na(cod)) list(
+        codigo = cod,
+        glosa  = s_ord$justificacion_glosa[k],
+        # Dato de la fuente, sin uso en ninguna formula: su semantica
+        # reglamentaria no esta documentada (P2 de la medicion). # REVISAR.
+        rebaja_asistencia = identical(s_ord$rebaja_asistencia[k], "true"),
+        rebaja_quorum     = identical(s_ord$rebaja_quorum[k], "true")
+      ) else NULL
+      list(
+        sesion_id          = s_ord$sesion_id[k],
+        sesion_numero      = s_ord$sesion_numero[k],
+        fecha              = s_ord$fecha[k],
+        tipo_sesion        = s_ord$tipo_sesion[k],
+        en_periodo_vigente = s_ord$en_periodo_vigente[k],
+        asistencia         = s_ord$asistencia[k],
+        justificacion      = just
+      )
+    })
+  } else NULL
 
   # Bloque 3: votaciones ------------------------------------------------------
   v <- votos[votos$diputado_id == did, ]
