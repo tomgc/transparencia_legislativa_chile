@@ -92,7 +92,20 @@ estático (Fase 2) visualiza en el navegador.
 
 ## Últimos cambios (máx. 5, más recientes primero)
 
-1. **Capa 2 — territorio (2026-07-24):** `distrito` y `region` dejan de ser `NA`:
+1. **Capa 3 — asistencia simétrica (2026-07-25):** el `33` deja de descartar el
+   nodo `Justificacion` y persiste dos intermedios nuevos: `asistencia_nominal.rds`
+   (una fila por diputado × sesión, con fecha, tipo de sesión, código y glosa de
+   justificación y las dos rebajas) y `asistencia_ambitos.rds` (6 conteos + 2 tasas
+   por ámbito). El `39` los publica dentro del bloque `asistencia` —
+   `alcance_temporal`, `periodo_vigente`, `en_ejercicio`, `sesiones[]` — y agrega
+   `tasa_presencia` al índice; los 5 campos legacy quedan idénticos en 155/155
+   (verificado contra `git show ac177be:`). Ámbito `periodo_vigente` con
+   denominador común 48 desde la instalación del periodo (2026-03-11, dato de
+   `retornarPeriodoLegislativoActual`, no hardcodeado). Las rebajas se persisten
+   pero no entran en ninguna fórmula (semántica no documentada). `docs/data`
+   +5,85 %. Panel adversarial 4/4. Rama `feat/capa3-asistencia` (sin merge, gate
+   del titular); `docs/index.html` sin tocar.
+2. **Capa 2 — territorio (2026-07-24):** `distrito` y `region` dejan de ser `NA`:
    155/155 en índice y perfiles, 28 distritos, suma 155 escaños. El `32` hace
    `left_join` contra dos insumos estáticos versionados en `20_insumos/territorio/`
    (crosswalk `diputado_id`→distrito y catálogo distrito→región contra la Ley
@@ -101,7 +114,7 @@ estático (Fase 2) visualiza en el navegador.
    `idCamaraDeDiputados` == `diputado_id`); 4 ids que BCN reusa entre persona
    histórica y vigente se desambiguan por período. Panel adversarial: 4/4 cuadra.
    Rama `feat/territorio-crosswalk` (sin merge, gate del titular).
-2. **Presentación de votos + región/distrito (2026-07-15):** Capa 1 de la ruta de
+3. **Presentación de votos + región/distrito (2026-07-15):** Capa 1 de la ruta de
    la sesión 8, solo `docs/index.html`. Botón `Ver los N votos` / `Ver menos` que
    expande la lista completa en el perfil (antes recortaba a 16 de hasta 717; el
    JSON ya venía entero al cliente, 9 ms de re-render). Región/distrito dejan de
@@ -109,15 +122,12 @@ estático (Fase 2) visualiza en el navegador.
    `region`/`distrito` y degradan a "Sin dato" solo si faltan — invisible hoy
    (155/155 `null`), habilitante para la Capa 2. Rama `feat/presentacion-votos`
    (sin merge, gate del titular).
-3. **Workflow GitHub Actions (2026-07-10):** `.github/workflows/refresh-semanal.yml`
+4. **Workflow GitHub Actions (2026-07-10):** `.github/workflows/refresh-semanal.yml`
    (cron lunes 11:00 UTC + `workflow_dispatch`) automatiza el refresh semanal:
    calcula el corte con `date`, lo inyecta en `CORTE_FECHA` vía `sed`, corre
    `run_all()`, y un gate (`10_diff_conteos.R`) aborta antes de commitear/pushear
    si `perfiles < 155` o cae cualquier métrica. Probado local de punta a punta;
    rama `feature/github-actions-refresh` (sin merge, gate del titular).
-4. **Corte temporal explícito (2026-07-10):** `CORTE_FECHA` reemplaza `Sys.Date()`
+5. **Corte temporal explícito (2026-07-10):** `CORTE_FECHA` reemplaza `Sys.Date()`
    en la clave de caché (refresh reproducible sin drift); procedimiento de
    actualización semanal + script de diff de conteos como compuerta.
-5. **Integración de ramas + contenido legible (2026-07-09):** merge a `main` de
-   trazabilidad voto→proyecto y detalle de proyectos (paso 36); fix de clave de
-   caché que codifica el tope.
