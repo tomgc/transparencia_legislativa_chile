@@ -18,7 +18,478 @@
     "n_sesiones": 47,
     "n_asiste": 47,
     "n_no_asiste": 0,
-    "tasa_asistencia": 1
+    "tasa_asistencia": 1,
+    "alcance_temporal": {
+      "anio_proceso": 2026,
+      "corte_fecha": "2026-07-20",
+      "sesiones_alcance": 66,
+      "fecha_primera": "2026-01-05",
+      "fecha_ultima": "2026-07-20",
+      "periodo_id": "11",
+      "periodo_nombre": "2026-2030",
+      "periodo_inicio": "2026-03-11",
+      "sesiones_periodo_vigente": 48,
+      "nota": "Cobertura parcial: solo sesiones de sala del anno 2026 hasta el 2026-07-20 (66 sesiones, de 2026-01-05 a 2026-07-20). NO es la trayectoria completa del parlamentario. El ambito 'periodo_vigente' cuenta las 48 sesiones desde la instalacion del periodo 2026-2030 (2026-03-11) y usa el mismo denominador para todos, por lo que es el comparable entre diputados; 'en_ejercicio' cuenta solo las sesiones del alcance posteriores a la asuncion de cada diputado."
+    },
+    "periodo_vigente": {
+      "n_sesiones": 48,
+      "n_asiste": 47,
+      "n_no_asiste": 1,
+      "n_sin_registro": 0,
+      "n_justificadas": 1,
+      "n_injustificadas": 0,
+      "tasa_presencia": 0.979166666666667,
+      "tasa_presencia_o_justificada": 1
+    },
+    "en_ejercicio": {
+      "n_sesiones": 48,
+      "n_asiste": 47,
+      "n_no_asiste": 1,
+      "n_sin_registro": 0,
+      "n_justificadas": 1,
+      "n_injustificadas": 0,
+      "tasa_presencia": 0.979166666666667,
+      "tasa_presencia_o_justificada": 1
+    },
+    "sesiones": [
+      {
+        "sesion_id": "4755",
+        "sesion_numero": "0",
+        "fecha": "2026-03-11",
+        "tipo_sesion": "Especial",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4756",
+        "sesion_numero": "1",
+        "fecha": "2026-03-17",
+        "tipo_sesion": "Especial",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4757",
+        "sesion_numero": "2",
+        "fecha": "2026-03-18",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4758",
+        "sesion_numero": "3",
+        "fecha": "2026-03-23",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4759",
+        "sesion_numero": "4",
+        "fecha": "2026-03-24",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4760",
+        "sesion_numero": "5",
+        "fecha": "2026-03-24",
+        "tipo_sesion": "Especial",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4761",
+        "sesion_numero": "6",
+        "fecha": "2026-03-25",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4762",
+        "sesion_numero": "7",
+        "fecha": "2026-03-25",
+        "tipo_sesion": "Especial",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4763",
+        "sesion_numero": "8",
+        "fecha": "2026-04-06",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4764",
+        "sesion_numero": "9",
+        "fecha": "2026-04-07",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4765",
+        "sesion_numero": "10",
+        "fecha": "2026-04-08",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4766",
+        "sesion_numero": "11",
+        "fecha": "2026-04-13",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4767",
+        "sesion_numero": "12",
+        "fecha": "2026-04-14",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4768",
+        "sesion_numero": "13",
+        "fecha": "2026-04-15",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4769",
+        "sesion_numero": "14",
+        "fecha": "2026-04-20",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4770",
+        "sesion_numero": "15",
+        "fecha": "2026-04-21",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4771",
+        "sesion_numero": "16",
+        "fecha": "2026-04-22",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4772",
+        "sesion_numero": "17",
+        "fecha": "2026-05-04",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4773",
+        "sesion_numero": "18",
+        "fecha": "2026-05-05",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4774",
+        "sesion_numero": "19",
+        "fecha": "2026-05-05",
+        "tipo_sesion": "Especial",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4775",
+        "sesion_numero": "20",
+        "fecha": "2026-05-06",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4776",
+        "sesion_numero": "21",
+        "fecha": "2026-05-11",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4777",
+        "sesion_numero": "22",
+        "fecha": "2026-05-12",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4778",
+        "sesion_numero": "23",
+        "fecha": "2026-05-12",
+        "tipo_sesion": "Especial",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4779",
+        "sesion_numero": "24",
+        "fecha": "2026-05-13",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4780",
+        "sesion_numero": "25",
+        "fecha": "2026-05-18",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4781",
+        "sesion_numero": "26",
+        "fecha": "2026-05-19",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4782",
+        "sesion_numero": "27",
+        "fecha": "2026-05-20",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4785",
+        "sesion_numero": "0",
+        "fecha": "2026-06-01",
+        "tipo_sesion": "Congreso Pleno",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4783",
+        "sesion_numero": "28",
+        "fecha": "2026-06-02",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4784",
+        "sesion_numero": "29",
+        "fecha": "2026-06-03",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4786",
+        "sesion_numero": "30",
+        "fecha": "2026-06-08",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4787",
+        "sesion_numero": "31",
+        "fecha": "2026-06-09",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4788",
+        "sesion_numero": "32",
+        "fecha": "2026-06-10",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4789",
+        "sesion_numero": "33",
+        "fecha": "2026-06-15",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4790",
+        "sesion_numero": "34",
+        "fecha": "2026-06-16",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4791",
+        "sesion_numero": "35",
+        "fecha": "2026-06-17",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4792",
+        "sesion_numero": "36",
+        "fecha": "2026-06-22",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4793",
+        "sesion_numero": "37",
+        "fecha": "2026-06-23",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4794",
+        "sesion_numero": "38",
+        "fecha": "2026-06-24",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4795",
+        "sesion_numero": "39",
+        "fecha": "2026-07-06",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4796",
+        "sesion_numero": "40",
+        "fecha": "2026-07-07",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4797",
+        "sesion_numero": "41",
+        "fecha": "2026-07-08",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4798",
+        "sesion_numero": "42",
+        "fecha": "2026-07-13",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4799",
+        "sesion_numero": "43",
+        "fecha": "2026-07-14",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4800",
+        "sesion_numero": "44",
+        "fecha": "2026-07-15",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4805",
+        "sesion_numero": "0",
+        "fecha": "2026-07-15",
+        "tipo_sesion": "Congreso Pleno",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4801",
+        "sesion_numero": "45",
+        "fecha": "2026-07-20",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "no_asiste",
+        "justificacion": {
+          "codigo": "18",
+          "glosa": "Impedimento grave (Art. 42)",
+          "rebaja_asistencia": true,
+          "rebaja_quorum": false
+        }
+      }
+    ]
   },
   "votaciones": {
     "anio": 2026,
@@ -5938,6 +6409,6 @@
     "fuente": "opendata.camara.cl",
     "periodo": "2026-2030",
     "anio_proceso": 2026,
-    "generado": "2026-07-24T22:50:41"
+    "generado": "2026-07-25T07:12:12"
   }
 }
