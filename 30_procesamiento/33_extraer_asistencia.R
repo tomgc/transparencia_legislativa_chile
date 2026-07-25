@@ -403,6 +403,20 @@ ruta_serie <- ruta_salidas("intermedios", "asistencia_nominal.rds")
 escribir_atomico(serie, ruta_serie, function(o, r) saveRDS(o, r), hash_origen = hash_nominal)
 log_msg(sprintf("Escrito: %s (%d filas)", ruta_serie, nrow(serie)), origen = "33_asistencia")
 
+# El 39 necesita describir el alcance temporal sin re-consultar la fuente ni
+# re-derivarlo: viaja como atributo del intermedio, junto al sello.
+attr(ambitos, "alcance") <- list(
+  anio_proceso     = ANIO_PROCESO,
+  corte_fecha      = CORTE_FECHA,
+  periodo_id       = periodo$id,
+  periodo_nombre   = periodo$nombre,
+  periodo_inicio   = periodo$inicio,
+  periodo_termino  = periodo$termino,
+  sesiones_alcance = nrow(sesiones),
+  sesiones_periodo_vigente = sum(sesiones$en_periodo_vigente),
+  fecha_primera    = min(sesiones$fecha),
+  fecha_ultima     = max(sesiones$fecha)
+)
 ruta_amb <- ruta_salidas("intermedios", "asistencia_ambitos.rds")
 escribir_atomico(ambitos, ruta_amb, function(o, r) saveRDS(o, r), hash_origen = hash_nominal)
 log_msg(sprintf("Escrito: %s (%d filas)", ruta_amb, nrow(ambitos)), origen = "33_asistencia")
