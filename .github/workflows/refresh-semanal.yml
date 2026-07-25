@@ -10,6 +10,21 @@
 # Decisiones fijadas en diseno (sesion 4): el corte se inyecta con sed sobre
 # 10_configuracion.R; el push usa el GITHUB_TOKEN automatico (sin PAT); el gate
 # de conteos aborta el job (sin commit ni push) ante cualquier caida.
+#
+# P-22 (sesion 13): el bot YA NO escribe en main. Commitea en una rama
+# refresh/<corte> y abre un PR contra main, que el titular revisa y mergea a
+# mano. Motivo: el bot y el trabajo manual competian por main y eso cobro peaje
+# tres veces (rebase en s9, fast-forward en s10, riesgo vivo en s12).
+#
+# CONSECUENCIA ASUMIDA: GitHub Pages republica docs/ al mergear el PR, no al
+# terminar el job. El dato en produccion queda tan fresco como la cadencia de
+# revision del titular. Es el costo deliberado de que main no se mueva sola.
+#
+# Sobre el push forzado: la rama refresh/<corte> es propiedad del bot y se
+# reconstruye desde el HEAD de main en cada corrida, de modo que forzar sobre
+# ella es la semantica correcta ("el refresh de esa fecha") y no puede perder
+# trabajo humano. El force esta restringido por refspec a refresh/*: main nunca
+# se toca.
 # =============================================================================
 name: refresh semanal del corpus
 
@@ -21,10 +36,11 @@ on:
     - cron: "0 11 * * 1"
   workflow_dispatch: {}   # ejecucion manual a demanda desde la pestana Actions
 
-# GITHUB_TOKEN automatico con permiso de escritura para commit + push del refresh.
-# No se usa ni referencia un PAT dedicado.
+# GITHUB_TOKEN automatico con permiso de escritura para commit + push del refresh
+# y de apertura de pull requests. No se usa ni referencia un PAT dedicado.
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   refresh:
@@ -79,21 +95,27 @@ jobs:
             if (identical(r$gate, "FAIL")) {
               cat("\n### GATE FALLIDO -> NO se publica ###\n")
               cat(paste0("  - ", r$motivos), sep = "\n"); cat("\n")
-              quit(status = 1)   # falla el step -> job en rojo, sin commit ni push
+              quit(status = 1)   # falla el step -> job en rojo, sin rama ni PR
             }
             cat("\n### GATE OK -> se publica ###\n")
           '
 
-      - name: Commit y push del refresh
+      - name: Commit en rama y apertura del PR
         env:
           RESUMEN: ${{ runner.temp }}/resumen_diff.txt
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # requerido por la CLI gh
         run: |
+          RAMA="refresh/${CORTE}"
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # La rama nace del HEAD de main ya checkouteado. Crearla no publica nada:
+          # si el commit condicional de abajo sale por 'exit 0', no hay push ni PR.
+          git checkout -b "$RAMA"
           # El commit incluye el cambio de CORTE_FECHA junto con los datos.
           git add 10_utils/10_configuracion.R 20_insumos/camara 40_salidas/json docs/data
           if git diff --cached --quiet; then
             echo "Sin cambios que commitear (corpus identico al corte previo)."
+            echo "No se publica rama ni se abre PR."
             exit 0
           fi
           {
@@ -104,5 +126,19 @@ jobs:
             cat "$RESUMEN"
           } > "${RUNNER_TEMP}/commit_msg.txt"
           git commit -F "${RUNNER_TEMP}/commit_msg.txt"
-          git push
-          # GitHub Pages republica docs/ automaticamente tras el push a main.
+          # Force acotado por refspec a la rama del bot; main queda fuera del alcance.
+          git push --force origin "HEAD:refs/heads/${RAMA}"
+          # Un PR por rama: si ya hay uno abierto para este corte (re-corrida del
+          # mismo dia via workflow_dispatch), el push de arriba lo actualiza y no
+          # se abre un segundo.
+          PR_ABIERTO=$(gh pr list --head "$RAMA" --state open --json number --jq '.[0].number // empty')
+          if [ -n "$PR_ABIERTO" ]; then
+            echo "PR #${PR_ABIERTO} ya abierto para ${RAMA}; actualizado con el push."
+          else
+            gh pr create \
+              --base main \
+              --head "$RAMA" \
+              --title "data: refresh corte ${CORTE} (automatizado)" \
+              --body-file "${RUNNER_TEMP}/commit_msg.txt"
+          fi
+          # GitHub Pages republica docs/ al MERGEAR el PR, no al terminar el job.
