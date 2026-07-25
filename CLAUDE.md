@@ -67,8 +67,13 @@ estático (Fase 2) visualiza en el navegador.
 
 ## Huecos conocidos de la fuente (# REVISAR)
 
-- **Distrito y región** no los expone la API de la Cámara → `NA`. Requeriría
-  una segunda fuente (BCN/SERVEL), fuera del alcance de Fase 1.
+- ~~**Distrito y región** no los expone la API de la Cámara → `NA`.~~ **Cerrado
+  (sesión 10).** La API sigue sin exponerlos, pero el `32` los puebla por join
+  contra `20_insumos/territorio/` (insumo estático auditado, D5): 155/155.
+  Llave: `idCamaraDeDiputados` de BCN, que **es** el `diputado_id` de la Cámara.
+  El insumo NO se regenera en el refresh semanal; el generador es la fase `gen`
+  de `50_documentacion/andamios/medir_fuente_territorio.R`, a mano y con revisión
+  del diff cuando cambie el roster.
 - **Tendencia** no viene en la API: es columna derivada de
   `MAPA_PARTIDO_TENDENCIA`, decisión metodológica del titular (taxonomía de 5
   niveles: izquierda/centroizquierda/centro/centroderecha/derecha). Los 18
@@ -87,7 +92,16 @@ estático (Fase 2) visualiza en el navegador.
 
 ## Últimos cambios (máx. 5, más recientes primero)
 
-1. **Presentación de votos + región/distrito (2026-07-15):** Capa 1 de la ruta de
+1. **Capa 2 — territorio (2026-07-24):** `distrito` y `region` dejan de ser `NA`:
+   155/155 en índice y perfiles, 28 distritos, suma 155 escaños. El `32` hace
+   `left_join` contra dos insumos estáticos versionados en `20_insumos/territorio/`
+   (crosswalk `diputado_id`→distrito y catálogo distrito→región contra la Ley
+   20.840), con `stop()` diagnóstico si un reemplazo del roster no está cubierto.
+   El `39` no se tocó. Fuente y llave establecidas por medición previa (BCN
+   `idCamaraDeDiputados` == `diputado_id`); 4 ids que BCN reusa entre persona
+   histórica y vigente se desambiguan por período. Panel adversarial: 4/4 cuadra.
+   Rama `feat/territorio-crosswalk` (sin merge, gate del titular).
+2. **Presentación de votos + región/distrito (2026-07-15):** Capa 1 de la ruta de
    la sesión 8, solo `docs/index.html`. Botón `Ver los N votos` / `Ver menos` que
    expande la lista completa en el perfil (antes recortaba a 16 de hasta 717; el
    JSON ya venía entero al cliente, 9 ms de re-render). Región/distrito dejan de
@@ -95,17 +109,15 @@ estático (Fase 2) visualiza en el navegador.
    `region`/`distrito` y degradan a "Sin dato" solo si faltan — invisible hoy
    (155/155 `null`), habilitante para la Capa 2. Rama `feat/presentacion-votos`
    (sin merge, gate del titular).
-2. **Workflow GitHub Actions (2026-07-10):** `.github/workflows/refresh-semanal.yml`
+3. **Workflow GitHub Actions (2026-07-10):** `.github/workflows/refresh-semanal.yml`
    (cron lunes 11:00 UTC + `workflow_dispatch`) automatiza el refresh semanal:
    calcula el corte con `date`, lo inyecta en `CORTE_FECHA` vía `sed`, corre
    `run_all()`, y un gate (`10_diff_conteos.R`) aborta antes de commitear/pushear
    si `perfiles < 155` o cae cualquier métrica. Probado local de punta a punta;
    rama `feature/github-actions-refresh` (sin merge, gate del titular).
-3. **Corte temporal explícito (2026-07-10):** `CORTE_FECHA` reemplaza `Sys.Date()`
+4. **Corte temporal explícito (2026-07-10):** `CORTE_FECHA` reemplaza `Sys.Date()`
    en la clave de caché (refresh reproducible sin drift); procedimiento de
    actualización semanal + script de diff de conteos como compuerta.
-4. **Integración de ramas + contenido legible (2026-07-09):** merge a `main` de
+5. **Integración de ramas + contenido legible (2026-07-09):** merge a `main` de
    trazabilidad voto→proyecto y detalle de proyectos (paso 36); fix de clave de
    caché que codifica el tope.
-5. **Dashboard Fase 2 (2026-07-09):** `docs/index.html` estático (vanilla) que
-   consume el JSON precomputado; fuentes self-hosted, sin CDN.

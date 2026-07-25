@@ -1,0 +1,174 @@
+# Crosswalk diputado -> distrito. INSUMO ESTATICO AUDITADO (decision D5).
+# Generado por 50_documentacion/andamios/medir_fuente_territorio.R (fase gen).
+# NO se regenera en el refresh semanal: 32_extraer_diputados.R solo LEE este archivo.
+#
+# Fuente: BCN. La llave persona<->diputado sale del endpoint SPARQL
+#   https://datos.bcn.cl/sparql  predicado bcn-biographies#idCamaraDeDiputados,
+#   que ES el id de la Camara. El distrito sale de la ficha 'Resenas
+#   parlamentarias' (tabla Trayectoria Parlamentaria), fila del periodo 2026-2030.
+#
+# REGLA DE DESAMBIGUACION (materializada en las filas de abajo):
+#   BCN reusa el mismo idCamaraDeDiputados en dos personas distintas en 4 casos
+#   (un parlamentario historico y uno vigente). Entre los candidatos que comparten
+#   id gana el que tiene fila del periodo vigente en su Trayectoria Parlamentaria.
+#   ids afectados: 1159, 1175, 1209, 1252. La columna bcn_persona_id deja
+#   trazable que persona quedo elegida en cada caso.
+#
+# Capturado el: 2026-07-24   |   Filas: 155   |   Distritos: 28   |   Escanos: 155
+# diputado_id es character; distrito es integer 1-28.
+diputado_id,distrito,bcn_persona_id,capturado_el,fuente
+803,27,135,2026-07-24,BCN resenas parlamentarias
+815,20,2861,2026-07-24,BCN resenas parlamentarias
+843,23,1470,2026-07-24,BCN resenas parlamentarias
+872,4,1782,2026-07-24,BCN resenas parlamentarias
+915,17,3446,2026-07-24,BCN resenas parlamentarias
+986,3,4534,2026-07-24,BCN resenas parlamentarias
+1009,10,4604,2026-07-24,BCN resenas parlamentarias
+1012,9,4560,2026-07-24,BCN resenas parlamentarias
+1013,26,4552,2026-07-24,BCN resenas parlamentarias
+1015,7,4572,2026-07-24,BCN resenas parlamentarias
+1017,12,4558,2026-07-24,BCN resenas parlamentarias
+1021,7,4546,2026-07-24,BCN resenas parlamentarias
+1025,11,4561,2026-07-24,BCN resenas parlamentarias
+1028,13,4598,2026-07-24,BCN resenas parlamentarias
+1038,24,4609,2026-07-24,BCN resenas parlamentarias
+1039,12,4628,2026-07-24,BCN resenas parlamentarias
+1044,14,4585,2026-07-24,BCN resenas parlamentarias
+1054,20,4600,2026-07-24,BCN resenas parlamentarias
+1056,25,4553,2026-07-24,BCN resenas parlamentarias
+1059,12,4618,2026-07-24,BCN resenas parlamentarias
+1060,6,4625,2026-07-24,BCN resenas parlamentarias
+1061,22,4547,2026-07-24,BCN resenas parlamentarias
+1062,21,4565,2026-07-24,BCN resenas parlamentarias
+1065,9,4570,2026-07-24,BCN resenas parlamentarias
+1073,4,4624,2026-07-24,BCN resenas parlamentarias
+1074,14,4578,2026-07-24,BCN resenas parlamentarias
+1075,11,4617,2026-07-24,BCN resenas parlamentarias
+1077,15,4629,2026-07-24,BCN resenas parlamentarias
+1082,21,4549,2026-07-24,BCN resenas parlamentarias
+1086,10,4602,2026-07-24,BCN resenas parlamentarias
+1087,13,4622,2026-07-24,BCN resenas parlamentarias
+1099,3,5192,2026-07-24,BCN resenas parlamentarias
+1100,11,5203,2026-07-24,BCN resenas parlamentarias
+1102,20,5252,2026-07-24,BCN resenas parlamentarias
+1104,6,5218,2026-07-24,BCN resenas parlamentarias
+1105,25,5215,2026-07-24,BCN resenas parlamentarias
+1107,6,5219,2026-07-24,BCN resenas parlamentarias
+1108,22,5237,2026-07-24,BCN resenas parlamentarias
+1110,28,1274,2026-07-24,BCN resenas parlamentarias
+1114,16,5254,2026-07-24,BCN resenas parlamentarias
+1116,19,5260,2026-07-24,BCN resenas parlamentarias
+1117,5,5205,2026-07-24,BCN resenas parlamentarias
+1119,19,5258,2026-07-24,BCN resenas parlamentarias
+1122,7,5230,2026-07-24,BCN resenas parlamentarias
+1127,10,5264,2026-07-24,BCN resenas parlamentarias
+1128,12,5211,2026-07-24,BCN resenas parlamentarias
+1131,26,5214,2026-07-24,BCN resenas parlamentarias
+1132,17,5255,2026-07-24,BCN resenas parlamentarias
+1133,14,5227,2026-07-24,BCN resenas parlamentarias
+1140,25,5216,2026-07-24,BCN resenas parlamentarias
+1141,1,5185,2026-07-24,BCN resenas parlamentarias
+1142,5,5201,2026-07-24,BCN resenas parlamentarias
+1143,19,5265,2026-07-24,BCN resenas parlamentarias
+1146,9,5272,2026-07-24,BCN resenas parlamentarias
+1148,28,5190,2026-07-24,BCN resenas parlamentarias
+1150,17,5259,2026-07-24,BCN resenas parlamentarias
+1152,22,5235,2026-07-24,BCN resenas parlamentarias
+1153,23,5225,2026-07-24,BCN resenas parlamentarias
+1157,20,5256,2026-07-24,BCN resenas parlamentarias
+1159,13,5221,2026-07-24,BCN resenas parlamentarias
+1165,8,5250,2026-07-24,BCN resenas parlamentarias
+1166,15,5241,2026-07-24,BCN resenas parlamentarias
+1170,7,5228,2026-07-24,BCN resenas parlamentarias
+1171,10,5266,2026-07-24,BCN resenas parlamentarias
+1172,23,5229,2026-07-24,BCN resenas parlamentarias
+1173,12,5209,2026-07-24,BCN resenas parlamentarias
+1174,5,5198,2026-07-24,BCN resenas parlamentarias
+1175,4,5194,2026-07-24,BCN resenas parlamentarias
+1176,7,5220,2026-07-24,BCN resenas parlamentarias
+1177,5,5206,2026-07-24,BCN resenas parlamentarias
+1178,26,5212,2026-07-24,BCN resenas parlamentarias
+1180,18,5268,2026-07-24,BCN resenas parlamentarias
+1181,6,5217,2026-07-24,BCN resenas parlamentarias
+1182,3,5191,2026-07-24,BCN resenas parlamentarias
+1183,21,5244,2026-07-24,BCN resenas parlamentarias
+1184,17,4740,2026-07-24,BCN resenas parlamentarias
+1186,14,4723,2026-07-24,BCN resenas parlamentarias
+1187,3,7164,2026-07-24,BCN resenas parlamentarias
+1188,8,4718,2026-07-24,BCN resenas parlamentarias
+1189,7,4681,2026-07-24,BCN resenas parlamentarias
+1190,8,7169,2026-07-24,BCN resenas parlamentarias
+1191,13,7177,2026-07-24,BCN resenas parlamentarias
+1192,21,7174,2026-07-24,BCN resenas parlamentarias
+1193,20,7191,2026-07-24,BCN resenas parlamentarias
+1194,18,7139,2026-07-24,BCN resenas parlamentarias
+1195,2,7162,2026-07-24,BCN resenas parlamentarias
+1196,17,7159,2026-07-24,BCN resenas parlamentarias
+1197,19,7141,2026-07-24,BCN resenas parlamentarias
+1198,20,7190,2026-07-24,BCN resenas parlamentarias
+1199,14,7170,2026-07-24,BCN resenas parlamentarias
+1200,8,7166,2026-07-24,BCN resenas parlamentarias
+1201,23,7183,2026-07-24,BCN resenas parlamentarias
+1202,22,4763,2026-07-24,BCN resenas parlamentarias
+1203,16,7156,2026-07-24,BCN resenas parlamentarias
+1204,19,7142,2026-07-24,BCN resenas parlamentarias
+1205,9,7143,2026-07-24,BCN resenas parlamentarias
+1206,16,7152,2026-07-24,BCN resenas parlamentarias
+1207,15,7172,2026-07-24,BCN resenas parlamentarias
+1208,1,4805,2026-07-24,BCN resenas parlamentarias
+1209,24,7181,2026-07-24,BCN resenas parlamentarias
+1210,8,7165,2026-07-24,BCN resenas parlamentarias
+1211,6,7125,2026-07-24,BCN resenas parlamentarias
+1212,5,7140,2026-07-24,BCN resenas parlamentarias
+1213,10,5123,2026-07-24,BCN resenas parlamentarias
+1214,11,4708,2026-07-24,BCN resenas parlamentarias
+1215,2,4652,2026-07-24,BCN resenas parlamentarias
+1216,1,7128,2026-07-24,BCN resenas parlamentarias
+1217,8,7168,2026-07-24,BCN resenas parlamentarias
+1218,10,7133,2026-07-24,BCN resenas parlamentarias
+1219,23,7182,2026-07-24,BCN resenas parlamentarias
+1220,24,7144,2026-07-24,BCN resenas parlamentarias
+1221,6,7186,2026-07-24,BCN resenas parlamentarias
+1222,27,4818,2026-07-24,BCN resenas parlamentarias
+1223,10,7132,2026-07-24,BCN resenas parlamentarias
+1224,6,7127,2026-07-24,BCN resenas parlamentarias
+1225,18,7136,2026-07-24,BCN resenas parlamentarias
+1226,23,7176,2026-07-24,BCN resenas parlamentarias
+1227,11,7134,2026-07-24,BCN resenas parlamentarias
+1228,25,7146,2026-07-24,BCN resenas parlamentarias
+1229,17,4886,2026-07-24,BCN resenas parlamentarias
+1230,26,7148,2026-07-24,BCN resenas parlamentarias
+1231,2,7161,2026-07-24,BCN resenas parlamentarias
+1232,23,7178,2026-07-24,BCN resenas parlamentarias
+1233,16,4731,2026-07-24,BCN resenas parlamentarias
+1234,8,7167,2026-07-24,BCN resenas parlamentarias
+1235,6,7129,2026-07-24,BCN resenas parlamentarias
+1236,4,7130,2026-07-24,BCN resenas parlamentarias
+1237,10,7131,2026-07-24,BCN resenas parlamentarias
+1238,20,4869,2026-07-24,BCN resenas parlamentarias
+1239,3,7163,2026-07-24,BCN resenas parlamentarias
+1240,12,7192,2026-07-24,BCN resenas parlamentarias
+1241,21,7175,2026-07-24,BCN resenas parlamentarias
+1242,18,7138,2026-07-24,BCN resenas parlamentarias
+1243,9,7145,2026-07-24,BCN resenas parlamentarias
+1244,26,7150,2026-07-24,BCN resenas parlamentarias
+1245,28,7187,2026-07-24,BCN resenas parlamentarias
+1246,20,4939,2026-07-24,BCN resenas parlamentarias
+1247,9,7147,2026-07-24,BCN resenas parlamentarias
+1248,13,7197,2026-07-24,BCN resenas parlamentarias
+1249,24,7179,2026-07-24,BCN resenas parlamentarias
+1250,5,7124,2026-07-24,BCN resenas parlamentarias
+1251,12,7194,2026-07-24,BCN resenas parlamentarias
+1252,11,4710,2026-07-24,BCN resenas parlamentarias
+1253,15,7173,2026-07-24,BCN resenas parlamentarias
+1254,4,7126,2026-07-24,BCN resenas parlamentarias
+1255,5,7137,2026-07-24,BCN resenas parlamentarias
+1256,8,4688,2026-07-24,BCN resenas parlamentarias
+1257,27,7189,2026-07-24,BCN resenas parlamentarias
+1258,17,7135,2026-07-24,BCN resenas parlamentarias
+1259,7,7196,2026-07-24,BCN resenas parlamentarias
+1260,9,4695,2026-07-24,BCN resenas parlamentarias
+1261,24,7180,2026-07-24,BCN resenas parlamentarias
+1262,14,7171,2026-07-24,BCN resenas parlamentarias
+1263,7,7193,2026-07-24,BCN resenas parlamentarias
+1264,15,7151,2026-07-24,BCN resenas parlamentarias

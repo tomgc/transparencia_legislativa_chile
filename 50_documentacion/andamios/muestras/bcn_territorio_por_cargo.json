@@ -1,0 +1,3 @@
+
+{ "head": { "link": [], "vars": ["persona", "idcam", "cargo", "terr", "ini", "fin"] },
+  "results": { "distinct": false, "ordered": true, "bindings": [ ] } }
