@@ -1,0 +1,42 @@
+# Catalogo distrito -> region. DATO DE REFERENCIA ESTABLE, no scraping.
+# 28 distritos electorales de la Camara de Diputadas y Diputados.
+#
+# Fuente: division electoral vigente. Los 28 distritos los fija la Ley 20.840
+#   (sistema electoral proporcional inclusivo, vigente desde la eleccion 2017).
+#   Los nombres de region siguen la division politico-administrativa vigente,
+#   incluida la Region de Nuble (Ley 21.033, 2018), que corresponde al D19 y
+#   que en el trazado original de 2015 formaba parte del Biobio.
+#
+# Este catalogo cambia solo si cambia la ley electoral o la division regional.
+# NO se deriva de la prosa de la ficha BCN: se construyo contra la norma.
+#
+# distrito es integer 1-28; region es character (nombre oficial, con tildes).
+distrito,region
+1,"Región de Arica y Parinacota"
+2,"Región de Tarapacá"
+3,"Región de Antofagasta"
+4,"Región de Atacama"
+5,"Región de Coquimbo"
+6,"Región de Valparaíso"
+7,"Región de Valparaíso"
+8,"Región Metropolitana de Santiago"
+9,"Región Metropolitana de Santiago"
+10,"Región Metropolitana de Santiago"
+11,"Región Metropolitana de Santiago"
+12,"Región Metropolitana de Santiago"
+13,"Región Metropolitana de Santiago"
+14,"Región Metropolitana de Santiago"
+15,"Región del Libertador General Bernardo O'Higgins"
+16,"Región del Libertador General Bernardo O'Higgins"
+17,"Región del Maule"
+18,"Región del Maule"
+19,"Región de Ñuble"
+20,"Región del Biobío"
+21,"Región del Biobío"
+22,"Región de La Araucanía"
+23,"Región de La Araucanía"
+24,"Región de Los Ríos"
+25,"Región de Los Lagos"
+26,"Región de Los Lagos"
+27,"Región de Aysén del General Carlos Ibáñez del Campo"
+28,"Región de Magallanes y de la Antártica Chilena"
