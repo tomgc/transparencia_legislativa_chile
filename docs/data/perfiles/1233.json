@@ -9,8 +9,8 @@
       "nombre": "Unión Demócrata Independiente",
       "alias": "UDI"
     },
-    "distrito": null,
-    "region": null,
+    "distrito": 16,
+    "region": "Región del Libertador General Bernardo O'Higgins",
     "tendencia": "derecha"
   },
   "asistencia": {
@@ -5929,6 +5929,6 @@
     "fuente": "opendata.camara.cl",
     "periodo": "2026-2030",
     "anio_proceso": 2026,
-    "generado": "2026-07-20T13:18:13"
+    "generado": "2026-07-24T22:50:45"
   }
 }

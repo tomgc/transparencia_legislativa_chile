@@ -9,8 +9,8 @@
       "nombre": "Partido Nacional Libertario",
       "alias": "PNL"
     },
-    "distrito": null,
-    "region": null,
+    "distrito": 10,
+    "region": "Región Metropolitana de Santiago",
     "tendencia": "derecha"
   },
   "asistencia": {
@@ -5947,6 +5947,6 @@
     "fuente": "opendata.camara.cl",
     "periodo": "2026-2030",
     "anio_proceso": 2026,
-    "generado": "2026-07-20T13:18:07"
+    "generado": "2026-07-24T22:50:43"
   }
 }

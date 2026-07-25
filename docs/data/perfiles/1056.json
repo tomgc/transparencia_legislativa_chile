@@ -9,8 +9,8 @@
       "nombre": "Partido Socialista",
       "alias": "PS"
     },
-    "distrito": null,
-    "region": null,
+    "distrito": 25,
+    "region": "Región de Los Lagos",
     "tendencia": "centroizquierda"
   },
   "asistencia": {
@@ -10221,6 +10221,6 @@
     "fuente": "opendata.camara.cl",
     "periodo": "2026-2030",
     "anio_proceso": 2026,
-    "generado": "2026-07-20T13:18:20"
+    "generado": "2026-07-24T22:50:47"
   }
 }
