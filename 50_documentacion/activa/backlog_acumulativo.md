@@ -39,25 +39,25 @@ intencion primaria. Fuente del conteo: traspasos y logs de la sesion.
 
 | Categoria | N | % | Descripcion / ejemplo |
 |-----------|---|---|-----------------------|
-| infraestructura | 4 | 12,1 | scaffold, estructura canonica, utils, config; fix de la clave de cache (tope); corte temporal explicito (CORTE_FECHA); sello de procedencia de los intermedios |
-| extraccion de datos | 5 | 15,2 | pipeline de extraccion de la Camara (31-35); corrida del anno completo; detalle de proyectos (36); Capa 2 territorial (crosswalk + join en el 32); Capa 3 de asistencia simetrica (serie nominal, justificacion, dos ambitos) |
-| consolidacion/salida | 2 | 6,1 | fusion a JSON (39) + orquestador; enriquecimiento de perfiles (contenido + trazabilidad) |
-| interfaz/dashboard | 4 | 12,1 | dashboard estatico Fase 2; enriquecimiento visual (metricas, materias, voto->proyecto); toggle del historial de votos; celda de region que lee el dato |
-| diagnostico/exploracion | 6 | 18,2 | diagnostico insumos-first del contenido legible y del join voto->proyecto; exploracion API Senado v02 (backend con ids estables); asistencia nominal por sesion (H1-bis); esquema de la Camara y contrato de datos comun; auditoria adversarial de cobertura del web service de la Camara; diagnostico de brecha entre proposito declarado y entregado |
-| documentacion | 2 | 6,1 | README, CLAUDE.md, doc tecnica, exploracion API; precision del invariante R-only |
-| decision metodologica | 3 | 9,1 | mapa partido->tendencia (diferido en v01, poblado en v02); tres decisiones de arquitectura del pipeline del Senado (extendido + normalizacion, asistencia simetrica, clave compuesta con fecha capturada) |
-| integracion/repo | 5 | 15,2 | integracion de las tres ramas a main + reconciliacion de 36; migracion a GitHub (repo publico + Pages); primer refresh real en produccion; versionado de la memoria estructural del proyecto; merge y publicacion de la Capa 2 territorial |
-| automatizacion | 1 | 3,0 | workflow de GitHub Actions para refresh semanal con gate de conteos |
-| decision de alcance | 1 | 3,0 | Congreso completo (Camara + Senado) como objetivo real del proyecto |
-| **Suma de la columna** | **33** | **~100** | |
+| infraestructura | 4 | 11,4 | scaffold, estructura canonica, utils, config; fix de la clave de cache (tope); corte temporal explicito (CORTE_FECHA); sello de procedencia de los intermedios |
+| extraccion de datos | 5 | 14,3 | pipeline de extraccion de la Camara (31-35); corrida del anno completo; detalle de proyectos (36); Capa 2 territorial (crosswalk + join en el 32); Capa 3 de asistencia simetrica (serie nominal, justificacion, dos ambitos) |
+| consolidacion/salida | 2 | 5,7 | fusion a JSON (39) + orquestador; enriquecimiento de perfiles (contenido + trazabilidad) |
+| interfaz/dashboard | 4 | 11,4 | dashboard estatico Fase 2; enriquecimiento visual (metricas, materias, voto->proyecto); toggle del historial de votos; celda de region que lee el dato |
+| diagnostico/exploracion | 6 | 17,1 | diagnostico insumos-first del contenido legible y del join voto->proyecto; exploracion API Senado v02 (backend con ids estables); asistencia nominal por sesion (H1-bis); esquema de la Camara y contrato de datos comun; auditoria adversarial de cobertura del web service de la Camara; diagnostico de brecha entre proposito declarado y entregado |
+| documentacion | 3 | 8,6 | README, CLAUDE.md, doc tecnica, exploracion API; precision del invariante R-only; consolidacion del backlog de las sesiones 7 a 11 |
+| decision metodologica | 3 | 8,6 | mapa partido->tendencia (diferido en v01, poblado en v02); tres decisiones de arquitectura del pipeline del Senado (extendido + normalizacion, asistencia simetrica, clave compuesta con fecha capturada) |
+| integracion/repo | 5 | 14,3 | integracion de las tres ramas a main + reconciliacion de 36; migracion a GitHub (repo publico + Pages); primer refresh real en produccion; versionado de la memoria estructural del proyecto; merge y publicacion de la Capa 2 territorial |
+| automatizacion | 2 | 5,7 | workflow de GitHub Actions para refresh semanal con gate de conteos; timeout declarado a nivel de job |
+| decision de alcance | 1 | 2,9 | Congreso completo (Camara + Senado) como objetivo real del proyecto |
+| **Suma de la columna** | **35** | **100** | |
 
 > **Discrepancia heredada, no resuelta aqui.** La tabla vigente hasta v06
 > declaraba un total de 23 y su columna de N sumaba 24. Esa diferencia de una
-> unidad se arrastra: hoy la columna suma 33 mientras las entradas numeradas del
-> detalle cronologico son 32 (1-32). No se resuelve en esta consolidacion porque
+> unidad se arrastra: hoy la columna suma 35 mientras las entradas numeradas del
+> detalle cronologico son 34 (1-34). No se resuelve en esta consolidacion porque
 > resolverla exige reclasificar alguna de las entradas 1-23, y el protocolo
 > prohibe reescribir o reclasificar entradas anteriores en silencio (§2.2.5). Los
-> porcentajes se calculan sobre la suma de la columna (33) para que sumen 100.
+> porcentajes se calculan sobre la suma de la columna (35) para que sumen 100.
 > Pendiente declarado: auditar la clasificacion de las entradas 1-23 contra los
 > traspasos v01-v06 y corregir con una nota explicita.
 
@@ -76,7 +76,8 @@ intencion primaria. Fuente del conteo: traspasos y logs de la sesion.
 | 9 | v09 | 0 | Opus 4.8 | higiene: integracion a main, P-17, P-20, rebase sobre el bot |
 | 10 | v10 | 1 | Opus 4.8 | Capa 2 territorio: medicion BCN + crosswalk determinista |
 | 11 | v11 | 2 | Opus 4.8 | merge de la Capa 2 a produccion + Capa 3 de asistencia simetrica |
-| Total | | 32 | | |
+| 12 | v12 | 2 | Opus 5 | consolidacion del backlog + timeout del workflow |
+| Total | | 34 | | |
 
 > Sesion 8: el modelo no consta en `traspaso_cierre_v08.md` ni en los demas
 > insumos de esta consolidacion; se deja declarado como ausente en vez de
@@ -426,6 +427,37 @@ campos legacy alterados, verificado 155/155 y por panel adversarial 4/4 con
 re-derivación independiente desde la API. Peso de `docs/data/`: +5,85 %. Mergeado a
 `main` y publicado en la sesión 12 (`70263cf`).
 
+### Sesion 12 (v12) — consolidacion del backlog + timeout del workflow
+
+**33. `timeout-minutes` declarado en el workflow de refresh semanal.**
+Categoría: automatización. La revisión del workflow contra la doble descarga de
+asistencia que introdujo la Capa 3 cerró la pregunta de riesgo por medición (un solo
+job, barrido duplicado de unos 15 s sobre una corrida de ~9 m 50 s, ninguna parte que
+asuma un único barrido), y dejó a la vista que el techo real era el default de
+GitHub Actions: 360 min por job, sin `timeout-minutes` declarado en ningún nivel. Ante
+un cuelgue de la API el job se arrastraría seis horas antes de fallar. Se declaró
+`timeout-minutes: 30` a nivel de job, margen de unas tres veces sobre la duración
+medida, para que el fallo sea rápido y legible.
+
+**34. Consolidacion del backlog acumulativo (sesiones 7 a 11) y retiro del archivo de
+trabajo.**
+Categoría: documentación. El canónico llevaba cerrado en v06 (23 entradas) durante
+cinco sesiones, con las entradas 24-26 viviendo en un archivo aparte y las sesiones 8
+a 11 sin consolidar. Se incorporaron de una vez y en orden estricto: 24-26 copiadas
+verbatim desde `backlog_entradas_sesion_7.md`, 27-29 derivadas de v08, la sesión 9
+como nota de sesión con cero entradas numeradas (según su propia declaración: las
+operaciones de git no son cambios de producto), 30 de v10 y 31-32 de v11. Se agregó la
+columna de porcentaje que exige el protocolo y faltaba, se declararon los mapeos de
+las etiquetas ad hoc de los traspasos a la taxonomía canónica, y se dejó registrada
+sin corregir en silencio una discrepancia aritmética heredada de antes de v06 (la
+columna de la clasificación suma una unidad más que las entradas numeradas). La
+numeración se verificó programáticamente: sin huecos ni duplicados. Cuando se detectó
+que la sesión 10 no era reconstruible con los insumos disponibles, se pidió su
+traspaso y se esperó, en vez de fabricar las entradas faltantes. El archivo de trabajo
+`backlog_entradas_sesion_7.md` quedó superado y se retiró con `git rm` en el mismo
+commit (`a527a95`), no antes, para que ninguna sesión futura vuelva a encontrar dos
+fuentes reclamando las mismas entradas.
+
 ## Delta del backlog
 
 - **v01:** primer backlog, 5 entradas nuevas (1-5), taxonomia inicial propuesta.
@@ -484,9 +516,18 @@ re-derivación independiente desde la API. Peso de `docs/data/`: +5,85 %. Mergea
   aunque ambas terminen visibles en el JSON publicado. Se prefirio mapear a la
   categoria canonica existente antes que abrir categorias nuevas por matiz, que
   romperia la exclusividad mutua por intencion primaria (§2.2.5).
-- **Deuda de memoria saldada.** Con esta consolidacion el canonico cubre las sesiones
-  1 a 11 sin huecos. El archivo de trabajo `backlog_entradas_sesion_7.md` queda
-  superado y se retira en el mismo commit.
+- **v12:** 2 entradas nuevas (33-34). Conteos actualizados (automatizacion 1->2,
+  documentacion 2->3). Sin categorias nuevas. Sin renumeracion ni reescritura de
+  entradas 1-32. **Lo que NO se conto, declarado para que una sesion futura no lo
+  duplique:** el merge y la publicacion de la Capa 3 ocurrieron materialmente en la
+  sesion 12, pero ya estan registrados dentro de la entrada 32 con su hash
+  (`70263cf`), porque v11 §5 declaro la Capa 3 completa como una de sus dos entradas;
+  el push del cierre de la s11 y el commit de consolidacion son operaciones de git
+  (precedente de la sesion 9); y la medicion del workflow es el diagnostico que
+  fundamenta la entrada 33, no un cambio distinguible por si mismo.
+- **Deuda de memoria saldada.** Con la consolidacion de la sesion 12 el canonico
+  cubre las sesiones 1 a 12 sin huecos. El archivo de trabajo
+  `backlog_entradas_sesion_7.md` quedo superado y se retiro en el commit `a527a95`.
 - **Discrepancia heredada abierta:** ver el bullet siguiente y la nota bajo la tabla
   de clasificacion tematica.
 - **Discrepancia heredada abierta:** la columna de N de la clasificacion tematica

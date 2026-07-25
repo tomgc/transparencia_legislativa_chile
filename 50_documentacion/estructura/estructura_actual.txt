@@ -1,8 +1,8 @@
 ============================================================
  ESTRUCTURA DEL PROYECTO
  Raíz: /Users/tomgc/Projects/transparencia_legislativa_chile
- Fecha: 2026-07-25 07:58:18
- Total: 23 carpetas, 461 archivos
+ Fecha: 2026-07-25 12:56:33
+ Total: 23 carpetas, 460 archivos
 ============================================================
 
 ├── 10_utils/
@@ -45,12 +45,12 @@
 │   ├── 39_consolidar_json.R    [18.46K]
 ├── 40_salidas/
 │   ├── intermedios/
-│   │   ├── asistencia.rds    [1.95K]
 │   │   ├── asistencia_ambitos.rds    [2.38K]
 │   │   ├── asistencia_nominal.rds    [10.47K]
+│   │   ├── asistencia.rds    [1.95K]
 │   │   ├── diputados.rds    [5.25K]
-│   │   ├── proyectos.rds    [22.32K]
 │   │   ├── proyectos_detalle.rds    [18.84K]
+│   │   ├── proyectos.rds    [22.32K]
 │   │   ├── votos.rds    [131.59K]
 │   ├── json/
 │   │   ├── perfiles/
@@ -217,17 +217,16 @@
 │   │   │   ├── 20260710_decision_modulo_biblioteca_historica.md    [5.89K]
 │   │   │   ├── 20260711_decision_ruta_desarrollo.md    [13.10K]
 │   │   │   ├── encargo_pipeline_senado_ESQUELETO_BLOQUEADO.md    [5.13K]
-│   │   ├── ESTADO.md    [1011.00B]
-│   │   ├── POLITICA_PROYECTO.md    [34.61K]
-│   │   ├── SETTINGS_Y_PROMPTS_OPERACIONALES.md    [62.85K]
-│   │   ├── backlog_acumulativo.md    [15.84K]
-│   │   ├── backlog_entradas_sesion_7.md    [2.92K]
+│   │   ├── backlog_acumulativo.md    [34.05K]
 │   │   ├── documentacion_tecnica_v1.md    [4.44K]
 │   │   ├── encargo_contrato_datos_camara_senado.md    [14.93K]
 │   │   ├── encargo_exploracion_asistencia_senado_h1bis.md    [14.97K]
 │   │   ├── encargo_exploracion_senado_v02.md    [15.56K]
+│   │   ├── ESTADO.md    [1011.00B]
 │   │   ├── exploracion_api_camara.md    [7.29K]
+│   │   ├── POLITICA_PROYECTO.md    [34.61K]
 │   │   ├── procedimiento_actualizacion.md    [5.43K]
+│   │   ├── SETTINGS_Y_PROMPTS_OPERACIONALES.md    [62.85K]
 │   ├── andamios/
 │   │   ├── design_handoff_portal_transparencia/
 │   │   │   ├── Portal Transparencia.dc.html    [47.90K]
@@ -288,19 +287,19 @@
 │   │   │   ├── votaciones_x_proyecto_16857_07.xml    [10.81K]
 │   │   │   ├── votaciones_x_proyecto_18211_25.xml    [3.03K]
 │   │   │   ├── wscomunes_operaciones.html    [1.28K]
-│   │   │   ├── wssala.wsdl    [20.97K]
 │   │   │   ├── wssala_operaciones.html    [3.46K]
+│   │   │   ├── wssala.wsdl    [20.97K]
 │   │   ├── 20260725_medicion_asistencia_capa3.md    [23.08K]
 │   │   ├── 31_explorar_api_camara.R    [9.94K]
 │   │   ├── explorar_contenido_proyectos.R    [13.60K]
 │   │   ├── medir_fuente_territorio.R    [17.76K]
 │   ├── estructura/
-│   │   ├── 20260725_062248_estructura.md    [24.43K]
-│   │   ├── 20260725_062248_estructura.txt    [24.59K]
 │   │   ├── 20260725_075257_estructura.md    [25.99K]
 │   │   ├── 20260725_075257_estructura.txt    [26.15K]
-│   │   ├── estructura_actual.md    [25.99K]
-│   │   ├── estructura_actual.txt    [26.15K]
+│   │   ├── 20260725_075818_estructura.md    [26.05K]
+│   │   ├── 20260725_075818_estructura.txt    [26.21K]
+│   │   ├── estructura_actual.md    [26.05K]
+│   │   ├── estructura_actual.txt    [26.21K]
 │   ├── traspasos/
 │   │   ├── traspaso_cierre_v01.md    [13.54K]
 │   │   ├── traspaso_cierre_v02.md    [10.69K]
@@ -495,7 +494,7 @@
 ============================================================
 
   .json            317
-  .md               49
+  .md               48
   .rds              34
   .R                14
   .html             13
