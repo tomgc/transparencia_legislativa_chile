@@ -1,0 +1,13 @@
+Sesiones: medicion(<=corte)=66, cache 20260720=65 | solo medicion: 4801 | solo cache: 
+Filas por sesion: min=154 max=155 (155 = roster completo); sesiones con != 155: 5
+Roster vigente: 155 | ids en asistencia: 239 | del roster con asistencia: 155 | fuera del roster: 84
+Filas long de los ids del roster: 8713 (155 x 66 sesiones = 10230 si fuera denso)
+Perfil de referencia 1017.json: 337.3 KB (345353 bytes), n_votaciones=742, n_proyectos=3
+Perfil 1017 con serie variante A: 346.6 KB (delta +9.3 KB, +2.8%)
+Perfil 1017 con serie variante B: 348.7 KB (delta +11.5 KB, +3.4%)
+docs/data hoy: indice 50.8 KB + 155 perfiles 39973.8 KB = 40024.6 KB total
+Peso del bloque de serie por diputado (variante B): min 7.4 KB, mediana 8.2 KB, max 19.5 KB, suma 1441.2 KB
+Peso del bloque de serie por diputado (variante A): mediana 6.2 KB, suma 1128.7 KB
+docs/data con serie B: 41465.8 KB (+3.6%) | con serie A: 41153.3 KB (+2.8%)
+Catalogo de sesiones (archivo unico, 66 sesiones): 7.2 KB
+Matriz long completa 155 dip x 66 sesiones (archivo unico, sin glosas): 910.1 KB

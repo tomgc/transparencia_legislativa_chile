@@ -1,0 +1,7 @@
+GET WSSala.asmx -> HTTP 200
+Operaciones WSSala: retornarSesionAsistencia, retornarSesionesXAnno, retornarSesionesXLegislatura
+Sesiones 2026 (//Sesion): 73
+Nodos hoja de Sesion (5 primeras): Id | Numero | FechaInicio | FechaTermino | Tipo | Estado | Id | Numero | FechaInicio | FechaTermino | Tipo | Estado | Id | Numero | FechaInicio | FechaTermino | Tipo | Estado | Id | Numero | FechaInicio | FechaTermino | Tipo | Estado | Id | Numero | FechaInicio | FechaTermino | Tipo | Estado
+Estados de sesion: Celebrada=69, Citada=4
+Tipos de sesion: Congreso Pleno=2, Especial=11, Ordinaria=60
+Celebradas: 69 ; rango de fecha: 2026-01-05T17:00:00 .. 2026-08-05T10:00:00

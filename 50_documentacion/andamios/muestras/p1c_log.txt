@@ -1,0 +1,69 @@
+Sesiones 2026: 73 totales | 69 celebradas | 66 celebradas con FechaInicio <= 2026-07-20
+Llamadas a retornarSesionAsistencia: 66 ; filas long: 10225 ; sesiones con detalle: 66 ; ids distintos: 239
+Dominio TipoAsistencia (Valor | glosa):
+
+0 | No Asiste    1 | Asiste 
+          668          9557 
+Dominio Justificacion (Valor | glosa) por TipoAsistencia:
+                                                                   
+                                                                       0    1
+  12 | Misi<U+00F3>n oficial con aviso de salida del pa<U+00ED>s (Art. 37)          37    0
+  13 | Actividad propia de la labor parlamentaria (Art. 42)           12    1
+  14 | Actividad oficial con el Presidente de la Rep<U+00FA>blica (Art. 9)    5    0
+  15 | Salida del pa<U+00ED>s con aviso (Art. 34)                             9    0
+  16 | Desafuero (Art. 40)                                            72    0
+  17 | Gesti<U+00F3>n encomendada por la Corporaci<U+00F3>n (Art. 42)                7    1
+  18 | Impedimento grave (Art. 42)                                   111    1
+  19 | Licencia m<U+00E9>dica (Art. 42)                                     203   10
+  21 | Permiso por motivos particulares sin goce de Dieta (Art. 42)   68    1
+  23 | Acuerdo de Comit<U+00E9>s Parlamentarios                              15    0
+  25 | Permiso especial Comit<U+00E9>s Parlamentarios                        49    0
+  28 | Permiso postnatal parental (art. 197 bis C<U+00F3>d. del Trabajo)      6    0
+  29 | Permiso Parental (Art. 195 C<U+00F3>d. del Trabajo)                    4    0
+  NA | NA                                                             70 9543
+Rebajas (asistencia | quorum) por codigo de justificacion:
+     just_valor
+954          12
+438          13
+2166         14
+1145         15
+22           16
+179          17
+100          18
+79           19
+76           21
+2090         23
+1072         25
+103          28
+8575         29
+1          <NA>
+                                                              just_glosa
+954  Misi<U+00F3>n oficial con aviso de salida del pa<U+00ED>s (Art. 37)
+438                 Actividad propia de la labor parlamentaria (Art. 42)
+2166 Actividad oficial con el Presidente de la Rep<U+00FA>blica (Art. 9)
+1145                          Salida del pa<U+00ED>s con aviso (Art. 34)
+22                                                   Desafuero (Art. 40)
+179       Gesti<U+00F3>n encomendada por la Corporaci<U+00F3>n (Art. 42)
+100                                          Impedimento grave (Art. 42)
+79                                      Licencia m<U+00E9>dica (Art. 42)
+76          Permiso por motivos particulares sin goce de Dieta (Art. 42)
+2090                            Acuerdo de Comit<U+00E9>s Parlamentarios
+1072                      Permiso especial Comit<U+00E9>s Parlamentarios
+103    Permiso postnatal parental (art. 197 bis C<U+00F3>d. del Trabajo)
+8575                 Permiso Parental (Art. 195 C<U+00F3>d. del Trabajo)
+1                                                                   <NA>
+     just_rebaja_asistencia just_rebaja_quorum
+954                    true              false
+438                   false              false
+2166                  false              false
+1145                  false              false
+22                    false               true
+179                    true              false
+100                    true              false
+79                     true              false
+76                    false              false
+2090                  false              false
+1072                   true              false
+103                    true              false
+8575                   true              false
+1                      <NA>               <NA>

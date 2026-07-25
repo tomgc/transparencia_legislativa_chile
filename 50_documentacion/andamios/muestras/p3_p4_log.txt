@@ -1,0 +1,15 @@
+== Sesion 4801 (esta en la medicion, no en el cache del corte) ==
+     id numero           fecha_ini      tipo    estado
+66 4801     45 2026-07-20T17:00:20 Ordinaria Celebrada
+Filas por diputado del roster: min=47, mediana=48, max=66 (66 sesiones al corte). Con las 66: 70 de 155
+Diputados del roster presentes en <66 sesiones: 85 (roster cambia dentro del anno: 239 ids distintos en total)
+== Casos que el agregado actual no distingue ==
+no_asiste SIN justificacion: 70 | no_asiste CON justificacion: 598 | asiste CON justificacion: 14
+Inasistencias con RebajaAsistencia=true: 417 de 668 (62.4%)
+Codigos de justificacion observados: 12, 13, 14, 15, 16, 17, 18, 19, 21, 23, 25, 28, 29
+== PASO 4: invariantes ==
+(a) 5 intermedios sellados; validar_corte(2026-07-20) -> OK
+(b) corte_para_clave() con CORTE_FECHA vacia -> stop: CORTE_FECHA no esta fijada. Definela como AAAA-MM-DD en 10_u
+(b) corte_para_clave() con CORTE_FECHA vigente -> clave 20260720
+(c) indice: 155 filas | distrito no-nulo 155 | region no-nula 155 | distritos distintos 28
+(c) perfiles con distrito y region no nulos: 155/155
