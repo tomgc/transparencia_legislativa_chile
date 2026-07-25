@@ -3,16 +3,16 @@ slug: transparencia_legislativa_chile
 nombre_real: Transparencia Legislativa Chile
 categoria: activo
 semaforo: activo
-sesion_actual: v09
-ultima_actividad: 2026-07-16
+sesion_actual: v11
+ultima_actividad: 2026-07-25
 maneja_sensibles: false
 tipo_pendiente: nuevo
 ---
 ## En que vamos
-La sesion 9 fue de higiene y quedo cerrada: todo el trabajo de las sesiones 7-8 (sello de procedencia de corte P-15, Capa 1 de presentacion, P-17, P-20) esta integrado en main, que quedo limpio y pusheado en b707c51. La divergencia con el bot de refresh semanal (corte 2026-07-13) se resolvio por rebase; CORTE_FECHA avanzo a 2026-07-13. Las tres ramas ya integradas o muertas se borraron localmente.
+La Capa 2 (territorio) esta en produccion: 155 de 155 diputados con distrito y region, mergeada en ac177be. La Capa 3 (asistencia simetrica) quedo construida, verificada y auditada por panel adversarial en la rama feat/capa3-asistencia: serie nominal de 8718 entradas con justificacion, dos ambitos de denominador y dos tasas que comparten base, sin alterar ningun campo que el portal en vivo consuma. El encargo de merge de la Capa 3 corria al cerrar la sesion.
 
 ## Proximo paso
-Iniciar la Capa 2 (territorio), que ABRE MIDIENDO empiricamente si BCN entrega distrito por parlamentario para los 155 diputados (D5/A28), no codificando. Antes de cualquier corrida local, regenerar los pasos 32-36 (los intermedios locales estan sellados al corte 2026-07-10 y fallarian la validacion contra CORTE_FECHA=2026-07-13; es la compuerta funcionando, A34).
+Confirmar el estado real del merge de la Capa 3 (rama, log, divergencia, campos legacy intactos en produccion) y revisar el workflow de GitHub Actions contra la doble descarga de asistencia antes del refresh del lunes 27; luego abrir la sesion de frontend de asistencia.
 
 ## Bloqueantes
 ninguno
