@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PeriodoLegislativo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://opendata.camara.cl/camaradiputados/v1">
+  <Id>11</Id>
+  <Nombre>2026-2030</Nombre>
+  <FechaInicio>2026-03-11T00:00:00</FechaInicio>
+  <FechaTermino>2030-03-10T23:59:59</FechaTermino>
+  <Legislaturas>
+    <Legislatura>
+      <Id>58</Id>
+      <Numero>374</Numero>
+      <FechaInicio>2026-03-11T00:00:00</FechaInicio>
+      <FechaTermino>2030-03-10T23:59:59</FechaTermino>
+      <Tipo Valor="3">-</Tipo>
+    </Legislatura>
+  </Legislaturas>
+</PeriodoLegislativo>
