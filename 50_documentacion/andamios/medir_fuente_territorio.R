@@ -1,10 +1,24 @@
 # ---------------------------------------------------------------------------
-# ANDAMIO DE MEDICION (no es etapa del pipeline).
-# Capa 2 / territorio: mide que entrega la fuente territorial (BCN, SERVEL) y
-# que tan cruzable es por nombre contra los 155 diputados del indice publicado.
-# NO escribe crosswalk. NO toca 20_insumos/, 40_salidas/ ni docs/ (solo lectura).
+# ANDAMIO DE MEDICION + GENERADOR DEL INSUMO TERRITORIAL.
+# NO ES ETAPA DE 00_run_all Y NO DEBE SERLO (decision D5).
+#
+# Dos roles:
+#   1. Medicion (fases 1-4): que entrega la fuente territorial y como se cruza.
+#      Veredicto en 50_documentacion/andamios/logs/20260724_medicion_fuente_territorio.md
+#   2. GENERADOR (fase gen) del insumo estatico
+#      20_insumos/territorio/20260724_crosswalk_distrito_diputado.csv.
+#
+# El territorio es un INSUMO ESTATICO AUDITADO, no scraping de cada refresh: la
+# ficha de BCN es HTML sin contrato de datos y un cambio de plantilla rompe el
+# parseo. Por eso el CSV se congela, se versiona y se audita, y el pipeline
+# semanal solo lo LEE (el join vive en 30_procesamiento/32_extraer_diputados.R).
+#
+# CORRER A MANO SOLO CUANDO CAMBIE EL ROSTER (reemplazos dentro del periodo),
+# revisando el diff del CSV antes de commitear. Nunca desde 00_run_all ni 39.
+#
 # Uso: Rscript 50_documentacion/andamios/medir_fuente_territorio.R <fase>
-#   fase 1 = estado local; fase 2 = sondeo BCN; fase 3 = cruzabilidad
+#   1 = estado local | 2 = sondeo BCN | 3 = cruzabilidad | 4 = medicion 155
+#   gen = REGENERA el CSV del crosswalk | q "<SPARQL>" = consulta libre
 # ---------------------------------------------------------------------------
 
 RAIZ <- "/Users/tomgc/Projects/transparencia_legislativa_chile"
@@ -231,13 +245,12 @@ fase_3 <- function() {
 #   id de Camara --(SPARQL idCamaraDeDiputados)--> persona BCN --(bcnPage)-->
 #   ficha "Trayectoria Parlamentaria" --> distrito del periodo 2026-2030.
 # Sin matching por nombre en ningun tramo.
-fase_4 <- function() {
-  cat("=== FASE 4: via determinista id -> persona -> ficha -> distrito ===\n")
+PERIODO_VIGENTE <- "2026-2030"   # segun las Militancias del propio roster
 
-  idx <- fromJSON(file.path(RAIZ, "docs", "data", "indice_diputados.json"),
-                  simplifyDataFrame = TRUE)
-  idx$id <- as.character(idx$id)
-
+# Resolutor compartido por la medicion (fase 4) y el generador (fase gen).
+# Devuelve una fila por diputado del indice: id, nombre, distrito, persona BCN
+# y estado. Es la UNICA implementacion del cruce; el generador no la duplica.
+resolver_territorio <- function(idx, periodo = PERIODO_VIGENTE) {
   q <- paste0(
     "SELECT ?idcam ?persona ?page WHERE { ",
     "?persona <", BIO, "idCamaraDeDiputados> ?idcam . ",
@@ -248,14 +261,12 @@ fase_4 <- function() {
   # BCN reusa el mismo idCamaraDeDiputados en personas distintas (un historico y
   # uno vigente). NO se descarta el duplicado: se prueban todos los candidatos y
   # gana el que tenga fila del periodo vigente. Desambiguacion determinista.
-  cat("de los 155, filas persona-ficha:", nrow(d),
+  cat("de los", nrow(idx), "filas persona-ficha:", nrow(d),
       "| ids con >1 persona en BCN:", sum(table(d$idcam) > 1), "\n")
 
-  # periodo vigente segun la propia Camara (Militancias del roster): 2026-2030
-  PERIODO <- "2026-2030"
-
   res <- data.frame(id = idx$id, nombre = idx$nombre, distrito = NA_character_,
-                    estado = "sin_ficha", stringsAsFactors = FALSE)
+                    bcn_persona_id = NA_character_, estado = "sin_ficha",
+                    stringsAsFactors = FALSE)
   for (k in seq_len(nrow(d))) {
     i <- match(d$idcam[k], res$id)
     if (!is.na(res$distrito[i])) next          # ya resuelto por otro candidato
@@ -265,14 +276,13 @@ fase_4 <- function() {
     if (inherits(r, "error")) { res$estado[i] <- "error_red"; next }
     if (status_code(r) != 200) { res$estado[i] <- paste0("http_", status_code(r)); next }
     x <- read_html(content(r, "text", encoding = "UTF-8"))
-    filas <- xml_find_all(x, "//table//tr")
     hit <- NA_character_
-    for (f in filas) {
+    for (f in xml_find_all(x, "//table//tr")) {
       # el grado (°) rompe la regex bajo locale C: se normaliza a ASCII antes
       t <- iconv(xml_text(f), to = "ASCII", sub = " ")
       # BCN escribe el ordinal de dos formas: "12  Distrito" (grado, ya a espacio)
       # y "3er Distrito" / "1er" / "2do". Ambas deben caer en el mismo patron.
-      if (grepl(PERIODO, t, fixed = TRUE) && grepl("Distrito", t)) {
+      if (grepl(periodo, t, fixed = TRUE) && grepl("Distrito", t)) {
         m <- regmatches(t, regexpr("[0-9]{1,2}[a-z ]{0,4}Distrito", t))
         if (length(m)) {
           n <- as.integer(gsub("[^0-9]", "", m))
@@ -280,10 +290,25 @@ fase_4 <- function() {
         }
       }
     }
-    res$distrito[i] <- hit
-    res$estado[i] <- if (is.na(hit)) "ficha_sin_distrito_periodo" else "ok"
+    if (!is.na(hit)) {
+      res$distrito[i] <- hit
+      res$bcn_persona_id[i] <- sub(".*/persona/", "", d$persona[k])
+      res$estado[i] <- "ok"
+    } else if (res$estado[i] == "sin_ficha") {
+      res$estado[i] <- "ficha_sin_distrito_periodo"
+    }
     Sys.sleep(0.3)
   }
+  res
+}
+
+fase_4 <- function() {
+  cat("=== FASE 4: via determinista id -> persona -> ficha -> distrito ===\n")
+  idx <- fromJSON(file.path(RAIZ, "docs", "data", "indice_diputados.json"),
+                  simplifyDataFrame = TRUE)
+  idx$id <- as.character(idx$id)
+  res <- resolver_territorio(idx)
+  PERIODO <- PERIODO_VIGENTE
 
   cat("\n--- COBERTURA ---\n")
   print(table(res$estado))
@@ -302,6 +327,79 @@ fase_4 <- function() {
   cat("\nguardado: medicion_territorio_155.rds\n")
 }
 
+# =========================== FASE GEN ======================================
+# GENERADOR del insumo estatico territorial. Reproducible: misma consulta
+# SPARQL, mismo parseo de ficha, misma regla de desambiguacion que la medicion.
+# Corre a mano SOLO cuando cambia el roster. No es etapa de 00_run_all.
+RUTA_CROSSWALK <- file.path(RAIZ, "20_insumos", "territorio",
+                            "20260724_crosswalk_distrito_diputado.csv")
+
+fase_gen <- function(ruta_salida = RUTA_CROSSWALK, capturado_el = NULL) {
+  cat("=== FASE GEN: regenerar el crosswalk territorial ===\n")
+  if (is.null(capturado_el)) capturado_el <- format(Sys.Date())
+
+  idx <- fromJSON(file.path(RAIZ, "docs", "data", "indice_diputados.json"),
+                  simplifyDataFrame = TRUE)
+  idx$id <- as.character(idx$id)
+  res <- resolver_territorio(idx)
+
+  # --- compuertas: el generador no emite un CSV incompleto ni incoherente ---
+  faltan <- res$id[is.na(res$distrito)]
+  if (length(faltan))
+    stop(sprintf("fase_gen: %d diputados sin distrito (%s). NO se escribe el CSV.",
+                 length(faltan), paste(faltan, collapse = ", ")), call. = FALSE)
+  d <- as.integer(res$distrito)
+  if (any(d < 1 | d > 28))
+    stop("fase_gen: hay distritos fuera del rango legal 1-28.", call. = FALSE)
+  if (nrow(res) != length(unique(res$id)))
+    stop("fase_gen: diputado_id duplicado en el resultado.", call. = FALSE)
+
+  out <- data.frame(
+    diputado_id    = as.character(res$id),   # 🔒 llave siempre character
+    distrito       = d,
+    bcn_persona_id = as.character(res$bcn_persona_id),
+    capturado_el   = capturado_el,
+    fuente         = "BCN resenas parlamentarias",
+    stringsAsFactors = FALSE
+  )
+  out <- out[order(as.integer(out$diputado_id)), ]
+
+  cabecera <- c(
+    "# Crosswalk diputado -> distrito. INSUMO ESTATICO AUDITADO (decision D5).",
+    "# Generado por 50_documentacion/andamios/medir_fuente_territorio.R (fase gen).",
+    "# NO se regenera en el refresh semanal: 32_extraer_diputados.R solo LEE este archivo.",
+    "#",
+    "# Fuente: BCN. La llave persona<->diputado sale del endpoint SPARQL",
+    "#   https://datos.bcn.cl/sparql  predicado bcn-biographies#idCamaraDeDiputados,",
+    "#   que ES el id de la Camara. El distrito sale de la ficha 'Resenas",
+    "#   parlamentarias' (tabla Trayectoria Parlamentaria), fila del periodo 2026-2030.",
+    "#",
+    "# REGLA DE DESAMBIGUACION (materializada en las filas de abajo):",
+    "#   BCN reusa el mismo idCamaraDeDiputados en dos personas distintas en 4 casos",
+    "#   (un parlamentario historico y uno vigente). Entre los candidatos que comparten",
+    "#   id gana el que tiene fila del periodo vigente en su Trayectoria Parlamentaria.",
+    "#   ids afectados: 1159, 1175, 1209, 1252. La columna bcn_persona_id deja",
+    "#   trazable que persona quedo elegida en cada caso.",
+    "#",
+    sprintf("# Capturado el: %s   |   Filas: %d   |   Distritos: %d   |   Escanos: %d",
+            capturado_el, nrow(out), length(unique(out$distrito)), nrow(out)),
+    "# diputado_id es character; distrito es integer 1-28."
+  )
+
+  fs_dir <- dirname(ruta_salida)
+  if (!dir.exists(fs_dir)) dir.create(fs_dir, recursive = TRUE)
+  tmp <- paste0(ruta_salida, ".tmp")
+  con <- file(tmp, open = "wt", encoding = "UTF-8")
+  writeLines(cabecera, con)
+  write.csv(out, con, row.names = FALSE, quote = FALSE, fileEncoding = "")
+  close(con)
+  file.rename(tmp, ruta_salida)
+
+  cat("escrito:", ruta_salida, "|", nrow(out), "filas |",
+      length(unique(out$distrito)), "distritos\n")
+  invisible(out)
+}
+
 if (!interactive()) {
   args <- commandArgs(trailingOnly = TRUE)
   fase <- if (length(args)) args[1] else "1"
@@ -310,5 +408,6 @@ if (!interactive()) {
   if (fase == "2b") fase_2_recurso(args[2])
   if (fase == "3") fase_3()
   if (fase == "4") fase_4()
+  if (fase == "gen") fase_gen(capturado_el = if (length(args) > 1) args[2] else NULL)
   if (fase == "q") fase_q(paste(args[-1], collapse = " "))
 }
