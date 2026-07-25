@@ -1,8 +1,8 @@
 # Estructura del proyecto
 
 - **Raíz:** `/Users/tomgc/Projects/transparencia_legislativa_chile`
-- **Fecha:** 2026-07-25 06:15:05
-- **Total:** 23 carpetas, 436 archivos
+- **Fecha:** 2026-07-25 06:22:49
+- **Total:** 23 carpetas, 437 archivos
 
 ## Árbol
 
@@ -273,13 +273,13 @@
 │   │   ├── explorar_contenido_proyectos.R    [13.60K]
 │   │   ├── medir_fuente_territorio.R    [17.76K]
 │   ├── estructura/
-│   │   ├── 20260715_232307_estructura.md    [22.02K]
-│   │   ├── 20260715_232307_estructura.txt    [22.17K]
 │   │   ├── 20260716_072103_estructura.md    [22.50K]
 │   │   ├── 20260716_072103_estructura.txt    [22.65K]
+│   │   ├── 20260725_061505_estructura.md    [24.38K]
 │   │   ├── 20260725_061505_estructura.txt    [24.53K]
-│   │   ├── estructura_actual.md    [22.50K]
-│   │   ├── estructura_actual.txt    [24.53K]
+│   │   ├── 20260725_062248_estructura.txt    [24.59K]
+│   │   ├── estructura_actual.md    [24.38K]
+│   │   ├── estructura_actual.txt    [24.59K]
 │   ├── traspasos/
 │   │   ├── traspaso_cierre_v01.md    [13.54K]
 │   │   ├── traspaso_cierre_v02.md    [10.69K]
@@ -290,6 +290,7 @@
 │   │   ├── traspaso_cierre_v07.md    [33.64K]
 │   │   ├── traspaso_cierre_v08.md    [21.43K]
 │   │   ├── traspaso_cierre_v09.md    [23.82K]
+│   │   ├── traspaso_cierre_v10.md    [26.29K]
 ├── docs/
 │   ├── assets/
 │   │   ├── fonts/
@@ -461,7 +462,7 @@
 │   │   │   ├── 915.json    [186.46K]
 │   │   │   ├── 986.json    [190.20K]
 │   │   ├── indice_diputados.json    [50.81K]
-│   ├── index.html    [60.20K]
+│   ├── index.html    [60.86K]
 ├── 00_escanear_proyecto.R    [8.14K]
 ├── 00_run_all.R    [4.94K]
 ├── CLAUDE.md    [6.91K]
@@ -473,7 +474,7 @@
 | Extensión | Cantidad |
 |-----------|----------|
 | `.json` | 316 |
-| `.md` | 44 |
+| `.md` | 45 |
 | `.rds` | 28 |
 | `.R` | 14 |
 | `.html` | 11 |
