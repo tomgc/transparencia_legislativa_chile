@@ -5,6 +5,16 @@
 > reescriben, resumen ni renumeran entradas anteriores. Numeracion global
 > permanente. Extraido a este archivo en el segundo cierre (sesion 2); en el
 > primer cierre (v01) vivia embebido en el traspaso.
+>
+> **Nota de consolidacion diferida (sesion 12, 2026-07-25).** Este archivo estuvo
+> cerrado en v06 (entradas 1-23) durante cinco sesiones. Las sesiones 7 a 11 se
+> incorporan aqui de una vez, en la sesion 12, a partir de sus fuentes:
+> `backlog_entradas_sesion_7.md` (entradas 24-26, ya numeradas ahi y copiadas
+> verbatim) y los traspasos `v08`, `v09`, `v10` y `v11` (§4 y §5 de cada uno). La
+> deuda de memoria queda saldada: no hay sesiones pendientes de incorporar. El
+> archivo de trabajo `backlog_entradas_sesion_7.md` queda superado por esta
+> consolidacion y se retira del canonico en el mismo commit que la incorpora
+> (su contenido vive aqui y su historia, en Git).
 
 ## Objetivo del proyecto
 
@@ -27,19 +37,29 @@ intencion primaria. Fuente del conteo: traspasos y logs de la sesion.
 
 ## Clasificacion tematica
 
-| Categoria | N | Descripcion / ejemplo |
-|-----------|---|-----------------------|
-| infraestructura | 3 | scaffold, estructura canonica, utils, config; fix de la clave de cache (tope); corte temporal explicito (CORTE_FECHA) |
-| extraccion de datos | 3 | pipeline de extraccion de la Camara (31-35); corrida del anno completo; detalle de proyectos (36) |
-| consolidacion/salida | 2 | fusion a JSON (39) + orquestador; enriquecimiento de perfiles (contenido + trazabilidad) |
-| interfaz/dashboard | 2 | dashboard estatico Fase 2; enriquecimiento visual (metricas, materias, voto->proyecto) |
-| diagnostico/exploracion | 4 | diagnostico insumos-first del contenido legible y del join voto->proyecto; exploracion API Senado v02 (backend con ids estables); asistencia nominal por sesion (H1-bis); esquema de la Camara y contrato de datos comun |
-| documentacion | 2 | README, CLAUDE.md, doc tecnica, exploracion API; precision del invariante R-only |
-| decision metodologica | 3 | mapa partido->tendencia (diferido en v01, poblado en v02); tres decisiones de arquitectura del pipeline del Senado (extendido + normalizacion, asistencia simetrica, clave compuesta con fecha capturada) |
-| integracion/repo | 3 | integracion de las tres ramas a main + reconciliacion de 36; migracion a GitHub (repo publico + Pages); primer refresh real en produccion |
-| automatizacion | 1 | workflow de GitHub Actions para refresh semanal con gate de conteos |
-| decision de alcance | 1 | Congreso completo (Camara + Senado) como objetivo real del proyecto |
-| **Total** | **23** | |
+| Categoria | N | % | Descripcion / ejemplo |
+|-----------|---|---|-----------------------|
+| infraestructura | 4 | 12,1 | scaffold, estructura canonica, utils, config; fix de la clave de cache (tope); corte temporal explicito (CORTE_FECHA); sello de procedencia de los intermedios |
+| extraccion de datos | 5 | 15,2 | pipeline de extraccion de la Camara (31-35); corrida del anno completo; detalle de proyectos (36); Capa 2 territorial (crosswalk + join en el 32); Capa 3 de asistencia simetrica (serie nominal, justificacion, dos ambitos) |
+| consolidacion/salida | 2 | 6,1 | fusion a JSON (39) + orquestador; enriquecimiento de perfiles (contenido + trazabilidad) |
+| interfaz/dashboard | 4 | 12,1 | dashboard estatico Fase 2; enriquecimiento visual (metricas, materias, voto->proyecto); toggle del historial de votos; celda de region que lee el dato |
+| diagnostico/exploracion | 6 | 18,2 | diagnostico insumos-first del contenido legible y del join voto->proyecto; exploracion API Senado v02 (backend con ids estables); asistencia nominal por sesion (H1-bis); esquema de la Camara y contrato de datos comun; auditoria adversarial de cobertura del web service de la Camara; diagnostico de brecha entre proposito declarado y entregado |
+| documentacion | 2 | 6,1 | README, CLAUDE.md, doc tecnica, exploracion API; precision del invariante R-only |
+| decision metodologica | 3 | 9,1 | mapa partido->tendencia (diferido en v01, poblado en v02); tres decisiones de arquitectura del pipeline del Senado (extendido + normalizacion, asistencia simetrica, clave compuesta con fecha capturada) |
+| integracion/repo | 5 | 15,2 | integracion de las tres ramas a main + reconciliacion de 36; migracion a GitHub (repo publico + Pages); primer refresh real en produccion; versionado de la memoria estructural del proyecto; merge y publicacion de la Capa 2 territorial |
+| automatizacion | 1 | 3,0 | workflow de GitHub Actions para refresh semanal con gate de conteos |
+| decision de alcance | 1 | 3,0 | Congreso completo (Camara + Senado) como objetivo real del proyecto |
+| **Suma de la columna** | **33** | **~100** | |
+
+> **Discrepancia heredada, no resuelta aqui.** La tabla vigente hasta v06
+> declaraba un total de 23 y su columna de N sumaba 24. Esa diferencia de una
+> unidad se arrastra: hoy la columna suma 33 mientras las entradas numeradas del
+> detalle cronologico son 32 (1-32). No se resuelve en esta consolidacion porque
+> resolverla exige reclasificar alguna de las entradas 1-23, y el protocolo
+> prohibe reescribir o reclasificar entradas anteriores en silencio (§2.2.5). Los
+> porcentajes se calculan sobre la suma de la columna (33) para que sumen 100.
+> Pendiente declarado: auditar la clasificacion de las entradas 1-23 contra los
+> traspasos v01-v06 y corregir con una nota explicita.
 
 ## Resumen estadistico por sesion
 
@@ -51,7 +71,17 @@ intencion primaria. Fuente del conteo: traspasos y logs de la sesion.
 | 4 | v04 | 5 | Opus 4.8 | corte temporal + migracion GitHub + Actions + primer refresh |
 | 5 | v05 | 0 | Opus 4.8 | diseno: evaluacion diagnostico Senado v01 + encargo v02 |
 | 6 | v06 | 4 | Opus 4.8 | diseno: fuente del Senado confirmada + arquitectura + contrato |
-| Total | | 23 | | |
+| 7 | v07 | 3 | Opus 4.8 | auditoria de cobertura + diagnostico de proposito |
+| 8 | v08 | 3 | no consta en los insumos | sello de procedencia (P-15) + Capa 1 de presentacion |
+| 9 | v09 | 0 | Opus 4.8 | higiene: integracion a main, P-17, P-20, rebase sobre el bot |
+| 10 | v10 | 1 | Opus 4.8 | Capa 2 territorio: medicion BCN + crosswalk determinista |
+| 11 | v11 | 2 | Opus 4.8 | merge de la Capa 2 a produccion + Capa 3 de asistencia simetrica |
+| Total | | 32 | | |
+
+> Sesion 8: el modelo no consta en `traspaso_cierre_v08.md` ni en los demas
+> insumos de esta consolidacion; se deja declarado como ausente en vez de
+> inferirlo. Sesiones 9, 10 y 11: se toman del nombre de chat fijado en la
+> reapertura del traspaso anterior (`v08` §14, `v09` §14 y `v10` §14).
 
 ## Detalle cronologico (numeracion global permanente)
 
@@ -222,6 +252,180 @@ intencion primaria. Fuente del conteo: traspasos y logs de la sesion.
     la resolucion de roster as-of diferida al modulo biblioteca historica
     (pendiente 10). NO se construyo pipeline.
 
+### Sesion 7 (v07) — auditoria de cobertura y diagnostico de proposito
+
+> Entradas 24-26 copiadas verbatim desde `backlog_entradas_sesion_7.md`
+> (archivo de trabajo de la sesion 7, incorporado al canonico en la sesion 12).
+
+**24. Versionado de la memoria estructural del proyecto.**
+Se detectó que los traspasos v04, v05 y v06, la carpeta `activa/decisiones/`
+completa, los tres encargos de la sesión 6, el backlog con sus entradas 20-23 y el
+`ESTADO.md` estaban sin versionar: existían únicamente en el working tree local. Se
+commitearon a `main` como `fe0e226` (11 archivos, 2.430 inserciones). El hallazgo
+surgió al notar que el escáner mostraba el mismo contenido desde dos ramas distintas,
+lo que llevó a verificar con `git ls-tree` en lugar de con el escáner. Sin este
+commit, un working tree perdido se llevaba tres sesiones de memoria del proyecto.
+Categoría: integración / repo.
+
+**25. Auditoría adversarial de cobertura del web service de la Cámara (cierra el pendiente 12).**
+Encargo autónomo a Claude Code, solo lectura, en `explore/cobertura-camara`. Se
+enumeró el catálogo ASMX completo (5 servicios, 49 operaciones; el pipeline consume
+8), se descargó una respuesta real de cada endpoint (usado y no usado) con su muestra
+en disco, y se sondearon parámetros y endpoints alternativos. Resultado: ~14 gaps
+inventariados con evidencia, más una entidad completa sin cubrir (comisiones).
+Confirma y extiende A23: la asistencia no solo entrega el detalle nominal por sesión y
+la fecha, sino también la justificación por diputado. El panel adversarial detectó un
+falso negativo del propio auditor (había enumerado los campos mirando solo el primer
+item de la colección, que era un "Asiste" sin justificación). Confirma A24: la Cámara
+estaba efectivamente sub-explorada. Categoría: diagnóstico / exploración.
+
+**26. Diagnóstico de brecha entre el propósito declarado y lo entregado.**
+Encargo autónomo a Claude Code, solo lectura, en `explore/diagnostico-proposito`.
+Cuatro fases: join autoritativo votación-proyecto contra la fuente (490 boletines
+consultados), estado real de lo publicado en `docs/data/`, análisis del frontend, y
+mapa de fuentes alternativas de territorio (con búsqueda web). Panel adversarial de
+dos agentes (uno técnico, uno "ciudadano adversarial" que recorrió el portal listando
+las preguntas que no puede responder). Tres resultados principales: (a) se derogó la
+hipótesis de que el regex del script 34 perdiera boletines — las cuatro cifras del
+join autoritativo son d=460, c=0, a=0, b=212, de modo que el 31,5% de votaciones sin
+boletín es estructural y el traspaso v03 tenía razón; (b) se midieron las brechas de
+propósito con cifras (territorio 100% nulo en 155/155 perfiles; 32,9% de votos sin
+proyecto legible; 0 de 1.311 proyectos con materia); (c) persiguiendo una discrepancia
+menor no solicitada, se destapó un bug activo de reproducibilidad: el intermedio
+`asistencia.rds` en disco no corresponde a lo publicado, por lo que `run_all(only=39)`
+republicaría el dashboard con datos stale. Categoría: diagnóstico / exploración.
+
+### Sesion 8 (v08) — sello de procedencia (P-15) + Capa 1 de presentacion
+
+**27. Sello de procedencia en los intermedios (cierra el bug P-15).**
+Categoría: infraestructura. `escribir_atomico()` se extendió con `hash_origen` para
+sellar cada intermedio con `{corte_fecha, anio_proceso, hash_origen, escrito_en}`, y
+se agregaron `sellar()`, `hash_origen_de()`, `ruta_cache()`, `leer_sellado()` (exige
+sello, `stop()` si falta) y `validar_corte()` (falla si falta el sello, si el corte no
+coincide con `CORTE_FECHA` o si los hermanos son incoherentes). Los cinco scripts `3x`
+pasan el hash de su caché de origen; el `39` valida antes de cualquier join o
+escritura. Cierra el bug que la entrada 26 había destapado: `run_all(only = 39)` podía
+republicar el dashboard con un intermedio de otro corte, en silencio, porque los
+intermedios están gitignored y el `.rds` en disco reflejaba la última corrida local
+(caché del 06) y no el insumo del publish vigente (caché del 10). Verificado con
+prueba de falla real (intermedio adulterado, `stop()` diagnóstico que nombra archivo,
+corte declarado, corte esperado y acción correctiva) y con doble panel adversarial con
+manifiestos md5; `docs/` byte-idéntico tras el encargo. La arqueología de la fase de
+diagnóstico corrigió además el valor registrado de `CORTE_FECHA` (2026-07-10, no
+2026-07-06 como declaraba v07 §9). Rama `fix/sello-corte-intermedios`, mergeada a
+`main` en la sesión 9.
+
+**28. Capa 1 de presentación: toggle del historial de votos.**
+Categoría: interfaz/dashboard. `docs/index.html` gana `state.votosExpandidos`
+(reseteado por perfil en `syncFromHash`), `LIMITE_COLAPSADO = 16` y un botón
+`toggle-votos`; la conjunción `hayMas && expandido` hace imposible que el botón
+desaparezca dejando la lista expandida sin poder colapsarla. La lógica del voto sin
+proyecto no se tocó (bloque byte-idéntico a `main`). El recorte previo a 16 votos
+ocultaba entre el 96 % y el 98 % del historial de **todos** los diputados (máx. 717
+votos, mín. 405), no un excedente de unos pocos, e impedía el propósito declarado de
+verificar un voto puntual. Verificación: 717 filas en el DOM iguales a
+`n_votaciones`, clic real, 9 ms de render, 0 errores de consola. Rama
+`feat/presentacion-votos`, mergeada a `main` en la sesión 9.
+
+**29. Capa 1 de presentación: la celda de región lee el dato.**
+Categoría: interfaz/dashboard. `docs/index.html` gana `regionPartes()`,
+`renderRegionCell()` (tabla) y `renderRegionChip()` (encabezado de ficha, ampliación
+respecto del encargo); ambas degradan a "Sin dato" solo si el dato es `null` o vacío.
+Antes la celda hardcodeaba el literal, de modo que habría seguido negando el dato
+incluso después de que la Capa 2 lo poblara. Cambio invisible en su momento
+(155/155 perfiles con territorio nulo) y habilitante de la Capa 2. Verificación: con
+dato inyectado en memoria muestra región y distrito; con `null` es byte-idéntico al
+literal anterior; escapado sólido. Rama `feat/presentacion-votos`, mergeada a `main`
+en la sesión 9.
+
+### Sesion 9 (v09) — higiene: integracion a main, P-17, P-20, rebase sobre el bot
+
+**Sesion sin entradas numeradas (0 cambios de producto).** Segun la nota
+metodologica, un cambio es una solicitud distinguible del titular que altera el
+artefacto entregado; las operaciones de git de integracion no lo son. La sesion
+consolido en `main` todo el trabajo acumulado de las sesiones 7 y 8, que vivia en
+ramas y en un working tree sucio: se versiono la memoria estructural pendiente
+(`71e4e68`), se mergearon con `--no-ff` las dos ramas de la sesion 8 (`ea4cb40` sello
+de corte, `a12007b` Capa 1, infraestructura antes que feature), se saco el Python de
+`.claude/launch.json` reemplazandolo por `Rscript` + `servr::httd` (`c17129c`, P-20,
+invariante R-only), y se movio `31_explorar_api_camara.R` de `30_procesamiento/` a
+`50_documentacion/andamios/` (`4217aa8`, P-17). El push choco con un commit del bot
+de refresh semanal (corte 2026-07-13) y se resolvio con rebase limpio sobre el
+refresh, dejando `main` local == `origin/main` == `b707c51`; `CORTE_FECHA` avanzo a
+2026-07-13. Se borraron tres ramas integradas o muertas, verificadas por `git cherry`
+(patch-id) y no por `git diff`. Nacio el pendiente estructural P-22: el cron semanal y
+el trabajo manual compiten por `main`.
+
+### Sesion 10 (v10) — Capa 2 territorio: medicion BCN + crosswalk determinista
+
+**30. Capa 2: territorio poblado en los 155 perfiles (cierra el `# REVISAR` del `32`
+arrastrado desde la sesion 1).**
+Categoría: extracción de datos. Abrió midiendo la fuente antes de diseñar (D5/A28), y
+la medición refutó el supuesto vigente: BCN publica `idCamaraDeDiputados`, que es
+literalmente el `diputado_id` de la Cámara, de modo que el cruce es determinista por
+id (155/155) y no por nombre normalizado, como el diseño previo asumía. El territorio
+no está en el grafo RDF (tripletas vestigiales en nodos huérfanos; el join SPARQL da 0
+filas) sino en la ficha HTML de reseñas parlamentarias; SERVEL quedó descartado por
+venir en un Power BI embebido, no reproducible. Se versionaron dos insumos estáticos
+auditados en `20_insumos/territorio/`: el crosswalk `diputado_id→distrito` de 155
+filas (con la regla de desambiguación de los 4 ids que BCN reutiliza entre persona
+histórica y vigente materializada en las propias filas) y el catálogo
+`distrito→region` de 28 filas contra la ley electoral. El `32` reemplazó sus dos
+`NA_character_` por dos `left_join` con validación ruidosa: `stop()` nombrando el
+`diputado_id` culpable si un reemplazo futuro no está cubierto, más validación de
+rango, duplicados y cobertura de región; el territorio nunca degrada a `NA` en
+silencio ni se fabrica. El andamio de medición se promovió a generador reproducible
+del insumo (fase `gen`, a mano cuando cambie el roster, explícitamente **no** una
+etapa de `00_run_all`), y se congela en vez de scrapear cada refresh porque la ficha
+BCN es HTML sin contrato de datos. Durante la construcción se corrigió un bug de
+encoding transversal: bajo `LC_CTYPE=C` R escapa los literales no-ASCII del propio
+script al parsear, de modo que el catálogo salió con `Región de Ñuble` como texto de
+los escapes, siendo el archivo UTF-8 válido; el fix corre el generador bajo locale
+UTF-8 y marca `Encoding()<-"UTF-8"` en la lectura del `32`. Verificado por panel
+adversarial 4/4: 155/155 con distrito y región no nulos, suma de escaños 155, 28
+distritos, 16 regiones. Commits `efb479e`, `0f93cb5`, `a03be0a`, `8c0ba3a` en la rama
+`feat/territorio-crosswalk`, sin mergear al cierre de la sesión.
+
+### Sesion 11 (v11) — merge de la Capa 2 a produccion + Capa 3 de asistencia simetrica
+
+**31. Merge y publicacion de la Capa 2 territorial.**
+Categoría: integración / repo. Cerró el gate que la sesión 10 dejó abierto. Se
+verificó empíricamente que el fix de copy del frontend estaba hecho (`830919f`, cero
+ocurrencias de `__sindato__` en `docs/index.html`), se versionó el residuo documental
+del cierre anterior (`42910a3`) y, con la compuerta de divergencia dando `0 0` tras un
+`fetch` inmediatamente previo, se mergeó con `--no-ff` (`ac177be`, 346 archivos) y se
+pusheó. Verificación sobre el estado real de `main` antes del push: 155 ocurrencias de
+`"distrito"` en el índice y working tree limpio. El territorio quedó en producción,
+155/155 con distrito y región. Rama `feat/territorio-crosswalk` conservada.
+
+**32. Capa 3: asistencia simetrica con serie nominal, justificacion y dos ambitos
+(implementa D2 de la entrada 23).**
+Categoría: extracción de datos. Abrió con la misma disciplina que salvó a la Capa 2:
+medición de solo lectura antes de diseñar. La medición refutó el supuesto de D2 **por
+exceso**: la fuente entrega un nodo de justificación completo (código, glosa y dos
+rebajas) que el `33` descartaba entero, y la serie nominal ya viajaba en el response
+que el script descargaba, de modo que extender el extractor no costaba ni una llamada
+nueva. El factor limitante no resultó ser el peso sino dos decisiones metodológicas
+del titular, tomadas en sesión: dos ámbitos de denominador (`periodo_vigente`, 48
+sesiones comunes a los 155 y único comparable entre diputados, y `en_ejercicio`,
+propio de cada uno) y dos tasas que comparten denominador (`tasa_presencia` y
+`tasa_presencia_o_justificada`), de modo que la diferencia entre ambas es exactamente
+el peso de las ausencias justificadas. Las rebajas se persisten y publican pero no
+entran en ninguna fórmula mientras la fuente no documente su semántica, verificado por
+prueba discriminante. El `33` ganó un bloque nominal con clave de caché propia (8 718
+entradas, 310 filas de agregados por ámbito) y la fecha de instalación del período se
+lee de la API en cada corte, jamás hardcodeada. El `39` añade al perfil, después de
+los cinco campos legacy, el alcance temporal con nota legible, los dos ámbitos y la
+serie de sesiones como espejo de los votos, y suma `tasa_presencia` al índice como
+último campo para no alterar el orden que el cliente recorre. Se modeló un tercer
+estado explícito `sin_registro` porque la matriz no es densa (5 pares diputado-sesión
+sin fila en la fuente): nada se imputa. El agregado legacy conserva su propia descarga
+como deuda declarada con fecha de vencimiento conocida (muere cuando el frontend
+migre), porque derivarlo del barrido nominal habría cambiado cifras publicadas. Cero
+campos legacy alterados, verificado 155/155 y por panel adversarial 4/4 con
+re-derivación independiente desde la API. Peso de `docs/data/`: +5,85 %. Mergeado a
+`main` y publicado en la sesión 12 (`70263cf`).
+
 ## Delta del backlog
 
 - **v01:** primer backlog, 5 entradas nuevas (1-5), taxonomia inicial propuesta.
@@ -246,3 +450,45 @@ intencion primaria. Fuente del conteo: traspasos y logs de la sesion.
   1->4, decision metodologica 2->3). Sin categorias nuevas. Sin renumeracion ni
   reescritura de entradas 1-19. Nota: la entrada 20 desinfla el pendiente 11
   (opendata.congreso.cl resulto ser un portal de documentacion, no una fuente).
+- **v07 (incorporado en la sesion 12):** 3 entradas nuevas (24-26), copiadas
+  verbatim desde `backlog_entradas_sesion_7.md`. Conteos actualizados
+  (integracion/repo 3->4, diagnostico/exploracion 4->6). Sin categorias nuevas.
+  Sin renumeracion ni reescritura de entradas 1-23.
+- **v08 (incorporado en la sesion 12):** 3 entradas nuevas (27-29), derivadas de
+  `traspaso_cierre_v08.md` §4-§5, que declara 3 entradas (una por cambio) con las
+  categorias ad hoc "infraestructura/reproducibilidad" (+1) y "frontend/presentacion"
+  (+2). Esas etiquetas se mapean por significado a las categorias canonicas ya
+  existentes: infraestructura 4 y interfaz/dashboard 4. Se mapea en vez de crear
+  categorias nuevas porque la taxonomia canonica del backlog manda sobre las
+  etiquetas de un traspaso, y porque duplicar categorias por sinonimia rompe la
+  exclusividad mutua por intencion primaria (§2.2.5). Sin renumeracion ni
+  reescritura de entradas 1-26.
+- **v09 (incorporado en la sesion 12):** 0 entradas nuevas. Sesion de higiene e
+  integracion de git; el propio `traspaso_cierre_v09.md` §5 declara que las
+  operaciones de git no son cambios de producto. Se registra como fila de 0 cambios
+  en el resumen estadistico y como nota de sesion en el detalle cronologico, sin
+  entradas numeradas. Sin refinamientos de taxonomia ni reclasificaciones.
+- **v10 (incorporado en la sesion 12):** 1 entrada nueva (30), segun el delta
+  declarado en `traspaso_cierre_v10.md` §5 (la Capa 2 es un cambio de producto; los
+  nueve cambios de su §4 son las acciones tecnicas que la implementan, no cambios
+  distinguibles del titular). Conteo actualizado (extraccion de datos 3->4). Sin
+  categorias nuevas. Sin renumeracion ni reescritura de entradas 1-29.
+- **v11 (incorporado en la sesion 12):** 2 entradas nuevas (31-32), segun el delta
+  declarado en `traspaso_cierre_v11.md` §5. Conteos actualizados (integracion/repo
+  4->5, extraccion de datos 4->5). Sin categorias nuevas. Sin renumeracion ni
+  reescritura de entradas 1-30. Nota: la entrada 32 implementa la decision D2 de la
+  entrada 23 (contrato de asistencia simetrico), fijada cinco sesiones antes.
+- **Mapeo declarado de las entradas 30 y 32.** Ambas se clasifican en `extraccion de
+  datos` por intencion primaria: el trabajo nuclear en las dos fue extender lo que el
+  pipeline extrae y persiste (join territorial en el `32`; bloque nominal en el `33`),
+  aunque ambas terminen visibles en el JSON publicado. Se prefirio mapear a la
+  categoria canonica existente antes que abrir categorias nuevas por matiz, que
+  romperia la exclusividad mutua por intencion primaria (§2.2.5).
+- **Deuda de memoria saldada.** Con esta consolidacion el canonico cubre las sesiones
+  1 a 11 sin huecos. El archivo de trabajo `backlog_entradas_sesion_7.md` queda
+  superado y se retira en el mismo commit.
+- **Discrepancia heredada abierta:** ver el bullet siguiente y la nota bajo la tabla
+  de clasificacion tematica.
+- **Discrepancia heredada abierta:** la columna de N de la clasificacion tematica
+  sumaba 24 con un total declarado de 23 desde antes de esta consolidacion. Se deja
+  registrada y no se corrige en silencio; ver la nota bajo la tabla.
