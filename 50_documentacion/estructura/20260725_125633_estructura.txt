@@ -1,12 +1,10 @@
-# Estructura del proyecto
+============================================================
+ ESTRUCTURA DEL PROYECTO
+ Raíz: /Users/tomgc/Projects/transparencia_legislativa_chile
+ Fecha: 2026-07-25 12:56:33
+ Total: 23 carpetas, 460 archivos
+============================================================
 
-- **Raíz:** `/Users/tomgc/Projects/transparencia_legislativa_chile`
-- **Fecha:** 2026-07-25 07:52:57
-- **Total:** 23 carpetas, 461 archivos
-
-## Árbol
-
-```
 ├── 10_utils/
 │   ├── 10_configuracion.R    [6.85K]
 │   ├── 10_diff_conteos.R    [5.30K]
@@ -219,13 +217,12 @@
 │   │   │   ├── 20260710_decision_modulo_biblioteca_historica.md    [5.89K]
 │   │   │   ├── 20260711_decision_ruta_desarrollo.md    [13.10K]
 │   │   │   ├── encargo_pipeline_senado_ESQUELETO_BLOQUEADO.md    [5.13K]
-│   │   ├── backlog_acumulativo.md    [15.84K]
-│   │   ├── backlog_entradas_sesion_7.md    [2.92K]
+│   │   ├── backlog_acumulativo.md    [34.05K]
 │   │   ├── documentacion_tecnica_v1.md    [4.44K]
 │   │   ├── encargo_contrato_datos_camara_senado.md    [14.93K]
 │   │   ├── encargo_exploracion_asistencia_senado_h1bis.md    [14.97K]
 │   │   ├── encargo_exploracion_senado_v02.md    [15.56K]
-│   │   ├── ESTADO.md    [1.02K]
+│   │   ├── ESTADO.md    [1011.00B]
 │   │   ├── exploracion_api_camara.md    [7.29K]
 │   │   ├── POLITICA_PROYECTO.md    [34.61K]
 │   │   ├── procedimiento_actualizacion.md    [5.43K]
@@ -297,13 +294,12 @@
 │   │   ├── explorar_contenido_proyectos.R    [13.60K]
 │   │   ├── medir_fuente_territorio.R    [17.76K]
 │   ├── estructura/
-│   │   ├── 20260725_061505_estructura.md    [24.38K]
-│   │   ├── 20260725_061505_estructura.txt    [24.53K]
-│   │   ├── 20260725_062248_estructura.md    [24.43K]
-│   │   ├── 20260725_062248_estructura.txt    [24.59K]
+│   │   ├── 20260725_075257_estructura.md    [25.99K]
 │   │   ├── 20260725_075257_estructura.txt    [26.15K]
-│   │   ├── estructura_actual.md    [24.43K]
-│   │   ├── estructura_actual.txt    [26.15K]
+│   │   ├── 20260725_075818_estructura.md    [26.05K]
+│   │   ├── 20260725_075818_estructura.txt    [26.21K]
+│   │   ├── estructura_actual.md    [26.05K]
+│   │   ├── estructura_actual.txt    [26.21K]
 │   ├── traspasos/
 │   │   ├── traspaso_cierre_v01.md    [13.54K]
 │   │   ├── traspaso_cierre_v02.md    [10.69K]
@@ -315,6 +311,7 @@
 │   │   ├── traspaso_cierre_v08.md    [21.43K]
 │   │   ├── traspaso_cierre_v09.md    [23.82K]
 │   │   ├── traspaso_cierre_v10.md    [26.29K]
+│   │   ├── traspaso_cierre_v11.md    [34.21K]
 ├── docs/
 │   ├── assets/
 │   │   ├── fonts/
@@ -491,20 +488,19 @@
 ├── 00_run_all.R    [4.94K]
 ├── CLAUDE.md    [7.71K]
 ├── README.md    [3.63K]
-```
 
-## Conteo por extensión
+============================================================
+ CONTEO POR EXTENSIÓN
+============================================================
 
-| Extensión | Cantidad |
-|-----------|----------|
-| `.json` | 317 |
-| `.md` | 48 |
-| `.rds` | 34 |
-| `.R` | 14 |
-| `.html` | 13 |
-| `.xml` | 12 |
-| `.woff2` | 10 |
-| `.txt` | 9 |
-| `.csv` | 2 |
-| `.js` | 1 |
-| `.wsdl` | 1 |
+  .json            317
+  .md               48
+  .rds              34
+  .R                14
+  .html             13
+  .xml              12
+  .woff2            10
+  .txt               8
+  .csv               2
+  .js                1
+  .wsdl              1
