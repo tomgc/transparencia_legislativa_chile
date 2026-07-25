@@ -1,0 +1,15 @@
+Sesiones al corte por mes: 2026-01=13, 2026-03=13, 2026-04=9, 2026-05=11, 2026-06=12, 2026-07=8
+Ids fuera del roster: 84, presentes en sesiones con fecha 2026-01-05 .. 2026-03-05 (18 sesiones)
+Ids del roster: aparecen en sesiones con fecha 2026-01-05 .. 2026-07-20
+Primeras/ultimas sesiones y cuantos ids del roster vigente aparecen:
+  sesion      fecha n_roster
+1   4736 2026-01-05       71
+2   4737 2026-01-06       71
+3   4738 2026-01-07       71
+4   4740 2026-01-12       71
+   sesion      fecha n_roster
+64   4800 2026-07-15      154
+65   4805 2026-07-15      155
+66   4801 2026-07-20      155
+GET WSComunes.asmx -> HTTP 200
+Operaciones WSComunes: 

@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://opendata.camara.cl/camaradiputados/v1" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://opendata.camara.cl/camaradiputados/v1" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://opendata.camara.cl/camaradiputados/v1">
+      <s:element name="retornarSesionesXLegislatura">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="prmLegislaturaId" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="retornarSesionesXLegislaturaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="retornarSesionesXLegislaturaResult" type="tns:SesionesSalaColeccion" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="SesionesSalaColeccion">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Sesion" type="tns:SesionSala" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="SesionSala">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Id" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Numero" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaInicio" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaTermino" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="Tipo" type="tns:TipoSesionSala" />
+          <s:element minOccurs="0" maxOccurs="1" name="Estado" type="tns:TipoEstadoSesionSala" />
+          <s:element minOccurs="0" maxOccurs="1" name="Votaciones" type="tns:VotacionesColeccion" />
+          <s:element minOccurs="0" maxOccurs="1" name="Legislatura" type="tns:Legislatura" />
+          <s:element minOccurs="0" maxOccurs="1" name="ListadoAsistencia" type="tns:AsistenciasColeccion" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="TipoSesionSala">
+        <s:simpleContent>
+          <s:extension base="tns:Tipo" />
+        </s:simpleContent>
+      </s:complexType>
+      <s:complexType name="Tipo">
+        <s:simpleContent>
+          <s:extension base="s:string">
+            <s:attribute name="Valor" type="s:int" use="required" />
+          </s:extension>
+        </s:simpleContent>
+      </s:complexType>
+      <s:complexType name="TipoTitularAsistencia">
+        <s:simpleContent>
+          <s:extension base="tns:Tipo" />
+        </s:simpleContent>
+      </s:complexType>
+      <s:complexType name="TipoAsistencia">
+        <s:simpleContent>
+          <s:extension base="tns:Tipo" />
+        </s:simpleContent>
+      </s:complexType>
+      <s:complexType name="TipoLegislatura">
+        <s:simpleContent>
+          <s:extension base="tns:Tipo" />
+        </s:simpleContent>
+      </s:complexType>
+      <s:complexType name="TipoOpcionVoto">
+        <s:simpleContent>
+          <s:extension base="tns:Tipo" />
+        </s:simpleContent>
+      </s:complexType>
+      <s:complexType name="TipoSexo">
+        <s:simpleContent>
+          <s:extension base="tns:Tipo" />
+        </s:simpleContent>
+      </s:complexType>
+      <s:complexType name="TipoVotacion">
+        <s:simpleContent>
+          <s:extension base="tns:Tipo" />
+        </s:simpleContent>
+      </s:complexType>
+      <s:complexType name="TipoResultadoVotacion">
+        <s:simpleContent>
+          <s:extension base="tns:Tipo" />
+        </s:simpleContent>
+      </s:complexType>
+      <s:complexType name="TipoQuorumVotacion">
+        <s:simpleContent>
+          <s:extension base="tns:Tipo" />
+        </s:simpleContent>
+      </s:complexType>
+      <s:complexType name="TipoEstadoSesionSala">
+        <s:simpleContent>
+          <s:extension base="tns:Tipo" />
+        </s:simpleContent>
+      </s:complexType>
+      <s:complexType name="VotacionesColeccion">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Votacion" type="tns:Votacion" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Votacion">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Id" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Descripcion" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Fecha" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="TotalSi" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="TotalNo" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="TotalAbstencion" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="TotalDispensado" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Quorum" type="tns:TipoQuorumVotacion" />
+          <s:element minOccurs="0" maxOccurs="1" name="Resultado" type="tns:TipoResultadoVotacion" />
+          <s:element minOccurs="0" maxOccurs="1" name="Tipo" type="tns:TipoVotacion" />
+          <s:element minOccurs="0" maxOccurs="1" name="Votos" type="tns:VotosColeccion" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="VotosColeccion">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Voto" type="tns:Voto" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Voto">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Diputado" type="tns:Diputado" />
+          <s:element minOccurs="0" maxOccurs="1" name="OpcionVoto" type="tns:TipoOpcionVoto" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Diputado">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Id" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Nombre" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Nombre2" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ApellidoPaterno" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ApellidoMaterno" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FechaNacimiento" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="FechaDefucion" nillable="true" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="RUT" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RUTDV" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Sexo" type="tns:TipoSexo" />
+          <s:element minOccurs="0" maxOccurs="1" name="Militancias" type="tns:MilitanciasColeccion" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="MilitanciasColeccion">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Militancia" type="tns:Militancia" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Militancia">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="FechaInicio" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaTermino" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="Partido" type="tns:PartidoPolitico" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="PartidoPolitico">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Id" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Nombre" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Alias" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Legislatura">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Id" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Numero" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaInicio" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="FechaTermino" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="Tipo" type="tns:TipoLegislatura" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="AsistenciasColeccion">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Asistencia" type="tns:Asistencia" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Asistencia">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="TipoAsistencia" type="tns:TipoAsistencia" />
+          <s:element minOccurs="0" maxOccurs="1" name="Justificacion" type="tns:JustificacionInasistencia" />
+          <s:element minOccurs="0" maxOccurs="1" name="Diputado" type="tns:Diputado" />
+          <s:element minOccurs="0" maxOccurs="1" name="TipoTitularAsistencia" type="tns:TipoTitularAsistencia" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="JustificacionInasistencia">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Nombre" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="RebajaAsistencia" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="RebajaQuorum" type="s:boolean" />
+        </s:sequence>
+        <s:attribute name="Valor" type="s:int" use="required" />
+      </s:complexType>
+      <s:element name="retornarSesionesXAnno">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="prmAnno" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="retornarSesionesXAnnoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="retornarSesionesXAnnoResult" type="tns:SesionesSalaColeccion" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="retornarSesionAsistencia">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="prmSesionId" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="retornarSesionAsistenciaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="retornarSesionAsistenciaResult" type="tns:SesionSala" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SesionesSalaColeccion" nillable="true" type="tns:SesionesSalaColeccion" />
+      <s:element name="SesionSala" nillable="true" type="tns:SesionSala" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="retornarSesionesXLegislaturaSoapIn">
+    <wsdl:part name="parameters" element="tns:retornarSesionesXLegislatura" />
+  </wsdl:message>
+  <wsdl:message name="retornarSesionesXLegislaturaSoapOut">
+    <wsdl:part name="parameters" element="tns:retornarSesionesXLegislaturaResponse" />
+  </wsdl:message>
+  <wsdl:message name="retornarSesionesXAnnoSoapIn">
+    <wsdl:part name="parameters" element="tns:retornarSesionesXAnno" />
+  </wsdl:message>
+  <wsdl:message name="retornarSesionesXAnnoSoapOut">
+    <wsdl:part name="parameters" element="tns:retornarSesionesXAnnoResponse" />
+  </wsdl:message>
+  <wsdl:message name="retornarSesionAsistenciaSoapIn">
+    <wsdl:part name="parameters" element="tns:retornarSesionAsistencia" />
+  </wsdl:message>
+  <wsdl:message name="retornarSesionAsistenciaSoapOut">
+    <wsdl:part name="parameters" element="tns:retornarSesionAsistenciaResponse" />
+  </wsdl:message>
+  <wsdl:message name="retornarSesionesXLegislaturaHttpGetIn">
+    <wsdl:part name="prmLegislaturaId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="retornarSesionesXLegislaturaHttpGetOut">
+    <wsdl:part name="Body" element="tns:SesionesSalaColeccion" />
+  </wsdl:message>
+  <wsdl:message name="retornarSesionesXAnnoHttpGetIn">
+    <wsdl:part name="prmAnno" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="retornarSesionesXAnnoHttpGetOut">
+    <wsdl:part name="Body" element="tns:SesionesSalaColeccion" />
+  </wsdl:message>
+  <wsdl:message name="retornarSesionAsistenciaHttpGetIn">
+    <wsdl:part name="prmSesionId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="retornarSesionAsistenciaHttpGetOut">
+    <wsdl:part name="Body" element="tns:SesionSala" />
+  </wsdl:message>
+  <wsdl:message name="retornarSesionesXLegislaturaHttpPostIn">
+    <wsdl:part name="prmLegislaturaId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="retornarSesionesXLegislaturaHttpPostOut">
+    <wsdl:part name="Body" element="tns:SesionesSalaColeccion" />
+  </wsdl:message>
+  <wsdl:message name="retornarSesionesXAnnoHttpPostIn">
+    <wsdl:part name="prmAnno" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="retornarSesionesXAnnoHttpPostOut">
+    <wsdl:part name="Body" element="tns:SesionesSalaColeccion" />
+  </wsdl:message>
+  <wsdl:message name="retornarSesionAsistenciaHttpPostIn">
+    <wsdl:part name="prmSesionId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="retornarSesionAsistenciaHttpPostOut">
+    <wsdl:part name="Body" element="tns:SesionSala" />
+  </wsdl:message>
+  <wsdl:portType name="WSSalaSoap">
+    <wsdl:operation name="retornarSesionesXLegislatura">
+      <wsdl:input message="tns:retornarSesionesXLegislaturaSoapIn" />
+      <wsdl:output message="tns:retornarSesionesXLegislaturaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="retornarSesionesXAnno">
+      <wsdl:input message="tns:retornarSesionesXAnnoSoapIn" />
+      <wsdl:output message="tns:retornarSesionesXAnnoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="retornarSesionAsistencia">
+      <wsdl:input message="tns:retornarSesionAsistenciaSoapIn" />
+      <wsdl:output message="tns:retornarSesionAsistenciaSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="WSSalaHttpGet">
+    <wsdl:operation name="retornarSesionesXLegislatura">
+      <wsdl:input message="tns:retornarSesionesXLegislaturaHttpGetIn" />
+      <wsdl:output message="tns:retornarSesionesXLegislaturaHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="retornarSesionesXAnno">
+      <wsdl:input message="tns:retornarSesionesXAnnoHttpGetIn" />
+      <wsdl:output message="tns:retornarSesionesXAnnoHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="retornarSesionAsistencia">
+      <wsdl:input message="tns:retornarSesionAsistenciaHttpGetIn" />
+      <wsdl:output message="tns:retornarSesionAsistenciaHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="WSSalaHttpPost">
+    <wsdl:operation name="retornarSesionesXLegislatura">
+      <wsdl:input message="tns:retornarSesionesXLegislaturaHttpPostIn" />
+      <wsdl:output message="tns:retornarSesionesXLegislaturaHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="retornarSesionesXAnno">
+      <wsdl:input message="tns:retornarSesionesXAnnoHttpPostIn" />
+      <wsdl:output message="tns:retornarSesionesXAnnoHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="retornarSesionAsistencia">
+      <wsdl:input message="tns:retornarSesionAsistenciaHttpPostIn" />
+      <wsdl:output message="tns:retornarSesionAsistenciaHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WSSalaSoap" type="tns:WSSalaSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="retornarSesionesXLegislatura">
+      <soap:operation soapAction="http://opendata.camara.cl/camaradiputados/v1/retornarSesionesXLegislatura" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="retornarSesionesXAnno">
+      <soap:operation soapAction="http://opendata.camara.cl/camaradiputados/v1/retornarSesionesXAnno" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="retornarSesionAsistencia">
+      <soap:operation soapAction="http://opendata.camara.cl/camaradiputados/v1/retornarSesionAsistencia" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WSSalaSoap12" type="tns:WSSalaSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="retornarSesionesXLegislatura">
+      <soap12:operation soapAction="http://opendata.camara.cl/camaradiputados/v1/retornarSesionesXLegislatura" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="retornarSesionesXAnno">
+      <soap12:operation soapAction="http://opendata.camara.cl/camaradiputados/v1/retornarSesionesXAnno" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="retornarSesionAsistencia">
+      <soap12:operation soapAction="http://opendata.camara.cl/camaradiputados/v1/retornarSesionAsistencia" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WSSalaHttpGet" type="tns:WSSalaHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="retornarSesionesXLegislatura">
+      <http:operation location="/retornarSesionesXLegislatura" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="retornarSesionesXAnno">
+      <http:operation location="/retornarSesionesXAnno" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="retornarSesionAsistencia">
+      <http:operation location="/retornarSesionAsistencia" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WSSalaHttpPost" type="tns:WSSalaHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="retornarSesionesXLegislatura">
+      <http:operation location="/retornarSesionesXLegislatura" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="retornarSesionesXAnno">
+      <http:operation location="/retornarSesionesXAnno" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="retornarSesionAsistencia">
+      <http:operation location="/retornarSesionAsistencia" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WSSala">
+    <wsdl:port name="WSSalaSoap" binding="tns:WSSalaSoap">
+      <soap:address location="https://opendata.camara.cl/camaradiputados/WServices/WSSala.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WSSalaSoap12" binding="tns:WSSalaSoap12">
+      <soap12:address location="https://opendata.camara.cl/camaradiputados/WServices/WSSala.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WSSalaHttpGet" binding="tns:WSSalaHttpGet">
+      <http:address location="https://opendata.camara.cl/camaradiputados/WServices/WSSala.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WSSalaHttpPost" binding="tns:WSSalaHttpPost">
+      <http:address location="https://opendata.camara.cl/camaradiputados/WServices/WSSala.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
