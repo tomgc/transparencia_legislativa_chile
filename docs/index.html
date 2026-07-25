@@ -315,11 +315,29 @@ var SCHEME_LABELS = {rojoAzul:'Divergente rojo-azul', teal:'Secuencial teal', so
 var SEXO_LABEL = {Femenino:'Diputada', Masculino:'Diputado'};
 var SEXO_LABEL_NEUTRO = 'Diputada/Diputado';
 
-/* Las 16 regiones de Chile (geografía real, no dato ficticio). El filtro
-   Región queda preparado: la fuente actual no expone region/distrito (ver
-   CLAUDE.md, huecos conocidos), así que elegir una region concreta siempre
-   da 0 resultados con estado vacio explicativo; "Sin dato" muestra todo. */
-var REGIONES = ['Arica y Parinacota','Tarapacá','Antofagasta','Atacama','Coquimbo','Valparaíso','Metropolitana','O’Higgins','Maule','Ñuble','Biobío','La Araucanía','Los Ríos','Los Lagos','Aysén','Magallanes'];
+/* Las regiones del selector salen del propio indice publicado, no de una lista
+   fija: desde la Capa 2 el territorio viene poblado 155/155 (join contra el
+   crosswalk estatico, ver CLAUDE.md), y derivarlas del dato evita que la lista
+   del filtro se desincronice del nombre oficial con que se publica la region.
+   El valor con que se filtra es SIEMPRE el nombre oficial completo; regionCorta
+   solo acorta la etiqueta para que quepa en el panel, sin alterar el valor. */
+// Solo se quita el "Región de/del" inicial. El articulo de "Los Lagos", "Los
+// Rios" y "La Araucania" es parte del nombre propio y NO se toca.
+function regionCorta(r){
+  return String(r).replace(/^Región\s+(?:del\s+|de\s+)?/i, '');
+}
+// Orden geografico norte->sur sin listas fijas: los distritos estan numerados
+// de norte a sur, asi que ordenar cada region por su distrito menor reproduce
+// esa secuencia a partir del propio dato.
+function regionesDelIndice(){
+  var min = {};
+  (state.index || []).forEach(function(r){
+    if(!r.region) return;
+    var d = Number(r.distrito);
+    if(!(r.region in min) || (isFinite(d) && d < min[r.region])) min[r.region] = isFinite(d) ? d : Infinity;
+  });
+  return Object.keys(min).sort(function(a, b){ return min[a] - min[b]; });
+}
 
 var MESES = ['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
 
@@ -483,7 +501,7 @@ function computeDerived(){
   var base = idx.filter(function(r){
     if(term && r.nombre.toLowerCase().indexOf(term)<0) return false;
     if(selP.length && selP.indexOf(r.partido)<0) return false;
-    if(state.region && state.region!=='__sindato__') return false;
+    if(state.region && r.region!==state.region) return false;
     return true;
   });
 
@@ -578,8 +596,8 @@ function buildPartyPanel(){
 
 function buildRegionPanel(){
   if(!state.regionPanelOpen) return '';
-  var opts = [{label:'Todas las regiones', value:''},{label:'Sin dato', value:'__sindato__'}]
-    .concat(REGIONES.map(function(x){ return {label:x, value:x}; }));
+  var opts = [{label:'Todas las regiones', value:''}]
+    .concat(regionesDelIndice().map(function(x){ return {label:regionCorta(x), value:x}; }));
   var rows = opts.map(function(o){
     var check = state.region===o.value ? '✓' : '';
     return '<div class="region-row" data-action="select-region" data-value="'+esc(o.value)+'">'
@@ -616,7 +634,7 @@ function buildFilters(base, hasFilters, resultCount){
   var nar = isNarrow();
   var selP = Object.keys(state.selectedParties).filter(function(k){return state.selectedParties[k];});
   var partyBtnSuffix = selP.length ? (' · '+selP.length) : '';
-  var regionLabel = state.region===''?'Región':(state.region==='__sindato__'?'Región · Sin dato':'Región · '+state.region);
+  var regionLabel = state.region==='' ? 'Región' : ('Región · '+regionCorta(state.region));
 
   return ''
   +'<div class="filters-zone'+(nar?' narrow':'')+'">'
@@ -703,10 +721,11 @@ function buildSkeletonRows(){
   }).join('');
 }
 
-// Region/Distrito: se leen del dato, nunca se escriben fijos. Hoy la fuente no
-// expone ninguno de los dos (ver CLAUDE.md, huecos conocidos) y todo cae al
-// degradado "Sin dato"; cuando el pipeline los pueble, la UI los muestra sin
-// volver a tocarse. Normaliza null y cadena vacia a ausencia.
+// Region/Distrito: se leen del dato, nunca se escriben fijos. Desde la Capa 2 el
+// pipeline los puebla en los 155 (el paso 32 aborta antes de consolidar si a
+// alguien le falta territorio), asi que el degradado "Sin dato" de mas abajo ya
+// no es el estado normal: queda como defensa barata ante un JSON incompleto.
+// Normaliza null y cadena vacia a ausencia.
 function regionPartes(r){
   return {
     region: (r.region==null || r.region==='') ? null : String(r.region),
@@ -773,9 +792,9 @@ function buildRows(rows){
 }
 
 function buildEmptyState(){
-  var isRegion = !!(state.region && state.region!=='__sindato__');
+  var isRegion = !!state.region;
   var msg = isRegion
-    ? ('Ningún diputado o diputada tiene la región <strong>'+esc(state.region)+'</strong> registrada. El dato de región/distrito aún no está disponible en la fuente para el período vigente.')
+    ? ('Ningún diputado o diputada de la <strong>'+esc(state.region)+'</strong> cumple los demás filtros aplicados. Amplía la búsqueda o quita alguno de los filtros.')
     : 'Ajusta los filtros o la búsqueda.';
   return '<div class="skel-empty"><div class="skel-empty-title">Sin resultados</div><div class="skel-empty-msg">'+msg+'</div></div>';
 }
