@@ -15,41 +15,41 @@
   },
   "asistencia": {
     "anio": 2026,
-    "n_sesiones": 47,
-    "n_asiste": 39,
+    "n_sesiones": 51,
+    "n_asiste": 43,
     "n_no_asiste": 8,
-    "tasa_asistencia": 0.829787234042553,
+    "tasa_asistencia": 0.843137254901961,
     "alcance_temporal": {
       "anio_proceso": 2026,
-      "corte_fecha": "2026-07-20",
-      "sesiones_alcance": 66,
+      "corte_fecha": "2026-07-25",
+      "sesiones_alcance": 69,
       "fecha_primera": "2026-01-05",
-      "fecha_ultima": "2026-07-20",
+      "fecha_ultima": "2026-07-22",
       "periodo_id": "11",
       "periodo_nombre": "2026-2030",
       "periodo_inicio": "2026-03-11",
-      "sesiones_periodo_vigente": 48,
-      "nota": "Cobertura parcial: solo sesiones de sala del anno 2026 hasta el 2026-07-20 (66 sesiones, de 2026-01-05 a 2026-07-20). NO es la trayectoria completa del parlamentario. El ambito 'periodo_vigente' cuenta las 48 sesiones desde la instalacion del periodo 2026-2030 (2026-03-11) y usa el mismo denominador para todos, por lo que es el comparable entre diputados; 'en_ejercicio' cuenta solo las sesiones del alcance posteriores a la asuncion de cada diputado."
+      "sesiones_periodo_vigente": 51,
+      "nota": "Cobertura parcial: solo sesiones de sala del anno 2026 hasta el 2026-07-25 (69 sesiones, de 2026-01-05 a 2026-07-22). NO es la trayectoria completa del parlamentario. El ambito 'periodo_vigente' cuenta las 51 sesiones desde la instalacion del periodo 2026-2030 (2026-03-11) y usa el mismo denominador para todos, por lo que es el comparable entre diputados; 'en_ejercicio' cuenta solo las sesiones del alcance posteriores a la asuncion de cada diputado."
     },
     "periodo_vigente": {
-      "n_sesiones": 48,
-      "n_asiste": 40,
+      "n_sesiones": 51,
+      "n_asiste": 43,
       "n_no_asiste": 8,
       "n_sin_registro": 0,
       "n_justificadas": 3,
       "n_injustificadas": 5,
-      "tasa_presencia": 0.833333333333333,
-      "tasa_presencia_o_justificada": 0.895833333333333
+      "tasa_presencia": 0.843137254901961,
+      "tasa_presencia_o_justificada": 0.901960784313726
     },
     "en_ejercicio": {
-      "n_sesiones": 48,
-      "n_asiste": 40,
+      "n_sesiones": 51,
+      "n_asiste": 43,
       "n_no_asiste": 8,
       "n_sin_registro": 0,
       "n_justificadas": 3,
       "n_injustificadas": 5,
-      "tasa_presencia": 0.833333333333333,
-      "tasa_presencia_o_justificada": 0.895833333333333
+      "tasa_presencia": 0.843137254901961,
+      "tasa_presencia_o_justificada": 0.901960784313726
     },
     "sesiones": [
       {
@@ -498,18 +498,45 @@
         "en_periodo_vigente": true,
         "asistencia": "asiste",
         "justificacion": null
+      },
+      {
+        "sesion_id": "4802",
+        "sesion_numero": "46",
+        "fecha": "2026-07-21",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4803",
+        "sesion_numero": "47",
+        "fecha": "2026-07-22",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4804",
+        "sesion_numero": "48",
+        "fecha": "2026-07-22",
+        "tipo_sesion": "Especial",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
       }
     ]
   },
   "votaciones": {
     "anio": 2026,
-    "n_votaciones": 430,
+    "n_votaciones": 479,
     "resumen_por_sentido": {
-      "en_contra": 107,
-      "a_favor": 200,
+      "en_contra": 114,
+      "a_favor": 240,
       "abstencion": 6,
       "dispensado": 0,
-      "no_vota": 117
+      "no_vota": 119
     },
     "votos": [
       {
@@ -6306,14 +6333,688 @@
           "tipo_iniciativa": "Mensaje",
           "materias": []
         }
+      },
+      {
+        "votacion_id": "89444",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-07-20",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89445",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-07-20",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89448",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-07-20",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89450",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-07-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89451",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-07-20",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89465",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-07-21",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89466",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-07-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89467",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-07-21",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "3-Creacion Comision Investigadora",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89470",
+        "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89471",
+        "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89472",
+        "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89473",
+        "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89474",
+        "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89475",
+        "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89476",
+        "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89477",
+        "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89478",
+        "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89479",
+        "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89480",
+        "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89481",
+        "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89482",
+        "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89483",
+        "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89484",
+        "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89485",
+        "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89486",
+        "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89487",
+        "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89488",
+        "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-21",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89489",
+        "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89490",
+        "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89491",
+        "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89492",
+        "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89493",
+        "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89494",
+        "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89495",
+        "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-21",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89496",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-07-21",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89511",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-07-22",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "3-Creacion Comision Investigadora",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89518",
+        "boletin": null,
+        "tipo": "Proyecto de Resolución",
+        "fecha": "2026-07-22",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "Proyecto de Resolución N° 30",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89519",
+        "boletin": null,
+        "tipo": "Proyecto de Resolución",
+        "fecha": "2026-07-22",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 32",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89520",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-07-22",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "3-Creacion Comision Investigadora",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89521",
+        "boletin": "18301-10",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-22",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18301-10",
+        "proyecto": {
+          "boletin": "18301-10",
+          "nombre": "Aprueba el Convenio de Transporte Aéreo entre el Gobierno de la República de Chile y el Gobierno de la República de Costa Rica, suscrito en Lima, Perú, el 13 de diciembre de 2023",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89522",
+        "boletin": "18431-31",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-22",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18431-31",
+        "proyecto": {
+          "boletin": "18431-31",
+          "nombre": "Modifica la ley N° 21.805, que reconoce el derecho al cuidado y crea el Sistema Nacional de Apoyos y Cuidados, y otros cuerpos normativos que indica",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89523",
+        "boletin": "18431-31",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-22",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18431-31",
+        "proyecto": {
+          "boletin": "18431-31",
+          "nombre": "Modifica la ley N° 21.805, que reconoce el derecho al cuidado y crea el Sistema Nacional de Apoyos y Cuidados, y otros cuerpos normativos que indica",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89524",
+        "boletin": "17795-19",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-22",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17795-19",
+        "proyecto": {
+          "boletin": "17795-19",
+          "nombre": "Regula la creación y difusión de imitaciones digitales realistas de la imagen, cuerpo o voz de las personas, generadas mediante inteligencia artificial",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89525",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-07-22",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89542",
+        "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-22",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89543",
+        "boletin": "18384-08",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-22",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18384-08",
+        "proyecto": {
+          "boletin": "18384-08",
+          "nombre": "Ley de protección tarifaria eléctrica",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89544",
+        "boletin": "18259-08",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-22",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18259-08",
+        "proyecto": {
+          "boletin": "18259-08",
+          "nombre": "Modifica el Código de Minería y las leyes números 21.420 y 21.649, en materia de amparo minero y otras materias que indica",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89545",
+        "boletin": "18259-08",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-22",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18259-08",
+        "proyecto": {
+          "boletin": "18259-08",
+          "nombre": "Modifica el Código de Minería y las leyes números 21.420 y 21.649, en materia de amparo minero y otras materias que indica",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89546",
+        "boletin": "18259-08",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-07-22",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18259-08",
+        "proyecto": {
+          "boletin": "18259-08",
+          "nombre": "Modifica el Código de Minería y las leyes números 21.420 y 21.649, en materia de amparo minero y otras materias que indica",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
       }
     ]
   },
   "proyectos": {
     "anio": 2026,
-    "n_proyectos": 16,
+    "n_proyectos": 17,
     "estado_tramitacion_disponible": false,
     "proyectos": [
+      {
+        "boletin": "18496-06",
+        "nombre": "Resguarda el uso común de los bienes nacionales de uso público ante ocupaciones mediante estructuras precarias, según criterios de proporcionalidad y no discriminación",
+        "fecha_ingreso": "2026-07-20",
+        "admisible": "true",
+        "rol": "firmante",
+        "tipo_iniciativa": "Moción",
+        "materias": []
+      },
       {
         "boletin": "18409-03",
         "nombre": "Modifica el artículo 38 de la Ley General de Bancos, incorporando nuevas exigencias en materia de seguridad y autenticación para las personas que realicen trámites presenciales ante instituciones bancarias del país",
@@ -6464,6 +7165,6 @@
     "fuente": "opendata.camara.cl",
     "periodo": "2026-2030",
     "anio_proceso": 2026,
-    "generado": "2026-07-25T07:12:13"
+    "generado": "2026-07-25T18:19:26"
   }
 }
