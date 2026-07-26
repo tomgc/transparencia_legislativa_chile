@@ -1,9 +1,16 @@
 # POLITICA_PROYECTO.md
 
-> **Versión 5.3 — vigente.** Documento maestro único de arquitectura y
+> **Versión 5.4 — vigente.** Documento maestro único de arquitectura y
 > gobernanza. Se copia a `50_documentacion/activa/` de cada proyecto y
 > vive en la knowledge base del Project. Aplica a Claude, Claude Code y
 > cualquier agente que trabaje sobre el proyecto.
+>
+> **Cambios respecto a v5.3:** nueva regla 0.6 (marcador de fuente en línea),
+> adoptada de la ficha S-01 de la auditoría de errores de la cartera, única
+> ficha que superó el criterio de adopción tras el backtest del 2026-07-25.
+> Sube a §0 porque rige a todo agente y no solo a las sesiones de proyecto;
+> su contrato completo vive en `SETTINGS_Y_PROMPTS_OPERACIONALES.md` §1.2.6
+> (v12).
 >
 > **Cambios respecto a v5.2:** sección 0.4 agrega el test de dos preguntas
 > antes de derivar cualquier tarea al usuario (guardrail GR-05, propuesta
@@ -132,6 +139,22 @@ patrón. El registro estructurado no sustituye a esas salvaguardas: es un
 mecanismo adicional para hacer visible, medible y comparable entre
 proyectos un problema que de otro modo solo vive en la memoria de cada
 sesión y se pierde al cerrarla.
+
+### 0.6 Marcador de fuente en línea
+
+Cuatro tipos de afirmación llevan marcador en la misma línea en que se
+emiten, sin tercera forma legal: (1) contenido, existencia o ruta de un
+archivo no leído en esta sesión; (2) estado de repositorio; (3) toda cifra o
+conteo comunicado; (4) toda premisa de hecho de un encargo. Formas legales:
+`(fuente: <archivo leído o comando ejecutado en esta sesión>)` o
+`(hipótesis, verificar con: <comando>)`.
+
+Vive en §0 porque aplica a Claude, a Claude Code y a cualquier agente, dentro
+y fuera de una sesión de proyecto, y porque el mecanismo que ataca (afirmar
+desde fuente secundaria teniendo la primaria disponible) es el 43,5% de las
+desviaciones registradas de la cartera. El contrato completo, con el alcance
+de cada tipo y el fundamento de por qué es slot y no recordatorio, vive en
+`SETTINGS_Y_PROMPTS_OPERACIONALES.md` §1.2.6.
 
 ---
 
