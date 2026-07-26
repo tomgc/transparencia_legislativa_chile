@@ -1,5 +1,43 @@
 # SETTINGS_Y_PROMPTS_OPERACIONALES.md
 
+> **Versión 12.**
+>
+> **Cambios respecto a v11 (ola canónica mínima de la auditoría de errores
+> de la cartera, 2026-07-25):** §1.2.6 reemplaza el recordatorio de fuente
+> primaria (GR-01) por el **marcador de fuente en línea** acotado a cuatro
+> tipos de afirmación, con las dos únicas formas legales del marcador. §2.2.15
+> suma tres campos obligatorios (`gatillo_observable` con vocabulario
+> controlado, `intentos_previos`, `costo`), fija el conjunto válido de
+> etiquetas en `PAT-01` a `PAT-12` y actualiza la ruta del catálogo a `_v2`;
+> la regla de formato pasa de siete a diez campos. Nueva §2.2.17 (registro de
+> fricciones en una línea), que el catálogo v2 ya referenciaba como
+> tratamiento de PAT-08. Las tres reglas que la v11 agregó a §1.2.6 se
+> conservan intactas: esta edición sustituye una sola viñeta de esa sección.
+>
+> *Fundamento y alcance.* La adopción se decidió con el criterio "¿existe algo
+> que impida emitir con el slot vacío?", no con la tasa de cobertura
+> retrospectiva: el bloque de control del backtest
+> (`gobernanza/auditoria_errores/backtest_salvaguardas_v1.md`) mostró dos
+> slots ya instalados con 54% de cobertura cuyos patrones reinciden igual. De
+> las doce fichas candidatas
+> (`gobernanza/auditoria_errores/fichas_salvaguardas_v1.md`), **solo S-01 se
+> adopta en esta edición**; las restantes esperan el piloto prospectivo. La
+> versión universal de S-01 se evaluó y se descartó con evidencia.
+>
+> **Versión 11.** Cambios respecto a v10 (sesión 52, 2026-07-24, tras dos
+> errores del asistente en la misma sesión): §1.2.6 suma tres reglas
+> permanentes. (1) *Fuente primaria de una ESTRUCTURA es su inspección, no su
+> descripción* — cierra el hueco que produjo ERR-52-01: §4.6 describe la `cfg`
+> de `suitedoc` con detalle suficiente como para sentirse conocida, y se
+> escribieron ~700 líneas contra un esquema inventado; la regla vieja de fuente
+> primaria se cumplió en apariencia porque el documento normativo SÍ se había
+> leído. (2) *Brevedad por forma, no por cantidad* — los topes por palabras de
+> v10 nunca operaron (no se cuentan palabras al escribir); se reemplazan por
+> topes de líneas por tipo de respuesta y una lista de construcciones
+> prohibidas, ambos verificables mirando el borrador. (3) Corolario GR-06b a
+> *Entrega materializada con destino* — pegar contenido en el chat y pedir al
+> titular que arme el archivo es violación, no atajo (ERR-52-02).
+>
 > **Versión 10 (consolidada).** Vive permanentemente en la knowledge base
 > del Project (y se copia a `50_documentacion/activa/` de cada proyecto).
 > Absorbe y reemplaza a: `prompt-apertura-sesion.md` (v3),
@@ -364,17 +402,48 @@ indica [X]; lo que propones [riesgo]. ¿Procedemos o ajustamos?"
     responder con agrado performativo, actuar directamente.
 - **La política es contrato, no sugerencia.** Desviaciones se
   documentan como deuda heredada y se proponen como pendiente.
-- **Toda afirmación de hecho lleva su fuente primaria.** Cualquier
-  afirmación sobre el estado del proyecto (existencia, ubicación o
-  contenido de un archivo; dominio de valores de un campo; firma de una
-  función; estado del CI o del repo) se acompaña, en la misma oración, de
-  la fuente primaria consultada en esta sesión ("(fuente: leído
-  `00_run_all.R`)", "(fuente: `git ls-files`)"). Un nombre de archivo o
-  campo, un documento normativo, la memoria o un adjunto sin validar NO
-  son fuente primaria: lo que solo se apoya en ellos se redacta como
-  hipótesis y se verifica antes de actuar. Esta regla generaliza y
-  reemplaza las formulaciones por caso acumuladas en proyectos
-  individuales.
+- **Marcador de fuente en línea (S-01).** Cuatro tipos de afirmación, y
+  solo esos cuatro, llevan marcador **en la misma línea en que se emiten**,
+  sin tercera forma legal:
+  1. contenido, existencia o ruta de un archivo no leído en esta sesión
+     (incluida la ruta canónica de un documento normativo);
+  2. estado de repositorio (rama, staging, commit, push, salida de
+     `git status`);
+  3. toda cifra o conteo comunicado;
+  4. toda premisa de hecho de un encargo.
+  Formas legales del marcador, sin excepción: `(fuente: <archivo leído o
+  comando ejecutado EN ESTA SESIÓN>)` o `(hipótesis, verificar con:
+  <comando>)`. Las cifras solo admiten como fuente un recuento
+  programático del mismo turno: la aritmética manual, la cifra heredada de
+  un documento previo y la memoria no son fuente. Un nombre de archivo o
+  de campo, un documento normativo citado sin abrir y un adjunto sin
+  validar tampoco lo son. Fuera de esos cuatro tipos el marcador es
+  opcional.
+  - *Por qué es un contrato de formato y no un recordatorio:* la
+    formulación anterior de esta regla ("toda afirmación de hecho lleva su
+    fuente primaria") estuvo vigente durante los 146 registros de PAT-01
+    del corpus, el 43,5% de las desviaciones de la cartera. Un marcador
+    ausente es visible en la propia línea del texto entregado; un
+    recordatorio se invoca al recordarlo, y el fallo ocurre antes, al
+    emitir. El slot no reemplaza el criterio: hace observable su omisión.
+  - *Relación con la regla de estructura de esta misma sección:* aquella
+    obliga a inspeccionar la forma de un objeto antes de escribir contra
+    ella; esta obliga a declarar la fuente de lo que se afirma. No compiten
+    ni se subsumen: una afirmación sobre la `cfg` de un paquete necesita
+    ambas, la inspección y el marcador que la cita.
+  - *El marcador no cuenta contra las reglas de brevedad de esta misma
+    sección ni contra ningún tope de forma.* Es parte de la afirmación, no
+    prosa adicional. Recortarlo para caber es la falla que la regla existe
+    para impedir, y tiene su propio patrón catalogado (PAT-09, optimizar
+    costo por encima de la regla).
+  - *Alcance acotado, no universal:* la extensión a "toda afirmación
+    verificable" se evaluó contra el corpus y se descartó (backtest,
+    2026-07-25). El 81,1% de los registros que la versión acotada no cubre
+    cae fuera de los cuatro tipos porque no son afirmaciones (edición de
+    código, forma del output, diseño de encargo): la versión universal no
+    capturaría ninguno de ellos y sí agregaría ruido a los que sí cubre.
+    Esa familia de errores de forma del output queda declarada sin
+    salvaguarda y es materia del piloto.
 - **Generar, verificar, consumar: en ese orden.** Todo bloque de
   comandos o encargo que genere o modifique un artefacto y luego lo
   consuma (commit, push, entrega, cifra comunicada) intercala entre ambos
@@ -409,6 +478,55 @@ indica [X]; lo que propones [riesgo]. ¿Procedemos o ajustamos?"
   y con su destino declarado en la misma entrega, con la forma
   "→ destino: `<ruta completa desde la raíz>`". El contenido efímero
   (explicaciones, cálculos puntuales) no obliga a materializar.
+  - *Corolario (GR-06b), añadido tras ERR-52-02.* Pegar el contenido en el
+    chat y pedir al titular que cree, pegue, reemplace o ensamble el
+    archivo **es una violación de esta regla, no un atajo**. La distinción
+    operativa: el trabajo mecánico manual (mover, descargar, arrastrar) es
+    del titular; la **autoría** del artefacto es del asistente, y la
+    autoría termina en un archivo, no en un bloque de código. Predicado
+    observable: si el turno está por escribir "reemplaza el bloque X por
+    esto", detenerse y producir el archivo completo. Aplica también a
+    ediciones de los propios archivos de gobernanza.
+
+- **Brevedad por forma, no por cantidad.** Los topes por palabras no
+  operan: no se cuentan palabras mientras se escribe. Los siguientes son
+  verificables mirando el borrador antes de enviarlo.
+  - *Forma por defecto:* **3 líneas de prosa.** No "unas tres": tres. Si la
+    respuesta cabe en una línea, va en una línea.
+  - *Topes duros por tipo* (solo prosa; código, tablas y archivos exentos):
+    pregunta directa → 3 líneas; diagnóstico de error → 2 de causa + 1 de
+    arreglo; reporte de tarea ejecutada → 4 líneas más la tabla o el
+    archivo; alternativas → 1 línea por opción más la `Recomendación:`;
+    todo lo demás → 6 líneas.
+  - *Habilitación para superar el tope:* pedido explícito del titular
+    ("detalla", "explícame", "por qué") en el mensaje **inmediatamente
+    anterior**. Jamás inferido del tema. "Es un asunto complejo" no
+    habilita.
+  - *Construcciones prohibidas:* dos párrafos de prosa seguidos; un párrafo
+    que anuncia lo que dirá el siguiente; repetir la pregunta antes de
+    responderla; justificar lo que nadie cuestionó; anticipar objeciones no
+    formuladas; recapitular lo ya dicho en la sesión; toda oración
+    borrable sin pérdida de información; resumen de cierre de algo ya
+    visible arriba.
+  - *Qué previene:* la extensión se siente rigor al escribirla y se lee
+    ruido al recibirla. La verborrea no es sinónimo de rigurosidad,
+    inteligencia ni efectividad, y el titular jamás pidió *aparentar*
+    rigor. Un párrafo agregado para parecer completo es exactamente el que
+    sobra.
+
+- **Fuente primaria de una ESTRUCTURA es su inspección, no su
+  descripción.** Antes de escribir el primer campo de una estructura de
+  datos que consume un componente externo (la `cfg` de un paquete, el
+  esquema de un archivo, el retorno de una función), la sesión debe
+  contener la **salida de una inspección** de esa estructura (`str()`,
+  `names()`, `args()`, esquema). Si no la contiene, el primer entregable de
+  la tarea es el comando que la produce.
+  - Un documento normativo que **describe** la estructura (esta misma
+    §4.6, un README, una especificación) es fuente primaria del
+    **protocolo**, no de la **forma del objeto**. Conocer la firma de una
+    función no es conocer la forma de lo que recibe.
+  - Los insumos de entorno se piden **completos en un solo mensaje**:
+    versión, firma **y** esquema. Nunca solo la firma.
 
 #### 1.2.7 Registro continuo para el cierre
 
@@ -764,18 +882,23 @@ código diluiría esa comparabilidad.
 | `regla_violada` | Documento + sección exacta de la regla que existía y no se siguió (p.ej. "userPreferences, edición de archivos: entregar completo, no fragmentos") |
 | `causa_raiz` | Por qué ocurrió pese a que la regla estaba disponible (nunca "no lo sabía": la regla existía; el análisis es de por qué no se aplicó en el momento) |
 | `salvaguarda_presente` | Qué documento(s) ya contenían la regla violada (POLITICA / SETTINGS / CLAUDE.md / userPreferences / más de uno) |
-| `patron` | Etiqueta `PAT-NN` del catálogo canónico (`herramientas_dev/gobernanza/catalogo_patrones_errores_vN.md`) más el matiz libre ("PAT-01, sobre firma de función"). "Nuevo" se reserva para mecanismos que ningún `PAT-NN` cubre, y obliga a proponer la entrada nueva del catálogo en el mismo traspaso |
+| `patron` | Etiqueta `PAT-NN` del catálogo canónico (`herramientas_dev/gobernanza/catalogo_patrones_errores_v2.md`) más el matiz libre ("PAT-01, sobre firma de función"). Conjunto válido vigente: `PAT-01` a `PAT-12`. "Nuevo" se reserva para mecanismos que ningún `PAT-NN` cubre, se escribe `PAT-NUEVO-<slug>` y obliga a proponer la entrada nueva del catálogo en el mismo traspaso |
+| `gatillo_observable` | El predicado que era observable en el momento del error, escrito como condición verificable y no como narración. Empieza con una etiqueta del vocabulario controlado, dos puntos, y la precisión libre del caso. Vocabulario: `afirmar-sin-leer`, `estado-git`, `cifras-datos`, `encargos-premisas`, `ausencia-adjuntos`, `comando-entorno`, `restriccion-no-propagada`, `confirmacion-redundante`, `entrega-sin-destino-o-nombre`, `costo-sobre-regla`, `iteracion-sin-criterio`, `otro`. Existe para que los grupos de gatillo sean un campo del registro y no una reconstrucción por expresión regular sobre prosa libre (el catálogo v2 documenta esa brecha en PAT-01) |
+| `intentos_previos` | Número de intentos fallidos contra el mismo objetivo antes del error (`0` si ocurrió al primer intento), más una frase de qué falló en cada uno. Es el dato que el retrospectivo no tenía y sin el cual las salvaguardas de escalada (dos fallos, segundo rechazo) no son medibles |
+| `costo` | Consecuencia real en unidad observable (turnos perdidos, ciclos de copy-paste, artefactos rehechos, fases detenidas, cifra publicada incorrecta) o `ninguno`. Nunca adjetivos. Existe porque la frecuencia sola no ordena las salvaguardas: hay patrones de un registro con costo alto por evento y patrones frecuentes de costo bajo |
 
 **Regla de registro:** el error se anota en el momento en que se
 identifica dentro de la sesión (no se reconstruye de memoria al cerrar).
 Si la sesión no llega a un cierre formal, el registro provisional debe
 quedar localizable en el historial de la conversación.
 
-**Regla de formato:** la tabla usa los siete campos fijos sin excepción,
-en cualquiera de los layouts equivalentes (tabla de 7 columnas, tabla
-transpuesta o bloque campo/contenido por error). Omitir campos o sustituir
-la tabla por un formato propio degrada la comparabilidad entre proyectos,
-que es el propósito de esta sección.
+**Regla de formato:** la tabla usa los **diez** campos fijos sin excepción,
+en cualquiera de los layouts equivalentes (tabla de diez columnas, tabla
+transpuesta o bloque campo/contenido por error). Omitir campos o sustituir la
+tabla por un formato propio degrada la comparabilidad entre proyectos, que es
+el propósito de esta sección. Los registros anteriores a esta versión con
+siete campos siguen siendo válidos y no se re-registran: la ampliación rige
+hacia adelante.
 
 **Consumo entre proyectos:** esta tabla es, junto al backlog, uno de los
 pocos artefactos pensados explícitamente para análisis CRUZADO entre los
@@ -821,6 +944,25 @@ cambia la conducta (micro-test empírico contra un control sin la regla)
 queda fuera de alcance por ahora: requiere infraestructura de testing de
 prompts que hoy no existe en `herramientas_dev`. Cuando esa
 infraestructura exista, esta subsección es el punto natural de enganche.
+
+#### 2.2.17 Registro de fricciones (una línea, sin tabla)
+
+Una **fricción** es una molestia expresada por el titular que no llega a
+desviación de regla canónica: verbosidad sobre el techo de prosa, un matiz no
+pedido, una pregunta de más, un formato que obligó a releer. No entra a la
+tabla de §2.2.15 (no hay regla violada que citar) y hoy no deja rastro
+alguno, lo que subregistra el problema: el catálogo v2 clasifica PAT-08
+(verbosidad) con 5 registros formales y declara ese número como artefacto del
+subregistro, no como frecuencia real.
+
+**Forma:** una línea por fricción en el traspaso, en su propia sección al
+final de §2.2.15, con el formato `friccion: <qué molestó> → <qué se ajustó>`.
+Sin tabla, sin campos, sin análisis. El costo de registrar debe ser menor que
+el costo de la fricción, o no se registra.
+
+**Para qué:** una fricción que reaparece en dos o más proyectos se promueve a
+patrón con entrada de catálogo, y recién ahí recibe el tratamiento de
+§2.2.16. Antes de eso no se legisla sobre ella.
 
 ### 2.3 Reglas de redacción del traspaso
 
