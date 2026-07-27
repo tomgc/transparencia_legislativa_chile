@@ -21,7 +21,7 @@
     "tasa_asistencia": 0.647058823529412,
     "alcance_temporal": {
       "anio_proceso": 2026,
-      "corte_fecha": "2026-07-25",
+      "corte_fecha": "2026-07-27",
       "sesiones_alcance": 69,
       "fecha_primera": "2026-01-05",
       "fecha_ultima": "2026-07-22",
@@ -29,7 +29,7 @@
       "periodo_nombre": "2026-2030",
       "periodo_inicio": "2026-03-11",
       "sesiones_periodo_vigente": 51,
-      "nota": "Cobertura parcial: solo sesiones de sala del anno 2026 hasta el 2026-07-25 (69 sesiones, de 2026-01-05 a 2026-07-22). NO es la trayectoria completa del parlamentario. El ambito 'periodo_vigente' cuenta las 51 sesiones desde la instalacion del periodo 2026-2030 (2026-03-11) y usa el mismo denominador para todos, por lo que es el comparable entre diputados; 'en_ejercicio' cuenta solo las sesiones del alcance posteriores a la asuncion de cada diputado."
+      "nota": "Cobertura parcial: solo sesiones de sala del anno 2026 hasta el 2026-07-27 (69 sesiones, de 2026-01-05 a 2026-07-22). NO es la trayectoria completa del parlamentario. El ambito 'periodo_vigente' cuenta las 51 sesiones desde la instalacion del periodo 2026-2030 (2026-03-11) y usa el mismo denominador para todos, por lo que es el comparable entre diputados; 'en_ejercicio' cuenta solo las sesiones del alcance posteriores a la asuncion de cada diputado."
     },
     "periodo_vigente": {
       "n_sesiones": 51,
@@ -7155,6 +7155,6 @@
     "fuente": "opendata.camara.cl",
     "periodo": "2026-2030",
     "anio_proceso": 2026,
-    "generado": "2026-07-25T18:19:35"
+    "generado": "2026-07-27T13:52:19"
   }
 }
