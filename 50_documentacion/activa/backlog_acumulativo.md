@@ -39,25 +39,25 @@ intencion primaria. Fuente del conteo: traspasos y logs de la sesion.
 
 | Categoria | N | % | Descripcion / ejemplo |
 |-----------|---|---|-----------------------|
-| infraestructura | 4 | 11,4 | scaffold, estructura canonica, utils, config; fix de la clave de cache (tope); corte temporal explicito (CORTE_FECHA); sello de procedencia de los intermedios |
-| extraccion de datos | 5 | 14,3 | pipeline de extraccion de la Camara (31-35); corrida del anno completo; detalle de proyectos (36); Capa 2 territorial (crosswalk + join en el 32); Capa 3 de asistencia simetrica (serie nominal, justificacion, dos ambitos) |
-| consolidacion/salida | 2 | 5,7 | fusion a JSON (39) + orquestador; enriquecimiento de perfiles (contenido + trazabilidad) |
-| interfaz/dashboard | 4 | 11,4 | dashboard estatico Fase 2; enriquecimiento visual (metricas, materias, voto->proyecto); toggle del historial de votos; celda de region que lee el dato |
-| diagnostico/exploracion | 6 | 17,1 | diagnostico insumos-first del contenido legible y del join voto->proyecto; exploracion API Senado v02 (backend con ids estables); asistencia nominal por sesion (H1-bis); esquema de la Camara y contrato de datos comun; auditoria adversarial de cobertura del web service de la Camara; diagnostico de brecha entre proposito declarado y entregado |
-| documentacion | 3 | 8,6 | README, CLAUDE.md, doc tecnica, exploracion API; precision del invariante R-only; consolidacion del backlog de las sesiones 7 a 11 |
-| decision metodologica | 3 | 8,6 | mapa partido->tendencia (diferido en v01, poblado en v02); tres decisiones de arquitectura del pipeline del Senado (extendido + normalizacion, asistencia simetrica, clave compuesta con fecha capturada) |
-| integracion/repo | 5 | 14,3 | integracion de las tres ramas a main + reconciliacion de 36; migracion a GitHub (repo publico + Pages); primer refresh real en produccion; versionado de la memoria estructural del proyecto; merge y publicacion de la Capa 2 territorial |
-| automatizacion | 2 | 5,7 | workflow de GitHub Actions para refresh semanal con gate de conteos; timeout declarado a nivel de job |
-| decision de alcance | 1 | 2,9 | Congreso completo (Camara + Senado) como objetivo real del proyecto |
-| **Suma de la columna** | **35** | **100** | |
+| infraestructura | 4 | 11,1 | scaffold, estructura canonica, utils, config; fix de la clave de cache (tope); corte temporal explicito (CORTE_FECHA); sello de procedencia de los intermedios |
+| extraccion de datos | 5 | 13,9 | pipeline de extraccion de la Camara (31-35); corrida del anno completo; detalle de proyectos (36); Capa 2 territorial (crosswalk + join en el 32); Capa 3 de asistencia simetrica (serie nominal, justificacion, dos ambitos) |
+| consolidacion/salida | 2 | 5,6 | fusion a JSON (39) + orquestador; enriquecimiento de perfiles (contenido + trazabilidad) |
+| interfaz/dashboard | 4 | 11,1 | dashboard estatico Fase 2; enriquecimiento visual (metricas, materias, voto->proyecto); toggle del historial de votos; celda de region que lee el dato |
+| diagnostico/exploracion | 6 | 16,7 | diagnostico insumos-first del contenido legible y del join voto->proyecto; exploracion API Senado v02 (backend con ids estables); asistencia nominal por sesion (H1-bis); esquema de la Camara y contrato de datos comun; auditoria adversarial de cobertura del web service de la Camara; diagnostico de brecha entre proposito declarado y entregado |
+| documentacion | 3 | 8,3 | README, CLAUDE.md, doc tecnica, exploracion API; precision del invariante R-only; consolidacion del backlog de las sesiones 7 a 11 |
+| decision metodologica | 3 | 8,3 | mapa partido->tendencia (diferido en v01, poblado en v02); tres decisiones de arquitectura del pipeline del Senado (extendido + normalizacion, asistencia simetrica, clave compuesta con fecha capturada) |
+| integracion/repo | 5 | 13,9 | integracion de las tres ramas a main + reconciliacion de 36; migracion a GitHub (repo publico + Pages); primer refresh real en produccion; versionado de la memoria estructural del proyecto; merge y publicacion de la Capa 2 territorial |
+| automatizacion | 3 | 8,3 | workflow de GitHub Actions para refresh semanal con gate de conteos; timeout declarado a nivel de job; el bot commitea en rama y abre PR (main deja de recibir escrituras automaticas) |
+| decision de alcance | 1 | 2,8 | Congreso completo (Camara + Senado) como objetivo real del proyecto |
+| **Suma de la columna** | **36** | **100** | |
 
 > **Discrepancia heredada, no resuelta aqui.** La tabla vigente hasta v06
 > declaraba un total de 23 y su columna de N sumaba 24. Esa diferencia de una
-> unidad se arrastra: hoy la columna suma 35 mientras las entradas numeradas del
-> detalle cronologico son 34 (1-34). No se resuelve en esta consolidacion porque
-> resolverla exige reclasificar alguna de las entradas 1-23, y el protocolo
-> prohibe reescribir o reclasificar entradas anteriores en silencio (§2.2.5). Los
-> porcentajes se calculan sobre la suma de la columna (35) para que sumen 100.
+> unidad se arrastra: hoy la columna suma 36 mientras las entradas numeradas del
+> detalle cronologico son 35 (1-35). No se resuelve aqui porque resolverla exige
+> reclasificar alguna de las entradas 1-23, y el protocolo prohibe reescribir o
+> reclasificar entradas anteriores en silencio (§2.2.5). Los porcentajes se
+> calculan sobre la suma de la columna (36) para que sumen 100.
 > Pendiente declarado: auditar la clasificacion de las entradas 1-23 contra los
 > traspasos v01-v06 y corregir con una nota explicita.
 
@@ -77,7 +77,8 @@ intencion primaria. Fuente del conteo: traspasos y logs de la sesion.
 | 10 | v10 | 1 | Opus 4.8 | Capa 2 territorio: medicion BCN + crosswalk determinista |
 | 11 | v11 | 2 | Opus 4.8 | merge de la Capa 2 a produccion + Capa 3 de asistencia simetrica |
 | 12 | v12 | 2 | Opus 5 | consolidacion del backlog + timeout del workflow |
-| Total | | 34 | | |
+| 13 | v13 | 1 | Opus 5 | P-22: el bot trabaja en rama y abre PR |
+| Total | | 35 | | |
 
 > Sesion 8: el modelo no consta en `traspaso_cierre_v08.md` ni en los demas
 > insumos de esta consolidacion; se deja declarado como ausente en vez de
@@ -458,6 +459,35 @@ traspaso y se esperó, en vez de fabricar las entradas faltantes. El archivo de 
 commit (`a527a95`), no antes, para que ninguna sesión futura vuelva a encontrar dos
 fuentes reclamando las mismas entradas.
 
+### Sesion 13 (v13) — P-22: el bot trabaja en rama y abre PR
+
+**35. El refresh semanal commitea en rama y abre PR; `main` deja de recibir
+escrituras automaticas del bot.**
+Categoria: automatizacion. Durante tres sesiones el bot semanal y el trabajo
+manual compitieron por `main` (rebase en la s9, fast-forward en la s10, riesgo
+vivo en la s12): el peaje era que `main` podia moverse sin conocimiento del
+titular entre dos turnos de una misma sesion. Se reescribio
+`.github/workflows/refresh-semanal.yml` para que el job cree una rama
+`refresh/<corte>` desde el HEAD de `main`, commitee ahi y abra un PR contra
+`main` con el resumen de conteos como cuerpo; `permissions` suma
+`pull-requests: write` y el push va forzado pero acotado por refspec a
+`refresh/*`, semantica correcta porque la rama es propiedad del bot y se
+reconstruye en cada corrida. Se conservaron sin cambio de semantica el gate de
+conteos (FAIL aborta sin rama ni PR), el commit condicional (sin cambios, sin
+rama ni PR), el `git add` acotado a las cuatro rutas y el `timeout-minutes: 30`
+de la entrada 33. La decision de fondo, tomada por el titular, fue revision
+manual del PR en vez de automerge: el problema que P-22 resuelve es que `main`
+se mueva sin su conocimiento, y el automerge lo reintroduce con mas pasos. El
+costo asumido y declarado en la cabecera del YAML es que GitHub Pages republica
+`docs/` al mergear, no al terminar el job, de modo que la frescura del dato en
+produccion pasa a depender de la cadencia de revision. Validado en dos etapas:
+una corrida manual desde `main` con los cinco criterios en verde (`main`
+identico antes y despues, rama nacida del HEAD de `main`, PR abierto, gate OK,
+PR data-only con 0 archivos bajo `.github/` sobre 320) y, dos dias despues, la
+primera corrida desatendida por `schedule` del lunes 27, que dejo
+`refresh/2026-07-27` (`188e8e0`) y el PR #2 sin intervencion alguna. Resuelve el
+pendiente P-22, abierto desde la sesion 9.
+
 ## Delta del backlog
 
 - **v01:** primer backlog, 5 entradas nuevas (1-5), taxonomia inicial propuesta.
@@ -533,3 +563,14 @@ fuentes reclamando las mismas entradas.
 - **Discrepancia heredada abierta:** la columna de N de la clasificacion tematica
   sumaba 24 con un total declarado de 23 desde antes de esta consolidacion. Se deja
   registrada y no se corrige en silencio; ver la nota bajo la tabla.
+- **v13:** 1 entrada nueva (35). Conteo actualizado (automatizacion 2->3); suma de
+  la columna 35->36 y porcentajes recalculados sobre 36. Sin categorias nuevas. Sin
+  renumeracion ni reescritura de entradas 1-34. La discrepancia heredada sigue
+  abierta con el mismo signo (columna 36, entradas 35). **Lo que NO se conto,
+  declarado para que una sesion futura no lo duplique:** la poda de nueve ramas y el
+  push del cierre de la s12 son operaciones de git, no cambios de producto
+  (precedente de la sesion 9); el merge del PR #1 (corte del 25) es una corrida
+  rutinaria del refresh ya automatizado, no un cambio distinguible (el "primer
+  refresh real en produccion" ya esta contado en `integracion/repo`, sesion 4); y el
+  push de `15be859` publica la ola canonica S-01, que es trabajo de una sesion
+  BIBLIOTECA de cartera, no de este proyecto.
