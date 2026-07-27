@@ -219,6 +219,24 @@ a:hover{color:var(--accent-blue-hover)}
 .asist-pct-sign{font-family:var(--font-serif);font-size:22px;color:var(--accent-green);font-weight:600}
 .asist-track{height:7px;border-radius:5px;background:var(--chip-fill);overflow:hidden;margin-bottom:12px}
 .asist-fill{height:100%;background:var(--accent-green)}
+.asist-segunda{display:flex;align-items:baseline;justify-content:space-between;gap:8px;margin:-4px 0 12px}
+.asist-segunda-lbl{font-size:11px;color:var(--text-muted-3);line-height:1.3}
+.asist-segunda-val{font-size:14px;font-weight:600;color:var(--text-secondary)}
+.asist-segunda-nota{display:block;margin:-8px 0 12px}
+.asist-segunda-nota .asist-segunda-lbl{color:var(--text-muted-4);font-style:italic}
+.ses-legend{display:flex;flex-wrap:wrap;gap:14px;margin-top:9px}
+.ses-legend-item{font-size:11.5px;color:var(--text-muted-2);display:inline-flex;align-items:center;gap:5px}
+.ses-legend-dot{width:9px;height:9px;border-radius:50%;display:inline-block}
+.ses-thead,.ses-row{display:flex;align-items:baseline;gap:10px}
+.ses-thead{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.04em;color:var(--text-muted-3);padding:0 2px 7px;border-bottom:1px solid var(--border-card);margin-top:12px}
+.ses-row{padding:8px 2px;border-bottom:1px solid var(--border-card);font-size:12.5px}
+.ses-c-fecha{width:88px;flex:0 0 88px;color:var(--text-secondary)}
+.ses-c-sesion{width:104px;flex:0 0 104px;color:var(--text-muted-2)}
+.ses-c-estado{width:96px;flex:0 0 96px;font-weight:600}
+.ses-c-just{flex:1 1 auto;min-width:150px;color:var(--text-muted-2)}
+.ses-tbody{max-height:none}
+.ses-rebaja{font-size:10.5px;color:var(--text-muted-4);font-style:italic}
+.ses-fuera{font-size:10.5px;color:var(--text-muted-4)}
 .mini-cards{display:flex;gap:8px}
 .mini-card{flex:1 1 0;background:var(--surface-card);border:1px solid var(--border-card);border-radius:8px;padding:9px 4px;text-align:center}
 .mini-card .val{font-size:18px;font-weight:600}
@@ -360,6 +378,7 @@ var state = {
   sort:{field:'nombre', dir:'asc'},
   partyPanelOpen:false, regionPanelOpen:false, settingsPanelOpen:false,
   votosExpandidos:false, /* por perfil: se resetea en cada navegacion (syncFromHash) */
+  sesionesExpandidas:false, /* idem, para la tabla de sesiones de la Capa 3 */
   vw: window.innerWidth,
   scheme:'rojoAzul', density:'comoda', showBar:false
 };
@@ -466,6 +485,7 @@ function syncFromHash(){
   state.selectedId = parsed.id;
   state.partyPanelOpen = false; state.regionPanelOpen = false; state.settingsPanelOpen = false;
   state.votosExpandidos = false; /* abrir otro perfil vuelve la lista a colapsada */
+  state.sesionesExpandidas = false;
   if(parsed.view==='profile' && parsed.id){
     if(state.profileCache[parsed.id]){
       state.profileLoading = false; state.profileError = false;
@@ -486,7 +506,11 @@ window.addEventListener('resize', function(){ state.vw = window.innerWidth; rend
 /* =========================================================================
    DERIVACION (filtros, orden, hemiciclo) — traducida del prototipo,
    consumiendo el esquema real del JSON (id/partido = sigla, tendencia
-   string|null, tasa_asistencia decimal 0..1, n_proyectos, n_votaciones).
+   string|null, tasa_presencia decimal 0..1, n_proyectos, n_votaciones).
+   tasa_presencia del indice es el del ambito periodo_vigente: verificado
+   contra los 155 perfiles (0 diferencias). tasa_asistencia (legacy) sigue
+   publicado en el JSON pero ya no se consume aqui: es la precondicion de
+   su retiro (P-48).
    ========================================================================= */
 function isNarrow(){ return state.vw < 820; }
 function currentPalette(){ return PALETTES[state.scheme] || PALETTES.rojoAzul; }
@@ -513,8 +537,8 @@ function computeDerived(){
   var f = state.sort.field, mul = state.sort.dir==='asc'?1:-1;
   rows = rows.slice().sort(function(a,b){
     if(f==='nombre') return a.nombre.localeCompare(b.nombre,'es')*mul;
-    var av = f==='asistencia'?a.tasa_asistencia:(f==='proyectos'?a.n_proyectos:a.n_votaciones);
-    var bv = f==='asistencia'?b.tasa_asistencia:(f==='proyectos'?b.n_proyectos:b.n_votaciones);
+    var av = f==='asistencia'?a.tasa_presencia:(f==='proyectos'?a.n_proyectos:a.n_votaciones);
+    var bv = f==='asistencia'?b.tasa_presencia:(f==='proyectos'?b.n_proyectos:b.n_votaciones);
     if(av===bv) return a.nombre.localeCompare(b.nombre,'es');
     return (av-bv)*mul;
   });
@@ -703,7 +727,7 @@ function buildTableHeader(){
     +'<span class="th col-partido" title="Sigla del partido — pasa el cursor sobre cada sigla en la tabla para ver el nombre completo" style="cursor:help">Partido</span>'
     +'<span class="th col-tend">Tendencia</span>'
     +'<span class="th col-region">Región / Distrito</span>'
-    +'<button class="th th-btn col-asist" data-action="sort" data-field="asistencia">Asistencia'+sortArrow('asistencia')+'</button>'
+    +'<button class="th th-btn col-asist" data-action="sort" data-field="asistencia" title="Presencia en las sesiones del periodo legislativo vigente, con el mismo denominador para las 155 y los 155">Presencia'+sortArrow('asistencia')+'</button>'
     +'<button class="th th-btn col-proy" data-action="sort" data-field="proyectos">Proyectos presentados'+sortArrow('proyectos')+'</button>'
     +'<button class="th th-btn col-vot" data-action="sort" data-field="votaciones">Votaciones'+sortArrow('votaciones')+'</button>'
   +'</div>';
@@ -760,7 +784,7 @@ function buildRows(rows){
   return rows.map(function(r){
     var tkey = r.tendencia || 'sinclasificar';
     var color = pal[tkey];
-    var pct = Math.round((r.tasa_asistencia||0)*100);
+    var pct = Math.round((r.tasa_presencia||0)*100);
     var partyNombre = r.partido_nombre || r.partido;
     var sexoLabel = SEXO_LABEL[r.sexo] || SEXO_LABEL_NEUTRO;
     var dotStyle = r.tendencia ? ('background:'+color+';border:1px solid '+color) : ('background:#F4EFE2;border:1px solid '+color);
@@ -838,6 +862,7 @@ function buildIndexView(){
 /* ---- Perfil (ficha) ---- */
 function buildProfileHeaderSkeleton(){
   return '<div class="mini-cards">'
+    +'<div class="mini-card skel"><div class="skeleton" style="width:100%;height:100%"></div></div>'
     +'<div class="mini-card skel"><div class="skeleton" style="width:100%;height:100%"></div></div>'
     +'<div class="mini-card skel"><div class="skeleton" style="width:100%;height:100%"></div></div>'
     +'<div class="mini-card skel"><div class="skeleton" style="width:100%;height:100%"></div></div>'
@@ -969,6 +994,99 @@ function buildProyectosSection(p){
   +'</div>';
 }
 
+/* Serie nominal de sesiones (Capa 3). Espejo de buildVotacionesSection: el
+   JSON del perfil ya viene entero al cliente, asi que expandir no cuesta red.
+   El universo de esta tabla es 'en_ejercicio' (las sesiones del alcance
+   posteriores a la asuncion de cada persona), NO el 'periodo_vigente' de la
+   cabecera. Los dos denominadores conviven a proposito y la nota lo dice:
+   uno es comparable entre personas y el otro no.
+   Las rebajas (rebaja_asistencia / rebaja_quorum) se muestran por fila y no
+   entran en ninguna formula ni conteo mientras P2 siga abierta. */
+function buildSesionesSection(p){
+  var a = p.asistencia || {};
+  var lista = (a.sesiones || []).slice();
+  var alc = a.alcance_temporal || {};
+  var ej = a.en_ejercicio || {};
+  var EST_META = {
+    asiste:{label:'Asiste', color:'var(--accent-green)', dot:'#4B7A52'},
+    no_asiste:{label:'No asiste', color:'var(--accent-red)', dot:'#A6483F'},
+    sin_registro:{label:'Sin registro', color:'var(--accent-gray)', dot:'#8C8578'}
+  };
+  var orden = ['asiste','no_asiste','sin_registro'];
+  var conteo = {asiste:ej.n_asiste||0, no_asiste:ej.n_no_asiste||0, sin_registro:ej.n_sin_registro||0};
+  var total = ej.n_sesiones || lista.length || 0;
+
+  var segs = orden.filter(function(k){ return conteo[k]>0; }).map(function(k){
+    return {key:k, label:EST_META[k].label, dot:EST_META[k].dot,
+            count:conteo[k], pct: total>0 ? Math.round(conteo[k]/total*100) : 0};
+  });
+  var barHtml = segs.map(function(s){ return '<div style="width:'+s.pct+'%;height:100%;background:'+s.dot+'"></div>'; }).join('');
+  var legendHtml = segs.map(function(s){
+    return '<span class="ses-legend-item"><span class="ses-legend-dot" style="background:'+s.dot+'"></span>'+esc(s.label)+' <strong class="tabnum">'+s.count+'</strong></span>';
+  }).join('');
+
+  lista.sort(function(x,y){ return (y.fecha||'').localeCompare(x.fecha||''); });
+  var LIMITE_COLAPSADO = 16;
+  var hayMas = lista.length > LIMITE_COLAPSADO;
+  var expandido = hayMas && state.sesionesExpandidas;
+  var visibles = expandido ? lista : lista.slice(0, LIMITE_COLAPSADO);
+
+  var rowsHtml = visibles.map(function(row){
+    var meta = EST_META[row.asistencia] || {label:row.asistencia, color:'var(--text-muted)'};
+    var j = row.justificacion;
+    var colJust;
+    if(j){
+      // La glosa viene del propio nodo de la fuente; no hay catalogo cerrado
+      // (P1), asi que se muestra tal cual llega y nunca se traduce ni agrupa.
+      colJust = '<span>'+esc(j.glosa||('Codigo '+(j.codigo||'?')))+'</span>'
+        + (j.rebaja_asistencia ? ' <span class="ses-rebaja">rebaja asistencia</span>' : '')
+        + (j.rebaja_quorum ? ' <span class="ses-rebaja">rebaja quorum</span>' : '');
+    } else if(row.asistencia==='sin_registro'){
+      colJust = '<span class="ses-rebaja">La fuente no publica fila para esta sesión</span>';
+    } else {
+      colJust = '<span style="color:var(--text-muted-4)">—</span>';
+    }
+    var numero = row.sesion_numero ? ('N.º '+esc(row.sesion_numero)) : '';
+    var tipo = row.tipo_sesion ? esc(row.tipo_sesion) : '';
+    var fuera = row.en_periodo_vigente===false ? '<span class="ses-fuera" title="Sesión anterior a la instalación del periodo legislativo vigente: cuenta en esta tabla, no en el porcentaje de la cabecera."> · previa</span>' : '';
+    return '<div class="ses-row">'
+      +'<span class="ses-c-fecha">'+esc(fmtFecha(row.fecha))+'</span>'
+      +'<span class="ses-c-sesion">'+numero+(numero&&tipo?' · ':'')+tipo+fuera+'</span>'
+      +'<span class="ses-c-estado" style="color:'+meta.color+'">'+esc(meta.label)+'</span>'
+      +'<span class="ses-c-just">'+colJust+'</span>'
+    +'</div>';
+  }).join('');
+
+  var nota = alc.nota ? '<div class="note-italic">'+esc(alc.nota)+'</div>' : '';
+  // La nota de ambitos solo tiene sentido cuando los denominadores difieren.
+  // Si esta persona estuvo en ejercicio todo el periodo, los dos numeros
+  // coinciden y afirmar que "no son intercambiables" describe una diferencia
+  // inexistente en su ficha.
+  var nPv = (alc.sesiones_periodo_vigente!=null ? alc.sesiones_periodo_vigente
+             : ((a.periodo_vigente && a.periodo_vigente.n_sesiones) || 0));
+  var notaAmbito = (total !== nPv)
+    ? '<div class="note-italic">Esta tabla cuenta '+total+' sesiones (ámbito «en ejercicio»: las del alcance posteriores a la asunción de esta persona). El porcentaje de la cabecera se calcula sobre las '+nPv+' sesiones del periodo vigente, iguales para todas y todos. Los dos números no son intercambiables.</div>'
+    : '<div class="note-italic">Esta persona estuvo en ejercicio durante todo el periodo vigente, así que el alcance de esta tabla ('+total+' sesiones) coincide con el denominador del porcentaje de la cabecera.</div>';
+
+  return ''
+  +'<div class="section-card">'
+    +'<div class="section-head">'
+      +'<span class="section-label">Sesiones de sala</span>'
+      +'<span class="section-total"><strong>'+total+'</strong> en el alcance</span>'
+    +'</div>'
+    +'<div class="stack-bar">'+barHtml+'</div>'
+    +'<div class="ses-legend">'+legendHtml+'</div>'
+    +'<div class="ses-thead"><span class="ses-c-fecha">Fecha</span><span class="ses-c-sesion">Sesión</span><span class="ses-c-estado">Estado</span><span class="ses-c-just">Justificación</span></div>'
+    +'<div class="ses-tbody">'+(rowsHtml||'<div class="ses-row" style="color:var(--text-muted-2);font-style:italic">Sin sesiones registradas.</div>')+'</div>'
+    +(hayMas&&!expandido?('<div class="note-italic">Se muestran las '+LIMITE_COLAPSADO+' sesiones más recientes de '+lista.length+' registradas.</div>'):'')
+    +(hayMas?('<button class="btn-votos" data-action="toggle-sesiones">'
+        +(expandido?'Ver menos':('Ver las '+lista.length+' sesiones'))
+      +'</button>'):'')
+    +notaAmbito
+    +nota
+  +'</div>';
+}
+
 function buildProfileView(){
   var id = state.selectedId;
   var rec = (state.index || []).filter(function(r){ return r.id===id; })[0];
@@ -981,7 +1099,7 @@ function buildProfileView(){
   var pal = currentPalette();
   var tkey = rec.tendencia || 'sinclasificar';
   var color = pal[tkey];
-  var pct = Math.round((rec.tasa_asistencia||0)*100);
+  var pct = Math.round((rec.tasa_presencia||0)*100);
   var partyNombre = rec.partido_nombre || rec.partido;
   var tendChipStyle = rec.tendencia
     ? ('background:'+color+';color:#FBFAF5')
@@ -994,13 +1112,39 @@ function buildProfileView(){
   var errored = !loading && state.profileError;
   var p = loaded ? state.profileCache[id] : null;
 
-  var miniCards;
+  var miniCards, segundaLectura = '';
   if(loaded){
-    var a = p.asistencia;
+    // Segunda lectura, no titular: la tasa que suma las inasistencias
+    // justificadas. Se publica al lado y nunca en lugar de la presencia,
+    // porque su mediana es 1 y no discrimina entre personas.
+    // Se rinde SOLO si hay inasistencias: con n_no_asiste = 0 la frase
+    // afirmaria algo sobre un conjunto vacio y el lector atribuiria la
+    // diferencia con 100% a una falta, cuando la produce sin_registro.
+    var pvj = p.asistencia.periodo_vigente;
+    if((pvj.n_no_asiste||0) > 0){
+      segundaLectura = '<div class="asist-segunda">'
+        +'<span class="asist-segunda-lbl">Contando las inasistencias justificadas</span>'
+        +'<span class="asist-segunda-val tabnum">'+Math.round((pvj.tasa_presencia_o_justificada||0)*100)+'%</span>'
+      +'</div>';
+    }
+    // La glosa de sin_registro es independiente de la anterior: existe
+    // cuando la fuente no publica fila, con o sin inasistencias.
+    if((pvj.n_sin_registro||0) > 0){
+      segundaLectura += '<div class="asist-segunda asist-segunda-nota">'
+        +'<span class="asist-segunda-lbl">'+pvj.n_sin_registro+(pvj.n_sin_registro===1?' sesión sin registro en la fuente: no se cuenta como inasistencia ni se imputa.':' sesiones sin registro en la fuente: no se cuentan como inasistencia ni se imputan.')+'</span>'
+      +'</div>';
+    }
+  }
+  if(loaded){
+    // Las tarjetas leen SIEMPRE el ambito periodo_vigente: es el unico con
+    // denominador comun a los 155 y por lo tanto el unico comparable. El
+    // ambito en_ejercicio vive en la tabla de sesiones, con su nota.
+    var pv = p.asistencia.periodo_vigente;
     miniCards = '<div class="mini-cards">'
-      +'<div class="mini-card"><div class="val tabnum" style="color:var(--text-primary)">'+a.n_sesiones+'</div><div class="lbl">Sesiones</div></div>'
-      +'<div class="mini-card"><div class="val tabnum" style="color:var(--accent-green)">'+a.n_asiste+'</div><div class="lbl">Asiste</div></div>'
-      +'<div class="mini-card"><div class="val tabnum" style="color:var(--accent-red)">'+a.n_no_asiste+'</div><div class="lbl">No asiste</div></div>'
+      +'<div class="mini-card"><div class="val tabnum" style="color:var(--text-primary)">'+pv.n_sesiones+'</div><div class="lbl">Sesiones</div></div>'
+      +'<div class="mini-card"><div class="val tabnum" style="color:var(--accent-green)">'+pv.n_asiste+'</div><div class="lbl">Asiste</div></div>'
+      +'<div class="mini-card"><div class="val tabnum" style="color:var(--accent-red)">'+pv.n_no_asiste+'</div><div class="lbl">No asiste</div></div>'
+      +'<div class="mini-card" title="Sesiones del periodo en las que la fuente no publica fila para esta persona. No se imputa asistencia ni inasistencia."><div class="val tabnum" style="color:var(--accent-gray)">'+pv.n_sin_registro+'</div><div class="lbl">Sin registro</div></div>'
     +'</div>';
   } else if(errored){
     miniCards = '<div style="font-size:12px;color:var(--accent-red)">No se pudo cargar el detalle de asistencia.</div>';
@@ -1020,7 +1164,7 @@ function buildProfileView(){
       +'<div class="skel-empty-msg">Revisa la conexión y vuelve a intentar. Se intentó leer <code>data/perfiles/'+esc(id)+'.json</code>.</div>'
     +'</div>';
   } else if(loaded){
-    lowerSection = '<div class="fade-up" style="margin-top:0">'+buildVotacionesSection(p)+buildProyectosSection(p)+'</div>';
+    lowerSection = '<div class="fade-up" style="margin-top:0">'+buildSesionesSection(p)+buildVotacionesSection(p)+buildProyectosSection(p)+'</div>';
   } else {
     lowerSection = '';
   }
@@ -1042,10 +1186,11 @@ function buildProfileView(){
       +'</div>'
       +'<div class="profile-right">'
         +'<div class="asist-head">'
-          +'<span class="asist-label">Asistencia</span>'
+          +'<span class="asist-label" title="Sesiones con presencia registrada sobre las sesiones del periodo legislativo vigente. Mismo denominador para las 155 y los 155.">Presencia · periodo vigente</span>'
           +'<span class="asist-pct-wrap"><span class="asist-pct">'+pct+'</span><span class="asist-pct-sign">%</span></span>'
         +'</div>'
         +'<div class="asist-track"><div class="asist-fill" style="width:'+pct+'%"></div></div>'
+        +segundaLectura
         +miniCards
       +'</div>'
     +'</div>'
@@ -1123,6 +1268,7 @@ app.addEventListener('click', function(e){
     case 'set-density': state.density = el.dataset.density; break;
     case 'toggle-bar': state.showBar = !state.showBar; break;
     case 'toggle-votos': state.votosExpandidos = !state.votosExpandidos; break;
+    case 'toggle-sesiones': state.sesionesExpandidas = !state.sesionesExpandidas; break;
     default: return;
   }
   render();
