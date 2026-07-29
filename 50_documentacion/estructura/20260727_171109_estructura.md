@@ -1,8 +1,8 @@
 # Estructura del proyecto
 
 - **Raíz:** `/Users/tomgc/Projects/transparencia_legislativa_chile`
-- **Fecha:** 2026-07-27 09:43:51
-- **Total:** 23 carpetas, 469 archivos
+- **Fecha:** 2026-07-27 17:11:09
+- **Total:** 23 carpetas, 477 archivos
 
 ## Árbol
 
@@ -42,6 +42,13 @@
 │   │   ├── 20260725_periodo_legislativo.rds    [136.00B]
 │   │   ├── 20260725_proyectos_long_2026_tope-inf.rds    [24.46K]
 │   │   ├── 20260725_votos_long_2026_tope-inf.rds    [97.25K]
+│   │   ├── 20260727_asistencia_long_2026_tope-inf.rds    [3.93K]
+│   │   ├── 20260727_asistencia_nominal_2026_tope-inf.rds    [14.02K]
+│   │   ├── 20260727_detalle_proyectos_2026_tope-inf.rds    [20.19K]
+│   │   ├── 20260727_diputados.rds    [8.02K]
+│   │   ├── 20260727_periodo_legislativo.rds    [136.00B]
+│   │   ├── 20260727_proyectos_long_2026_tope-inf.rds    [24.46K]
+│   │   ├── 20260727_votos_long_2026_tope-inf.rds    [97.25K]
 │   ├── territorio/
 │   │   ├── 20260724_crosswalk_distrito_diputado.csv    [8.81K]
 │   │   ├── catalogo_distrito_region.csv    [1.67K]
@@ -226,12 +233,12 @@
 │   │   │   ├── 20260710_decision_modulo_biblioteca_historica.md    [5.89K]
 │   │   │   ├── 20260711_decision_ruta_desarrollo.md    [13.10K]
 │   │   │   ├── encargo_pipeline_senado_ESQUELETO_BLOQUEADO.md    [5.13K]
-│   │   ├── backlog_acumulativo.md    [37.08K]
+│   │   ├── backlog_acumulativo.md    [39.94K]
 │   │   ├── documentacion_tecnica_v1.md    [4.44K]
 │   │   ├── encargo_contrato_datos_camara_senado.md    [14.93K]
 │   │   ├── encargo_exploracion_asistencia_senado_h1bis.md    [14.97K]
 │   │   ├── encargo_exploracion_senado_v02.md    [15.56K]
-│   │   ├── ESTADO.md    [1.28K]
+│   │   ├── ESTADO.md    [798.00B]
 │   │   ├── exploracion_api_camara.md    [7.29K]
 │   │   ├── POLITICA_PROYECTO.md    [35.86K]
 │   │   ├── procedimiento_actualizacion.md    [5.43K]
@@ -303,13 +310,13 @@
 │   │   ├── explorar_contenido_proyectos.R    [13.60K]
 │   │   ├── medir_fuente_territorio.R    [17.76K]
 │   ├── estructura/
-│   │   ├── 20260725_075818_estructura.md    [26.05K]
-│   │   ├── 20260725_075818_estructura.txt    [26.21K]
-│   │   ├── 20260725_125633_estructura.md    [25.99K]
-│   │   ├── 20260725_125633_estructura.txt    [26.15K]
+│   │   ├── 20260727_094351_estructura.md    [26.54K]
 │   │   ├── 20260727_094351_estructura.txt    [26.70K]
-│   │   ├── estructura_actual.md    [25.99K]
-│   │   ├── estructura_actual.txt    [26.70K]
+│   │   ├── 20260727_105331_estructura.md    [26.60K]
+│   │   ├── 20260727_105331_estructura.txt    [26.76K]
+│   │   ├── 20260727_171109_estructura.txt    [27.25K]
+│   │   ├── estructura_actual.md    [26.60K]
+│   │   ├── estructura_actual.txt    [27.25K]
 │   ├── traspasos/
 │   │   ├── traspaso_cierre_v01.md    [13.54K]
 │   │   ├── traspaso_cierre_v02.md    [10.69K]
@@ -323,6 +330,7 @@
 │   │   ├── traspaso_cierre_v10.md    [26.29K]
 │   │   ├── traspaso_cierre_v11.md    [34.21K]
 │   │   ├── traspaso_cierre_v12.md    [37.63K]
+│   │   ├── traspaso_cierre_v13.md    [43.33K]
 ├── docs/
 │   ├── assets/
 │   │   ├── fonts/
@@ -494,7 +502,7 @@
 │   │   │   ├── 915.json    [220.50K]
 │   │   │   ├── 986.json    [226.39K]
 │   │   ├── indice_diputados.json    [56.03K]
-│   ├── index.html    [60.86K]
+│   ├── index.html    [70.59K]
 ├── 00_escanear_proyecto.R    [8.14K]
 ├── 00_run_all.R    [4.94K]
 ├── CLAUDE.md    [18.50K]
@@ -506,8 +514,8 @@
 | Extensión | Cantidad |
 |-----------|----------|
 | `.json` | 317 |
-| `.md` | 49 |
-| `.rds` | 41 |
+| `.md` | 50 |
+| `.rds` | 48 |
 | `.R` | 14 |
 | `.html` | 13 |
 | `.xml` | 12 |
