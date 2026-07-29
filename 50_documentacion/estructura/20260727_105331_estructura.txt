@@ -1,8 +1,8 @@
 ============================================================
  ESTRUCTURA DEL PROYECTO
  Raíz: /Users/tomgc/Projects/transparencia_legislativa_chile
- Fecha: 2026-07-27 09:43:51
- Total: 23 carpetas, 468 archivos
+ Fecha: 2026-07-27 10:53:31
+ Total: 23 carpetas, 469 archivos
 ============================================================
 
 ├── 10_utils/
@@ -224,12 +224,12 @@
 │   │   │   ├── 20260710_decision_modulo_biblioteca_historica.md    [5.89K]
 │   │   │   ├── 20260711_decision_ruta_desarrollo.md    [13.10K]
 │   │   │   ├── encargo_pipeline_senado_ESQUELETO_BLOQUEADO.md    [5.13K]
-│   │   ├── backlog_acumulativo.md    [37.08K]
+│   │   ├── backlog_acumulativo.md    [39.94K]
 │   │   ├── documentacion_tecnica_v1.md    [4.44K]
 │   │   ├── encargo_contrato_datos_camara_senado.md    [14.93K]
 │   │   ├── encargo_exploracion_asistencia_senado_h1bis.md    [14.97K]
 │   │   ├── encargo_exploracion_senado_v02.md    [15.56K]
-│   │   ├── ESTADO.md    [1.28K]
+│   │   ├── ESTADO.md    [798.00B]
 │   │   ├── exploracion_api_camara.md    [7.29K]
 │   │   ├── POLITICA_PROYECTO.md    [35.86K]
 │   │   ├── procedimiento_actualizacion.md    [5.43K]
@@ -301,12 +301,12 @@
 │   │   ├── explorar_contenido_proyectos.R    [13.60K]
 │   │   ├── medir_fuente_territorio.R    [17.76K]
 │   ├── estructura/
-│   │   ├── 20260725_075818_estructura.md    [26.05K]
-│   │   ├── 20260725_075818_estructura.txt    [26.21K]
 │   │   ├── 20260725_125633_estructura.md    [25.99K]
 │   │   ├── 20260725_125633_estructura.txt    [26.15K]
-│   │   ├── estructura_actual.md    [25.99K]
-│   │   ├── estructura_actual.txt    [26.15K]
+│   │   ├── 20260727_094351_estructura.md    [26.54K]
+│   │   ├── 20260727_094351_estructura.txt    [26.70K]
+│   │   ├── estructura_actual.md    [26.54K]
+│   │   ├── estructura_actual.txt    [26.70K]
 │   ├── traspasos/
 │   │   ├── traspaso_cierre_v01.md    [13.54K]
 │   │   ├── traspaso_cierre_v02.md    [10.69K]
@@ -320,6 +320,7 @@
 │   │   ├── traspaso_cierre_v10.md    [26.29K]
 │   │   ├── traspaso_cierre_v11.md    [34.21K]
 │   │   ├── traspaso_cierre_v12.md    [37.63K]
+│   │   ├── traspaso_cierre_v13.md    [43.33K]
 ├── docs/
 │   ├── assets/
 │   │   ├── fonts/
@@ -502,7 +503,7 @@
 ============================================================
 
   .json            317
-  .md               49
+  .md               50
   .rds              41
   .R                14
   .html             13

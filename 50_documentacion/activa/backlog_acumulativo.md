@@ -39,25 +39,26 @@ intencion primaria. Fuente del conteo: traspasos y logs de la sesion.
 
 | Categoria | N | % | Descripcion / ejemplo |
 |-----------|---|---|-----------------------|
-| infraestructura | 4 | 11,1 | scaffold, estructura canonica, utils, config; fix de la clave de cache (tope); corte temporal explicito (CORTE_FECHA); sello de procedencia de los intermedios |
-| extraccion de datos | 5 | 13,9 | pipeline de extraccion de la Camara (31-35); corrida del anno completo; detalle de proyectos (36); Capa 2 territorial (crosswalk + join en el 32); Capa 3 de asistencia simetrica (serie nominal, justificacion, dos ambitos) |
-| consolidacion/salida | 2 | 5,6 | fusion a JSON (39) + orquestador; enriquecimiento de perfiles (contenido + trazabilidad) |
-| interfaz/dashboard | 4 | 11,1 | dashboard estatico Fase 2; enriquecimiento visual (metricas, materias, voto->proyecto); toggle del historial de votos; celda de region que lee el dato |
-| diagnostico/exploracion | 6 | 16,7 | diagnostico insumos-first del contenido legible y del join voto->proyecto; exploracion API Senado v02 (backend con ids estables); asistencia nominal por sesion (H1-bis); esquema de la Camara y contrato de datos comun; auditoria adversarial de cobertura del web service de la Camara; diagnostico de brecha entre proposito declarado y entregado |
-| documentacion | 3 | 8,3 | README, CLAUDE.md, doc tecnica, exploracion API; precision del invariante R-only; consolidacion del backlog de las sesiones 7 a 11 |
-| decision metodologica | 3 | 8,3 | mapa partido->tendencia (diferido en v01, poblado en v02); tres decisiones de arquitectura del pipeline del Senado (extendido + normalizacion, asistencia simetrica, clave compuesta con fecha capturada) |
-| integracion/repo | 5 | 13,9 | integracion de las tres ramas a main + reconciliacion de 36; migracion a GitHub (repo publico + Pages); primer refresh real en produccion; versionado de la memoria estructural del proyecto; merge y publicacion de la Capa 2 territorial |
-| automatizacion | 3 | 8,3 | workflow de GitHub Actions para refresh semanal con gate de conteos; timeout declarado a nivel de job; el bot commitea en rama y abre PR (main deja de recibir escrituras automaticas) |
-| decision de alcance | 1 | 2,8 | Congreso completo (Camara + Senado) como objetivo real del proyecto |
-| **Suma de la columna** | **36** | **100** | |
+| infraestructura | 4 | 10,8 | scaffold, estructura canonica, utils, config; fix de la clave de cache (tope); corte temporal explicito (CORTE_FECHA); sello de procedencia de los intermedios |
+| extraccion de datos | 5 | 13,5 | pipeline de extraccion de la Camara (31-35); corrida del anno completo; detalle de proyectos (36); Capa 2 territorial (crosswalk + join en el 32); Capa 3 de asistencia simetrica (serie nominal, justificacion, dos ambitos) |
+| consolidacion/salida | 2 | 5,4 | fusion a JSON (39) + orquestador; enriquecimiento de perfiles (contenido + trazabilidad) |
+| interfaz/dashboard | 5 | 13,5 | dashboard estatico Fase 2; enriquecimiento visual (metricas, materias, voto->proyecto); toggle del historial de votos; celda de region que lee el dato; frontend de la Capa 3 de asistencia en la ficha (dos ambitos, sin_registro, tabla de sesiones) |
+| diagnostico/exploracion | 6 | 16,2 | diagnostico insumos-first del contenido legible y del join voto->proyecto; exploracion API Senado v02 (backend con ids estables); asistencia nominal por sesion (H1-bis); esquema de la Camara y contrato de datos comun; auditoria adversarial de cobertura del web service de la Camara; diagnostico de brecha entre proposito declarado y entregado |
+| documentacion | 3 | 8,1 | README, CLAUDE.md, doc tecnica, exploracion API; precision del invariante R-only; consolidacion del backlog de las sesiones 7 a 11 |
+| decision metodologica | 3 | 8,1 | mapa partido->tendencia (diferido en v01, poblado en v02); tres decisiones de arquitectura del pipeline del Senado (extendido + normalizacion, asistencia simetrica, clave compuesta con fecha capturada) |
+| integracion/repo | 5 | 13,5 | integracion de las tres ramas a main + reconciliacion de 36; migracion a GitHub (repo publico + Pages); primer refresh real en produccion; versionado de la memoria estructural del proyecto; merge y publicacion de la Capa 2 territorial |
+| automatizacion | 3 | 8,1 | workflow de GitHub Actions para refresh semanal con gate de conteos; timeout declarado a nivel de job; el bot commitea en rama y abre PR (main deja de recibir escrituras automaticas) |
+| decision de alcance | 1 | 2,7 | Congreso completo (Camara + Senado) como objetivo real del proyecto |
+| **Suma de la columna** | **37** | **99,9** | |
 
 > **Discrepancia heredada, no resuelta aqui.** La tabla vigente hasta v06
 > declaraba un total de 23 y su columna de N sumaba 24. Esa diferencia de una
-> unidad se arrastra: hoy la columna suma 36 mientras las entradas numeradas del
-> detalle cronologico son 35 (1-35). No se resuelve aqui porque resolverla exige
+> unidad se arrastra: hoy la columna suma 37 mientras las entradas numeradas del
+> detalle cronologico son 36 (1-36). No se resuelve aqui porque resolverla exige
 > reclasificar alguna de las entradas 1-23, y el protocolo prohibe reescribir o
 > reclasificar entradas anteriores en silencio (§2.2.5). Los porcentajes se
-> calculan sobre la suma de la columna (36) para que sumen 100.
+> calculan sobre la suma de la columna (37); suman 99,9 por redondeo a un decimal,
+> no por una entrada faltante (recuento programatico de esta sesion).
 > Pendiente declarado: auditar la clasificacion de las entradas 1-23 contra los
 > traspasos v01-v06 y corregir con una nota explicita.
 
@@ -78,7 +79,8 @@ intencion primaria. Fuente del conteo: traspasos y logs de la sesion.
 | 11 | v11 | 2 | Opus 4.8 | merge de la Capa 2 a produccion + Capa 3 de asistencia simetrica |
 | 12 | v12 | 2 | Opus 5 | consolidacion del backlog + timeout del workflow |
 | 13 | v13 | 1 | Opus 5 | P-22: el bot trabaja en rama y abre PR |
-| Total | | 35 | | |
+| 14 | v14 | 1 | Opus 5 | frontend de la Capa 3 de asistencia |
+| Total | | 36 | | |
 
 > Sesion 8: el modelo no consta en `traspaso_cierre_v08.md` ni en los demas
 > insumos de esta consolidacion; se deja declarado como ausente en vez de
@@ -488,6 +490,37 @@ primera corrida desatendida por `schedule` del lunes 27, que dejo
 `refresh/2026-07-27` (`188e8e0`) y el PR #2 sin intervencion alguna. Resuelve el
 pendiente P-22, abierto desde la sesion 9.
 
+### Sesion 14 (v14) — frontend de la Capa 3 de asistencia
+
+**36. La ficha publica los dos ambitos de asistencia de la Capa 3, con presencia
+del periodo vigente como titular y la serie nominal de sesiones.**
+Categoria: interfaz/dashboard. Desde la sesion 11 el JSON traia la serie nominal,
+los dos ambitos y la justificacion de cada inasistencia, y el portal seguia
+mostrando solo los cinco campos legacy: el dato estaba publicado y no se veia.
+La decision de fondo era P7, heredada sin resolver de la medicion de la Capa 3
+(cual de las tasas es "la" tasa del portal), y la tomo el titular: el titular
+pasa a `periodo_vigente.tasa_presencia`, cuyo denominador (51 sesiones desde la
+instalacion del periodo 2026-2030) es el mismo para las 155 y los 155 y por lo
+tanto el unico comparable entre personas; `tasa_presencia_o_justificada` se
+publica como segunda lectura adyacente y nunca en lugar del titular, porque su
+mediana es 1 y no discrimina; `en_ejercicio` queda como universo declarado de la
+tabla de sesiones y no compite por la cabecera. Se reescribio `docs/index.html`
+(unico archivo tocado): la columna ordenable del indice pasa de `tasa_asistencia`
+a `tasa_presencia` (verificado antes de tocar codigo que el campo del indice es
+el de `periodo_vigente`, identico en 155/155 perfiles), la cabecera de la ficha
+suma una cuarta tarjeta `sin_registro` con glosa explicita de que esas sesiones
+no se imputan como inasistencia, y se agrego una seccion nueva de sesiones de
+sala, espejo de la de votaciones, con barra apilada de los tres estados, tabla
+colapsada a 16 con expansion, glosa de justificacion tal como la entrega la
+fuente (sin catalogo cerrado, P1) y marcadores de rebaja por fila que no entran
+en ningun conteo mientras P2 siga abierta. Dos correcciones salieron de la
+revision visual del titular sobre fichas reales: la segunda lectura se rinde
+solo si hay inasistencias (con `n_no_asiste = 0` la frase atribuia a una falta
+lo que producia el `sin_registro`) y la nota de ambitos bifurca segun si los dos
+denominadores difieren de verdad. Los cinco campos legacy y `tasa_asistencia`
+siguen publicados en el JSON y dejan de consumirse en el frontend, que es
+exactamente la precondicion de P-48. Commit `f55430d`, pusheado a `origin/main`.
+
 ## Delta del backlog
 
 - **v01:** primer backlog, 5 entradas nuevas (1-5), taxonomia inicial propuesta.
@@ -574,3 +607,13 @@ pendiente P-22, abierto desde la sesion 9.
   refresh real en produccion" ya esta contado en `integracion/repo`, sesion 4); y el
   push de `15be859` publica la ola canonica S-01, que es trabajo de una sesion
   BIBLIOTECA de cartera, no de este proyecto.
+- **v14:** 1 entrada nueva (36). Conteo actualizado (interfaz/dashboard 4->5); suma
+  de la columna 36->37 y porcentajes recalculados sobre 37 (suman 99,9 por redondeo).
+  Sin categorias nuevas. Sin renumeracion ni reescritura de entradas 1-35. La
+  discrepancia heredada sigue abierta con el mismo signo y la misma unidad (columna
+  37, entradas 36). **Lo que NO se conto, declarado para que una sesion futura no lo
+  duplique:** el merge del PR #2 (corte del 27) es una corrida rutinaria del refresh
+  ya automatizado, mismo criterio con que v13 excluyo el PR #1; las dos correcciones
+  de la revision visual son iteraciones dentro de la entrada 36, no cambios
+  distinguibles del titular; y el `git pull` y el push del cierre son operaciones de
+  git (precedente de la sesion 9).
