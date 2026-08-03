@@ -1,27 +1,38 @@
 ---
-slug: transparencia_legislativa_chile
-nombre_real: Portal de Transparencia Legislativa (Camara de Diputadas y Diputados)
-categoria: activo
-semaforo: activo
-sesion_actual: v14
-ultima_actividad: 2026-07-27
-maneja_sensibles: false
-tipo_pendiente: deuda_tecnica
+proyecto: transparencia_legislativa_chile
+semaforo: amarillo
+sesion: 15
+ultima_actividad: 2026-08-03
+sensibilidad_datos: publica
+tipo_pendiente: bloqueante
+traspaso_vigente: 50_documentacion/traspasos/traspaso_cierre_v15.md
 ---
-## En que vamos
-Las tres capas estan en produccion y la Capa 3 de asistencia ya es visible en la
-ficha: el portal dejo de mostrar solo los cinco campos legacy y publica ahora la
-presencia del periodo vigente como titular, la tasa que suma las inasistencias
-justificadas como segunda lectura, el tercer estado `sin_registro` sin imputar y
-la serie nominal de sesiones con su glosa de justificacion. La decision
-metodologica P7, abierta desde la sesion 11, quedo resuelta. El refresh semanal
-corre solo, commitea en rama y abre PR; el del 2026-07-27 ya se mergeo y no hay
-PRs abiertos ni bugs activos.
 
-## Proximo paso
-P-48: retirar el contrato legacy de asistencia (cinco campos del bloque
-`asistencia` y `tasa_asistencia` del indice) del `39` y la doble descarga del
-`33`, en sesion dedicada, encadenando P-52 y P-56.
+## En qué vamos
+
+Portal serverless de transparencia legislativa de la Cámara de Diputados de Chile,
+con las tres capas de datos en producción (votaciones, territorio y asistencia
+nominal simétrica). La sesión 15 retiró el contrato legacy de asistencia: cinco
+campos del bloque `asistencia` del perfil y `tasa_asistencia` del índice dejaron
+de publicarse, y el extractor perdió su segunda descarga completa de la
+asistencia por corrida. El cambio está verificado (1 058 008 claves comparadas,
+cero diferencias en los campos sobrevivientes, panel adversarial de cuatro
+agentes en verde) pero **no publicado**: vive en el PR #4, abierto y sin mergear,
+porque cambia un contrato de datos público.
+
+## Próximo paso
+
+Resolver los dos PRs abiertos (P-58). El PR #4 y el PR #3 del bot tocan los
+mismos 310 archivos de datos y conflictan en ambos órdenes, pero el conflicto es
+de un solo hunk por archivo (`metadatos.generado`). Se resuelve por hunk.
+Encadenado: lanzar la auditoría de fuentes Cámara/Senado (P-61), cuyo encargo ya
+está escrito y solo hay que ejecutar.
 
 ## Bloqueantes
-Ninguno.
+
+- **P-58** es el bloqueante activo: nada de lo hecho en la sesión 15 llega a
+  producción hasta que se resuelva. Resolver el conflicto **a nivel de archivo**
+  resucita el contrato legacy en 310 de 310 perfiles y deja el índice incoherente.
+- Dos gatillos de protocolo encendidos y sin atender: 4bis (ordenación del
+  repositorio, P-60) y 4ter (invariante de locale UTF-8, P-59).
+- El pipeline del Senado sigue bloqueado a la espera de P-61.
