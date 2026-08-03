@@ -19,10 +19,12 @@ Estado final: cuatro commits en la rama, PR abierto sin mergear, `main` intacto.
 El panel adversarial de cuatro agentes independientes no encontró ninguna
 diferencia.
 
-Dos observaciones de método que costaron trabajo y quedan registradas abajo: el
-criterio de éxito de la Fase 1 no era alcanzable como estaba escrito (§6), y el
-corte quirúrgico del bloque legacy en el `33` se llevó una línea de más que hubo
-que restaurar (§6).
+Cuatro observaciones de método quedan registradas en la §6: el criterio de éxito
+de la Fase 1 no era alcanzable como estaba escrito (§6.1), el corte quirúrgico
+del bloque legacy en el `33` se llevó una línea de más que hubo que restaurar
+(§6.2), un `grep` sin `-F` volvió a dar un falso vacío (§6.3), y la §9 de este
+mismo log citaba "log del `33`" para dos cifras que miden objetos distintos
+(§6.4, detectado en revisión posterior y corregido).
 
 ---
 
@@ -136,7 +138,7 @@ indicador de asistencia del índice y que `tasa_asistencia` ya no se publica.
 | 1 | `docs/index.html` no consume campos legacy; L511 es prosa | **CONFIRMADA** | 9 líneas con ocurrencias antes del cambio: L511 (prosa), L1120 (comentario) y 7 lecturas, todas sobre `ej.*`, `pv.*`, `pvj.*`, `a.periodo_vigente.*` |
 | 2 | Los únicos archivos de código que nombran el contrato son el `33` y el `39` | **CONFIRMADA con matiz** | La búsqueda devuelve 4 archivos: `33`, `39`, `docs/index.html` (prosa + lecturas de Capa 3, ya contemplado por la premisa 1) y `50_documentacion/andamios/50_medicion_p48_p52_p56.R`, que es el script de medición de esta misma sesión — andamio, no pipeline. Ninguno más |
 | 3 | `10_diff_conteos.R` no depende de los campos retirados | **CONFIRMADA** | Leído entero: `contar_conteos_json()` solo lee `votaciones.n_votaciones`, `proyectos.n_proyectos` y `votos[].proyecto` (líneas 31-51). `METRICAS_GATE` no incluye ninguna métrica de asistencia. El workflow tampoco: solo orquesta |
-| 4 | El `+0` entre los cortes del 25 y del 27 es real (P-56) | **CONFIRMADA** | 7 de 7 cachés pareados por sufijo con md5 idéntico entre `20260725_*` y `20260727_*`; el nominal da 10 690 filas, 69 sesiones y `fecha_ultima = 2026-07-22` en ambos cortes |
+| 4 | El `+0` entre los cortes del 25 y del 27 es real (P-56) | **CONFIRMADA** | 7 de 7 cachés pareados por sufijo con md5 idéntico entre `20260725_*` y `20260727_*`; el **caché** nominal (`AAAAMMDD_asistencia_nominal_2026_tope-inf.rds`, 239 ids) da 10 690 filas, 69 sesiones y `fecha_ultima = 2026-07-22` en ambos cortes. Esa cifra es del caché, no de la serie persistida: ver §9 y §6.4 |
 
 ---
 
@@ -151,7 +153,7 @@ comprobar.
 
 ---
 
-## 6. Lo que costó: dos tropiezos y un falso positivo
+## 6. Lo que costó: tres tropiezos, un falso positivo y una corrección posterior
 
 ### 6.1 El criterio de éxito de la Fase 1 no era alcanzable como estaba escrito
 
@@ -191,8 +193,39 @@ existiera. Con `-F` aparece en la línea 108. El encargo ya lo advertía; se ano
 porque es la tercera vez en la cartera que un check de verificación falla por su
 propio patrón y no por el objeto verificado.
 
-**No hubo bugs de producto.** Ninguno de los tres tropiezos llegó a un commit ni
-alteró un dato.
+### 6.4 La §9 citaba "log del `33`" para dos cifras que miden objetos distintos
+
+**Detectado en revisión posterior, sobre este mismo log.** La §9 declaraba
+"Filas de la serie nominal: 9 183 · log del `33`", mientras la §3.2 y la §4
+declaraban 10 690 citando la misma fuente. Leído así, el log se contradecía.
+
+Recontado sobre los artefactos reales, **ninguna de las dos cifras es falsa**:
+el `33` emite las dos en su log, sobre objetos distintos, y ninguna de las tres
+menciones decía cuál.
+
+- 10 690 son las filas del **caché crudo**
+  (`20260727_asistencia_nominal_2026_tope-inf.rds`): 69 sesiones × **239 ids**,
+  incluidos los 84 del período anterior. Es la cifra que corresponde en la §3.2
+  (evidencia del barrido único) y en la §4 (premisa 4, comparación de cachés
+  entre cortes), porque ambas hablan del caché.
+- 9 183 son las filas de la **serie persistida**
+  (`40_salidas/intermedios/asistencia_nominal.rds`): acotada al roster vigente,
+  **155 ids**, con los huecos marcados `sin_registro`. Es la que corresponde en
+  la §9, que describe el dato publicado.
+
+El defecto real era de **atribución, no de aritmética**: "log del `33`" no
+identifica cuál de las dos líneas del log se leyó. La §9 se reescribió para que
+cada fila diga qué mide y de qué archivo sale, y se añadieron las dos cifras de
+claves comparadas sin exclusiones (1 058 938 y 1 860), que el panel adversarial
+reportó y que la §9 no recogía, de modo que ahora se ve por qué difieren de las
+comparadas.
+
+*Lección:* citar "el log de la etapa X" como fuente no cumple el marcador de
+procedencia si esa etapa emite varias cifras del mismo tipo. La fuente es el
+artefacto, no el log.
+
+**No hubo bugs de producto.** Ninguno de los cuatro tropiezos llegó a alterar un
+dato publicado; el de la §6.4 afectó solo a la trazabilidad de este log.
 
 ---
 
@@ -233,17 +266,32 @@ ajenos a esta afirmación. Corregido el nivel, PASA.
 
 ## 9. Cifras críticas
 
-| Métrica | Valor | Fuente |
+Todas recontadas programáticamente en R sobre el artefacto que se nombra en la
+tercera columna. **"Log del `33`" no es una fuente suficiente**: ese log emite
+dos cifras de filas distintas, sobre objetos distintos, y citarlo sin decir cuál
+fue el defecto que la §6.4 corrige.
+
+| Qué mide exactamente | Valor | Artefacto del que sale |
 |---|---|---|
-| Perfiles publicados | 155 | corrida del `39`, esta sesión |
-| Claves comparadas, perfiles (Fase 2 y Fase 3) | 1 058 008 | comparador de verificación, esta sesión |
-| Claves comparadas, índice | 1 705 | ídem |
-| Diferencias en campos sobrevivientes | **0** | ídem, y agente adversarial 1 |
-| Sesiones del alcance / del periodo vigente | 69 / 51 | log del `33`, esta sesión |
-| Denominador común de `periodo_vigente` | 51, valor único en los 155 | agente adversarial 3 |
-| Filas de la serie nominal | 9 183 | log del `33` |
-| Entradas `sin_registro` | 5, en 2 de 155 perfiles | agente adversarial 3 |
-| Perfiles con `n_no_asiste` = 0 / > 0 (periodo vigente) | 68 / 87 | conteo en R sobre `docs/data`, esta sesión |
+| Perfiles publicados | 155 | `40_salidas/json/perfiles/*.json`; los mismos 155 en `docs/data/perfiles/` |
+| Claves de perfil **efectivamente comparadas** (unión base ∪ final, excluidas `metadatos.generado` y las 5 retiradas) | 1 058 008 | comparador de las Fases 2 y 3 sobre los 155 perfiles |
+| Claves de perfil en la **unión sin excluir nada** | 1 058 938 | mismo recorrido, sin exclusiones. La diferencia con la fila anterior es 930 = 6 × 155: las 5 retiradas más el timestamp. Es la cifra que reportó el agente adversarial 1 |
+| Claves de índice **efectivamente comparadas** (excluida `tasa_asistencia`) | 1 705 | comparador de las Fases 2 y 3 sobre `indice_diputados.json` |
+| Claves de índice en la **unión sin excluir nada** | 1 860 | mismo recorrido, sin exclusiones. Diferencia: 155, una `tasa_asistencia` por entrada |
+| Diferencias en campos sobrevivientes | **0** | comparadores de las Fases 2 y 3, y agente adversarial 1 con comparador propio |
+| Sesiones del alcance / del periodo vigente | 69 / 51 | `asistencia.alcance_temporal.{sesiones_alcance, sesiones_periodo_vigente}` de los perfiles publicados |
+| Denominador común de `periodo_vigente` | 51, valor único en los 155 | `asistencia.periodo_vigente.n_sesiones` de los 155 perfiles |
+| **Filas del caché crudo de asistencia** — una por (id × sesión) para **todo** id que la fuente registre, incluidos los 84 del período anterior | **10 690** | `20_insumos/camara/20260727_asistencia_nominal_2026_tope-inf.rds`: 69 sesiones, **239 ids** |
+| **Filas de la serie nominal persistida** — acotada al **roster vigente** y, por diputado, a su universo `en_ejercicio`, con los huecos marcados `sin_registro` | **9 183** | `40_salidas/intermedios/asistencia_nominal.rds`: 69 sesiones, **155 ids** (8 657 `asiste` + 521 `no_asiste` + 5 `sin_registro`) |
+| **Suma de `length(asistencia.sesiones[])` sobre los perfiles publicados** | **9 183** | los 155 JSON de `40_salidas/json/perfiles/`; coincide exactamente con la fila anterior, que es lo que prueba que la serie llega íntegra al JSON. Mínimo 51, máximo 69 por perfil |
+| Entradas `sin_registro` | 5, en 2 de 155 perfiles (ids `1074` y `1193`) | recorrido de `asistencia.sesiones[]` en los 155 perfiles; confirmado por agente adversarial 3 |
+| Perfiles con `n_no_asiste` = 0 / > 0 (periodo vigente) | 68 / 87 | `asistencia.periodo_vigente.n_no_asiste` de los 155 perfiles de `docs/data` |
+
+**Reconciliación de las dos cifras de filas** (recontada, no aritmética mental):
+del caché de 10 690 filas, 1 512 corresponden a ids que no están en el roster
+vigente; quedan 9 178 filas de ids del roster, a las que la serie persistida
+suma las 5 entradas `sin_registro` que rellenan los huecos → 9 183. Las dos
+cifras son correctas y miden objetos distintos.
 
 ---
 
