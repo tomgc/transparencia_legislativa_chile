@@ -39,25 +39,25 @@ intencion primaria. Fuente del conteo: traspasos y logs de la sesion.
 
 | Categoria | N | % | Descripcion / ejemplo |
 |-----------|---|---|-----------------------|
-| infraestructura | 4 | 10,8 | scaffold, estructura canonica, utils, config; fix de la clave de cache (tope); corte temporal explicito (CORTE_FECHA); sello de procedencia de los intermedios |
-| extraccion de datos | 5 | 13,5 | pipeline de extraccion de la Camara (31-35); corrida del anno completo; detalle de proyectos (36); Capa 2 territorial (crosswalk + join en el 32); Capa 3 de asistencia simetrica (serie nominal, justificacion, dos ambitos) |
-| consolidacion/salida | 2 | 5,4 | fusion a JSON (39) + orquestador; enriquecimiento de perfiles (contenido + trazabilidad) |
-| interfaz/dashboard | 5 | 13,5 | dashboard estatico Fase 2; enriquecimiento visual (metricas, materias, voto->proyecto); toggle del historial de votos; celda de region que lee el dato; frontend de la Capa 3 de asistencia en la ficha (dos ambitos, sin_registro, tabla de sesiones) |
-| diagnostico/exploracion | 6 | 16,2 | diagnostico insumos-first del contenido legible y del join voto->proyecto; exploracion API Senado v02 (backend con ids estables); asistencia nominal por sesion (H1-bis); esquema de la Camara y contrato de datos comun; auditoria adversarial de cobertura del web service de la Camara; diagnostico de brecha entre proposito declarado y entregado |
-| documentacion | 3 | 8,1 | README, CLAUDE.md, doc tecnica, exploracion API; precision del invariante R-only; consolidacion del backlog de las sesiones 7 a 11 |
-| decision metodologica | 3 | 8,1 | mapa partido->tendencia (diferido en v01, poblado en v02); tres decisiones de arquitectura del pipeline del Senado (extendido + normalizacion, asistencia simetrica, clave compuesta con fecha capturada) |
-| integracion/repo | 5 | 13,5 | integracion de las tres ramas a main + reconciliacion de 36; migracion a GitHub (repo publico + Pages); primer refresh real en produccion; versionado de la memoria estructural del proyecto; merge y publicacion de la Capa 2 territorial |
-| automatizacion | 3 | 8,1 | workflow de GitHub Actions para refresh semanal con gate de conteos; timeout declarado a nivel de job; el bot commitea en rama y abre PR (main deja de recibir escrituras automaticas) |
-| decision de alcance | 1 | 2,7 | Congreso completo (Camara + Senado) como objetivo real del proyecto |
-| **Suma de la columna** | **37** | **99,9** | |
+| infraestructura | 4 | 8,7 | scaffold, estructura canonica, utils, config; fix de la clave de cache (tope); corte temporal explicito (CORTE_FECHA); sello de procedencia de los intermedios |
+| extraccion de datos | 6 | 13,0 | pipeline de extraccion de la Camara (31-35); corrida del anno completo; detalle de proyectos (36); Capa 2 territorial (crosswalk + join en el 32); Capa 3 de asistencia simetrica (serie nominal, justificacion, dos ambitos); retiro del bloque legacy del 33 y de su descarga duplicada |
+| consolidacion/salida | 3 | 6,5 | fusion a JSON (39) + orquestador; enriquecimiento de perfiles (contenido + trazabilidad); retiro del contrato legacy de asistencia del JSON publicado |
+| interfaz/dashboard | 5 | 10,9 | dashboard estatico Fase 2; enriquecimiento visual (metricas, materias, voto->proyecto); toggle del historial de votos; celda de region que lee el dato; frontend de la Capa 3 de asistencia en la ficha (dos ambitos, sin_registro, tabla de sesiones) |
+| diagnostico/exploracion | 9 | 19,6 | diagnostico insumos-first del contenido legible y del join voto->proyecto; exploracion API Senado v02 (backend con ids estables); asistencia nominal por sesion (H1-bis); esquema de la Camara y contrato de datos comun; auditoria adversarial de cobertura del web service de la Camara; diagnostico de brecha entre proposito declarado y entregado; cierre de P-56 (el `+0` entre cortes es real); comprobacion de la republicacion de Pages por identidad de md5; medicion del conflicto entre los dos PRs abiertos |
+| documentacion | 6 | 13,0 | README, CLAUDE.md, doc tecnica, exploracion API; precision del invariante R-only; consolidacion del backlog de las sesiones 7 a 11; correccion de la glosa del frontend que citaba el campo retirado; cierre de P-52 (auditoria de apertura #3); encargo de auditoria de fuentes Camara/Senado |
+| decision metodologica | 3 | 6,5 | mapa partido->tendencia (diferido en v01, poblado en v02); tres decisiones de arquitectura del pipeline del Senado (extendido + normalizacion, asistencia simetrica, clave compuesta con fecha capturada) |
+| integracion/repo | 6 | 13,0 | integracion de las tres ramas a main + reconciliacion de 36; migracion a GitHub (repo publico + Pages); primer refresh real en produccion; versionado de la memoria estructural del proyecto; merge y publicacion de la Capa 2 territorial; exclusion de la configuracion local del asistente del versionado (P-55) |
+| automatizacion | 3 | 6,5 | workflow de GitHub Actions para refresh semanal con gate de conteos; timeout declarado a nivel de job; el bot commitea en rama y abre PR (main deja de recibir escrituras automaticas) |
+| decision de alcance | 1 | 2,2 | Congreso completo (Camara + Senado) como objetivo real del proyecto |
+| **Suma de la columna** | **46** | **99,9** | |
 
 > **Discrepancia heredada, no resuelta aqui.** La tabla vigente hasta v06
 > declaraba un total de 23 y su columna de N sumaba 24. Esa diferencia de una
-> unidad se arrastra: hoy la columna suma 37 mientras las entradas numeradas del
-> detalle cronologico son 36 (1-36). No se resuelve aqui porque resolverla exige
+> unidad se arrastra: hoy la columna suma 46 mientras las entradas numeradas del
+> detalle cronologico son 45 (1-45). No se resuelve aqui porque resolverla exige
 > reclasificar alguna de las entradas 1-23, y el protocolo prohibe reescribir o
 > reclasificar entradas anteriores en silencio (§2.2.5). Los porcentajes se
-> calculan sobre la suma de la columna (37); suman 99,9 por redondeo a un decimal,
+> calculan sobre la suma de la columna (46); suman 99,9 por redondeo a un decimal,
 > no por una entrada faltante (recuento programatico de esta sesion).
 > Pendiente declarado: auditar la clasificacion de las entradas 1-23 contra los
 > traspasos v01-v06 y corregir con una nota explicita.
@@ -80,7 +80,8 @@ intencion primaria. Fuente del conteo: traspasos y logs de la sesion.
 | 12 | v12 | 2 | Opus 5 | consolidacion del backlog + timeout del workflow |
 | 13 | v13 | 1 | Opus 5 | P-22: el bot trabaja en rama y abre PR |
 | 14 | v14 | 1 | Opus 5 | frontend de la Capa 3 de asistencia |
-| Total | | 36 | | |
+| 15 | v15 | 9 | Opus 5 | retiro del contrato legacy de asistencia (P-48) + cierres de P-52, P-55 y P-56 |
+| Total | | 45 | | |
 
 > Sesion 8: el modelo no consta en `traspaso_cierre_v08.md` ni en los demas
 > insumos de esta consolidacion; se deja declarado como ausente en vez de
@@ -521,6 +522,88 @@ denominadores difieren de verdad. Los cinco campos legacy y `tasa_asistencia`
 siguen publicados en el JSON y dejan de consumirse en el frontend, que es
 exactamente la precondicion de P-48. Commit `f55430d`, pusheado a `origin/main`.
 
+### Sesion 15 (v15) — retiro del contrato legacy de asistencia (P-48)
+
+**37. Retiro del contrato legacy de asistencia del JSON publicado: cinco campos
+del bloque `asistencia` del perfil y `tasa_asistencia` del indice.**
+Categoria: consolidacion/salida (la sesion lo etiqueto "deuda tecnica"; se mapea
+a la categoria canonica por intencion primaria, que es cambiar el contrato de
+salida del `39`). El `39` dejo de leer `asistencia.rds`: salieron `anio`,
+`n_sesiones`, `n_asiste`, `n_no_asiste` y `tasa_asistencia` del perfil, y
+`tasa_asistencia` del indice, con su `leer()`, su `stopifnot` de llave, su
+`cobertura()`, su `resumen_asistencia` y su `left_join`. La precondicion la habia
+dejado la entrada 36: desde `f55430d` ningun consumidor los leia. `anio` no se
+pierde, su valor viaja en `asistencia.alcance_temporal.anio_proceso` con ambito
+declarado, asi que el retiro elimina una duplicacion sin ambito, no informacion.
+`validar_corte()` no requirio adaptacion pese a pasar de 7 a 6 sellos: recorre
+`names(sellos)` sin numero fijo. Verificado antes de commitear: 1 058 008 claves
+comparadas en 155 perfiles y 1 705 en el indice, cero diferencias en los campos
+sobrevivientes, excluido `metadatos.generado`. Commit `4f0bfba`.
+
+**38. Eliminacion del bloque de extraccion legacy del `33` y de su segunda
+descarga completa de la asistencia por corrida.**
+Categoria: extraccion de datos. El `33` sostenia dos barridos completos de la
+asistencia bajo claves de cache distintas: el nominal de la Capa 3 y el legacy,
+que existia solo para alimentar los campos que la entrada 37 retiro. Salio el
+bloque 1 entero (extraccion, validacion de dominio, agregado por diputado,
+validacion de integridad y escritura de `asistencia.rds`) y el `# REVISAR` que
+anunciaba este retiro desde la sesion 11. Los `.rds` de la clave
+`asistencia_long_<anio>` en `20_insumos/camara/` no se borraron: son captura
+cruda e inmutable por gobernanza, solo dejaron de leerse. Evidencia del barrido
+unico en el log del `33`: antes registraba dos cache hits de asistencia, despues
+uno. Regeneracion completa 32-36 y 39 con cero diferencias contra la salida
+previa. Commit `970d564`.
+
+**39. Correccion de la glosa de `docs/index.html` que citaba el campo retirado
+como vigente.**
+Categoria: documentacion. La glosa del bloque de derivacion afirmaba que
+`tasa_asistencia` seguia publicado en el JSON y que solo no se consumia en el
+cliente; tras la entrada 37 eso pasaba a ser falso sobre el contrato. Se
+reescribio para declarar que `tasa_presencia` es el unico indicador de asistencia
+del indice. Cambio de prosa unicamente: ninguna expresion que lea datos se toco.
+Commit `545d053`.
+
+**40. `.claude/settings.local.json` excluido del versionado por contener rutas
+absolutas del titular en un repositorio publico (cierra P-55).**
+Categoria: integracion/repo. Se ignoro el archivo, no la carpeta: `.claude/`
+tambien aloja configuracion compartible que si debe versionarse. Commit
+`a2b0933`.
+
+**41. Cierre de P-56: el `+0` de conteos entre los cortes del 25 y del 27 es
+real, no anomalia de captura.**
+Categoria: diagnostico/exploracion. Verificado pareando los 7 caches por sufijo
+entre `20260725_*` y `20260727_*`: md5 identico en los 7, y el cache nominal da
+10 690 filas, 69 sesiones y `fecha_ultima = 2026-07-22` en ambos cortes. La
+fuente no publico sesiones nuevas en esa ventana; el pipeline no perdio nada.
+
+**42. Cierre de P-52 con hallazgo abierto: la auditoria de apertura #3 da
+conforme sobre 11 scripts y cero rutas absolutas escritas a mano.**
+Categoria: documentacion.
+
+**43. Comprobacion de la republicacion de Pages por identidad de md5, que cerro
+la prioridad 1 heredada de la sesion 14.**
+Categoria: diagnostico/exploracion. Se verifico por identidad de hash entre lo
+servido y lo versionado, no por inspeccion visual del sitio.
+
+**44. Medicion del conflicto entre el PR #4 y el PR #3 del bot, con el hallazgo
+del hunk unico y del modo de fallo por resolucion a nivel de archivo.**
+Categoria: diagnostico/exploracion. Medido con `merge-tree`, sin tocar ninguno de
+los dos PRs. Los dos tocan los mismos 310 archivos de datos y conflictan en
+ambos ordenes, pero el conflicto es de **un solo hunk por archivo y es la linea
+`metadatos.generado`** (310 de 310 medidos): los dos cambian lineas casi
+disjuntas, el bot 3 (`corte_fecha`, `nota`, `generado`) y el retiro 6 quitadas y
+1 agregada. Resolviendo ese hunk por cualquiera de los dos lados quedan 0 de 310
+perfiles con campos legacy y `corte_fecha` 2026-08-03 en 310 de 310: git combina
+bien el retiro con el dato fresco y no hay que regenerar nada. El modo de fallo
+es resolver **a nivel de archivo** (`git checkout --theirs`), que reinstala la
+version integra del bot con los 5 campos en 310 de 310 y deja ademas el contrato
+incoherente, porque el indice no conflicta y conserva la version sin
+`tasa_asistencia`. De aqui sale el aprendizaje A55.
+
+**45. Redaccion del encargo de auditoria de fuentes Camara/Senado, sin
+ejecutar.**
+Categoria: documentacion. Queda como insumo listo para la sesion 16 (P-61).
+
 ## Delta del backlog
 
 - **v01:** primer backlog, 5 entradas nuevas (1-5), taxonomia inicial propuesta.
@@ -617,3 +700,25 @@ exactamente la precondicion de P-48. Commit `f55430d`, pusheado a `origin/main`.
   de la revision visual son iteraciones dentro de la entrada 36, no cambios
   distinguibles del titular; y el `git pull` y el push del cierre son operaciones de
   git (precedente de la sesion 9).
+- **v15:** 9 entradas nuevas (37-45). Conteos actualizados (consolidacion/salida
+  2->3, extraccion de datos 5->6, documentacion 3->6, integracion/repo 5->6,
+  diagnostico/exploracion 6->9); suma de la columna 37->46 y porcentajes
+  recalculados sobre 46 (suman 99,9 por redondeo a un decimal; recuento
+  programatico de esta sesion). Sin categorias nuevas. Sin renumeracion ni
+  reescritura de entradas 1-36. La discrepancia heredada sigue abierta con el
+  mismo signo y la misma unidad (columna 46, entradas 45). **Mapeo de las
+  etiquetas del traspaso a la taxonomia canonica**, declarado porque la §5 de
+  v15 usa etiquetas ad hoc: "deuda tecnica" -> consolidacion/salida (37) y
+  extraccion de datos (38), segun que artefacto cambia; "administrativo" ->
+  integracion/repo (40); "deuda de datos" y "verificacion" ->
+  diagnostico/exploracion (41, 43, 44); "documentacion" se mantiene (39, 42,
+  45). Se prefirio mapear a las categorias existentes antes que abrir
+  categorias nuevas por matiz, que romperia la exclusividad mutua por intencion
+  primaria (§2.2.5), mismo criterio que la consolidacion de v12. **Lo que NO se
+  conto, declarado para que una sesion futura no lo duplique:** la correccion
+  del log de ejecucion y la medicion de sus cifras (§4.5 de v15) son higiene
+  documental sobre un artefacto de la propia sesion, no un cambio de producto;
+  el archivado de los traspasos previos bajo `traspasos/archivo/` es aplicacion
+  de una regla de politica vigente (1.3.1), no una solicitud distinguible; y el
+  push del cierre y los commits de documentacion son operaciones de git
+  (precedente de la sesion 9).
