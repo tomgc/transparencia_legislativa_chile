@@ -1,20 +1,21 @@
 # =============================================================================
 # 39_consolidar_json.R
 # -----------------------------------------------------------------------------
-# Proposito: Fusionar las tablas intermedias (diputados, asistencia, votos,
-#            proyectos) en los JSON estaticos que consume el dashboard:
+# Proposito: Fusionar las tablas intermedias (diputados, asistencia nominal,
+#            votos, proyectos) en los JSON estaticos que consume el dashboard:
 #              - 40_salidas/json/indice_diputados.json  (selector, con metricas
-#                resumen por diputado: tasa_asistencia, n_proyectos, n_votaciones;
+#                resumen por diputado: tasa_presencia, n_proyectos, n_votaciones;
 #                y sexo/partido_nombre para que el cliente no fabrique ni
 #                embeba a mano lo que ya viene en la fuente)
 #              - 40_salidas/json/perfiles/<id>.json      (uno por diputado)
 #            Claves ordenadas, indentacion fija, UTF-8 (POLITICA 2, 5.5).
 #            Publica ademas una copia en docs/data/ para GitHub Pages (Fase 2).
-# Insumos:   40_salidas/intermedios/{diputados,asistencia,votos,proyectos,
+# Insumos:   40_salidas/intermedios/{diputados,votos,proyectos,
 #            proyectos_detalle,asistencia_nominal,asistencia_ambitos}.rds
-#            (los dos ultimos, Capa 3: serie nominal de asistencia y agregados
-#            por ambito temporal; se AGREGAN al bloque de asistencia sin tocar
-#            los campos legacy que el portal consume hoy)
+#            La asistencia entra SOLO por la Capa 3 (serie nominal + agregados
+#            por ambito temporal). El agregado legacy por diputado
+#            (asistencia.rds) se retiro en la sesion 15 (P-48): ningun
+#            consumidor lo leia desde que el frontend migro en la sesion 14.
 # Salidas:   40_salidas/json/ (indice + perfiles/, canonico) y docs/data/
 #            (indice + perfiles/, publicacion; copia fiel de 40_salidas/json/).
 # Validacion: NAs en llaves, totales pre/post join, rango de tasa, dominio de
@@ -46,21 +47,21 @@ leer <- function(nombre) {
   ls$objeto
 }
 diputados  <- leer("diputados")
-asistencia <- leer("asistencia")
 votos      <- leer("votos")
 proyectos  <- leer("proyectos")
 # Detalle de contenido por boletin (tipo_iniciativa, materias) del paso 36.
 # Habilita: proyectos legibles (materias) y trazabilidad voto->proyecto.
 proyectos_detalle <- leer("proyectos_detalle")
-# Capa 3 (sesion 11): serie nominal de asistencia y agregados por ambito. No
-# reemplazan a `asistencia` (el agregado legacy sigue alimentando los campos
-# que el portal consume hoy); se AGREGAN.
+# Asistencia, unica granularidad desde la sesion 15: serie nominal por sesion
+# (Capa 3) y sus agregados por ambito temporal.
 asistencia_nominal <- leer("asistencia_nominal")
 asistencia_ambitos <- leer("asistencia_ambitos")
 
-# Compuerta de procedencia: los cinco intermedios deben pertenecer al corte
-# vigente y ser coherentes entre si. stop() diagnostico si no. Va ANTES del
-# stopifnot de character y de todo join/escritura.
+# Compuerta de procedencia: todos los intermedios leidos deben pertenecer al
+# corte vigente y ser coherentes entre si. stop() diagnostico si no. Va ANTES
+# del stopifnot de character y de todo join/escritura. validar_corte() recorre
+# la lista de sellos que reciba: no espera un numero fijo ni un nombre concreto,
+# por eso leer un intermedio menos no la afecta.
 validar_corte(sellos_intermedios, CORTE_FECHA)
 log_msg(sprintf("Procedencia validada: %d intermedios al corte %s.",
                 length(sellos_intermedios), CORTE_FECHA),
@@ -68,7 +69,6 @@ log_msg(sprintf("Procedencia validada: %d intermedios al corte %s.",
 
 # La llave es character en todas las tablas (invariante POLITICA 5.3.6).
 stopifnot(is.character(diputados$diputado_id),
-          is.character(asistencia$diputado_id),
           is.character(votos$diputado_id),
           is.character(proyectos$diputado_id),
           is.character(proyectos_detalle$boletin),
@@ -166,21 +166,17 @@ cobertura <- function(tabla, etiqueta) {
           origen = "39_consolidar")
   invisible(NULL)
 }
-cobertura(asistencia, "Asistencia")
 cobertura(asistencia_nominal, "Asistencia nominal")
 cobertura(votos,      "Votaciones")
 cobertura(proyectos,  "Proyectos")
 
 # ---- Metricas resumen por diputado (para el indice) --------------------------
 # left_join sobre el roster (nunca inner_join): un diputado sin votos/proyectos
-# debe quedar con 0, no desaparecer del indice. tasa_asistencia queda NA si el
-# diputado no tiene fila en asistencia (mismo criterio que el bloque de perfil).
-resumen_asistencia <- asistencia |>
-  select(diputado_id, tasa_asistencia)
+# debe quedar con 0, no desaparecer del indice.
 
-# Capa 3: tasa de presencia del PERIODO VIGENTE (denominador comun a los 155,
-# por eso comparable entre diputados). Se AGREGA al indice; no reemplaza a
-# tasa_asistencia, cuyo denominador es el historico del propio diputado.
+# Tasa de presencia del PERIODO VIGENTE (denominador comun a los 155, por eso
+# comparable entre diputados). Unico indicador de asistencia del indice desde el
+# retiro del contrato legacy (P-48).
 resumen_presencia <- asistencia_ambitos |>
   filter(ambito == "periodo_vigente") |>
   select(diputado_id, tasa_presencia)
@@ -193,7 +189,6 @@ resumen_proyectos <- proyectos |>
 
 # ---- indice_diputados.json (lista minima para el selector, con metricas) ----
 indice <- diputados |>
-  left_join(resumen_asistencia, by = "diputado_id") |>
   left_join(resumen_votos,      by = "diputado_id") |>
   left_join(resumen_proyectos,  by = "diputado_id") |>
   left_join(resumen_presencia,  by = "diputado_id") |>
@@ -211,10 +206,11 @@ indice <- diputados |>
     distrito        = distrito,
     region          = region,
     tendencia       = tendencia,
-    tasa_asistencia = tasa_asistencia,
     n_proyectos     = n_proyectos,
     n_votaciones    = n_votaciones,
-    # Capa 3, campo NUEVO al final: no altera el orden que el cliente ya usa.
+    # Unico indicador de asistencia del indice: es el del ambito periodo_vigente,
+    # de denominador comun a los 155 (P-48 retiro tasa_asistencia, que usaba el
+    # historico propio de cada diputado y no era comparable entre ellos).
     tasa_presencia  = tasa_presencia
   )
 
@@ -251,21 +247,13 @@ for (i in seq_len(nrow(diputados))) {
   )
 
   # Bloque 2: asistencia ------------------------------------------------------
-  a <- asistencia[asistencia$diputado_id == did, ]
-  bloque_asistencia <- if (nrow(a) == 1) {
-    list(anio = ANIO_PROCESO,
-         n_sesiones      = a$n_sesiones,
-         n_asiste        = a$n_asiste,
-         n_no_asiste     = a$n_no_asiste,
-         tasa_asistencia = a$tasa_asistencia)
-  } else {
-    list(anio = ANIO_PROCESO, n_sesiones = 0L, n_asiste = 0L,
-         n_no_asiste = 0L, tasa_asistencia = NA_real_)
-  }
-
-  # Capa 3: se AGREGA al bloque de asistencia, despues de los campos legacy
-  # (que no cambian de nombre, formula ni valor). La serie es el espejo de
-  # votaciones.votos[]: una entrada por sesion, ordenada por fecha.
+  # Una sola granularidad desde P-48 (sesion 15): el alcance temporal declarado,
+  # los dos ambitos con sus conteos y tasas, y la serie nominal por sesion. El
+  # anno de proceso viaja dentro de alcance_temporal$anio_proceso, con su ambito
+  # declarado; por eso el campo suelto `anio` tampoco sobrevive.
+  # La serie es el espejo de votaciones.votos[]: una entrada por sesion,
+  # ordenada por fecha.
+  bloque_asistencia <- list()
   amb_d <- amb_map[[did]]
   bloque_asistencia$alcance_temporal <- BLOQUE_ALCANCE
   bloque_asistencia$periodo_vigente <- if (!is.null(amb_d))

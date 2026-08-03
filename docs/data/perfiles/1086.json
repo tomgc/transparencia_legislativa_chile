@@ -14,11 +14,6 @@
     "tendencia": "izquierda"
   },
   "asistencia": {
-    "anio": 2026,
-    "n_sesiones": 69,
-    "n_asiste": 63,
-    "n_no_asiste": 6,
-    "tasa_asistencia": 0.91304347826087,
     "alcance_temporal": {
       "anio_proceso": 2026,
       "corte_fecha": "2026-07-27",
@@ -11575,6 +11570,6 @@
     "fuente": "opendata.camara.cl",
     "periodo": "2026-2030",
     "anio_proceso": 2026,
-    "generado": "2026-07-27T13:52:06"
+    "generado": "2026-08-03T18:04:30"
   }
 }
