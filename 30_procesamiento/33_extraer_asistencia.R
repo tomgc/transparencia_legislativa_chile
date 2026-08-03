@@ -1,29 +1,28 @@
 # =============================================================================
 # 33_extraer_asistencia.R
 # -----------------------------------------------------------------------------
-# Proposito: Extraer la asistencia a sesiones de sala del anno de proceso en
-#            DOS granularidades:
-#            (a) LEGACY (bloque 1, intacto): agregado por diputado (n sesiones,
-#                asiste, no asiste, tasa efectiva como decimal). La tasa NO se
-#                redondea (POLITICA 5.3.6). Es el contrato que el portal en vivo
-#                consume hoy; no cambia de nombre, formula ni valor.
-#            (b) NOMINAL (bloque 2, Capa 3): una fila por (diputado x sesion)
-#                con fecha, tipo de sesion y la JUSTIFICACION que la fuente
-#                entrega y el pipeline descartaba (codigo, glosa y las dos
-#                rebajas), mas los agregados por ambito temporal.
-#            Simetria con 34_extraer_votaciones.R, que ya persiste el voto
-#            nominal por votacion.
+# Proposito: Extraer la asistencia a sesiones de sala del anno de proceso en UNA
+#            sola granularidad, la NOMINAL: una fila por (diputado x sesion) con
+#            fecha, tipo de sesion y la JUSTIFICACION que la fuente entrega
+#            (codigo, glosa y las dos rebajas), mas los agregados por los dos
+#            ambitos temporales (periodo_vigente, en_ejercicio).
+#            Simetria con 34_extraer_votaciones.R, que persiste el voto nominal
+#            por votacion.
+#            Hasta la sesion 14 convivia un segundo bloque LEGACY que agregaba
+#            por diputado y hacia un barrido propio de la API. Se retiro en la
+#            sesion 15 (P-48) una vez que el frontend migro a la Capa 3: era una
+#            segunda descarga completa de la asistencia en cada refresh, pagada
+#            para alimentar campos que ya no consumia nadie.
 # Insumos:   API Camara: WSSala.asmx/retornarSesionesXAnno (lista de sesiones),
 #            WSSala.asmx/retornarSesionAsistencia (detalle por sesion) y
 #            WSLegislativo.asmx/retornarPeriodoLegislativoActual (fecha de
 #            instalacion del periodo vigente; NO se hardcodea).
-#            Cache: 20_insumos/camara/AAAAMMDD_asistencia_long_<anio>.rds (legacy)
-#                   20_insumos/camara/AAAAMMDD_asistencia_nominal_<anio>.rds
+#            Cache: 20_insumos/camara/AAAAMMDD_asistencia_nominal_<anio>.rds
 #                   20_insumos/camara/AAAAMMDD_periodo_legislativo.rds
-# Salidas:   40_salidas/intermedios/asistencia.rds          (legacy, por diputado)
-#            40_salidas/intermedios/asistencia_nominal.rds  (diputado x sesion)
+# Salidas:   40_salidas/intermedios/asistencia_nominal.rds  (diputado x sesion)
 #            40_salidas/intermedios/asistencia_ambitos.rds  (diputado x ambito)
-# Autor:     Claude Code (encargo autonomo, sesion 1; Capa 3 nominal, sesion 11)
+# Autor:     Claude Code (encargo autonomo, sesion 1; Capa 3 nominal, sesion 11;
+#            retiro del bloque legacy, sesion 15)
 # Creado:    2026-07-06
 # =============================================================================
 
@@ -36,109 +35,7 @@ ROOT <- obtener_raiz_proyecto()
 source(file.path(ROOT, "10_utils", "10_configuracion.R"))
 
 # =============================================================================
-# BLOQUE 1 - LEGACY (INTACTO)
-# -----------------------------------------------------------------------------
-# Todo lo que sigue hasta el fin del bloque 1 es el extractor original, sin
-# cambios de codigo. Conserva su PROPIA clave de cache (asistencia_long_<anio>)
-# y su propia regla de universo (sesiones celebradas al momento de la descarga,
-# sin filtro de fecha). Esa separacion es deliberada: derivar el agregado legacy
-# del barrido nominal cambiaria sus valores publicados (el nominal aplica un
-# filtro determinista FechaInicio <= CORTE_FECHA y por eso incluye una sesion
-# mas al corte 2026-07-20; ver el log de la sesion 11). El costo es que el
-# refresh descarga la asistencia dos veces mientras el portal siga consumiendo
-# el contrato legacy. # REVISAR: unificar en una sola descarga cuando el
-# frontend migre a los campos nuevos y el agregado legacy pueda retirarse.
-# =============================================================================
-
-# ---- Descargar asistencia en formato largo (diputado x sesion) --------------
-extraer_asistencia_long <- function() {
-  cache_key <- sprintf("asistencia_long_%d", ANIO_PROCESO)
-  con_cache(cache_key, function() {
-    doc_ses <- descargar_xml_camara("WSSala.asmx/retornarSesionesXAnno",
-                                    list(prmAnno = ANIO_PROCESO))
-    ses <- xml2::xml_find_all(doc_ses, "//Sesion")
-    ses_id     <- vapply(ses, function(s) texto_nodo(s, "./Id"), character(1))
-    ses_estado <- vapply(ses, function(s) texto_nodo(s, "./Estado"), character(1))
-    # Solo sesiones celebradas tienen asistencia (las demas devuelven vacio).
-    celebradas <- ses_id[!is.na(ses_id) &
-                           grepl("celebrad", ses_estado, ignore.case = TRUE)]
-    log_msg(sprintf("Sesiones %d: %d totales, %d celebradas.",
-                    ANIO_PROCESO, length(ses_id), length(celebradas)),
-            origen = "33_asistencia")
-
-    if (is.finite(MAX_SESIONES_DETALLE) && length(celebradas) > MAX_SESIONES_DETALLE) {
-      log_msg(sprintf("Topando a %d sesiones (MAX_SESIONES_DETALLE).",
-                      MAX_SESIONES_DETALLE), "WARN", "33_asistencia")
-      celebradas <- celebradas[seq_len(MAX_SESIONES_DETALLE)]
-    }
-
-    filas <- list()
-    for (sid in celebradas) {
-      d <- descargar_xml_camara("WSSala.asmx/retornarSesionAsistencia",
-                                list(prmSesionId = sid))
-      asis <- xml2::xml_find_all(d, "//Asistencia")
-      if (length(asis) == 0) { Sys.sleep(PAUSA_API_SEG); next }
-      filas[[length(filas) + 1L]] <- tibble(
-        sesion_id   = sid,
-        diputado_id = como_llave(vapply(asis, function(a)
-          texto_nodo(a, "./Diputado/Id"), character(1))),
-        tipo_valor  = vapply(asis, function(a)
-          attr_nodo(a, "./TipoAsistencia", "Valor"), character(1))
-      )
-      Sys.sleep(PAUSA_API_SEG)
-    }
-    bind_rows(filas)
-  }, tope = MAX_SESIONES_DETALLE, origen = "33_asistencia")
-}
-
-asis_long <- extraer_asistencia_long()
-log_msg(sprintf("Registros de asistencia (largo): %d", nrow(asis_long)),
-        origen = "33_asistencia")
-
-# ---- Validar dominio de TipoAsistencia (POLITICA 5.3.8) ---------------------
-valores_obs <- sort(unique(asis_long$tipo_valor))
-fuera <- setdiff(valores_obs, names(DOMINIO_ASISTENCIA))
-if (length(fuera) > 0)
-  log_msg(sprintf("Aviso: valores de TipoAsistencia fuera del dominio conocido: %s",
-                  paste(fuera, collapse = ", ")), "WARN", "33_asistencia")
-
-# ---- Agregar por diputado ----------------------------------------------------
-asistencia <- asis_long |>
-  mutate(etiqueta = unname(DOMINIO_ASISTENCIA[tipo_valor])) |>
-  summarise(
-    n_sesiones  = n(),
-    n_asiste    = sum(etiqueta == "asiste",   na.rm = TRUE),
-    n_no_asiste = sum(etiqueta == "no_asiste", na.rm = TRUE),
-    .by = diputado_id
-  ) |>
-  mutate(
-    # Tasa efectiva como decimal, sin redondear (POLITICA 5.3.6).
-    tasa_asistencia = ifelse(n_sesiones > 0, n_asiste / n_sesiones, NA_real_)
-  )
-
-# ---- Validacion de integridad -----------------------------------------------
-n <- nrow(asistencia)
-log_msg(sprintf("Diputados con asistencia agregada: %d", n), origen = "33_asistencia")
-if (n > 0) {
-  rng <- range(asistencia$tasa_asistencia, na.rm = TRUE)
-  log_msg(sprintf("Rango tasa_asistencia: [%.4f, %.4f]", rng[1], rng[2]),
-          origen = "33_asistencia")
-  if (any(asistencia$tasa_asistencia < 0 | asistencia$tasa_asistencia > 1, na.rm = TRUE))
-    stop("33_asistencia: tasa_asistencia fuera de [0,1] (invariante de rango).")
-  if (any(is.na(asistencia$diputado_id)))
-    stop("33_asistencia: diputado_id NA en el agregado.")
-}
-
-# ---- Persistir ---------------------------------------------------------------
-ruta_out <- ruta_salidas("intermedios", "asistencia.rds")
-# Sello de procedencia: hash del cache crudo de asistencia (fix sesion 8).
-escribir_atomico(asistencia, ruta_out, function(o, r) saveRDS(o, r),
-                 hash_origen = hash_origen_de(
-                   ruta_cache(sprintf("asistencia_long_%d", ANIO_PROCESO), MAX_SESIONES_DETALLE)))
-log_msg(sprintf("Escrito: %s (%d filas)", ruta_out, n), origen = "33_asistencia")
-
-# =============================================================================
-# BLOQUE 2 - NOMINAL (Capa 3)
+# EXTRACCION NOMINAL (Capa 3)
 # =============================================================================
 
 # ---- Fecha de instalacion del periodo vigente (de la fuente, no hardcodeada) -
@@ -166,13 +63,15 @@ periodo <- obtener_inicio_periodo()
 PERIODO_INICIO <- periodo$inicio
 
 # ---- Descargar la serie nominal (diputado x sesion, con justificacion) -------
-# Clave de cache PROPIA (asistencia_nominal_<anio>): el esquema es distinto al
-# del cache legacy, y reutilizar aquella clave devolveria en silencio un
-# snapshot sin las columnas nuevas (POLITICA 5.3.6: la clave codifica todo lo
-# que altera el contenido).
-# Universo DETERMINISTA: sesiones celebradas con FechaInicio <= CORTE_FECHA. El
-# legacy filtra solo por Estado en el instante de la descarga, de modo que su
-# contenido no es funcion pura del corte (P6 de la medicion); aqui si lo es.
+# Clave de cache asistencia_nominal_<anio>: distinta de la del extractor legacy
+# retirado en la sesion 15 (asistencia_long_<anio>), porque el esquema es otro.
+# Los .rds de aquella clave siguen en 20_insumos/camara/ y no se borran: son
+# captura cruda y la gobernanza del proyecto los trata como inmutables; solo
+# dejaron de leerse.
+# Universo DETERMINISTA: sesiones celebradas con FechaInicio <= CORTE_FECHA, de
+# modo que el contenido es funcion pura del corte. El extractor legacy filtraba
+# solo por Estado en el instante de la descarga y por eso no lo era (P6 de la
+# medicion de la sesion 11).
 extraer_asistencia_nominal <- function() {
   cache_key <- sprintf("asistencia_nominal_%d", ANIO_PROCESO)
   con_cache(cache_key, function() {
