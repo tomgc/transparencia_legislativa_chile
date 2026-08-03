@@ -345,7 +345,66 @@ cifras son correctas y miden objetos distintos.
 4. **Mirar con ojo crítico la Fase 1.** Su criterio de éxito no se cumplió tal
    como estaba escrito y la ejecución siguió adelante con un diagnóstico. Está
    documentado en §6.1 y es el punto donde conviene contrastar el razonamiento.
-5. **El PR #3 del bot sigue abierto** (`refresh/2026-08-03`). Los dos PRs tocan
-   los mismos 310 archivos de datos, así que mergear uno va a exigir resolver el
-   otro. Orden sugerido: decidir primero cuál entra, porque el segundo va a
-   necesitar regenerarse sobre el `main` resultante, no un merge a mano.
+5. **El PR #3 del bot sigue abierto** (`refresh/2026-08-03`) y toca los mismos
+   310 archivos de datos. **Medido después de cerrar el encargo** (ver §12): el
+   segundo merge conflicta, pero el conflicto es **un solo hunk por archivo y es
+   el timestamp `metadatos.generado`**. Git auto-mergea todo lo demás y combina
+   correctamente el retiro de los campos con el dato fresco del corte
+   2026-08-03. **No hace falta regenerar nada**, contra lo que decía la versión
+   anterior de esta nota.
+
+---
+
+## 12. Medición posterior: interacción con el PR #3 del bot
+
+Medido el 2026-08-03, después de abrir el PR #4, sin tocar el PR #3 (ni merge,
+ni cierre, ni rebase): solo `merge-tree --write-tree`, que computa el merge sin
+mover ninguna referencia ni tocar el árbol de trabajo.
+
+### 12.1 Qué contrato propone el PR #3
+
+Nace del mismo commit base que el PR #4 (`64a0ab9`) y lo construyó el `33`
+**anterior** al retiro, así que su contenido todavía trae el contrato legacy.
+Denominador: **318 archivos** listados por la API paginada de
+`/pulls/3/files` (155 perfiles en `40_salidas/json`, 155 en `docs/data`, 7
+cachés crudos del corte 2026-08-03 y `10_utils/10_configuracion.R`).
+
+| Qué | Valor | Denominador |
+|---|---|---|
+| Los 5 campos legacy en el tope de `asistencia` | presentes en **155/155** en cada copia = **310/310** | perfiles propuestos por el PR #3 |
+| `tasa_asistencia` en el índice del head de la rama | **155/155** | entradas del índice |
+| Archivos de índice en la lista de cambios del PR | **0 de 318** | el índice es idéntico al de `main`, por eso no figura como cambiado |
+
+### 12.2 Qué pasa al mergear los dos
+
+Ambos PRs son fast-forward sobre `main` por separado. El segundo, en cualquier
+orden, conflicta en **310 archivos** (exit 1). Pero el conflicto es mucho más
+benigno de lo que parece:
+
+| Medición | Resultado | Denominador |
+|---|---|---|
+| Blobs con exactamente **un** hunk de conflicto | 310 | 310 blobs del árbol en conflicto |
+| Blobs cuyo único hunk es **solo la línea `"generado"`** | 310 | 310 |
+| Campos legacy tras resolver el hunk **por el lado del PR #4** | **0** | 310 |
+| Campos legacy tras resolver el hunk **por el lado del bot** | **0** | 310 |
+| `alcance_temporal.corte_fecha` del resultado | `2026-08-03` en 310 | 310 |
+| Índice del árbol resultante, en ambos órdenes | blob `a6f15f09`, sin `tasa_asistencia` en 155/155 | 155 entradas |
+
+La razón es que los dos PRs tocan líneas casi disjuntas de cada perfil: el bot
+cambia 3 (`corte_fecha`, `nota`, `generado`) y el retiro quita 6 y agrega 1
+(las 5 legacy más `generado`). La única línea que ambos tocan es `generado`, y
+por eso es la única que conflicta. **Git combina correctamente el retiro de los
+campos con el dato fresco del corte nuevo.**
+
+### 12.3 La única forma de que los campos legacy vuelvan
+
+Resolver el conflicto **a nivel de archivo** en vez de a nivel de hunk —el gesto
+instintivo de "es solo data, me quedo con la del bot", `git checkout --theirs`—
+reinstala la versión íntegra del PR #3 y con ella **los 5 campos legacy en
+310/310 perfiles**. Y dejaría un contrato incoherente, porque el índice **no**
+conflicta y conserva la versión sin `tasa_asistencia`: perfiles con los campos,
+índice sin ellos.
+
+**Recomendación:** mergear el PR #4 primero y luego el #3 resolviendo el hunk
+del timestamp (cualquiera de los dos lados sirve; el del bot es el más
+coherente con el corte que publica). No usar resolución por archivo.
