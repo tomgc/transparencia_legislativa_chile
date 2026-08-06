@@ -14,11 +14,6 @@
     "tendencia": "centroderecha"
   },
   "asistencia": {
-    "anio": 2026,
-    "n_sesiones": 69,
-    "n_asiste": 60,
-    "n_no_asiste": 9,
-    "tasa_asistencia": 0.869565217391304,
     "alcance_temporal": {
       "anio_proceso": 2026,
       "corte_fecha": "2026-08-03",
