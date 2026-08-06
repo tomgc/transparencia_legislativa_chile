@@ -40,3 +40,12 @@ _archivo/
 
 # ===== Intermedios regenerables (cache tidy; no son entregable ni fuente) =====
 40_salidas/intermedios/*.rds
+
+# ===== Configuracion LOCAL de Claude Code (P-55) =============================
+# settings.local.json es configuracion de la maquina del titular, no del
+# proyecto: por convencion de la herramienta el sufijo .local ya declara que no
+# se comparte, y en este caso ademas contiene rutas absolutas de su filesystem.
+# El repositorio es PUBLICO, asi que no se versiona.
+# .claude/launch.json SI se versiona (configuracion del servidor de preview,
+# util para cualquiera que clone): por eso se ignora el archivo, no la carpeta.
+.claude/settings.local.json

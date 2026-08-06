@@ -508,9 +508,9 @@ window.addEventListener('resize', function(){ state.vw = window.innerWidth; rend
    consumiendo el esquema real del JSON (id/partido = sigla, tendencia
    string|null, tasa_presencia decimal 0..1, n_proyectos, n_votaciones).
    tasa_presencia del indice es el del ambito periodo_vigente: verificado
-   contra los 155 perfiles (0 diferencias). tasa_asistencia (legacy) sigue
-   publicado en el JSON pero ya no se consume aqui: es la precondicion de
-   su retiro (P-48).
+   contra los 155 perfiles (0 diferencias). Es el unico indicador de
+   asistencia del indice desde que la sesion 15 retiro el contrato legacy
+   (P-48); tasa_asistencia ya no se publica.
    ========================================================================= */
 function isNarrow(){ return state.vw < 820; }
 function currentPalette(){ return PALETTES[state.scheme] || PALETTES.rojoAzul; }

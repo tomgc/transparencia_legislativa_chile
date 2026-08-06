@@ -14,11 +14,6 @@
     "tendencia": "derecha"
   },
   "asistencia": {
-    "anio": 2026,
-    "n_sesiones": 51,
-    "n_asiste": 51,
-    "n_no_asiste": 0,
-    "tasa_asistencia": 1,
     "alcance_temporal": {
       "anio_proceso": 2026,
       "corte_fecha": "2026-08-03",
