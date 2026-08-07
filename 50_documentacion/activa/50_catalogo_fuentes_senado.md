@@ -49,30 +49,71 @@ reproductor `20260807_sondeo_fuentes.R senado`).
 
 | # | Contraste | Resultado | Independiente de la fuente |
 |---|---|---|---|
-| 1 | **BCN vía SPARQL** (`datos.bcn.cl`, cargo `cl/cargo/2` "Senador" vigente al 2026-08-07) | **50 personas** en ambas fuentes. **Diferencia de 0 personas**; 48 de 50 identificadores coinciden | **Sí — otra institución, otra tecnología** |
-| 2 | Aritmética constitucional | 16 circunscripciones **suman 50**, ningún senador sin circunscripción | Parcial |
+| 1 | **BCN vía SPARQL** (`datos.bcn.cl`, cargo `cl/cargo/2` "Senador" vigente al 2026-08-07) | **50 personas** en ambas fuentes. **Diferencia de 0 personas**; emparejamiento 1-1 inyectivo | **Editorial y técnicamente sí** (ver matiz abajo) |
+| 2 | **Texto legal**: art. 180 de la LOC 18.700 refundida (LeyChile idNorma 30082) | **16 de 16 circunscripciones coinciden** con la API, suman 50 = 50, 0 filas sin par | **Sí — fuente normativa** |
 | 3 | `sessions/attendance?id_legislatura=507` | `TOTAL_SENADORES` = 50, 50 filas, `setequal` con el padrón: 0 en cada diferencia simétrica | No (mismo backend) |
 | 4 | Panel nominal de las 54 sesiones | 2700 filas = 50 × 54; los 2700 ids contenidos en el padrón; **0 miembros del padrón ausentes** | No (mismo backend) |
 
-**Las 2 discrepancias del contraste 1, explicadas y verificadas:** BCN aporta los ids 1264
-y 1144 donde el backend da 1512 y 1513, para **Longton** y **Mirosevic**. Son las mismas
-dos personas: BCN pobló `idSenado` con el id del **lado diputado** del backend. El error es
-de BCN, y se comprueba porque esos dos ids existen en el padrón histórico del backend con
-`CAMARA=="D"` para esas mismas personas. **Diferencia real: 0 personas de 50.**
+**Matiz sobre la independencia de BCN, que no conviene sobrevender.** BCN es la Biblioteca
+del **Congreso Nacional**: un órgano del mismo Congreso al que pertenece el Senado, no un
+tercero externo. Además su campo `idSenado` es una llave foránea hacia la numeración del
+Senado. El contraste es **editorial y técnicamente** independiente (roster, períodos y
+ontología propios, y discrepa en 5 puntos, lo que prueba que no es copia mecánica), pero
+llamarlo *institucionalmente* independiente es una etiqueta más fuerte que la evidencia.
+
+**Y BCN NO corrobora el reparto territorial:** el predicado `representing` viene NULL en
+**50 de 50**. El reparto por circunscripción lo sostienen la API del Senado y el texto legal
+(contraste 2), no BCN.
+
+**Las 5 discrepancias del contraste 1, completas.** El catálogo previo reportaba 2; son 5:
+
+| Tipo | Casos | Detalle |
+|---|---|---|
+| **Identificador** | **2 de 50** | Longton (Senado `1512` vs BCN `1264`) y Mirosevic (`1513` vs `1144`) |
+| **Nombre** (tras normalizar) | **3 de 50** | 911 "Carlos Ignacio Kuschel Silva" vs "Carlos Kuschel Silva"; 1502 "Miguel Angel Becker Alvear" vs "Miguel Becker Alvear"; 1505 "Rodolfo Carter Fernandez" vs "Rodolfo Rafael Carter Fernandez" |
+
+**Ninguna llave sola cubre 50 de 50**: por id salen 48, por nombre 47. El emparejamiento
+completo exige las dos. **Diferencia real de personas: 0 de 50.**
+
+⚠️ **Precisión imprescindible sobre los ids 1264 y 1144, porque la lectura natural en este
+proyecto es falsa.** Conviven **tres** numeraciones para la misma persona:
+
+| Numeración | Longton | Mirosevic |
+|---|---|---|
+| Ficha `CAMARA=="S"` del portal del Senado | 1512 | 1513 |
+| Ficha `CAMARA=="D"` **del mismo portal del Senado** | **1264** | **1144** |
+| `idCamaraDeDiputados` de BCN (la llave que este proyecto **ya usa** para territorio) | 1046 | 991 |
+
+BCN pobló `idSenado` con la **segunda**, no con la tercera. Decir "el id del lado diputado"
+a secas induce a leer `idCamaraDeDiputados`, que es otro número. La doble ficha D/S es
+**sistémica, no una anomalía de 2 casos**: hay **66 nombres con más de una ficha** en las 817
+del padrón histórico.
+
+⚠️ **Trampa del parámetro `limit`:** `data.total` **no** es el número de filas devueltas.
+Sin `limit`, el endpoint devuelve **10 filas** pero sigue declarando `total` 205; sin ningún
+parámetro declara 817 y devuelve 10. Quien consuma esta fuente debe verificar
+`length(data$data) == data$total`. (`limit=300` y `limit=1000` son idénticos byte a byte:
+300 no trunca.)
 
 ### 🔒 `senadores_vigentes.php` NO se usa como padrón — y ahora se sabe por qué
 
-`GET https://tramitacion.senado.cl/wspublico/senadores_vigentes.php` devuelve **31 nodos
-`//senador`**, no 50. Los 31 son **subconjunto estricto** de los 50 del padrón vigente.
+⚠️ **El host importa:** el servicio vive en `https://tramitacion.senado.cl/wspublico/senadores_vigentes.php`
+(HTTP 200, `application/xml`, 12 897 bytes). El host "obvio",
+`https://www.senado.cl/wspublico/senadores_vigentes.php`, devuelve **404**. Nombrar el
+archivo sin el host lleva a concluir que el servicio no existe.
 
-El hallazgo que corrige la lectura previa del proyecto: **esos 31 no son basura**, son
-exactamente los **31 continuistas** — el conjunto coincide (`setequal` = TRUE) con los
-senadores presentes en una sesión de marzo de 2025 que siguen vigentes. Es un **padrón
-congelado antes de la instalación del período de marzo de 2026**, no un endpoint roto. Los
-19 que faltan aparecen los 19 en la sesión reciente y 0 en la histórica.
+Devuelve **31 nodos `//senador`**, no 50. Los 31 son **subconjunto estricto** de los 50 del
+padrón vigente (31 por `PARLID` y 31 por nombre normalizado; 0 fuera).
 
-**Sigue sin usarse como padrón** (invariante del encargo, ahora con evidencia de la causa).
-Utilidad residual: señal auxiliar de continuidad entre períodos.
+**El 31 no es arbitrario, y la razón es lo que importa para el invariante.** Los 19 que
+omite son **exactamente** los 19 con `ID_PARLAMENTARIO >= 1500`, todos de la cohorte que
+inició el 2026-03-11; los 31 incluidos tienen todos id < 1500. Es decir: **es un servicio
+legacy que no incorporó las fichas creadas en la renovación de marzo de 2026** (los pocos de
+esa cohorte que sí aparecen son reelectos que conservaron su ficha antigua).
+
+**El invariante útil no es "el php da 31"** —número que cambiará— **sino "el php ignora las
+fichas nuevas: usar `web-back`".** Sigue sin usarse como padrón. Utilidad residual: señal
+auxiliar de continuidad entre períodos.
 
 ---
 
@@ -210,11 +251,21 @@ boletin_pedido` es **necesaria pero no suficiente**.
 | Proyecto → materia (universo local de 381 boletines) | **5 de 381** (1,31 %) | **5 de 381** (1,31 %) |
 | ¿Los mismos 5? | **Sí: conjunto idéntico y `n_materias` idéntico (2, 2, 4, 2, 1)** | |
 
-**Conclusión que esto obliga:** el déficit de materias **no es un defecto de la API de la
-Cámara**. Ambas cámaras espejean **una sola fuente aguas arriba**. Y el puente texto → Id
-funcionó en 11 de 11 casos observados, pero **no es inyectivo en general**: 13 nombres
-normalizados del catálogo de la Cámara apuntan a más de un Id. **El puente de materias no
-se puede declarar resuelto.**
+**Lo que esto establece, y lo que no.** Establecido: el déficit de materias **no es un
+defecto de la API de la Cámara**, porque la otra superficie devuelve exactamente lo mismo
+para exactamente los mismos boletines.
+
+**Hipótesis, no hecho:** que ambas cámaras "espejeen una sola fuente aguas arriba". Que los
+mismos 5 boletines aparezcan con las mismas `n_materias` en las dos superficies es
+consistente con un origen común **y también** con que la materia sea un atributo del
+registro del proyecto que ambas leen. **Ningún artefacto de esta auditoría establece la
+dirección de la dependencia.** Lo resolvería consultar una tercera fuente independiente
+(`datos.bcn.cl` o LeyChile) para los mismos 5 boletines.
+
+Y el puente texto → Id funcionó en 11 de 11 casos observados, pero **no es inyectivo en
+general**: 13 nombres normalizados del catálogo de la Cámara apuntan a más de un Id (sobre
+8493 nombres distintos en 8518 entradas). **El puente de materias no se puede declarar
+resuelto.**
 
 ### 6.3 El SIL cierra un hueco que la Cámara tiene abierto
 

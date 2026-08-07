@@ -55,14 +55,34 @@
    oficial de `opendata.camara.cl` documenta** (12 páginas de documentación descargadas; 0
    de 12 mencionan los servicios `WS*` de `/WServices/`).
 
-### 1.2 El descriptor formal es intermitente
+### 1.2 El descriptor formal es intermitente (y no por el sufijo)
 
-`?WSDL` en mayúsculas devolvió **HTTP 500 en 3 de 3** servicios probados. `?wsdl` en
-minúsculas devolvió **200 en 5 de 5 por la mañana** (09:50) y **500 en 5 de 5 por la
-tarde** (16:47) del mismo día. Por eso el script reproductor deriva el universo del WSDL
-cuando responde y **degrada al listado `.asmx`** cuando no, declarando en la salida de qué
-superficie salió cada fila. Las dos vías coinciden en 38 operaciones y en el mismo reparto
-por servicio, lo que es una confirmación cruzada, no una redundancia.
+Tres mediciones del **mismo día**, que hay que leer juntas porque por separado inducen una
+regla falsa:
+
+| Hora | Qué se pidió | Resultado |
+|---|---|---|
+| ~09:50 | `?wsdl` minúsculas, 5 servicios | **200 en 5 de 5** |
+| ~09:50 | `?WSDL` mayúsculas, 3 servicios | **500 en 3 de 3** |
+| ~16:47 | `?wsdl` minúsculas, 5 servicios | **500 en 5 de 5** |
+| tarde (verificación adversarial) | 6 servicios × **ambos** sufijos = 12 llamadas | **200 en 12 de 12**, con **bytes idénticos entre mayúscula y minúscula** |
+
+**La hipótesis "mayúsculas falla, minúsculas funciona" queda refutada.** El sufijo no
+importa: los bytes son idénticos entre ambos. Lo que ocurre es que **el descriptor es
+intermitente en el tiempo**, y el mismo servicio devuelve 200 o 500 según el momento.
+
+Consecuencia de diseño: el script reproductor deriva el universo del WSDL cuando responde y
+**degrada al listado `.asmx`** cuando no, declarando en su salida de qué superficie salió
+cada fila. Las dos vías coinciden en **38 operaciones y en el mismo reparto por servicio**
+(divergencia 0 de 38, verificada por dos agentes independientes), lo que es confirmación
+cruzada, no redundancia.
+
+⚠️ **Advertencia metodológica que esta API obliga a hacer: HTTP 200 no prueba existencia.**
+El servidor responde 200 con una página genérica de 1286 bytes a **cualquier ruta
+inexistente**. En un sondeo de 11 nombres de operación inventados contra `WSComunes`, los 11
+devolvieron 200 — los 11 falsos positivos. Contra servicios reales, los mismos 11 nombres
+devolvieron 500. **La existencia se comprueba comparando contra un control negativo
+fabricado, no por el status.**
 
 **El script no persiste respuestas con status distinto de 200.** Cachear una página de
 error como si fuera el descriptor convierte un fallo transitorio en un dato falso que
@@ -197,23 +217,44 @@ obligatorios dentro de `JustificacionInasistencia`, sin glosa.
 | `WSComunes.asmx` | **No existe** (§1.1). Era el único camino identificado que podría haber alojado un catálogo de tipos |
 | Todas las de `WSComision` | Traen los mismos campos sin glosa; no los definen |
 
-**Lo único que sí se deriva de la fuente** (y que es un hallazgo, no una respuesta a P2):
-el código de justificación **determina** ambas rebajas. **13 códigos distintos → 13
-combinaciones `(código, RebajaAsistencia, RebajaQuorum)` distintas**, sobre 651 filas con
-justificación del caché crudo del corte 2026-07-27; sin una sola contradicción. El cotejo
-entre Sala y Comisión coincide en glosa y en ambas rebajas en **6 de 6 códigos
+**Lo que sí se deriva de la fuente — dos cosas, no una.**
+
+**(a) El código de justificación determina ambas rebajas.** La verificación adversarial
+amplió el denominador trece veces: barrido de **895 sesiones celebradas de 2020 a 2026**
+contra la API viva (de 896; 1 fallo), **138 692 filas de asistencia, 8 910 con
+justificación, 19 códigos distintos**. Resultado: **0 códigos con más de una combinación**
+`(RebajaAsistencia, RebajaQuorum)`, y **0 códigos con más de una glosa**. Ambas relaciones
+son funcionales sobre 7 años. El cotejo Sala/Comisión coincide en **6 de 6 códigos
 compartidos**.
 
-**Precisión que el veredicto exige.** Esto es "no consta en la API", no "no existe". La
-semántica de "rebajar" es reglamentaria: vive en el Reglamento de la Cámara, que es fuente
-normativa y **quedó fuera del alcance de una auditoría de APIs**. Cerrar P2 por esa vía
-sería una decisión metodológica del titular, no un dato de la fuente. **P2 sigue
-bloqueado, honestamente.**
+**(b) La glosa trae el puntero normativo.** `<Justificacion><Nombre>` cita el artículo
+aplicable en **15 de 19 códigos** del universo 2020-2026 (11 de 13 en el corte 2026): Arts.
+9, 34, 37, 40 y 42 del Reglamento, Art. 60 de la Constitución, arts. 195 / 197 bis / 207 bis
+del Código del Trabajo. Esto **no** dice qué significan los campos `Rebaja*` —el núcleo del
+veredicto aguanta— pero **sí apunta al texto exacto que zanjaría la semántica**.
+
+**Precisión que el veredicto exige.** Esto es **"no consta en la API"**, no "no existe". La
+semántica de "rebajar" es reglamentaria y **la propia fuente entrega el puntero**: cerrar P2
+requiere leer el Reglamento de la Cámara y el Art. 60 CPR, que son fuente normativa y
+quedaron fuera del alcance de una auditoría de APIs (la palabra "reglamento" no aparece en
+el encargo). Esa lectura es una decisión metodológica del titular, no un dato de la fuente.
+**P2 sigue bloqueado — pero ahora se sabe exactamente dónde está la llave.**
 
 ### 4.1 Hallazgo colateral: `RebajaQuorum` desaparece del intermedio publicado
 
-`RebajaQuorum = true` en **72 de 651** filas con justificación del caché crudo, **todas**
-de código 16 ("Desafuero (Art. 40)"), y 72 de 72 filas de código 16 lo tienen. Pero en el
+`RebajaQuorum = true` en **72 de 651** filas con justificación del caché crudo, **todas de
+código 16** ("Desafuero, Art. 40") **dentro del corte 2026**, y 72 de 72 filas de código 16
+lo tienen. Reproduce exacto en los dos cortes (20260727 y 20260803) y también contra la API
+viva del 2026-08-07 (72 filas, mismos 4 ids, sobre 11 311 filas de 73 sesiones de 2026).
+
+⚠️ **"Todas de código 16" NO es una regla general.** En el barrido histórico de 895 sesiones
+(2020-2026), `RebajaQuorum = true` aparece en **624 de 138 692** filas y con **dos** códigos:
+el **16** (Desafuero, 602 filas) y el **22** (Permiso Constitucional, Art. 60 CPR, 22 filas,
+repartidas en 2020-2025). El código 22 tiene 0 filas en 2026, por eso el corte del proyecto
+no lo muestra. **Leer esto como "RebajaQuorum equivale a desafuero" sería un error de
+generalización.**
+
+En el
 intermedio publicado `40_salidas/intermedios/asistencia_nominal.rds` (sello corte
 2026-07-27) `RebajaQuorum = true` en **0 de 486** filas con justificación, y solo aparecen
 12 de los 13 códigos: **falta el 16**. La causa medida: los 4 ids con código 16 **no están
@@ -278,7 +319,7 @@ vive en [50_veredicto_eje_tematico.md](50_documentacion/activa/50_veredicto_eje_
 
 | Prioridad | Operación | Qué agrega | Qué costaría |
 |---|---|---|---|
-| **1** | `retornarProyectoLey` — **dejar de descartar su nodo `Votaciones`** | Vínculo estructurado proyecto ↔ votación, más `TramiteConstitucional`, `TramiteReglamentario` y `Articulo` (texto legible del artículo votado) | **Cero llamadas nuevas.** Es una modificación de `parsear_contenido_proyecto()` en `10_utils.R`, que hoy bota ese nodo |
+| **1** | `retornarProyectoLey` — **dejar de descartar su nodo `Votaciones`** | Vínculo estructurado proyecto ↔ votación, más `TramiteConstitucional`, `TramiteReglamentario` y `Articulo` (texto legible del artículo votado). **Cobertura medida: el nodo viene poblado en 115 de 115 boletines votados** (723 `VotacionProyectoLey`, `Articulo` no vacío en 619 de 723); en el universo completo, 115 de 381 boletines traen al menos una votación, y los 266 restantes no han sido votados | **Cero llamadas nuevas.** Es una modificación de `parsear_contenido_proyecto()` en `10_utils.R`, que hoy bota ese nodo |
 | **2** | `retornarMaterias` | El catálogo del eje temático, 8518 entradas | 1 llamada por refresh |
 | **3** | `retornarMensajesXAnno` | Los proyectos de iniciativa del Ejecutivo, hoy ausentes del portal | 1 llamada por año + detalle por boletín nuevo |
 | **4** | `retornarSesionesXLegislatura` | El denominador `periodo_vigente` **directo de la fuente** en vez de derivado por fecha de instalación | 1 llamada; ya verificado que reproduce las 51 sesiones exactas |
