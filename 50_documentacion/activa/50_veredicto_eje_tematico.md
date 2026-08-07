@@ -91,7 +91,7 @@ no puede aportar nada que `retornarProyectoLey` no traiga**.
 
 ⚠️ **Salvedad de fragilidad que hay que dejar escrita:** que las 546 "traen boletín" es
 cierto, pero **el boletín no es un campo de la API**. Sale de una expresión regular sobre el
-texto de `Descripcion` ([34_extraer_votaciones.R:26-29](30_procesamiento/34_extraer_votaciones.R:26)).
+texto de `Descripcion` ([34_extraer_votaciones.R:26-29](../../30_procesamiento/34_extraer_votaciones.R:26)).
 El listado anual declara **12 nombres de elemento y ninguno es un vínculo a proyecto**; el
 detalle de votación declara 18 y tampoco. **La API moderna no expone el vínculo
 estructurado.** El servicio legado sí (`Boletin` en `classVotacion`), y ahí hay una mejora
@@ -258,7 +258,7 @@ positivos.
 
 | # | Paso | Qué verifica | Costo |
 |---|---|---|---|
-| **1** | **Dejar de descartar el nodo `Votaciones` de `retornarProyectoLey`** en `parsear_contenido_proyecto()` ([10_utils.R:279-292](10_utils/10_utils.R:279)) | Que aparezcan `TipoVotacionProyectoLey`, `Articulo`, `TramiteConstitucional` y `TramiteReglamentario`. **Cobertura medida: 115 de 115 boletines votados traen el nodo**, 723 votaciones, `Articulo` no vacío en 619 de 723 | **Cero llamadas nuevas.** El pipeline ya descarga esa respuesta |
+| **1** | **Dejar de descartar el nodo `Votaciones` de `retornarProyectoLey`** en `parsear_contenido_proyecto()` ([10_utils.R:279-292](../../10_utils/10_utils.R:279)) | Que aparezcan `TipoVotacionProyectoLey`, `Articulo`, `TramiteConstitucional` y `TramiteReglamentario`. **Cobertura medida: 115 de 115 boletines votados traen el nodo**, 723 votaciones, `Articulo` no vacío en 619 de 723 | **Cero llamadas nuevas.** El pipeline ya descarga esa respuesta |
 | **2** | Consumir `retornarMaterias` y persistir el catálogo de 8518 | Cardinalidad 8518, Id únicos, y **serie diacrónica**: comparar contra el corte anterior para detectar altas | 1 llamada por refresh |
 | **3** | Extractor de tramitación desde el SIL, por boletín | 381 de 381 resueltos; trámites con fecha parseable; `etapa` y `estado` no vacíos | 1 llamada por boletín; **cierra el hueco `# REVISAR` de estado de tramitación** |
 | **4** | Padrón histórico vía `retornarDiputados` | Que los **44 autores fuera del padrón** queden resueltos: hoy 155 de 199 | 1 llamada |
@@ -268,7 +268,7 @@ positivos.
 
 ⚠️ **Compuerta que hoy no existe:** las métricas que gatean el refresh semanal son 4
 (`perfiles`, `votaciones`, `mociones`, `votos_con_proyecto`, en
-[10_diff_conteos.R:57](10_utils/10_diff_conteos.R:57)). **Ninguna cubre materias ni
+[10_diff_conteos.R:57](../../10_utils/10_diff_conteos.R:57)). **Ninguna cubre materias ni
 tramitación.** Cualquier eje temático nacería sin compuerta: hay que agregarla en el mismo
 paso que lo publique.
 

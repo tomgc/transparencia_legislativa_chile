@@ -4,7 +4,7 @@
 > (sesión 16, 2026-08-07). Verificado adversarialmente por un agente independiente con código
 > propio. **Propuesta, no ejecución: este documento no toca el pipeline.**
 >
-> Detalle de fuentes en [50_catalogo_fuentes_senado.md](50_documentacion/activa/50_catalogo_fuentes_senado.md).
+> Detalle de fuentes en [50_catalogo_fuentes_senado.md](50_catalogo_fuentes_senado.md).
 
 ---
 

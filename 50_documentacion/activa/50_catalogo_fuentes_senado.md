@@ -170,7 +170,7 @@ apuntaba a un período cerrado.
 
 ## 5. Asistencia
 
-### Sí existe asistencia NOMINAL por sesión. El veredicto completo está en [50_veredicto_contrato_simetrico_senado.md](50_documentacion/activa/50_veredicto_contrato_simetrico_senado.md).
+### Sí existe asistencia NOMINAL por sesión. El veredicto completo está en [50_veredicto_contrato_simetrico_senado.md](50_veredicto_contrato_simetrico_senado.md).
 
 `GET /api/sessions/attendance` es **polimórfico**: la misma ruta devuelve cosas distintas
 según el parámetro, y **solo una de las dos satisface D2**.

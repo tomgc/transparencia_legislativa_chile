@@ -99,14 +99,14 @@ operaciones distintas en 9 líneas de 5 scripts**; las 8 están en el descriptor
 
 | Operación | Servicio | Script y línea |
 |---|---|---|
-| `retornarDiputadosPeriodoActual` | WSDiputado | [32_extraer_diputados.R:66](30_procesamiento/32_extraer_diputados.R:66) |
-| `retornarPeriodoLegislativoActual` | WSLegislativo | [33_extraer_asistencia.R:48](30_procesamiento/33_extraer_asistencia.R:48) |
-| `retornarSesionesXAnno` | WSSala | [33_extraer_asistencia.R:78](30_procesamiento/33_extraer_asistencia.R:78) |
-| `retornarSesionAsistencia` | WSSala | [33_extraer_asistencia.R:105](30_procesamiento/33_extraer_asistencia.R:105) |
-| `retornarVotacionesXAnno` | WSLegislativo | [34_extraer_votaciones.R:35](30_procesamiento/34_extraer_votaciones.R:35) |
-| `retornarVotacionDetalle` | WSLegislativo | [34_extraer_votaciones.R:51](30_procesamiento/34_extraer_votaciones.R:51) |
-| `retornarMocionesXAnno` | WSLegislativo | [35_extraer_proyectos.R:28](30_procesamiento/35_extraer_proyectos.R:28) |
-| `retornarProyectoLey` | WSLegislativo | [35_extraer_proyectos.R:56](30_procesamiento/35_extraer_proyectos.R:56) y [36_extraer_detalle_proyectos.R:75](30_procesamiento/36_extraer_detalle_proyectos.R:75) |
+| `retornarDiputadosPeriodoActual` | WSDiputado | [32_extraer_diputados.R:66](../../30_procesamiento/32_extraer_diputados.R:66) |
+| `retornarPeriodoLegislativoActual` | WSLegislativo | [33_extraer_asistencia.R:48](../../30_procesamiento/33_extraer_asistencia.R:48) |
+| `retornarSesionesXAnno` | WSSala | [33_extraer_asistencia.R:78](../../30_procesamiento/33_extraer_asistencia.R:78) |
+| `retornarSesionAsistencia` | WSSala | [33_extraer_asistencia.R:105](../../30_procesamiento/33_extraer_asistencia.R:105) |
+| `retornarVotacionesXAnno` | WSLegislativo | [34_extraer_votaciones.R:35](../../30_procesamiento/34_extraer_votaciones.R:35) |
+| `retornarVotacionDetalle` | WSLegislativo | [34_extraer_votaciones.R:51](../../30_procesamiento/34_extraer_votaciones.R:51) |
+| `retornarMocionesXAnno` | WSLegislativo | [35_extraer_proyectos.R:28](../../30_procesamiento/35_extraer_proyectos.R:28) |
+| `retornarProyectoLey` | WSLegislativo | [35_extraer_proyectos.R:56](../../30_procesamiento/35_extraer_proyectos.R:56) y [36_extraer_detalle_proyectos.R:75](../../30_procesamiento/36_extraer_detalle_proyectos.R:75) |
 
 ---
 
@@ -139,7 +139,7 @@ propia API.
 
 | Operación | Estado | Parámetros | Llave / granularidad | Cobertura probada | Eje | Utilidad potencial |
 |---|---|---|---|---|---|---|
-| `retornarProyectoLey` | **EN USO** (`35`, `36`) | `prmNumeroBoletin` (string) | `boletin`; un proyecto | **152 invocaciones** con boletines reales (17 de `proyectos_detalle.rds` + 135 de listados anuales) + 115 de los votados. Trae `Autores`, `Materias`, `Votaciones`, `Admisible`. **0 de 152 traen nodo `Estado`, `Tramitacion`, `Ley` o `FechaPublicacion`** | **ambos** | **La más infraexplotada del catálogo.** El pipeline ya la descarga para los 381 boletines y **descarta su nodo `Votaciones`** en [10_utils.R:279-292](10_utils/10_utils.R:279). Ese nodo trae `TipoVotacionProyectoLey`, `Articulo`, `TramiteConstitucional` y `TramiteReglamentario`: **costo marginal cero** |
+| `retornarProyectoLey` | **EN USO** (`35`, `36`) | `prmNumeroBoletin` (string) | `boletin`; un proyecto | **152 invocaciones** con boletines reales (17 de `proyectos_detalle.rds` + 135 de listados anuales) + 115 de los votados. Trae `Autores`, `Materias`, `Votaciones`, `Admisible`. **0 de 152 traen nodo `Estado`, `Tramitacion`, `Ley` o `FechaPublicacion`** | **ambos** | **La más infraexplotada del catálogo.** El pipeline ya la descarga para los 381 boletines y **descarta su nodo `Votaciones`** en [10_utils.R:279-292](../../10_utils/10_utils.R:279). Ese nodo trae `TipoVotacionProyectoLey`, `Articulo`, `TramiteConstitucional` y `TramiteReglamentario`: **costo marginal cero** |
 | `retornarVotacionesXProyectoLey` | NO USADA | `prmNumeroBoletin` (string) | `boletin` → votaciones | **381 boletines reales, 381 de 381 HTTP 200**, 0 fallos. 266 devuelven 0 votaciones; 115 devuelven **723 votaciones**, todas `Tipo` Valor=1. Respuesta **idéntica byte a byte** a `retornarProyectoLey` en **17 de 17** pares (md5 común) y diferencia simétrica **0** sobre 723 ids | ambos | **Ninguna adicional sobre `retornarProyectoLey`.** Consumir una sola de las dos |
 | `retornarMaterias` | NO USADA | ninguno | `materia_id`; una fila por materia | sin parámetros → **8518 nodos `Materia`**, 8518 Id únicos, todos enteros, rango 881-25716, catálogo **plano** (0 atributos, solo hijos `Id`/`Nombre`), 14 nombres vacíos. **Estabilidad: 0 altas y 0 bajas entre el 2026-07-10 y el 2026-08-07** (intersección 8518) | **temático** | **Es el catálogo del eje temático.** Una sola llamada. Su límite no es él sino el otro extremo: ver `50_veredicto_eje_tematico.md` |
 | `retornarMocionesXAnno` | **EN USO** (`35`) | `prmAnno` (int) | `boletin`; mociones del año | 7 años reales: 2016 (517), 2018 (706), 2020 (727), 2021 (603), 2022 (757), 2024 (710), 2026 (461). **0 de 517 en 2016 traen nodo `Materias`** pese a que el detalle de esos mismos boletines sí las trae | temático | Universo anual de proyectos. Responde desde al menos 2016: habilita ampliar el corpus hacia atrás |
@@ -301,7 +301,7 @@ inmutable y versionado.
 ## 7. Operaciones que sirven al eje temático
 
 Ordenadas por lo que aportan a la cadena voto → proyecto → materia. El veredicto completo
-vive en [50_veredicto_eje_tematico.md](50_documentacion/activa/50_veredicto_eje_tematico.md).
+vive en [50_veredicto_eje_tematico.md](50_veredicto_eje_tematico.md).
 
 | # | Operación | Qué eslabón aporta | Estado del aporte |
 |---|---|---|---|
