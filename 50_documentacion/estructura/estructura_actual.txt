@@ -1,14 +1,14 @@
 ============================================================
  ESTRUCTURA DEL PROYECTO
  Raíz: /Users/tomgc/Projects/transparencia_legislativa_chile
- Fecha: 2026-08-08 08:22:55
- Total: 26 carpetas, 2889 archivos
+ Fecha: 2026-08-08 14:59:21
+ Total: 26 carpetas, 2893 archivos
 ============================================================
 
 ├── 10_utils/
 │   ├── 10_configuracion.R    [6.85K]
 │   ├── 10_diff_conteos.R    [5.30K]
-│   ├── 10_utils.R    [20.83K]
+│   ├── 10_utils.R    [25.04K]
 ├── 20_insumos/
 │   ├── camara/
 │   │   ├── 20260706_asistencia_long_2026_tope-inf.rds    [3.42K]
@@ -50,6 +50,7 @@
 │   │   ├── 20260803_asistencia_long_2026_tope-inf.rds    [3.93K]
 │   │   ├── 20260803_asistencia_nominal_2026_tope-inf.rds    [14.02K]
 │   │   ├── 20260803_detalle_proyectos_2026_tope-inf.rds    [20.19K]
+│   │   ├── 20260803_detalle_proyectos_xml_2026_tope-inf.rds    [129.39K]
 │   │   ├── 20260803_diputados.rds    [8.02K]
 │   │   ├── 20260803_periodo_legislativo.rds    [136.00B]
 │   │   ├── 20260803_proyectos_long_2026_tope-inf.rds    [24.46K]
@@ -2453,14 +2454,14 @@
 │   ├── 33_extraer_asistencia.R    [17.03K]
 │   ├── 34_extraer_votaciones.R    [4.93K]
 │   ├── 35_extraer_proyectos.R    [5.70K]
-│   ├── 36_extraer_detalle_proyectos.R    [7.17K]
+│   ├── 36_extraer_detalle_proyectos.R    [13.68K]
 │   ├── 39_consolidar_json.R    [18.15K]
 ├── 40_salidas/
 │   ├── intermedios/
 │   │   ├── asistencia_ambitos.rds    [2.51K]
 │   │   ├── asistencia_nominal.rds    [10.91K]
 │   │   ├── diputados.rds    [5.24K]
-│   │   ├── proyectos_detalle.rds    [20.40K]
+│   │   ├── proyectos_detalle.rds    [81.11K]
 │   │   ├── proyectos.rds    [24.83K]
 │   │   ├── votos.rds    [139.65K]
 │   ├── json/
@@ -2632,12 +2633,12 @@
 │   │   ├── 50_catalogo_fuentes_senado.md    [24.01K]
 │   │   ├── 50_veredicto_contrato_simetrico_senado.md    [13.03K]
 │   │   ├── 50_veredicto_eje_tematico.md    [19.18K]
-│   │   ├── backlog_acumulativo.md    [50.28K]
+│   │   ├── backlog_acumulativo.md    [57.56K]
 │   │   ├── documentacion_tecnica_v1.md    [4.44K]
 │   │   ├── encargo_contrato_datos_camara_senado.md    [14.93K]
 │   │   ├── encargo_exploracion_asistencia_senado_h1bis.md    [14.97K]
 │   │   ├── encargo_exploracion_senado_v02.md    [15.56K]
-│   │   ├── ESTADO.md    [1.73K]
+│   │   ├── ESTADO.md    [1.00K]
 │   │   ├── exploracion_api_camara.md    [7.29K]
 │   │   ├── POLITICA_PROYECTO.md    [35.86K]
 │   │   ├── procedimiento_actualizacion.md    [7.41K]
@@ -2667,6 +2668,7 @@
 │   │   │   ├── 20260806_p58_resolucion_prs_log.md    [11.96K]
 │   │   │   ├── 20260807_auditoria_fuentes_log.md    [16.59K]
 │   │   │   ├── 20260807_p62_sello_intermedios_log.md    [12.95K]
+│   │   │   ├── 20260808_p63_captura_xml_log.md    [14.83K]
 │   │   │   ├── 20260808_p65_autorregeneracion_log.md    [9.49K]
 │   │   ├── muestras/
 │   │   │   ├── bcn_ficha_carter_4558.html    [80.02K]
@@ -2716,17 +2718,18 @@
 │   │   ├── 50_encargo_p48_retiro_contrato_legacy.md    [26.08K]
 │   │   ├── 50_encargo_p58_resolucion_prs.md    [12.94K]
 │   │   ├── 50_encargo_p62_sello_intermedios.md    [10.86K]
+│   │   ├── 50_encargo_p63_captura_xml_y_nodo_votaciones.md    [17.70K]
 │   │   ├── 50_encargo_p65_autorregeneracion_intermedios.md    [10.70K]
 │   │   ├── 50_medicion_p48_p52_p56.R    [9.63K]
 │   │   ├── explorar_contenido_proyectos.R    [13.60K]
 │   │   ├── medir_fuente_territorio.R    [17.76K]
 │   ├── estructura/
-│   │   ├── 20260803_185714_estructura.md    [27.38K]
-│   │   ├── 20260803_185714_estructura.txt    [27.54K]
 │   │   ├── 20260803_193310_estructura.md    [27.47K]
 │   │   ├── 20260803_193310_estructura.txt    [27.64K]
-│   │   ├── estructura_actual.md    [27.47K]
-│   │   ├── estructura_actual.txt    [27.64K]
+│   │   ├── 20260808_082255_estructura.md    [187.07K]
+│   │   ├── 20260808_082255_estructura.txt    [187.23K]
+│   │   ├── estructura_actual.md    [187.07K]
+│   │   ├── estructura_actual.txt    [187.23K]
 │   ├── traspasos/
 │   │   ├── archivo/
 │   │   │   ├── traspaso_cierre_v01.md    [13.54K]
@@ -2743,7 +2746,8 @@
 │   │   │   ├── traspaso_cierre_v12.md    [37.63K]
 │   │   │   ├── traspaso_cierre_v13.md    [43.33K]
 │   │   │   ├── traspaso_cierre_v14.md    [39.72K]
-│   │   ├── traspaso_cierre_v15.md    [40.58K]
+│   │   │   ├── traspaso_cierre_v15.md    [40.58K]
+│   │   ├── traspaso_cierre_v16.md    [45.36K]
 ├── docs/
 │   ├── assets/
 │   │   ├── fonts/
@@ -2918,7 +2922,7 @@
 │   ├── index.html    [70.61K]
 ├── 00_escanear_proyecto.R    [8.14K]
 ├── 00_run_all.R    [5.82K]
-├── CLAUDE.md    [19.46K]
+├── CLAUDE.md    [20.17K]
 ├── README.md    [3.63K]
 
 ============================================================
@@ -2928,8 +2932,8 @@
   .xml             1668
   .json            949
   .html             75
-  .rds              72
-  .md               66
+  .rds              73
+  .md               69
   .R                24
   .csv              12
   .txt              11

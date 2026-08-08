@@ -106,7 +106,8 @@ estático (Fase 2) visualiza en el navegador.
    boletines votados, **723** nodos, `articulo` **619/723**. La captura anterior
    quedó intacta (43/43 md5). Portal sin cambios: **156/156** excluido
    `metadatos.generado`. 12/12 criterios, panel adversarial 4/4. Rama
-   `feat/captura-xml-y-nodo-votaciones` (sin merge, gate del titular).
+   `feat/captura-xml-y-nodo-votaciones`, **mergeada en `main` por el PR #7**
+   (`17af73c`).
 2. **Autorregeneración de intermedios (2026-08-08, P-65):** `run_all()` deja de
    depender de la memoria del operador para resolver el desfase que documentó P-62
    (los intermedios están gitignored, el corte sí viaja, y toda copia local queda
