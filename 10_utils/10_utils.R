@@ -239,6 +239,132 @@ con_cache <- function(nombre_cache, fn_descarga, tope = NULL, origen = "cache") 
   obj
 }
 
+# ---- Guarda de alineamiento de los intermedios (fix sesion 16, P-65) --------
+# EL PROBLEMA (diagnosticado en P-62): los intermedios .rds estan gitignored y el
+# workflow semanal NO los commitea, pero SI commitea el avance de CORTE_FECHA.
+# Por eso toda copia local queda desalineada despues de cada merge del bot y el
+# 39 se detiene en su compuerta de procedencia (validar_corte).
+# LA CORRECCION NO ES DEBILITAR ESA COMPUERTA -- queda intacta y sigue haciendo
+# stop(). Esto actua AGUAS ARRIBA: el orquestador detecta la condicion y hace,
+# con aviso y automaticamente, lo que hasta ahora tenia que recordar el operador
+# (correr 32-36 antes del 39).
+# INVARIANTE: la regeneracion automatica NO baja nada de la red. Procede solo si
+# la captura cruda del corte vigente ya esta en 20_insumos/camara/ (esa si la
+# commitea el workflow). Si falta, stop() con el diagnostico y el comando exacto.
+# Alcance: vive en el orquestador, no dentro del 39. Invocar el 39 suelto con
+# intermedios desalineados sigue fallando, y eso es correcto.
+
+# Los 6 intermedios que consume el 39 (39_consolidar_json.R:49-58).
+INTERMEDIOS_PIPELINE <- c("diputados", "asistencia_nominal", "asistencia_ambitos",
+                          "votos", "proyectos", "proyectos_detalle")
+
+# Capturas crudas que cada extractor necesita para dar cache hit. Las claves
+# replican las que arma cada script (32:65; 33:47 y 33:76; 34:33; 35:26; 36:70);
+# la RUTA la construye ruta_cache(), que sigue siendo el unico lugar que conoce
+# la forma de la clave. Depende de las globales de config (ANIO_PROCESO, MAX_*),
+# disponibles en tiempo de ejecucion igual que en con_cache().
+capturas_crudas_de_paso <- function(id) {
+  switch(as.character(id),
+    "32" = ruta_cache("diputados"),
+    "33" = c(ruta_cache("periodo_legislativo"),
+             ruta_cache(sprintf("asistencia_nominal_%d", ANIO_PROCESO),
+                        MAX_SESIONES_DETALLE)),
+    "34" = ruta_cache(sprintf("votos_long_%d", ANIO_PROCESO), MAX_VOTACIONES_DETALLE),
+    "35" = ruta_cache(sprintf("proyectos_long_%d", ANIO_PROCESO), MAX_PROYECTOS_DETALLE),
+    "36" = ruta_cache(sprintf("detalle_proyectos_%d", ANIO_PROCESO), Inf),
+    stop(sprintf("capturas_crudas_de_paso: el paso %s no declara captura cruda.", id),
+         call. = FALSE))
+}
+
+# Corte que declara un intermedio, SIN abortar: NA si falta el archivo o no trae
+# sello. Reusa leer_sellado() (no se escribe un segundo lector de sello); su
+# stop() se captura porque aqui "no legible" ES una de las condiciones que hay
+# que diagnosticar, no un fallo.
+corte_declarado_por <- function(nombre) {
+  s <- tryCatch(leer_sellado(ruta_salidas("intermedios", paste0(nombre, ".rds")))$sello,
+                error = function(e) NULL)
+  if (is.null(s) || is.null(s$corte_fecha)) NA_character_
+  else trimws(as.character(s$corte_fecha))
+}
+
+# Guarda propiamente tal. `pasos` es la sublista de PASOS con los extractores
+# (id + ruta), en orden: 32 escribe el roster que lee el 33, y 36 lee lo que
+# escriben 34 y 35. `root` es la raiz del proyecto (las rutas de PASOS son
+# relativas a ella). Devuelve TRUE si regenero, FALSE si no hizo falta.
+regenerar_intermedios_si_desalineados <- function(pasos, root, corte = CORTE_FECHA) {
+  corte <- trimws(as.character(corte))
+  declarados   <- vapply(INTERMEDIOS_PIPELINE, corte_declarado_por, character(1))
+  desalineados <- names(declarados)[is.na(declarados) | declarados != corte]
+
+  # 1) Los 6 declaran el corte vigente: no hace nada y no imprime ruido.
+  if (length(desalineados) == 0) return(invisible(FALSE))
+
+  # 2) Solo se regenera desde la captura cruda ya versionada, jamas desde la red.
+  faltantes <- lapply(pasos, function(p) {
+    cs <- capturas_crudas_de_paso(p$id); cs[!file.exists(cs)]
+  })
+  names(faltantes) <- vapply(pasos, function(p) p$ruta, character(1))
+  faltantes <- faltantes[lengths(faltantes) > 0]
+  if (length(faltantes) > 0)
+    stop(sprintf(paste0(
+      "run_all: %d de %d intermedios NO corresponden al corte vigente (%s): %s.\n",
+      "  No se pueden regenerar: falta la captura cruda de ese corte en ",
+      "20_insumos/camara/ (%d archivo(s)): %s.\n",
+      "  La regeneracion automatica no descarga nada de la red (invariante del ",
+      "proyecto), asi que este paso no puede resolverse solo.\n",
+      "  Corre CON RED, desde la raiz del proyecto y en este orden:\n%s\n",
+      "  y despues reintenta: source(\"00_run_all.R\"); run_all()"),
+      length(desalineados), length(INTERMEDIOS_PIPELINE), corte,
+      paste(desalineados, collapse = ", "),
+      length(unlist(faltantes, use.names = FALSE)),
+      paste(basename(unlist(faltantes, use.names = FALSE)), collapse = ", "),
+      paste(sprintf("    source(\"%s\")", names(faltantes)), collapse = "\n")),
+      call. = FALSE)
+
+  # 3) Anuncio: que se detecto, que se va a hacer y por que. Nada silencioso.
+  log_msg(sprintf("Intermedios desalineados con el corte vigente (%s): %d de %d.",
+                  corte, length(desalineados), length(INTERMEDIOS_PIPELINE)),
+          "WARN", "guarda_intermedios")
+  log_msg(sprintf("Sello declarado por artefacto: %s.",
+                  paste(sprintf("%s=%s", names(declarados),
+                                ifelse(is.na(declarados), "ausente o sin sello", declarados)),
+                        collapse = "; ")),
+          "WARN", "guarda_intermedios")
+  log_msg(paste0("Causa conocida (P-62): los intermedios no se versionan y el corte si, ",
+                 "asi que toda copia local queda atrasada tras un refresh del bot."),
+          "WARN", "guarda_intermedios")
+  log_msg(sprintf(paste0("Regenerando los pasos %s desde la captura cruda del corte %s ",
+                         "(cache hit, sin red). CORTE_FECHA no se toca."),
+                  paste(vapply(pasos, function(p) p$id, integer(1)), collapse = ", "), corte),
+          "WARN", "guarda_intermedios")
+
+  # 4) Regeneracion con cache forzado: aunque el operador tenga camara.refrescar
+  #    o REFRESCAR_API en TRUE, esta corrida automatica no golpea la API.
+  opciones_previas <- options(camara.refrescar = FALSE)
+  on.exit(options(opciones_previas), add = TRUE)
+  for (p in pasos) {
+    tryCatch(
+      source(file.path(root, p$ruta), echo = FALSE, chdir = TRUE),
+      error = function(e)
+        stop(sprintf("guarda_intermedios: la regeneracion del paso %d (%s) fallo: %s",
+                     p$id, p$ruta, conditionMessage(e)), call. = FALSE))
+  }
+
+  # 5) Se vuelve a verificar: si sigue desalineado, no se continua.
+  declarados <- vapply(INTERMEDIOS_PIPELINE, corte_declarado_por, character(1))
+  malos <- names(declarados)[is.na(declarados) | declarados != corte]
+  if (length(malos) > 0)
+    stop(sprintf(paste0("guarda_intermedios: tras regenerar, %d de %d intermedios siguen ",
+                        "desalineados con el corte %s (%s). No se continua; revisa la ",
+                        "captura cruda de 20_insumos/camara/."),
+                 length(malos), length(INTERMEDIOS_PIPELINE), corte,
+                 paste(malos, collapse = ", ")), call. = FALSE)
+  log_msg(sprintf("Intermedios regenerados: %d de %d al corte %s. Sigue el pipeline.",
+                  length(INTERMEDIOS_PIPELINE), length(INTERMEDIOS_PIPELINE), corte),
+          origen = "guarda_intermedios")
+  invisible(TRUE)
+}
+
 # ---- Coalesce nulo/NA (helper generico) -------------------------------------
 `%||%` <- function(a, b) if (is.null(a) || length(a) == 0 || is.na(a)) b else a
 
