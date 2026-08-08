@@ -41,6 +41,16 @@ _archivo/
 # ===== Intermedios regenerables (cache tidy; no son entregable ni fuente) =====
 40_salidas/intermedios/*.rds
 
+# ===== Cache de exploracion de fuentes (auditoria de la sesion 16) ===========
+# 20_insumos/camara/ SI se versiona (es el insumo del pipeline, dato publico
+# agregado). Este directorio es otra cosa: respuestas crudas de sondeo, que
+# incluyen endpoints de padron del Senado con EMAIL y FONO nominales de los
+# parlamentarios (157 correos y 53 telefonos no vacios solo en el roster
+# vigente, medido el 2026-08-07). Agregar eso a un repositorio PUBLICO no es lo
+# mismo que consultarlo en la fuente. La reproducibilidad la da el script
+# 50_documentacion/andamios/20260807_sondeo_fuentes.R, no los bytes cacheados.
+20_insumos/exploracion/
+
 # ===== Configuracion LOCAL de Claude Code (P-55) =============================
 # settings.local.json es configuracion de la maquina del titular, no del
 # proyecto: por convencion de la herramienta el sufijo .local ya declara que no
