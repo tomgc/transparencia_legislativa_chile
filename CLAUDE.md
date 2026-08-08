@@ -122,7 +122,8 @@ estático (Fase 2) visualiza en el navegador.
    `validar_corte()`, `leer_sellado()` y `sellar()` **sin tocar** — la guarda actúa
    aguas arriba. 4 escenarios probados 4/4; `20_insumos/camara/` intacto (43/43 md5);
    dato publicado idéntico (156/156, excluido `metadatos.generado`). Rama
-   `fix/autorregeneracion-intermedios` (sin merge, gate del titular).
+   `fix/autorregeneracion-intermedios`, **mergeada en `main` por el PR #6**
+   (`f1584b8`).
 3. **Capa 3 — asistencia simétrica (2026-07-25):** el `33` deja de descartar el
    nodo `Justificacion` y persiste dos intermedios nuevos: `asistencia_nominal.rds`
    (una fila por diputado × sesión, con fecha, tipo de sesión, código y glosa de
