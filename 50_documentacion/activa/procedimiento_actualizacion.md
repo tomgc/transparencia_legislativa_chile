@@ -74,84 +74,70 @@ source(here::here("00_run_all.R")); run_all(only = 39)
 ```
 Debe reproducir los 155 perfiles idénticos salvo el timestamp `generado`.
 
-### ⚠️ Después de mergear un refresh del bot, ese paso NO basta (P-62)
+### Después de mergear un refresh del bot, el orquestador se realinea solo (P-65)
 
-Si lo último que movió el corte fue el **workflow semanal**, tu copia local queda
-desalineada y `run_all(only = 39)` **falla con `stop()`** antes de escribir nada:
+Los intermedios de `40_salidas/intermedios/` **no se versionan** (`.gitignore`), y
+el workflow commitea `10_utils/10_configuracion.R`, `20_insumos/camara`,
+`40_salidas/json` y `docs/data` — **no los intermedios**. Al mergear un refresh,
+`CORTE_FECHA` avanza en tu árbol pero los `.rds` locales siguen sellados con el
+corte de tu última corrida local (diagnóstico de P-62).
+
+**Desde P-65 no hay paso manual que recordar.** `run_all()` — en cualquiera de sus
+formas, incluida `run_all(only = 39)` — pasa por una guarda
+(`regenerar_intermedios_si_desalineados()`, invocada en `00_run_all.R`) que compara
+el sello de los 6 intermedios contra `CORTE_FECHA` y, si detecta el desfase,
+**regenera los pasos 32–36 antes de seguir**, anunciándolo por consola:
 
 ```
-validar_corte: 'diputados' declara corte AAAA-MM-DD, pero el corte vigente
-(CORTE_FECHA) es AAAA-MM-DD. El intermedio NO corresponde al corte publicado;
-regenera los pasos 32-36 con CORTE_FECHA=AAAA-MM-DD.
+[guarda_intermedios] [WARN] Intermedios desalineados con el corte vigente (AAAA-MM-DD): 6 de 6.
+[guarda_intermedios] [WARN] Regenerando los pasos 32, 33, 34, 35, 36 desde la captura
+                            cruda del corte AAAA-MM-DD (cache hit, sin red).
 ```
 
-**Por qué pasa, y por qué no es un bug del sello.** Los intermedios de
-`40_salidas/intermedios/` **no se versionan** (`.gitignore`), y el workflow
-commitea `10_utils/10_configuracion.R`, `20_insumos/camara`, `40_salidas/json` y
-`docs/data` — **no los intermedios**. Al mergear el refresh, `CORTE_FECHA` avanza
-en tu árbol pero los `.rds` locales siguen sellados con el corte de tu última
-corrida local. La compuerta está haciendo exactamente su trabajo.
+Con los sellos alineados no hace nada ni imprime: es idempotente.
 
-**Qué correr, en este orden:**
+**No genera tráfico.** La captura cruda del corte vigente sí viene commiteada en
+`20_insumos/camara/`, así que los cinco extractores dan *cache hit* (medido en
+P-65: **6 de 6 cache hit, 0 llamadas a la API, ~1 s**). La guarda fuerza el caché
+durante esa regeneración aunque `camara.refrescar` esté en `TRUE`.
 
-```r
-source(here::here("00_run_all.R"))
-run_all(from = 32, to = 36)   # re-sella por construccion
-run_all(only  = 39)
-```
+**Cuándo falla ruidosamente, y qué hacer entonces.** Si los intermedios están
+desalineados **y** falta la captura cruda de ese corte en `20_insumos/camara/`, la
+guarda **no descarga por su cuenta**: se detiene con `stop()` nombrando los
+archivos que faltan y los `source()` exactos a correr con red. Correrlos y
+reintentar `run_all()` es todo el procedimiento.
 
-El primer paso **no genera tráfico**: la captura cruda del corte vigente ya viene
-commiteada en `20_insumos/camara/`, así que los cinco extractores dan *cache hit*
-(medido en P-62: **0,9 s, 5 de 5 cache hit, 0 llamadas a la API**).
-
-**No se resuelve tocando `CORTE_FECHA` ni relajando `validar_corte()`.** Eso
-apagaría la única señal que distingue "mi copia está atrasada" de "el dato está
-mal".
+**Sigue sin resolverse tocando `CORTE_FECHA` ni relajando `validar_corte()`.** La
+guarda actúa **aguas arriba** de esa compuerta, que queda intacta: invocar el `39`
+suelto (`source("30_procesamiento/39_consolidar_json.R")`) con intermedios
+desalineados sigue fallando, y eso es correcto.
 
 ---
 
-## Pendiente 2 — Automatización con GitHub Actions (NO EJECUTAR AÚN)
+## Automatización con GitHub Actions (OPERATIVA desde 2026-07-10)
 
-> **Esqueleto ilustrativo, no operativo.** No crear el `.yml` todavía: depende de
-> que exista un repositorio remoto (pendiente 2 del traspaso, fuera de este
-> encargo). Se documenta aquí solo para fijar la forma que tendría.
+> El workflow **existe y corre**: `.github/workflows/refresh-semanal.yml`. Ese
+> archivo es la fuente de verdad; lo de aquí abajo es su descripción. Hasta P-65
+> esta sección seguía rotulada *"Pendiente 2 — NO EJECUTAR AÚN"* y describía como
+> pseudocódigo un workflow que llevaba un mes en producción.
 
-La idea: el mismo pipeline R, disparado por un `cron`, donde lo ÚNICO que la
-automatización aporta es **calcular el corte** (la fecha de hoy) y pasarlo como
-`CORTE_FECHA`; todo lo demás (extracción, consolidación, publicación a `docs/`)
-es el `run_all()` ya existente.
+El mismo pipeline R, disparado por `cron`, donde lo ÚNICO que la automatización
+aporta es **calcular el corte** (la fecha de hoy) e inyectarlo como `CORTE_FECHA`;
+todo lo demás (extracción, consolidación, publicación a `docs/`) es el `run_all()`
+ya existente.
 
-Pseudocódigo del workflow (prosa, no archivo real):
+| Qué | Cómo, en el workflow real |
+|---|---|
+| **Disparadores** | `cron: "0 11 * * 1"` (lunes 11:00 UTC = 07:00 en Chile todo el año) y `workflow_dispatch` manual |
+| **Corte** | `CORTE=$(date +%Y-%m-%d)`, inyectado con `sed` sobre la única línea `^CORTE_FECHA <- ` de `10_utils/10_configuracion.R` |
+| **Pipeline** | `Rscript -e 'source("00_run_all.R"); run_all()'` |
+| **Gate de conteos** | `10_utils/10_diff_conteos.R` contra el JSON del checkout (copiado a `runner.temp` antes de correr). Si `gate == "FAIL"`, `quit(status = 1)`: el job muere **sin rama ni PR** |
+| **Publicación** | El bot **no escribe en `main`** (P-22): commitea en `refresh/<corte>` (`git add` acotado a `10_utils/10_configuracion.R`, `20_insumos/camara`, `40_salidas/json`, `docs/data`) y abre un PR con `gh pr create`. El titular lo revisa y mergea a mano |
+| **Pages** | Republica `docs/` **al mergear el PR**, no al terminar el job |
+| **Credenciales** | `GITHUB_TOKEN` automático (`contents: write`, `pull-requests: write`). Sin PAT |
 
-```
-# .github/workflows/refresh-semanal.yml  (NO CREAR AUN — pendiente 2)
-nombre: refresh semanal del corpus
-disparadores:
-  - cron: "0 12 * * 1"        # lunes 12:00 UTC (semanal)
-  - manual (workflow_dispatch) # para correr a demanda
-
-trabajo refrescar:
-  runs-on: ubuntu-latest
-  pasos:
-    1. checkout del repo
-    2. instalar R + paquetes (httr, xml2, dplyr, jsonlite, fs, here, rprojroot)
-    3. calcular el corte:
-         CORTE=$(date +%Y-%m-%d)
-         # inyectarlo en 10_configuracion.R (sed) o exponerlo como variable de
-         # entorno que el script lea; el corte es el UNICO parametro que cambia.
-    4. correr el pipeline:
-         Rscript -e 'source("00_run_all.R"); run_all()'
-    5. verificacion de conteos (gate): correr 10_diff_conteos.R contra el
-         JSON del commit anterior (git show HEAD:... a un tmp) y fallar el job
-         si el diff supera un umbral sospechoso (caida de perfiles, etc.).
-    6. commit + push del refresh:
-         git commit -m "data: refresh corte $CORTE" && git push
-         # (requiere remoto + token con permisos de escritura — pendiente 2)
-    7. (GitHub Pages publica docs/ automaticamente al mergear a main)
-```
-
-Diferencia clave con el modo manual: en Actions el corte se **calcula**
-(`date`) en vez de editarse a mano; el resto es idéntico. La verificación de
-conteos (paso 5) es el mismo `10_diff_conteos.R`, aquí como compuerta que puede
-abortar el push si algo se ve mal. Nada de esto se implementa hasta que exista
-el remoto (pendiente 2).
+Diferencia con el modo manual: en Actions el corte se **calcula** en vez de
+editarse a mano, y el gate de conteos puede abortar la publicación. Consecuencia
+para tu copia local: el merge de ese PR mueve `CORTE_FECHA` pero **no** los
+intermedios, que están gitignored — el desfase que la guarda de P-65 resuelve sola
+(ver la sección anterior).
