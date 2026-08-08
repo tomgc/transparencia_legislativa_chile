@@ -271,7 +271,13 @@ capturas_crudas_de_paso <- function(id) {
                         MAX_SESIONES_DETALLE)),
     "34" = ruta_cache(sprintf("votos_long_%d", ANIO_PROCESO), MAX_VOTACIONES_DETALLE),
     "35" = ruta_cache(sprintf("proyectos_long_%d", ANIO_PROCESO), MAX_PROYECTOS_DETALLE),
-    "36" = ruta_cache(sprintf("detalle_proyectos_%d", ANIO_PROCESO), Inf),
+    # P-63: la captura del 36 es ahora el XML crudo bajo clave PROPIA. La anterior
+    # (detalle_proyectos_<anio>) guardaba el derivado del parser, asi que solo
+    # permitia reproducir los campos que el parser de ese dia conservo: con ella
+    # la guarda prometia regenerar sin red algo que no podia. Sus .rds siguen en
+    # 20_insumos/camara/ y no se borran (dato crudo inmutable), solo dejaron de
+    # leerse; mismo criterio que los de asistencia_long tras el retiro del legacy.
+    "36" = ruta_cache(sprintf("detalle_proyectos_xml_%d", ANIO_PROCESO), Inf),
     stop(sprintf("capturas_crudas_de_paso: el paso %s no declara captura cruda.", id),
          call. = FALSE))
 }
@@ -400,8 +406,26 @@ attr_nodo <- function(nodo, xpath, attr) {
 # algunos proyectos mas avanzados las traen (ver diagnostico
 # 50_documentacion/andamios/logs/20260709_diagnostico_contenido_legible.md).
 # Cuando no hay materias se devuelve un data.frame de 0 filas, NUNCA se fabrica.
-# Compartido por 35 (proyectos autorados) y 36 (proyectos votados) -> DRY.
+# Consumidor UNICO: 36_extraer_detalle_proyectos.R:82. El 35 NO la invoca: parsea
+# ./Autores/ParlamentarioAutor por su cuenta (35:58-61). El comentario anterior la
+# declaraba "compartida por 35 y 36 -> DRY", lo que era falso; medido en P-63 (G1)
+# con un barrido de los 24 archivos .R del repositorio: 1 definicion, 1 invocacion.
 # El id de materia se conserva como character (invariante de llave, POLITICA 5.3.6).
+#
+# NODO Votaciones (P-63): hasta la sesion 17 esta funcion lo descartaba, y como el
+# 36 cacheaba SU RETORNO en vez del XML, el nodo no quedaba en disco y rescatarlo
+# exigia volver a la red. Ahora se conserva. Forma real medida sobre 44 elementos
+# (G6), no supuesta: el contenedor ./Votaciones viene SIEMPRE presente y sus hijos
+# son <VotacionProyectoLey> con 14 campos. Presencia de contenedor NO es presencia
+# de dato (A62): en los boletines no votados viene presente y vacio, y por eso se
+# cuentan elementos, no nodos.
+# De los 14 campos, 6 traen el codigo de dominio en un atributo (Valor en cuatro,
+# Id en dos) y la glosa en el texto: se conservan AMBOS, con el patron
+# attr_nodo() + texto_nodo() que ya usan el 33 (tipo_valor/tipo_glosa) y el 34.
+# Los valores se extraen SIN transformar (character tal cual la fuente, "" -> NA);
+# la unica excepcion es el id de votacion, que pasa por como_llave() por ser llave.
+# No se convierte a entero ni se trunca la fecha: cualquier coercion es una
+# decision del consumidor, no del extractor.
 parsear_contenido_proyecto <- function(doc) {
   root <- xml2::xml_root(doc)
   ms <- xml2::xml_find_all(root, ".//Materias/Materia")
@@ -413,6 +437,55 @@ parsear_contenido_proyecto <- function(doc) {
   list(
     nombre          = texto_nodo(root, "./Nombre"),
     tipo_iniciativa = texto_nodo(root, "./TipoIniciativa"),  # texto legible ("Mocion"/"Mensaje")
-    materias        = materias
+    materias        = materias,
+    votaciones      = parsear_votaciones_proyecto(root)
+  )
+}
+
+# Votaciones de un ProyectoLey, en el orden en que la fuente las entrega.
+# Devuelve SIEMPRE las 20 columnas: un data.frame de 0 filas cuando el contenedor
+# viene vacio, nunca NULL y nunca fabricado. Separado de parsear_contenido_proyecto()
+# para que el esquema de columnas viva en un solo sitio y el caso vacio no lo duplique.
+VOTACIONES_COLUMNAS <- c(
+  "votacion_id", "descripcion", "fecha",
+  "total_si", "total_no", "total_abstencion", "total_dispensado", "articulo",
+  "quorum_valor", "quorum_glosa", "resultado_valor", "resultado_glosa",
+  "tipo_valor", "tipo_glosa", "tipo_votacion_valor", "tipo_votacion_glosa",
+  "tramite_constitucional_id", "tramite_constitucional_glosa",
+  "tramite_reglamentario_id", "tramite_reglamentario_glosa")
+
+parsear_votaciones_proyecto <- function(root) {
+  vs <- xml2::xml_find_all(root, "./Votaciones/VotacionProyectoLey")
+  if (length(vs) == 0) {
+    vacio <- as.data.frame(
+      stats::setNames(rep(list(character(0)), length(VOTACIONES_COLUMNAS)),
+                      VOTACIONES_COLUMNAS),
+      stringsAsFactors = FALSE)
+    return(vacio)
+  }
+  txt <- function(xp) vapply(vs, function(v) texto_nodo(v, xp) %||% NA_character_, character(1))
+  att <- function(xp, a) vapply(vs, function(v) attr_nodo(v, xp, a), character(1))
+  data.frame(
+    votacion_id       = como_llave(txt("./Id")),   # llave -> character (POLITICA 5.3.6)
+    descripcion       = txt("./Descripcion"),
+    fecha             = txt("./Fecha"),            # sin truncar: la fuente da fecha y hora
+    total_si          = txt("./TotalSi"),
+    total_no          = txt("./TotalNo"),
+    total_abstencion  = txt("./TotalAbstencion"),
+    total_dispensado  = txt("./TotalDispensado"),
+    articulo          = txt("./Articulo"),
+    quorum_valor      = att("./Quorum", "Valor"),
+    quorum_glosa      = txt("./Quorum"),
+    resultado_valor   = att("./Resultado", "Valor"),
+    resultado_glosa   = txt("./Resultado"),
+    tipo_valor        = att("./Tipo", "Valor"),
+    tipo_glosa        = txt("./Tipo"),
+    tipo_votacion_valor = att("./TipoVotacionProyectoLey", "Valor"),
+    tipo_votacion_glosa = txt("./TipoVotacionProyectoLey"),
+    tramite_constitucional_id    = att("./TramiteConstitucional", "Id"),
+    tramite_constitucional_glosa = txt("./TramiteConstitucional"),
+    tramite_reglamentario_id     = att("./TramiteReglamentario", "Id"),
+    tramite_reglamentario_glosa  = txt("./TramiteReglamentario"),
+    stringsAsFactors = FALSE
   )
 }
