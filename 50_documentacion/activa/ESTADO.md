@@ -3,16 +3,30 @@ slug: transparencia_legislativa_chile
 nombre_real: Transparencia Legislativa Chile
 categoria: activo
 semaforo: activo
-sesion_actual: v16
+sesion_actual: v17
 ultima_actividad: 2026-08-08
 maneja_sensibles: false
-tipo_pendiente: nuevo
+tipo_pendiente: deuda_tecnica
 ---
 ## En que vamos
-La sesion 16 cerro cinco pendientes (P-58, P-61, P-62, P-64, P-65): el contrato legacy de asistencia quedo retirado en produccion, la auditoria de fuentes Camara/Senado se ejecuto completa con panel adversarial, y el orquestador gano una guarda que regenera los intermedios desalineados sin red. `main` esta en `f1584b8`, con 0 PRs abiertos, 0 bugs activos y `run_all()` corriendo completo en 12,1 s. El eje tematico quedo medido: NO por materias (la cadena voto - proyecto - materia cierra en 1,90 %), pero la entidad `proyecto` con tramitacion si es construible con cobertura 381 de 381.
+
+El paso 36 guardaba un derivado del parser dentro de la carpeta de dato crudo, asi
+que el nodo `Votaciones` que la API ya entrega se perdia al parsear y la guarda de
+autorregeneracion prometia regenerar sin red algo que no podia. Se corrigio de
+raiz: la captura ahora es el XML tal cual bajo clave propia, el parser conserva los
+14 campos reales del nodo, y el pipeline regenera los seis intermedios con 0
+llamadas HTTP. El artefacto publicado quedo identico en 156 de 156 archivos
+excluido el campo volatil. Una medicion posterior probo que el `Id` de votacion
+particiona exactamente el universo (546 de 546 de tipo `Proyecto de Ley`), lo que
+da a la entidad `proyecto` una llave directa donde hoy hay un regex sobre texto
+libre.
 
 ## Proximo paso
-P-63: dejar de descartar el nodo `Votaciones` que `retornarProyectoLey` ya trae y `parsear_contenido_proyecto()` descarta, sin ninguna llamada nueva a la API.
+
+Resolver P-74: el nodo rescatado crece con el tiempo y el sello valida corte
+declarado y no contenido, asi que hay al menos un evento posterior al corte pasando
+las seis compuertas sin ruido; es precondicion de P-66.
 
 ## Bloqueantes
-ninguno
+
+Ninguno. 0 bugs activos, `main` sin PRs pendientes y `run_all()` completo en 12,4 s.
