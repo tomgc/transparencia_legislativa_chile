@@ -92,7 +92,22 @@ estático (Fase 2) visualiza en el navegador.
 
 ## Últimos cambios (máx. 5, más recientes primero)
 
-1. **Autorregeneración de intermedios (2026-08-08, P-65):** `run_all()` deja de
+1. **Captura XML cruda del 36 y nodo `Votaciones` (2026-08-08, P-63):** el paso 36
+   cacheaba el tibble **ya parseado** dentro de la carpeta de dato crudo, así que el
+   nodo `Votaciones` se perdía al parsear y la guarda de P-65 prometía regenerar sin
+   red algo que solo podía reproducir con los campos que el parser de ese día
+   conservó. Ahora persiste el XML de respuesta tal cual bajo clave **propia**
+   (`detalle_proyectos_xml_<anio>`, 0,126 MB por corte), con tres estados
+   distinguibles (resuelto / no reconocido / error de red), y deriva el tibble desde
+   esa captura. `parsear_contenido_proyecto()` (`10_utils.R:429`) deja de descartar
+   `Votaciones`: **14 campos reales medidos**, no los 4 heredados, con código y glosa
+   en los 6 que traen atributo. `proyectos_detalle.rds` mantiene una fila por boletín
+   y suma `n_votaciones` más un list-col de 20 columnas. Cobertura: **115/115**
+   boletines votados, **723** nodos, `articulo` **619/723**. La captura anterior
+   quedó intacta (43/43 md5). Portal sin cambios: **156/156** excluido
+   `metadatos.generado`. 12/12 criterios, panel adversarial 4/4. Rama
+   `feat/captura-xml-y-nodo-votaciones` (sin merge, gate del titular).
+2. **Autorregeneración de intermedios (2026-08-08, P-65):** `run_all()` deja de
    depender de la memoria del operador para resolver el desfase que documentó P-62
    (los intermedios están gitignored, el corte sí viaja, y toda copia local queda
    desalineada tras cada merge del bot). Nueva guarda
@@ -107,7 +122,7 @@ estático (Fase 2) visualiza en el navegador.
    aguas arriba. 4 escenarios probados 4/4; `20_insumos/camara/` intacto (43/43 md5);
    dato publicado idéntico (156/156, excluido `metadatos.generado`). Rama
    `fix/autorregeneracion-intermedios` (sin merge, gate del titular).
-2. **Capa 3 — asistencia simétrica (2026-07-25):** el `33` deja de descartar el
+3. **Capa 3 — asistencia simétrica (2026-07-25):** el `33` deja de descartar el
    nodo `Justificacion` y persiste dos intermedios nuevos: `asistencia_nominal.rds`
    (una fila por diputado × sesión, con fecha, tipo de sesión, código y glosa de
    justificación y las dos rebajas) y `asistencia_ambitos.rds` (6 conteos + 2 tasas
@@ -120,7 +135,7 @@ estático (Fase 2) visualiza en el navegador.
    pero no entran en ninguna fórmula (semántica no documentada). `docs/data`
    +5,85 %. Panel adversarial 4/4. Rama `feat/capa3-asistencia` (sin merge, gate
    del titular); `docs/index.html` sin tocar.
-3. **Capa 2 — territorio (2026-07-24):** `distrito` y `region` dejan de ser `NA`:
+4. **Capa 2 — territorio (2026-07-24):** `distrito` y `region` dejan de ser `NA`:
    155/155 en índice y perfiles, 28 distritos, suma 155 escaños. El `32` hace
    `left_join` contra dos insumos estáticos versionados en `20_insumos/territorio/`
    (crosswalk `diputado_id`→distrito y catálogo distrito→región contra la Ley
@@ -129,7 +144,7 @@ estático (Fase 2) visualiza en el navegador.
    `idCamaraDeDiputados` == `diputado_id`); 4 ids que BCN reusa entre persona
    histórica y vigente se desambiguan por período. Panel adversarial: 4/4 cuadra.
    Rama `feat/territorio-crosswalk` (sin merge, gate del titular).
-4. **Presentación de votos + región/distrito (2026-07-15):** Capa 1 de la ruta de
+5. **Presentación de votos + región/distrito (2026-07-15):** Capa 1 de la ruta de
    la sesión 8, solo `docs/index.html`. Botón `Ver los N votos` / `Ver menos` que
    expande la lista completa en el perfil (antes recortaba a 16 de hasta 717; el
    JSON ya venía entero al cliente, 9 ms de re-render). Región/distrito dejan de
@@ -137,12 +152,6 @@ estático (Fase 2) visualiza en el navegador.
    `region`/`distrito` y degradan a "Sin dato" solo si faltan — invisible hoy
    (155/155 `null`), habilitante para la Capa 2. Rama `feat/presentacion-votos`
    (sin merge, gate del titular).
-5. **Workflow GitHub Actions (2026-07-10):** `.github/workflows/refresh-semanal.yml`
-   (cron lunes 11:00 UTC + `workflow_dispatch`) automatiza el refresh semanal:
-   calcula el corte con `date`, lo inyecta en `CORTE_FECHA` vía `sed`, corre
-   `run_all()`, y un gate (`10_diff_conteos.R`) aborta antes de commitear/pushear
-   si `perfiles < 155` o cae cualquier métrica. Probado local de punta a punta;
-   rama `feature/github-actions-refresh` (sin merge, gate del titular).
 
 <!-- CANONICO_SLEP:INICIO v2 -->
 ## 1. Identidad y prioridades
