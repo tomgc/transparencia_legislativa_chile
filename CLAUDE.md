@@ -92,7 +92,22 @@ estático (Fase 2) visualiza en el navegador.
 
 ## Últimos cambios (máx. 5, más recientes primero)
 
-1. **Capa 3 — asistencia simétrica (2026-07-25):** el `33` deja de descartar el
+1. **Autorregeneración de intermedios (2026-08-08, P-65):** `run_all()` deja de
+   depender de la memoria del operador para resolver el desfase que documentó P-62
+   (los intermedios están gitignored, el corte sí viaja, y toda copia local queda
+   desalineada tras cada merge del bot). Nueva guarda
+   `regenerar_intermedios_si_desalineados()` en `10_utils/10_utils.R:294`, invocada
+   desde **un solo sitio** del orquestador (`00_run_all.R:84`), antes de resolver
+   ningún paso: compara el sello de los 6 intermedios contra `CORTE_FECHA` y, si hay
+   desfase, regenera `32`–`36` desde la captura cruda ya versionada — con aviso por
+   consola y caché forzado, **0 llamadas a la API**. Si falta esa captura, `stop()`
+   con los archivos, el motivo y los `source()` exactos: nunca descarga por su
+   cuenta ni degrada en silencio. Idempotente con sellos alineados (0 avisos).
+   `validar_corte()`, `leer_sellado()` y `sellar()` **sin tocar** — la guarda actúa
+   aguas arriba. 4 escenarios probados 4/4; `20_insumos/camara/` intacto (43/43 md5);
+   dato publicado idéntico (156/156, excluido `metadatos.generado`). Rama
+   `fix/autorregeneracion-intermedios` (sin merge, gate del titular).
+2. **Capa 3 — asistencia simétrica (2026-07-25):** el `33` deja de descartar el
    nodo `Justificacion` y persiste dos intermedios nuevos: `asistencia_nominal.rds`
    (una fila por diputado × sesión, con fecha, tipo de sesión, código y glosa de
    justificación y las dos rebajas) y `asistencia_ambitos.rds` (6 conteos + 2 tasas
@@ -105,7 +120,7 @@ estático (Fase 2) visualiza en el navegador.
    pero no entran en ninguna fórmula (semántica no documentada). `docs/data`
    +5,85 %. Panel adversarial 4/4. Rama `feat/capa3-asistencia` (sin merge, gate
    del titular); `docs/index.html` sin tocar.
-2. **Capa 2 — territorio (2026-07-24):** `distrito` y `region` dejan de ser `NA`:
+3. **Capa 2 — territorio (2026-07-24):** `distrito` y `region` dejan de ser `NA`:
    155/155 en índice y perfiles, 28 distritos, suma 155 escaños. El `32` hace
    `left_join` contra dos insumos estáticos versionados en `20_insumos/territorio/`
    (crosswalk `diputado_id`→distrito y catálogo distrito→región contra la Ley
@@ -114,7 +129,7 @@ estático (Fase 2) visualiza en el navegador.
    `idCamaraDeDiputados` == `diputado_id`); 4 ids que BCN reusa entre persona
    histórica y vigente se desambiguan por período. Panel adversarial: 4/4 cuadra.
    Rama `feat/territorio-crosswalk` (sin merge, gate del titular).
-3. **Presentación de votos + región/distrito (2026-07-15):** Capa 1 de la ruta de
+4. **Presentación de votos + región/distrito (2026-07-15):** Capa 1 de la ruta de
    la sesión 8, solo `docs/index.html`. Botón `Ver los N votos` / `Ver menos` que
    expande la lista completa en el perfil (antes recortaba a 16 de hasta 717; el
    JSON ya venía entero al cliente, 9 ms de re-render). Región/distrito dejan de
@@ -122,15 +137,12 @@ estático (Fase 2) visualiza en el navegador.
    `region`/`distrito` y degradan a "Sin dato" solo si faltan — invisible hoy
    (155/155 `null`), habilitante para la Capa 2. Rama `feat/presentacion-votos`
    (sin merge, gate del titular).
-4. **Workflow GitHub Actions (2026-07-10):** `.github/workflows/refresh-semanal.yml`
+5. **Workflow GitHub Actions (2026-07-10):** `.github/workflows/refresh-semanal.yml`
    (cron lunes 11:00 UTC + `workflow_dispatch`) automatiza el refresh semanal:
    calcula el corte con `date`, lo inyecta en `CORTE_FECHA` vía `sed`, corre
    `run_all()`, y un gate (`10_diff_conteos.R`) aborta antes de commitear/pushear
    si `perfiles < 155` o cae cualquier métrica. Probado local de punta a punta;
    rama `feature/github-actions-refresh` (sin merge, gate del titular).
-5. **Corte temporal explícito (2026-07-10):** `CORTE_FECHA` reemplaza `Sys.Date()`
-   en la clave de caché (refresh reproducible sin drift); procedimiento de
-   actualización semanal + script de diff de conteos como compuerta.
 
 <!-- CANONICO_SLEP:INICIO v2 -->
 ## 1. Identidad y prioridades
