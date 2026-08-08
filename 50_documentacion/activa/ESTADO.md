@@ -1,38 +1,18 @@
 ---
-proyecto: transparencia_legislativa_chile
-semaforo: amarillo
-sesion: 15
-ultima_actividad: 2026-08-03
-sensibilidad_datos: publica
-tipo_pendiente: bloqueante
-traspaso_vigente: 50_documentacion/traspasos/traspaso_cierre_v15.md
+slug: transparencia_legislativa_chile
+nombre_real: Transparencia Legislativa Chile
+categoria: activo
+semaforo: activo
+sesion_actual: v16
+ultima_actividad: 2026-08-08
+maneja_sensibles: false
+tipo_pendiente: nuevo
 ---
+## En que vamos
+La sesion 16 cerro cinco pendientes (P-58, P-61, P-62, P-64, P-65): el contrato legacy de asistencia quedo retirado en produccion, la auditoria de fuentes Camara/Senado se ejecuto completa con panel adversarial, y el orquestador gano una guarda que regenera los intermedios desalineados sin red. `main` esta en `f1584b8`, con 0 PRs abiertos, 0 bugs activos y `run_all()` corriendo completo en 12,1 s. El eje tematico quedo medido: NO por materias (la cadena voto - proyecto - materia cierra en 1,90 %), pero la entidad `proyecto` con tramitacion si es construible con cobertura 381 de 381.
 
-## En qué vamos
-
-Portal serverless de transparencia legislativa de la Cámara de Diputados de Chile,
-con las tres capas de datos en producción (votaciones, territorio y asistencia
-nominal simétrica). La sesión 15 retiró el contrato legacy de asistencia: cinco
-campos del bloque `asistencia` del perfil y `tasa_asistencia` del índice dejaron
-de publicarse, y el extractor perdió su segunda descarga completa de la
-asistencia por corrida. El cambio está verificado (1 058 008 claves comparadas,
-cero diferencias en los campos sobrevivientes, panel adversarial de cuatro
-agentes en verde) pero **no publicado**: vive en el PR #4, abierto y sin mergear,
-porque cambia un contrato de datos público.
-
-## Próximo paso
-
-Resolver los dos PRs abiertos (P-58). El PR #4 y el PR #3 del bot tocan los
-mismos 310 archivos de datos y conflictan en ambos órdenes, pero el conflicto es
-de un solo hunk por archivo (`metadatos.generado`). Se resuelve por hunk.
-Encadenado: lanzar la auditoría de fuentes Cámara/Senado (P-61), cuyo encargo ya
-está escrito y solo hay que ejecutar.
+## Proximo paso
+P-63: dejar de descartar el nodo `Votaciones` que `retornarProyectoLey` ya trae y `parsear_contenido_proyecto()` descarta, sin ninguna llamada nueva a la API.
 
 ## Bloqueantes
-
-- **P-58** es el bloqueante activo: nada de lo hecho en la sesión 15 llega a
-  producción hasta que se resuelva. Resolver el conflicto **a nivel de archivo**
-  resucita el contrato legacy en 310 de 310 perfiles y deja el índice incoherente.
-- Dos gatillos de protocolo encendidos y sin atender: 4bis (ordenación del
-  repositorio, P-60) y 4ter (invariante de locale UTF-8, P-59).
-- El pipeline del Senado sigue bloqueado a la espera de P-61.
+ninguno
