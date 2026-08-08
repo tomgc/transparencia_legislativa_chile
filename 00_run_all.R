@@ -44,6 +44,11 @@ PASOS <- list(
        ruta = "30_procesamiento/39_consolidar_json.R")
 )
 
+# Pasos de EXTRACCION (los que producen los intermedios sellados). Es lo que
+# regenera la guarda de alineamiento cuando detecta el desfase de P-62; se deriva
+# de PASOS para que no exista una segunda lista de rutas que se desincronice.
+PASOS_EXTRACCION <- Filter(function(p) p$id %in% 32:36, PASOS)
+
 # ---- Funcion principal ----
 run_all <- function(from = NULL, to = NULL, only = NULL, skip = NULL) {
 
@@ -68,6 +73,15 @@ run_all <- function(from = NULL, to = NULL, only = NULL, skip = NULL) {
   for (p in PASOS) if (!file_exists(path(ROOT, p$ruta))) faltantes <- c(faltantes, p$ruta)
   if (length(faltantes) > 0)
     stop("Rutas no encontradas:\n  ", paste(faltantes, collapse = "\n  "))
+
+  # Guarda de alineamiento de intermedios (P-65). PUNTO UNICO: aqui pasan las
+  # cuatro formas de invocacion (from/to/only/skip), despues de validar rutas y
+  # antes de resolver o correr ningun paso. Si los intermedios no corresponden al
+  # corte vigente, los regenera desde la captura cruda ya versionada -- con aviso
+  # y sin red -- en vez de que el operador tenga que acordarse (ver P-62). Si no
+  # puede regenerarlos sin red, se detiene con el diagnostico. Idempotente: con
+  # los sellos alineados no hace nada ni imprime.
+  regenerar_intermedios_si_desalineados(PASOS_EXTRACCION, ROOT)
 
   # Resolver que pasos ejecutar.
   if (!is.null(only)) {
