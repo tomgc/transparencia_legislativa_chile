@@ -74,6 +74,40 @@ source(here::here("00_run_all.R")); run_all(only = 39)
 ```
 Debe reproducir los 155 perfiles idénticos salvo el timestamp `generado`.
 
+### ⚠️ Después de mergear un refresh del bot, ese paso NO basta (P-62)
+
+Si lo último que movió el corte fue el **workflow semanal**, tu copia local queda
+desalineada y `run_all(only = 39)` **falla con `stop()`** antes de escribir nada:
+
+```
+validar_corte: 'diputados' declara corte AAAA-MM-DD, pero el corte vigente
+(CORTE_FECHA) es AAAA-MM-DD. El intermedio NO corresponde al corte publicado;
+regenera los pasos 32-36 con CORTE_FECHA=AAAA-MM-DD.
+```
+
+**Por qué pasa, y por qué no es un bug del sello.** Los intermedios de
+`40_salidas/intermedios/` **no se versionan** (`.gitignore`), y el workflow
+commitea `10_utils/10_configuracion.R`, `20_insumos/camara`, `40_salidas/json` y
+`docs/data` — **no los intermedios**. Al mergear el refresh, `CORTE_FECHA` avanza
+en tu árbol pero los `.rds` locales siguen sellados con el corte de tu última
+corrida local. La compuerta está haciendo exactamente su trabajo.
+
+**Qué correr, en este orden:**
+
+```r
+source(here::here("00_run_all.R"))
+run_all(from = 32, to = 36)   # re-sella por construccion
+run_all(only  = 39)
+```
+
+El primer paso **no genera tráfico**: la captura cruda del corte vigente ya viene
+commiteada en `20_insumos/camara/`, así que los cinco extractores dan *cache hit*
+(medido en P-62: **0,9 s, 5 de 5 cache hit, 0 llamadas a la API**).
+
+**No se resuelve tocando `CORTE_FECHA` ni relajando `validar_corte()`.** Eso
+apagaría la única señal que distingue "mi copia está atrasada" de "el dato está
+mal".
+
 ---
 
 ## Pendiente 2 — Automatización con GitHub Actions (NO EJECUTAR AÚN)
