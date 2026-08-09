@@ -160,11 +160,83 @@ if (por_estado[[ESTADO_NO_RECONOCIDO]] > 0)
 # ---- Derivar el tibble DESDE la captura (cero red) --------------------------
 # Este es el criterio con el que se juzga si la captura quedo bien hecha: el
 # parser corre sobre el XML persistido, no sobre el vuelo de la descarga.
-derivar_detalle <- function(captura) {
+# ---- Contencion (A) de P-74: acotar el nodo al corte -------------------------
+# El nodo Votaciones viaja DENTRO de la respuesta por boletin de
+# retornarProyectoLey, que entrega el estado del proyecto al momento de la
+# llamada. Si la captura se tomo despues del corte que su clave declara, el nodo
+# trae eventos posteriores a ese corte. Cuantos y cuales no se afirma aqui: la
+# compuerta G4b de 50_documentacion/andamios/50_verificar_p74_acto_b.R los cuenta
+# sobre la captura real en cada corrida, y este paso los emite por log_msg.
+# La guarda de (C) impide que eso vuelva a ocurrir en capturas NUEVAS; esto acota
+# lo que ya esta en las capturas existentes, que no se reescriben.
+# NO se toca el borde inferior (eventos anteriores a ANIO_PROCESO): no hay
+# decision del titular sobre el y acotarlo aqui cambiaria el dato sin mandato.
+# El descarte NUNCA es silencioso: derivar_detalle() cuenta lo descartado con su
+# denominador y lo emite por log_msg antes de persistir.
+acotar_votaciones_al_corte <- function(votaciones, corte = CORTE_FECHA) {
+  if (nrow(votaciones) == 0) return(votaciones)
+  corte <- trimws(as.character(corte))
+  # El corte tambien se valida, no solo las fechas del nodo: la comparacion de
+  # abajo es lexicografica, y solo es cronologica si AMBOS lados vienen en
+  # AAAA-MM-DD con cero a la izquierda. Validar un operando y no el otro dejaria
+  # el descarte a merced del que no se mira.
+  if (!grepl("^[0-9]{4}-[0-9]{2}-[0-9]{2}$", corte))
+    stop(sprintf(paste0("36_detalle: corte '%s' no tiene formato AAAA-MM-DD. La comparacion ",
+                        "lexicografica no seria cronologica y el descarte seria arbitrario."),
+                 corte), call. = FALSE)
+  # Sin columna 'fecha', substr(as.character(NULL),1,10) da character(0), el
+  # chequeo de formato no encuentra nada malo y el subset con un indice logico de
+  # largo 0 devuelve CERO filas: se descartaria el nodo entero en silencio. Ese
+  # es exactamente el fallo que este paso existe para no cometer.
+  if (!"fecha" %in% names(votaciones))
+    stop(sprintf(paste0("36_detalle: el nodo de votaciones no trae columna 'fecha' (columnas: %s). ",
+                        "Sin ella el filtro descartaria sus %d filas sin aviso."),
+                 paste(names(votaciones), collapse = ", "), nrow(votaciones)), call. = FALSE)
+  # La fuente entrega "AAAA-MM-DDTHH:MM:SS" (ancho 19). Se compara el prefijo de
+  # 10 caracteres: para AAAA-MM-DD el orden lexicografico ES el cronologico, sin
+  # coercion a Date. Si algun valor no trae ese prefijo, stop(): filtrar por una
+  # fecha que no se pudo leer descartaria en silencio.
+  f <- substr(as.character(votaciones$fecha), 1, 10)
+  if (length(f) != nrow(votaciones))
+    stop(sprintf("36_detalle: %d fechas para %d votaciones; el indice del filtro no cubre las filas.",
+                 length(f), nrow(votaciones)), call. = FALSE)
+  malas <- which(is.na(f) | !grepl("^[0-9]{4}-[0-9]{2}-[0-9]{2}$", f))
+  if (length(malas) > 0)
+    stop(sprintf(paste0("36_detalle: %d de %d votaciones traen fecha no interpretable (ej. '%s'). ",
+                        "No se acota por una fecha que no se pudo leer."),
+                 length(malas), nrow(votaciones),
+                 as.character(votaciones$fecha[malas[1]])), call. = FALSE)
+  votaciones[f <= corte, , drop = FALSE]
+}
+
+derivar_detalle <- function(captura, corte = CORTE_FECHA) {
   ok <- captura[captura$estado == ESTADO_RESUELTO, ]
   if (nrow(ok) == 0) stop("36_detalle: ningun boletin resuelto en la captura.", call. = FALSE)
-  bind_rows(lapply(seq_len(nrow(ok)), function(i) {
+  # Acumulador del descarte. Un entorno y no <<-: lo que se cuenta aqui es la
+  # cifra que el paso esta obligado a emitir, no un efecto lateral incidental.
+  acc <- new.env(parent = emptyenv())
+  acc$eventos_totales <- 0L; acc$eventos_fuera <- 0L
+  acc$bol_afectados <- character(0); acc$bol_vaciados <- character(0)
+  # Denominador de los boletines afectados: los que traian nodo no vacio ANTES
+  # del filtro. Usar el conteo posterior dejaria fuera del denominador justo a
+  # los boletines que el filtro vacia, y el numerador dejaria de ser subconjunto
+  # del denominador (hallazgo del agente 1 del panel).
+  acc$bol_con_nodo_pre <- 0L
+  detalle <- bind_rows(lapply(seq_len(nrow(ok)), function(i) {
     cont <- parsear_contenido_proyecto(xml2::read_xml(ok$xml[i]))
+    # G4 del acto (b): n_votaciones y el list-col se construyen en la MISMA
+    # llamada a tibble() y ambos derivan de la misma expresion, asi que no existe
+    # un "entre los dos" donde filtrar. El filtro va AQUI, antes del tibble(), y
+    # por construccion n_votaciones queda calculado sobre el nodo ya acotado.
+    vot_crudas <- cont$votaciones
+    vot        <- acotar_votaciones_al_corte(vot_crudas, corte)
+    fuera      <- nrow(vot_crudas) - nrow(vot)
+    acc$eventos_totales <- acc$eventos_totales + nrow(vot_crudas)
+    acc$eventos_fuera   <- acc$eventos_fuera + fuera
+    if (nrow(vot_crudas) > 0) acc$bol_con_nodo_pre <- acc$bol_con_nodo_pre + 1L
+    if (fuera > 0) acc$bol_afectados <- c(acc$bol_afectados, ok$boletin[i])
+    if (nrow(vot_crudas) > 0 && nrow(vot) == 0)
+      acc$bol_vaciados <- c(acc$bol_vaciados, ok$boletin[i])
     tibble(
       boletin         = ok$boletin[i],
       nombre          = cont$nombre,
@@ -173,10 +245,29 @@ derivar_detalle <- function(captura) {
       materias        = list(cont$materias),    # list-col: data.frame(id, nombre)
       # Una fila por boletin (el 39 indexa por boletin): las N votaciones viajan
       # como list-col, mismo patron que materias, no en formato largo.
-      n_votaciones    = nrow(cont$votaciones),
-      votaciones      = list(cont$votaciones)   # list-col: data.frame de 20 columnas
+      n_votaciones    = nrow(vot),
+      votaciones      = list(vot)               # list-col: data.frame de 20 columnas
     )
   }))
+  con_nodo <- sum(vapply(detalle$votaciones, nrow, integer(1)) > 0)
+  log_msg(sprintf(paste0("Contrato temporal (A): %d de %d eventos del nodo descartados por fecha > %s; ",
+                         "quedan %d de %d. Boletines afectados: %d de %d con nodo no vacio antes del filtro ",
+                         "(%d de %d lo conservan despues)."),
+                  acc$eventos_fuera, acc$eventos_totales, corte,
+                  acc$eventos_totales - acc$eventos_fuera, acc$eventos_totales,
+                  length(acc$bol_afectados), acc$bol_con_nodo_pre,
+                  con_nodo, acc$bol_con_nodo_pre),
+          if (acc$eventos_fuera > 0) "WARN" else "INFO", "36_detalle")
+  # Efecto secundario que puede cambiar la lectura del dato: se cuenta APARTE, y
+  # con su propio denominador (los que tenian nodo antes del filtro).
+  log_msg(sprintf("Contrato temporal (A): %d de %d boletines con nodo quedaron vacios y no lo estaban%s.",
+                  length(acc$bol_vaciados), acc$bol_con_nodo_pre,
+                  if (length(acc$bol_vaciados)) paste0(": ", paste(acc$bol_vaciados, collapse = ", ")) else ""),
+          if (length(acc$bol_vaciados) > 0) "WARN" else "INFO", "36_detalle")
+  if (length(acc$bol_afectados) > 0)
+    log_msg(sprintf("Contrato temporal (A): boletines con eventos descartados: %s",
+                    paste(acc$bol_afectados, collapse = ", ")), "WARN", "36_detalle")
+  detalle
 }
 
 detalle <- derivar_detalle(captura)
