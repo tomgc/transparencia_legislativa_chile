@@ -122,6 +122,13 @@ run_all <- function(from = NULL, to = NULL, only = NULL, skip = NULL) {
   cat(sprintf("RESUMEN: %d pasos ejecutados, %d saltados, %.1fs en total.\n",
               ejecutados, saltados, dur_total))
   cat(strrep("=", 76), "\n", sep = "")
+
+  # C-reporte del contrato temporal (P-74, D31). Al CERRAR, no al abrir: informa
+  # sobre lo que la corrida efectivamente uso. Reportar no es detener -- una
+  # captura ya existente fuera de corte se reporta ruidosamente y la corrida
+  # termina bien; lo que se detiene es la escritura de una captura nueva fuera
+  # de corte, y eso ocurre en con_cache() via guarda_captura_en_corte().
+  reportar_estado_capturas()
   invisible(TRUE)
 }
 

@@ -225,6 +225,187 @@ ruta_cache <- function(nombre_cache, tope = NULL) {
                sprintf("%s_%s%s.rds", corte_para_clave(), nombre_cache, sufijo_tope(tope)))
 }
 
+# ---- Contrato temporal de la captura (P-74 acto (b), D31) -------------------
+# EL PROBLEMA (medido en el acto (a)): corte_para_clave() construye la clave del
+# archivo desde CORTE_FECHA y deliberadamente NO desde Sys.Date() (ver el
+# comentario de esa funcion), pero nada comprobaba que la descarga ocurriera
+# dentro del corte que la clave declara. Una captura del paso 36 quedo escrita
+# bajo la clave de un corte anterior al dia en que se bajo, y trajo una votacion
+# posterior a ese corte: contenido que el archivo no deberia representar. Las
+# fechas exactas no se fijan aqui -- las cuenta la compuerta G4b de
+# 50_documentacion/andamios/50_verificar_p74_acto_b.R sobre la captura real.
+# LO QUE ESTO AGREGA: una captura nueva debe poder demostrar que se tomo dentro
+# de su corte. Tres piezas -- guarda de escritura (detiene), registro (persiste
+# la fecha real de descarga) y reporte (clasifica en tres estados).
+# LO QUE NO TOCA: sellar(), leer_sellado() y validar_corte() quedan intactas. La
+# via de validar el CONTENIDO contra el corte quedo descartada por el titular.
+# EL LIMITE: esto rige la captura NUEVA. Las capturas ya escritas no se
+# reescriben (20_insumos/camara/ es crudo inmutable) y por eso quedan en
+# `sin_registro`, que NO es cumplimiento: es un tercer estado.
+
+ATRIBUTO_CAPTURA      <- "captura_temporal"
+OPCION_ESCAPE_CAPTURA <- "camara.permitir_captura_fuera_de_corte"
+ESTADOS_CAPTURA       <- c("dentro_de_corte", "fuera_de_corte", "sin_registro")
+
+# Escape DECLARADO, nunca inferido: una opcion nombrada con default FALSE. No se
+# lee de Sys.getenv() a proposito -- una variable de entorno heredada del shell
+# encenderia la excepcion sin que nadie la escribiera en la corrida.
+escape_captura_declarado <- function() {
+  isTRUE(getOption(OPCION_ESCAPE_CAPTURA, FALSE))
+}
+
+# El escape es de UN SOLO USO: al consumirse se apaga. Sin esto queda pegajoso en
+# la sesion, y como run_all() corre los 6 pasos con source() en la MISMA sesion,
+# encenderlo una vez para un caso puntual dejaria pasar sin detencion todas las
+# capturas siguientes de esa corrida -- justo el olvido de avanzar CORTE_FECHA
+# que el contrato existe para atrapar. Consumir obliga a declararlo por captura.
+consumir_escape_captura <- function(origen = "contrato") {
+  options(stats::setNames(list(FALSE), OPCION_ESCAPE_CAPTURA))
+  log_msg(sprintf(paste0("Escape de captura CONSUMIDO (%s vuelve a FALSE). Es de un solo uso: ",
+                         "otra captura fuera de corte en esta misma sesion se detendra."),
+                  OPCION_ESCAPE_CAPTURA), "WARN", origen)
+  invisible(TRUE)
+}
+
+# Guarda de escritura. Devuelve FALSE si la descarga cae dentro del corte, TRUE
+# si cae fuera PERO el escape esta declarado (y lo deja en el log), y hace
+# stop() accionable si cae fuera sin escape. No devuelve nada silencioso.
+guarda_captura_en_corte <- function(nombre_cache, corte = CORTE_FECHA,
+                                    hoy = Sys.Date(), origen = "contrato") {
+  corte <- trimws(as.character(corte))
+  if (!grepl("^[0-9]{4}-[0-9]{2}-[0-9]{2}$", corte))
+    stop(sprintf("guarda_captura_en_corte: CORTE_FECHA invalida ('%s').", corte),
+         call. = FALSE)
+  hoy <- format(as.Date(hoy), "%Y-%m-%d")
+  if (hoy <= corte) return(FALSE)
+  if (escape_captura_declarado()) {
+    log_msg(sprintf(paste0("Captura '%s' FUERA DE CORTE por escape declarado: se descarga ",
+                           "el %s y el corte es %s. Queda marcada como escape en su registro."),
+                    nombre_cache, hoy, corte), "WARN", origen)
+    consumir_escape_captura(origen)
+    return(TRUE)
+  }
+  stop(sprintf(paste0(
+    "guarda_captura_en_corte: la captura '%s' se descargaria HOY (%s), posterior al corte ",
+    "declarado (CORTE_FECHA = %s).\n",
+    "  El archivo se llamaria %s_* y su contenido seria del %s: la clave diria una fecha y el ",
+    "dato tendria otra. Eso es exactamente lo que P-74 corrige.\n",
+    "  Opcion 1 (lo normal): avanza CORTE_FECHA a \"%s\" en 10_utils/10_configuracion.R y vuelve ",
+    "a correr.\n",
+    "  Opcion 2 (excepcion declarada): options(%s = TRUE) antes de la corrida. La captura queda ",
+    "marcada como escape y sale 'fuera_de_corte' en el reporte de run_all()."),
+    nombre_cache, hoy, corte, gsub("-", "", corte), hoy, hoy, OPCION_ESCAPE_CAPTURA),
+    call. = FALSE)
+}
+
+# C-registro: la fecha REAL de descarga viaja con el dato, como atributo. La
+# compuerta G5 del acto (b) lo probo empiricamente sobre los tres tipos de objeto
+# que 20_insumos/camara/ contiene hoy (data.frame, character y list, contados en
+# la propia compuerta G3), porque el 32 y el 33 devuelven character y list y esa
+# ruta hay que ejercerla, no suponerla.
+# Cierre de la descarga. La guarda valida el dia en que la descarga EMPIEZA, pero
+# fn_descarga() no es una llamada: el 36 recorre un boletin por vez y el 34 una
+# votacion por vez, con pausa entre cada una. Una corrida larga puede cruzar la
+# medianoche y terminar pidiendo datos de un dia posterior al validado. Por eso
+# se vuelve a mirar el reloj DESPUES de descargar, antes de escribir: la fecha
+# que se registra es la del cierre (la mas tardia), no la del inicio.
+verificar_cierre_de_descarga <- function(nombre_cache, corte, ini, fin,
+                                         escape, origen = "contrato") {
+  corte <- trimws(as.character(corte))
+  ini_c <- format(as.Date(ini), "%Y-%m-%d"); fin_c <- format(as.Date(fin), "%Y-%m-%d")
+  if (identical(ini_c, fin_c)) return(escape)
+  log_msg(sprintf("La descarga de '%s' cruzo la medianoche: empezo el %s y termino el %s.",
+                  nombre_cache, ini_c, fin_c), "WARN", origen)
+  if (fin_c <= corte) return(escape)
+  if (isTRUE(escape) || escape_captura_declarado()) {
+    if (!isTRUE(escape)) consumir_escape_captura(origen)
+    return(TRUE)
+  }
+  stop(sprintf(paste0(
+    "verificar_cierre_de_descarga: la captura '%s' empezo dentro del corte (%s) pero termino ",
+    "el %s, posterior a CORTE_FECHA = %s. No se escribe: su contenido ya no corresponde al ",
+    "corte que la clave declara.\n",
+    "  Avanza CORTE_FECHA a \"%s\" y vuelve a correr, o declara la excepcion con options(%s = TRUE)."),
+    nombre_cache, ini_c, fin_c, corte, fin_c, OPCION_ESCAPE_CAPTURA), call. = FALSE)
+}
+
+registrar_captura <- function(objeto, corte = CORTE_FECHA, ini = Sys.Date(),
+                              fin = ini, escape = FALSE) {
+  ini_c <- format(as.Date(ini), "%Y-%m-%d"); fin_c <- format(as.Date(fin), "%Y-%m-%d")
+  attr(objeto, ATRIBUTO_CAPTURA) <- list(
+    # descarga_fecha es la del CIERRE: si la corrida cruzo la medianoche, la
+    # fecha conservadora es la ultima llamada, no la primera.
+    descarga_fecha  = fin_c,
+    descarga_inicio = ini_c,
+    descarga_fin    = fin_c,
+    corte_fecha     = trimws(as.character(corte)),
+    escape          = isTRUE(escape),
+    registrado_por  = "con_cache")
+  objeto
+}
+
+# Estado temporal de una captura EN DISCO. `sin_registro` no se imputa ni se
+# interpreta como cumplimiento (invariante 6 del encargo): es un tercer estado.
+# Un registro presente pero ilegible (campo vacio, NA, o fecha con formato que no
+# es AAAA-MM-DD) tampoco es conformidad: cae en sin_registro, nunca en
+# dentro_de_corte. Comparar "" <= "" daria TRUE y clasificaria un registro vacio
+# como conforme, que es exactamente el falso verde que hay que impedir.
+fecha_registro_valida <- function(x) {
+  !is.null(x) && length(x) == 1L && !is.na(x) && nzchar(trimws(as.character(x))) &&
+    grepl("^[0-9]{4}-[0-9]{2}-[0-9]{2}$", trimws(as.character(x)))
+}
+
+estado_temporal_captura <- function(ruta) {
+  if (!file.exists(ruta))
+    stop(sprintf("estado_temporal_captura: no existe '%s'.", ruta), call. = FALSE)
+  reg <- attr(readRDS(ruta), ATRIBUTO_CAPTURA)
+  sin_registro <- list(estado = "sin_registro", descarga_fecha = NA_character_,
+                       corte_fecha = NA_character_, escape = NA)
+  if (is.null(reg)) return(sin_registro)
+  if (!fecha_registro_valida(reg$descarga_fecha) || !fecha_registro_valida(reg$corte_fecha))
+    return(sin_registro)
+  list(estado = if (trimws(reg$descarga_fecha) <= trimws(reg$corte_fecha)) "dentro_de_corte"
+                else "fuera_de_corte",
+       descarga_fecha = trimws(reg$descarga_fecha),
+       corte_fecha    = trimws(reg$corte_fecha),
+       escape         = isTRUE(reg$escape))
+}
+
+# C-reporte: al cerrar run_all(), el estado temporal de las capturas del corte
+# vigente, con denominador. Reportar no es detener: una captura ya existente
+# fuera de corte se reporta ruidosamente, pero no aborta la corrida (solo la
+# escritura nueva se detiene, en guarda_captura_en_corte).
+reportar_estado_capturas <- function(corte = CORTE_FECHA, origen = "contrato") {
+  dir_cam <- ruta_insumos("camara")
+  if (!dir.exists(dir_cam))
+    stop(sprintf("reportar_estado_capturas: no existe '%s'.", dir_cam), call. = FALSE)
+  todas <- sort(list.files(dir_cam, "[.]rds$", full.names = TRUE))
+  prefijo <- paste0(gsub("-", "", trimws(as.character(corte))), "_")
+  del_corte <- todas[startsWith(basename(todas), prefijo)]
+  if (length(del_corte) == 0)
+    stop(sprintf("reportar_estado_capturas: ninguna captura con prefijo '%s' en %s.",
+                 prefijo, dir_cam), call. = FALSE)
+  est <- lapply(del_corte, estado_temporal_captura)
+  clases <- vapply(est, function(e) e$estado, character(1))
+  log_msg(sprintf("Contrato temporal: %d capturas del corte %s (de %d .rds en el directorio).",
+                  length(del_corte), corte, length(todas)), origen = origen)
+  for (s in ESTADOS_CAPTURA)
+    log_msg(sprintf("  %-16s: %d de %d capturas del corte", s, sum(clases == s),
+                    length(del_corte)),
+            if (identical(s, "fuera_de_corte") && sum(clases == s) > 0) "WARN" else "INFO",
+            origen)
+  for (k in seq_along(del_corte))
+    log_msg(sprintf("  %-52s %-16s (descarga %s, escape %s)",
+                    basename(del_corte[k]), est[[k]]$estado,
+                    est[[k]]$descarga_fecha %||% "NA",
+                    as.character(est[[k]]$escape)), origen = origen)
+  if (sum(clases == "sin_registro") > 0)
+    log_msg(sprintf(paste0("  %d de %d capturas del corte son ANTERIORES al contrato (P-74) y no ",
+                           "llevan fecha de descarga. 'sin_registro' NO es conformidad."),
+                    sum(clases == "sin_registro"), length(del_corte)), "WARN", origen)
+  invisible(stats::setNames(clases, basename(del_corte)))
+}
+
 con_cache <- function(nombre_cache, fn_descarga, tope = NULL, origen = "cache") {
   ruta <- ruta_cache(nombre_cache, tope)
   refrescar <- isTRUE(getOption("camara.refrescar", REFRESCAR_API))
@@ -232,10 +413,23 @@ con_cache <- function(nombre_cache, fn_descarga, tope = NULL, origen = "cache") 
     log_msg(sprintf("cache hit: %s", basename(ruta)), origen = origen)
     return(readRDS(ruta))
   }
-  obj <- fn_descarga()
+  # P-74 (C): la guarda va ANTES de fn_descarga(), no entre la descarga y la
+  # escritura. Detener despues de golpear la API gastaria justamente la llamada
+  # que la guarda existe para evitar. Y se vuelve a mirar el reloj DESPUES, por
+  # si la descarga (un loop de cientos de llamadas) cruzo la medianoche.
+  ini    <- Sys.Date()
+  escape <- guarda_captura_en_corte(nombre_cache, CORTE_FECHA, ini, origen)
+  obj    <- fn_descarga()
+  fin    <- Sys.Date()
+  escape <- verificar_cierre_de_descarga(nombre_cache, CORTE_FECHA, ini, fin, escape, origen)
   fs::dir_create(dirname(ruta))
+  obj    <- registrar_captura(obj, CORTE_FECHA, ini, fin, escape)
   escribir_atomico(obj, ruta, function(o, r) saveRDS(o, r))
-  log_msg(sprintf("captura guardada: %s", basename(ruta)), origen = origen)
+  log_msg(sprintf("captura guardada: %s (descarga %s%s, corte %s%s)", basename(ruta),
+                  format(fin, "%Y-%m-%d"),
+                  if (!identical(ini, fin)) sprintf(" [inicio %s]", format(ini, "%Y-%m-%d")) else "",
+                  trimws(as.character(CORTE_FECHA)),
+                  if (escape) ", ESCAPE DECLARADO" else ""), origen = origen)
   obj
 }
 
