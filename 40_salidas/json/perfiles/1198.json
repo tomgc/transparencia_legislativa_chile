@@ -16,19 +16,19 @@
   "asistencia": {
     "alcance_temporal": {
       "anio_proceso": 2026,
-      "corte_fecha": "2026-08-03",
-      "sesiones_alcance": 69,
+      "corte_fecha": "2026-08-12",
+      "sesiones_alcance": 76,
       "fecha_primera": "2026-01-05",
-      "fecha_ultima": "2026-07-22",
+      "fecha_ultima": "2026-08-11",
       "periodo_id": "11",
       "periodo_nombre": "2026-2030",
       "periodo_inicio": "2026-03-11",
-      "sesiones_periodo_vigente": 51,
-      "nota": "Cobertura parcial: solo sesiones de sala del anno 2026 hasta el 2026-08-03 (69 sesiones, de 2026-01-05 a 2026-07-22). NO es la trayectoria completa del parlamentario. El ambito 'periodo_vigente' cuenta las 51 sesiones desde la instalacion del periodo 2026-2030 (2026-03-11) y usa el mismo denominador para todos, por lo que es el comparable entre diputados; 'en_ejercicio' cuenta solo las sesiones del alcance posteriores a la asuncion de cada diputado."
+      "sesiones_periodo_vigente": 58,
+      "nota": "Cobertura parcial: solo sesiones de sala del anno 2026 hasta el 2026-08-12 (76 sesiones, de 2026-01-05 a 2026-08-11). NO es la trayectoria completa del parlamentario. El ambito 'periodo_vigente' cuenta las 58 sesiones desde la instalacion del periodo 2026-2030 (2026-03-11) y usa el mismo denominador para todos, por lo que es el comparable entre diputados; 'en_ejercicio' cuenta solo las sesiones del alcance posteriores a la asuncion de cada diputado."
     },
     "periodo_vigente": {
-      "n_sesiones": 51,
-      "n_asiste": 51,
+      "n_sesiones": 58,
+      "n_asiste": 58,
       "n_no_asiste": 0,
       "n_sin_registro": 0,
       "n_justificadas": 0,
@@ -37,8 +37,8 @@
       "tasa_presencia_o_justificada": 1
     },
     "en_ejercicio": {
-      "n_sesiones": 51,
-      "n_asiste": 51,
+      "n_sesiones": 58,
+      "n_asiste": 58,
       "n_no_asiste": 0,
       "n_sin_registro": 0,
       "n_justificadas": 0,
@@ -505,18 +505,81 @@
         "en_periodo_vigente": true,
         "asistencia": "asiste",
         "justificacion": null
+      },
+      {
+        "sesion_id": "4806",
+        "sesion_numero": "49",
+        "fecha": "2026-08-03",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4807",
+        "sesion_numero": "50",
+        "fecha": "2026-08-04",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4808",
+        "sesion_numero": "51",
+        "fecha": "2026-08-04",
+        "tipo_sesion": "Especial",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4809",
+        "sesion_numero": "52",
+        "fecha": "2026-08-05",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4810",
+        "sesion_numero": "53",
+        "fecha": "2026-08-10",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4811",
+        "sesion_numero": "54",
+        "fecha": "2026-08-11",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4812",
+        "sesion_numero": "55",
+        "fecha": "2026-08-11",
+        "tipo_sesion": "Especial",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
       }
     ]
   },
   "votaciones": {
     "anio": 2026,
-    "n_votaciones": 479,
+    "n_votaciones": 530,
     "resumen_por_sentido": {
-      "en_contra": 146,
-      "a_favor": 305,
-      "abstencion": 11,
+      "en_contra": 158,
+      "a_favor": 340,
+      "abstencion": 12,
       "dispensado": 0,
-      "no_vota": 17
+      "no_vota": 20
     },
     "votos": [
       {
@@ -6978,14 +7041,626 @@
           "tipo_iniciativa": "Mensaje",
           "materias": []
         }
+      },
+      {
+        "votacion_id": "89561",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-08-03",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89562",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-08-03",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "2-Acusacion Constitucional",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89564",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-08-03",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89565",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-08-03",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89571",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-08-04",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89572",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-08-04",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "2-Acusacion Constitucional",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89579",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-08-04",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89580",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-08-04",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89581",
+        "boletin": null,
+        "tipo": "Proyecto de Resolución",
+        "fecha": "2026-08-04",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 34",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89582",
+        "boletin": null,
+        "tipo": "Proyecto de Resolución",
+        "fecha": "2026-08-04",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 35",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89583",
+        "boletin": "18258-07",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-08-04",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18258-07",
+        "proyecto": {
+          "boletin": "18258-07",
+          "nombre": "Modifica la ley N°18.415, orgánica constitucional de los estados de excepción, en materia de control de identidad y otros",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89584",
+        "boletin": "18258-07",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-08-04",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18258-07",
+        "proyecto": {
+          "boletin": "18258-07",
+          "nombre": "Modifica la ley N°18.415, orgánica constitucional de los estados de excepción, en materia de control de identidad y otros",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89585",
+        "boletin": "18258-07",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-08-04",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18258-07",
+        "proyecto": {
+          "boletin": "18258-07",
+          "nombre": "Modifica la ley N°18.415, orgánica constitucional de los estados de excepción, en materia de control de identidad y otros",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89587",
+        "boletin": "16569-25",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-08-04",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16569-25",
+        "proyecto": {
+          "boletin": "16569-25",
+          "nombre": "Amplía la penalización dispuesta en el artículo 304 bis del Código Penal, para fortalecer la seguridad perimetral de los recintos penales",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89613",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-08-04",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "4-Informe Comision Investigadora",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89614",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-08-04",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "4-Informe Comision Investigadora",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89615",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-08-04",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "4-Informe Comision Investigadora",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89621",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-08-05",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89622",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-08-05",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "2-Acusacion Constitucional",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89623",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-08-05",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "3-Creacion Comision Investigadora",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89625",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-08-05",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "3-Creacion Comision Investigadora",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89626",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-08-05",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89627",
+        "boletin": null,
+        "tipo": "Proyecto de Resolución",
+        "fecha": "2026-08-05",
+        "resultado": "Aprobado",
+        "sentido": "abstencion",
+        "descripcion": "Proyecto de Resolución N° 36",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89628",
+        "boletin": null,
+        "tipo": "Proyecto de Resolución",
+        "fecha": "2026-08-05",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Proyecto de Resolución N° 37",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89629",
+        "boletin": null,
+        "tipo": "Proyecto de Resolución",
+        "fecha": "2026-08-05",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Proyecto de Resolución N° 38",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89630",
+        "boletin": "18524-05",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-08-05",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18524-05",
+        "proyecto": {
+          "boletin": "18524-05",
+          "nombre": "Extiende vigencia y aumenta cobertura de la ley N° 21.748 y modifica normas que indica",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89631",
+        "boletin": "18389-04",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-08-05",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18389-04",
+        "proyecto": {
+          "boletin": "18389-04",
+          "nombre": "Faculta a los establecimientos educacionales a implementar un mecanismo de elección mutua en el proceso de admisión escolar",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89632",
+        "boletin": "18389-04",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-08-05",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18389-04",
+        "proyecto": {
+          "boletin": "18389-04",
+          "nombre": "Faculta a los establecimientos educacionales a implementar un mecanismo de elección mutua en el proceso de admisión escolar",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89633",
+        "boletin": "18389-04",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-08-05",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 18389-04",
+        "proyecto": {
+          "boletin": "18389-04",
+          "nombre": "Faculta a los establecimientos educacionales a implementar un mecanismo de elección mutua en el proceso de admisión escolar",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89634",
+        "boletin": "18389-04",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-08-05",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18389-04",
+        "proyecto": {
+          "boletin": "18389-04",
+          "nombre": "Faculta a los establecimientos educacionales a implementar un mecanismo de elección mutua en el proceso de admisión escolar",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89658",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-08-10",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89667",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-08-10",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89668",
+        "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-08-10",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89669",
+        "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-08-10",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89670",
+        "boletin": "18216-05",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-08-10",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18216-05",
+        "proyecto": {
+          "boletin": "18216-05",
+          "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89687",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-08-11",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89689",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-08-11",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89690",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-08-11",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89691",
+        "boletin": null,
+        "tipo": "Proyecto de Acuerdo",
+        "fecha": "2026-08-11",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Acuerdo N° 23",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89692",
+        "boletin": null,
+        "tipo": "Proyecto de Resolución",
+        "fecha": "2026-08-11",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "Proyecto de Resolución N° 39",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89693",
+        "boletin": "16300-07",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-08-11",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16300-07",
+        "proyecto": {
+          "boletin": "16300-07",
+          "nombre": "Modifica el Código Penal para extender la legítima defensa privilegiada al funcionario militar o policial que actúe en defensa de su persona o derechos, o de los de un tercero, encontrándose en calidad de franco",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89694",
+        "boletin": "16300-07",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-08-11",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 16300-07",
+        "proyecto": {
+          "boletin": "16300-07",
+          "nombre": "Modifica el Código Penal para extender la legítima defensa privilegiada al funcionario militar o policial que actúe en defensa de su persona o derechos, o de los de un tercero, encontrándose en calidad de franco",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89695",
+        "boletin": "16300-07",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-08-11",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16300-07",
+        "proyecto": {
+          "boletin": "16300-07",
+          "nombre": "Modifica el Código Penal para extender la legítima defensa privilegiada al funcionario militar o policial que actúe en defensa de su persona o derechos, o de los de un tercero, encontrándose en calidad de franco",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89725",
+        "boletin": null,
+        "tipo": "Proyecto de Resolución",
+        "fecha": "2026-08-11",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "Proyecto de Resolución N° 198",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89726",
+        "boletin": null,
+        "tipo": "Proyecto de Resolución",
+        "fecha": "2026-08-11",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 199",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89727",
+        "boletin": null,
+        "tipo": "Proyecto de Resolución",
+        "fecha": "2026-08-11",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Proyecto de Resolución N° 200",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89728",
+        "boletin": null,
+        "tipo": "Proyecto de Resolución",
+        "fecha": "2026-08-11",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Proyecto de Resolución N° 201",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89729",
+        "boletin": null,
+        "tipo": "Proyecto de Resolución",
+        "fecha": "2026-08-11",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 202",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89730",
+        "boletin": null,
+        "tipo": "Proyecto de Resolución",
+        "fecha": "2026-08-11",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 203",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89731",
+        "boletin": null,
+        "tipo": "Proyecto de Resolución",
+        "fecha": "2026-08-11",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "Proyecto de Resolución N° 204",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89732",
+        "boletin": null,
+        "tipo": "Proyecto de Resolución",
+        "fecha": "2026-08-11",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Proyecto de Resolución N° 205",
+        "proyecto": null
       }
     ]
   },
   "proyectos": {
     "anio": 2026,
-    "n_proyectos": 4,
+    "n_proyectos": 7,
     "estado_tramitacion_disponible": false,
     "proyectos": [
+      {
+        "boletin": "18565-03",
+        "nombre": "Incrementa la información sobre cobros en estados de cuenta y el control de cargos recurrentes en medios de pago",
+        "fecha_ingreso": "2026-08-05",
+        "admisible": "true",
+        "rol": "firmante",
+        "tipo_iniciativa": "Moción",
+        "materias": []
+      },
+      {
+        "boletin": "18518-06",
+        "nombre": "Modifica aspectos procesales en el otorgamiento de pensiones de gracia",
+        "fecha_ingreso": "2026-07-27",
+        "admisible": "true",
+        "rol": "firmante",
+        "tipo_iniciativa": "Moción",
+        "materias": []
+      },
+      {
+        "boletin": "18508-04",
+        "nombre": "Crea una acción de tutela del derecho preferente de los padres a educar a sus hijos",
+        "fecha_ingreso": "2026-07-21",
+        "admisible": "true",
+        "rol": "firmante",
+        "tipo_iniciativa": "Moción",
+        "materias": []
+      },
       {
         "boletin": "18476-03",
         "nombre": "Modifica la ley N°19.496, sobre protección de los derechos de los consumidores, para evitar la generación de cobros improcedentes con posterioridad al fallecimiento del titular de contratos de tracto sucesivo o de ejecución continua",
@@ -7028,6 +7703,6 @@
     "fuente": "opendata.camara.cl",
     "periodo": "2026-2030",
     "anio_proceso": 2026,
-    "generado": "2026-08-03T13:53:34"
+    "generado": "2026-08-12T12:17:20"
   }
 }
