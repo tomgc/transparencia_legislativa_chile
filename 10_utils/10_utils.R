@@ -193,13 +193,20 @@ sufijo_tope <- function(tope) {
 # sin re-descarga ni drift). SIN default silencioso: si CORTE_FECHA no esta
 # fijada o es invalida, stop() claro (nunca a mitad de pipeline; ver 00_run_all).
 # Depende de CORTE_FECHA (global de config, disponible en tiempo de ejecucion).
-corte_para_clave <- function() {
-  if (!exists("CORTE_FECHA", inherits = TRUE) || is.null(CORTE_FECHA) ||
-      !nzchar(trimws(as.character(CORTE_FECHA))))
-    stop(paste0("CORTE_FECHA no esta fijada. Definela como AAAA-MM-DD en ",
-                "10_utils/10_configuracion.R (corte temporal del refresh)."),
-         call. = FALSE)
-  cf <- trimws(as.character(CORTE_FECHA))
+# El parametro `corte` existe para que quien ya tiene un corte en la mano pueda
+# resolver la clave con ESE y no con la global. Default = la global, asi que todo
+# llamador previo se comporta igual. Sin el, capturas_crudas_de_paso() media
+# desalineamiento contra un corte y existencia de capturas contra otro.
+corte_para_clave <- function(corte = NULL) {
+  if (is.null(corte)) {
+    if (!exists("CORTE_FECHA", inherits = TRUE) || is.null(CORTE_FECHA) ||
+        !nzchar(trimws(as.character(CORTE_FECHA))))
+      stop(paste0("CORTE_FECHA no esta fijada. Definela como AAAA-MM-DD en ",
+                  "10_utils/10_configuracion.R (corte temporal del refresh)."),
+           call. = FALSE)
+    corte <- CORTE_FECHA
+  }
+  cf <- trimws(as.character(corte))
   if (!grepl("^[0-9]{4}-[0-9]{2}-[0-9]{2}$", cf))
     stop(sprintf("CORTE_FECHA invalida: '%s'. Formato esperado AAAA-MM-DD.", cf),
          call. = FALSE)
@@ -220,9 +227,9 @@ corte_para_clave <- function() {
 # Ruta del cache crudo para (nombre_cache, tope) al corte vigente. Un solo lugar
 # construye la clave, reusado por con_cache (para leer/escribir) y por los 3x
 # (para hashear su procedencia con hash_origen_de).
-ruta_cache <- function(nombre_cache, tope = NULL) {
+ruta_cache <- function(nombre_cache, tope = NULL, corte = NULL) {
   ruta_insumos("camara",
-               sprintf("%s_%s%s.rds", corte_para_clave(), nombre_cache, sufijo_tope(tope)))
+               sprintf("%s_%s%s.rds", corte_para_clave(corte), nombre_cache, sufijo_tope(tope)))
 }
 
 # ---- Contrato temporal de la captura (P-74 acto (b), D31) -------------------
@@ -452,26 +459,46 @@ con_cache <- function(nombre_cache, fn_descarga, tope = NULL, origen = "cache") 
 INTERMEDIOS_PIPELINE <- c("diputados", "asistencia_nominal", "asistencia_ambitos",
                           "votos", "proyectos", "proyectos_detalle")
 
+# Autorizacion EXPLICITA para arrancar un corte descargando cuando ya hay
+# intermedios en disco pero desalineados y faltan sus capturas. Opcion nombrada,
+# default FALSE, jamas inferida del entorno: no se lee de Sys.getenv() ni se
+# deduce de estar corriendo en CI, porque eso convertiria "estoy en un servidor"
+# en "puedo bajar un anno entero", que no es la misma afirmacion. El caso del bot
+# NO necesita esta opcion: alli no hay ningun intermedio y entra por la rama de
+# primera corrida.
+OPCION_DESCARGA_INICIAL <- "camara.permitir_descarga_inicial"
+
+descarga_inicial_autorizada <- function() {
+  isTRUE(getOption(OPCION_DESCARGA_INICIAL, FALSE))
+}
+
 # Capturas crudas que cada extractor necesita para dar cache hit. Las claves
 # replican las que arma cada script (32:65; 33:47 y 33:76; 34:33; 35:26; 36:70);
 # la RUTA la construye ruta_cache(), que sigue siendo el unico lugar que conoce
 # la forma de la clave. Depende de las globales de config (ANIO_PROCESO, MAX_*),
 # disponibles en tiempo de ejecucion igual que en con_cache().
-capturas_crudas_de_paso <- function(id) {
+# `corte` se propaga a ruta_cache(): antes esta funcion recibia solo el id y
+# resolvia SIEMPRE por la global, de modo que la guarda medi­a desalineamiento
+# contra su argumento `corte` y existencia de capturas contra CORTE_FECHA.
+# Mientras coincidieran nadie lo notaba; cuando no, comparaba dos cortes sin ruido.
+capturas_crudas_de_paso <- function(id, corte = NULL) {
   switch(as.character(id),
-    "32" = ruta_cache("diputados"),
-    "33" = c(ruta_cache("periodo_legislativo"),
+    "32" = ruta_cache("diputados", corte = corte),
+    "33" = c(ruta_cache("periodo_legislativo", corte = corte),
              ruta_cache(sprintf("asistencia_nominal_%d", ANIO_PROCESO),
-                        MAX_SESIONES_DETALLE)),
-    "34" = ruta_cache(sprintf("votos_long_%d", ANIO_PROCESO), MAX_VOTACIONES_DETALLE),
-    "35" = ruta_cache(sprintf("proyectos_long_%d", ANIO_PROCESO), MAX_PROYECTOS_DETALLE),
+                        MAX_SESIONES_DETALLE, corte = corte)),
+    "34" = ruta_cache(sprintf("votos_long_%d", ANIO_PROCESO), MAX_VOTACIONES_DETALLE,
+                      corte = corte),
+    "35" = ruta_cache(sprintf("proyectos_long_%d", ANIO_PROCESO), MAX_PROYECTOS_DETALLE,
+                      corte = corte),
     # P-63: la captura del 36 es ahora el XML crudo bajo clave PROPIA. La anterior
     # (detalle_proyectos_<anio>) guardaba el derivado del parser, asi que solo
     # permitia reproducir los campos que el parser de ese dia conservo: con ella
     # la guarda prometia regenerar sin red algo que no podia. Sus .rds siguen en
     # 20_insumos/camara/ y no se borran (dato crudo inmutable), solo dejaron de
     # leerse; mismo criterio que los de asistencia_long tras el retiro del legacy.
-    "36" = ruta_cache(sprintf("detalle_proyectos_xml_%d", ANIO_PROCESO), Inf),
+    "36" = ruta_cache(sprintf("detalle_proyectos_xml_%d", ANIO_PROCESO), Inf,
+                      corte = corte),
     stop(sprintf("capturas_crudas_de_paso: el paso %s no declara captura cruda.", id),
          call. = FALSE))
 }
@@ -496,16 +523,69 @@ regenerar_intermedios_si_desalineados <- function(pasos, root, corte = CORTE_FEC
   declarados   <- vapply(INTERMEDIOS_PIPELINE, corte_declarado_por, character(1))
   desalineados <- names(declarados)[is.na(declarados) | declarados != corte]
 
+  # 0) PRIMERA CORRIDA: no existe NINGUN archivo de intermedio en disco.
+  # La condicion se mide con file.exists() sobre los 6 archivos, NO con
+  # all(is.na(declarados)): `corte_declarado_por()` devuelve NA por tres causas
+  # distintas -- ausente, presente sin sello, y presente corrupto -- y solo la
+  # primera es "primera corrida". Usar el sello como proxy dejaria que un
+  # intermedio ilegible entrara por esta rama y terminara descargando, que es
+  # aflojar la guarda mas alla de lo que este arreglo necesita. Un intermedio
+  # presente pero ilegible cae en la logica normal de desalineado, donde el
+  # stop() sigue siendo correcto.
+  # Este es el estado del runner: en un checkout fresco los intermedios estan
+  # gitignorados, asi que no hay ninguno, y las capturas que la guarda exigia son
+  # justamente las que esa corrida iba a crear.
+  rutas_intermedios <- ruta_salidas("intermedios",
+                                    paste0(INTERMEDIOS_PIPELINE, ".rds"))
+  n_en_disco <- sum(file.exists(rutas_intermedios))
+  if (n_en_disco == 0) {
+    log_msg(sprintf(paste0("Primera corrida del corte %s: 0 de %d archivos de intermedio en ",
+                           "disco. No hay nada que regenerar ni con que comparar; los pasos %s ",
+                           "los crearan. El contrato temporal de la captura (P-74) sigue ",
+                           "validando que la fecha de descarga honre el corte declarado."),
+                    corte, length(INTERMEDIOS_PIPELINE),
+                    paste(vapply(pasos, function(p) p$id, integer(1)), collapse = ", ")),
+            origen = "guarda_intermedios")
+    return(invisible(FALSE))
+  }
+  # Presentes pero ilegibles: se nombran, para que "desalineado" no tape "roto".
+  ilegibles <- INTERMEDIOS_PIPELINE[file.exists(rutas_intermedios) & is.na(declarados)]
+  if (length(ilegibles) > 0)
+    log_msg(sprintf(paste0("%d de %d intermedios estan en disco pero no declaran corte ",
+                           "(sin sello o ilegibles): %s. No entran por la rama de primera ",
+                           "corrida; se tratan como desalineados."),
+                    length(ilegibles), length(INTERMEDIOS_PIPELINE),
+                    paste(ilegibles, collapse = ", ")),
+            "WARN", "guarda_intermedios")
+
   # 1) Los 6 declaran el corte vigente: no hace nada y no imprime ruido.
   if (length(desalineados) == 0) return(invisible(FALSE))
 
   # 2) Solo se regenera desde la captura cruda ya versionada, jamas desde la red.
+  # El corte se propaga a capturas_crudas_de_paso(): esta guarda mide
+  # desalineamiento contra `corte`, asi que la existencia de capturas tiene que
+  # medirse contra el MISMO corte y no contra la global.
   faltantes <- lapply(pasos, function(p) {
-    cs <- capturas_crudas_de_paso(p$id); cs[!file.exists(cs)]
+    cs <- capturas_crudas_de_paso(p$id, corte = corte); cs[!file.exists(cs)]
   })
   names(faltantes) <- vapply(pasos, function(p) p$ruta, character(1))
   faltantes <- faltantes[lengths(faltantes) > 0]
-  if (length(faltantes) > 0)
+  if (length(faltantes) > 0) {
+    # 2b) Hay intermedios en disco pero desalineados, y faltan las capturas del
+    # corte. Es un estado ambiguo: puede ser una copia local atrasada (donde el
+    # stop() es correcto y util) o el arranque de un corte nuevo con restos de
+    # otro (donde descargar es lo esperado). No se adivina: se detiene, salvo que
+    # la corrida lo haya autorizado EXPLICITAMENTE con una opcion nombrada.
+    if (descarga_inicial_autorizada()) {
+      log_msg(sprintf(paste0("Intermedios desalineados (%d de %d) y faltan %d captura(s) del ",
+                             "corte %s, pero la descarga inicial esta AUTORIZADA (%s = TRUE): ",
+                             "se deja seguir y los extractores las crearan."),
+                      length(desalineados), length(INTERMEDIOS_PIPELINE),
+                      length(unlist(faltantes, use.names = FALSE)), corte,
+                      OPCION_DESCARGA_INICIAL),
+              "WARN", "guarda_intermedios")
+      return(invisible(FALSE))
+    }
     stop(sprintf(paste0(
       "run_all: %d de %d intermedios NO corresponden al corte vigente (%s): %s.\n",
       "  No se pueden regenerar: falta la captura cruda de ese corte en ",
@@ -513,13 +593,17 @@ regenerar_intermedios_si_desalineados <- function(pasos, root, corte = CORTE_FEC
       "  La regeneracion automatica no descarga nada de la red (invariante del ",
       "proyecto), asi que este paso no puede resolverse solo.\n",
       "  Corre CON RED, desde la raiz del proyecto y en este orden:\n%s\n",
-      "  y despues reintenta: source(\"00_run_all.R\"); run_all()"),
+      "  y despues reintenta: source(\"00_run_all.R\"); run_all()\n",
+      "  O, si lo que quieres es empezar este corte desde cero descargando, ",
+      "declara options(%s = TRUE) antes de la corrida."),
       length(desalineados), length(INTERMEDIOS_PIPELINE), corte,
       paste(desalineados, collapse = ", "),
       length(unlist(faltantes, use.names = FALSE)),
       paste(basename(unlist(faltantes, use.names = FALSE)), collapse = ", "),
-      paste(sprintf("    source(\"%s\")", names(faltantes)), collapse = "\n")),
+      paste(sprintf("    source(\"%s\")", names(faltantes)), collapse = "\n"),
+      OPCION_DESCARGA_INICIAL),
       call. = FALSE)
+  }
 
   # 3) Anuncio: que se detecto, que se va a hacer y por que. Nada silencioso.
   log_msg(sprintf("Intermedios desalineados con el corte vigente (%s): %d de %d.",
