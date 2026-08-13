@@ -1,0 +1,92 @@
+{
+  "boletin": "18512-03",
+  "nombre": "Incorpora una leyenda informativa obligatoria en la publicidad creada, sustancialmente, mediante inteligencia artificial",
+  "tipo_iniciativa": "Moción",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2026-07-22",
+  "tramitacion": {
+    "etapa_actual": "Primer trámite constitucional (C.Diputados)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2026-07-22",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-08-04",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Economía, Fomento y Desarrollo",
+        "sesion": "50/374"
+      }
+    ]
+  },
+  "autores": [
+    {
+      "parlamentario_id": "1015",
+      "nombre": "Jorge Brito Hasbún",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1087",
+      "nombre": "Gael Yeomans Araya",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1180",
+      "nombre": "Consuelo Veloso Ávila",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1114",
+      "nombre": "Félix Bugueño Sotelo",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1127",
+      "nombre": "Lorena Fries Monleón",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1153",
+      "nombre": "Coca Ericka Ñanco Vásquez",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1171",
+      "nombre": "Emilia Schneider Videla",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1189",
+      "nombre": "Jaime Bassa Mercado",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1207",
+      "nombre": "Valentina Cáceres Monsálvez",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1252",
+      "nombre": "Constanza Schonhaut Soto",
+      "en_padron_vigente": true
+    }
+  ],
+  "votaciones": [],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": true,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:42"
+  }
+}

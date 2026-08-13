@@ -1,0 +1,396 @@
+{
+  "boletin": "17641-13",
+  "nombre": "Crea un nuevo sistema de subsidio unificado al empleo",
+  "tipo_iniciativa": "Mensaje",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2025-07-01",
+  "tramitacion": {
+    "etapa_actual": "Tramitación terminada",
+    "estado": "Publicado",
+    "ley_numero": "Ley 21.808",
+    "tramites": [
+      {
+        "fecha": "2025-07-01",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .  Incluye IF N° 171/30.06.2025.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-07-01",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Texto del Mensaje.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-07-01",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Trabajo y Seguridad Social, y a la Comisión de Hacienda en lo que corresponda.",
+        "sesion": "43/373"
+      },
+      {
+        "fecha": "2025-07-01",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 724-373 que hace presente la urgencia Suma",
+        "sesion": "43/373"
+      },
+      {
+        "fecha": "2025-07-09",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 784-373 que retira y hace presente la urgencia Suma",
+        "sesion": "47/373"
+      },
+      {
+        "fecha": "2025-07-23",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 881-373 que retira y hace presente la urgencia Suma",
+        "sesion": "53/373"
+      },
+      {
+        "fecha": "2025-08-11",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 934-373 que hace presente la urgencia Simple",
+        "sesion": "57/373"
+      },
+      {
+        "fecha": "2025-08-12",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 940-373 que hace presente la urgencia Suma",
+        "sesion": "58/373"
+      },
+      {
+        "fecha": "2025-08-20",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 978-373 que retira y hace presente la urgencia Suma",
+        "sesion": "61/373"
+      },
+      {
+        "fecha": "2025-08-20",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Trabajo y Seguridad Social. Pasa a Comisión de Hacienda",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-09-03",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  (Trabajo). Pasa a Hacienda.",
+        "sesion": "66/373"
+      },
+      {
+        "fecha": "2025-09-03",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1023-373 que retira y hace presente la urgencia Suma",
+        "sesion": "66/373"
+      },
+      {
+        "fecha": "2025-09-16",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio del Presidente de la República (N° 196-373), por el cual formula indicaciones al proyecto. Se acompaña informe financiero complementario N° 273/15.09.2025.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-09-17",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1081-373 que retira y hace presente la urgencia Suma",
+        "sesion": "72/373"
+      },
+      {
+        "fecha": "2025-09-25",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Hacienda.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-09-29",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1081-373 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "73/373"
+      },
+      {
+        "fecha": "2025-09-29",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  (Hacienda). Queda para tabla.",
+        "sesion": "73/373"
+      },
+      {
+        "fecha": "2025-10-01",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular a la vez .",
+        "sesion": "75/373"
+      },
+      {
+        "fecha": "2025-10-01",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio de ley a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-10-07",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Trabajo y Previsión Social y a la Comisión de Hacienda, en su caso.",
+        "sesion": "59/373"
+      },
+      {
+        "fecha": "2025-10-07",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1134-373 que hace presente la urgencia Simple",
+        "sesion": "59/373"
+      },
+      {
+        "fecha": "2025-11-05",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1236-373 que retira y hace presente la urgencia Simple",
+        "sesion": "65/373"
+      },
+      {
+        "fecha": "2025-11-25",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1270-373 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "76/373"
+      },
+      {
+        "fecha": "2025-11-26",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1275-373 que retira y hace presente la urgencia Suma",
+        "sesion": "77/373"
+      },
+      {
+        "fecha": "2025-11-26",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "La Sala acuerda autorizar a la Comisión de Trabajo y Previsión Social para discutir en general y en particular el proyecto de ley, con ocasión del trámite reglamentario de primer informe.",
+        "sesion": "77/373"
+      },
+      {
+        "fecha": "2025-12-10",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1362-373 que retira y hace presente la urgencia Suma",
+        "sesion": "81/373"
+      },
+      {
+        "fecha": "2026-01-06",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1462-373 que hace presente la urgencia Suma",
+        "sesion": "86/373"
+      },
+      {
+        "fecha": "2026-01-13",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Primer informe de comisión de Trabajo y Previsión Social. Pasa a Comisión de Hacienda",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-15",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Primer informe de comisión de Hacienda.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-20",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1551-373 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "91/373"
+      },
+      {
+        "fecha": "2026-01-20",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .",
+        "sesion": "91/373"
+      },
+      {
+        "fecha": "2026-01-21",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular con modificaciones",
+        "sesion": "92/373"
+      },
+      {
+        "fecha": "2026-01-21",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio modificaciones a Cámara de Origen .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-26",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta oficio con modificaciones de Cámara Revisora . Queda para tabla .",
+        "sesion": "115/373"
+      },
+      {
+        "fecha": "2026-01-26",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1578-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "115/373"
+      },
+      {
+        "fecha": "2026-01-28",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1597-373 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "117/373"
+      },
+      {
+        "fecha": "2026-03-02",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1601-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "118/373"
+      },
+      {
+        "fecha": "2026-03-02",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Discusión única . Aprobadas las modificaciones",
+        "sesion": "118/373"
+      },
+      {
+        "fecha": "2026-03-02",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Oficio N° 21048, que comunica aprobacion de modificaciones",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-03-02",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Oficio de ley al Ejecutivo .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-03-03",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta oficio N° 21048, que comunica aprobación de modificaciones",
+        "sesion": "97/373"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "87668",
+      "fecha": "2026-03-02T19:21:15",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que incorpora una nueva letra l) en el número 3 del artículo 28 del proyecto, cuya votación separada ha sido solicitada por el diputado Juan Irarrázaval, y que consta en las páginas 56 a 59 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87667",
+      "fecha": "2026-03-02T19:20:24",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que incorpora un nuevo inciso quinto al artículo 23 del proyecto, cuya votación separada ha sido solicitada por el diputado Juan Irarrázaval, y que consta en la página 38 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87666",
+      "fecha": "2026-03-02T19:19:28",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que incorpora un nuevo inciso final al artículo 19 del proyecto, cuya votación separada ha sido solicitada por el diputado Juan Irarrázaval, y que consta en la página 32 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87665",
+      "fecha": "2026-03-02T19:18:32",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmiendas del Senado que modifican el inciso segundo del artículo 14 del proyecto, cuya votación separada ha sido solicitada por el diputado Juan Irarrázaval, y que constan en la página 24 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87664",
+      "fecha": "2026-03-02T19:17:23",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que modifica el inciso primero del artículo 11 del proyecto, cuya votación separada ha sido solicitada por el diputado Juan Irarrázaval, y que consta en la página 20 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87663",
+      "fecha": "2026-03-02T19:16:38",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que incorpora un nuevo inciso segundo al artículo 7 del proyecto, cuya votación separada ha sido solicitada por el diputado Juan Irarrázaval, y que consta en la página 8 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87662",
+      "fecha": "2026-03-02T19:15:45",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Modificaciones incorporadas por el Senado en el proyecto de ley, originado en mensaje, que “Crea un nuevo sistema de subsidio unificado al empleo.”, con la salvedad de aquellas cuya votación separada ha sido solicitada.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "85421",
+      "fecha": "2025-10-01T13:23:20",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Votación particular del articulado del proyecto, en los términos propuestos por la Comisión de Trabajo y Seguridad Social, con las indicaciones sugeridas por la Comisión de Hacienda.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "85420",
+      "fecha": "2025-10-01T13:22:38",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": null,
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": true,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:41"
+  }
+}

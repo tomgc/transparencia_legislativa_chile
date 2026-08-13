@@ -1,0 +1,92 @@
+{
+  "boletin": "18068-13",
+  "nombre": "Modifica el Código del Trabajo para imponer al empleador la obligación de proveer a los trabajadores capacitación en respiración cardiopulmonar, en los establecimientos que indica",
+  "tipo_iniciativa": "Moción",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2026-01-20",
+  "tramitacion": {
+    "etapa_actual": "Primer trámite constitucional (C.Diputados)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2026-01-20",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-21",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Trabajo y Seguridad Social",
+        "sesion": "114/373"
+      }
+    ]
+  },
+  "autores": [
+    {
+      "parlamentario_id": "917",
+      "nombre": null,
+      "en_padron_vigente": false
+    },
+    {
+      "parlamentario_id": "1053",
+      "nombre": null,
+      "en_padron_vigente": false
+    },
+    {
+      "parlamentario_id": "1121",
+      "nombre": null,
+      "en_padron_vigente": false
+    },
+    {
+      "parlamentario_id": "1111",
+      "nombre": null,
+      "en_padron_vigente": false
+    },
+    {
+      "parlamentario_id": "1140",
+      "nombre": "Daniel Lilayu Vivanco",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1157",
+      "nombre": "Marlene Pérez Cartes",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1174",
+      "nombre": "Marco Antonio Sulantay Olivares",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1176",
+      "nombre": "Hotuiti Teao Drago",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1183",
+      "nombre": "Flor Weisse Novoa",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1113",
+      "nombre": null,
+      "en_padron_vigente": false
+    }
+  ],
+  "votaciones": [],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": true,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:41"
+  }
+}

@@ -1,0 +1,925 @@
+{
+  "boletin": "18036-05",
+  "nombre": "Otorga reajuste general de remuneraciones a las y los trabajadores del sector público, concede aguinaldos que señala, concede otros beneficios que indica y modifica diversos cuerpos legales",
+  "tipo_iniciativa": "Mensaje",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2026-01-06",
+  "tramitacion": {
+    "etapa_actual": "Trámite en Tribunal Constitucional (C.Diputados)",
+    "estado": "En tramitación",
+    "ley_numero": "Ley N° 21.806",
+    "tramites": [
+      {
+        "fecha": "2026-01-06",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .  Incluye IF N° 03/05.01.2026.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-06",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Texto del Mensaje.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-06",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Hacienda.",
+        "sesion": "106/373"
+      },
+      {
+        "fecha": "2026-01-06",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1450-373 que hace presente la urgencia Suma",
+        "sesion": "106/373"
+      },
+      {
+        "fecha": "2026-01-07",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1473-373 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "107/373"
+      },
+      {
+        "fecha": "2026-01-09",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio del Presidente de la República (N° 285-373), por el cual formula indicación al proyecto. Se adjunta informe financiero complementario N° 09/09.01.2026.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-09",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio del Presidente de la República (N° 286-373), mediante el cual formula indicaciones al proyecto. Se adjunta informe financiero complementario N° 11/09.01.2026.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-12",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio el Presidente de la República (N° 292-373), por el cual formula indicaciones al proyecto. Se adjunta informe financiero complementario N° 12/12.01.2026.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-13",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1488-373 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "110/373"
+      },
+      {
+        "fecha": "2026-01-14",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Hacienda.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-14",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio del Presidente de la República (N°293-373), mediante el cual repone disposición e indicación al proyecto. Se adjunta informe financiero complementario N°21/1401.2026.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-14",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular a la vez ..",
+        "sesion": "111/373"
+      },
+      {
+        "fecha": "2026-01-14",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  Queda para tabla.",
+        "sesion": "111/373"
+      },
+      {
+        "fecha": "2026-01-14",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio de ley a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-20",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Primer informe de comisión de Hacienda.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-20",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Hacienda",
+        "sesion": "91/373"
+      },
+      {
+        "fecha": "2026-01-20",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1546-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "91/373"
+      },
+      {
+        "fecha": "2026-01-20",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .",
+        "sesion": "91/373"
+      },
+      {
+        "fecha": "2026-01-20",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "El Honorable Senador señor Núñez hace reserva de constitucionalidad en la discusión del proyecto de ley.",
+        "sesion": "91/373"
+      },
+      {
+        "fecha": "2026-01-20",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular con modificaciones",
+        "sesion": "91/373"
+      },
+      {
+        "fecha": "2026-01-21",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio modificaciones a Cámara de Origen .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-21",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta oficio con modificaciones de Cámara Revisora . Queda para tabla .",
+        "sesion": "114/373"
+      },
+      {
+        "fecha": "2026-01-21",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Discusión única . Aprobadas las modificaciones .",
+        "sesion": "114/373"
+      },
+      {
+        "fecha": "2026-01-21",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta, Oficio N° 29-2026 de la Corte Suprema, por el cual remite opinión respecto del proyecto (informe N° 4-2026).",
+        "sesion": "114/373"
+      },
+      {
+        "fecha": "2026-01-21",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1554-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "114/373"
+      },
+      {
+        "fecha": "2026-01-21",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Oficio N° 21010, que comunica aprobacion de modificaciones",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-21",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta oficio N° 21010, que comunica aprobación de modificaciones",
+        "sesion": "92/373"
+      },
+      {
+        "fecha": "2026-01-21",
+        "camara": "C.Diputados",
+        "etapa": "Trámite finalización en Cámara de Origen",
+        "descripcion": "Oficio de ley al Ejecutivo .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-22",
+        "camara": "C.Diputados",
+        "etapa": "Trámite de aprobacion presidencial",
+        "descripcion": "Oficio N° 21014. Remite oficio al Tribunal Constitucional.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-26",
+        "camara": "C.Diputados",
+        "etapa": "Trámite de aprobacion presidencial",
+        "descripcion": "Cuenta, Oficio de S. E. el Presidente de la República (N° 017-373), por el cual comunica que ha resuelto no hacer uso de la facultad que le confiere el inciso primero del artículo 73 de la Constitución Política de la República respecto del proyecto.",
+        "sesion": "115/373"
+      },
+      {
+        "fecha": "2026-01-30",
+        "camara": "C.Diputados",
+        "etapa": "Trámite finalización en Cámara de Origen",
+        "descripcion": "Oficio de ley al Ejecutivo .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-03-02",
+        "camara": "C.Diputados",
+        "etapa": "Trámite en Tribunal Constitucional",
+        "descripcion": "Ingreso fallo del Tribunal Constitucional .",
+        "sesion": "118/373"
+      },
+      {
+        "fecha": "2026-03-02",
+        "camara": "C.Diputados",
+        "etapa": "Trámite en Tribunal Constitucional",
+        "descripcion": "Cuenta fallo del Tribunal Constitucional .",
+        "sesion": "118/373"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "87460",
+      "fecha": "2026-01-21T13:19:54",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que incorpora el artículo 125, cuya votación separada ha sido solicitada por la diputada Javiera Morales y el diputado Juan Santana, que consta en las páginas 502 a 505 del comparado; y que requiere para su aprobación del voto favorable de 76 diputadas y diputados por tratarse de una disposición orgánica constitucional.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87459",
+      "fecha": "2026-01-21T13:18:29",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado para incorporar el artículo nuevo 122, que consta en las páginas 497 y 498 del comparado y que requiere para su aprobación del voto favorable de 76 diputadas y diputados por tratarse de una norma de rango orgánico constitucional.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87458",
+      "fecha": "2026-01-21T13:17:11",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que incorpora un nuevo artículo 117, cuya votación separada ha sido solicitada por el diputado Agustín Romero, y que consta en las páginas 486 y 488 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87457",
+      "fecha": "2026-01-21T13:15:57",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado para incorporar el artículo nuevo 115; que requiere para su aprobación del voto favorable de 76 diputadas y diputados por tratarse de una norma de rango orgánico constitucional.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87456",
+      "fecha": "2026-01-21T13:13:58",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que elimina los artículos 27 y 28, cuya votación separada ha sido solicitada por el diputado Juan Santana, y que consta en las páginas 113 a 119 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87455",
+      "fecha": "2026-01-21T13:12:03",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Modificaciones incorporadas por el Senado en el proyecto de ley, originado en mensaje, que “Otorga reajuste general de remuneraciones a las y los trabajadores del sector público, concede aguinaldos que señala, concede otros beneficios que indica y modifica diversos cuerpos legales.”, con la salvedad de aquellas que requieren quorum especial de aprobación y cuya votación separada ha sido solicitada.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87311",
+      "fecha": "2026-01-14T17:21:00",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Admisibilidad de la indicación para agregar un nuevo artículo 130(131).",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87310",
+      "fecha": "2026-01-14T17:14:34",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Admisibilidad de la indicación para agregar un nuevo artículo 130(131).",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87309",
+      "fecha": "2026-01-14T17:09:41",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 130 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por el diputado Boris Barrera, y que consta en la página 575 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87308",
+      "fecha": "2026-01-14T17:07:24",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 127 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por los diputados Felipe Donoso, Agustín Romero y Frank Sauerbaum, y que consta en la página 566 a 567 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87307",
+      "fecha": "2026-01-14T17:06:21",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 122 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por los diputados Felipe Donoso y Agustín Romero, y que consta en las páginas 549 a 554 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87306",
+      "fecha": "2026-01-14T17:04:51",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 114 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por los diputados Felipe Donoso, Agustín Romero y Frank Sauerbaum, y que consta en las páginas 500 a 502 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87305",
+      "fecha": "2026-01-14T17:04:02",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 113 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por los diputados Felipe Donoso, Agustín Romero y Frank Sauerbaum, y que consta en las páginas 494 a 500 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87304",
+      "fecha": "2026-01-14T17:02:53",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 112 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por los diputados Felipe Donoso, Agustín Romero y Frank Sauerbaum, y que consta en las páginas 491 a 494 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87303",
+      "fecha": "2026-01-14T17:01:28",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 107 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por los diputados Felipe Donoso, Agustín Romero y Frank Sauerbaum, y que consta en la página 468 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87302",
+      "fecha": "2026-01-14T17:00:26",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 97 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por los diputados Felipe Donoso, Agustín Romero y Frank Sauerbaum, y que consta en las páginas 433 a 441 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87301",
+      "fecha": "2026-01-14T16:59:29",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 92 del texto del mensaje, que la Comisión de Hacienda propuso rechazar y que el Ejecutivo ha solicitado reponer.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87300",
+      "fecha": "2026-01-14T16:56:42",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 91 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por el diputado Agustín Romero, y que consta en la página 409 a 422 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87299",
+      "fecha": "2026-01-14T16:55:38",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 90 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por los diputados Felipe Donoso, Agustín Romero y Frank Sauerbaum, y que consta en las páginas 405 a 407 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87298",
+      "fecha": "2026-01-14T16:54:16",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Numeral 1) del artículo 81 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por los diputados Felipe Donoso, Agustín Romero y Frank Sauerbaum, y que consta en las páginas 353 a 354 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87297",
+      "fecha": "2026-01-14T16:53:02",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículos 73 al 78 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por los diputados Felipe Donoso, Agustín Romero y Frank Sauerbaum, y que consta en las páginas 334 a 348 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87296",
+      "fecha": "2026-01-14T16:51:37",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 66 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por los diputados Felipe Donoso, Agustín Romero y Frank Sauerbaum, y que consta en la página 311 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87295",
+      "fecha": "2026-01-14T16:50:23",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 65 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por los diputados Felipe Donoso, Agustín Romero y Frank Sauerbaum, y que consta en las páginas 310 a 311 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87294",
+      "fecha": "2026-01-14T16:49:24",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 64 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por los diputados Felipe Donoso, Agustín Romero y Frank Sauerbaum, y que consta en las páginas 307 a 310 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87293",
+      "fecha": "2026-01-14T16:48:42",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 63 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por los diputados Felipe Donoso, Agustín Romero y Frank Sauerbaum, y que consta en las páginas 304 a 307 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87292",
+      "fecha": "2026-01-14T16:47:55",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 62 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por los diputados Felipe Donoso, Agustín Romero y Frank Sauerbaum, y que consta en las páginas 300 a 304 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87291",
+      "fecha": "2026-01-14T16:47:04",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 61 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por el diputado Frank Sauerbaum, y que consta en la página 300 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87290",
+      "fecha": "2026-01-14T16:46:01",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 60 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por el diputado Frank Sauerbaum, y que consta en las páginas 299 a 300 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87289",
+      "fecha": "2026-01-14T16:45:06",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 59 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por el diputado Frank Sauerbaum, y que consta en las páginas 292 a 299 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87288",
+      "fecha": "2026-01-14T16:44:15",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 58 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por el diputado Frank Sauerbaum, y que consta en las páginas 282 a 292 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87287",
+      "fecha": "2026-01-14T16:43:16",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 57 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por el diputado Frank Sauerbaum, y que consta en las páginas 280 a 281 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87286",
+      "fecha": "2026-01-14T16:42:12",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 55 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por el diputado Frank Sauerbaum, y que consta en las páginas 277 a 278 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87285",
+      "fecha": "2026-01-14T16:41:09",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 54 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por el diputado Frank Sauerbaum, y que consta en las páginas 276 a 277 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87284",
+      "fecha": "2026-01-14T16:40:01",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 53 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por el diputado Frank Sauerbaum, y que consta en la página 276 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87283",
+      "fecha": "2026-01-14T16:38:45",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 52 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por el diputado Frank Sauerbaum, y que consta en las páginas 258 a 275 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87282",
+      "fecha": "2026-01-14T16:37:40",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 51 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por los diputados Felipe Donoso, Agustín Romero y Frank Sauerbaum, y que consta en las páginas 257 a 258 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87281",
+      "fecha": "2026-01-14T16:36:45",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 50 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por los diputados Felipe Donoso, Agustín Romero y Frank Sauerbaum, y que consta en las páginas 237 a 257 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87280",
+      "fecha": "2026-01-14T16:35:54",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 49 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por el diputado Frank Sauerbaum, y que consta en las páginas 229 a 237 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87279",
+      "fecha": "2026-01-14T16:34:57",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 48 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por los diputados Felipe Donoso, Agustín Romero y Frank Sauerbaum, y que consta en las páginas 227 a 229 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87278",
+      "fecha": "2026-01-14T16:33:32",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Admisibilidad de la indicación parlamentaria al artículo 48.\n (los que votan a favor lo hacen por la admisibilidad de la indicación, los que votan en contra lo hacen por su inadmisibilidad).",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87277",
+      "fecha": "2026-01-14T16:30:14",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 47 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por los diputados Felipe Donoso, Agustín Romero y Frank Sauerbaum, y que consta en la página 227 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87276",
+      "fecha": "2026-01-14T16:29:29",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 46 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por los diputados Felipe Donoso, Agustín Romero y Frank Sauerbaum, y que consta en las páginas 225 a 227 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87275",
+      "fecha": "2026-01-14T16:28:01",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 45 del texto sugerido por la Comisión de Hacienda con la indicación renovada del diputado Agustín Romero.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87274",
+      "fecha": "2026-01-14T16:26:50",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 41 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por los diputados Felipe Donoso y Agustín Romero, y que consta en las páginas 217 a 221 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87273",
+      "fecha": "2026-01-14T16:26:00",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 40 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por el diputado Frank Sauerbaum, y que consta en las páginas 203 a 217 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87272",
+      "fecha": "2026-01-14T16:24:59",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 35 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por el diputado Agustín Romero, y que consta en la página 171 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87271",
+      "fecha": "2026-01-14T16:24:00",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 34 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por el diputado Agustín Romero, y que consta en las páginas 168 a 171 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87270",
+      "fecha": "2026-01-14T16:22:49",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 34 del texto del mensaje, que la Comisión de Hacienda propone rechazar, y que consta en las páginas 166 a 168 del comparado.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87269",
+      "fecha": "2026-01-14T16:21:00",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 34 del texto del mensaje, que la Comisión de Hacienda propone rechazar, con la indicación renovada para agregar un nuevo numeral 1).",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87268",
+      "fecha": "2026-01-14T16:17:59",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 33 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por el diputado Frank Sauerbaum, y que consta en las páginas 152 a 166 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87267",
+      "fecha": "2026-01-14T16:17:11",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 32 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por el diputado Frank Sauerbaum, y que consta en las páginas 148 a 152 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87266",
+      "fecha": "2026-01-14T16:16:20",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 31 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por el diputado Frank Sauerbaum, y que consta en las páginas 138 a 147 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87265",
+      "fecha": "2026-01-14T16:15:27",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 30 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por el diputado Frank Sauerbaum, y que consta en las páginas 135 a 137 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87264",
+      "fecha": "2026-01-14T16:14:38",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 29 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por el diputado Frank Sauerbaum, y que consta en las páginas 130 a 134 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87263",
+      "fecha": "2026-01-14T16:13:46",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 28 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por los diputados Felipe Donoso, Agustín Romero y Frank Sauerbaum, y que consta en las páginas 129 a 130 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87262",
+      "fecha": "2026-01-14T16:12:14",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 27 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por los diputados Felipe Donoso, Agustín Romero y Frank Sauerbaum, y que consta en las páginas 123 a 129 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87261",
+      "fecha": "2026-01-14T16:11:20",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 22 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por los diputados Felipe Donoso, Agustín Romero y Frank Sauerbaum, y que consta en las páginas 110 a 115 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87260",
+      "fecha": "2026-01-14T16:10:10",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 21 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por los diputados Felipe Donoso, Agustín Romero y Frank Sauerbaum, y que consta en las páginas 103 a 110 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87259",
+      "fecha": "2026-01-14T16:09:18",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 20 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por los diputados Felipe Donoso, Agustín Romero y Frank Sauerbaum, y que consta en las páginas 100 a 103 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87258",
+      "fecha": "2026-01-14T16:08:29",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 19 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por los diputados Felipe Donoso, Agustín Romero y Frank Sauerbaum, y que consta en las páginas 99 a 100 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87257",
+      "fecha": "2026-01-14T16:07:44",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 18 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por los diputados Felipe Donoso, Agustín Romero y Frank Sauerbaum, y que consta en las páginas 97 a 99 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87256",
+      "fecha": "2026-01-14T16:06:50",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 16 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por el diputado Agustín Romero, y que consta en las páginas 94 a 95 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87255",
+      "fecha": "2026-01-14T16:05:55",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 15 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por el diputado Agustín Romero, y que consta en las páginas 93 a 96 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87254",
+      "fecha": "2026-01-14T16:04:52",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 10 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por el diputado Agustín Romero, y que consta en las páginas 80 a 84 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87253",
+      "fecha": "2026-01-14T16:04:02",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 9 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por el diputado Agustín Romero, y que consta en las páginas 77 a 80 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87252",
+      "fecha": "2026-01-14T16:03:17",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 8 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por los diputados Felipe Donoso, Agustín Romero y Frank Sauerbaum, y que consta en las páginas 76 a 77 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87251",
+      "fecha": "2026-01-14T16:02:31",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 3 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por el diputado Agustín Romero, y que consta en las páginas 63 y 64 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87250",
+      "fecha": "2026-01-14T16:01:40",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Numeral 13) del artículo 2 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por el diputado Frank Sauerbaum, y que consta en las páginas 32 a 38 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87249",
+      "fecha": "2026-01-14T16:00:51",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Literal c) del numeral 12 del artículo 2 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por la diputada Marta González, y que consta en las páginas 28 a 30 del Comparado.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87248",
+      "fecha": "2026-01-14T15:59:49",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Numeral 12) del artículo 2 del texto sugerido por la Comisión de Hacienda, con excepción de su literal c), cuya votación separada ha sido solicitada por el diputado Felipe Donoso, y que consta en las páginas 25 a 32 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87247",
+      "fecha": "2026-01-14T15:58:53",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 2 del texto sugerido por la Comisión de Hacienda, con la salvedad de sus numerales 12) y 13), cuya votación separada ha sido solicitada por el diputado Agustín Romero, y que consta en las páginas 4 a 62 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87246",
+      "fecha": "2026-01-14T15:58:04",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 1 del texto sugerido por la Comisión de Hacienda, cuya votación separada ha sido solicitada por el diputado Agustín Romero, y que consta en las páginas 1 a 4 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87245",
+      "fecha": "2026-01-14T15:53:52",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "2.- En votación general los artículos 36, 37, 89, 92, 111, 115, 121, por tratarse de normas de rango orgánico constitucional; el N° 4 del artículo 81; y los artículos 103, 105, 110 y 123, por tratarse de disposiciones de quorum calificado, todos del texto sugerido por la Comisión de Hacienda, que requieren para su aprobación del voto favorable de 76 diputadas y diputados.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87244",
+      "fecha": "2026-01-14T15:52:05",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": null,
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": true,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:41"
+  }
+}

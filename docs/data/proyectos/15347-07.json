@@ -1,0 +1,238 @@
+{
+  "boletin": "15347-07",
+  "nombre": "Modifica la ley N° 20.000, que sustituye la ley Nº 19.366, que sanciona el tráfico ilícito de estupefacientes y sustancias sicotrópicas, con el objeto de incorporar las circunstancias agravantes que se indican.",
+  "tipo_iniciativa": "Moción",
+  "camara_origen": "Senado",
+  "fecha_ingreso": "2022-09-13",
+  "tramitacion": {
+    "etapa_actual": "Tramitación terminada",
+    "estado": "Publicado",
+    "ley_numero": "Ley N° 21.817",
+    "tramites": [
+      {
+        "fecha": "2022-09-13",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2022-09-14",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Seguridad Pública",
+        "sesion": "57/370"
+      },
+      {
+        "fecha": "2024-12-10",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "La Sala acuerda refundir los proyectos de ley correspondientes a los boletines N° 15.347-07 y N° 16.430-07.",
+        "sesion": "87/372"
+      },
+      {
+        "fecha": "2025-03-05",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Seguridad Pública.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-03-05",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .",
+        "sesion": "102/372"
+      },
+      {
+        "fecha": "2025-05-13",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular a la vez",
+        "sesion": "19/373"
+      },
+      {
+        "fecha": "2025-05-14",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio de ley a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-05-14",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Seguridad Ciudadana",
+        "sesion": "25/373"
+      },
+      {
+        "fecha": "2025-11-24",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Primer informe de comisión de Seguridad Ciudadana.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-11-24",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  Queda para tabla.",
+        "sesion": "91/373"
+      },
+      {
+        "fecha": "2026-03-17",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 06-374 que hace presente la urgencia Suma",
+        "sesion": "1/374"
+      },
+      {
+        "fecha": "2026-03-18",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión general . Queda pendiente .",
+        "sesion": "2/374"
+      },
+      {
+        "fecha": "2026-03-23",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular con modificaciones .",
+        "sesion": "3/374"
+      },
+      {
+        "fecha": "2026-03-23",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "La diputada Ana María Gazmuri Vieira formula reserva de constitucionalidad.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-03-23",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio modificaciones a Cámara de Origen .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-03-24",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta oficio con modificaciones de Cámara Revisora . Queda para tabla",
+        "sesion": "3/374"
+      },
+      {
+        "fecha": "2026-04-07",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 26-374 que hace presente la urgencia Suma",
+        "sesion": "5/374"
+      },
+      {
+        "fecha": "2026-04-07",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Discusión única . Aprobadas las modificaciones",
+        "sesion": "5/374"
+      },
+      {
+        "fecha": "2026-04-07",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Oficio N° 101, que comunica aprobacion de modificaciones",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-04-07",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Oficio de ley al Ejecutivo .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-04-08",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta oficio N? 101, que comunica aprobacion de modificaciones",
+        "sesion": "10/374"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "88456",
+      "fecha": "2026-03-23T19:22:29",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Artículo transitorio del proyecto, en los términos propuestos por la Comisión de Seguridad Ciudadana, cuya votación separada ha sido solicitada por la diputada Lorena Fries, y que consta en las páginas 12 a 13 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88455",
+      "fecha": "2026-03-23T19:21:34",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Numeral 6 del artículo único del proyecto, en los términos propuestos por la Comisión de Seguridad Ciudadana, que coincide con el texto aprobado por el Senado, cuya votación separada ha sido solicitada por la diputada Ana María Gazmuri, y que consta en las páginas 10 a 12 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88454",
+      "fecha": "2026-03-23T19:20:40",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Numeral 4 del artículo único del proyecto, en los términos propuestos por la Comisión de Seguridad Ciudadana, que coincide con el texto aprobado por el Senado, cuya votación separada ha sido solicitada por la diputada Ana María Gazmuri, y que consta en las páginas 5 a 6 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88453",
+      "fecha": "2026-03-23T19:19:49",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Numeral 3 del artículo único del proyecto, en los términos propuestos por la Comisión de Seguridad Ciudadana, que coincide con el texto aprobado por el Senado, cuya votación separada ha sido solicitada por la diputada Ana María Gazmuri, y que consta en las páginas 4 a 5 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88452",
+      "fecha": "2026-03-23T19:18:58",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Numeral 2 del artículo único del proyecto, en los términos propuestos por la Comisión de Seguridad Ciudadana, que coincide con el texto aprobado por el Senado, cuya votación separada ha sido solicitada por la diputada Ana María Gazmuri, y que consta en las páginas 3 a 4 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88451",
+      "fecha": "2026-03-23T19:17:11",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Numeral 1 del artículo único del proyecto, en los términos propuestos por la Comisión de Seguridad Ciudadana, que coincide con el texto aprobado por el Senado, cuya votación separada ha sido solicitada por las diputadas Lorena Fries y Ana María Gazmuri, y que consta en las páginas 1 a 3 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88450",
+      "fecha": "2026-03-23T19:15:54",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": null,
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": true,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:41"
+  }
+}

@@ -1,0 +1,333 @@
+{
+  "boletin": "18384-08",
+  "nombre": "Ley de protección tarifaria eléctrica",
+  "tipo_iniciativa": "Mensaje",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2026-06-22",
+  "tramitacion": {
+    "etapa_actual": "Trámite de aprobacion presidencial (C.Diputados)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2026-06-22",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .  Incluye IF N°135/22.06.2026.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-06-22",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Texto del Mensaje",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-06-22",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Minería y Energía, y a la Comisión de Hacienda en lo que corresponda.",
+        "sesion": "36/374"
+      },
+      {
+        "fecha": "2026-06-22",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 165-374 que hace presente la urgencia Discusión inmediata",
+        "sesion": "36/374"
+      },
+      {
+        "fecha": "2026-07-06",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 181-374 que hace presente la urgencia Discusión inmediata",
+        "sesion": "39/374"
+      },
+      {
+        "fecha": "2026-07-07",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Minería y Energía.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-07",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  Queda para tabla.",
+        "sesion": "40/374"
+      },
+      {
+        "fecha": "2026-07-08",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular a la vez .",
+        "sesion": "41/374"
+      },
+      {
+        "fecha": "2026-07-08",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio de ley a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-08",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 193-374 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "41/374"
+      },
+      {
+        "fecha": "2026-07-08",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Minería y Energía",
+        "sesion": "41/374"
+      },
+      {
+        "fecha": "2026-07-14",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 201-374 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "42/374"
+      },
+      {
+        "fecha": "2026-07-21",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Primer informe de comisión de Minería y Energía.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-21",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 213-374 que hace presente la urgencia Discusión inmediata",
+        "sesion": "44/374"
+      },
+      {
+        "fecha": "2026-07-22",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .",
+        "sesion": "45/374"
+      },
+      {
+        "fecha": "2026-07-22",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta oficio N? 21.421, que comunica aprobacion de modificaciones",
+        "sesion": "45/374"
+      },
+      {
+        "fecha": "2026-07-22",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Discusión única . Aprobadas las modificaciones .",
+        "sesion": "48/374"
+      },
+      {
+        "fecha": "2026-07-22",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular con modificaciones",
+        "sesion": "45/374"
+      },
+      {
+        "fecha": "2026-07-22",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio modificaciones a Cámara de Origen .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-22",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta oficio con modificaciones de Cámara Revisora . Queda para tabla",
+        "sesion": "48/374"
+      },
+      {
+        "fecha": "2026-07-22",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 221-374 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "48/374"
+      },
+      {
+        "fecha": "2026-07-22",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Oficio N° 21.422, que comunica aprobacion de modificaciones",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-22",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Oficio de ley al Ejecutivo .",
+        "sesion": "/"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "89543",
+      "fecha": "2026-07-22T19:15:01",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Modificaciones incorporadas por el Senado en el proyecto de ley, originado en mensaje, sobre “protección tarifaria eléctrica”.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89358",
+      "fecha": "2026-07-08T13:57:27",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Indicación del Ejecutivo que agrega un nuevo numeral 8 al artículo 1° del proyecto.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89357",
+      "fecha": "2026-07-08T13:54:51",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Numeral 3 del artículo 3° del proyecto, cuya votación separada ha sido solicitada por la diputada Irací Hassler y por el diputado Benjamín Moreno, y que consta en la página 64 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89356",
+      "fecha": "2026-07-08T13:53:15",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Encabezado del artículo 3° y su numeral 1, en los términos propuestos por la Comisión de Minería y Energía, cuya votación separada ha sido solicitada por las diputadas Valentina Cáceres e Irací Hassler, y que consta en las páginas 60 a 62 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89355",
+      "fecha": "2026-07-08T13:51:35",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Reclamación de la declaración de inadmisibilidad de la indicación de las diputadas Valentina Cáceres y Marisela Santibáñez y de los diputados José Antonio Rivas y Bernardo Salinas, para modificar en el numeral 1) del artículo 3, la expresión “, 2026 y 2027” por la siguiente: “, 2026, 2027 y 2028”.  \n\n(Quienes votan a favor lo hacen por la admisibilidad; quienes votan en contra por su inadmisibilidad)",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89354",
+      "fecha": "2026-07-08T13:47:25",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Numeral 8 del artículo 2° del proyecto, cuya votación separada ha sido solicitada por la diputada Marisela Santibáñez y por el diputado Jorge Brito, y que consta en las páginas 58 a 60 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89353",
+      "fecha": "2026-07-08T13:46:25",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Numeral 6 del artículo 2° del proyecto, cuya votación separada ha sido solicitada por la diputada Marisela Santibáñez y por el diputado Jorge Brito, y que consta en las páginas 55 a 57 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89352",
+      "fecha": "2026-07-08T13:45:28",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Numeral 5 del artículo 2° del proyecto, cuya votación separada ha sido solicitada por las diputadas Valentina Cáceres y Marisela Santibáñez y por el diputado Jorge Brito, y que consta en las páginas 49 a 55 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89351",
+      "fecha": "2026-07-08T13:44:23",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Reclamación de la declaración de inadmisibilidad de la indicación de las diputadas Valentina Cáceres y Marisela Santibáñez y de los diputados José Antonio Rivas y Bernardo Salinas, para agregar, en el numeral 2) del artículo 2° del proyecto, un inciso nuevo final en el artículo 5 propuesto. \n\n(Quienes votan a favor lo hacen por la admisibilidad; quienes votan en contra por su inadmisibilidad)",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89350",
+      "fecha": "2026-07-08T13:40:31",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Numeral 2) del artículo 2° del proyecto, en los términos propuestos por la Comisión de Minería y Energía, y que consta en las páginas 42 a 44 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89349",
+      "fecha": "2026-07-08T13:39:28",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "En votación particular el numeral 2) del artículo 2° del proyecto con la indicación renovada de las diputadas Cáceres y Santibáñez y de los diputados Rivas y Salinas, para agregar una expresión final en el artículo 5 propuesto.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89348",
+      "fecha": "2026-07-08T13:38:33",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Reconsideración de la declaración de inadmisibilidad de la indicación de las diputadas Cáceres y Santibáñez y de los diputados Rivas y Salinas, para agregar una expresión final en el artículo 5 propuesto en el numeral 2 del artículo 2° del proyecto. \n\n(Quienes votan a favor lo hacen por la admisibilidad; quienes votan en contra por su inadmisibilidad)",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89347",
+      "fecha": "2026-07-08T13:34:13",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Numeral 7 del artículo 1° del proyecto, cuya votación separada ha sido solicitada por la diputada Marisela Santibáñez, y que consta en las páginas 34 a 39 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89346",
+      "fecha": "2026-07-08T13:33:24",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Numeral 5 del artículo 1° del proyecto, cuya votación separada ha sido solicitada por la diputada Marisela Santibáñez, y que consta en las páginas 25 a 26 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89345",
+      "fecha": "2026-07-08T13:32:25",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Numeral 4 del artículo 1° del proyecto, cuya votación separada ha sido solicitada por la diputada Marisela Santibáñez, y que consta en las páginas 22 a 25 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89344",
+      "fecha": "2026-07-08T13:30:58",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": null,
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:42"
+  }
+}

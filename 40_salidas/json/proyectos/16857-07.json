@@ -1,0 +1,242 @@
+{
+  "boletin": "16857-07",
+  "nombre": "Modifica el Código Penal para autorizar el uso de agentes encubiertos en Internet para la persecución de delitos sexuales contra niños, niñas y adolescentes",
+  "tipo_iniciativa": "Moción",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2024-05-15",
+  "tramitacion": {
+    "etapa_actual": "Segundo trámite constitucional (Senado)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2024-05-15",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-05-29",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento.",
+        "sesion": "32/372"
+      },
+      {
+        "fecha": "2024-05-29",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "A petición de la diputada señora Barchiesi, la Sala acordó radicar el proyecto en la Comisión de Seguridad Ciudadana.",
+        "sesion": "32/372"
+      },
+      {
+        "fecha": "2024-05-29",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio N° 19513. Comunica a la Comisión de Seguridad Ciudadana asignación del proyecto",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-03-23",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 11-374 que hace presente la urgencia Simple",
+        "sesion": "3/374"
+      },
+      {
+        "fecha": "2026-04-20",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 49-374 que hace presente la urgencia Simple",
+        "sesion": "14/374"
+      },
+      {
+        "fecha": "2026-05-04",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "S.E. el Presidente de la República formula indicación al proyecto. (028-374).",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-05-05",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "S.E. el Presidente de la República retira la indicación 028-374. (080-374).",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-05-18",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 98-374 que hace presente la urgencia Simple",
+        "sesion": "25/374"
+      },
+      {
+        "fecha": "2026-05-20",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 112-374 que retira y hace presente la urgencia Simple",
+        "sesion": "27/374"
+      },
+      {
+        "fecha": "2026-06-10",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Seguridad Ciudadana.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-06-10",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta informe de la Comisión de Seguridad Ciudadana",
+        "sesion": "32/374"
+      },
+      {
+        "fecha": "2026-06-15",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión única . Queda pendiente .",
+        "sesion": "33/374"
+      },
+      {
+        "fecha": "2026-06-15",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 145-374 que hace presente la urgencia Suma",
+        "sesion": "33/374"
+      },
+      {
+        "fecha": "2026-06-16",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión única . Aprobado .",
+        "sesion": "34/374"
+      },
+      {
+        "fecha": "2026-06-16",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio de ley a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-06-16",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Seguridad Pública",
+        "sesion": "30/374"
+      },
+      {
+        "fecha": "2026-06-23",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 171-374 que retira y hace presente la urgencia Simple",
+        "sesion": "35/374"
+      },
+      {
+        "fecha": "2026-07-21",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 215-374 que retira y hace presente la urgencia Simple",
+        "sesion": "44/374"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "89161",
+      "fecha": "2026-06-16T13:26:53",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Indicación del diputado José Antonio Rivas para agregar un nuevo artículo transitorio al proyecto.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89160",
+      "fecha": "2026-06-16T13:24:53",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Indicación del diputado José Antonio Rivas para agregar un nuevo artículo 3° al proyecto.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89159",
+      "fecha": "2026-06-16T13:22:35",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 2 del proyecto, en los términos propuestos por la Comisión de Seguridad Ciudadana, que consta en la página 7 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89158",
+      "fecha": "2026-06-16T13:21:25",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Indicación sugerida por el diputado José Antonio Rivas para reemplazar el artículo 2 del proyecto.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89157",
+      "fecha": "2026-06-16T13:19:12",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Indicación del diputado José Antonio Rivas para agregar un nuevo inciso final en el artículo 369 ter, contenido en el artículo 1 del texto propuesto por la Comisión de Seguridad Ciudadana.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89156",
+      "fecha": "2026-06-16T13:17:27",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 1 del proyecto, en los términos propuestos por la Comisión de Seguridad Ciudadana, que consta en las páginas 1 a 4 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89155",
+      "fecha": "2026-06-16T13:16:06",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 1 del proyecto, en los términos propuestos por la Comisión de Seguridad Ciudadana, con la indicación sugerida por el diputado José Antonio Rivas.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89154",
+      "fecha": "2026-06-16T13:13:44",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Indicación de la diputada Urrutia y del diputado Salinas que reemplaza íntegramente los artículos 1 y 2 del proyecto.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89153",
+      "fecha": "2026-06-16T13:07:09",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": null,
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:41"
+  }
+}

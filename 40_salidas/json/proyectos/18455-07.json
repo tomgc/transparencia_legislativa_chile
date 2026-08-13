@@ -1,0 +1,92 @@
+{
+  "boletin": "18455-07",
+  "nombre": "Restringe la sustitución y remisión de sanciones respecto de adolescentes condenados por delitos de especial gravedad",
+  "tipo_iniciativa": "Moción",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2026-07-06",
+  "tramitacion": {
+    "etapa_actual": "Primer trámite constitucional (C.Diputados)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2026-07-06",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-14",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento",
+        "sesion": "43/374"
+      }
+    ]
+  },
+  "autores": [
+    {
+      "parlamentario_id": "1059",
+      "nombre": "Ximena Ossandón Irarrázabal",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1062",
+      "nombre": "Joanna Pérez Olea",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1028",
+      "nombre": "Eduardo Durán Salinas",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1075",
+      "nombre": "Diego Schalper Sepúlveda",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1132",
+      "nombre": "Jorge Guzmán Zepeda",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1237",
+      "nombre": "Francisco Orrego Gutiérrez",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1197",
+      "nombre": "Carlos Chandía Alarcón",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1227",
+      "nombre": "Claudia Mora Vega",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1242",
+      "nombre": "Rodrigo Ramírez Parra",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1261",
+      "nombre": "Daniel Valenzuela Salazar",
+      "en_padron_vigente": true
+    }
+  ],
+  "votaciones": [],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": true,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:42"
+  }
+}

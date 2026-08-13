@@ -1,0 +1,123 @@
+{
+  "boletin": "16487-12",
+  "nombre": "Modifica la ley N° 20.920, que establece marco para la gestión de residuos, la responsabilidad extendida del productor y fomento al reciclaje, para prohibir temporalmente la importación de plásticos que indica, que sean destinados a la elaboración de productos de un solo uso",
+  "tipo_iniciativa": "Moción",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2023-12-12",
+  "tramitacion": {
+    "etapa_actual": "Tramitación terminada",
+    "estado": "Rechazado",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2023-12-12",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2023-12-20",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión Medio Ambiente y Recursos Naturales",
+        "sesion": "122/371"
+      },
+      {
+        "fecha": "2025-06-18",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión Medio Ambiente y Recursos Naturales.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-07-01",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  Queda para tabla.",
+        "sesion": "43/373"
+      },
+      {
+        "fecha": "2025-09-09",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general .",
+        "sesion": "68/373"
+      },
+      {
+        "fecha": "2025-09-09",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "El diputado José Carlos Meza formula reserva de constitucionalidad.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-09-09",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio N° 20783. Remite proyecto para segundo informe reglamentario",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-07",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Segundo informe de comisión Medio Ambiente y Recursos Naturales.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-12",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de segundo informe de comisión .  Queda para tabla.",
+        "sesion": "108/373"
+      },
+      {
+        "fecha": "2026-03-24",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión particular . Rechazado Se envia al Archivo el expediente del proyecto",
+        "sesion": "4/374"
+      },
+      {
+        "fecha": "2026-03-24",
+        "camara": "",
+        "etapa": "Tramitación terminada",
+        "descripcion": "Oficio N°21.119. Remite proyecto al Archivo.",
+        "sesion": "/"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "88477",
+      "fecha": "2026-03-24T13:18:35",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo único del proyecto, en los términos propuestos por la Comisión de Medio Ambiente y Recursos Naturales, tanto en su primer como en su segundo informe.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "84578",
+      "fecha": "2025-09-09T13:06:06",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": null,
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:41"
+  }
+}

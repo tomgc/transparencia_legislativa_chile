@@ -1,0 +1,594 @@
+{
+  "boletin": "18156-04",
+  "nombre": "Establece medidas de seguridad, orden y respeto para la comunidad educativa",
+  "tipo_iniciativa": "Mensaje",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2026-04-07",
+  "tramitacion": {
+    "etapa_actual": "Trámite de aprobacion presidencial (C.Diputados)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2026-04-07",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .  Incluye IF N°078 / 07.04.2026",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-04-07",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Texto del mensaje",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-04-07",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Educación",
+        "sesion": "9/374"
+      },
+      {
+        "fecha": "2026-04-07",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 31-374 que hace presente la urgencia Suma",
+        "sesion": "9/374"
+      },
+      {
+        "fecha": "2026-04-13",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 35-374 que hace presente la urgencia Discusión inmediata",
+        "sesion": "11/374"
+      },
+      {
+        "fecha": "2026-04-15",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 42-374 que hace presente la urgencia Discusión inmediata",
+        "sesion": "13/374"
+      },
+      {
+        "fecha": "2026-04-15",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio de S.E. el Presidente de la República (N° 014-374), mediante el cual formula indicaciones al proyecto.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-04-16",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Educación.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-04-20",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .",
+        "sesion": "14/374"
+      },
+      {
+        "fecha": "2026-04-20",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general pendiente.",
+        "sesion": "14/374"
+      },
+      {
+        "fecha": "2026-04-20",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Diputado Marco Barraza Gómez formula reserva de constitucionalidad.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-04-21",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Diputada Emilia Schneider Videla formula reserva de constitucionalidad.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-04-21",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Diputada Daniela Serrano Salazar formula reserva de constitucionalidad.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-04-21",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Diputado Héctor Ulloa Aguilera formula reserva de constitucionalidad.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-04-21",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular a la vez .",
+        "sesion": "15/374"
+      },
+      {
+        "fecha": "2026-04-21",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio de ley a Cámara Revisora .  Oficio de ley a Cámara revisora.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-04-21",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Educación",
+        "sesion": "10/374"
+      },
+      {
+        "fecha": "2026-04-21",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 57-374 que retira y hace presente la urgencia Suma",
+        "sesion": "10/374"
+      },
+      {
+        "fecha": "2026-04-21",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "La Sala acuerda autorizar a la Comisión de Educación para discutir en general y en particular este proyecto de ley, con ocasión del trámite reglamentario de primer informe",
+        "sesion": "10/374"
+      },
+      {
+        "fecha": "2026-05-05",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 72-374 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "12/374"
+      },
+      {
+        "fecha": "2026-05-12",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 90-374 que hace presente la urgencia Discusión inmediata",
+        "sesion": "15/374"
+      },
+      {
+        "fecha": "2026-05-18",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Primer informe de comisión de Educación.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-05-18",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .",
+        "sesion": "18/374"
+      },
+      {
+        "fecha": "2026-05-18",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión general .  Aprobado en general, queda pendiente la discusión en particular.",
+        "sesion": "18/374"
+      },
+      {
+        "fecha": "2026-05-19",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 105-374 que hace presente la urgencia Discusión inmediata",
+        "sesion": "20/374"
+      },
+      {
+        "fecha": "2026-05-19",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "La Honorable Senadora señora Sánchez hace reserva de constitucionalidad en la discusión del proyecto de ley",
+        "sesion": "20/374"
+      },
+      {
+        "fecha": "2026-05-19",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "La Honorable Senadora señora Provoste hace reserva de constitucionalidad en la discusión del proyecto de ley",
+        "sesion": "20/374"
+      },
+      {
+        "fecha": "2026-05-19",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "La Honorable Senadora señora Pascual hace reserva de constitucionalidad en la discusión del proyecto de ley",
+        "sesion": "20/374"
+      },
+      {
+        "fecha": "2026-05-19",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular con modificaciones",
+        "sesion": "20/374"
+      },
+      {
+        "fecha": "2026-05-20",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio modificaciones a Cámara de Origen .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-06-02",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Discusión única . Aprobadas las modificaciones .",
+        "sesion": "28/374"
+      },
+      {
+        "fecha": "2026-06-02",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta oficio con modificaciones de Cámara Revisora . Queda para tabla",
+        "sesion": "28/374"
+      },
+      {
+        "fecha": "2026-06-02",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 118-374 que hace presente la urgencia Discusión inmediata",
+        "sesion": "28/374"
+      },
+      {
+        "fecha": "2026-06-02",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Oficio N° 21.262, que comunica aprobacion de modificaciones",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-06-02",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Oficio de ley al Ejecutivo .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-06-03",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta oficio N° 21.262, que comunica aprobación de modificaciones",
+        "sesion": "26/374"
+      },
+      {
+        "fecha": "2026-06-22",
+        "camara": "C.Diputados",
+        "etapa": "Trámite de aprobacion presidencial",
+        "descripcion": "Cuenta de requerimientos ingresados por un grupo de senadores, y otro por un grupo de diputados, ante el Tribunal Constitucional. Asimismo, de la resolución recaida en tales requerimientos (roles acumulados N°17651 y 17653-26-CPT).",
+        "sesion": "36/374"
+      },
+      {
+        "fecha": "2026-06-23",
+        "camara": "C.Diputados",
+        "etapa": "Trámite de aprobacion presidencial",
+        "descripcion": "Cuenta de copia de resolución del Tribunal Constitucional, por la cual convoca a audiencia pública",
+        "sesion": "37/374"
+      },
+      {
+        "fecha": "2026-06-24",
+        "camara": "C.Diputados",
+        "etapa": "Trámite de aprobacion presidencial",
+        "descripcion": "Cuenta copia de resolución del Tribunal Constitucional, recaida en observaciones del Gobierno en autos rol N°17651-26 y 17653-26-CPT. SE TOMÓ CONOCIMIENTO",
+        "sesion": "38/374"
+      },
+      {
+        "fecha": "2026-07-06",
+        "camara": "C.Diputados",
+        "etapa": "Trámite de aprobacion presidencial",
+        "descripcion": "Cuenta, copia autorizada de la resolución del Tribunal Constitucional mediante la cual prorroga por diez días el plazo para dictar sentencia en el requerimiento de inconstitucionalidad presentado en contra de ciertos artículos del proyecto. Roles acumulados 17651-26-CPT y 17653-26-CPT.",
+        "sesion": "39/374"
+      },
+      {
+        "fecha": "2026-07-08",
+        "camara": "C.Diputados",
+        "etapa": "Trámite de aprobacion presidencial",
+        "descripcion": "Cuenta, Oficio del Tribunal Constitucional (N° 285-2026), por el cual remite copia de la sentencia definitiva recaída en el requerimiento de inconstitucionalidad presentado por un grupo de senadoras y senadores, y por un grupo de diputadas y diputados, respecto de los artículos 1°, numeral 2, en el artículo 16 J incorporado a la Ley General de Educación; 2°, 5° y 6°, numerales 1 y 2, del proyecto. Roles acumulados N°17.651-26-CPT y N°17.653-26-CPT. ACOGIDO.",
+        "sesion": "41/374"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "89002",
+      "fecha": "2026-06-02T13:20:05",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado al artículo 5 del proyecto, incorporando un nuevo numeral 2 a dicho artículo, cuya votación separada ha sido solicitada por la diputada Daniela Serrano, y que consta en las páginas 38 y 39 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89001",
+      "fecha": "2026-06-02T13:18:43",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado al número 2 del artículo 1 del proyecto, que elimina el artículo 16 K, cuya votación separada ha sido solicitada por el diputado Benjamín Moreno, y que consta en la página 17 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89000",
+      "fecha": "2026-06-02T13:17:41",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Modificaciones incorporadas por el Senado en el proyecto de ley, originado en mensaje, que “Establece medidas de seguridad, orden y respeto para la comunidad educativa.”, con la salvedad de aquellas cuya votación separada ha sido solicitada.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88707",
+      "fecha": "2026-04-21T14:33:01",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo transitorio nuevo propuesto por la indicación renovada, del siguiente tenor:\n“Artículo transitorio.- Dentro del plazo de seis meses contado desde la publicación de la presente ley, el Ministerio de Educación deberá dictar las orientaciones y lineamientos técnicos para la capacitación del personal de los establecimientos educacionales que pueda participar en los procedimientos de revisión regulados en esta ley.\nAsimismo, los establecimientos educacionales deberán adoptar las medidas necesarias para dar cumplimiento a dichas orientaciones en un plazo máximo de doce meses desde su dictación.\nMientras no se dé cumplimiento a lo anterior, las revisiones solo podrán ser realizadas por personal que cuente con capacitación previa en convivencia escolar y resguardo de derechos de niños, niñas y adolescentes.”",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88706",
+      "fecha": "2026-04-21T14:29:40",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 6 del proyecto, en los términos aprobados por la Comisión de Educación, cuya votación separada ha sido solicitada por las diputadas Daniela Serrano, Andrea Parra y Emilia Schneider, y los diputados Héctor Barría, Carlos Bianchi, Jaime Araya, Raúl Soto, Héctor Ulloa, Cristián Tapia, José Montalva, Fernando Zamorano, Carlos Carvajal, Carlos Cuadrado, Juan Santana y César Valenzuela; y que consta en las páginas 21 a 24 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88705",
+      "fecha": "2026-04-21T14:28:32",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Indicación renovada, que reemplaza el artículo 6 del proyecto de ley, por uno del siguiente tenor:\n“En ningún caso podrá condicionarse la asignación de este mecanismo de financiamiento a criterios personales del estudiante diversos a los socioeconómicos que la ley dispone.”",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88704",
+      "fecha": "2026-04-21T14:27:27",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Indicación renovada, que reemplaza el artículo 6 del proyecto de ley, por uno del siguiente tenor:\n“El Estado garantizará la continuidad del beneficio de gratuidad para aquellos estudiantes con trayectorias de interrupción escolar o que hayan sido sancionados bajo la Ley N° 20.084, supeditando su mantención a la participación obligatoria en programas de acompañamiento socioeducativo y tutorías de inserción universitaria. El Ministerio de Educación, en conjunto con el Ministerio de Justicia, diseñará planes de transición que aseguren que la educación superior actúe como un factor protector y motor de movilidad social, evitando la desvinculación definitiva del sistema educativo.”",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88703",
+      "fecha": "2026-04-21T14:25:39",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Indicación renovada que agrega una frase final al numeral 2) del artículo 5 del proyecto, del siguiente tenor: \n“, a menos que dicha interrupción o alteración se haya producido con ocasión del ejercicio del derecho a la huelga legal de los trabajadores de la educación o de otro estamento de la comunidad educativa; o a raíz de movilizaciones estudiantiles aprobadas democráticamente por los órganos deliberativos del cuerpo estudiantil.”",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88702",
+      "fecha": "2026-04-21T14:24:23",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Numeral 2) del artículo 5 del proyecto, en los términos aprobados por la Comisión de Educación, cuya votación separada ha sido solicitada por las diputadas Daniela Serrano y Emilia Schneider, y los diputados Jaime Araya, Juan Santana y César Valenzuela; y que consta en las páginas 12 y 13 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88701",
+      "fecha": "2026-04-21T14:23:30",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Indicación renovada que reemplaza el numeral 2) del artículo 5 del proyecto, por uno del siguiente tenor:\n“2) Incorpórese, en el actual párrafo sexto, que pasó a ser séptimo, a continuación del punto aparte, que pasa a ser seguido, el siguiente texto:\n“Se entenderá, asimismo, que afectan gravemente la convivencia escolar aquellos actos cometidos por cualquier miembro de la comunidad educativa que tengan como consecuencia la interrupción total o parcial de las clases o la alteración sustancial del normal desarrollo de la jornada escolar, durante un periodo significativo de la jornada o cuya reiteración afecte la continuidad del servicio educativo. No afectará de manera grave la convivencia escolar aquellas manifestaciones de carácter pacífico realizadas bajo el legítimo derecho de organización, así como tampoco aquellas alteraciones realizadas por alumnos diagnosticados con alguna condición del neurodesarrollo u otras similares. De igual modo, las actividades extraprogramáticas organizadas por la comunidad escolar se entenderán siempre dentro del normal desarrollo de la jornada escolar.”.”",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88700",
+      "fecha": "2026-04-21T14:20:49",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Numeral 1) del artículo 5 del proyecto, cuya votación separada ha sido solicitada por la diputada Daniela Serrano; y que consta en las páginas 11 y 12 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88699",
+      "fecha": "2026-04-21T14:18:35",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Indicación renovada, que agrega un nuevo inciso segundo al artículo 87 ter, incorporado por el artículo 2 del proyecto de ley, del siguiente tenor:\n“El abuso en el ejercicio del procedimiento reglado en este artículo podrá ser constitutivo del delito previsto y sancionado en el artículo 255 del Código Penal. Sin perjuicio de las responsabilidades penales que hubiere, ejercer las atribuciones señaladas en este artículo de manera abusiva o aplicando un trato denigrante al estudiante, constituirá una falta administrativa.”",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88698",
+      "fecha": "2026-04-21T14:17:33",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Indicación renovada, que agrega un nuevo inciso segundo al artículo 87 ter, incorporado por el artículo 2 del proyecto de ley, del siguiente tenor:\n“En el ejercicio de esta facultad, los funcionarios policiales deberán exhibir su placa y señalar su nombre, grado y dotación, respetando siempre la igualdad de trato, la no discriminación arbitraria y el interés superior del niño, niña o adolescente.”",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88697",
+      "fecha": "2026-04-21T14:16:22",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Indicación renovada, que agrega un nuevo inciso segundo al artículo 87 ter, incorporado por el artículo 2 del proyecto de ley, del siguiente tenor:\n“El procedimiento deberá evitar el uso de esposas o elementos de coerción física, salvo peligro vital, y resguardando la honra del estudiante para evitar su estigmatización ante la comunidad.”",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88696",
+      "fecha": "2026-04-21T14:15:12",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Indicación renovada, que agrega un nuevo inciso segundo al artículo 87 ter, incorporado por el artículo 2 del proyecto de ley, del siguiente tenor:\n“El conjunto de los procedimientos detallados en los incisos precedentes deberán realizarse en la forma más expedita posible, limitándose al tiempo estrictamente necesario para los fines señalados y en ningún caso podrán extenderse más allá de una hora.”",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88695",
+      "fecha": "2026-04-21T14:14:14",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 87 ter incorporado por el artículo 2 del proyecto, en los términos aprobados por la Comisión de Educación, cuya votación separada ha sido solicitada por las diputadas Daniela Serrano y Emilia Schneider; y que consta en las páginas 5 y 6 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88694",
+      "fecha": "2026-04-21T14:13:24",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 87 ter, incorporado por el artículo 2 del proyecto, con la indicación renovada, que agrega un nuevo inciso segundo del siguiente tenor:\n“La revisión se hará en el establecimiento educacional, en un espacio privado destinado a tal efecto, con la presencia del director o sostenedor del establecimiento y de la madre, padre, apoderado o tutor del estudiante. Si el padre o apoderado no pudiere asistir a supervigilar el procedimiento, se le deberá informar al estudiante de su derecho a exigir la presencia de otro trabajador del establecimiento de su confianza, quien actuará como garante de sus derechos. Si el estudiante se negare a señalar a un adulto para estos efectos, deberá estar presente un integrante del equipo de convivencia escolar, del PIE o, en su ausencia, de otro docente que conozca al estudiante, para proporcionar contención socioemocional inmediata y asegurar que el procedimiento no interrumpa de forma permanente la trayectoria educativa del estudiante. El procedimiento no podrá realizarse sin la presencia de las personas señaladas y en ningún caso el funcionario policial podrá obstaculizar la supervisión del procedimiento.\"",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88693",
+      "fecha": "2026-04-21T14:09:33",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 16 K, incorporado por el artículo 1 del proyecto, cuya votación separada ha sido solicitada por las diputadas Daniela Serrano y Emilia Schneider; y que consta en las páginas 4 y 5 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88692",
+      "fecha": "2026-04-21T14:08:31",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Indicación renovada, que agrega un inciso final nuevo al artículo 16 J, incorporado por el artículo 1 del proyecto de ley, del siguiente tenor:\n“En casos de estudiantes con Necesidades Educativas Especiales (NEE), la revisión debe contar el asesoramiento o presencia de un profesional del equipo de convivencia o del PIE, para asegurar una contención emocional adecuada y evitar que la medida sea percibida como una persecución basada en su condición.”",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88691",
+      "fecha": "2026-04-21T14:07:17",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Indicación renovada, que agrega un inciso final nuevo al artículo 16 J, incorporado por el artículo 1 del proyecto de ley, del siguiente tenor:\n“En el contexto de la ejecución de la medida de que trata este artículo, no podrá revisarse ni reproducirse el contenido de cuadernos, agendas, papelería o demás contenido impreso que porte el estudiante. En ningún caso esta prohibición obstará la revisión de los mismos con fines pedagógicos por los docentes durante la realización de clases u otros profesionales de la educación para efectos de comunicación con su apoderado. La revisión de estos elementos constituirá una afectación al derecho a la vida privada del estudiante.”",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88690",
+      "fecha": "2026-04-21T14:06:02",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Indicación renovada, que agrega un inciso final nuevo al artículo 16 J, incorporado por el artículo 1 del proyecto de ley, del siguiente tenor:\n“Sin perjuicio de las limitaciones a su uso establecidas en la ley N° 21.801, las medidas de revisión no podrán extenderse a dispositivos móviles electrónicos de comunicación personal, ni implicar su manipulación, revisión física o digital, acceso a su contenido, ni la exigencia de su desbloqueo o exhibición.”",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88689",
+      "fecha": "2026-04-21T14:04:50",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Indicación renovada, que agrega un inciso final nuevo al artículo 16 J, incorporado por el artículo 1 del proyecto de ley, del siguiente tenor:\n“Para los efectos de este artículo se entenderá que los ‘elementos que pudiesen ser utilizados para agredir a otros, para atentar contra la infraestructura del establecimiento educacional o que fueren potencialmente peligrosos para la comunidad educativa’, como alguna de las armas enumeradas en el artículo 2º y 3º del Decreto 400 que fija texto refundido, coordinado y sistematizado de la Ley Nº17.798, sobre control de armas, u otros elementos similares que tengan objetivamente la capacidad de producir los efectos ahí señalados.”",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88688",
+      "fecha": "2026-04-21T14:03:26",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Indicación renovada, que agrega un inciso final nuevo al artículo 16 J, incorporado por el artículo 1 del proyecto de ley, del siguiente tenor:\n“La comunicación de antecedentes a las Fuerzas de Orden y Seguridad Pública que prevé la medida de este artículo, sólo podrá ejercerse con la venia del apoderado del estudiante.”",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88687",
+      "fecha": "2026-04-21T14:02:26",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Indicación renovada, que agrega un inciso final nuevo al artículo 16 J, incorporado por el artículo 1 del proyecto de ley, del siguiente tenor:\n“En todo caso e independiente del resultado del procedimiento, el director del establecimiento educacional deberá informar a los padres o apoderados del estudiante la circunstancia de haberse realizado el control de mochilas o bolsos a su estudiante.”",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88686",
+      "fecha": "2026-04-21T14:01:10",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Indicación renovada, que agrega un inciso final nuevo al artículo 16 J, incorporado por el artículo 1 del proyecto de ley, del siguiente   tenor:\n“La medida prevista en este artículo, sólo podrá realizarse sobre mayores de catorce años.”",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88685",
+      "fecha": "2026-04-21T14:00:02",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Indicación renovada que agrega un inciso final nuevo al artículo 16 J incorporado por el artículo 1 del proyecto, del siguiente tenor:\n“La medida prevista en este artículo requerirá aprobación previa del Consejo Escolar o de la comunidad educativa, según corresponda.”",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88684",
+      "fecha": "2026-04-21T13:59:04",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Inciso final del artículo 16 J incorporado por el artículo 1 del proyecto, en los términos aprobados por la Comisión de Educación, cuya votación separada fue solicitada por la diputada Daniela Serrano; y que consta en las páginas 3 y 4 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88683",
+      "fecha": "2026-04-21T13:57:50",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Indicación renovada que sustituye el inciso final del artículo 16 J incorporado por el artículo 1 del proyecto, por uno del siguiente tenor:\n“El personal autorizado, capacitado y legalmente habilitado no podrá realizar la revisión de manera forzosa. En caso de negativa del estudiante, este deberá ser inmediatamente trasladado para ser puesto en custodia de sus padres y/o apoderado. Excepcionalmente, ante la negativa, el personal podrá trasladarlo inmediatamente y dejarlo a disposición de alguna de las fuerzas de orden y seguridad pública, siempre y cuando existan indicios serios de la comisión de un crimen o un delito y que implique un riesgo cierto para la seguridad de la comunidad educativa.”",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88682",
+      "fecha": "2026-04-21T13:56:15",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "En votación el artículo 16 J incorporado por el artículo 1 del proyecto, con la salvedad de su inciso final, en los términos aprobados por la Comisión de Educación, cuya votación separada fue solicitada por la diputada Daniela Serrano; y que consta en las páginas 1 a 3 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88681",
+      "fecha": "2026-04-21T13:55:04",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 16 J incorporado por el artículo 1 del proyecto, con la indicación renovada, que agrega los siguientes incisos cuarto y quinto nuevos:\n“El personal responsable de la revisión deberá contar con capacitación en enfoque de derechos de niños, niñas y adolescentes; en protocolos de actuación en contextos educativos; en técnicas de prevención y manejo de situaciones de conflicto; y en el conocimiento del marco normativo aplicable, conforme a las orientaciones que imparta el Ministerio de Educación.\nSin perjuicio de lo anterior, el procedimiento deberá ejecutarse resguardando el deber de evitar cualquier forma de contacto físico o exposición innecesaria de los involucrados, y realizarse en lugares especialmente designados para tales fines.”",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88680",
+      "fecha": "2026-04-21T13:52:27",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": null,
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:41"
+  }
+}

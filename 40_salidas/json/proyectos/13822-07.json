@@ -1,0 +1,1136 @@
+{
+  "boletin": "13822-07",
+  "nombre": "Para promover el envejecimiento positivo, el cuidado integral de las personas mayores, y el fortalecimiento de la institucionalidad del adulto mayor.",
+  "tipo_iniciativa": "Mensaje",
+  "camara_origen": "Senado",
+  "fecha_ingreso": "2020-10-06",
+  "tramitacion": {
+    "etapa_actual": "Tramitación terminada",
+    "estado": "Publicado",
+    "ley_numero": "Ley N° 21.822",
+    "tramites": [
+      {
+        "fecha": "2020-10-06",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2020-10-06",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión Comisión Especial del Adulto Mayor y a la de Hacienda, en su caso.",
+        "sesion": "100/368"
+      },
+      {
+        "fecha": "2020-10-06",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 318-368 que hace presente la urgencia Suma",
+        "sesion": "100/368"
+      },
+      {
+        "fecha": "2020-10-27",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 334-368 que retira y hace presente la urgencia Suma",
+        "sesion": "106/368"
+      },
+      {
+        "fecha": "2020-11-03",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "La Sala acuerda refundir los Boletines, ya refundidos, N° 12.451-13 y 12.452-13, con el Boletín N° 13.822-07.",
+        "sesion": "108/368"
+      },
+      {
+        "fecha": "2020-11-10",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 352-368 que hace presente la urgencia Suma",
+        "sesion": "109/368"
+      },
+      {
+        "fecha": "2020-11-24",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 370-368 que retira y hace presente la urgencia Suma",
+        "sesion": "118/368"
+      },
+      {
+        "fecha": "2020-12-09",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 394-368 que retira y hace presente la urgencia Suma",
+        "sesion": "128/368"
+      },
+      {
+        "fecha": "2020-12-22",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 410-368 que hace presente la urgencia Suma",
+        "sesion": "136/368"
+      },
+      {
+        "fecha": "2021-01-05",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 420-368 que retira y hace presente la urgencia Suma",
+        "sesion": "140/368"
+      },
+      {
+        "fecha": "2021-01-12",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "La Sala acuerda autorizar a la Comisión Especial del Adulto Mayor a discutir la iniciativa en general y en particular.",
+        "sesion": "143/368"
+      },
+      {
+        "fecha": "2021-01-19",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 452-368 que retira y hace presente la urgencia Suma",
+        "sesion": "146/368"
+      },
+      {
+        "fecha": "2021-03-02",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 482-368 que retira y hace presente la urgencia Suma",
+        "sesion": "153/368"
+      },
+      {
+        "fecha": "2021-03-16",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 002-369 que hace presente la urgencia Suma",
+        "sesion": "1/369"
+      },
+      {
+        "fecha": "2021-03-26",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio N° 17 a la Corte Suprema",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2021-03-30",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 032-369 que retira y hace presente la urgencia Suma",
+        "sesion": "6/369"
+      },
+      {
+        "fecha": "2021-04-08",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": null,
+        "sesion": "/"
+      },
+      {
+        "fecha": "2021-04-27",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 062-369 que retira y hace presente la urgencia Suma",
+        "sesion": "22/369"
+      },
+      {
+        "fecha": "2021-05-18",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 076-369 que retira y hace presente la urgencia Suma",
+        "sesion": "30/369"
+      },
+      {
+        "fecha": "2021-05-31",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Boletín de indicaciones .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2021-06-15",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 122-369 que retira y hace presente la urgencia Suma",
+        "sesion": "41/369"
+      },
+      {
+        "fecha": "2021-06-29",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 140-369 que retira y hace presente la urgencia Suma",
+        "sesion": "49/369"
+      },
+      {
+        "fecha": "2021-07-20",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 158-369 que retira y hace presente la urgencia Suma",
+        "sesion": "54/369"
+      },
+      {
+        "fecha": "2021-07-21",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "La Sala acuerda fijar plazo de indicaciones hasta el 26/07/2021, a las 12:00 horas, en la Secretaría de la Comisión.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2021-07-27",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Boletín de indicaciones .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2021-08-03",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 180-369 que retira y hace presente la urgencia Suma",
+        "sesion": "60/369"
+      },
+      {
+        "fecha": "2021-08-24",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 204-369 que retira y hace presente la urgencia Suma",
+        "sesion": "68/369"
+      },
+      {
+        "fecha": "2021-09-07",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 222-369 que retira y hace presente la urgencia Suma",
+        "sesion": "74/369"
+      },
+      {
+        "fecha": "2021-09-21",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 230-369 que retira y hace presente la urgencia Suma",
+        "sesion": "76/369"
+      },
+      {
+        "fecha": "2021-10-05",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 250-369 que retira y hace presente la urgencia Suma",
+        "sesion": "83/369"
+      },
+      {
+        "fecha": "2021-11-02",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 266-369 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "87/369"
+      },
+      {
+        "fecha": "2021-11-09",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 274-369 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "91/369"
+      },
+      {
+        "fecha": "2021-11-23",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 292-369 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "96/369"
+      },
+      {
+        "fecha": "2021-11-30",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 298-369 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "100/369"
+      },
+      {
+        "fecha": "2021-12-06",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 308-369 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "102/369"
+      },
+      {
+        "fecha": "2021-12-14",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 314-369 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "104/369"
+      },
+      {
+        "fecha": "2021-12-21",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 324-369 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "107/369"
+      },
+      {
+        "fecha": "2022-01-04",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 336-369 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "111/369"
+      },
+      {
+        "fecha": "2022-01-05",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Segundo informe de comisión del Adulto Mayor y Discapacidad. Pasa a Comisión de Hacienda",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2022-01-11",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 356-369 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "115/369"
+      },
+      {
+        "fecha": "2022-01-18",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 362-369 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "118/369"
+      },
+      {
+        "fecha": "2022-01-25",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 380-369 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "122/369"
+      },
+      {
+        "fecha": "2022-01-25",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Segundo informe de comisión de Hacienda.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2022-01-26",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de segundo informe de comisión .",
+        "sesion": "126/369"
+      },
+      {
+        "fecha": "2022-03-01",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 388-369 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "128/369"
+      },
+      {
+        "fecha": "2022-03-08",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 404-369 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "132/369"
+      },
+      {
+        "fecha": "2022-03-09",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión particular . Queda pendiente",
+        "sesion": "133/369"
+      },
+      {
+        "fecha": "2022-03-22",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general Se fija como plazo para presentar indicaciones el 05/05/2022 a las 12:00",
+        "sesion": "3/370"
+      },
+      {
+        "fecha": "2022-05-03",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Plazo de indicaciones. La Sala acuerda ampliar el plazo para presentar indicaciones hasta el 27/05/2022, a las 12:00 horas.",
+        "sesion": "13/370"
+      },
+      {
+        "fecha": "2022-05-30",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Boletín de indicaciones .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2022-05-31",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Plazo de indicaciones. La Sala acuerda un nuevo plazo para la presentación de indicaciones, hasta el 3/06/2022, a las 12:00 horas, en la Secretaría de la Comisión de Gobierno, Descentralización y Regionalización.",
+        "sesion": "22/370"
+      },
+      {
+        "fecha": "2022-05-31",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Nuevo plazo para indicaciones Se amplía plazo para presentar indicaciones hasta el 03/06/2022 a las 12:00  en la Secretaría de la Comisión Comisión Especial del Adulto Mayor",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2022-06-03",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Boletín de indicaciones .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2022-06-07",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "INFORME FINANCIERO N° 76",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2022-08-16",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio N° 08/2022 a la Corte Suprema",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2022-12-13",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Segundo informe de comisión del Adulto Mayor y Discapacidad. Pasa a Comisión de Hacienda",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2023-01-11",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Segundo informe de comisión de Hacienda.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2023-01-11",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de segundo informe de comisión .",
+        "sesion": "106/370"
+      },
+      {
+        "fecha": "2023-01-17",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio de ley a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2023-01-17",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "El Honorable Senador señor Elizalde solicita ser incorporado como autor del proyecto de ley correspondiente al Boletín N° 12452-13",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2023-01-17",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión particular . Aprobado",
+        "sesion": "107/370"
+      },
+      {
+        "fecha": "2023-01-24",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Personas Mayores y Discapacidad, y a la Comisión de Hacienda en lo que corresponda.",
+        "sesion": "123/370"
+      },
+      {
+        "fecha": "2023-08-01",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 810-371 que hace presente la urgencia Simple",
+        "sesion": "60/371"
+      },
+      {
+        "fecha": "2023-08-30",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1040-371 que retira y hace presente la urgencia Simple",
+        "sesion": "71/371"
+      },
+      {
+        "fecha": "2023-09-26",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1195-371 que retira y hace presente la urgencia Simple",
+        "sesion": "81/371"
+      },
+      {
+        "fecha": "2023-10-25",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1362-371 que retira y hace presente la urgencia Simple",
+        "sesion": "97/371"
+      },
+      {
+        "fecha": "2023-11-22",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1508-371 que retira y hace presente la urgencia Simple",
+        "sesion": "108/371"
+      },
+      {
+        "fecha": "2023-12-20",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1708-371 que retira y hace presente la urgencia Simple",
+        "sesion": "122/371"
+      },
+      {
+        "fecha": "2024-01-17",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1879-371 que retira y hace presente la urgencia Simple",
+        "sesion": "132/371"
+      },
+      {
+        "fecha": "2024-03-06",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1996-371 que hace presente la urgencia Simple",
+        "sesion": "142/371"
+      },
+      {
+        "fecha": "2024-03-11",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 5-372 que hace presente la urgencia Simple",
+        "sesion": "1/372"
+      },
+      {
+        "fecha": "2024-03-19",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio del Presidente de la República (N°12-372), mediante el cual formula indicaciones al Proyecto. Se acompaña informe financiero sustitutivo N°66/18.03.2024.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-04-01",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 167-372 que retira y hace presente la urgencia Suma",
+        "sesion": "10/372"
+      },
+      {
+        "fecha": "2024-04-15",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 280-372 que retira y hace presente la urgencia Suma",
+        "sesion": "18/372"
+      },
+      {
+        "fecha": "2024-04-24",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 365-372 que retira y hace presente la urgencia Suma",
+        "sesion": "23/372"
+      },
+      {
+        "fecha": "2024-05-08",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 440-372 que retira y hace presente la urgencia Suma",
+        "sesion": "27/372"
+      },
+      {
+        "fecha": "2024-05-15",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 525-372 que retira y hace presente la urgencia Suma",
+        "sesion": "31/372"
+      },
+      {
+        "fecha": "2024-05-29",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 574-372 que retira y hace presente la urgencia Suma",
+        "sesion": "32/372"
+      },
+      {
+        "fecha": "2024-06-12",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 718-372 que retira y hace presente la urgencia Suma",
+        "sesion": "41/372"
+      },
+      {
+        "fecha": "2024-06-19",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 795-372 que retira y hace presente la urgencia Suma",
+        "sesion": "44/372"
+      },
+      {
+        "fecha": "2024-07-03",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 872-372 que hace presente la urgencia Suma",
+        "sesion": "47/372"
+      },
+      {
+        "fecha": "2024-07-10",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 963-372 que retira y hace presente la urgencia Suma",
+        "sesion": "51/372"
+      },
+      {
+        "fecha": "2024-07-24",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1053-372 que retira y hace presente la urgencia Suma",
+        "sesion": "56/372"
+      },
+      {
+        "fecha": "2024-08-05",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio del Presidente de la República (N°163-372), mediante el cual retira la indicación formulada al proyecto mediante el oficio N°12-372.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-08-06",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Primer informe de comisión de Derechos Humanos, Nacionalidad y Ciudadanía. Pasa a Comisión de Hacienda",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-08-13",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  (Personas Mayores). Pasa a Hacienda.",
+        "sesion": "65/372"
+      },
+      {
+        "fecha": "2024-09-02",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1377-372 que hace presente la urgencia Simple",
+        "sesion": "70/372"
+      },
+      {
+        "fecha": "2024-09-04",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1460-372 que retira y hace presente la urgencia Suma",
+        "sesion": "72/372"
+      },
+      {
+        "fecha": "2024-09-10",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1489-372 que retira la urgencia Suma",
+        "sesion": "75/372"
+      },
+      {
+        "fecha": "2024-09-23",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de  Oficio de la Comisión de Trabajo y Seguridad Social (N° 261/13/2024), por el cual solicita recabar el acuerdo de la Sala para que le sea remitido el proyecto. RECHAZADO.",
+        "sesion": "77/372"
+      },
+      {
+        "fecha": "2024-10-16",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de oficio N° 362-2024, de la Corte Suprema, por el cual remite opinión respecto del proyecto (informe N° 50-2024).",
+        "sesion": "90/372"
+      },
+      {
+        "fecha": "2025-03-24",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 58-373 que hace presente la urgencia Suma",
+        "sesion": "6/373"
+      },
+      {
+        "fecha": "2025-04-08",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio del Presidente de la República (N°31-373), mediante el cual formula indicaciones proyecto. Se adjunta informe financiero sustitutivo N° 93/07.04.2025.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-04-09",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 122-373 que hace presente la urgencia Suma",
+        "sesion": "11/373"
+      },
+      {
+        "fecha": "2025-04-16",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Primer informe de comisión de Hacienda.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-04-21",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  (Hacienda). Queda para tabla.",
+        "sesion": "16/373"
+      },
+      {
+        "fecha": "2025-04-22",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio de S.E. el Presidente de la República (042-373), mediante el cual formula indicaciones al proyecto. Se adjunta informe financiero complementario N° 104/21.04.2025.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-04-22",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 193-373 que retira y hace presente la urgencia Simple",
+        "sesion": "17/373"
+      },
+      {
+        "fecha": "2025-05-19",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión general . Queda pendiente .",
+        "sesion": "27/373"
+      },
+      {
+        "fecha": "2025-05-20",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 484-373 que retira y hace presente la urgencia Suma",
+        "sesion": "29/373"
+      },
+      {
+        "fecha": "2025-06-02",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 558-373 que retira y hace presente la urgencia Simple",
+        "sesion": "30/373"
+      },
+      {
+        "fecha": "2025-06-04",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio N°20.519. Se envía a nuevo primer informe.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-06-04",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 597-373 que retira y hace presente la urgencia Suma",
+        "sesion": "33/373"
+      },
+      {
+        "fecha": "2025-06-09",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio del Presidente de la República (N° 88-373), por el cual formula indicaciones al proyecto. Se adjunta informe financiero complementario N° 148/09.06.2025.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-06-13",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Nuevo primer informe de comisión de Personas Mayores y Discapacidad.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-06-16",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta nuevo primer informe .  Queda para tabla.",
+        "sesion": "37/373"
+      },
+      {
+        "fecha": "2025-06-17",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión general . Queda pendiente .",
+        "sesion": "39/373"
+      },
+      {
+        "fecha": "2025-06-17",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio del Presidente de la República (N° 96-373), mediante el cual repone indicaciones formuladas al proyecto. Se adjunta informe financiero sustitutivo N° 158/17.06.2025.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-06-18",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión general . Queda pendiente .",
+        "sesion": "40/373"
+      },
+      {
+        "fecha": "2025-06-18",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 691-373 que retira y hace presente la urgencia Suma",
+        "sesion": "40/373"
+      },
+      {
+        "fecha": "2025-06-30",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular con modificaciones .",
+        "sesion": "42/373"
+      },
+      {
+        "fecha": "2025-07-03",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio modificaciones a Cámara de Origen .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-07-08",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 769-373 que hace presente la urgencia Suma",
+        "sesion": "35/373"
+      },
+      {
+        "fecha": "2025-07-08",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta oficio con modificaciones de Cámara Revisora . Pasa a Comisión del Adulto Mayor y Discapacidad",
+        "sesion": "35/373"
+      },
+      {
+        "fecha": "2025-07-22",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 849-373 que retira y hace presente la urgencia Suma",
+        "sesion": "40/373"
+      },
+      {
+        "fecha": "2025-08-06",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 919-373 que retira y hace presente la urgencia Suma",
+        "sesion": "44/373"
+      },
+      {
+        "fecha": "2025-08-12",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Informe de comisión del Adulto Mayor y Discapacidad.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-08-13",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta informe de comisión .",
+        "sesion": "46/373"
+      },
+      {
+        "fecha": "2025-08-20",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 983-373 que retira y hace presente la urgencia Suma",
+        "sesion": "48/373"
+      },
+      {
+        "fecha": "2025-09-03",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1031-373 que retira y hace presente la urgencia Suma",
+        "sesion": "50/373"
+      },
+      {
+        "fecha": "2025-09-16",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1074-373 que retira y hace presente la urgencia Suma",
+        "sesion": "55/373"
+      },
+      {
+        "fecha": "2025-09-30",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Discusión única . Queda pendiente",
+        "sesion": "57/373"
+      },
+      {
+        "fecha": "2025-10-01",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1103-373 que retira y hace presente la urgencia Suma",
+        "sesion": "58/373"
+      },
+      {
+        "fecha": "2025-10-07",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Discusión única . Rechazadas las modificaciones",
+        "sesion": "59/373"
+      },
+      {
+        "fecha": "2025-10-08",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Oficio rechazo modificaciones a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-10-13",
+        "camara": "C.Diputados",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta oficio rechazo a modificaciones .",
+        "sesion": "79/373"
+      },
+      {
+        "fecha": "2025-10-14",
+        "camara": "C.Diputados",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Oficio N° 20848. Comunica al Senado integrantes de la Comisión Mixta",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-10-14",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Mensaje 1159-373 que retira y hace presente la urgencia Simple",
+        "sesion": "61/373"
+      },
+      {
+        "fecha": "2025-10-14",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta oficio integrantes de Comisión Mixta .",
+        "sesion": "61/373"
+      },
+      {
+        "fecha": "2025-10-15",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Mensaje 1175-373 que retira y hace presente la urgencia Suma",
+        "sesion": "62/373"
+      },
+      {
+        "fecha": "2025-10-27",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Mensaje 1178-373 que hace presente la urgencia Suma",
+        "sesion": "63/373"
+      },
+      {
+        "fecha": "2025-11-04",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Mensaje 1229-373 que hace presente la urgencia Suma",
+        "sesion": "64/373"
+      },
+      {
+        "fecha": "2025-11-25",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Mensaje 1269-373 que hace presente la urgencia Suma",
+        "sesion": "76/373"
+      },
+      {
+        "fecha": "2025-12-02",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Mensaje 1296-373 que hace presente la urgencia Suma",
+        "sesion": "78/373"
+      },
+      {
+        "fecha": "2025-12-09",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Mensaje 1324-373 que hace presente la urgencia Simple",
+        "sesion": "80/373"
+      },
+      {
+        "fecha": "2025-12-16",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Mensaje 1389-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "82/373"
+      },
+      {
+        "fecha": "2025-12-16",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Informe de Comisión Mixta Comisión Mixta para Boletín Nº 13822-07.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-12-17",
+        "camara": "Senado",
+        "etapa": "Disc. informe C.Mixta por rechazo de modific. en C. Origen",
+        "descripcion": "Cuenta informe Comisión Mixta .",
+        "sesion": "83/373"
+      },
+      {
+        "fecha": "2025-12-17",
+        "camara": "Senado",
+        "etapa": "Disc. informe C.Mixta por rechazo de modific. en C. Origen",
+        "descripcion": "Discusión informe de Comisión Mixta . Aprobado",
+        "sesion": "83/373"
+      },
+      {
+        "fecha": "2025-12-17",
+        "camara": "Senado",
+        "etapa": "Disc. informe C.Mixta por rechazo de modific. en C. Origen",
+        "descripcion": "Oficio aprobación de informe de Comisión Mixta a C. Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-05",
+        "camara": "C.Diputados",
+        "etapa": "Disc. informe C.Mixta por rechazo de modif. C. Revisora",
+        "descripcion": "Discusión informe de Comisión Mixta . Aprobado",
+        "sesion": "105/373"
+      },
+      {
+        "fecha": "2026-01-05",
+        "camara": "Senado",
+        "etapa": "Trámite finalización en Cámara de Origen",
+        "descripcion": "Cuenta del Mensaje 1439-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "105/373"
+      },
+      {
+        "fecha": "2026-01-05",
+        "camara": "C.Diputados",
+        "etapa": "Disc. informe C.Mixta por rechazo de modif. C. Revisora",
+        "descripcion": "Discusión informe de Comisión Mixta . Aprobado .",
+        "sesion": "105/373"
+      },
+      {
+        "fecha": "2026-01-05",
+        "camara": "C.Diputados",
+        "etapa": "Disc. informe C.Mixta por rechazo de modif. C. Revisora",
+        "descripcion": "Cuenta oficio aprobación de informe de Comisión Mixta .  Queda para tabla.",
+        "sesion": "105/373"
+      },
+      {
+        "fecha": "2026-01-05",
+        "camara": "C.Diputados",
+        "etapa": "Disc. informe C.Mixta por rechazo de modif. C. Revisora",
+        "descripcion": "El diputado Andrés Giordano Salazar formula reserva de constitucionalidad.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-06",
+        "camara": "C.Diputados",
+        "etapa": "Disc. informe C.Mixta por rechazo de modif. C. Revisora",
+        "descripcion": "Oficio aprobación de informe de Comisión Mixta a C.de Origen .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-06",
+        "camara": "Senado",
+        "etapa": "Trámite finalización en Cámara de Origen",
+        "descripcion": "Cuenta oficio aprobación de informe de Comisión Mixta .",
+        "sesion": "86/373"
+      },
+      {
+        "fecha": "2026-01-06",
+        "camara": "Senado",
+        "etapa": "Trámite finalización en Cámara de Origen",
+        "descripcion": "Oficio de ley al Ejecutivo .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-02-05",
+        "camara": "Senado",
+        "etapa": "Trámite de aprobacion presidencial",
+        "descripcion": "Ingreso de observaciones .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-03-03",
+        "camara": "Senado",
+        "etapa": "Discusión veto en Cámara de Origen",
+        "descripcion": "Cuenta de observaciones . Pasa a Comisión del Adulto Mayor y Discapacidad",
+        "sesion": "97/373"
+      },
+      {
+        "fecha": "2026-03-17",
+        "camara": "Senado",
+        "etapa": "Discusión veto en Cámara de Origen",
+        "descripcion": "Oficio N° 001-374. Su Excelencia el Presidente de la República retira las observaciones contenidas en el Oficio N° 317-373, de fecha 5 de febrero de 2026.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-03-17",
+        "camara": "Senado",
+        "etapa": "Discusión veto en Cámara de Origen",
+        "descripcion": "Cuenta de Oficio N° 001-374, de Su Excelencia el Presidente de la República",
+        "sesion": "1/374"
+      },
+      {
+        "fecha": "2026-03-26",
+        "camara": "Senado",
+        "etapa": "Discusión veto en Cámara de Origen",
+        "descripcion": "Oficio N° 77 al Tribunal Constitucional",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-05-11",
+        "camara": "Senado",
+        "etapa": "Discusión veto en Cámara de Origen",
+        "descripcion": "Cuenta en C. Revisora de oficio N° 252-2026, del Tribunal Constitucional, por el cual remite copia autorizada de la sentencia de control de constitucionalidad del proyecto.",
+        "sesion": "21/374"
+      },
+      {
+        "fecha": "2026-05-12",
+        "camara": "Senado",
+        "etapa": "Trámite en Tribunal Constitucional",
+        "descripcion": "Ingreso fallo del Tribunal Constitucional .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-05-12",
+        "camara": "Senado",
+        "etapa": "Trámite en Tribunal Constitucional",
+        "descripcion": "Cuenta fallo del Tribunal Constitucional .",
+        "sesion": "15/374"
+      },
+      {
+        "fecha": "2026-05-13",
+        "camara": "Senado",
+        "etapa": "Trámite en Tribunal Constitucional",
+        "descripcion": "Oficio de ley al Ejecutivo .",
+        "sesion": "/"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "87063",
+      "fecha": "2026-01-05T19:15:04",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Comisión Mixta",
+      "articulo": "Proposición de la Comisión Mixta recaída en el proyecto de ley, originado en mensaje y mociones refundidas, “Para promover el envejecimiento positivo, el cuidado integral de las personas mayores, y el fortalecimiento de la institucionalidad del adulto mayor.”.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": true,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:41"
+  }
+}

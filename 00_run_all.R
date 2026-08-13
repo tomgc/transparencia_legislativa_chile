@@ -40,6 +40,10 @@ PASOS <- list(
        ruta = "30_procesamiento/35_extraer_proyectos.R"),
   list(id = 36L, etiqueta = "Extraer detalle de proyectos (contenido: tipo, materias)",
        ruta = "30_procesamiento/36_extraer_detalle_proyectos.R"),
+  # 37 va DESPUES del 36 y ANTES del 39: consume el universo congelado que dejan
+  # 34 y 35, y su intermedio lo lee el 39 para publicar la entidad `proyecto`.
+  list(id = 37L, etiqueta = "Extraer tramitacion (SIL, bicameral)",
+       ruta = "30_procesamiento/37_extraer_tramitacion.R"),
   list(id = 39L, etiqueta = "Consolidar JSON estatico",
        ruta = "30_procesamiento/39_consolidar_json.R")
 )
@@ -47,6 +51,16 @@ PASOS <- list(
 # Pasos de EXTRACCION (los que producen los intermedios sellados). Es lo que
 # regenera la guarda de alineamiento cuando detecta el desfase de P-62; se deriva
 # de PASOS para que no exista una segunda lista de rutas que se desincronice.
+# DEUDA DECLARADA (P-66 acto b, F5). El filtro sigue en 32:36 y NO incluye el 37
+# a proposito: sumarlo obliga a extender `capturas_crudas_de_paso()` (que hace
+# stop() ante un id que no conoce) y `INTERMEDIOS_PIPELINE` (que enumera 6), y
+# ninguno de los dos esta dentro del alcance que la enmienda 1 autorizo a tocar.
+# CONSECUENCIA MEDIDA, para que nadie la descubra por sorpresa: si `tramitacion.rds`
+# queda desalineado y los otros 6 estan al dia, esta guarda no lo detecta (no lo
+# mira) y la corrida avanza hasta validar_corte() en el 39, que SI lo atrapa y
+# detiene -- pero su mensaje dice "regenera los pasos 32-36", que es la
+# instruccion equivocada: hay que correr el 37. El dato nunca se publica mal; lo
+# que falla es la ruta de recuperacion que el mensaje sugiere.
 PASOS_EXTRACCION <- Filter(function(p) p$id %in% 32:36, PASOS)
 
 # ---- Funcion principal ----

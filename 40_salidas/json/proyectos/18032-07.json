@@ -1,0 +1,183 @@
+{
+  "boletin": "18032-07",
+  "nombre": "Modifica la Carta Fundamental para incorporar a Gendarmería de Chile dentro de las Fuerzas de Orden y Seguridad Pública",
+  "tipo_iniciativa": "Mensaje",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2026-01-05",
+  "tramitacion": {
+    "etapa_actual": "Tramitación terminada",
+    "estado": "Publicado",
+    "ley_numero": "Ley N° 21.810",
+    "tramites": [
+      {
+        "fecha": "2026-01-05",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-06",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Texto del Mensaje.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-06",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento.",
+        "sesion": "106/373"
+      },
+      {
+        "fecha": "2026-01-06",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1451-373 que hace presente la urgencia Suma",
+        "sesion": "106/373"
+      },
+      {
+        "fecha": "2026-01-19",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Constitución, Legislación, Justicia y Reglamento.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-19",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular a la vez .",
+        "sesion": "112/373"
+      },
+      {
+        "fecha": "2026-01-19",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  Queda para tabla.",
+        "sesion": "112/373"
+      },
+      {
+        "fecha": "2026-01-19",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio de ley a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-20",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento",
+        "sesion": "91/373"
+      },
+      {
+        "fecha": "2026-01-27",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "La Sala acuerda autorizar a la Comisión de Constitución, Legislación, Justicia y Reglamento para discutir en general y en particular el proyecto de reforma constitucional, con ocasión del trámite reglamentario de primer informe",
+        "sesion": "96/373"
+      },
+      {
+        "fecha": "2026-03-04",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Primer informe de comisión de Constitución, Legislación, Justicia y Reglamento.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-03-10",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .",
+        "sesion": "99/373"
+      },
+      {
+        "fecha": "2026-03-17",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1-374 que hace presente la urgencia Discusión inmediata",
+        "sesion": "1/374"
+      },
+      {
+        "fecha": "2026-03-17",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "El Honorable Senador señor Bianchi hizo reserva de constitucionalidad en la discusión del proyecto.",
+        "sesion": "1/374"
+      },
+      {
+        "fecha": "2026-03-17",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular sin modificaciones",
+        "sesion": "1/374"
+      },
+      {
+        "fecha": "2026-03-17",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio aprobación sin modificaciones a Cámara de Origen .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-03-18",
+        "camara": "C.Diputados",
+        "etapa": "Trámite finalización en Cámara de Origen",
+        "descripcion": "Cuenta oficio aprobación sin modificaciones de C. Revisora .",
+        "sesion": "2/374"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "87353",
+      "fecha": "2026-01-19T19:21:30",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Disposición transitoria quincuagésima séptima contenida en el numeral 5) del artículo único del proyecto, cuya votación separada ha sido solicitada por el diputado Gustavo Benavente y Andrés Longton, que consta en las páginas 9 y 10 del comparado y que requiere para su aprobación del voto favorable de 86 diputadas y diputados, en virtud de lo dispuesto en el artículo 127 de la Constitución Política de la República.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87352",
+      "fecha": "2026-01-19T19:20:25",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Disposición transitoria quincuagésima sexta contenida en el numeral 5) del artículo único del proyecto, en los términos propuestos por el Mensaje; que consta en la página 8 del comparado, y que requiere para su aprobación del voto favorable de 86 diputadas y diputados, en virtud de lo dispuesto en el artículo 127 de la Constitución Política de la República.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87351",
+      "fecha": "2026-01-19T19:19:18",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Disposición transitoria quincuagésima sexta contenida en el numeral 5) del artículo único del proyecto, en los términos propuestos por la Comisión de Constitución, Legislación, Justicia y Reglamento; cuya votación separada ha sido solicitada por el diputado Luis Sánchez, Andrés Longton y Gustavo Benavente; que consta en las páginas 8 y 9 del comparado, y que requiere para su aprobación del voto favorable de 86 diputadas y diputados, en virtud de lo dispuesto en el artículo 127 de la Constitución Política de la República.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87350",
+      "fecha": "2026-01-19T19:17:30",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": null,
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": true,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:41"
+  }
+}
