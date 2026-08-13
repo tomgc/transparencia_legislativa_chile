@@ -1,8 +1,8 @@
 ============================================================
  ESTRUCTURA DEL PROYECTO
  Raíz: /Users/tomgc/Projects/transparencia_legislativa_chile
- Fecha: 2026-08-12 21:59:27
- Total: 26 carpetas, 2911 archivos
+ Fecha: 2026-08-13 09:19:18
+ Total: 26 carpetas, 2914 archivos
 ============================================================
 
 ├── 10_utils/
@@ -2634,17 +2634,18 @@
 │   │   │   ├── 20260710_decision_barrido_opendata_congreso.md    [4.07K]
 │   │   │   ├── 20260710_decision_modulo_biblioteca_historica.md    [5.89K]
 │   │   │   ├── 20260711_decision_ruta_desarrollo.md    [13.10K]
+│   │   │   ├── 20260812_decision_contrato_temporal_captura.md    [3.86K]
 │   │   │   ├── encargo_pipeline_senado_ESQUELETO_BLOQUEADO.md    [5.13K]
 │   │   ├── 50_catalogo_fuentes_camara.md    [29.59K]
 │   │   ├── 50_catalogo_fuentes_senado.md    [24.01K]
 │   │   ├── 50_veredicto_contrato_simetrico_senado.md    [13.03K]
 │   │   ├── 50_veredicto_eje_tematico.md    [19.18K]
-│   │   ├── backlog_acumulativo.md    [63.08K]
+│   │   ├── backlog_acumulativo.md    [67.56K]
 │   │   ├── documentacion_tecnica_v1.md    [4.44K]
 │   │   ├── encargo_contrato_datos_camara_senado.md    [14.93K]
 │   │   ├── encargo_exploracion_asistencia_senado_h1bis.md    [14.97K]
 │   │   ├── encargo_exploracion_senado_v02.md    [15.56K]
-│   │   ├── ESTADO.md    [1.28K]
+│   │   ├── ESTADO.md    [1.13K]
 │   │   ├── exploracion_api_camara.md    [7.29K]
 │   │   ├── POLITICA_PROYECTO.md    [35.86K]
 │   │   ├── procedimiento_actualizacion.md    [7.41K]
@@ -2679,6 +2680,7 @@
 │   │   │   ├── 20260808_p74_acto_b_log.md    [21.73K]
 │   │   │   ├── 20260808_p74_medicion_log.md    [31.50K]
 │   │   │   ├── 20260812_reparacion_guarda_bot_log.md    [14.11K]
+│   │   │   ├── cierres_log.md    [4.25K]
 │   │   ├── muestras/
 │   │   │   ├── bcn_ficha_carter_4558.html    [80.02K]
 │   │   │   ├── bcn_ficha_colisionado_1159_persona_5221.html    [76.04K]
@@ -2739,14 +2741,14 @@
 │   │   ├── 50_verificar_p74_acto_b.R    [37.51K]
 │   │   ├── explorar_contenido_proyectos.R    [13.60K]
 │   │   ├── medir_fuente_territorio.R    [17.76K]
-│   │   ├── paquete_cierre_v18.md    [56.60K]
+│   │   ├── paquete_cierre_v19.md    [38.93K]
 │   ├── estructura/
-│   │   ├── 20260808_082255_estructura.md    [187.07K]
-│   │   ├── 20260808_082255_estructura.txt    [187.23K]
 │   │   ├── 20260808_145921_estructura.md    [187.37K]
 │   │   ├── 20260808_145921_estructura.txt    [187.53K]
-│   │   ├── estructura_actual.md    [187.37K]
-│   │   ├── estructura_actual.txt    [187.53K]
+│   │   ├── 20260812_215927_estructura.md    [188.57K]
+│   │   ├── 20260812_215927_estructura.txt    [188.73K]
+│   │   ├── estructura_actual.md    [188.57K]
+│   │   ├── estructura_actual.txt    [188.73K]
 │   ├── traspasos/
 │   │   ├── archivo/
 │   │   │   ├── traspaso_cierre_v01.md    [13.54K]
@@ -2765,7 +2767,8 @@
 │   │   │   ├── traspaso_cierre_v14.md    [39.72K]
 │   │   │   ├── traspaso_cierre_v15.md    [40.58K]
 │   │   │   ├── traspaso_cierre_v16.md    [45.36K]
-│   │   ├── traspaso_cierre_v17.md    [29.47K]
+│   │   │   ├── traspaso_cierre_v17.md    [29.47K]
+│   │   ├── traspaso_cierre_v18.md    [45.74K]
 ├── docs/
 │   ├── assets/
 │   │   ├── fonts/
@@ -2949,8 +2952,8 @@
 
   .xml             1668
   .json            949
+  .md               80
   .rds              79
-  .md               77
   .html             75
   .R                28
   .csv              12
