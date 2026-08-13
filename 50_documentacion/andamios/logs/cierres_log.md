@@ -235,13 +235,29 @@ formato del paquete); ninguno se normalizó.
   **100,2** por redondeo". Tras el delta la columna suma **61**, las entradas son
   **60** (1-60), y los diez porcentajes recalculados suman **100,0** exactamente
   (verificado en R). **El BACKLOG_DELTA no trae ningún par buscar→reemplazar para
-  ese texto**, así que F4 no lo tocó.
+  ese texto**, así que F4 no lo tocó durante las fases.
   Es **la tercera repetición del mismo patrón**: el log de v19 ya registró dos
   correcciones posteriores al commit de cierre por esta misma nota y dejó escrita
   la lección — *"cuando un delta cambia una base de cálculo, sus pares tienen que
   cubrir también lo que esa base afirma en prosa"*. La lección no se aplicó en el
   paquete v20. **Ninguna de las tres cifras es un fallo del cierre**; las tres son
   del delta.
+- **Corregida por el cierre, no por el delta, y por tercera vez.** Por instrucción
+  explícita del titular posterior al commit `ec474ae`, las tres cifras se
+  actualizaron a los valores ya verificados en R durante F4: columna **59 → 61**,
+  entradas **58 → 60 (1-60)**, y la frase del redondeo pasa a declarar que en este
+  corte los diez porcentajes suman **100,0 exactamente**, reservando la explicación
+  del redondeo para los cortes en que no sumen 100,0. Se deja constancia de la
+  autoría del arreglo: **lo hizo el cierre, fuera de F4 y por orden del titular, no
+  el BACKLOG_DELTA**, igual que en v18 y v19. F4 por sí sola no habría tocado ese
+  texto, y no debe: no inventa reemplazos que el delta no declara.
 - **El pendiente de fondo sigue abierto**, y ahora con la misma unidad de siempre:
   columna 61 contra entradas 60. Resolverlo exige auditar la clasificación de las
   entradas 1-23, que el propio archivo declara como pendiente.
+
+### Para el redactor del próximo paquete de cierre
+
+El BACKLOG_DELTA debe traer SIEMPRE los pares de la nota 'Discrepancia
+heredada', no solo los de la tabla de clasificacion. Tercera repeticion
+(v18, v19, v20). Si el redactor solo actualiza la tabla, la nota queda stale
+y la corrige el cierre, que no deberia inventar reemplazos.
