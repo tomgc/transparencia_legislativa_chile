@@ -3,23 +3,25 @@ slug: transparencia_legislativa_chile
 nombre_real: Transparencia Legislativa Chile
 categoria: activo
 semaforo: activo
-sesion_actual: v19
+sesion_actual: v20
 ultima_actividad: 2026-08-13
 maneja_sensibles: false
 tipo_pendiente: nuevo
 ---
 ## En que vamos
-La sesion 19 cerro las dos deudas declaradas de la guarda de arranque (el escape
-que no se consumia y el borrado de intermedios que se leia como primera corrida) y
-la corrigio ademas en un mensaje que contaba archivos inexistentes. Con esa ruta
-cerrada, ratifico D31 como archivo de decision, descarto las capturas en
-cuarentena e instalo la guarda de locale UTF-8 en cuatro puntos de arranque,
-apagando el gatillo 4ter. Quedan dos PR completos y sin mergear, #11 y #12, y
-ningun bug activo.
+
+El portal publica el eje persona (155 perfiles) y el pipeline de la Camara corre
+desatendido con refresh semanal por PR. La sesion 20 cerro P-68 con veredicto NO:
+ni LeyChile ni datos.bcn.cl entregan materias en cantidad capaz de dar vuelta el
+veredicto del eje tematico, medido sobre 427 boletines al corte 2026-08-12. Ese
+"no" no cancela el eje de proyectos: lo acota a tramitacion, autoria y votaciones,
+sin bloque de materias.
 
 ## Proximo paso
-Sondear LeyChile y datos.bcn.cl (P-68), lo unico capaz de dar vuelta el veredicto
-del eje tematico y lo que define el alcance de P-66.
+
+P-66: publicar la entidad `proyecto` con tramitacion legislativa, con
+`cobertura_materias` explicito y el denominador contado en la corrida.
 
 ## Bloqueantes
+
 ninguno

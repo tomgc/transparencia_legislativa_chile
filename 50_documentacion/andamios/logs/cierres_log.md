@@ -154,3 +154,94 @@ Paquete: `paquete_cierre_v19.md` (711 líneas, md5 `c5683dea97485810a452fad2b6ce
   buscar->reemplazar a la columna N, y F4 no inventa reemplazos no declarados.
   Leccion para el redactor del proximo paquete: cuando un delta cambia una base de
   calculo, sus pares tienen que cubrir tambien lo que esa base afirma en prosa.
+
+## v20 — 2026-08-13
+
+Cierre ejecutado con el instrumento v4
+(`herramientas_dev/prompts/cierre_sesion_autonomo_cc_v4.md`), paquete
+`paquete_cierre_v20.md`, modo autónomo. `push_autorizado: no`.
+
+### Fases y evidencia
+
+| Fase | Qué se hizo | Evidencia |
+|---|---|---|
+| **F0.1** | `.git` y `50_documentacion/traspasos` presentes | `test -d` OK en ambos |
+| **F0.2** | Exactamente **1** paquete; 7 campos de front matter; 0 placeholders | `ls` = 1 archivo; grep de `<NN>`, `<slug>`, `[...]`, `<N>` = 0 hallazgos |
+| **F0.3** | Guardia de repo | `raiz_proyecto` del front matter = `pwd` = `/Users/tomgc/Projects/transparencia_legislativa_chile` |
+| **F0.4** | Correlativo por triple origen | máx. en `traspasos/` = v19, en `archivo/` = v18 → **19 + 1 = 20**; `traspaso_nuevo` = `traspaso_cierre_v20.md`; nombre del paquete = `paquete_cierre_v20.md`. Los tres coinciden |
+| **F0.5** | `backlog_ultimo_previo` contra disco | recuento programático en R: **58** entradas, 1-58 contiguas, 0 duplicados, 0 huecos. Front matter declara 58 |
+| **F0.6** | Sucios en `50_documentacion/` | solo `?? paquete_cierre_v20.md`, que es el vehículo mismo y no puede tratarse como sucio bloqueante. Ningún otro |
+| **F1** | Escáner regenerado (`sello_escaner: regenerar`) | `Rscript 00_escanear_proyecto.R`, exit 0. Sello **`20260813_125459`**. Podó `20260812_215927` |
+| **F2** | Archivado del v19 | `git mv` (nunca `cp`+`rm`). Resultado: **0** traspasos planos, **19** en `archivo/` |
+| **F3** | Traspaso escrito | 568 líneas, 33 441 bytes. **`vigentes=1`** (`traspaso_cierre_v20.md`) |
+| **F4** | Delta del backlog aplicado | ver bloque siguiente |
+| **F5** | `ESTADO.md` escrito | 27 líneas, 852 bytes, front matter `sesion_actual: v20` |
+| **F6** | Cuatro greps de gobernanza sobre los archivos escritos | RUT **0**; OneDrive/Dropbox **0**; coautoría de la herramienta **0**; placeholders **0** |
+| **F7** | `git add` selectivo (nunca `git add .`, nunca el paquete) + commit + verificación de distribución + `rm` del vehículo | ver bloque de cierre |
+| **F8** | `push_autorizado: no` → **no se hizo push** | queda local en `main` |
+
+### F4 — Verificación programática del backlog (la que el paquete exige, en R)
+
+Los 12 pares buscar→reemplazar aparecieron **exactamente una vez cada uno** antes
+de aplicarse (n=1 en los 12; ninguno ausente ni duplicado). Después de aplicar:
+
+| Verificación exigida | Resultado |
+|---|---|
+| Primera entrada nueva = `backlog_ultimo_previo` + 1 | **59** = 58 + 1 |
+| Correlativo del detalle cronológico | **1-60**, contiguo, **0** duplicados, **0** huecos |
+| Suma de la columna `N` de clasificación | **61**, igual a la declarada en la fila |
+| Porcentajes recalculados sobre 61 | coinciden con los declarados en los **10** renglones |
+| Suma de `N cambios` del resumen por sesión | **60**, igual a la fila `Total` |
+
+El recuento reconoce los **tres** formatos de entrada que conviven en el archivo
+(1-23 como lista ordenada, 24-58 con negrita sobre número y título, 59-60 con el
+formato del paquete); ninguno se normalizó.
+
+### Desviaciones del instrumento, declaradas
+
+1. **Delimitadores del paquete.** F0.2 exige que "los tres delimitadores abren y
+   cierran", con la forma `<<<TRASPASO destino: …>>>` / `TRASPASO>>>` de §2. El
+   paquete v20 usa en su lugar banderas HTML
+   (`<!-- ===== BLOQUE X ===== -->` seguido de `<!-- destino: … -->`) y **no trae
+   delimitador de cierre**: cada bloque termina donde empieza el banner siguiente,
+   y el último en fin de archivo. **Se continuó, no se detuvo**, porque las tres
+   rutas de destino están declaradas explícitamente, las fronteras son
+   inequívocas, y F7.3 verifica la extracción por diff contra el destino, que es
+   la garantía que la regla protege. Queda declarado para que el redactor del
+   próximo paquete use la forma del instrumento.
+2. **Rama de destino del cierre.** `/cierre` se lanzó desde
+   `sondeo/p68-fuentes-tematicas`. El cierre se ejecutó sobre **`main`**
+   (`git switch main`, working tree limpio salvo el vehículo), porque el §1 del
+   propio traspaso declara `main` = `0ecb44e` **"previo al commit de cierre"**, y
+   esa etiqueta solo es cierta si el commit de cierre aterriza en `main`; además
+   su §11.1 deja la rama del sondeo pendiente de decisión del titular. El
+   instrumento no norma la rama. La rama del sondeo queda intacta, con sus 6
+   commits y sin push.
+
+### Observaciones sobre el paquete, no corregidas
+
+- **Formato de las entradas nuevas.** El delta escribe `- **59.** Texto`, mientras
+  las entradas 24-58 del archivo usan `**24. Título…**` sin guion. Se escribió
+  **byte a byte como lo trae el paquete**: F4 no edita bloques.
+- **Falta el encabezado `### Sesion 20 (v20) — …`.** Las 19 sesiones previas
+  tienen uno; el delta no lo provee y agregarlo sería completar el bloque, que
+  está prohibido. Las entradas 59-60 quedan bajo el encabezado de la sesión 19.
+
+### Pendientes fuera de scope, detectados en esta corrida
+
+- **La nota "Discrepancia heredada" volvió a quedar stale, en tres cifras.** Dice
+  que "hoy la columna suma **59** mientras las entradas… son **58** (1-58)", que
+  "los porcentajes se calculan sobre la suma de la columna (**59**)" y que "suman
+  **100,2** por redondeo". Tras el delta la columna suma **61**, las entradas son
+  **60** (1-60), y los diez porcentajes recalculados suman **100,0** exactamente
+  (verificado en R). **El BACKLOG_DELTA no trae ningún par buscar→reemplazar para
+  ese texto**, así que F4 no lo tocó.
+  Es **la tercera repetición del mismo patrón**: el log de v19 ya registró dos
+  correcciones posteriores al commit de cierre por esta misma nota y dejó escrita
+  la lección — *"cuando un delta cambia una base de cálculo, sus pares tienen que
+  cubrir también lo que esa base afirma en prosa"*. La lección no se aplicó en el
+  paquete v20. **Ninguna de las tres cifras es un fallo del cierre**; las tres son
+  del delta.
+- **El pendiente de fondo sigue abierto**, y ahora con la misma unidad de siempre:
+  columna 61 contra entradas 60. Resolverlo exige auditar la clasificación de las
+  entradas 1-23, que el propio archivo declara como pendiente.
