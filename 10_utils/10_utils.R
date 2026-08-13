@@ -261,17 +261,29 @@ escape_captura_declarado <- function() {
   isTRUE(getOption(OPCION_ESCAPE_CAPTURA, FALSE))
 }
 
-# El escape es de UN SOLO USO: al consumirse se apaga. Sin esto queda pegajoso en
-# la sesion, y como run_all() corre los 6 pasos con source() en la MISMA sesion,
-# encenderlo una vez para un caso puntual dejaria pasar sin detencion todas las
-# capturas siguientes de esa corrida -- justo el olvido de avanzar CORTE_FECHA
-# que el contrato existe para atrapar. Consumir obliga a declararlo por captura.
-consumir_escape_captura <- function(origen = "contrato") {
-  options(stats::setNames(list(FALSE), OPCION_ESCAPE_CAPTURA))
-  log_msg(sprintf(paste0("Escape de captura CONSUMIDO (%s vuelve a FALSE). Es de un solo uso: ",
-                         "otra captura fuera de corte en esta misma sesion se detendra."),
-                  OPCION_ESCAPE_CAPTURA), "WARN", origen)
+# Consumo generico de un escape declarado (P-76). Todo escape del proyecto es de
+# UN SOLO USO: al consumirse se apaga. Sin esto queda pegajoso en la sesion, y
+# como run_all() corre los 6 pasos con source() en la MISMA sesion, encenderlo
+# una vez para un caso puntual dejaria pasar sin detencion todo lo que sigue en
+# esa corrida. Consumir obliga a declararlo por caso.
+# `nota` es una plantilla de sprintf con UN solo %s: ahi se interpola el nombre
+# de la opcion, para que el log siempre diga cual se apago. Se pasa como
+# plantilla (y no compuesta por el llamador) porque el texto que hoy emite
+# consumir_escape_captura() tiene que salir identico, byte a byte, al de HEAD.
+consumir_escape <- function(opcion, nota, origen) {
+  options(stats::setNames(list(FALSE), opcion))
+  log_msg(sprintf(nota, opcion), "WARN", origen)
   invisible(TRUE)
+}
+
+# Escape del contrato temporal de captura (P-74). Envoltorio del generico: su
+# nombre, su firma y el texto de su log NO cambian.
+consumir_escape_captura <- function(origen = "contrato") {
+  consumir_escape(
+    OPCION_ESCAPE_CAPTURA,
+    paste0("Escape de captura CONSUMIDO (%s vuelve a FALSE). Es de un solo uso: ",
+           "otra captura fuera de corte en esta misma sesion se detendra."),
+    origen)
 }
 
 # Guarda de escritura. Devuelve FALSE si la descarga cae dentro del corte, TRUE
@@ -459,6 +471,36 @@ con_cache <- function(nombre_cache, fn_descarga, tope = NULL, origen = "cache") 
 INTERMEDIOS_PIPELINE <- c("diputados", "asistencia_nominal", "asistencia_ambitos",
                           "votos", "proyectos", "proyectos_detalle")
 
+# P-77: rastro de arranque. Vive DENTRO de 40_salidas/intermedios/ y esta
+# gitignorado (.gitignore, junto a la linea de los .rds). Su unica funcion es
+# distinguir dos estados que hasta ahora colapsaban en "0 intermedios en disco":
+# "esta copia nunca corrio" (checkout fresco: el runner) y "esta copia corrio y
+# alguien borro los intermedios" (donde descargar el anno completo es justo lo
+# que no se quiere). El directorio NO sirve de rastro: existe en todo checkout
+# porque .gitkeep esta trackeado, y destrackearlo rompe la ruta de recuperacion
+# que la propia guarda imprime (extractores sueltos, que no crean directorios).
+RASTRO_ARRANQUE <- "arranque_registrado.txt"
+
+# Se escribe con el corte vigente y el instante. Nadie lo parsea: la guarda solo
+# mira file.exists(). El contenido es para el operador que lo encuentre.
+escribir_rastro_arranque <- function(corte, motivo) {
+  ruta <- ruta_salidas("intermedios", RASTRO_ARRANQUE)
+  # Si alguien borro el directorio entero, se recrea aqui: sin el, ni el rastro ni
+  # los intermedios que vienen despues tienen donde escribirse (escribir_atomico()
+  # no crea directorios, A12). Mismo criterio que con_cache() con el suyo.
+  fs::dir_create(dirname(ruta))
+  writeLines(c(
+    "# Rastro de arranque del pipeline (P-77). Archivo gitignorado, regenerable.",
+    "# Su PRESENCIA le dice a la guarda de 00_run_all.R que esta copia del repo ya",
+    "# tuvo intermedios: con 0 intermedios en disco, el estado es 'los borraron',",
+    "# no 'primera corrida'. Borrarlo hace que la proxima corrida sin intermedios",
+    "# se lea como un clon fresco y pueda descargar el anno completo.",
+    sprintf("corte_fecha: %s", corte),
+    sprintf("escrito: %s", format(Sys.time(), "%Y-%m-%d %H:%M:%S")),
+    sprintf("motivo: %s", motivo)), ruta)
+  invisible(ruta)
+}
+
 # Autorizacion EXPLICITA para arrancar un corte descargando cuando ya hay
 # intermedios en disco pero desalineados y faltan sus capturas. Opcion nombrada,
 # default FALSE, jamas inferida del entorno: no se lee de Sys.getenv() ni se
@@ -470,6 +512,19 @@ OPCION_DESCARGA_INICIAL <- "camara.permitir_descarga_inicial"
 
 descarga_inicial_autorizada <- function() {
   isTRUE(getOption(OPCION_DESCARGA_INICIAL, FALSE))
+}
+
+# P-76: este escape tambien es de UN SOLO USO. Hasta el PR #9 quedaba encendido
+# despues de usarse, asi que autorizarlo para un caso lo dejaba encendido para
+# todo lo que siguiera en la misma sesion de run_all(). Misma asimetria que el
+# PR #8 cerro para el escape de captura, y se cierra con el mismo helper.
+consumir_descarga_inicial <- function(origen = "guarda_intermedios") {
+  consumir_escape(
+    OPCION_DESCARGA_INICIAL,
+    paste0("Escape de descarga inicial CONSUMIDO (%s vuelve a FALSE). Es de un solo uso: ",
+           "si esta corrida vuelve a pasar por este estado, o lo hace la siguiente, la guarda ",
+           "se detiene otra vez y hay que declararlo de nuevo."),
+    origen)
 }
 
 # Capturas crudas que cada extractor necesita para dar cache hit. Las claves
@@ -535,18 +590,49 @@ regenerar_intermedios_si_desalineados <- function(pasos, root, corte = CORTE_FEC
   # Este es el estado del runner: en un checkout fresco los intermedios estan
   # gitignorados, asi que no hay ninguno, y las capturas que la guarda exigia son
   # justamente las que esa corrida iba a crear.
+  # P-77: el conteo NO alcanza para decidir. "Nunca hubo" y "habia y se borraron"
+  # producen los dos n_en_disco == 0, y el segundo terminaba descargando el anno
+  # completo por esta rama. El discriminante es un rastro en disco, medido con
+  # file.exists() y no con ningun proxy: el directorio no sirve (existe en todo
+  # checkout por .gitkeep) y el sello tampoco (no hay sello que leer si no hay
+  # archivo).
   rutas_intermedios <- ruta_salidas("intermedios",
                                     paste0(INTERMEDIOS_PIPELINE, ".rds"))
-  n_en_disco <- sum(file.exists(rutas_intermedios))
-  if (n_en_disco == 0) {
+  n_en_disco  <- sum(file.exists(rutas_intermedios))
+  ruta_rastro <- ruta_salidas("intermedios", RASTRO_ARRANQUE)
+  hay_rastro  <- file.exists(ruta_rastro)
+  if (n_en_disco == 0 && !hay_rastro) {
     log_msg(sprintf(paste0("Primera corrida del corte %s: 0 de %d archivos de intermedio en ",
-                           "disco. No hay nada que regenerar ni con que comparar; los pasos %s ",
-                           "los crearan. El contrato temporal de la captura (P-74) sigue ",
-                           "validando que la fecha de descarga honre el corte declarado."),
+                           "disco y sin rastro de arranque previo. No hay nada que regenerar ni ",
+                           "con que comparar; los pasos %s los crearan. El contrato temporal de ",
+                           "la captura (P-74) sigue validando que la fecha de descarga honre el ",
+                           "corte declarado."),
                     corte, length(INTERMEDIOS_PIPELINE),
                     paste(vapply(pasos, function(p) p$id, integer(1)), collapse = ", ")),
             origen = "guarda_intermedios")
+    escribir_rastro_arranque(corte, "primera corrida: 0 intermedios en disco y sin rastro previo")
+    log_msg(sprintf(paste0("Rastro de arranque escrito en %s. Desde ahora, 0 intermedios en esta ",
+                           "copia significa 'los borraron', no 'primera corrida'."),
+                    file.path("40_salidas/intermedios", RASTRO_ARRANQUE)),
+            origen = "guarda_intermedios")
     return(invisible(FALSE))
+  }
+  # Copia que ya tenia intermedios cuando llego este arreglo: se adopta el rastro
+  # retroactivamente. Sin esto el rastro solo existiria en copias nacidas despues
+  # del fix, y en toda instalacion previa (incluida la del titular) un borrado de
+  # los .rds seguiria leyendose como arranque: P-77 quedaria abierto justo donde
+  # se reporto. Ocurre una sola vez por copia y no cambia ninguna decision de esta
+  # corrida.
+  if (n_en_disco > 0 && !hay_rastro) {
+    escribir_rastro_arranque(corte, sprintf(
+      "adopcion retroactiva: %d de %d intermedios ya estaban en disco",
+      n_en_disco, length(INTERMEDIOS_PIPELINE)))
+    log_msg(sprintf(paste0("Rastro de arranque ausente pero hay %d de %d intermedios en disco: ",
+                           "esta copia ya corrio. Rastro escrito en %s (una sola vez)."),
+                    n_en_disco, length(INTERMEDIOS_PIPELINE),
+                    file.path("40_salidas/intermedios", RASTRO_ARRANQUE)),
+            origen = "guarda_intermedios")
+    hay_rastro <- TRUE
   }
   # Presentes pero ilegibles: se nombran, para que "desalineado" no tape "roto".
   ilegibles <- INTERMEDIOS_PIPELINE[file.exists(rutas_intermedios) & is.na(declarados)]
@@ -584,10 +670,26 @@ regenerar_intermedios_si_desalineados <- function(pasos, root, corte = CORTE_FEC
                       length(unlist(faltantes, use.names = FALSE)), corte,
                       OPCION_DESCARGA_INICIAL),
               "WARN", "guarda_intermedios")
+      # P-76: se consume ANTES de devolver, en el mismo sitio donde se registra la
+      # autorizacion. Si quedara encendida, autorizar un caso autorizaria todo lo
+      # que siguiera en esta misma sesion de run_all().
+      consumir_descarga_inicial()
       return(invisible(FALSE))
     }
+    # P-77: la linea que distingue "los borraron" de "primera corrida". Sin ella
+    # el mensaje habla de intermedios que "no corresponden al corte" cuando lo que
+    # pasa es que no hay ninguno.
+    nota_borrados <- if (n_en_disco == 0)
+      sprintf(paste0("  Esto NO es un arranque: hay 0 de %d intermedios en disco, pero el rastro ",
+                     "de arranque (%s) esta presente, asi que esta copia ya corrio y los ",
+                     "intermedios se borraron. En un clon fresco no habria rastro y la corrida ",
+                     "habria seguido sin detenerse.\n"),
+              length(INTERMEDIOS_PIPELINE),
+              file.path("40_salidas/intermedios", RASTRO_ARRANQUE))
+    else ""
     stop(sprintf(paste0(
       "run_all: %d de %d intermedios NO corresponden al corte vigente (%s): %s.\n",
+      "%s",
       "  No se pueden regenerar: falta la captura cruda de ese corte en ",
       "20_insumos/camara/ (%d archivo(s)): %s.\n",
       "  La regeneracion automatica no descarga nada de la red (invariante del ",
@@ -598,6 +700,7 @@ regenerar_intermedios_si_desalineados <- function(pasos, root, corte = CORTE_FEC
       "declara options(%s = TRUE) antes de la corrida."),
       length(desalineados), length(INTERMEDIOS_PIPELINE), corte,
       paste(desalineados, collapse = ", "),
+      nota_borrados,
       length(unlist(faltantes, use.names = FALSE)),
       paste(basename(unlist(faltantes, use.names = FALSE)), collapse = ", "),
       paste(sprintf("    source(\"%s\")", names(faltantes)), collapse = "\n"),
