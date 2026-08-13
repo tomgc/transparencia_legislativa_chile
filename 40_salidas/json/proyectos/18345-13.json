@@ -1,0 +1,113 @@
+{
+  "boletin": "18345-13",
+  "nombre": "Modifica el Código del Trabajo para resguardar la inembargabilidad de las remuneraciones de los trabajadores ante acciones de cobranza",
+  "tipo_iniciativa": "Moción",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2026-06-08",
+  "tramitacion": {
+    "etapa_actual": "Primer trámite constitucional (C.Diputados)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2026-06-08",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-06-15",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Trabajo y Seguridad Social",
+        "sesion": "33/374"
+      },
+      {
+        "fecha": "2026-06-15",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "A solicitud del diputado Moreno, el proyecto se radica en la Comisión de Educación. ACORDADO",
+        "sesion": "33/374"
+      },
+      {
+        "fecha": "2026-06-15",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio N° 21310. Por acuerdo de la Sala, remite a la Comisión de Educación el proyecto de ley, inicialmente asignado a la Comisión de Trabajo y Seguridad Social.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-08-11",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Eximido del trámite ante Comisión Derivado a Comisión de Educación",
+        "sesion": "/"
+      }
+    ]
+  },
+  "autores": [
+    {
+      "parlamentario_id": "1012",
+      "nombre": "Boris Barrera Moreno",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1073",
+      "nombre": "Juan Santana Castillo",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1117",
+      "nombre": "Nathalie Castillo Rojas",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1122",
+      "nombre": "Luis Alberto Cuello Peña y Lillo",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1128",
+      "nombre": "Ana María Gazmuri Vieira",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1171",
+      "nombre": "Emilia Schneider Videla",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1173",
+      "nombre": "Daniela Serrano Salazar",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1236",
+      "nombre": "Paula Olmos Contreras",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1241",
+      "nombre": "Patricio Pinilla Valencia",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1188",
+      "nombre": "Marcos Barraza Gómez",
+      "en_padron_vigente": true
+    }
+  ],
+  "votaciones": [],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": true,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:42"
+  }
+}

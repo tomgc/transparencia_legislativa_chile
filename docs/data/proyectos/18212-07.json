@@ -1,0 +1,77 @@
+{
+  "boletin": "18212-07",
+  "nombre": "Modifica el código penal y la ley Nº 20.084, con el objeto de establecer la responsabilidad penal de los padres o guardadores por omisión grave del deber de cuidado",
+  "tipo_iniciativa": "Moción",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2026-04-21",
+  "tramitacion": {
+    "etapa_actual": "Primer trámite constitucional (C.Diputados)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2026-04-21",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-04-22",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento",
+        "sesion": "16/374"
+      }
+    ]
+  },
+  "autores": [
+    {
+      "parlamentario_id": "1259",
+      "nombre": "Juan Marcelo Valenzuela Henríquez",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1243",
+      "nombre": "Tamara Ramírez Ramírez",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1258",
+      "nombre": "Guillermo Valdés Carmona",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1236",
+      "nombre": "Paula Olmos Contreras",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1235",
+      "nombre": "Javier Olivares Avendaño",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1217",
+      "nombre": "Pier Karlezi Hazleby",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1193",
+      "nombre": "Patricio Briones Moller",
+      "en_padron_vigente": true
+    }
+  ],
+  "votaciones": [],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": true,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:41"
+  }
+}

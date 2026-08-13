@@ -1,0 +1,120 @@
+{
+  "boletin": "18443-07",
+  "nombre": "Crea el Registro Nacional de Condenados por Delitos Económicos y establece restricciones a beneficios estatales para quienes los cometen",
+  "tipo_iniciativa": "Moción",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2026-06-24",
+  "tramitacion": {
+    "etapa_actual": "Primer trámite constitucional (C.Diputados)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2026-06-24",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-08",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Declaración de inadmisibilidad basada en informe técnico N° 4/374/2026, revertida por la Sala en sesión 41-374.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-13",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento.",
+        "sesion": "42/374"
+      },
+      {
+        "fecha": "2026-07-13",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "A petición de diputado Patricio Pinilla, la Sala acordó radicar el proyecto en la Comisión de Seguridad Ciudadana.",
+        "sesion": "42/374"
+      },
+      {
+        "fecha": "2026-07-13",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio N° 21386. Comunica a la Comisión de Constitución, Legislación, Justicia y Reglamento el acuerdo de la Sala, en orden a remitir el proyecto a la Comisión de Seguriddad Ciudadana, con posterioridad a su despacho.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-13",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio N° 21385. Comunica a la Comisión de Seguridad Ciudadana  el acuerdo de la Sala, en orden a que le sea remitido del proyecto de ley, una vez que sea despachado por la Comisión de Constitución, Legislación, Justicia y Reglamento.",
+        "sesion": "/"
+      }
+    ]
+  },
+  "autores": [
+    {
+      "parlamentario_id": "1077",
+      "nombre": "Raúl Soto Mardones",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1087",
+      "nombre": "Gael Yeomans Araya",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1105",
+      "nombre": "Héctor Barría Angulo",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1142",
+      "nombre": "Daniel Manouchehri Lobos",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1116",
+      "nombre": "Felipe Camaño Cárdenas",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1259",
+      "nombre": "Juan Marcelo Valenzuela Henríquez",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1238",
+      "nombre": "Álvaro Ortiz Vera",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1224",
+      "nombre": "Cristian Mella Andaur",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1208",
+      "nombre": "Jorge Díaz Ibarra",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1241",
+      "nombre": "Patricio Pinilla Valencia",
+      "en_padron_vigente": true
+    }
+  ],
+  "votaciones": [],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": true,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:42"
+  }
+}

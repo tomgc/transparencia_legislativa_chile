@@ -1,0 +1,155 @@
+{
+  "boletin": "15630-07",
+  "nombre": "Sobre improcedencia de medida cautelar en caso de legítima defensa que indica",
+  "tipo_iniciativa": "Moción",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2022-12-27",
+  "tramitacion": {
+    "etapa_actual": "Segundo trámite constitucional (Senado)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2022-12-27",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2023-01-04",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento",
+        "sesion": "112/370"
+      },
+      {
+        "fecha": "2024-10-01",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Constitución, Legislación, Justicia y Reglamento.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-10-02",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  Queda para tabla.",
+        "sesion": "83/372"
+      },
+      {
+        "fecha": "2025-01-06",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión pendiente.",
+        "sesion": "122/372"
+      },
+      {
+        "fecha": "2025-04-07",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general .",
+        "sesion": "9/373"
+      },
+      {
+        "fecha": "2025-04-07",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio N° 20310. Comunica a la Comisión de Constitución, Legislación, Justicia y Reglamento que la Sala aprobó en general el proyecto de ley. Por haber sido objeto de indicaciones, que se adjuntan, se remiten los antecedentes para la discusión particular.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-12-15",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Segundo informe de comisión de Constitución, Legislación, Justicia y Reglamento.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-12-15",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de segundo informe de comisión .  Queda para tabla.",
+        "sesion": "102/373"
+      },
+      {
+        "fecha": "2026-01-07",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión particular . Aprobado .",
+        "sesion": "107/373"
+      },
+      {
+        "fecha": "2026-01-07",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio N° 20975. Oficio de Ley a Cámara Revisora.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-07",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento",
+        "sesion": "87/373"
+      },
+      {
+        "fecha": "2026-03-24",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 04-374 que hace presente la urgencia Simple",
+        "sesion": "3/374"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "87141",
+      "fecha": "2026-01-07T13:33:51",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Nuevo artículo único del proyecto (que reemplazaría al artículo 3), en los términos propuestos por la Comisión de Constitución en su segundo informe.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87140",
+      "fecha": "2026-01-07T13:33:02",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículos 1 y 2 del proyecto, que la Comisión de Constitución propone rechazar en su segundo informe.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "81746",
+      "fecha": "2025-04-07T19:37:58",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 2 del proyecto.",
+      "resultado": "Unánime",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "81745",
+      "fecha": "2025-04-07T19:36:41",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "En votación general el proyecto de ley, originado en moción, que “Modifica cuerpos legales que indica en materia de legítima defensa.”, con la salvedad de la norma que requiere quorum especial de aprobación.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:41"
+  }
+}

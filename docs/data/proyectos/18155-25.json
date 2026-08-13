@@ -1,0 +1,242 @@
+{
+  "boletin": "18155-25",
+  "nombre": "Modifica el Código Penal para establecer nuevas agravantes por delitos cometidos contra la comunidad educativa y en recintos educacionales",
+  "tipo_iniciativa": "Mensaje",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2026-04-07",
+  "tramitacion": {
+    "etapa_actual": "Segundo trámite constitucional (Senado)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2026-04-07",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .  Incluye IF N°79 / 07.04.2026",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-04-07",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Texto del mensaje",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-04-07",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Seguridad Ciudadana",
+        "sesion": "9/374"
+      },
+      {
+        "fecha": "2026-04-07",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 30-374 que hace presente la urgencia Suma",
+        "sesion": "9/374"
+      },
+      {
+        "fecha": "2026-04-07",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio N° 21140. Remite a la Comisión de Constitución, Legislación, Justicia y Reglamento el proyecto de ley,correspondiente al boletín N° 18.155-25, inicialmente asignado a la Comisión de Seguridad Ciudadana.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-04-13",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 35-374 que hace presente la urgencia Discusión inmediata",
+        "sesion": "11/374"
+      },
+      {
+        "fecha": "2026-04-15",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 42-374 que hace presente la urgencia Discusión inmediata",
+        "sesion": "13/374"
+      },
+      {
+        "fecha": "2026-04-15",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta oficio 6/3/2026 de la Comisión de Constitución, por la que solicita fusionar el proyecto con boletín N°18161-07",
+        "sesion": "13/374"
+      },
+      {
+        "fecha": "2026-04-20",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio N°21.165. Comunica que la Cámara de Diputados accedió a la solicitud para fusionar el proyecto boletín N° 18.155-25 con el proyecto boletín N° 18.161-07.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-04-20",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta Oficio N°46-374 del Presidente de la República mediante el cual acoge refundir los proyectos",
+        "sesion": "14/374"
+      },
+      {
+        "fecha": "2026-04-22",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 60-374 que hace presente la urgencia Discusión inmediata",
+        "sesion": "16/374"
+      },
+      {
+        "fecha": "2026-05-04",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 66-374 que hace presente la urgencia Discusión inmediata",
+        "sesion": "17/374"
+      },
+      {
+        "fecha": "2026-05-04",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "S.E. el Presidente de la República formula indicación al proyecto. (029-374).",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-05-06",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Constitución, Legislación, Justicia y Reglamento.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-05-11",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  Queda para tabla.",
+        "sesion": "21/374"
+      },
+      {
+        "fecha": "2026-05-11",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 83-374 que hace presente la urgencia Discusión inmediata",
+        "sesion": "21/374"
+      },
+      {
+        "fecha": "2026-05-12",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Queda pendiente .",
+        "sesion": "22/374"
+      },
+      {
+        "fecha": "2026-05-12",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "El diputado Marcos Barraza Gómez formula reserva de constitucionalidad.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-05-13",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular a la vez .",
+        "sesion": "24/374"
+      },
+      {
+        "fecha": "2026-05-13",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "La diputada Andrea Macías Palma formula reserva de constitucionalidad.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-05-13",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio de ley a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-05-13",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento",
+        "sesion": "16/374"
+      },
+      {
+        "fecha": "2026-06-02",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 124-374 que hace presente la urgencia Suma",
+        "sesion": "24/374"
+      },
+      {
+        "fecha": "2026-06-16",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 152-374 que retira y hace presente la urgencia Suma",
+        "sesion": "30/374"
+      },
+      {
+        "fecha": "2026-06-23",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 169-374 que retira y hace presente la urgencia Suma",
+        "sesion": "35/374"
+      },
+      {
+        "fecha": "2026-07-07",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 187-374 que retira y hace presente la urgencia Suma",
+        "sesion": "40/374"
+      },
+      {
+        "fecha": "2026-07-21",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 214-374 que retira y hace presente la urgencia Suma",
+        "sesion": "44/374"
+      },
+      {
+        "fecha": "2026-08-04",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 233-374 que retira y hace presente la urgencia Simple",
+        "sesion": "47/374"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "88871",
+      "fecha": "2026-05-13T13:30:44",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Numeral 1 del artículo único del proyecto, en los términos propuestos por la Comisión de Constitución, cuya votación separada ha sido solicitada por los diputados Marcos Barraza y Juan Marcelo Valenzuela, y que consta en las páginas 8 y 9 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88870",
+      "fecha": "2026-05-13T13:29:26",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": null,
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:41"
+  }
+}

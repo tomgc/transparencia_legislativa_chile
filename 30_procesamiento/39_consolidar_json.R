@@ -56,6 +56,12 @@ proyectos_detalle <- leer("proyectos_detalle")
 # (Capa 3) y sus agregados por ambito temporal.
 asistencia_nominal <- leer("asistencia_nominal")
 asistencia_ambitos <- leer("asistencia_ambitos")
+# Tramitacion por boletin (paso 37, P-66 acto b). Entra por leer() y no por
+# readRDS() a proposito: asi su sello se suma a sellos_intermedios y validar_corte()
+# lo exige del mismo corte que los demas. Un intermedio nuevo que se leyera por
+# fuera de esa compuerta podria consolidarse desalineado en silencio, que es
+# exactamente el Bug 1 del traspaso v07.
+tramitacion <- leer("tramitacion")
 
 # Compuerta de procedencia: todos los intermedios leidos deben pertenecer al
 # corte vigente y ser coherentes entre si. stop() diagnostico si no. Va ANTES
@@ -74,7 +80,8 @@ stopifnot(is.character(diputados$diputado_id),
           is.character(proyectos_detalle$boletin),
           is.character(asistencia_nominal$diputado_id),
           is.character(asistencia_nominal$sesion_id),
-          is.character(asistencia_ambitos$diputado_id))
+          is.character(asistencia_ambitos$diputado_id),
+          is.character(tramitacion$boletin))
 
 # ---- Lookup de contenido por boletin (O(1) por llave) -----------------------
 # det_map[[boletin]] -> list(boletin, nombre, tipo_iniciativa, materias(df)).
@@ -380,6 +387,175 @@ if (length(archivos_perfil) != nrow(indice))
 
 log_msg("Consolidacion JSON completada.", origen = "39_consolidar")
 
+# =============================================================================
+# Entidad `proyecto` (P-66 acto b) - 40_salidas/json/proyectos/<boletin>.json
+# -----------------------------------------------------------------------------
+# Segunda entidad del portal, con llave `boletin` y una fila por proyecto. No
+# toca nada de la entidad parlamentario: los perfiles ya se escribieron arriba y
+# este bloque solo agrega. El contrato es el del encargo P-66 acto b §5-F3, que
+# revisa el §5.2 del veredicto del eje tematico con las diez decisiones del
+# titular aplicadas.
+# =============================================================================
+
+# Universo: los boletines del corte, que son los que el 36 resolvio. El 37 cubre
+# exactamente los mismos (su cuadre D38 lo prueba contra la lista pedida); si no
+# coincidieran, publicar seria mezclar dos universos.
+if (!setequal(proyectos_detalle$boletin, tramitacion$boletin))
+  stop(sprintf(paste0("39_consolidar: el universo de proyectos_detalle (%d) y el de tramitacion ",
+                      "(%d) no coinciden. No se publica una entidad con dos universos."),
+               nrow(proyectos_detalle), nrow(tramitacion)), call. = FALSE)
+
+tram_map <- lapply(seq_len(nrow(tramitacion)), function(i) tramitacion[i, ])
+names(tram_map) <- tramitacion$boletin
+
+# Roster vigente por id, para resolver el nombre del autor y marcar quien no esta.
+# D-f: los autores fuera del padron se MARCAN, no se resuelven (el padron
+# historico quedo fuera de alcance). Su nombre queda null, que es "no lo sabemos",
+# distinguible de un nombre vacio.
+nombre_de_diputado <- stats::setNames(diputados$nombre, diputados$diputado_id)
+
+# D-j: un evento de votacion tiene detalle nominal solo si hay filas suyas en
+# votos.rds. Los eventos anteriores a ANIO_PROCESO no las tienen y NO se borran
+# ni se imputan: se publican con detalle_nominal = false.
+VOTACIONES_CON_NOMINAL <- unique(votos$votacion_id)
+
+# Texto fijo que declara que universo se publica y cual no (D-i). Va en cada
+# proyecto y no solo en el indice: quien abre un JSON suelto tiene que poder
+# saberlo sin ir a buscar otro archivo.
+TEXTO_UNIVERSO <- paste0(
+  "Los ", nrow(proyectos_detalle), " boletines de este corpus son los TOCADOS POR UN DIPUTADO ",
+  "DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante ",
+  "del roster) y los votados (boletines con al menos una votacion nominal del anno ",
+  "de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo ",
+  "votado este anno entra, y uno ingresado este anno sin firmante del roster y sin ",
+  "votar no entra.")
+TEXTO_AUTORIA <- paste0(
+  "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un ",
+  "nodo que este pipeline no consume, asi que un proyecto de origen Senado puede ",
+  "aparecer sin autores sin que eso signifique que no los tiene.")
+
+fs::dir_create(ruta_json("proyectos"))
+antiguos_proy <- fs::dir_ls(ruta_json("proyectos"), glob = "*.json", fail = FALSE)
+if (length(antiguos_proy) > 0) fs::file_delete(antiguos_proy)
+
+filas_indice <- vector("list", nrow(proyectos_detalle))
+n_proyectos_json <- 0L
+
+for (i in seq_len(nrow(proyectos_detalle))) {
+  bol <- proyectos_detalle$boletin[i]
+  tr  <- tram_map[[bol]]
+
+  # ---- Bloque tramitacion --------------------------------------------------
+  # Los tramites ya vienen acotados al corte por el 37 (D-h); aqui no se filtra
+  # nada mas. `sesion` entra en el contrato porque la fuente la trae y permite
+  # citar el trámite en su sesion.
+  tl <- tr$tramites[[1]]
+  bloque_tramitacion <- list(
+    etapa_actual = tr$etapa_actual,
+    estado       = tr$estado,
+    ley_numero   = tr$ley_numero,
+    tramites     = if (nrow(tl) > 0) lapply(seq_len(nrow(tl)), function(k) list(
+      fecha       = tl$fecha[k],
+      camara      = tl$camara[k],
+      etapa       = tl$etapa[k],
+      descripcion = tl$descripcion[k],
+      sesion      = tl$sesion[k])) else list()
+  )
+
+  # ---- Bloque autores ------------------------------------------------------
+  # D-e: `camara` NO existe en el contrato. En su lugar, metadatos.autoria_cubre.
+  a <- proyectos[proyectos$boletin == bol, ]
+  ids_autor <- unique(a$diputado_id)
+  bloque_autores <- if (length(ids_autor) > 0) lapply(ids_autor, function(id) list(
+    parlamentario_id  = id,
+    nombre            = unname(nombre_de_diputado[id]),   # NA -> null si no esta
+    en_padron_vigente = id %in% diputados$diputado_id)) else list()
+
+  # ---- Bloque votaciones ---------------------------------------------------
+  vv <- proyectos_detalle$votaciones[[i]]
+  bloque_votaciones <- if (nrow(vv) > 0) lapply(seq_len(nrow(vv)), function(k) list(
+    votacion_id           = vv$votacion_id[k],
+    fecha                 = vv$fecha[k],
+    tipo                  = vv$tipo_glosa[k],
+    tramite_constitucional = vv$tramite_constitucional_glosa[k],
+    articulo              = vv$articulo[k],
+    resultado             = vv$resultado_glosa[k],
+    # D-j: se declara por evento, no se imputa ni se borra.
+    detalle_nominal       = vv$votacion_id[k] %in% VOTACIONES_CON_NOMINAL)) else list()
+
+  # ---- Bloque materias -----------------------------------------------------
+  mm <- proyectos_detalle$materias[[i]]
+  bloque_materias <- if (nrow(mm) > 0) lapply(seq_len(nrow(mm)), function(k) list(
+    id = mm$id[k], nombre = mm$nombre[k])) else list()
+
+  # ---- Metadatos: cada flag distingue "no tiene" de "no lo sabemos" --------
+  metadatos <- list(
+    corte                          = CORTE_FECHA,
+    universo                       = TEXTO_UNIVERSO,
+    autoria_cubre                  = TEXTO_AUTORIA,
+    cobertura_materias             = nrow(mm) > 0,
+    # D-d: sin este flag, un proyecto que no es ley y uno cuyo numero de ley no
+    # conocemos se leerian igual.
+    cobertura_ley                  = !is.na(tr$ley_numero) && nzchar(tr$ley_numero),
+    cobertura_autoria              = length(ids_autor) > 0,
+    tramites_descartados_por_corte = as.integer(tr$n_tramites_descartados),
+    generado                       = format(Sys.time(), "%Y-%m-%dT%H:%M:%S")
+  )
+
+  proyecto_json <- list(
+    boletin         = bol,
+    nombre          = proyectos_detalle$nombre[i],
+    tipo_iniciativa = proyectos_detalle$tipo_iniciativa[i],
+    # camara_origen y fecha_ingreso vienen del SIL (paso 37): el parser de
+    # contenido de la Camara no los extrae y extenderlo esta fuera del alcance
+    # autorizado de este encargo. Procedencia declarada, no disimulada.
+    camara_origen   = tr$camara_origen,
+    fecha_ingreso   = tr$fecha_ingreso,
+    tramitacion     = bloque_tramitacion,
+    autores         = bloque_autores,
+    votaciones      = bloque_votaciones,
+    materias        = bloque_materias,
+    metadatos       = metadatos
+  )
+
+  escribir_json(proyecto_json, ruta_json("proyectos", paste0(bol, ".json")))
+  n_proyectos_json <- n_proyectos_json + 1L
+
+  filas_indice[[i]] <- list(
+    boletin        = bol,
+    nombre         = proyectos_detalle$nombre[i],
+    camara_origen  = tr$camara_origen,
+    fecha_ingreso  = tr$fecha_ingreso,
+    etapa_actual   = tr$etapa_actual,
+    estado         = tr$estado,
+    ley_numero     = tr$ley_numero,
+    n_tramites     = as.integer(tr$n_tramites),
+    n_autores      = length(ids_autor),
+    n_votaciones   = nrow(vv),
+    n_materias     = nrow(mm)
+  )
+}
+
+escribir_json(filas_indice, ruta_json("indice_proyectos.json"))
+
+archivos_proy <- fs::dir_ls(ruta_json("proyectos"), glob = "*.json")
+log_msg(sprintf("Entidad proyecto: %d JSON escritos; indice con %d entradas.",
+                length(archivos_proy), length(filas_indice)), origen = "39_consolidar")
+if (length(archivos_proy) != nrow(proyectos_detalle))
+  stop(sprintf("39_consolidar: DESAJUSTE proyectos (%d) vs universo (%d).",
+               length(archivos_proy), nrow(proyectos_detalle)), call. = FALSE)
+
+# Cobertura publicada, contada aqui y no heredada del paso 37.
+con_tram <- sum(vapply(filas_indice, function(x) x$n_tramites > 0, logical(1)))
+con_ley  <- sum(vapply(filas_indice, function(x)
+  !is.na(x$ley_numero) && nzchar(x$ley_numero), logical(1)))
+con_aut  <- sum(vapply(filas_indice, function(x) x$n_autores > 0, logical(1)))
+con_mat  <- sum(vapply(filas_indice, function(x) x$n_materias > 0, logical(1)))
+log_msg(sprintf(paste0("Cobertura publicada sobre %d proyectos: con tramitacion %d; con ",
+                       "ley_numero %d; con autoria %d; con materias %d."),
+                nrow(proyectos_detalle), con_tram, con_ley, con_aut, con_mat),
+        origen = "39_consolidar")
+
 # ---- Publicar copia en docs/data/ (GitHub Pages sirve desde /docs) ----------
 # 40_salidas/json/ sigue siendo el output canonico; docs/data/ es su
 # publicacion (copia fiel, hecha en R, nunca a mano). Idempotente: limpia
@@ -401,3 +577,21 @@ log_msg(sprintf("Publicado en docs/data/: indice + %d perfiles.",
 if (length(archivos_perfil_docs) != nrow(indice))
   stop(sprintf("39_consolidar: DESAJUSTE docs/data perfiles (%d) vs indice (%d).",
                length(archivos_perfil_docs), nrow(indice)))
+
+# ---- Publicar la entidad `proyecto` (P-66 acto b) ---------------------------
+# Misma via que los perfiles: copiado explicito en R, idempotente, con limpieza
+# previa del destino. No se monta el directorio ni se enlaza: se copia, que es lo
+# que el resto del paso ya hacia y lo que el workflow semanal commitea.
+fs::dir_create(ruta_docs_data("proyectos"))
+antiguos_proy_docs <- fs::dir_ls(ruta_docs_data("proyectos"), glob = "*.json", fail = FALSE)
+if (length(antiguos_proy_docs) > 0) fs::file_delete(antiguos_proy_docs)
+fs::file_copy(ruta_json("indice_proyectos.json"),
+              ruta_docs_data("indice_proyectos.json"), overwrite = TRUE)
+fs::file_copy(archivos_proy, ruta_docs_data("proyectos"), overwrite = TRUE)
+
+archivos_proy_docs <- fs::dir_ls(ruta_docs_data("proyectos"), glob = "*.json")
+log_msg(sprintf("Publicado en docs/data/: indice de proyectos + %d proyectos.",
+                length(archivos_proy_docs)), origen = "39_consolidar")
+if (length(archivos_proy_docs) != nrow(proyectos_detalle))
+  stop(sprintf("39_consolidar: DESAJUSTE docs/data proyectos (%d) vs universo (%d).",
+               length(archivos_proy_docs), nrow(proyectos_detalle)), call. = FALSE)

@@ -1,0 +1,92 @@
+{
+  "boletin": "18463-06",
+  "nombre": "Suspende la aplicación del mecanismo de actualización de escaños parlamentarios previsto en el artículo 189 de la ley N° 18.700, orgánica constitucional sobre Votaciones Populares y Escrutinios",
+  "tipo_iniciativa": "Moción",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2026-05-12",
+  "tramitacion": {
+    "etapa_actual": "Primer trámite constitucional (C.Diputados)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2026-05-12",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-15",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Gobierno Interior Nacionalidad Ciudadanía y Regionalización",
+        "sesion": "44/374"
+      }
+    ]
+  },
+  "autores": [
+    {
+      "parlamentario_id": "872",
+      "nombre": "Jaime Mulet Martínez",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1105",
+      "nombre": "Héctor Barría Angulo",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1114",
+      "nombre": "Félix Bugueño Sotelo",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1132",
+      "nombre": "Jorge Guzmán Zepeda",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1175",
+      "nombre": "Cristián Tapia Ramos",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1226",
+      "nombre": "José Montalva Feuerhake",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1236",
+      "nombre": "Paula Olmos Contreras",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1201",
+      "nombre": "Flor Contreras Vivallo",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1254",
+      "nombre": "Ignacio Urcullú Clèment-Lund",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1203",
+      "nombre": "Sebastián Cristoffanini Jaraquemada",
+      "en_padron_vigente": true
+    }
+  ],
+  "votaciones": [],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": true,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:42"
+  }
+}

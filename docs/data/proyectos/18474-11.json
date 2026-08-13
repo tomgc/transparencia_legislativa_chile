@@ -1,0 +1,99 @@
+{
+  "boletin": "18474-11",
+  "nombre": "Obliga a los administradores de recintos de alta concurrencia pública a adoptar medidas para prevenir en ellos la ocurrencia de suicidios",
+  "tipo_iniciativa": "Moción",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2026-07-08",
+  "tramitacion": {
+    "etapa_actual": "Primer trámite constitucional (C.Diputados)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2026-07-08",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-21",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Salud.",
+        "sesion": "46/374"
+      },
+      {
+        "fecha": "2026-07-21",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "A petición del diputado Jaime Araya, la Sala acordó remitir el proyecto a la Comisión de Familia, una vez informado por la de Salud.",
+        "sesion": "46/374"
+      }
+    ]
+  },
+  "autores": [
+    {
+      "parlamentario_id": "1077",
+      "nombre": "Raúl Soto Mardones",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1075",
+      "nombre": "Diego Schalper Sepúlveda",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1128",
+      "nombre": "Ana María Gazmuri Vieira",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1178",
+      "nombre": "Héctor Ulloa Aguilera",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1224",
+      "nombre": "Cristian Mella Andaur",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1226",
+      "nombre": "José Montalva Feuerhake",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1232",
+      "nombre": "Cristian Neira Martínez",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1264",
+      "nombre": "Fernando Zamorano Peralta",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1252",
+      "nombre": "Constanza Schonhaut Soto",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1195",
+      "nombre": "Carlos Carvajal Gallardo",
+      "en_padron_vigente": true
+    }
+  ],
+  "votaciones": [],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": true,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:42"
+  }
+}

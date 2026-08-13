@@ -1,0 +1,120 @@
+{
+  "boletin": "18228-04",
+  "nombre": "Modifica la ley Nº 20.027, que establece normas para el financiamiento de estudios de educación superior, en materia de cobro de las deudas del Crédito con Aval del Estado",
+  "tipo_iniciativa": "Moción",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2026-04-28",
+  "tramitacion": {
+    "etapa_actual": "Primer trámite constitucional (C.Diputados)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2026-04-28",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-05-04",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Educación",
+        "sesion": "17/374"
+      },
+      {
+        "fecha": "2026-05-04",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio N° 21200. Comunica a la Comisión de Futuro, Ciencias, Tecnología, Conocimiento e Innovación,la asignación del proyecto de ley, correspondiente al boletín N° 18228-04, inicialmente asignado a la Comisión de Educación",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-06-08",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Eximido del trámite ante Comisión Derivado a Comisión de Ciencias y Tecnología",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-06-22",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Ciencias y Tecnología.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-06-22",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .",
+        "sesion": "36/374"
+      }
+    ]
+  },
+  "autores": [
+    {
+      "parlamentario_id": "1086",
+      "nombre": "Gonzalo Winter Etcheberry",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1087",
+      "nombre": "Gael Yeomans Araya",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1177",
+      "nombre": "Carolina Tello Rojas",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1107",
+      "nombre": "María Francisca Bello Campos",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1153",
+      "nombre": "Coca Ericka Ñanco Vásquez",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1171",
+      "nombre": "Emilia Schneider Videla",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1209",
+      "nombre": "Matías Fernández Hartwig",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1207",
+      "nombre": "Valentina Cáceres Monsálvez",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1256",
+      "nombre": "Tatiana Urrutia Herrera",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1252",
+      "nombre": "Constanza Schonhaut Soto",
+      "en_padron_vigente": true
+    }
+  ],
+  "votaciones": [],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": true,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:41"
+  }
+}

@@ -1,0 +1,642 @@
+{
+  "boletin": "16686-19",
+  "nombre": "Dicta normas sobre transferencia de tecnología y conocimiento",
+  "tipo_iniciativa": "Mensaje",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2024-04-01",
+  "tramitacion": {
+    "etapa_actual": "Trámite de aprobacion presidencial (C.Diputados)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2024-04-01",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-04-01",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Informe financiero N° 73/28.03.2024, acompañado al mensaje 016-372.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-04-01",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Futuro, Ciencias, Tecnología, Conocimiento e Innovación.",
+        "sesion": "10/372"
+      },
+      {
+        "fecha": "2024-04-02",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 171-372 que hace presente la urgencia Suma",
+        "sesion": "11/372"
+      },
+      {
+        "fecha": "2024-04-08",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 232-372 que retira y hace presente la urgencia Simple",
+        "sesion": "14/372"
+      },
+      {
+        "fecha": "2024-05-08",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 455-372 que retira y hace presente la urgencia Simple",
+        "sesion": "27/372"
+      },
+      {
+        "fecha": "2024-06-05",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 700-372 que retira y hace presente la urgencia Simple",
+        "sesion": "38/372"
+      },
+      {
+        "fecha": "2024-06-05",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio del Presidente de la República (N°108-372), por el cual formula indicaciones al proyecto. Se adjunta informe financiero complementario N°155/04.06.2024.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-07-01",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Ciencias y Tecnología.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-07-01",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  Queda para tabla.",
+        "sesion": "45/372"
+      },
+      {
+        "fecha": "2024-07-01",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 852-372 que retira y hace presente la urgencia Suma",
+        "sesion": "45/372"
+      },
+      {
+        "fecha": "2024-07-09",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular a la vez .",
+        "sesion": "50/372"
+      },
+      {
+        "fecha": "2024-07-09",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio de ley a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-07-09",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Desafíos del Futuro, Ciencia, Tecnología e Innovación",
+        "sesion": "34/372"
+      },
+      {
+        "fecha": "2024-07-23",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1047-372 que retira y hace presente la urgencia Simple",
+        "sesion": "37/372"
+      },
+      {
+        "fecha": "2024-08-14",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1303-372 que retira y hace presente la urgencia Simple",
+        "sesion": "46/372"
+      },
+      {
+        "fecha": "2024-09-11",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1538-372 que retira y hace presente la urgencia Simple",
+        "sesion": "56/372"
+      },
+      {
+        "fecha": "2024-09-30",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Primer informe de comisión de Desafíos del Futuro, Ciencia, Tecnología e Innovación.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-10-01",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1674-372 que retira la urgencia Simple",
+        "sesion": "59/372"
+      },
+      {
+        "fecha": "2024-10-01",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .",
+        "sesion": "59/372"
+      },
+      {
+        "fecha": "2024-10-08",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1712-372 que hace presente la urgencia Suma",
+        "sesion": "61/372"
+      },
+      {
+        "fecha": "2024-10-16",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1858-372 que retira y hace presente la urgencia Suma",
+        "sesion": "66/372"
+      },
+      {
+        "fecha": "2024-10-30",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1969-372 que retira y hace presente la urgencia Suma",
+        "sesion": "69/372"
+      },
+      {
+        "fecha": "2024-11-13",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2097-372 que retira y hace presente la urgencia Suma",
+        "sesion": "73/372"
+      },
+      {
+        "fecha": "2024-11-27",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2233-372 que retira y hace presente la urgencia Suma",
+        "sesion": "82/372"
+      },
+      {
+        "fecha": "2024-12-11",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2360-372 que retira y hace presente la urgencia Suma",
+        "sesion": "88/372"
+      },
+      {
+        "fecha": "2025-01-07",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2490-372 que hace presente la urgencia Suma",
+        "sesion": "92/372"
+      },
+      {
+        "fecha": "2025-01-08",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2545-372 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "93/372"
+      },
+      {
+        "fecha": "2025-01-27",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2737-372 que hace presente la urgencia Discusión inmediata",
+        "sesion": "98/372"
+      },
+      {
+        "fecha": "2025-03-04",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2752-372 que hace presente la urgencia Discusión inmediata",
+        "sesion": "101/372"
+      },
+      {
+        "fecha": "2025-03-11",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "1/373"
+      },
+      {
+        "fecha": "2025-03-18",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 38-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "4/373"
+      },
+      {
+        "fecha": "2025-03-25",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 73-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "7/373"
+      },
+      {
+        "fecha": "2025-04-08",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 105-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "9/373"
+      },
+      {
+        "fecha": "2025-04-15",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 169-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "11/373"
+      },
+      {
+        "fecha": "2025-04-22",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 203-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "13/373"
+      },
+      {
+        "fecha": "2025-05-06",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 287-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "16/373"
+      },
+      {
+        "fecha": "2025-05-06",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general Se fija como plazo para presentar indicaciones el 29/05/2025 a las 12:00",
+        "sesion": "16/373"
+      },
+      {
+        "fecha": "2025-05-13",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 389-373 que hace presente la urgencia Simple",
+        "sesion": "19/373"
+      },
+      {
+        "fecha": "2025-05-27",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "La Sala acuerda ampliar el plazo para presentar indicaciones a este proyecto de ley, hasta las 12:00 horas del día 17 de junio de 2025, en la Secretaría del Senado",
+        "sesion": "22/373"
+      },
+      {
+        "fecha": "2025-06-11",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 647-373 que retira y hace presente la urgencia Simple",
+        "sesion": "27/373"
+      },
+      {
+        "fecha": "2025-06-18",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Boletín de indicaciones .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-06-18",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio N° I.F. 155. Informe financiero",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-07-09",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 791-373 que retira y hace presente la urgencia Simple",
+        "sesion": "36/373"
+      },
+      {
+        "fecha": "2025-08-06",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 920-373 que retira y hace presente la urgencia Simple",
+        "sesion": "44/373"
+      },
+      {
+        "fecha": "2025-08-12",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 945-373 que retira y hace presente la urgencia Suma",
+        "sesion": "45/373"
+      },
+      {
+        "fecha": "2025-08-12",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "La Sala acuerda fijar un nuevo plazo para presentar indicaciones a este proyecto de ley, hasta las 12:00 horas del día 26 de agosto de 2025, en la Secretaría de la Comisión de Desafíos del Futuro, Ciencia, Tecnología e Innovación",
+        "sesion": "45/373"
+      },
+      {
+        "fecha": "2025-08-20",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 983-373 que retira y hace presente la urgencia Suma",
+        "sesion": "48/373"
+      },
+      {
+        "fecha": "2025-09-03",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1031-373 que retira y hace presente la urgencia Suma",
+        "sesion": "50/373"
+      },
+      {
+        "fecha": "2025-09-15",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "La Sala acuerda fijar un nuevo plazo para presentar indicaciones a este proyecto de ley, hasta las 12:00 horas del día 26 de septiembre de 2025, en la Secretaría de la Comisión de Desafíos del Futuro, Ciencia, Tecnología e Innovación",
+        "sesion": "54/373"
+      },
+      {
+        "fecha": "2025-09-16",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1074-373 que retira y hace presente la urgencia Suma",
+        "sesion": "55/373"
+      },
+      {
+        "fecha": "2025-09-26",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Boletín de indicaciones .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-10-01",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1103-373 que retira y hace presente la urgencia Suma",
+        "sesion": "58/373"
+      },
+      {
+        "fecha": "2025-10-07",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1127-373 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "59/373"
+      },
+      {
+        "fecha": "2025-10-14",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1161-373 que hace presente la urgencia Simple",
+        "sesion": "61/373"
+      },
+      {
+        "fecha": "2025-11-04",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1234-373 que retira y hace presente la urgencia Suma",
+        "sesion": "64/373"
+      },
+      {
+        "fecha": "2025-11-04",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Segundo informe de comisión de Desafíos del Futuro, Ciencia, Tecnología e Innovación.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-11-05",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de segundo informe de comisión .",
+        "sesion": "65/373"
+      },
+      {
+        "fecha": "2025-11-19",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1240-373 que retira la urgencia Suma",
+        "sesion": "68/373"
+      },
+      {
+        "fecha": "2025-11-19",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión particular . Queda pendiente Se solicita segunda discusión y queda terminada la primera.",
+        "sesion": "68/373"
+      },
+      {
+        "fecha": "2025-11-25",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1269-373 que hace presente la urgencia Suma",
+        "sesion": "76/373"
+      },
+      {
+        "fecha": "2025-12-03",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1320-373 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "79/373"
+      },
+      {
+        "fecha": "2025-12-03",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión particular . Queda pendiente Se solicita aplazamiento de la votación.",
+        "sesion": "79/373"
+      },
+      {
+        "fecha": "2025-12-09",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "La Sala acuerda que el proyecto vuelva a la Comisión de Desafíos del Futuro, Ciencia, Tecnología e Información, para que emita un nuevo segundo informe. Además, se acuerda fijar un plazo para presentar indicaciones, hasta las 12:00 horas del día 15 de diciembre de 2025, en la Secretaría de la Comisión.",
+        "sesion": "80/373"
+      },
+      {
+        "fecha": "2025-12-09",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión particular . Se solicita nuevo informe",
+        "sesion": "80/373"
+      },
+      {
+        "fecha": "2025-12-15",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Boletín de indicaciones .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-12-16",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1393-373 que hace presente la urgencia Simple",
+        "sesion": "82/373"
+      },
+      {
+        "fecha": "2025-12-17",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Nuevo segundo informe de comisión de Desafíos del Futuro, Ciencia, Tecnología e Innovación.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-12-17",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta nuevo segundo informe .",
+        "sesion": "83/373"
+      },
+      {
+        "fecha": "2026-01-07",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1476-373 que retira y hace presente la urgencia Suma",
+        "sesion": "87/373"
+      },
+      {
+        "fecha": "2026-01-20",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1548-373 que retira y hace presente la urgencia Suma",
+        "sesion": "91/373"
+      },
+      {
+        "fecha": "2026-03-04",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1608-373 que hace presente la urgencia Suma",
+        "sesion": "98/373"
+      },
+      {
+        "fecha": "2026-05-13",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión particular . Aprobado con modificaciones",
+        "sesion": "16/374"
+      },
+      {
+        "fecha": "2026-05-13",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio modificaciones a Cámara de Origen .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-05-18",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta oficio con modificaciones de Cámara Revisora . Queda para tabla .",
+        "sesion": "25/374"
+      },
+      {
+        "fecha": "2026-06-09",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Discusión única . Aprobadas las modificaciones .",
+        "sesion": "31/374"
+      },
+      {
+        "fecha": "2026-06-09",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 139-374 que hace presente la urgencia Suma",
+        "sesion": "31/374"
+      },
+      {
+        "fecha": "2026-06-09",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Oficio N° 21.291, que comunica aprobacion de modificaciones",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-06-09",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Oficio de ley al Ejecutivo .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-06-09",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta oficio N° 21.291, que comunica aprobación de modificaciones",
+        "sesion": "28/374"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "89086",
+      "fecha": "2026-06-09T13:22:05",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Modificaciones del Senado recaídas en el inciso segundo del artículo 8; el artículo 9, nuevo; el artículo 10 (correspondiente al artículo 9 de la Cámara); y la letra b) del nuevo artículo 15, que requieren para su aprobación del voto favorable de 78 diputadas y diputados por tratarse de disposiciones de rango orgánico constitucional.-",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89085",
+      "fecha": "2026-06-09T13:21:00",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Modificaciones incorporadas por el Senado en el proyecto de ley, originado en mensaje, que “Dicta normas sobre transferencia de tecnología y conocimiento”, con la salvedad de aquellas que requieren quorum especial de aprobación.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "41825",
+      "fecha": "2024-07-09T13:11:54",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 9 del proyecto, en los términos sugeridos por la Comisión de Comisión de Futuro, Ciencias, Tecnología e Innovación, cuya votación separada ha sido solicitada por los diputados Gustavo Benavente y Johannes Kaiser.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "41824",
+      "fecha": "2024-07-09T13:10:35",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 9 del proyecto, en los términos sugeridos por la Comisión de Comisión de Futuro, Ciencias, Tecnología e Innovación, con las modificaciones sugeridas por la indicación renovada de la diputada Paula Labra.",
+      "resultado": "Unánime",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "41823",
+      "fecha": "2024-07-09T13:07:26",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Inciso segundo del artículo 8 y el artículo 9 por tratarse de normas propias de rango orgánico constitucional; y el artículo 14 por tratarse de una disposición de quórum calificado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "41822",
+      "fecha": "2024-07-09T13:06:24",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": null,
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:41"
+  }
+}

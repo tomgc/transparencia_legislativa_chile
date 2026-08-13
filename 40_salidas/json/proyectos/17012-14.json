@@ -1,0 +1,304 @@
+{
+  "boletin": "17012-14",
+  "nombre": "Modifica la ley N° 21.442, que aprueba nueva ley de copropiedad inmobiliaria, con el objeto de implementar sistemas de seguridad adicionales para impedir caídas accidentales desde edificaciones en altura",
+  "tipo_iniciativa": "Moción",
+  "camara_origen": "Senado",
+  "fecha_ingreso": "2024-07-30",
+  "tramitacion": {
+    "etapa_actual": "Comisión Mixta por rechazo de modificaciones (Senado)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2024-07-30",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-07-31",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Vivienda y Urbanismo",
+        "sesion": "40/372"
+      },
+      {
+        "fecha": "2026-01-06",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "La Sala acuerda refundir los proyectos correspondientes a los boletines N° 17.012-14, N° 9.301-14, N° 17.591-14 y N° 17.594-14",
+        "sesion": "86/373"
+      },
+      {
+        "fecha": "2026-01-06",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "La Sala acuerda autorizar a la Comisión de Vivienda y Urbanismo para discutir en general y en particular el proyecto de ley, con ocasión del trámite reglamentario de primer informe.",
+        "sesion": "86/373"
+      },
+      {
+        "fecha": "2026-01-06",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "La Sala acuerda refundir el proyecto de ley correspondiente al Boletín N° 18.037-14, con los proyectos boletines  N° 17.012-14, N° 9.301-14, N° 17.591-14 y N° 17.594-14, previamente refundidos.",
+        "sesion": "86/373"
+      },
+      {
+        "fecha": "2026-03-12",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Vivienda y Urbanismo.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-03-17",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .",
+        "sesion": "1/374"
+      },
+      {
+        "fecha": "2026-05-05",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general Se fija como plazo para presentar indicaciones el 11/05/2026 a las 12:00",
+        "sesion": "12/374"
+      },
+      {
+        "fecha": "2026-05-05",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "La Sala acuerda cambiar la denominación administrativa del proyecto de ley, por la que se consigna en la suma",
+        "sesion": "12/374"
+      },
+      {
+        "fecha": "2026-05-11",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Boletín de indicaciones .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-05-20",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Segundo informe de comisión de Vivienda y Urbanismo.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-05-20",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de segundo informe de comisión .",
+        "sesion": "22/374"
+      },
+      {
+        "fecha": "2026-05-20",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión particular . Aprobado",
+        "sesion": "22/374"
+      },
+      {
+        "fecha": "2026-05-20",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio de ley a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-06-02",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Vivienda y Desarrollo Urbano",
+        "sesion": "28/374"
+      },
+      {
+        "fecha": "2026-06-02",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 119-374 que hace presente la urgencia Suma",
+        "sesion": "28/374"
+      },
+      {
+        "fecha": "2026-06-15",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 145-374 que hace presente la urgencia Suma",
+        "sesion": "33/374"
+      },
+      {
+        "fecha": "2026-06-16",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "S.E. el Presidente de la República formula indicaciones al proyecto. (076-374). Incluye informe financiero N° 132/15.06.2026.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-06-22",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 162-374 que hace presente la urgencia Suma",
+        "sesion": "36/374"
+      },
+      {
+        "fecha": "2026-06-24",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 174-374 que hace presente la urgencia Suma",
+        "sesion": "38/374"
+      },
+      {
+        "fecha": "2026-06-24",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Primer informe de comisión de Vivienda y Desarrollo Urbano.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-06",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  Queda para tabla.",
+        "sesion": "39/374"
+      },
+      {
+        "fecha": "2026-07-13",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 194-374 que hace presente la urgencia Suma",
+        "sesion": "42/374"
+      },
+      {
+        "fecha": "2026-07-14",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio modificaciones a Cámara de Origen .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-15",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta oficio con modificaciones de Cámara Revisora . Queda para tabla",
+        "sesion": "43/374"
+      },
+      {
+        "fecha": "2026-07-21",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 214-374 que retira y hace presente la urgencia Suma",
+        "sesion": "44/374"
+      },
+      {
+        "fecha": "2026-07-22",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Discusión única . Rechazadas las modificaciones",
+        "sesion": "45/374"
+      },
+      {
+        "fecha": "2026-07-22",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Oficio rechazo modificaciones a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-08-03",
+        "camara": "C.Diputados",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta oficio rechazo a modificaciones .",
+        "sesion": "49/374"
+      },
+      {
+        "fecha": "2026-08-04",
+        "camara": "C.Diputados",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Mensaje 234-374 que retira y hace presente la urgencia Suma",
+        "sesion": "47/374"
+      },
+      {
+        "fecha": "2026-08-11",
+        "camara": "C.Diputados",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Mensaje 254-374 que retira y hace presente la urgencia Suma",
+        "sesion": "49/374"
+      },
+      {
+        "fecha": "2026-08-12",
+        "camara": "C.Diputados",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Oficio N° 21.484 de la Cámara de Diputados mediante el cual designa integrantes de Comisión Mixta",
+        "sesion": "50/374"
+      },
+      {
+        "fecha": "2026-08-12",
+        "camara": "C.Diputados",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Oficio N° 21.484. Oficio de la Cámara de Diputados que designa integrantes de Comisión Mixta",
+        "sesion": "/"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "89411",
+      "fecha": "2026-07-14T13:08:49",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Artículo transitorio del proyecto, propuesto por la Comisión de Vivienda, y que consta en la página 11 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89410",
+      "fecha": "2026-07-14T13:08:06",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Inciso final del artículo 43 bis contenido en el número 2 del artículo único del proyecto, en los términos propuestos por la Comisión de Vivienda, que coincide con el texto aprobado por el Senado, cuya votación separada ha sido solicitada por el diputado Álvaro Jofré, y que consta en la página 10 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89409",
+      "fecha": "2026-07-14T13:06:47",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Número 2 del artículo único del proyecto, en los términos sugeridos por la Comisión de Vivienda, cuya votación separada ha sido solicitada por la diputada Ana María Gazmuri y por el diputado José Antonio Rivas, y que consta en las páginas 8 a 10 del comparado, con la salvedad del inciso final del artículo 43 bis propuesto, cuya votación separada a su vez ha sido solicitada.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89408",
+      "fecha": "2026-07-14T13:05:49",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Número 1 del artículo único del proyecto, en los términos propuestos por la Comisión de Vivienda, cuya votación separada ha sido solicitada por la diputada Ana María Gazmuri, y que consta en las páginas 1 a 7 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89407",
+      "fecha": "2026-07-14T13:05:01",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": null,
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:41"
+  }
+}

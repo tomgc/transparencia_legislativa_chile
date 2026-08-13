@@ -1,0 +1,759 @@
+{
+  "boletin": "11608-09",
+  "nombre": "Sobre el uso de agua de mar para desalinización.",
+  "tipo_iniciativa": "Moción",
+  "camara_origen": "Senado",
+  "fecha_ingreso": "2018-01-25",
+  "tramitacion": {
+    "etapa_actual": "Tramitación terminada",
+    "estado": "Publicado",
+    "ley_numero": "Ley N° 21.813",
+    "tramites": [
+      {
+        "fecha": "2018-01-25",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2018-03-06",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión Especial sobre Recursos Hídricos, Desertificación y Sequía.",
+        "sesion": "87/365"
+      },
+      {
+        "fecha": "2018-09-04",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Recursos Hídricos, Desertificación y Sequía.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2018-09-05",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .",
+        "sesion": "50/366"
+      },
+      {
+        "fecha": "2018-09-12",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general Se fija plazo para presentar indicaciones el día 22/10/2018 a las 12:00 horas en Secretaría",
+        "sesion": "52/366"
+      },
+      {
+        "fecha": "2018-10-23",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Boletín de indicaciones .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2018-11-07",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Nuevo plazo para indicaciones Se amplía plazo para presentar indicaciones hasta el 19/11/2018 a las 13:00  en la Secretaría de la Comisión Especial sobre Recursos Hídricos, Desertificación y Sequía.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2018-11-19",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Boletín de indicaciones .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2018-11-20",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Segundo informe de comisión de Recursos Hídricos, Desertificación y Sequía.  COMPARADO DE INDICACIONES",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2019-08-13",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Segundo informe de comisión de Recursos Hídricos, Desertificación y Sequía.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2019-08-13",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de segundo informe de comisión .",
+        "sesion": "40/367"
+      },
+      {
+        "fecha": "2021-04-05",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión particular . Queda pendiente",
+        "sesion": "12/369"
+      },
+      {
+        "fecha": "2021-04-05",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "La Sala acuerda que el proyecto de ley sea remitido a la Comisión Especial sobre Recursos Hídricos, Desertificación y Sequía, para que emita un informe complementario del segundo informe, que debe ser presentado dentro del plazo de 15 días.",
+        "sesion": "12/369"
+      },
+      {
+        "fecha": "2021-04-14",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "La Sala acuerda extender hasta el día 14 de mayo próximo el plazo para despachar el informe complementario.",
+        "sesion": "15/369"
+      },
+      {
+        "fecha": "2021-05-05",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "La Sala acuerda extender hasta el día 30 de junio el plazo para despachar el informe complementario.",
+        "sesion": "26/369"
+      },
+      {
+        "fecha": "2021-06-23",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "La Sala acuerda ampliar el plazo para emitir el informe complementario hasta el 31 de agosto.",
+        "sesion": "46/369"
+      },
+      {
+        "fecha": "2021-08-25",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "La Sala acuerda ampliar el plazo para emitir el informe complementario hasta el 28/10/2021",
+        "sesion": "69/369"
+      },
+      {
+        "fecha": "2021-11-24",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "La Sala acuerda ampliar el plazo para emitir el informe complementario del segundo informe hasta el 18/01/2022.",
+        "sesion": "97/369"
+      },
+      {
+        "fecha": "2022-03-09",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Boletín de indicaciones .  INDICACIONES EJECUTIVO",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-06-04",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 662-372 que hace presente la urgencia Simple",
+        "sesion": "25/372"
+      },
+      {
+        "fecha": "2024-06-07",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Informe Financiero Complementario N° 158",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-06-07",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Boletín de indicaciones .  INDICACIONES EJECUTIVO",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-06-18",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 788-372 que retira y hace presente la urgencia Suma",
+        "sesion": "29/372"
+      },
+      {
+        "fecha": "2024-07-02",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 863-372 que retira y hace presente la urgencia Simple",
+        "sesion": "31/372"
+      },
+      {
+        "fecha": "2024-07-10",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1025-372 que retira y hace presente la urgencia Simple",
+        "sesion": "35/372"
+      },
+      {
+        "fecha": "2024-08-07",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1230-372 que retira y hace presente la urgencia Simple",
+        "sesion": "44/372"
+      },
+      {
+        "fecha": "2024-08-14",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "La Sala acuerda fijar un nuevo plazo para presentar indicaciones a este proyecto de ley, hasta las 12:00 horas del día 29 de agosto de 2024, en la Secretaría de la Comisión de Recursos Hídricos, Desertificación y Sequía.",
+        "sesion": "46/372"
+      },
+      {
+        "fecha": "2024-08-30",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Boletín de indicaciones .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-09-03",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1432-372 que retira y hace presente la urgencia Suma",
+        "sesion": "51/372"
+      },
+      {
+        "fecha": "2024-09-24",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Segundo informe complementario de Recursos Hídricos, Desertificación y Sequía. Pasa a Comisión de Hacienda",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-09-24",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1571-372 que hace presente la urgencia Suma",
+        "sesion": "57/372"
+      },
+      {
+        "fecha": "2024-10-09",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1768-372 que retira y hace presente la urgencia Suma",
+        "sesion": "62/372"
+      },
+      {
+        "fecha": "2024-10-16",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1868-372 que retira y hace presente la urgencia Suma",
+        "sesion": "66/372"
+      },
+      {
+        "fecha": "2024-10-30",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1976-372 que retira y hace presente la urgencia Suma",
+        "sesion": "69/372"
+      },
+      {
+        "fecha": "2024-11-18",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2124-372 que retira y hace presente la urgencia Suma",
+        "sesion": "74/372"
+      },
+      {
+        "fecha": "2024-12-03",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2273-372 que retira y hace presente la urgencia Suma",
+        "sesion": "84/372"
+      },
+      {
+        "fecha": "2024-12-18",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2440-372 que retira y hace presente la urgencia Suma",
+        "sesion": "91/372"
+      },
+      {
+        "fecha": "2025-01-07",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2499-372 que hace presente la urgencia Suma",
+        "sesion": "92/372"
+      },
+      {
+        "fecha": "2025-01-22",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2703-372 que retira y hace presente la urgencia Suma",
+        "sesion": "97/372"
+      },
+      {
+        "fecha": "2025-03-04",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2752-372 que hace presente la urgencia Discusión inmediata",
+        "sesion": "101/372"
+      },
+      {
+        "fecha": "2025-03-04",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "La Sala acuerda fijar un nuevo plazo para presentar indicaciones a este proyecto de ley, hasta las 10:00 horas del día 5 de marzo de 2025, en la Secretaría de la Comisión de Hacienda.",
+        "sesion": "101/372"
+      },
+      {
+        "fecha": "2025-03-05",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Boletín de indicaciones .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-03-11",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "1/373"
+      },
+      {
+        "fecha": "2025-03-12",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Segundo informe de comisión de Hacienda.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-03-12",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de segundo informe de comisión .",
+        "sesion": "3/373"
+      },
+      {
+        "fecha": "2025-03-18",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 39-373 que hace presente la urgencia Suma",
+        "sesion": "4/373"
+      },
+      {
+        "fecha": "2025-04-22",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 204-373 que hace presente la urgencia Suma",
+        "sesion": "13/373"
+      },
+      {
+        "fecha": "2025-05-13",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 390-373 que hace presente la urgencia Suma",
+        "sesion": "19/373"
+      },
+      {
+        "fecha": "2025-05-28",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 535-373 que retira y hace presente la urgencia Suma",
+        "sesion": "23/373"
+      },
+      {
+        "fecha": "2025-06-11",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 646-373 que retira y hace presente la urgencia Suma",
+        "sesion": "27/373"
+      },
+      {
+        "fecha": "2025-06-18",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 688-373 que retira y hace presente la urgencia Suma",
+        "sesion": "30/373"
+      },
+      {
+        "fecha": "2025-07-02",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 750-373 que retira y hace presente la urgencia Suma",
+        "sesion": "34/373"
+      },
+      {
+        "fecha": "2025-07-08",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "La Sala acuerda que el proyecto de ley vuelva a la Comisión de Recursos Hídricos, Desertificación y Sequía, fijando un nuevo plazo para presentar indicaciones a este proyecto, hasta las 18:00 horas del día de hoy, en la Secretaría de la referida Comisión, respecto de los artículos 9, 34, 40 y 42 del texto despachado por la Comisión de Hacienda.",
+        "sesion": "35/373"
+      },
+      {
+        "fecha": "2025-07-08",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Boletín de indicaciones .  INDICACIONES EJECUTIVO",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-07-08",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "IF N° 92. INFORME FINANCIERO",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-07-15",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 826-373 que retira y hace presente la urgencia Suma",
+        "sesion": "39/373"
+      },
+      {
+        "fecha": "2025-07-23",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 884-373 que retira y hace presente la urgencia Suma",
+        "sesion": "41/373"
+      },
+      {
+        "fecha": "2025-08-06",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 919-373 que retira y hace presente la urgencia Suma",
+        "sesion": "44/373"
+      },
+      {
+        "fecha": "2025-08-12",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "La Sala acuerda fijar un nuevo plazo para presentar indicaciones a este proyecto de ley, hasta las 20:00 horas del día de hoy, en la Secretaría de la Comisión de Recursos Hídricos, Desertificación y Sequía.",
+        "sesion": "45/373"
+      },
+      {
+        "fecha": "2025-08-12",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Boletín de indicaciones .  INDICACIONES EJECUTIVO",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-08-12",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "INFORME FINANCIERO IF Nº231.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-08-20",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 983-373 que retira y hace presente la urgencia Suma",
+        "sesion": "48/373"
+      },
+      {
+        "fecha": "2025-08-27",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Segundo informe de comisión de Recursos Hídricos, Desertificación y Sequía.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-09-02",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1002-373 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "49/373"
+      },
+      {
+        "fecha": "2025-09-02",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de segundo informe de comisión .",
+        "sesion": "49/373"
+      },
+      {
+        "fecha": "2025-09-09",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1050-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "51/373"
+      },
+      {
+        "fecha": "2025-09-16",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1076-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "55/373"
+      },
+      {
+        "fecha": "2025-09-30",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1091-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "57/373"
+      },
+      {
+        "fecha": "2025-09-30",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión particular . Queda pendiente Se solicita segunda discusión y queda terminada la primera.",
+        "sesion": "57/373"
+      },
+      {
+        "fecha": "2025-10-07",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1129-373 que hace presente la urgencia Suma",
+        "sesion": "59/373"
+      },
+      {
+        "fecha": "2025-10-15",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1175-373 que retira y hace presente la urgencia Suma",
+        "sesion": "62/373"
+      },
+      {
+        "fecha": "2025-10-27",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión particular . Queda pendiente",
+        "sesion": "63/373"
+      },
+      {
+        "fecha": "2025-11-04",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1207-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "64/373"
+      },
+      {
+        "fecha": "2025-11-04",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión particular . Aprobado",
+        "sesion": "64/373"
+      },
+      {
+        "fecha": "2025-11-05",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio de ley a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-11-17",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Recursos Hídricos y Desertificación",
+        "sesion": "88/373"
+      },
+      {
+        "fecha": "2025-11-24",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1253-373 que hace presente la urgencia Suma",
+        "sesion": "91/373"
+      },
+      {
+        "fecha": "2025-12-09",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1337-373 que retira y hace presente la urgencia Simple",
+        "sesion": "100/373"
+      },
+      {
+        "fecha": "2026-01-05",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1443-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "105/373"
+      },
+      {
+        "fecha": "2026-01-07",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1471-373 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "107/373"
+      },
+      {
+        "fecha": "2026-01-14",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Primer informe de comisión de Recursos Hídricos y Desertificación. Pasa a Comisión de Hacienda",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-14",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  (Recursos Hídricos). Pasa a Hacienda.",
+        "sesion": "111/373"
+      },
+      {
+        "fecha": "2026-01-14",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1528-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "111/373"
+      },
+      {
+        "fecha": "2026-01-20",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1542-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "113/373"
+      },
+      {
+        "fecha": "2026-01-20",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Informe financiero sustitutivo N° 34/20.01.2026.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-26",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Primer informe de comisión de Hacienda.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-26",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  (Hacienda). Queda para tabla.",
+        "sesion": "115/373"
+      },
+      {
+        "fecha": "2026-01-27",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1586-373 que hace presente la urgencia Suma",
+        "sesion": "116/373"
+      },
+      {
+        "fecha": "2026-01-27",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Aprobado con enmiendas.",
+        "sesion": "116/373"
+      },
+      {
+        "fecha": "2026-01-27",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio N° 21027. Comunica al Senado que la Cámara de Diputados aprobó el proyecto de ley de esa H. Corporación, con las enmiendas que se indican.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-03-03",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1605-373 que hace presente la urgencia Suma",
+        "sesion": "97/373"
+      },
+      {
+        "fecha": "2026-03-03",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta oficio con modificaciones de Cámara Revisora . Queda para tabla",
+        "sesion": "97/373"
+      },
+      {
+        "fecha": "2026-03-24",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 03-374 que hace presente la urgencia Discusión inmediata",
+        "sesion": "3/374"
+      },
+      {
+        "fecha": "2026-03-25",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 8-374 que retira la urgencia Discusión inmediata",
+        "sesion": "4/374"
+      },
+      {
+        "fecha": "2026-03-25",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Discusión única . Aprobadas las modificaciones",
+        "sesion": "4/374"
+      },
+      {
+        "fecha": "2026-03-25",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Oficio N° 90, que comunica aprobacion de modificaciones",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-03-26",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Oficio de ley al Ejecutivo .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-04-06",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta oficio N? 90, que comunica aprobacion de modificaciones",
+        "sesion": "8/374"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "87556",
+      "fecha": "2026-01-27T13:17:29",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Letra c) del artículo 5 del proyecto, en los términos propuestos por la Comisión de Recursos Hídricos, y que consta en la página 11 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87555",
+      "fecha": "2026-01-27T13:16:38",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Letra c) del artículo 5 del proyecto, con la indicación propuesta por la Comisión de Hacienda que agrega una frase final a dicha letra, cuya votación separada ha sido solicitada por la diputada Flor Weisse; y que consta en las páginas 11 y 12 del comparado.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87554",
+      "fecha": "2026-01-27T13:15:25",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": null,
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87553",
+      "fecha": "2026-01-27T13:14:40",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": null,
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    }
+  ],
+  "materias": [
+    {
+      "id": "18704",
+      "nombre": "EXTRACCIÓN DE AGUA DE MAR"
+    },
+    {
+      "id": "10601",
+      "nombre": "DESALINIZACIÓN DE AGUA"
+    }
+  ],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": true,
+    "cobertura_ley": true,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:41"
+  }
+}

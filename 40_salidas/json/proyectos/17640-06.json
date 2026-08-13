@@ -1,0 +1,500 @@
+{
+  "boletin": "17640-06",
+  "nombre": "Modifica diversos cuerpos legales, para promover la gobernabilidad y la representatividad del sistema político",
+  "tipo_iniciativa": "Mensaje",
+  "camara_origen": "Senado",
+  "fecha_ingreso": "2025-06-30",
+  "tramitacion": {
+    "etapa_actual": "Comisión Mixta por rechazo de modificaciones (Senado)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2025-06-30",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-07-01",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Gobierno, Descentralización y Regionalización",
+        "sesion": "32/373"
+      },
+      {
+        "fecha": "2025-07-01",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 729-373 que hace presente la urgencia Suma",
+        "sesion": "32/373"
+      },
+      {
+        "fecha": "2025-07-15",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 826-373 que retira y hace presente la urgencia Suma",
+        "sesion": "39/373"
+      },
+      {
+        "fecha": "2025-07-23",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 884-373 que retira y hace presente la urgencia Suma",
+        "sesion": "41/373"
+      },
+      {
+        "fecha": "2025-08-05",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Gobierno, Descentralización y Regionalización.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-08-05",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .",
+        "sesion": "43/373"
+      },
+      {
+        "fecha": "2025-08-06",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 921-373 que retira la urgencia Suma",
+        "sesion": "44/373"
+      },
+      {
+        "fecha": "2025-08-06",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 922-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "44/373"
+      },
+      {
+        "fecha": "2025-08-06",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Queda pendiente Se solicita segunda discusión y queda terminada la primera.",
+        "sesion": "44/373"
+      },
+      {
+        "fecha": "2025-08-12",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general Se fija como plazo para presentar indicaciones el 01/09/2025 a las 12:00",
+        "sesion": "45/373"
+      },
+      {
+        "fecha": "2025-09-01",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Boletín de indicaciones .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-09-01",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio N° I.F. 257. Informe financero",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-09-02",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1009-373 que hace presente la urgencia Suma",
+        "sesion": "49/373"
+      },
+      {
+        "fecha": "2025-09-16",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1074-373 que retira y hace presente la urgencia Suma",
+        "sesion": "55/373"
+      },
+      {
+        "fecha": "2025-10-01",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1103-373 que retira y hace presente la urgencia Suma",
+        "sesion": "58/373"
+      },
+      {
+        "fecha": "2025-10-15",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1175-373 que retira y hace presente la urgencia Suma",
+        "sesion": "62/373"
+      },
+      {
+        "fecha": "2025-10-27",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1178-373 que retira y hace presente la urgencia Suma",
+        "sesion": "63/373"
+      },
+      {
+        "fecha": "2025-11-05",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1235-373 que retira y hace presente la urgencia Suma",
+        "sesion": "65/373"
+      },
+      {
+        "fecha": "2025-11-25",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1269-373 que hace presente la urgencia Suma",
+        "sesion": "76/373"
+      },
+      {
+        "fecha": "2025-12-10",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1366-373 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "81/373"
+      },
+      {
+        "fecha": "2025-12-16",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Segundo informe de comisión de Gobierno, Descentralización y Regionalización.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-12-16",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de segundo informe de comisión .",
+        "sesion": "82/373"
+      },
+      {
+        "fecha": "2025-12-17",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "El Honorable Senador señor Bianchi hace reserva de constitucionalidad en la discusión del proyecto de ley.",
+        "sesion": "83/373"
+      },
+      {
+        "fecha": "2025-12-17",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión particular . Queda pendiente Se solicita aplazamiento de la votación.",
+        "sesion": "83/373"
+      },
+      {
+        "fecha": "2025-12-22",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1423-373 que hace presente la urgencia Suma",
+        "sesion": "84/373"
+      },
+      {
+        "fecha": "2026-01-06",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión particular . Aprobado",
+        "sesion": "86/373"
+      },
+      {
+        "fecha": "2026-01-06",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio de ley a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-07",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Gobierno Interior, Nacionalidad, Ciudadanía y Regionalización.",
+        "sesion": "107/373"
+      },
+      {
+        "fecha": "2026-01-07",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1472-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "107/373"
+      },
+      {
+        "fecha": "2026-01-13",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1500-373 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "110/373"
+      },
+      {
+        "fecha": "2026-01-14",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1520-373 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "111/373"
+      },
+      {
+        "fecha": "2026-01-19",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1529-373 que retira la urgencia Discusión inmediata",
+        "sesion": "112/373"
+      },
+      {
+        "fecha": "2026-01-21",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1555-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "114/373"
+      },
+      {
+        "fecha": "2026-01-27",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1576-373 que retira la urgencia Discusión inmediata",
+        "sesion": "116/373"
+      },
+      {
+        "fecha": "2026-01-28",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1595-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "117/373"
+      },
+      {
+        "fecha": "2026-03-02",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio del Presidente de la República (N° 321-373), mediante el cual formula indicaciones al proyecto. Se adjunta informe financiero complementario N° 57/02.03.2026",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-03-02",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio del Presidente de la República (N° 322-373), por el cual formula indicación al proyecto. Se adjunta informe financiero complementario N° 58/02.03.2026.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-03-02",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1601-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "118/373"
+      },
+      {
+        "fecha": "2026-03-03",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Primer informe de comisión de Gobierno Interior Nacionalidad Ciudadanía y Regionalización.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-03-04",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular con modificaciones .",
+        "sesion": "120/373"
+      },
+      {
+        "fecha": "2026-03-04",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  Queda para tabla.",
+        "sesion": "120/373"
+      },
+      {
+        "fecha": "2026-03-04",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio del Presidente de la República (N°327-373), por el cual repone indicaciones formuladas al proyecto.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-03-04",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio modificaciones a Cámara de Origen .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-03-04",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta oficio con modificaciones de Cámara Revisora . Queda para tabla",
+        "sesion": "98/373"
+      },
+      {
+        "fecha": "2026-06-09",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Discusión única . Rechazadas las modificaciones",
+        "sesion": "28/374"
+      },
+      {
+        "fecha": "2026-06-09",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Oficio rechazo modificaciones a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-06-10",
+        "camara": "C.Diputados",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta oficio rechazo a modificaciones .",
+        "sesion": "32/374"
+      },
+      {
+        "fecha": "2026-08-04",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta oficio integrantes de Comisión Mixta .",
+        "sesion": "47/374"
+      },
+      {
+        "fecha": "2026-08-04",
+        "camara": "C.Diputados",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Oficio N° 21.439, de la Cámara de Diputados, por el que designa integrantes de la Comisión Mixta",
+        "sesion": "47/374"
+      },
+      {
+        "fecha": "2026-08-04",
+        "camara": "C.Diputados",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Oficio de la Cámara de Diputados por el que designa integrantes de la Comisión Mixta",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-08-11",
+        "camara": "C.Diputados",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Mensaje 254-374 que hace presente la urgencia Suma",
+        "sesion": "49/374"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "87738",
+      "fecha": "2026-03-04T13:33:27",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Artículo sexto transitorio del proyecto, cuya votación separada ha sido solicitada por los diputados Daniel Manouchehri, Juan Manuel Fuenzalida y Juan Irarrázaval, que consta en las páginas 36 y 37 del comparado, y que requiere para su aprobación del voto favorable de 76 diputadas y diputados por tratarse de una norma orgánico constitucional.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87737",
+      "fecha": "2026-03-04T13:32:06",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Artículo cuarto transitorio del proyecto, en los términos propuestos por el Senado, que consta en las páginas 35 y 36 del comparado, y que requiere para su aprobación del voto favorable de 76 diputadas y diputados por tratarse de una norma orgánico constitucional.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87736",
+      "fecha": "2026-03-04T13:31:03",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Artículo cuarto transitorio del proyecto, cuya votación separada ha sido solicitada por el diputado Vlado Mirosevic, que consta en las páginas 35 y 36 del comparado, y que requiere para su aprobación del voto favorable de 76 diputadas y diputados por tratarse de una norma orgánico constitucional.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87735",
+      "fecha": "2026-03-04T13:29:14",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Artículo 5° del proyecto, cuya votación separada ha sido solicitada por los diputados José Carlos Meza y Juan Irarrázaval, y que consta en las páginas 29 a 34 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87733",
+      "fecha": "2026-03-04T13:16:16",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Artículo 4° del proyecto, que consta en la página 28 del comparado, y que requiere para su aprobación del voto favorable de 76 diputadas y diputados por tratarse de una norma orgánico constitucional.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87732",
+      "fecha": "2026-03-04T13:15:11",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Artículo 3° del proyecto, que consta en la página 26 del comparado, y que requiere para su aprobación del voto favorable de 76 diputadas y diputados por tratarse de una norma orgánico constitucional.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87731",
+      "fecha": "2026-03-04T13:14:04",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Numeral 2 del artículo 2° del proyecto, que consta en la página 25 del comparado, y que requiere para su aprobación del voto favorable de 76 diputadas y diputados por tratarse de una norma orgánico constitucional.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87730",
+      "fecha": "2026-03-04T13:12:56",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Literal b) del numeral 5 del artículo 1° del proyecto, cuya votación separada ha sido solicitada por el diputado Tomás Hirsch, que consta en la página 15 del comparado, y que requiere para su aprobación del voto favorable de 76 diputadas y diputados por tratarse de una norma orgánico constitucional.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87729",
+      "fecha": "2026-03-04T13:11:51",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Literal a) del numeral 5 del artículo 1° del proyecto, cuya votación separada ha sido solicitada por los diputados Tomás Hirsch y Tomás Lagomarsino, que consta en la página 13 del comparado, y que requiere para su aprobación del voto favorable de 76 diputadas y diputados por tratarse de una norma orgánico constitucional.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87728",
+      "fecha": "2026-03-04T13:10:34",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Indicación del Ejecutivo para intercalar en el artículo 1°, un nuevo numeral 5, que requiere para su aprobación del voto favorable de 76 diputadas y diputados por tratarse de una norma orgánico constitucional, del siguiente tenor:\n“5. Agrégase el siguiente artículo 34 bis, nuevo:\n“Artículo 34 bis.- Se considerará infracción grave a la disciplina interna el incumplimiento de los acuerdos del comité parlamentario del que formen parte los diputados o senadores, según corresponda.”.”.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87727",
+      "fecha": "2026-03-04T13:09:00",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Numeral 4 del artículo 1° del proyecto, cuya votación separada ha sido solicitada por el diputado Tomás Hirsch, que consta en la página 10 del comparado, y que requiere para su aprobación del voto favorable de 76 diputadas y diputados por tratarse de una norma orgánico constitucional.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87726",
+      "fecha": "2026-03-04T13:07:27",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": null,
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:41"
+  }
+}

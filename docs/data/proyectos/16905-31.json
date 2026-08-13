@@ -1,0 +1,1013 @@
+{
+  "boletin": "16905-31",
+  "nombre": "Reconoce el derecho al cuidado y crea el Sistema Nacional de Apoyos y Cuidados",
+  "tipo_iniciativa": "Mensaje",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2024-06-10",
+  "tramitacion": {
+    "etapa_actual": "Tramitación terminada",
+    "estado": "Publicado",
+    "ley_numero": "Ley N° 21.805",
+    "tramites": [
+      {
+        "fecha": "2024-06-10",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-06-10",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Desarrollo Social, Superación de la Pobreza y Planificación, y a la Comisión de Hacienda en lo que corresponda.",
+        "sesion": "39/372"
+      },
+      {
+        "fecha": "2024-06-18",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 778-372 que hace presente la urgencia Simple",
+        "sesion": "43/372"
+      },
+      {
+        "fecha": "2024-07-10",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 983-372 que retira y hace presente la urgencia Simple",
+        "sesion": "51/372"
+      },
+      {
+        "fecha": "2024-08-07",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1190-372 que retira y hace presente la urgencia Simple",
+        "sesion": "63/372"
+      },
+      {
+        "fecha": "2024-09-02",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1419-372 que retira y hace presente la urgencia Suma",
+        "sesion": "70/372"
+      },
+      {
+        "fecha": "2024-09-11",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1497-372 que retira y hace presente la urgencia Suma",
+        "sesion": "76/372"
+      },
+      {
+        "fecha": "2024-09-25",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1591-372 que retira y hace presente la urgencia Suma",
+        "sesion": "79/372"
+      },
+      {
+        "fecha": "2024-10-07",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio del Presidente de la República (N° 221-372), mediante el cual formula indicaciones al proyecto. Se adjunta informe financiero complementario N° 266/07.10.2024.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-10-09",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1725-372 que retira y hace presente la urgencia Suma",
+        "sesion": "86/372"
+      },
+      {
+        "fecha": "2024-10-16",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1809-372 que retira y hace presente la urgencia Suma",
+        "sesion": "90/372"
+      },
+      {
+        "fecha": "2024-10-30",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1924-372 que retira y hace presente la urgencia Suma",
+        "sesion": "95/372"
+      },
+      {
+        "fecha": "2024-11-13",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2047-372 que retira y hace presente la urgencia Suma",
+        "sesion": "102/372"
+      },
+      {
+        "fecha": "2024-11-27",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2168-372 que retira y hace presente la urgencia Suma",
+        "sesion": "110/372"
+      },
+      {
+        "fecha": "2024-12-11",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2333-372 que retira y hace presente la urgencia Suma",
+        "sesion": "116/372"
+      },
+      {
+        "fecha": "2025-01-06",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2450-372 que hace presente la urgencia Suma",
+        "sesion": "122/372"
+      },
+      {
+        "fecha": "2025-01-22",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2668-372 que hace presente la urgencia Discusión inmediata",
+        "sesion": "131/372"
+      },
+      {
+        "fecha": "2025-01-28",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  (Desarrollo Social). Pasa a Hacienda.",
+        "sesion": "133/372"
+      },
+      {
+        "fecha": "2025-03-03",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2749-372 que hace presente la urgencia Discusión inmediata",
+        "sesion": "135/372"
+      },
+      {
+        "fecha": "2025-03-05",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio del Presidente de la República (N°340-372), mediante el cual formula indicación al proyecto. Se adjunta informe financiero complementario N° 56/05.03.2025",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-03-10",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2761-372 que hace presente la urgencia Discusión inmediata",
+        "sesion": "138/372"
+      },
+      {
+        "fecha": "2025-03-11",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2763-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "1/373"
+      },
+      {
+        "fecha": "2025-03-11",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Hacienda.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-03-12",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  (Hacienda). Queda para tabla.",
+        "sesion": "2/373"
+      },
+      {
+        "fecha": "2025-03-17",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular a la vez .",
+        "sesion": "3/373"
+      },
+      {
+        "fecha": "2025-03-17",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio N° 20266. Remite en segundo trámite constitucional el proyecto de ley que reconoce el derecho al cuidado y crea el Sistema Nacional de Apoyos y Cuidados.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-03-18",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "El diputado Diego Schalper formuló reserva de constitucionalidad respecto de la letra b),  del artículo 2 del proyecto, de conformidad con los numerales 10 y 11 del artículo 19 de la Constitución Política de la Repúbluca.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-03-18",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Familia, Infancia y Adolescencia, y a la Comisión de Hacienda, en su caso.",
+        "sesion": "4/373"
+      },
+      {
+        "fecha": "2025-03-25",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 74-373 que hace presente la urgencia Simple",
+        "sesion": "7/373"
+      },
+      {
+        "fecha": "2025-04-22",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 205-373 que retira y hace presente la urgencia Suma",
+        "sesion": "13/373"
+      },
+      {
+        "fecha": "2025-05-07",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 353-373 que retira y hace presente la urgencia Suma",
+        "sesion": "18/373"
+      },
+      {
+        "fecha": "2025-05-14",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 436-373 que retira y hace presente la urgencia Suma",
+        "sesion": "20/373"
+      },
+      {
+        "fecha": "2025-05-28",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 538-373 que retira y hace presente la urgencia Suma",
+        "sesion": "23/373"
+      },
+      {
+        "fecha": "2025-05-29",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Primer informe de comisión de Familia, Infancia y Adolescencia..",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-06-03",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .",
+        "sesion": "24/373"
+      },
+      {
+        "fecha": "2025-06-04",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 605-373 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "25/373"
+      },
+      {
+        "fecha": "2025-06-10",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 631-373 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "26/373"
+      },
+      {
+        "fecha": "2025-06-17",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 665-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "28/373"
+      },
+      {
+        "fecha": "2025-06-30",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 698-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "31/373"
+      },
+      {
+        "fecha": "2025-07-02",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general Se fija como plazo para presentar indicaciones el 18/07/2025 a las 12:00",
+        "sesion": "34/373"
+      },
+      {
+        "fecha": "2025-07-08",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 770-373 que hace presente la urgencia Suma",
+        "sesion": "35/373"
+      },
+      {
+        "fecha": "2025-07-19",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Boletín de indicaciones .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-07-19",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio N° I.F. 197. Informe financiero",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-07-19",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio N° I.F. 197. Informe financiero",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-07-23",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 884-373 que retira y hace presente la urgencia Suma",
+        "sesion": "41/373"
+      },
+      {
+        "fecha": "2025-08-06",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 919-373 que retira y hace presente la urgencia Suma",
+        "sesion": "44/373"
+      },
+      {
+        "fecha": "2025-08-20",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 983-373 que retira y hace presente la urgencia Suma",
+        "sesion": "48/373"
+      },
+      {
+        "fecha": "2025-09-02",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1003-373 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "49/373"
+      },
+      {
+        "fecha": "2025-09-09",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1051-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "51/373"
+      },
+      {
+        "fecha": "2025-09-16",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1077-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "55/373"
+      },
+      {
+        "fecha": "2025-09-30",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1092-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "57/373"
+      },
+      {
+        "fecha": "2025-10-07",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1130-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "59/373"
+      },
+      {
+        "fecha": "2025-10-14",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1164-373 que hace presente la urgencia Suma",
+        "sesion": "61/373"
+      },
+      {
+        "fecha": "2025-11-04",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1208-373 que hace presente la urgencia Suma",
+        "sesion": "64/373"
+      },
+      {
+        "fecha": "2025-11-14",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Segundo informe de comisión de Familia, Infancia y Adolescencia.. Pasa a Comisión de Hacienda",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-11-21",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Segundo informe de comisión de Hacienda.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-11-24",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de segundo informe de comisión .",
+        "sesion": "73/373"
+      },
+      {
+        "fecha": "2025-11-25",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1263-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "76/373"
+      },
+      {
+        "fecha": "2025-11-26",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión particular . Queda pendiente",
+        "sesion": "77/373"
+      },
+      {
+        "fecha": "2025-12-02",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1299-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "78/373"
+      },
+      {
+        "fecha": "2025-12-02",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión particular . Aprobado con modificaciones",
+        "sesion": "78/373"
+      },
+      {
+        "fecha": "2025-12-04",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio modificaciones a Cámara de Origen .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-12-09",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta oficio con modificaciones de Cámara Revisora . Queda para tabla .",
+        "sesion": "100/373"
+      },
+      {
+        "fecha": "2025-12-09",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1333-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "100/373"
+      },
+      {
+        "fecha": "2025-12-10",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Discusión única . Aprobadas las modificaciones .",
+        "sesion": "101/373"
+      },
+      {
+        "fecha": "2025-12-10",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Oficio N° 20936. Oficio rechazo modificaciones a Cámara Revisora.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-12-10",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta oficio rechazo a modificaciones .",
+        "sesion": "81/373"
+      },
+      {
+        "fecha": "2025-12-10",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Oficio N° 357. A l Presidente de la Cámara de Diputados toma conocimiento del rechazo de algunas enmiendas y designa integrantes de la Comisión Mixta",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-12-15",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Mensaje 1375-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "102/373"
+      },
+      {
+        "fecha": "2025-12-15",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta oficio integrantes de Comisión Mixta .",
+        "sesion": "102/373"
+      },
+      {
+        "fecha": "2025-12-16",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Oficio N° 20948. Comunica al Senado la integración de la Comisión Mixta.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-12-16",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta de Oficio N° 20948, de la Cámara de Diputados",
+        "sesion": "82/373"
+      },
+      {
+        "fecha": "2025-12-22",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Informe de Comisión Mixta Comisión Mixta para Boletín Nº 16905-31 Sistema apoyos y cuidados.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-07",
+        "camara": "C.Diputados",
+        "etapa": "Disc. informe C.Mixta por rechazo de modific. en C. Origen",
+        "descripcion": "Cuenta informe Comisión Mixta .  Queda para tabla.",
+        "sesion": "107/373"
+      },
+      {
+        "fecha": "2026-01-07",
+        "camara": "C.Diputados",
+        "etapa": "Disc. informe C.Mixta por rechazo de modific. en C. Origen",
+        "descripcion": "Cuenta del Mensaje 1474-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "107/373"
+      },
+      {
+        "fecha": "2026-01-12",
+        "camara": "C.Diputados",
+        "etapa": "Disc. informe C.Mixta por rechazo de modific. en C. Origen",
+        "descripcion": "Discusión informe de Comisión Mixta . Aprobado .",
+        "sesion": "109/373"
+      },
+      {
+        "fecha": "2026-01-12",
+        "camara": "C.Diputados",
+        "etapa": "Disc. informe C.Mixta por rechazo de modific. en C. Origen",
+        "descripcion": "Cuenta del Mensaje 1493-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "109/373"
+      },
+      {
+        "fecha": "2026-01-12",
+        "camara": "C.Diputados",
+        "etapa": "Disc. informe C.Mixta por rechazo de modific. en C. Origen",
+        "descripcion": "Oficio aprobación de informe de Comisión Mixta a C. Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-13",
+        "camara": "Senado",
+        "etapa": "Disc. informe C.Mixta por rechazo de modif. C. Revisora",
+        "descripcion": "Cuenta oficio aprobación de informe de Comisión Mixta .",
+        "sesion": "88/373"
+      },
+      {
+        "fecha": "2026-01-14",
+        "camara": "Senado",
+        "etapa": "Disc. informe C.Mixta por rechazo de modif. C. Revisora",
+        "descripcion": "Discusión informe de Comisión Mixta . Aprobado",
+        "sesion": "90/373"
+      },
+      {
+        "fecha": "2026-01-14",
+        "camara": "Senado",
+        "etapa": "Disc. informe C.Mixta por rechazo de modif. C. Revisora",
+        "descripcion": "Oficio aprobación de informe de Comisión Mixta a C.de Origen .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-19",
+        "camara": "C.Diputados",
+        "etapa": "Trámite finalización en Cámara de Origen",
+        "descripcion": "Cuenta oficio aprobación de informe de Comisión Mixta .",
+        "sesion": "112/373"
+      },
+      {
+        "fecha": "2026-01-19",
+        "camara": "C.Diputados",
+        "etapa": "Trámite finalización en Cámara de Origen",
+        "descripcion": "Oficio N° 20997. Oficio de Ley al Ejecutivo.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-21",
+        "camara": "C.Diputados",
+        "etapa": "Trámite finalización en Cámara de Origen",
+        "descripcion": "Cuenta, Oficio de S. E. el Presidente de la República )N° 016-373), por el cual comunica que ha resuelto no hacer uso de la facultad de veto, que le confiere el inciso primero del artículo 73 de la Constitución Política de la República, respecto del proyecto.",
+        "sesion": "114/373"
+      },
+      {
+        "fecha": "2026-01-22",
+        "camara": "C.Diputados",
+        "etapa": "Trámite finalización en Cámara de Origen",
+        "descripcion": "Oficio N° 20997. Oficio al Tribunal Constitucional.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-30",
+        "camara": "C.Diputados",
+        "etapa": "Trámite finalización en Cámara de Origen",
+        "descripcion": "Oficio de ley al Ejecutivo .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-03-02",
+        "camara": "C.Diputados",
+        "etapa": "Trámite en Tribunal Constitucional",
+        "descripcion": "Ingreso fallo del Tribunal Constitucional .",
+        "sesion": "118/373"
+      },
+      {
+        "fecha": "2026-03-02",
+        "camara": "C.Diputados",
+        "etapa": "Trámite en Tribunal Constitucional",
+        "descripcion": "Cuenta fallo del Tribunal Constitucional .",
+        "sesion": "118/373"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "87188",
+      "fecha": "2026-01-12T19:06:01",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Comisión Mixta",
+      "articulo": "Proposición de la Comisión Mixta recaída en el proyecto de ley, originado en mensaje, que “Reconoce el derecho al cuidado y crea el Sistema Nacional de Apoyos y Cuidados.”. \nCabe hacer presente que los artículos 12 y 44 número 6 requieren para su aprobación del voto favorable de 76 diputadas y diputados por tratarse de disposiciones de rango orgánico constitucional.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "86934",
+      "fecha": "2025-12-10T13:21:12",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que incorpora un artículo 50, nuevo, cuya votación separada ha sido solicitada por el diputado Juan Irarrázaval; y que consta en las páginas 153 a 157 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "86933",
+      "fecha": "2025-12-10T13:20:17",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmiendas del Senado al artículo 25, que ha pasado a ser 28, cuya votación separada ha sido solicitada por el diputado Felipe Donoso y Francisco Undurraga; y que consta en la página 59 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "86932",
+      "fecha": "2025-12-10T13:19:32",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado al artículo 23, que ha pasado a ser artículo 26, cuya votación separada ha sido solicitada por los diputados Juan Irarrázaval, Felipe Donoso, Frank Sauerbaum y Francisco Undurraga; y que consta en las páginas 57 y 58 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "86931",
+      "fecha": "2025-12-10T13:18:35",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado al artículo 21, que ha pasado a ser artículo 24, cuya votación separada ha sido solicitada por el diputado Juan Irarrázaval; y que consta en la página 53 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "86930",
+      "fecha": "2025-12-10T13:17:53",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que sustituye el artículo 19, que ha pasado a ser artículo 22, cuya votación separada ha sido solicitada por el diputado Juan Irarrázaval; y que consta en las páginas 50 a 52 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "86929",
+      "fecha": "2025-12-10T13:16:56",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmiendas del Senado al artículo 16, que ha pasado a ser artículo 17, cuya votación separada ha sido solicitada por el diputado Juan Irarrázaval; y que consta en las páginas 45 a 47 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "86928",
+      "fecha": "2025-12-10T13:16:07",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmiendas del Senado al artículo 14, que ha pasado a ser artículo 15, cuya votación separada ha sido solicitada por el diputado Juan Irarrázaval; y que consta en las páginas 41 a 43 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "86927",
+      "fecha": "2025-12-10T13:15:18",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que sustituye el artículo 12, que ha pasado a ser artículo 13, cuya votación separada ha sido solicitada por los diputados Juan Irarrázaval y Frank Sauerbaum; y que consta en las páginas 35 a 39 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "86926",
+      "fecha": "2025-12-10T13:14:33",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que sustituye el artículo 11, cuya votación separada ha sido solicitada por el diputado Juan Irarrázaval; y que consta en las páginas 25 a 31 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "86925",
+      "fecha": "2025-12-10T13:13:43",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmiendas del Senado al artículo 10, cuya votación separada ha sido solicitada por los diputados Juan Irarrázaval, Felipe Donoso y Francisco Undurraga; y que consta en las páginas 23 a 25 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "86924",
+      "fecha": "2025-12-10T13:12:45",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que sustituye el artículo 9, cuya votación separada ha sido solicitada por los diputados Juan Irarrázaval, Felipe Donoso y Francisco Undurraga; y que consta en las páginas 20 a 23 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "86923",
+      "fecha": "2025-12-10T13:12:00",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que sustituye el artículo 8, cuya votación separada ha sido solicitada por el diputado Juan Irarrázaval, y que consta en la página 20 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "86922",
+      "fecha": "2025-12-10T13:11:07",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que reemplaza la letra g) del artículo 7, cuya votación separada ha sido solicitada por los diputados Juan Irarrázaval, Felipe Donoso, Frank Sauerbaum y Francisco Undurraga; y que consta en la página 19 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "86921",
+      "fecha": "2025-12-10T13:10:20",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que sustituye el artículo 6, cuya votación separada ha sido solicitada por los diputados Juan Irarrázaval, Felipe Donoso, Frank Sauerbaum y Francisco Undurraga; y que consta en las páginas 15 a 17 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "86920",
+      "fecha": "2025-12-10T13:09:35",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que incorpora una letra g), nueva, al artículo 5, cuya votación separada ha sido solicitada por los diputados Juan Irarrázaval, Felipe Donoso, Frank Sauerbaum y Francisco Undurraga; y que consta en la página 11 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "86919",
+      "fecha": "2025-12-10T13:08:42",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que reemplaza la letra f) del artículo 5, cuya votación separada ha sido solicitada por los diputados Juan Irarrázaval, Felipe Donoso y Francisco Undurraga; y que consta en la página 10 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "86918",
+      "fecha": "2025-12-10T13:07:57",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que reemplaza la letra e) del artículo 5, cuya votación separada ha sido solicitada por el diputado Juan Irarrázaval, y que consta en la página 10 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "86917",
+      "fecha": "2025-12-10T13:07:06",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que sustituye el artículo 3, cuya votación separada ha sido solicitada por los diputados Juan Irarrázaval, Felipe Donoso, Frank Sauerbaum y Francisco Undurraga; y que consta en la página 6 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "86916",
+      "fecha": "2025-12-10T13:06:13",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que reemplaza la letra j) del artículo 2, cuya votación separada ha sido solicitada por el diputado Juan Irarrázaval, y que consta en la página 5 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "86915",
+      "fecha": "2025-12-10T13:03:29",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que reemplaza la letra i) del artículo 2, cuya votación separada ha sido solicitada por el diputado Juan Irarrázaval, y que consta en las páginas 4 y 5 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "86914",
+      "fecha": "2025-12-10T13:01:12",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Modificaciones incorporadas por el Senado en el número 6 del artículo 44 (34 de la Cámara) y el artículo 12, nuevo; que requieren para su aprobación del voto favorable de 76 diputadas y diputados por tratarse de normas de rango orgánico constitucional.",
+      "resultado": "Unánime",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "86913",
+      "fecha": "2025-12-10T13:00:03",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Modificaciones incorporadas por el Senado en el proyecto, originado en mensaje, que “Reconoce el derecho al cuidado y crea el Sistema Nacional de Apoyos y Cuidados.”, con la salvedad de aquella que requiere quorum especial de aprobación y de aquellas cuya votación separada ha sido solicitada.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "52876",
+      "fecha": "2025-03-17T19:44:48",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo primero transitorio del proyecto, en los términos propuestos por la Comisión de Hacienda, y que consta en la página 119 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "52875",
+      "fecha": "2025-03-17T19:44:13",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Literal c) del artículo 25 del proyecto, en los términos propuestos por la Comisión de Desarrollo Social, cuya votación separada ha sido solicitada por la diputada Ximena Ossandón y por el diputado José Carlos Meza, y que consta en la página 60 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "52874",
+      "fecha": "2025-03-17T19:43:20",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Literal a) del artículo 23 del proyecto, en los términos propuestos por la Comisión de Desarrollo Social, cuya votación separada ha sido solicitada por el diputado José Carlos Meza, y que consta en la página 58 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "52873",
+      "fecha": "2025-03-17T19:42:36",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 23 del proyecto, en los términos propuestos por la Comisión de Desarrollo Social, cuya votación separada ha sido solicitada por la diputada Ximena Ossandon, que consta en las páginas 57 a 59 del comparado, con la salvedad de su letra a), cuya votación separada a su vez ha sido solicitada.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "52872",
+      "fecha": "2025-03-17T19:41:39",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Párrafo 2° del Título II del proyecto (artículos 10 a 14), en los términos propuestos por la Comisión de Desarrollo Social, cuya votación separada ha sido solicitada por el diputado José Carlos Meza, y que constan en las página 25 a 46 del comparado.  \nCabe hacer presente que no se alcanzo el quorum para aprobar la letra b) del artículo 10, por haberse tratado de una norma orgánica constitucional.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "52871",
+      "fecha": "2025-03-17T19:40:35",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 8 del proyecto, en los términos propuestos por la Comisión de Desarrollo Social, cuya votación separada ha sido solicitada por la diputada Ximena Ossandón, y que consta en las páginas 22 a 23 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "52870",
+      "fecha": "2025-03-17T19:39:49",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Párrafo 1° del Título II del proyecto (artículos 6 a 9), en los términos propuestos por la Comisión de Desarrollo Social, cuya votación separada ha sido solicitada por el diputado José Carlos Meza, y que constan en las página 17 a 25 del comparado, con la salvedad de su artículo 8, cuya votación separada a su vez ha sido solicitada.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "52869",
+      "fecha": "2025-03-17T19:38:54",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Literal j) del artículo 5 del proyecto, en los términos propuestos por la Comisión de Desarrollo Social, cuya votación separada ha sido solicitada por la diputada Ximena Ossandón y por el diputado José Carlos Meza, y que consta en la página 15 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "52868",
+      "fecha": "2025-03-17T19:38:08",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Literal h) del artículo 5 del proyecto, en los términos propuestos por la Comisión de Desarrollo Social, cuya votación separada ha sido solicitada por el diputado José Carlos Meza, y que consta en la página 14 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "52867",
+      "fecha": "2025-03-17T19:37:19",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Literal f) del artículo 5 del proyecto, en los términos propuestos por la Comisión de Desarrollo Social, cuya votación separada ha sido solicitada por el diputado José Carlos Meza, y que consta en la página 13 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "52866",
+      "fecha": "2025-03-17T19:36:28",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Literal e) del artículo 5 del proyecto, en los términos propuestos por la Comisión de Desarrollo Social, cuya votación separada ha sido solicitada por el diputado José Carlos Meza, y que consta en las páginas 12 y 13 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "52865",
+      "fecha": "2025-03-17T19:35:38",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Literal b) del artículo 5 del proyecto, en los términos propuestos por la Comisión de Desarrollo Social, cuya votación separada ha sido solicitada por el diputado José Carlos Meza, y que consta en la página 11 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "52864",
+      "fecha": "2025-03-17T19:34:46",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 5 del proyecto, en los términos propuestos por la Comisión de Desarrollo Social, cuya votación separada ha sido solicitada por el diputado Diego Schalper, y que consta en las páginas 9 a 16 del comparado, con la salvedad de sus letras b), e), f), h) y j), cuya votación separada a su vez ha sido solicitada.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "52863",
+      "fecha": "2025-03-17T19:33:53",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Literal e) del artículo 2 del proyecto, en los términos propuestos por la Comisión de Desarrollo Social, cuya votación separada ha sido solicitada por el diputado José Carlos Meza, y que consta en la página 5 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "52862",
+      "fecha": "2025-03-17T19:32:13",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Literal b) del artículo 2 del proyecto, en los términos propuestos por la Comisión de Desarrollo Social, cuya votación separada ha sido solicitada por el diputado José Carlos Meza, y que consta en la página 3 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "52861",
+      "fecha": "2025-03-17T19:31:21",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Inciso tercero del artículo 1 del proyecto, en los términos propuestos por la Comisión de Desarrollo Social, cuya votación separada ha sido solicitada por el diputado José Carlos Meza, y que consta en las páginas 1 a 2 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "52860",
+      "fecha": "2025-03-17T19:29:40",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Letra b) del artículo 10, y el nuevo artículo 16 ter que se incorpora a la ley N° 20.530 contenido en numeral 6) del artículo 34 del proyecto",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "52859",
+      "fecha": "2025-03-17T19:28:37",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": null,
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": true,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:41"
+  }
+}

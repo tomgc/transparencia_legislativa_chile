@@ -1,0 +1,185 @@
+{
+  "boletin": "14767-03",
+  "nombre": "Modifica la ley N°17.336, sobre Propiedad Intelectual, con el objeto de regular las medidas tecnológicas de protección",
+  "tipo_iniciativa": "Mensaje",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2021-12-22",
+  "tramitacion": {
+    "etapa_actual": "Segundo trámite constitucional (Senado)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2021-12-22",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2022-01-03",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Economía, Fomento; Micro, Pequeña y Mediana Empresa, Protección de los Consumidores y Turismo.",
+        "sesion": "116/369"
+      },
+      {
+        "fecha": "2022-01-03",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 419-369 que hace presente la urgencia Suma",
+        "sesion": "116/369"
+      },
+      {
+        "fecha": "2022-01-17",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 463-369 que retira y hace presente la urgencia Suma",
+        "sesion": "123/369"
+      },
+      {
+        "fecha": "2026-04-13",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 37-374 que hace presente la urgencia Simple",
+        "sesion": "11/374"
+      },
+      {
+        "fecha": "2026-05-11",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 85-374 que hace presente la urgencia Simple",
+        "sesion": "21/374"
+      },
+      {
+        "fecha": "2026-05-29",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "S.E. el Presidente de la República formula indicaciones al proyecto. (056-374). Incluye informe financiero N° 113/29.05.2026.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-06-08",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 130-374 que hace presente la urgencia Simple",
+        "sesion": "30/374"
+      },
+      {
+        "fecha": "2026-06-15",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Economía, Fomento y Desarrollo.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-06-15",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .",
+        "sesion": "33/374"
+      },
+      {
+        "fecha": "2026-06-24",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Queda pendiente .",
+        "sesion": "38/374"
+      },
+      {
+        "fecha": "2026-07-06",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 182-374 que retira y hace presente la urgencia Suma",
+        "sesion": "39/374"
+      },
+      {
+        "fecha": "2026-07-07",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": ".",
+        "sesion": "40/374"
+      },
+      {
+        "fecha": "2026-07-07",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular a la vez .",
+        "sesion": "40/374"
+      },
+      {
+        "fecha": "2026-07-07",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio de ley a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-07",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Economía",
+        "sesion": "40/374"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "89317",
+      "fecha": "2026-07-07T13:19:44",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Indicación de las diputadas Cucumides, Hassler y Schonhaut, para agregar una nueva disposición transitoria, del siguiente tenor: \n“Disposición Transitoria.- El Ministerio del Interior, en ejercicio de las facultades establecidas en el literal b) y c) del artículo 3 de la Ley 20.502 deberá, dentro de los seis meses siguientes a la publicación de esta ley, definir la instancia intersectorial encargada de recomendar cada tres años a la Comisión de Economía de la Cámara de Diputadas y Diputados qué categorías adicionales de obras, dispositivos o sistemas deben\nexceptuarse de las responsabilidades establecidas en esta ley. Deberá fundar su recomendación atendiendo el carácter estratégico para la seguridad nacional, la prestación de servicios esenciales, el desarrollo tecnológico, el interés público o en la constatación de que las medidas tecnológicas de protección aplicadas sobre esos sistemas, afectan de manera significativa el ejercicio de usos no infractores o impiden la auditoría, interoperabilidad o mantenimiento necesarios para su correcto funcionamiento.”.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89316",
+      "fecha": "2026-07-07T13:17:48",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Indicación de las diputadas Cucumides, Hassler y Schonhaut, para agregar un nuevo numeral al artículo único del proyecto, del siguiente tenor: \n“Numeral x) Para incorporar un nuevo artículo 71 bis:\n“Artículo 71 bis.- En ningún caso las medidas tecnológicas de protección podrán impedir el ejercicio del autor ni el acceso a la obra para los fines amparados por los derechos morales del Capítulo IV del Título I de la presente ley. El titular de la medida deberá proporcionar, a solicitud fundada del interesado, mecanismos alternativos que permitan dicho acceso sin elusión de la medida.”.”",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89315",
+      "fecha": "2026-07-07T13:16:21",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Numerales 4) y 5) del artículo único del proyecto, en los términos propuestos por la Comisión de Economía, y que constan en las páginas 13 a 18 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89314",
+      "fecha": "2026-07-07T13:15:19",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Indicación de las diputadas Cucumides, Hassler y Schonhaut, para reemplazar los numerales 4) y 5) del artículo único del proyecto, por un solo numeral del siguiente tenor:\n“Numeral 4).- Agrégase el siguiente artículo 84 bis:  \n“Artículo 84 bis.- Responderá por los perjuicios que causare, el que:\na) Con fines comerciales o ánimo de lucro, eluda una medida tecnológica de protección que controle el acceso a una obra, interpretación o ejecución, fonograma u otro objeto protegido por derechos de autor o derechos conexos.\nb) Con fines de comercialización fabrique, importe, distribuya, venda o entregue a cualquier título, promocione o publicite,  dispositivos o productos, o suministre servicios que hayan sido directamente diseñados, o adaptados con el fin de permitir o facilitar la elusión de cualquier medida tecnológica de protección.”",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89313",
+      "fecha": "2026-07-07T13:12:57",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": null,
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:41"
+  }
+}

@@ -1,0 +1,951 @@
+{
+  "boletin": "15096-09",
+  "nombre": "Regula la extracción de áridos.",
+  "tipo_iniciativa": "Moción",
+  "camara_origen": "Senado",
+  "fecha_ingreso": "2022-06-14",
+  "tramitacion": {
+    "etapa_actual": "Tramitación terminada",
+    "estado": "Publicado",
+    "ley_numero": "Ley N° 21.800",
+    "tramites": [
+      {
+        "fecha": "2022-06-14",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2022-06-14",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "La Sala acuerda que el proyecto de ley sea analizado en primer lugar por la Comisión de Obras Públicas, y posteriormente por la Comisión de Recursos Hídricos, Desertificación y Sequía.",
+        "sesion": "26/370"
+      },
+      {
+        "fecha": "2022-06-14",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Obras Públicas",
+        "sesion": "26/370"
+      },
+      {
+        "fecha": "2022-10-26",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "La Sala acuerda que el proyecto de ley sea analizado en general y particular, con ocasión del trámite reglamentario de primer informe.",
+        "sesion": "72/370"
+      },
+      {
+        "fecha": "2023-01-18",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "La Sala acuerda refundir los proyectos de ley correspondientes a los Boletines N° 15096-09 y N° 15676-09",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2023-04-18",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "El Honorable Senador señor Elizalde adhirió a este proyecto de ley.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2023-09-26",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Boletín de indicaciones .  Indicaciones del Ejecutivo",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2023-09-26",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio IF N° 208. Informe Financiero Complementario",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2023-11-07",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1442-371 que hace presente la urgencia Suma",
+        "sesion": "72/371"
+      },
+      {
+        "fecha": "2023-11-22",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1530-371 que retira y hace presente la urgencia Suma",
+        "sesion": "78/371"
+      },
+      {
+        "fecha": "2023-11-29",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1613-371 que retira y hace presente la urgencia Suma",
+        "sesion": "83/371"
+      },
+      {
+        "fecha": "2023-12-13",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1677-371 que retira y hace presente la urgencia Suma",
+        "sesion": "85/371"
+      },
+      {
+        "fecha": "2023-12-20",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1766-371 que retira y hace presente la urgencia Suma",
+        "sesion": "87/371"
+      },
+      {
+        "fecha": "2024-01-03",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1820-371 que retira y hace presente la urgencia Suma",
+        "sesion": "90/371"
+      },
+      {
+        "fecha": "2024-01-10",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "La Sala acuerda eximir a esta iniciativa de ser conocida por la Comisión de Recursos Hídricos, Desertificación y Sequía",
+        "sesion": "93/371"
+      },
+      {
+        "fecha": "2024-01-10",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Obras Públicas.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-01-16",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .",
+        "sesion": "95/371"
+      },
+      {
+        "fecha": "2024-01-17",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1931-371 que retira y hace presente la urgencia Suma",
+        "sesion": "96/371"
+      },
+      {
+        "fecha": "2024-01-23",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1960-371 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "97/371"
+      },
+      {
+        "fecha": "2024-01-24",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1961-371 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "98/371"
+      },
+      {
+        "fecha": "2024-01-30",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general Se fija como plazo para presentar indicaciones el 04/03/2024 a las 12:00",
+        "sesion": "100/371"
+      },
+      {
+        "fecha": "2024-03-05",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2029-371 que hace presente la urgencia Discusión inmediata",
+        "sesion": "101/371"
+      },
+      {
+        "fecha": "2024-03-12",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 47-372 que hace presente la urgencia Discusión inmediata",
+        "sesion": "1/372"
+      },
+      {
+        "fecha": "2024-03-19",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 113-372 que hace presente la urgencia Discusión inmediata",
+        "sesion": "3/372"
+      },
+      {
+        "fecha": "2024-04-02",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 178-372 que hace presente la urgencia Discusión inmediata",
+        "sesion": "5/372"
+      },
+      {
+        "fecha": "2024-04-03",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Al no haberse presentado indicaciones, y en virtud de lo prescrito en el artículo 120 del Reglamento del Senado, el proyecto se entiende aprobado en particular. Pasa a la Cámara de Diputados.",
+        "sesion": "6/372"
+      },
+      {
+        "fecha": "2024-04-04",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio de ley a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-04-08",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Obras Públicas, Transportes y Telecomunicaciones.",
+        "sesion": "14/372"
+      },
+      {
+        "fecha": "2024-04-08",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 230-372 que hace presente la urgencia Simple",
+        "sesion": "14/372"
+      },
+      {
+        "fecha": "2024-04-22",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 348-372 que retira y hace presente la urgencia Suma",
+        "sesion": "21/372"
+      },
+      {
+        "fecha": "2024-05-06",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 410-372 que retira y hace presente la urgencia Suma",
+        "sesion": "25/372"
+      },
+      {
+        "fecha": "2024-05-15",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 527-372 que retira y hace presente la urgencia Suma",
+        "sesion": "31/372"
+      },
+      {
+        "fecha": "2024-05-29",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 576-372 que retira y hace presente la urgencia Simple",
+        "sesion": "32/372"
+      },
+      {
+        "fecha": "2024-06-18",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 779-372 que retira la urgencia Simple",
+        "sesion": "43/372"
+      },
+      {
+        "fecha": "2024-08-26",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio del Presidente de la República (N°166-372), mediante el cual formula indicaciones al proyecto. Se acompaña informe financiero complementario N° 218/120.08.2024.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-09-03",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1426-372 que hace presente la urgencia Suma",
+        "sesion": "71/372"
+      },
+      {
+        "fecha": "2024-09-23",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1556-372 que hace presente la urgencia Suma",
+        "sesion": "77/372"
+      },
+      {
+        "fecha": "2024-10-09",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1718-372 que retira y hace presente la urgencia Suma",
+        "sesion": "86/372"
+      },
+      {
+        "fecha": "2024-10-16",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1801-372 que retira y hace presente la urgencia Suma",
+        "sesion": "90/372"
+      },
+      {
+        "fecha": "2024-10-30",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1914-372 que retira y hace presente la urgencia Suma",
+        "sesion": "95/372"
+      },
+      {
+        "fecha": "2024-11-13",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2041-372 que retira y hace presente la urgencia Suma",
+        "sesion": "102/372"
+      },
+      {
+        "fecha": "2024-11-27",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Primer informe de comisión de Obras Públicas, Transportes y Telecomunicaciones. Pasa a Comisión de Hacienda",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-11-27",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2157-372 que retira y hace presente la urgencia Suma",
+        "sesion": "110/372"
+      },
+      {
+        "fecha": "2024-12-02",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  (OO.PP.). Pasa a Hacienda.",
+        "sesion": "111/372"
+      },
+      {
+        "fecha": "2024-12-03",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Primer informe de comisión de Hacienda.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-12-04",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  (Hacienda). Queda para tabla.",
+        "sesion": "113/372"
+      },
+      {
+        "fecha": "2024-12-11",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2399-372 que retira la urgencia Suma",
+        "sesion": "116/372"
+      },
+      {
+        "fecha": "2024-12-11",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2404-372 que hace presente la urgencia Suma",
+        "sesion": "117/372"
+      },
+      {
+        "fecha": "2024-12-16",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión general . Queda pendiente .",
+        "sesion": "118/372"
+      },
+      {
+        "fecha": "2024-12-16",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2406-372 que hace presente la urgencia Discusión inmediata",
+        "sesion": "118/372"
+      },
+      {
+        "fecha": "2024-12-17",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular con modificaciones .",
+        "sesion": "119/372"
+      },
+      {
+        "fecha": "2024-12-17",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio modificaciones a Cámara de Origen .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-12-17",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta oficio con modificaciones de Cámara Revisora . Pasa a Comisión de Obras Públicas",
+        "sesion": "90/372"
+      },
+      {
+        "fecha": "2025-01-07",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2479-372 que hace presente la urgencia Suma",
+        "sesion": "92/372"
+      },
+      {
+        "fecha": "2025-01-14",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Informe de comisión de Obras Públicas.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-01-14",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta informe de comisión .",
+        "sesion": "94/372"
+      },
+      {
+        "fecha": "2025-01-21",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2652-09 que hace presente la urgencia Discusión inmediata",
+        "sesion": "96/372"
+      },
+      {
+        "fecha": "2025-01-22",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2690-372 que retira y hace presente la urgencia Simple",
+        "sesion": "97/372"
+      },
+      {
+        "fecha": "2025-03-04",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2756-372 que hace presente la urgencia Simple",
+        "sesion": "101/372"
+      },
+      {
+        "fecha": "2025-03-11",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 3-373 que hace presente la urgencia Simple",
+        "sesion": "1/373"
+      },
+      {
+        "fecha": "2025-04-09",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 125-373 que retira y hace presente la urgencia Simple",
+        "sesion": "10/373"
+      },
+      {
+        "fecha": "2025-05-06",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 285-373 que retira y hace presente la urgencia Suma",
+        "sesion": "16/373"
+      },
+      {
+        "fecha": "2025-05-14",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 422-373 que retira y hace presente la urgencia Suma",
+        "sesion": "20/373"
+      },
+      {
+        "fecha": "2025-05-28",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 524-373 que retira y hace presente la urgencia Suma",
+        "sesion": "23/373"
+      },
+      {
+        "fecha": "2025-06-11",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 646-373 que retira y hace presente la urgencia Suma",
+        "sesion": "27/373"
+      },
+      {
+        "fecha": "2025-06-18",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 688-373 que retira y hace presente la urgencia Suma",
+        "sesion": "30/373"
+      },
+      {
+        "fecha": "2025-07-02",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 750-373 que retira y hace presente la urgencia Suma",
+        "sesion": "34/373"
+      },
+      {
+        "fecha": "2025-07-09",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "La Sala acuerda que este proyecto de ley sea conocido, en tercer trámite constitucional, por la Comisión de Hacienda",
+        "sesion": "36/373"
+      },
+      {
+        "fecha": "2025-07-09",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Discusión única . Rechazadas las modificaciones",
+        "sesion": "36/373"
+      },
+      {
+        "fecha": "2025-07-09",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Oficio rechazo modificaciones a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-07-14",
+        "camara": "C.Diputados",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta oficio rechazo a modificaciones .",
+        "sesion": "48/373"
+      },
+      {
+        "fecha": "2025-08-04",
+        "camara": "C.Diputados",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Oficio integrantes de Comisión Mixta .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-08-05",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Mensaje 896-373 que hace presente la urgencia Suma",
+        "sesion": "43/373"
+      },
+      {
+        "fecha": "2025-08-05",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta oficio integrantes de Comisión Mixta .",
+        "sesion": "43/373"
+      },
+      {
+        "fecha": "2025-08-06",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Oficio N° 20702. Comunica reemplazo permanente en Comisión Mixta (Leonidas Romero por Mauro González).",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-08-12",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Mensaje 943-373 que hace presente la urgencia Suma",
+        "sesion": "45/373"
+      },
+      {
+        "fecha": "2025-08-19",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Mensaje 970-373 que hace presente la urgencia Suma",
+        "sesion": "47/373"
+      },
+      {
+        "fecha": "2025-09-02",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Mensaje 1001-373 que hace presente la urgencia Suma",
+        "sesion": "49/373"
+      },
+      {
+        "fecha": "2025-09-09",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Mensaje 1047-373 que hace presente la urgencia Suma",
+        "sesion": "51/373"
+      },
+      {
+        "fecha": "2025-09-16",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Mensaje 1074-373 que hace presente la urgencia Suma",
+        "sesion": "55/373"
+      },
+      {
+        "fecha": "2025-09-30",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Mensaje 1090-373 que hace presente la urgencia Suma",
+        "sesion": "57/373"
+      },
+      {
+        "fecha": "2025-10-07",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Mensaje 1125-373 que hace presente la urgencia Suma",
+        "sesion": "59/373"
+      },
+      {
+        "fecha": "2025-10-07",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Oficio N°220-373. PROPONE FORMA Y MODO DE RESOLVER LAS DIVERGENCIAS SURGIDAS ENTRE AMBAS CÁMARAS DURANTE LA DISCUSIÓN DEL PROYECTO DE LEY QUE REGULA LA EXTRACCIÓN DE ÁRIDOS",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-10-07",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "IF Nº296. Informe Financiero",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-10-14",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Mensaje 1160-373 que hace presente la urgencia Suma",
+        "sesion": "61/373"
+      },
+      {
+        "fecha": "2025-10-27",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Mensaje 1178-373 que hace presente la urgencia Suma",
+        "sesion": "63/373"
+      },
+      {
+        "fecha": "2025-11-04",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Mensaje 1230-373 que hace presente la urgencia Suma",
+        "sesion": "64/373"
+      },
+      {
+        "fecha": "2025-11-18",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Informe de Comisión Mixta Mixta para Boletín Nº 15096-09.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-11-19",
+        "camara": "Senado",
+        "etapa": "Disc. informe C.Mixta por rechazo de modific. en C. Origen",
+        "descripcion": "Cuenta informe Comisión Mixta .",
+        "sesion": "68/373"
+      },
+      {
+        "fecha": "2025-11-25",
+        "camara": "Senado",
+        "etapa": "Disc. informe C.Mixta por rechazo de modific. en C. Origen",
+        "descripcion": "Cuenta del Mensaje 1266-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "76/373"
+      },
+      {
+        "fecha": "2025-12-02",
+        "camara": "Senado",
+        "etapa": "Disc. informe C.Mixta por rechazo de modific. en C. Origen",
+        "descripcion": "Cuenta del Mensaje 1297-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "78/373"
+      },
+      {
+        "fecha": "2025-12-09",
+        "camara": "Senado",
+        "etapa": "Disc. informe C.Mixta por rechazo de modific. en C. Origen",
+        "descripcion": "Cuenta del Mensaje 1344-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "80/373"
+      },
+      {
+        "fecha": "2025-12-10",
+        "camara": "Senado",
+        "etapa": "Disc. informe C.Mixta por rechazo de modific. en C. Origen",
+        "descripcion": "Discusión informe de Comisión Mixta . Aprobado",
+        "sesion": "81/373"
+      },
+      {
+        "fecha": "2025-12-10",
+        "camara": "Senado",
+        "etapa": "Disc. informe C.Mixta por rechazo de modific. en C. Origen",
+        "descripcion": "Oficio aprobación de informe de Comisión Mixta a C. Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-12-16",
+        "camara": "C.Diputados",
+        "etapa": "Disc. informe C.Mixta por rechazo de modif. C. Revisora",
+        "descripcion": "Cuenta oficio aprobación de informe de Comisión Mixta .  Queda para tabla.",
+        "sesion": "103/373"
+      },
+      {
+        "fecha": "2025-12-16",
+        "camara": "C.Diputados",
+        "etapa": "Disc. informe C.Mixta por rechazo de modif. C. Revisora",
+        "descripcion": "Cuenta del Mensaje 1385-373 que hace presente la urgencia Simple",
+        "sesion": "103/373"
+      },
+      {
+        "fecha": "2026-01-05",
+        "camara": "Senado",
+        "etapa": "Trámite finalización en Cámara de Origen",
+        "descripcion": "Cuenta del Mensaje 1442-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "105/373"
+      },
+      {
+        "fecha": "2026-01-05",
+        "camara": "C.Diputados",
+        "etapa": "Disc. informe C.Mixta por rechazo de modif. C. Revisora",
+        "descripcion": "Discusión informe de Comisión Mixta . Aprobado .",
+        "sesion": "105/373"
+      },
+      {
+        "fecha": "2026-01-05",
+        "camara": "C.Diputados",
+        "etapa": "Disc. informe C.Mixta por rechazo de modif. C. Revisora",
+        "descripcion": "Oficio aprobación de informe de Comisión Mixta a C.de Origen .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-06",
+        "camara": "Senado",
+        "etapa": "Trámite finalización en Cámara de Origen",
+        "descripcion": "Cuenta oficio aprobación de informe de Comisión Mixta .",
+        "sesion": "86/373"
+      },
+      {
+        "fecha": "2026-01-08",
+        "camara": "Senado",
+        "etapa": "Trámite finalización en Cámara de Origen",
+        "descripcion": "Oficio de ley al Ejecutivo .",
+        "sesion": "/"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "87064",
+      "fecha": "2026-01-05T19:16:17",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Comisión Mixta",
+      "articulo": "Proposición de la Comisión Mixta recaída en el proyecto de ley, originado en mociones refundidas, que “Regula la extracción de áridos.”.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "42631",
+      "fecha": "2024-12-17T13:21:55",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Artículo tercero transitorio del proyecto propuesto por la Comisión de Obras Públicas, que consta en las páginas 59 y 60 del comparado, cuya votación separada ha sido solicitada por los diputados Gustavo Benavente y Jorge Guzmán.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "42630",
+      "fecha": "2024-12-17T13:21:06",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Artículo 21 del proyecto propuesto por la Comisión de Obras Públicas (19 del Senado), que consta en las páginas 44 y 45 del comparado y coincide con el texto aprobado por el Senado, cuya votación separada ha sido solicitada por los diputados Gustavo Benavente, Jorge Guzmán, Felipe Donoso y Miguel Ángel Calisto.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "42629",
+      "fecha": "2024-12-17T13:20:12",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Artículo 20 del proyecto propuesto por la Comisión de Obras Públicas (18 del Senado), que consta en la página 44 del comparado y coincide con el texto aprobado por el Senado, cuya votación separada ha sido solicitada por los diputados Gustavo Benavente, Jorge Guzmán, Felipe Donoso y Miguel Ángel Calisto.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "42628",
+      "fecha": "2024-12-17T13:19:19",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Resto del artículo 14 del proyecto propuesto por la Comisión de Obras Públicas (13 del Senado), que consta en las páginas 37 a 39 del comparado y coincide con el texto aprobado por el Senado, cuya votación separada ha sido solicitada por los diputados Gustavo Benavente y Jorge Guzmán.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "42627",
+      "fecha": "2024-12-17T13:18:27",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Inciso primero del artículo 14 del proyecto propuesto por la Comisión de Obras Públicas (13 del Senado), que consta en las páginas 36 y 37 del comparado y coincide con el texto aprobado por el Senado, cuya votación separada ha sido solicitada por los diputados Gustavo Benavente y Jorge Guzmán.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "42626",
+      "fecha": "2024-12-17T13:17:39",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Inciso sexto del artículo 13 del proyecto propuesto por la Comisión de Obras Públicas, que consta en la página 36 del comparado y coincide con el texto aprobado por el Senado, cuya votación separada ha sido solicitada por los diputados Gustavo Benavente y Jorge Guzmán.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "42625",
+      "fecha": "2024-12-17T13:16:56",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Inciso quinto del artículo 13 del proyecto propuesto por la Comisión de Obras Públicas, que consta en la página 35 del comparado y coincide con el texto aprobado por el Senado, cuya votación separada ha sido solicitada por los diputados Gustavo Benavente y Jorge Guzmán.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "42624",
+      "fecha": "2024-12-17T13:16:12",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Artículo 13 del proyecto propuesto por la Comisión de Obras Públicas (12 del Senado), con la salvedad de los incisos quinto y sexto, que consta en las páginas 32 a 36 del comparado y coincide con el texto aprobado por el Senado, cuya votación separada ha sido solicitada por los diputados Gustavo Benavente, Jorge Guzmán y Felipe Donoso.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "42623",
+      "fecha": "2024-12-17T13:15:09",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Inciso tercero del artículo 9 del proyecto propuesto por la Comisión de Obras Públicas, que consta en la página 25 del comparado, cuya votación separada ha sido solicitada por los diputados Gustavo Benavente y Jorge Guzmán.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "42622",
+      "fecha": "2024-12-17T13:14:19",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Artículo 9 del proyecto incorporado por la Comisión de Obras Públicas, con la salvedad del inciso tercero, que consta en las páginas 24 a 26 del comparado, cuya votación separada ha sido solicitada por los diputados Gustavo Benavente, Jorge Guzmán, Felipe Donoso y Miguel Ángel Calisto.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "42621",
+      "fecha": "2024-12-17T13:13:29",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Artículo 8 del proyecto propuesto por la Comisión de Obras Públicas, que consta en la página 23 del comparado, cuya votación separada ha sido solicitada por los diputados Gustavo Benavente, Jorge Guzmán, Felipe Donoso y Miguel Ángel Calisto.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "42620",
+      "fecha": "2024-12-17T13:12:25",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Inciso tercero del artículo 7 del proyecto, en los términos propuestos por el Senado, que consta en las páginas 15 a 22 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "42619",
+      "fecha": "2024-12-17T13:11:24",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Artículo 7 del proyecto propuesto por la Comisión de Obras Públicas, con la salvedad del inciso tercero, que consta en las páginas 15 a 22 del comparado, cuya votación separada ha sido solicitada por los diputados Gustavo Benavente, Jorge Guzmán, Felipe Donoso y Miguel Ángel Calisto.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "42618",
+      "fecha": "2024-12-17T13:10:34",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Inciso cuarto del artículo 6 del proyecto propuesto por la Comisión de Obras Públicas, que consta en las páginas 14 y 15 del comparado, cuya votación separada ha sido solicitada por los diputados Gustavo Benavente y Jorge Guzmán.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "42617",
+      "fecha": "2024-12-17T13:09:38",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Inciso tercero del artículo 6 del proyecto propuesto por la Comisión de Obras Públicas, que consta en las páginas 13 y 14 del comparado, cuya votación separada ha sido solicitada por los diputados Gustavo Benavente y Jorge Guzmán.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "42616",
+      "fecha": "2024-12-17T13:08:44",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Artículo 6 del proyecto propuesto por la Comisión de Obras Públicas, con la salvedad de los incisos tercero y cuarto, que consta en las páginas 11 a 15 del comparado, cuya votación separada ha sido solicitada por los diputados Gustavo Benavente, Jorge Guzmán, Felipe Donoso y Miguel Ángel Calisto.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "42615",
+      "fecha": "2024-12-17T13:07:54",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Inciso segundo del artículo 5 del proyecto propuesto por la Comisión de Obras Públicas, que consta en las páginas 10 y 11 del comparado, cuya votación separada ha sido solicitada por los diputados Gustavo Benavente y Jorge Guzmán.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "42614",
+      "fecha": "2024-12-17T13:07:11",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Artículo 5 del proyecto propuesto por la Comisión de Obras Públicas, con la salvedad del inciso segundo, que consta en las páginas 10 y 11 del comparado, cuya votación separada ha sido solicitada por los diputados Gustavo Benavente y Jorge Guzmán.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "42613",
+      "fecha": "2024-12-17T13:06:22",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Artículo 3, del proyecto propuesto por la Comisión de Obras Públicas, que consta en las páginas 6 a 9 del comparado, cuya votación separada ha sido solicitada por los diputados Juan Antonio Coloma, Felipe Donoso y Juan Irarrázaval.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "42612",
+      "fecha": "2024-12-17T13:05:29",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Letra m) del artículo 2 del proyecto propuesto por la Comisión de Obras Públicas, que coincide con el texto aprobado por el Senado y que consta en la página 6 del comparado, cuya votación separada ha sido solicitada por los diputados Gustavo Benavente y Jorge Guzmán.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "42611",
+      "fecha": "2024-12-17T13:04:37",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Letra j) del artículo 2 del proyecto propuesto por la Comisión de Obras Públicas, que coincide con el texto aprobado por el Senado y que consta en la página 5 del comparado, cuya votación separada ha sido solicitada por los diputados Gustavo Benavente y Jorge Guzmán.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "42610",
+      "fecha": "2024-12-17T13:03:39",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Artículo 2 del proyecto propuesto por la Comisión de Obras Públicas, con la salvedad de las letras j) y m), que consta en las páginas 1-5 del comparado, cuya votación separada ha sido solicitada por los diputados Gustavo Benavente, Jorge Guzmán, Miguel Ángel Calisto y Felipe Donoso.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "42609",
+      "fecha": "2024-12-17T13:02:11",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": null,
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": true,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:41"
+  }
+}

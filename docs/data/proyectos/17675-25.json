@@ -1,0 +1,202 @@
+{
+  "boletin": "17675-25",
+  "nombre": "Modifica cuerpos legales para fortalecer la seguridad del transporte público subterráneo del Metro de Santiago",
+  "tipo_iniciativa": "Moción",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2025-07-02",
+  "tramitacion": {
+    "etapa_actual": "Segundo trámite constitucional (Senado)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2025-07-02",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-07-09",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Seguridad Ciudadana",
+        "sesion": "47/373"
+      },
+      {
+        "fecha": "2025-09-01",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio del Presidente de la República (N° 177-3723), mediante el cual formula indicaciones al proyecto. Se adjunta informe financiero N° 255/29.08.2025.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-09-15",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio del Presidente de la República (194-373), mediante el cual retira y formula indicación al proyecto. Se acompaña informe financiero complementario N° 268/12.09.2025",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-09-29",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  Queda para tabla.",
+        "sesion": "73/373"
+      },
+      {
+        "fecha": "2025-09-29",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Seguridad Ciudadana.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-03-05",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular a la vez .",
+        "sesion": "122/373"
+      },
+      {
+        "fecha": "2026-03-05",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio de ley a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-03-10",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Seguridad Pública",
+        "sesion": "99/373"
+      },
+      {
+        "fecha": "2026-03-17",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2-374 que hace presente la urgencia Suma",
+        "sesion": "1/374"
+      },
+      {
+        "fecha": "2026-04-07",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 26-374 que hace presente la urgencia Suma",
+        "sesion": "5/374"
+      },
+      {
+        "fecha": "2026-04-21",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 52-374 que retira y hace presente la urgencia Suma",
+        "sesion": "10/374"
+      },
+      {
+        "fecha": "2026-05-05",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 73-374 que retira y hace presente la urgencia Suma",
+        "sesion": "12/374"
+      },
+      {
+        "fecha": "2026-05-20",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 114-374 que retira y hace presente la urgencia Suma",
+        "sesion": "22/374"
+      },
+      {
+        "fecha": "2026-06-02",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 125-374 que retira y hace presente la urgencia Suma",
+        "sesion": "24/374"
+      },
+      {
+        "fecha": "2026-06-16",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 152-374 que retira y hace presente la urgencia Suma",
+        "sesion": "30/374"
+      },
+      {
+        "fecha": "2026-06-23",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 169-374 que retira y hace presente la urgencia Suma",
+        "sesion": "35/374"
+      },
+      {
+        "fecha": "2026-07-07",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 187-374 que retira y hace presente la urgencia Suma",
+        "sesion": "40/374"
+      },
+      {
+        "fecha": "2026-07-07",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "La Sala acuerda autorizar a la Comisión de Seguridad Pública para discutir este proyecto de ley en general y en particular, con ocasión del trámite reglamentario de primer informe",
+        "sesion": "40/374"
+      },
+      {
+        "fecha": "2026-07-21",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 214-374 que retira y hace presente la urgencia Suma",
+        "sesion": "44/374"
+      },
+      {
+        "fecha": "2026-08-04",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 233-374 que retira y hace presente la urgencia Simple",
+        "sesion": "47/374"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "87793",
+      "fecha": "2026-03-05T13:38:06",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "En votación el artículo 12 quinquies, contenido en el artículo 3 del proyecto, en los términos propuestos por la Comisión de Seguridad Ciudadana, y que consta en las páginas 13 y 14 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87792",
+      "fecha": "2026-03-05T13:37:05",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Indicación del Ejecutivo para reemplazar el artículo 12 quinquies, contenido en el artículo 3 del proyecto, por el siguiente, de cuyo tenor dará lectura el señor Secretario:\n“Artículo 12 quinquies.- El personal contratado por Metro S.A. que desempeña labores de seguridad en sus instalaciones y trenes, como consecuencia de haber constatado algunas de las conductas descritas en el artículo 12 bis, podrá requerir la exhibición de documentos que acrediten fehacientemente la identidad de las personas mayores de 18 años. Si la persona se niega a exhibirlos, dicho personal se comunicará de inmediato con Carabineros de Chile.”.\nEn votación la indicación del Ejecutivo para reemplazar el artículo 12 quinquies, contenido en el artículo 3 del proyecto.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87791",
+      "fecha": "2026-03-05T13:32:53",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": null,
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:41"
+  }
+}

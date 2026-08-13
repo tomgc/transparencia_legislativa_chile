@@ -36,7 +36,7 @@ tres agentes con código propio, y de documentos leídos en la sesión 21.
 
 | # | Hipótesis | Se verifica en |
 |---|---|---|
-| H1 | `con_cache()` admite una fuente distinta de la API de la Cámara sin modificarse | F0 |
+| H1 | ~~`con_cache()` admite una fuente distinta de la API de la Cámara sin modificarse~~ **Falsificada en F0 y resuelta por la enmienda 1 (§0.3): `con_cache()` admite otra fuente con un parámetro de destino, sin cambiar su contrato ni el de sellado** | F0, cerrada |
 | H2 | `sellar()` y `leer_sellado()` operan sobre cualquier intermedio nuevo sin cambio de firma | F0 |
 | H3 | `39_consolidar_json.R` puede emitir un segundo directorio de salida sin refactor de su flujo | F0 |
 | H4 | El paso de publicación a `docs/` es un copiado explícito y no un montaje del directorio | F0 |
@@ -44,6 +44,41 @@ tres agentes con código propio, y de documentos leídos en la sesión 21.
 
 **Si H1, H2 o H3 son falsas, detente en F0 y reporta.** Ninguna se resuelve
 inventando un helper nuevo: la arquitectura de caché y sellado es del titular.
+
+### 0.3 Enmienda 1 — el destino del crudo (resuelve la contradicción detectada en F0)
+
+F0 detuvo la ejecución con razón: el encargo v1 pedía a la vez usar `con_cache()`
+sin modificarla y sacar el crudo del SIL de `20_insumos/camara/`, y las dos cosas
+no pueden ser verdaderas porque `ruta_cache()` (`10_utils/10_utils.R:230-233`)
+fija el directorio. La contradicción es del redactor, no de la ejecución.
+
+Hallazgos de F0 que pasan a ser afirmaciones respaldadas (fuente: lectura de
+Claude Code en la sesión 21, con archivo y línea):
+
+| # | Afirmación | Fuente |
+|---|---|---|
+| R12 | `con_cache(nombre_cache, fn_descarga, tope, origen)` es agnóstica al **origen** (`fn_descarga` es un closure arbitrario) pero no al **destino**: llama a `ruta_cache()`, que fija `ruta_insumos("camara", …)` | `10_utils.R:428`, `:230-233` |
+| R13 | La convención de nombre por corte es `<AAAAMMDD>_<nombre_cache><sufijo_tope>.rds` | `ruta_cache()` `:230-233`, `corte_para_clave()` `:200`, `sufijo_tope()` `:183` |
+| R14 | `reportar_estado_capturas()` barre **solo** `ruta_insumos("camara")` y hace `stop()` si no encuentra capturas del corte | `10_utils.R:397-406` |
+| R15 | Tres acoplamientos condicionan el paso nuevo: `PASOS_EXTRACCION` filtra `%in% 32:36` (`00_run_all.R:50`), `capturas_crudas_de_paso()` es un `switch` con `stop()` ante id desconocido (`10_utils.R:539`) e `INTERMEDIOS_PIPELINE` enumera 6 intermedios (`10_utils.R:471`) | F0 |
+
+**Decisión del titular (vía elegida: extender, no duplicar ni mezclar):**
+
+1. `ruta_cache()` gana un argumento `subdir = "camara"` y `con_cache()` lo
+   propaga. **Retrocompatible por defecto:** ninguna llamada existente cambia de
+   comportamiento, y eso se comprueba programáticamente, no por inspección.
+2. El crudo del SIL va a `20_insumos/senado/`, con la misma convención de nombre
+   (R13). Carpeta por host, como `camara/` es `opendata.camara.cl`.
+3. `reportar_estado_capturas()` se extiende para barrer también el directorio
+   nuevo. **Esto no es opcional:** si el crudo del SIL queda fuera de su barrido,
+   el contrato temporal de P-74 queda ciego justo sobre la fuente que el acto A
+   demostró que entrega eventos posteriores al corte (R7), y D-h pierde su
+   compuerta. El hallazgo es de F0 y se adopta entero.
+4. `sellar()`, `leer_sellado()` y `validar_corte()` **siguen sin tocarse**: eso es
+   lo que el 🔒 protege de verdad.
+
+Esta enmienda no autoriza ningún otro cambio de arquitectura. Cualquier otro
+helper que resulte insuficiente se reporta, no se extiende por analogía con esta.
 
 ---
 
@@ -107,9 +142,11 @@ no la sustituyas por tu criterio.
 - 🔒 `10_utils/10_utils.R` no adquiere dependencias de paquetes.
 - 🔒 Los intermedios **no se versionan** (D24). `40_salidas/intermedios/.gitkeep`
   sigue trackeado.
-- 🔒 `20_insumos/camara/` es crudo inmutable: no se le agrega ni se le quita nada.
-  El crudo del SIL vive en la carpeta que F0 determine **siguiendo la convención
-  existente**, nunca en una ruta inventada.
+- 🔒 `20_insumos/camara/` es crudo inmutable **en el sentido correcto: ninguna
+  captura ya escrita se modifica ni se borra**. Agregar la captura del corte es
+  justamente lo que el pipeline hace cada semana, y no viola nada. Lo que sí está
+  vedado es mezclar orígenes: `camara/` es `opendata.camara.cl`, y el crudo del
+  SIL vive en `20_insumos/senado/` (enmienda 1, §0.3).
 - 🔒 El crudo se persiste **como XML character**, no como derivado parseado
   (principio de dato crudo inmutable ya establecido en `con_cache()`).
 - 🔒 Ninguna respuesta HTTP distinta de 200 se persiste como crudo.
@@ -172,6 +209,37 @@ ruta acotada.
 H2 o H3 son falsas, **detente**.
 
 **Commit.** Ninguno: F0 no escribe.
+
+---
+
+### F0bis — Extensión del destino de caché (enmienda 1)
+
+**F0 ya está ejecutada y su reporte, entregado.** Esta fase implementa la
+enmienda de §0.3 y nada más.
+
+**Qué construye.**
+
+1. `ruta_cache(nombre_cache, tope = NULL, corte = NULL, subdir = "camara")` y la
+   propagación del parámetro desde `con_cache()`.
+2. La extensión de `reportar_estado_capturas()` al directorio nuevo, conservando
+   su `stop()` actual: si no encuentra capturas del corte en el directorio que le
+   corresponde, sigue fallando ruidosamente.
+3. `20_insumos/senado/` con su entrada de `.gitignore` decidida por la misma
+   regla que hoy aplica a `camara/`: si `camara/` se versiona, `senado/` también.
+
+**Verificación antes del commit.** Programática, no por inspección:
+
+- Toda llamada existente a `ruta_cache()` y a `con_cache()` devuelve exactamente
+  la misma ruta que antes del cambio. Compáralo contra la salida del `HEAD`
+  anterior, no contra tu lectura del código.
+- `reportar_estado_capturas()` sigue haciendo `stop()` en el escenario que hoy lo
+  provoca, comprobado en subproceso con el fusible instalado.
+
+**Criterio de término.** Retrocompatibilidad demostrada con conteo de rutas
+idénticas, y las tres funciones protegidas por el 🔒 sin una sola línea tocada,
+comprobado con `git diff --stat`.
+
+**Commit.** `feat(cache): destino parametrizable para crudo de fuentes no Camara`.
 
 ---
 
