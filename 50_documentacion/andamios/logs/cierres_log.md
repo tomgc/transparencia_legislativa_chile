@@ -129,3 +129,18 @@ Paquete: `paquete_cierre_v19.md` (711 líneas, md5 `c5683dea97485810a452fad2b6ce
 - **Dos PR abiertos y sin mergear al cierre**, #11 y #12, ambos con sus criterios
   medidos. El último commit de `chore/p59-locale-utf8` (el log con C8) está sin
   push, así que el PR #12 todavía no lo muestra.
+
+### Corrección posterior al commit de cierre
+
+- **`b13d9d7`, posterior a `1d4c189`.** La fila `**Suma de la columna**` y la nota
+  de la discrepancia heredada declaraban `100,0` cuando los diez porcentajes ya
+  recalculados sobre 59 suman **100,2**. Quedó fuera del commit de cierre porque
+  el BACKLOG_DELTA del paquete no traía par buscar→reemplazar para ese texto:
+  autorizaba `**56**` → `**59**` en esa fila y nada sobre su porcentaje, y F4 no
+  inventa reemplazos que el delta no declara. Se corrigió en un commit propio, con
+  la suma obtenida por recuento programático en R sobre la columna ya escrita, y
+  con el diff acotado a esas dos ocurrencias (2 líneas cambiadas).
+- **Queda un tercer texto stale, NO corregido:** la misma nota sigue diciendo que
+  los porcentajes "se calculan sobre la suma de la columna (56)", cuando se
+  calculan sobre 59. No entraba en el encargo de la corrección (que acotó a las
+  dos ocurrencias del 100,0) y se deja declarado aquí para el próximo cierre.
