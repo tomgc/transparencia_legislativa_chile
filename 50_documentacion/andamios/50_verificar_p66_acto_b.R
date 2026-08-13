@@ -417,7 +417,114 @@ verificar_f2 <- function() {
   invisible(all(ok) && detuvo && identical(md5_antes, md5_despues))
 }
 
+# =============================================================================
+# F3 - la entidad `proyecto` publicada, contrastada contra el crudo
+# =============================================================================
+verificar_f3 <- function() {
+  titulo("F3 - entidad proyecto: conteo, spot-check 1:1 y flags sin null")
+  if (!requireNamespace("jsonlite", quietly = TRUE)) stop("falta jsonlite", call. = FALSE)
+
+  DIRP <- file.path(ROOT, "40_salidas", "json", "proyectos")
+  archivos <- sort(list.files(DIRP, "[.]json$", full.names = TRUE))
+  det <- readRDS(file.path(ROOT, "40_salidas", "intermedios", "proyectos_detalle.rds"))
+  linea("JSON emitidos                      : %d", length(archivos))
+  linea("universo (proyectos_detalle.rds)   : %d", nrow(det))
+  linea("coinciden                          : %s", identical(length(archivos), nrow(det)))
+
+  leer <- function(p) jsonlite::fromJSON(p, simplifyVector = FALSE)
+  js <- lapply(archivos, leer)
+  names(js) <- sub("[.]json$", "", basename(archivos))
+
+  # ---- Ningun null donde el contrato pide flag -----------------------------
+  # Un flag null no es "no lo sabemos": es un contrato roto. Los tres booleanos
+  # de cobertura y el conteo de descartes tienen que existir SIEMPRE.
+  flag_ok <- function(x) is.logical(x) && length(x) == 1L && !is.na(x)
+  malos <- list()
+  for (nm in names(js)) {
+    m <- js[[nm]]$metadatos
+    problemas <- character(0)
+    for (f in c("cobertura_materias", "cobertura_ley", "cobertura_autoria"))
+      if (!flag_ok(m[[f]])) problemas <- c(problemas, f)
+    if (is.null(m$tramites_descartados_por_corte) ||
+        !is.numeric(m$tramites_descartados_por_corte))
+      problemas <- c(problemas, "tramites_descartados_por_corte")
+    if (is.null(m$corte) || !nzchar(m$corte)) problemas <- c(problemas, "corte")
+    if (is.null(m$universo) || !nzchar(m$universo)) problemas <- c(problemas, "universo")
+    if (is.null(m$autoria_cubre) || !nzchar(m$autoria_cubre))
+      problemas <- c(problemas, "autoria_cubre")
+    # detalle_nominal por evento (D-j)
+    for (v in js[[nm]]$votaciones)
+      if (!flag_ok(v$detalle_nominal)) problemas <- c(problemas, "votaciones.detalle_nominal")
+    if (length(problemas)) malos[[nm]] <- unique(problemas)
+  }
+  linea("JSON con flag null o de tipo errado: %d de %d", length(malos), length(js))
+  if (length(malos)) for (nm in utils::head(names(malos), 5))
+    linea("   %s -> %s", nm, paste(malos[[nm]], collapse = ", "))
+
+  # `autores[].camara` NO debe existir (D-e).
+  con_camara <- sum(vapply(js, function(x)
+    any(vapply(x$autores, function(a) "camara" %in% names(a), logical(1))), logical(1)))
+  linea("JSON con autores[].camara (D-e: 0) : %d", con_camara)
+
+  # ---- Spot-check 1:1 contra el crudo --------------------------------------
+  capt <- readRDS(file.path(ROOT, "20_insumos", "senado",
+                            "20260812_tramitacion_sil_2026_tope-inf.rds"))
+  # (a) uno con ley_numero; (b) uno con eventos anteriores a ANIO_PROCESO;
+  # (c) uno cualquiera con tramites. Se eligen por medicion, no a dedo.
+  con_ley <- names(js)[vapply(js, function(x) isTRUE(x$metadatos$cobertura_ley), logical(1))]
+  con_viejos <- names(js)[vapply(js, function(x)
+    length(x$votaciones) > 0 &&
+      any(vapply(x$votaciones, function(v) substr(v$fecha, 1, 4) < "2026", logical(1))), logical(1))]
+  con_descarte <- names(js)[vapply(js, function(x)
+    isTRUE(x$metadatos$tramites_descartados_por_corte > 0), logical(1))]
+  # Tres proyectos DISTINTOS y elegidos por lo que cada uno prueba: (a) uno de los
+  # que traen ley_numero, (b) uno con eventos anteriores a ANIO_PROCESO, (c) uno
+  # al que el acotamiento de D-h le descarto algo. Un mismo boletin puede cumplir
+  # dos condiciones, asi que cada eleccion excluye las anteriores.
+  e1 <- con_ley[1]
+  e2 <- setdiff(con_viejos, e1)[1]
+  e3 <- setdiff(con_descarte, c(e1, e2))[1]
+  elegidos <- c(e1, e2, e3)
+  linea("\nspot-check sobre 3 distintos: %s", paste(elegidos, collapse = ", "))
+  linea("  criterio: con ley_numero / con eventos < %s / con descarte por corte", "2026")
+
+  for (b in elegidos) {
+    x <- js[[b]]
+    doc <- xml2::read_xml(capt$xml[match(b, capt$boletin)])
+    t1 <- function(xp) { n <- xml2::xml_find_first(doc, xp)
+      if (inherits(n, "xml_missing")) NA_character_ else trimws(xml2::xml_text(n)) }
+    n_tr_crudo <- length(xml2::xml_find_all(doc, "//proyecto/tramitacion/tramite"))
+    cmp <- function(campo, en_json, en_crudo) linea("   %-22s json=%-38s crudo=%-38s %s",
+      campo, substr(as.character(en_json %||% "NULL"), 1, 38),
+      substr(as.character(en_crudo %||% "NULL"), 1, 38),
+      if (identical(as.character(en_json), as.character(en_crudo))) "IGUAL" else "DIFIERE")
+    linea("\n  --- %s ---", b)
+    cmp("boletin",        x$boletin,                  t1("//proyecto/descripcion/boletin"))
+    cmp("etapa_actual",   x$tramitacion$etapa_actual, t1("//proyecto/descripcion/etapa"))
+    cmp("estado",         x$tramitacion$estado,       t1("//proyecto/descripcion/estado"))
+    cmp("ley_numero",     x$tramitacion$ley_numero,   t1("//proyecto/descripcion/leynro"))
+    cmp("camara_origen",  x$camara_origen,            t1("//proyecto/descripcion/camara_origen"))
+    linea("   %-22s json=%-38s crudo=%-38s %s", "n_tramites",
+          length(x$tramitacion$tramites), n_tr_crudo,
+          if (length(x$tramitacion$tramites) ==
+              n_tr_crudo - x$metadatos$tramites_descartados_por_corte)
+            "CUADRA (crudo - descartados)" else "NO CUADRA")
+    linea("   %-22s %d", "votaciones publicadas", length(x$votaciones))
+    linea("   %-22s %d", "de ellas sin nominal", sum(vapply(x$votaciones,
+          function(v) !isTRUE(v$detalle_nominal), logical(1))))
+  }
+
+  # ---- Ningun tramite posterior al corte en NINGUN json --------------------
+  corte <- js[[1]]$metadatos$corte
+  post <- vapply(js, function(x) sum(vapply(x$tramitacion$tramites,
+    function(t) !is.na(t$fecha) && t$fecha > corte, logical(1))), integer(1))
+  linea("\ntramites posteriores al corte %s : %d en %d JSON",
+        corte, sum(post), sum(post > 0))
+  invisible(TRUE)
+}
+
 if (identical(fase, "f0bis")) verificar_f0bis() else
 if (identical(fase, "f1"))    verificar_f1() else
 if (identical(fase, "f2"))    verificar_f2() else
+if (identical(fase, "f3"))    verificar_f3() else
   stop(sprintf("fase desconocida: '%s'", fase), call. = FALSE)
