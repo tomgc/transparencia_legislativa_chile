@@ -6,8 +6,14 @@
 >
 > **Sondeo de solo lectura.** No tocó `30_procesamiento/`, `10_utils/`,
 > `00_run_all.R` ni `docs/`; no escribió un byte bajo `20_insumos/camara/` ni bajo
-> `40_salidas/`; no propone contrato de datos. **22 llamadas HTTP sobre un
+> `40_salidas/`; no propone contrato de datos. **43 llamadas HTTP sobre un
 > presupuesto declarado de 500.**
+>
+> **Este documento incorpora el lote de consultas de estructura Q1-Q5**, pedido por
+> el titular después del cierre de las compuertas. Q2 mostró que el camino
+> interrogado por G5 era minoritario, y Q5 volvió a medir por el camino correcto
+> sobre el universo completo. **El veredicto no cambió; su evidencia sí, y aquí
+> está la versión corregida.**
 >
 > Origen: paso 7 del plan de construcción de `50_veredicto_eje_tematico.md` —
 > *"antes de cualquier promesa temática, medir si LeyChile o `datos.bcn.cl` tienen
@@ -21,10 +27,13 @@
 # NO
 
 **Ninguna de las dos fuentes de la BCN da vuelta el veredicto del eje temático.**
-LeyChile queda cerrada por techo medido; `datos.bcn.cl` queda cerrada porque
-**falla el control positivo**, y con el control positivo fallido cualquier
-cobertura que reporte sobre el resto es **inverificable** y no se publica como
-cobertura.
+LeyChile queda cerrada por techo medido; `datos.bcn.cl` queda cerrada por dos
+razones independientes: **falla el control positivo** (3 de 5, se exigían 5 de 5),
+y **la medición por el camino portador correcto sobre el universo completo da cero**
+— 0 de 422 boletines sin materia, 0 de 336 de la cohorte 2026 (§4.4).
+
+Que sean dos razones importa: la primera, por sí sola, solo permitía declarar la
+cobertura *inverificable*. La segunda la mide y da 0.
 
 **Este sondeo NO refuta el veredicto vigente: confirma su hipótesis B desde el
 otro lado.** Si la materia llega con la promulgación y no con el tiempo, entonces
@@ -101,9 +110,30 @@ la URI **construida desde el boletín**
 `bcn-norms:leychileCode` (2 549 tripletas) como vínculo a la norma. **Control
 positivo del vínculo: 5 de 5 boletines con materia están en el grafo y 4 de 5
 traen `leychileCode`**, que reproduce exactamente lo que el veredicto vigente midió
-por el SIL. Salvedad: `leychileCode` se usa como **proxy** de "llegó a ser ley",
-validado sobre n = 5; `bcn-norms:publishDate` vino vacío en los 5 y no sirvió de
-segundo confirmador.
+por el SIL.
+
+**Confirmador independiente de `leychileCode`, medido después.** La primera versión
+de este documento dejó `leychileCode` como proxy validado solo sobre n = 5 y con
+`publishDate` vacío. Los 4 códigos se pidieron a LeyChile por la vía que abrió G3:
+
+| `leychileCode` | HTTP | Raíz | Fecha de publicación | Norma |
+|---|---|---|---|---|
+| 1224810 | 200 | `Norma` | 2026-06-06 | Ley 21824 |
+| 1223368 | 200 | `Norma` | 2026-04-21 | Ley 21814 |
+| 1223983 | 200 | `Norma` | 2026-05-12 | Ley 21813 |
+| 1224631 | 200 | `Norma` | 2026-05-30 | Ley 21821 |
+
+**4 de 4 resuelven a una `<Norma>` real, con número de ley y fecha de publicación**,
+confirmados por una fuente distinta de la que afirmaba el vínculo. La lectura de
+`leychileCode` como "llegó a ser ley" **ya no es un proxy sin confirmar**. El grafo
+expone además `bcn-norms:promulgationDate` (529 980 tripletas) como confirmador
+adicional disponible.
+
+Salvedad que se mantiene: la clase dominante de los sujetos con `leychileCode` es
+`Norm`/`Document` (748 783), no `ProyectoDeLey` (2 547) — lo cual es lo esperado,
+porque el código identifica una norma. G4 no preguntó cuántos sujetos lo tienen,
+sino si **este recurso `proyecto-de-ley/<b>`** lo lleva; el sujeto interrogado era
+el correcto para esa pregunta.
 
 ---
 
@@ -115,30 +145,85 @@ El endpoint responde: `https://datos.bcn.cl/sparql` devolvió **HTTP 200**,
 
 **Se cerró porque no reproduce los boletines cuya materia ya conocemos.**
 
-### 4.1 Control positivo: 2 de 5
+### 4.1 Control positivo: 3 de 5, por los dos caminos
 
-`bcn-resources:tieneMateria` existe con **21 274 tripletas** sobre `ProyectoDeLey`.
-Sobre los 5 boletines que **sí** traen materia en la Cámara:
+`bcn-resources:tieneMateria` existe con **21 274 tripletas**. Sobre los 5 boletines
+que **sí** traen materia en la Cámara, interrogada por **dos caminos**: colgando
+del propio `ProyectoDeLey` (camino directo) y colgando de cualquier recurso a un
+salto del proyecto, en cualquiera de las dos direcciones (camino indirecto).
 
-| Boletín | Cohorte | ¿Lo encuentra? | Temas distintos en BCN | Materias en la Cámara |
-|---|---|---|---|---|
-| 10634-29 | 2016 | sí | **0** | 2 |
-| 10795-33 | 2016 | sí | 2 | 2 |
-| 10986-24 | 2016 | sí | 4 | 4 |
-| 11608-09 | 2018 | sí | **0** | 2 |
-| 12234-02 | 2018 | sí | **0** | 1 |
+| Boletín | Cohorte | ¿Lo encuentra? | Temas, camino **directo** | Temas, **a un salto** | Materias en la Cámara |
+|---|---|---|---|---|---|
+| 10634-29 | 2016 | sí | 0 | **2** (vía `MocionParlamentaria`) | 2 |
+| 10795-33 | 2016 | sí | 2 | 0 | 2 |
+| 10986-24 | 2016 | sí | 4 | 0 | 4 |
+| 11608-09 | 2018 | sí | **0** | **0** | 2 |
+| 12234-02 | 2018 | sí | **0** | **0** | 1 |
 
 | Magnitud | Valor | Denominador |
 |---|---|---|
 | El grafo lo encuentra | **5 = 100 %** | **5 boletines con materia**, corte 2026-08-12 |
-| **Devuelve descriptor temático** | **2 = 40 %** | **5 boletines con materia**, corte 2026-08-12 |
+| Devuelve descriptor por el camino directo | **2 = 40 %** | **5 boletines con materia**, corte 2026-08-12 |
+| **Devuelve descriptor por alguno de los dos caminos** | **3 = 60 %** | **5 boletines con materia**, corte 2026-08-12 |
 | Coinciden **por id** con la Cámara | **0** | **11 materias** de esos 5 boletines |
-| Coinciden por texto o por slug de URI | **6** | **11 materias** de esos 5 boletines |
+| Coinciden por texto o por slug, camino directo | **6** | **11 materias** de esos 5 boletines |
+| Coinciden por texto, camino a un salto | **1** | **11 materias** de esos 5 boletines |
+
+⚠️ **Corrección de una versión previa de este documento.** La primera redacción
+declaró **2 de 5**, porque solo se había interrogado el camino directo. Q2 mostró
+que ese camino es el minoritario (§4.3) y Q4 volvió a medir a un salto: la cifra
+correcta es **3 de 5**. **El criterio exigía 5 de 5, así que el control falla
+igual** — pero la cifra y la evidencia son estas, no aquellas.
 
 **El encargo fijó la consecuencia antes de medir:** *"si el control positivo falla,
 cualquier cobertura que la fuente reporte sobre el resto es inverificable, y así se
 declara: no se publica como cobertura"*. Falla. **Por eso M2 y M3 no se corrieron:
 no quedaron pendientes, quedaron bloqueadas.**
+
+### 4.3 Hallazgo estructural: el camino de G5 no era el principal
+
+**`tieneMateria` cuelga sobre todo de otras clases, no de `ProyectoDeLey`.** Sujetos
+distintos por clase (49 clases; las primeras):
+
+| Clase portadora | Sujetos |
+|---|---|
+| `bcn-resources#SeccionRecurso` | **85 924** |
+| `bcn-resources#Participacion` | 38 324 |
+| `bcn-resources#IntervencionPeticionDeOficio` | 16 841 |
+| `bcn-sessiondaily#SeccionProyectoDeLey` | 13 308 |
+| `bcn-resources#TramitacionProyectoDeLey` | 12 975 |
+| `bcn-resources#MocionParlamentaria` | 9 817 |
+| **`bcn-resources#ProyectoDeLey`** | **5 830** |
+
+El camino que interrogó el control positivo —`tieneMateria` colgando del propio
+`ProyectoDeLey`— es la **12ª clase por volumen**, con **5 830 de 19 181** proyectos.
+**Se midió por un portador que no es el principal.** Eso obligó a la medición de
+§4.4, que es la que interroga el camino correcto sobre el universo entero.
+
+### 4.4 La medición por el camino correcto, sobre los 422: **cero**
+
+Cobertura por los tres portadores que §4.3 reveló, a un salto del proyecto,
+filtrando por tipo del intermediario (sin suponer ningún nombre de relación) y con
+`COUNT(DISTINCT ?tema)` agregado en el servidor:
+
+| Portador | Sobre los **422 boletines sin materia** | Sobre los **336 de cohorte 2026** |
+|---|---|---|
+| `MocionParlamentaria` | **0 = 0 %** | **0 = 0 %** |
+| `TramitacionProyectoDeLey` | **0 = 0 %** | **0 = 0 %** |
+| `SeccionProyectoDeLey` | **0 = 0 %** | **0 = 0 %** |
+| **UNIÓN de los tres** | **0 = 0 %** | **0 = 0 %** |
+
+**Y 0 en las siete cohortes**, de 2020 a 2026, cada una sobre su denominador.
+
+**Un cero no se reporta sin control.** Un 0 sobre 422 tiene dos explicaciones
+incompatibles —cobertura nula o consulta rota—, así que la **misma consulta** se
+corrió contra los 5 con materia: devolvió **2 temas para 10634-29 vía
+`MocionParlamentaria`**, los mismos que §4.1 encontró a un salto. **La consulta está
+viva y el cero es medición.** Guarda adicional: la unión (0) no supera el techo por
+presencia (272 de 422); si lo superara habría error de denominador y la fase se
+detiene sola.
+
+**El hallazgo estructural de §4.3 era real, y aun así no rescata la cobertura.**
 
 ### 4.2 Dos matices que no conviene perder
 
@@ -180,11 +265,12 @@ sección existe para eso.
 | Medición | Estado | Por qué |
 |---|---|---|
 | **M1** — censo del vocabulario temático de la fuente | **NO CORRIDA** | Decisión de alcance: con el control positivo fallido, la cardinalidad del catálogo no cambia el veredicto |
-| **M2** — cobertura sobre muestra aleatoria estratificada de los sin materia | **BLOQUEADA** | El control positivo de G5 falló. Medirla habría producido una cifra imposible de validar contra nada |
-| **M3** — extensión al universo completo | **BLOQUEADA** | Depende de M2, que está bloqueada |
-| **M4** — naturaleza del descriptor (¿mismo tesauro o vocabulario ajeno?) | **RESPUESTA PARCIAL, medida** | No se corrió como medición propia, pero G5 y el panel P3 ya la responden sobre los 6 temas observados: **0 de 11 por id** y **3 de 6** tipados como `Materia` |
+| **M2** — cobertura sobre muestra aleatoria estratificada de los sin materia | **BLOQUEADA, y luego superada** | El control positivo falló, así que la muestra quedó bloqueada. **§4.4 midió después algo más fuerte: el universo completo (422), no una muestra**, por los portadores correctos |
+| **M3** — extensión al universo completo | **CUBIERTA por §4.4** | No como M3 del encargo, sino por la vía que Q2 hizo necesaria: 422 de 422 interrogados, cobertura 0 |
+| **M4** — naturaleza del descriptor (¿mismo tesauro o vocabulario ajeno?) | **RESPUESTA PARCIAL, medida** | No se corrió como medición propia, pero §4.1 y el panel P3 la responden sobre los 6 temas observados: **0 de 11 por id** y **3 de 6** tipados como `Materia` |
 | Bloque `<Metadatos>` del XML de LeyChile | **NO INSPECCIONADO** | Instrucción del titular: era candidato de M4 y solo importaba si el techo de G4 lo justificaba. No lo justifica |
 | Cobertura temática de LeyChile sobre sus 18 aciertos | **NO MEDIDA** | Innecesaria: aun al 100 % el techo sobre 2026 sería 4 de 336 |
+| **46 de las 49 clases portadoras de `tieneMateria`** | **NO MEDIDAS sobre el universo** | §4.4 midió las 3 que el titular nombró como portadores de proyecto. Las de mayor volumen son entidades de sesión y de intervención, no de proyecto. Queda anotado en §7.2 como refutación posible |
 
 **Ninguna de estas ausencias se compensa con una estimación.** Lo no medido se
 declara no medido.
@@ -193,25 +279,46 @@ declara no medido.
 
 ## 7. Qué mediría alguien que quisiera refutar este veredicto
 
-**Nombradas y no corridas**, por instrucción del titular.
+### 7.1 La refutación principal: **corrida en esta sesión, y no refuta**
 
-**La barata y decisiva: `bcn-resources:tieneTerminoLibre`.** El inventario de
-propiedades de `ProyectoDeLey` encontró **24 840 tripletas** de esa propiedad —
-**más que las 21 274 de `tieneMateria`**, que es la única que este sondeo probó—,
-además de `skos:altLabel` (18 668) y `dc:subject` (18 484). Repetir el control
-positivo sobre los mismos 5 boletines con `tieneTerminoLibre` **cuesta 1 llamada**.
-Si devolviera descriptores para los 3 boletines que `tieneMateria` dejó vacíos, el
-control positivo pasaría con otra propiedad y **este "no" tendría que revisarse**.
+`bcn-resources:tieneTerminoLibre` era la candidata: **24 840 tripletas**, **más que
+las 21 274 de `tieneMateria`**. Una versión previa de este documento la dejó
+"nombrada y no corrida". **Se corrió.**
 
-**La segunda, también barata: volver a medir el techo por presencia en un corte
-posterior.** El 55,36 % de la cohorte 2026 es rezago de indexación, no ausencia
-estructural. Repetir el censo de presencia **cuesta 9 llamadas** y dice si el grafo
-alcanza al año en curso o si el rezago es permanente. Se puede correr en cualquier
-refresh futuro.
+| Boletín | ¿Lo encuentra? | Términos libres | Materias en la Cámara |
+|---|---|---|---|
+| 10634-29 | sí | 0 | 2 |
+| 10795-33 | sí | 2 | 2 |
+| 10986-24 | sí | 0 | 4 |
+| 11608-09 | sí | 0 | 2 |
+| 12234-02 | sí | 0 | 1 |
 
-**La tercera, cara: el SIL, boletín por boletín.** 422 llamadas para contrastar la
-condición de ley publicada contra una fuente distinta de `leychileCode`. Este sondeo
-la declaró como plan B y no la gastó, porque el censo agregado la hizo innecesaria.
+**Devuelve término libre en 1 de 5** —peor que las 2 de 5 del camino directo de
+`tieneMateria`— y el cotejo contra las 11 materias da **0 por id, 0 por texto y 0
+por slug**. **La propiedad con más tripletas del grafo no refuta el veredicto: lo
+refuerza.**
+
+La segunda candidata de esa lista, `tieneMateria` por sus portadores reales, también
+se corrió: es §4.4, y dio **0 sobre 422**.
+
+### 7.2 Lo que sigue abierto para un refutador futuro
+
+**Barata: volver a medir el techo por presencia en un corte posterior.** El 55,36 %
+de la cohorte 2026 es rezago de indexación, no ausencia estructural. Repetir el
+censo **cuesta 9 llamadas** y dice si el grafo alcanza al año en curso o si el rezago
+es permanente. Se puede correr en cualquier refresh futuro.
+
+**Media: los portadores que este sondeo NO interrogó.** §4.3 listó 49 clases
+portadoras de `tieneMateria`; §4.4 midió tres. Las de mayor volumen —`SeccionRecurso`
+(85 924) y `Participacion` (38 324)— **no se midieron sobre el universo**, porque no
+son entidades de proyecto sino de sesión y de intervención. Si alguna resultara
+alcanzable desde el boletín y portara materia del proyecto, la cobertura cambiaría.
+Cuesta 9 llamadas por portador.
+
+**Cara: el SIL, boletín por boletín.** 422 llamadas para contrastar la condición de
+ley publicada contra una fuente distinta de `leychileCode`. Este sondeo la declaró
+como plan B y no la gastó: el censo agregado la hizo innecesaria, y §3 la confirmó
+por otra vía con 4 de 4.
 
 ---
 
@@ -266,15 +373,15 @@ por medición.
 |---|---|---|---|
 | C1 | G1 corrió con el fusible armado y no se disparó | **CUMPLE** | Exit code **0**; el reproductor además imprime *funciones de descarga del pipeline visibles: 0* |
 | C2 | Todo denominador fue contado en esta corrida | **CUMPLE** | 427 / 422 / 336 / 5 / 11 / 51 / 22, cada uno con el paso que lo produjo, en la bitácora |
-| C3 | 0 respuestas no-200 persistidas | **CUMPLE** | 22 de 22 son HTTP 200; **0** no-200, y **0** de ellas con archivo |
-| C4 | Una fila de manifiesto por llamada, y total = contador | **CUMPLE** | **22 filas = 22 llamadas**, `n` consecutivos sin hueco, dos recuentos independientes |
-| C5 | Control positivo resuelto en los dos sentidos, con su cifra | **CUMPLE** | Encuentra **5 de 5**; devuelve descriptor **2 de 5**. Tabla en la bitácora |
-| C6 | Control negativo con 0 falsos positivos | **CUMPLE** | **7** identificadores inventados, **0** con apariencia de dato |
-| C7 | El presupuesto de red no se excedió | **CUMPLE** | **22 de 500**; 478 disponibles |
+| C3 | 0 respuestas no-200 persistidas | **CUMPLE** | 43 de 43 son HTTP 200; **0** no-200, y **0** de ellas con archivo |
+| C4 | Una fila de manifiesto por llamada, y total = contador | **CUMPLE** | **43 filas = 43 llamadas**, `n` consecutivos sin hueco, dos recuentos independientes |
+| C5 | Control positivo resuelto en los dos sentidos, con su cifra | **CUMPLE** | Encuentra **5 de 5**; devuelve descriptor **3 de 5** por camino directo o a un salto (2 directo + 1 a un salto). Tablas en §4.1 y en la bitácora |
+| C6 | Control negativo con 0 falsos positivos | **CUMPLE** | **7** identificadores inventados, **0** con apariencia de dato. Y un segundo control, de la propia consulta de §4.4, que devuelve 2 temas para 10634-29 y por eso valida sus ceros |
+| C7 | El presupuesto de red no se excedió | **CUMPLE** | **43 de 500**; 457 disponibles |
 | C8 | `20_insumos/camara/` intacto | **CUMPLE** | **51 archivos**, md5 agregado `687f75a…d285` idéntico al de G0, listado línea por línea idéntico |
-| C9 | 0 archivos fuera de las rutas declaradas en §3 | **CUMPLE** | `git status --porcelain` vacío; 24 archivos en la carpeta del sondeo, **0 huérfanos**; se eliminó un `.rds` derivado que §3 no enumeraba |
-| C10 | El reproductor corre de principio a fin en sesión limpia | **CUMPLE con salvedad declarada** | Cada fase corrió en su propio proceso `Rscript`, sin estado heredado, y las fases se re-ejecutaron reusando las respuestas persistidas. **No se hizo una corrida completa contra la red desde cero**: repetirla gastaría 22 llamadas nuevas contra un servicio público sin cambiar ningún resultado |
-| C11 | El veredicto declara universo y denominador en la misma línea que cada cobertura | **CUMPLE** | §2, §3, §4.1 y §5; el techo por presencia va además marcado como techo y no como cobertura |
+| C9 | 0 archivos fuera de las rutas declaradas en §3 | **CUMPLE** | `git status --porcelain` vacío; 45 archivos en la carpeta del sondeo, **0 huérfanos**; se eliminó un `.rds` derivado que §3 no enumeraba |
+| C10 | El reproductor corre de principio a fin en sesión limpia | **CUMPLE con salvedad declarada** | Cada fase corrió en su propio proceso `Rscript`, sin estado heredado, y las fases se re-ejecutaron reusando las respuestas persistidas. **No se hizo una corrida completa contra la red desde cero**: repetirla gastaría 43 llamadas nuevas contra un servicio público sin cambiar ningún resultado |
+| C11 | El veredicto declara universo y denominador en la misma línea que cada cobertura | **CUMPLE** | §2, §3, §4.1, §4.4 y §5; el techo por presencia va además marcado como techo y no como cobertura |
 
 **11 de 11 criterios CUMPLE**, uno de ellos (C10) con salvedad declarada en vez de
 silenciada.
@@ -284,8 +391,8 @@ silenciada.
 ## 11. Lo que este veredicto NO autoriza
 
 - **No autoriza publicar cobertura temática de `datos.bcn.cl`** sobre los 422, ni
-  siquiera como estimación: el control positivo falló y la cobertura es
-  inverificable por definición del encargo.
+  siquiera como estimación: el control positivo falló (3 de 5) y la cobertura por
+  los portadores correctos, medida sobre el universo completo, es **0 de 422**.
 - **No autoriza construir extractor de LeyChile.** El techo está medido.
 - **No cancela P-66.** Lo acota: la entidad `proyecto` se diseña sin eje de
   materias, con `cobertura_materias` explícito, y con la tramitación —que sí tiene
