@@ -676,9 +676,30 @@ regenerar_intermedios_si_desalineados <- function(pasos, root, corte = CORTE_FEC
       consumir_descarga_inicial()
       return(invisible(FALSE))
     }
-    # P-77: la linea que distingue "los borraron" de "primera corrida". Sin ella
-    # el mensaje habla de intermedios que "no corresponden al corte" cuando lo que
-    # pasa es que no hay ninguno.
+    # P-77: la primera linea cuenta el HECHO, no una suma de dos cosas distintas.
+    # `desalineados` agrega dos estados -- el intermedio existe y declara otro
+    # corte, y el intermedio no existe -- y decir "6 de 6 no corresponden al corte
+    # vigente" cuando no hay ninguno en disco afirma un conteo mayor que el numero
+    # de archivos que existen. Con los 6 presentes la cifra es la de siempre.
+    presentes       <- INTERMEDIOS_PIPELINE[file.exists(rutas_intermedios)]
+    desal_presentes <- intersect(desalineados, presentes)
+    ausentes        <- setdiff(INTERMEDIOS_PIPELINE, presentes)
+    linea_estado <- if (length(ausentes) == 0)
+      sprintf("run_all: %d de %d intermedios NO corresponden al corte vigente (%s): %s.\n",
+              length(desal_presentes), length(INTERMEDIOS_PIPELINE), corte,
+              paste(desal_presentes, collapse = ", "))
+    else if (length(desal_presentes) == 0)
+      sprintf(paste0("run_all: no hay ningun intermedio en disco: faltan los %d de %d (%s). ",
+                     "El corte vigente es %s.\n"),
+              length(ausentes), length(INTERMEDIOS_PIPELINE),
+              paste(ausentes, collapse = ", "), corte)
+    else
+      sprintf(paste0("run_all: %d de %d intermedios estan en disco y NO corresponden al corte ",
+                     "vigente (%s): %s. Otros %d no existen: %s.\n"),
+              length(desal_presentes), length(INTERMEDIOS_PIPELINE), corte,
+              paste(desal_presentes, collapse = ", "),
+              length(ausentes), paste(ausentes, collapse = ", "))
+    # La linea que distingue "los borraron" de "primera corrida".
     nota_borrados <- if (n_en_disco == 0)
       sprintf(paste0("  Esto NO es un arranque: hay 0 de %d intermedios en disco, pero el rastro ",
                      "de arranque (%s) esta presente, asi que esta copia ya corrio y los ",
@@ -688,7 +709,7 @@ regenerar_intermedios_si_desalineados <- function(pasos, root, corte = CORTE_FEC
               file.path("40_salidas/intermedios", RASTRO_ARRANQUE))
     else ""
     stop(sprintf(paste0(
-      "run_all: %d de %d intermedios NO corresponden al corte vigente (%s): %s.\n",
+      "%s",
       "%s",
       "  No se pueden regenerar: falta la captura cruda de ese corte en ",
       "20_insumos/camara/ (%d archivo(s)): %s.\n",
@@ -698,8 +719,7 @@ regenerar_intermedios_si_desalineados <- function(pasos, root, corte = CORTE_FEC
       "  y despues reintenta: source(\"00_run_all.R\"); run_all()\n",
       "  O, si lo que quieres es empezar este corte desde cero descargando, ",
       "declara options(%s = TRUE) antes de la corrida."),
-      length(desalineados), length(INTERMEDIOS_PIPELINE), corte,
-      paste(desalineados, collapse = ", "),
+      linea_estado,
       nota_borrados,
       length(unlist(faltantes, use.names = FALSE)),
       paste(basename(unlist(faltantes, use.names = FALSE)), collapse = ", "),

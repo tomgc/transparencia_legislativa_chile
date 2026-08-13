@@ -354,6 +354,21 @@ if (identical(FASE, "esc")) {
     if (!is.null(e)) cat("--- mensaje del stop() ---\n", e, "\n--- fin ---\n", sep = "")
   }
 
+  if (identical(ESC, "desalineados_presentes")) {
+    # C14, segundo sentido: los 6 intermedios EXISTEN y declaran otro corte. La
+    # primera linea del stop() tiene que seguir contando 6 de 6, como antes.
+    n <- sum(file.exists(ruta_salidas("intermedios", paste0(INTERMEDIOS_PIPELINE, ".rds"))))
+    cat("ESC desal_presentes | intermedios en disco:", n, "de",
+        length(INTERMEDIOS_PIPELINE), "\n")
+    e <- tryCatch({
+      regenerar_intermedios_si_desalineados(PASOS_EXTRACCION, ROOT,
+                                            corte = CORTE_SIN_CAPTURAS)
+      NULL
+    }, error = function(e) conditionMessage(e))
+    cat("ESC desal_presentes | hubo stop():", !is.null(e), "\n")
+    if (!is.null(e)) cat("--- mensaje del stop() ---\n", e, "\n--- fin ---\n", sep = "")
+  }
+
   if (identical(ESC, "borrados_autorizado")) {
     # C7 + C1 + C2. La opcion se enciende UNA vez y se pasa DOS veces por el
     # mismo estado, en el mismo proceso.
@@ -402,9 +417,27 @@ a_jsn <- md5_de(ruta_salidas("json"), "[.]json$")
 a_doc <- md5_de(file.path(ROOT, "docs", "data"), "[.]json$")
 base <- readRDS(file.path(TMP, "guarda_linea_base.rds"))
 linea("Capturas: %d archivos | json: %d | docs/data: %d", length(a_cap), length(a_jsn), length(a_doc))
+resultados <- list()
+
+titulo("C14 (b). Intermedios PRESENTES y desalineados: la cifra no cambia")
+# Va primero, con los 6 intermedios todavia en su sitio: es el unico escenario que
+# los necesita en disco. La adopcion retroactiva del rastro que dispara se limpia
+# aqui mismo, para no contaminar C4 (que exige rastro ausente).
+linea("Estado: %d de %d intermedios en disco",
+      sum(file.exists(file.path(DIR_INT, paste0(INTERMEDIOS_PIPELINE, ".rds")))),
+      length(INTERMEDIOS_PIPELINE))
+r14 <- correr_escenario("desalineados_presentes")
+linea("Codigo de salida: %d | hubo stop(): %s | fusible disparado: %s",
+      r14$salida, tiene(r14$lineas, "hubo stop(): TRUE"),
+      tiene(r14$lineas, "FUSIBLE DE RED DISPARADO"))
+linea("La primera linea sigue contando 6 de 6: %s",
+      tiene(r14$lineas, "run_all: 6 de 6 intermedios NO corresponden al corte vigente"))
+subt("Primera linea del mensaje, con los 6 presentes")
+for (l in r14$lineas) if (tiene(l, "run_all: ")) linea("  %s", l)
+poner_rastro(FALSE)
+
 n_apartados <- apartar_intermedios()
 linea("Intermedios apartados a %s: %d de %d", GUARDADO, n_apartados, length(INTERMEDIOS_PIPELINE))
-resultados <- list()
 
 titulo("C4. Arranque legitimo (estado tipo runner): la guarda no se detiene")
 poner_rastro(FALSE)
@@ -457,6 +490,20 @@ resultados$C6 <- veredicto("C6", r6$salida == 0L && tiene(r6$lineas, "hubo stop(
   "stop() con el caso nombrado y el comando exacto, cero red")
 subt("Mensaje literal del stop()")
 for (l in r6$lineas) linea("  %s", l)
+
+titulo("C14. Ninguna linea del stop() cuenta mas intermedios de los que existen")
+linea("(a) Con 0 en disco, la primera linea dice 'no hay ningun intermedio': %s",
+      tiene(r6$lineas, "run_all: no hay ningun intermedio en disco: faltan los 6 de 6"))
+linea("(a) Y NO afirma '6 de 6 no corresponden al corte vigente': %s",
+      !tiene(r6$lineas, "6 de 6 intermedios NO corresponden al corte vigente"))
+linea("(b) Con los 6 presentes y desalineados, la cifra sigue siendo 6 de 6: %s",
+      tiene(r14$lineas, "run_all: 6 de 6 intermedios NO corresponden al corte vigente"))
+resultados$C14 <- veredicto("C14",
+  tiene(r6$lineas, "run_all: no hay ningun intermedio en disco: faltan los 6 de 6") &&
+  !tiene(r6$lineas, "6 de 6 intermedios NO corresponden al corte vigente") &&
+  tiene(r14$lineas, "run_all: 6 de 6 intermedios NO corresponden al corte vigente") &&
+  r14$salida == 0L && tiene(r14$lineas, "hubo stop(): TRUE"),
+  "la cifra mide el hecho en los dos sentidos, medidos por separado")
 
 titulo("C7 + C1 + C2. El escape autorizado pasa una vez y solo una")
 r7 <- correr_escenario("borrados_autorizado")
@@ -553,20 +600,23 @@ resultados$C13 <- veredicto("C13",
   ".gitkeep trackeado, mismo blob que origin/main, y el rastro ignorado")
 
 titulo("C9. Cero llamadas HTTP en todos los escenarios")
-disparos <- vapply(list(r3, r4, r5, r6, r7), function(r)
-  tiene(r$lineas, "FUSIBLE DE RED DISPARADO"), logical(1))
+escenarios <- list(r14, r3, r4, r5, r6, r7)
+disparos <- vapply(escenarios, function(r) tiene(r$lineas, "FUSIBLE DE RED DISPARADO"),
+                   logical(1))
 linea("Escenarios corridos: %d | con fusible armado: %d | que salieron a la red: %d",
-      length(disparos), sum(vapply(list(r3, r4, r5, r6, r7), function(r)
+      length(disparos), sum(vapply(escenarios, function(r)
         tiene(r$lineas, "Fusible de red ARMADO"), logical(1))), sum(disparos))
 linea("El unico disparo esperado es el de C4 (arranque, que DEBE llegar a la red): %s",
-      identical(unname(disparos), c(FALSE, TRUE, FALSE, FALSE, FALSE)))
-resultados$C9 <- veredicto("C9", identical(unname(disparos), c(FALSE, TRUE, FALSE, FALSE, FALSE)),
+      identical(unname(disparos), c(FALSE, FALSE, TRUE, FALSE, FALSE, FALSE)))
+resultados$C9 <- veredicto("C9",
+  identical(unname(disparos), c(FALSE, FALSE, TRUE, FALSE, FALSE, FALSE)) &&
+  all(vapply(escenarios, function(r) tiene(r$lineas, "Fusible de red ARMADO"), logical(1))),
   "ninguna llamada HTTP salio: la unica que lo intento murio en el fusible")
 
 titulo("RESUMEN")
-for (k in c("C1","C2","C3","C4","C5","C6","C7","C8","C9","C10","C11","C13"))
+for (k in c("C1","C2","C3","C4","C5","C6","C7","C8","C9","C10","C11","C13","C14"))
   linea("  %-4s %s", k, if (isTRUE(resultados[[k]])) "CUMPLE" else "NO CUMPLE")
-linea("\nCriterios medidos aqui: %d de 13 (C12 se mide sobre el PR ya abierto)",
+linea("\nCriterios medidos aqui: %d de 14 (C12 se mide sobre el PR ya abierto)",
       length(resultados))
 linea("CUMPLEN: %d de %d", sum(vapply(resultados, isTRUE, logical(1))), length(resultados))
 
