@@ -49,7 +49,7 @@ intencion primaria. Fuente del conteo: traspasos y logs de la sesion.
 | integracion/repo | 7 | 11,9 | integracion de las tres ramas a main + reconciliacion de 36; migracion a GitHub (repo publico + Pages); primer refresh real en produccion; versionado de la memoria estructural del proyecto; merge y publicacion de la Capa 2 territorial; exclusion de la configuracion local del asistente del versionado (P-55); resolucion por hunk de los dos PRs abiertos y publicacion del contrato depurado (P-58) 
 | automatizacion | 5 | 8,5 | workflow de GitHub Actions para refresh semanal con gate de conteos; timeout declarado a nivel de job; el bot commitea en rama y abre PR (main deja de recibir escrituras automaticas); reparacion de la guarda circular que tenia roto el refresh en la primera corrida de un corte (P-65); cierre de los dos escapes de la guarda de arranque (P-76, P-77, D33) 
 | decision de alcance | 1 | 1,7 | Congreso completo (Camara + Senado) como objetivo real del proyecto 
-| **Suma de la columna** | **59** | **100,0** | |
+| **Suma de la columna** | **59** | **100,2** | |
 
 > **Discrepancia heredada, no resuelta aqui.** La tabla vigente hasta v06
 > declaraba un total de 23 y su columna de N sumaba 24. Esa diferencia de una
@@ -57,7 +57,7 @@ intencion primaria. Fuente del conteo: traspasos y logs de la sesion.
 > detalle cronologico son 58 (1-58). No se resuelve aqui porque resolverla exige
 > reclasificar alguna de las entradas 1-23, y el protocolo prohibe reescribir o
 > reclasificar entradas anteriores en silencio (§2.2.5). Los porcentajes se
-> calculan sobre la suma de la columna (56); suman 100,0 por redondeo a un decimal,
+> calculan sobre la suma de la columna (56); suman 100,2 por redondeo a un decimal,
 > no por una entrada sobrante (recuento de la sesion 16, pendiente de verificacion
 > programatica al integrar).
 > Pendiente declarado: auditar la clasificacion de las entradas 1-23 contra los
