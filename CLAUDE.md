@@ -58,6 +58,9 @@ estático (Fase 2) visualiza en el navegador.
   helpers de nodo XML y de llave.
 - `10_utils/10_configuracion.R` — rutas (`here::here()`), `ANIO_PROCESO`, topes
   de extracción, dominios canónicos, `MAPA_PARTIDO_TENDENCIA`.
+- `10_utils/10_locale.R` — `asegurar_locale_utf8()`, guarda de arranque del
+  invariante de entorno (POLITICA §5.2bis). Copia byte a byte de
+  `herramientas_dev/plantillas/10_locale.R`: no se edita por proyecto.
 - `50_documentacion/andamios/31_explorar_api_camara.R` — exploración
   (diagnóstico, fuera del pipeline; vive en andamios, no es una etapa).
 - `30_procesamiento/{32,33,34,35}_*.R` — extracción (diputados, asistencia,
@@ -92,7 +95,33 @@ estático (Fase 2) visualiza en el navegador.
 
 ## Últimos cambios (máx. 5, más recientes primero)
 
-1. **Escape de arranque consumible y rastro de arranque (2026-08-12, P-76 y P-77):**
+1. **Guarda de locale UTF-8 (2026-08-13, P-59):** el proyecto no garantizaba
+   locale UTF-8 en el arranque, defecto que en otro repo de la cartera escribió
+   escapado todo el texto acentuado de una corrida completa. Nuevo
+   `10_utils/10_locale.R` con `asegurar_locale_utf8()`, copia byte a byte de la
+   plantilla de `herramientas_dev` (md5 idéntico), invocada desde **cuatro puntos
+   de arranque explícitos**: `10_utils/10_configuracion.R`,
+   `10_utils/10_diff_conteos.R`, `00_escanear_proyecto.R` y
+   `50_documentacion/andamios/medir_fuente_territorio.R`, cada uno resolviendo la
+   ruta como ya lo hacía. **No** se instaló en `10_utils/10_utils.R` (D34):
+   resolver la ruta del helper desde ahí exige `here::` o `rprojroot::` justo en
+   el archivo que define `instalar_si_falta()` y que `00_run_all.R` carga tres
+   líneas antes de llamarla, o sea circularidad de arranque (medida con
+   `.libPaths(character(0))`). `10_diff_conteos.R` entra por criterio propio: su
+   texto termina en el mensaje de commit y en el cuerpo del PR del bot, es decir,
+   en el historial público. La cobertura se declara sobre el **universo
+   alcanzable** por cierre transitivo desde tres raíces (`00_run_all.R`,
+   `refresh-semanal.yml`, `00_escanear_proyecto.R`), 13 de 30 archivos `.R`, con
+   0 huérfanos (D35); los cuatro reproductores congelados de
+   `20_insumos/exploracion/20260807/` quedan excluidos y nombrados uno por uno en
+   el marcador. Prohibido envolver `Sys.setlocale()` en `try(..., silent = TRUE)`
+   o `suppressWarnings()`: 0 silenciadores medidos. Probada en subproceso con el
+   entorno forzado y en las dos direcciones (`LC_ALL=C LANG=C` corrige y lo
+   declara; sin candidatas viables aborta; `LANG=es_ES.UTF-8` pasa sin corregir).
+   9 de 9 criterios CUMPLE. Marcador del gatillo:
+   `50_documentacion/activa/50_locale_utf8.md`. Rama `chore/p59-locale-utf8`,
+   **mergeada en `main` por el PR #12**.
+2. **Escape de arranque consumible y rastro de arranque (2026-08-12, P-76 y P-77):**
    las dos deudas del PR #9, en la misma función. **P-76:**
    `camara.permitir_descarga_inicial` quedaba encendida después de usarse, así que
    autorizar un caso autorizaba todo lo que siguiera en esa sesión de `run_all()`.
@@ -112,8 +141,11 @@ estático (Fase 2) visualiza en el navegador.
    `00_run_all.R` no se tocó. Arnés: fase `p76p77` de `50_verificar_guarda_bot.R`,
    cada escenario en su proceso con fusible `quit(99)`. **12 de 13 criterios CUMPLE**
    (C12 se mide sobre el PR); 9/9 protegidas idénticas, 50/50 capturas y 6/6
-   intermedios con md5 intacto. Rama `fix/p76-p77-guarda-arranque`.
-2. **Captura XML cruda del 36 y nodo `Votaciones` (2026-08-08, P-63):** el paso 36
+   intermedios con md5 intacto. La sesión 19 sumó C12, C13 y C14 sobre el PR y
+   corrigió la primera línea del `stop()` de la guarda, que agregaba desalineados
+   presentes y ausentes en una sola cifra. Rama `fix/p76-p77-guarda-arranque`,
+   **mergeada en `main` por el PR #11**.
+3. **Captura XML cruda del 36 y nodo `Votaciones` (2026-08-08, P-63):** el paso 36
    cacheaba el tibble **ya parseado** dentro de la carpeta de dato crudo, así que el
    nodo `Votaciones` se perdía al parsear y la guarda de P-65 prometía regenerar sin
    red algo que solo podía reproducir con los campos que el parser de ese día
@@ -129,7 +161,7 @@ estático (Fase 2) visualiza en el navegador.
    `metadatos.generado`. 12/12 criterios, panel adversarial 4/4. Rama
    `feat/captura-xml-y-nodo-votaciones`, **mergeada en `main` por el PR #7**
    (`17af73c`).
-3. **Autorregeneración de intermedios (2026-08-08, P-65):** `run_all()` deja de
+4. **Autorregeneración de intermedios (2026-08-08, P-65):** `run_all()` deja de
    depender de la memoria del operador para resolver el desfase que documentó P-62
    (los intermedios están gitignored, el corte sí viaja, y toda copia local queda
    desalineada tras cada merge del bot). Nueva guarda
@@ -145,7 +177,7 @@ estático (Fase 2) visualiza en el navegador.
    dato publicado idéntico (156/156, excluido `metadatos.generado`). Rama
    `fix/autorregeneracion-intermedios`, **mergeada en `main` por el PR #6**
    (`f1584b8`).
-4. **Capa 3 — asistencia simétrica (2026-07-25):** el `33` deja de descartar el
+5. **Capa 3 — asistencia simétrica (2026-07-25):** el `33` deja de descartar el
    nodo `Justificacion` y persiste dos intermedios nuevos: `asistencia_nominal.rds`
    (una fila por diputado × sesión, con fecha, tipo de sesión, código y glosa de
    justificación y las dos rebajas) y `asistencia_ambitos.rds` (6 conteos + 2 tasas
@@ -158,15 +190,6 @@ estático (Fase 2) visualiza en el navegador.
    pero no entran en ninguna fórmula (semántica no documentada). `docs/data`
    +5,85 %. Panel adversarial 4/4. Rama `feat/capa3-asistencia` (sin merge, gate
    del titular); `docs/index.html` sin tocar.
-5. **Capa 2 — territorio (2026-07-24):** `distrito` y `region` dejan de ser `NA`:
-   155/155 en índice y perfiles, 28 distritos, suma 155 escaños. El `32` hace
-   `left_join` contra dos insumos estáticos versionados en `20_insumos/territorio/`
-   (crosswalk `diputado_id`→distrito y catálogo distrito→región contra la Ley
-   20.840), con `stop()` diagnóstico si un reemplazo del roster no está cubierto.
-   El `39` no se tocó. Fuente y llave establecidas por medición previa (BCN
-   `idCamaraDeDiputados` == `diputado_id`); 4 ids que BCN reusa entre persona
-   histórica y vigente se desambiguan por período. Panel adversarial: 4/4 cuadra.
-   Rama `feat/territorio-crosswalk` (sin merge, gate del titular).
 
 <!-- CANONICO_SLEP:INICIO v2 -->
 ## 1. Identidad y prioridades
