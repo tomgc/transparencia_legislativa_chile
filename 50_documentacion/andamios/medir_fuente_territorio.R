@@ -24,6 +24,14 @@
 RAIZ <- "/Users/tomgc/Projects/transparencia_legislativa_chile"
 DIR_MUESTRAS <- file.path(RAIZ, "50_documentacion", "andamios", "muestras")
 
+# ---- Guarda de locale UTF-8 (P-59, POLITICA 5.2bis) -------------------------
+# Punto de arranque PROPIO: este andamio no carga 10_utils.R ni
+# 10_configuracion.R, y su fase `gen` escribe el crosswalk territorial que se
+# versiona en 20_insumos/territorio/ (nombres de comunas y regiones, con tildes
+# y ñ). La ruta se resuelve con el RAIZ que este archivo ya declara arriba.
+source(file.path(RAIZ, "10_utils", "10_locale.R"))
+asegurar_locale_utf8("medir_fuente_territorio")
+
 suppressPackageStartupMessages({
   library(jsonlite)
   library(httr)

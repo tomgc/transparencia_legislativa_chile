@@ -7,6 +7,22 @@
 # script aguas abajo hardcodea rutas ni numeros magicos (POLITICA 5.3.10, 5.4).
 # =============================================================================
 
+# ---- Guarda de locale UTF-8 (P-59, POLITICA 5.2bis) -------------------------
+# Va ARRIBA DE TODO y antes de cualquier escritura: un proceso lanzado desde un
+# shell sin locale (cron, CI, shell no interactivo) escribe el texto acentuado
+# escapado, sin emitir error. El helper se copia identico desde
+# herramientas_dev/plantillas/ y NUNCA se edita por proyecto.
+# Por que aqui y no en 10_utils.R: ese archivo declara cero dependencias de
+# paquetes y se carga ANTES de que instalar_si_falta() corra, asi que resolver
+# la ruta del helper con here:: o rprojroot:: alli lo volveria dependiente del
+# paquete que todavia no esta garantizado (medido en la compuerta G6 de P-59:
+# ambas variantes fallan con solo la biblioteca base visible). Este archivo ya
+# resuelve rutas con here::here(), y todo camino que lo carga instalo `here`
+# antes. Los otros tres puntos de arranque estan en 10_utils/10_diff_conteos.R,
+# 00_escanear_proyecto.R y 50_documentacion/andamios/medir_fuente_territorio.R.
+source(here::here("10_utils", "10_locale.R"))
+asegurar_locale_utf8("10_configuracion")
+
 # ---- Rutas de datos (raiz unificada) ----------------------------------------
 ruta_insumos <- function(...) here::here("20_insumos", ...)
 ruta_salidas <- function(...) here::here("40_salidas", ...)

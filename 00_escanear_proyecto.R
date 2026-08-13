@@ -34,6 +34,16 @@ ROOT <- rprojroot::find_root(
               rprojroot::is_git_root
 )
 
+# ---- Guarda de locale UTF-8 (P-59, POLITICA 5.2bis) -------------------------
+# Punto de arranque PROPIO: este escáner no carga 10_utils.R ni
+# 10_configuracion.R, y escribe con writeLines() los cuatro archivos de
+# 50_documentacion/estructura/, cuyo contenido es casi todo no ASCII (tildes y
+# los caracteres de árbol). Sin esta línea, una corrida desde un shell sin
+# locale escribiría ese snapshot escapado, y el snapshot se versiona.
+# La ruta se resuelve con el ROOT que este archivo ya calculó arriba.
+source(file.path(ROOT, "10_utils", "10_locale.R"))
+asegurar_locale_utf8("00_escanear_proyecto")
+
 # ---- Configuración ----------------------------------------------------------
 EXCLUIR <- c(".git", "renv", ".Rproj.user", ".quarto")
 INCLUIR_ARCHIVO <- FALSE      # Cambiar a TRUE para incluir _archivo/ en el escaneo.
