@@ -227,10 +227,26 @@ corte_para_clave <- function(corte = NULL) {
 # Ruta del cache crudo para (nombre_cache, tope) al corte vigente. Un solo lugar
 # construye la clave, reusado por con_cache (para leer/escribir) y por los 3x
 # (para hashear su procedencia con hash_origen_de).
-ruta_cache <- function(nombre_cache, tope = NULL, corte = NULL) {
-  ruta_insumos("camara",
+# `subdir` (P-66 acto b, enmienda 1) fija la CARPETA de origen del crudo, que
+# hasta ahora estaba escrita a mano aqui. Motivo: el pipeline incorpora una
+# segunda fuente (el SIL, tramitacion.senado.cl) y mezclarla con las capturas de
+# opendata.camara.cl en el mismo directorio borraria la unica senal de que son
+# origenes distintos. Una carpeta por host, igual que `camara/` es la Camara.
+# Default "camara": toda llamada existente conserva su ruta byte a byte, lo que
+# se comprueba programaticamente contra la salida de HEAD, no por inspeccion.
+# El resto de la clave (corte y tope) NO cambia: la doctrina de que la clave
+# codifica todo lo que altera el contenido sigue viviendo en un solo sitio.
+ruta_cache <- function(nombre_cache, tope = NULL, corte = NULL, subdir = "camara") {
+  ruta_insumos(subdir,
                sprintf("%s_%s%s.rds", corte_para_clave(corte), nombre_cache, sufijo_tope(tope)))
 }
+
+# Directorios de crudo que el contrato temporal de P-74 tiene que vigilar. Vive
+# aqui, junto a ruta_cache(), porque son las dos caras de lo mismo: donde se
+# escribe el crudo y donde se audita. Agregar una fuente y olvidarse de sumarla a
+# esta lista dejaria su captura fuera del reporte, que es justo el punto ciego
+# que la enmienda 1 existe para no abrir.
+DIRECTORIOS_CRUDO <- c("camara", "senado")
 
 # ---- Contrato temporal de la captura (P-74 acto (b), D31) -------------------
 # EL PROBLEMA (medido en el acto (a)): corte_para_clave() construye la clave del
@@ -394,39 +410,58 @@ estado_temporal_captura <- function(ruta) {
 # vigente, con denominador. Reportar no es detener: una captura ya existente
 # fuera de corte se reporta ruidosamente, pero no aborta la corrida (solo la
 # escritura nueva se detiene, en guarda_captura_en_corte).
-reportar_estado_capturas <- function(corte = CORTE_FECHA, origen = "contrato") {
-  dir_cam <- ruta_insumos("camara")
-  if (!dir.exists(dir_cam))
-    stop(sprintf("reportar_estado_capturas: no existe '%s'.", dir_cam), call. = FALSE)
-  todas <- sort(list.files(dir_cam, "[.]rds$", full.names = TRUE))
+# P-66 acto b, enmienda 1: barre TODOS los directorios de crudo, no solo el de la
+# Camara. Sin esto, el crudo del SIL quedaria fuera del contrato temporal justo
+# en la fuente que la medicion del acto A demostro que entrega eventos
+# posteriores al corte, y la compuerta de D-h se quedaria sin instrumento.
+# El stop() NO se afloja: cada directorio declarado debe existir y debe tener al
+# menos una captura del corte, exactamente como se exigia antes para `camara`.
+# Un directorio que aparece en DIRECTORIOS_CRUDO y esta vacio es un fallo, no un
+# caso tolerado: significa que una fuente declarada no capturo nada en este corte.
+reportar_estado_capturas <- function(corte = CORTE_FECHA, origen = "contrato",
+                                     subdirs = DIRECTORIOS_CRUDO) {
   prefijo <- paste0(gsub("-", "", trimws(as.character(corte))), "_")
-  del_corte <- todas[startsWith(basename(todas), prefijo)]
-  if (length(del_corte) == 0)
-    stop(sprintf("reportar_estado_capturas: ninguna captura con prefijo '%s' en %s.",
-                 prefijo, dir_cam), call. = FALSE)
-  est <- lapply(del_corte, estado_temporal_captura)
-  clases <- vapply(est, function(e) e$estado, character(1))
-  log_msg(sprintf("Contrato temporal: %d capturas del corte %s (de %d .rds en el directorio).",
-                  length(del_corte), corte, length(todas)), origen = origen)
-  for (s in ESTADOS_CAPTURA)
-    log_msg(sprintf("  %-16s: %d de %d capturas del corte", s, sum(clases == s),
-                    length(del_corte)),
-            if (identical(s, "fuera_de_corte") && sum(clases == s) > 0) "WARN" else "INFO",
-            origen)
-  for (k in seq_along(del_corte))
-    log_msg(sprintf("  %-52s %-16s (descarga %s, escape %s)",
-                    basename(del_corte[k]), est[[k]]$estado,
-                    est[[k]]$descarga_fecha %||% "NA",
-                    as.character(est[[k]]$escape)), origen = origen)
-  if (sum(clases == "sin_registro") > 0)
-    log_msg(sprintf(paste0("  %d de %d capturas del corte son ANTERIORES al contrato (P-74) y no ",
-                           "llevan fecha de descarga. 'sin_registro' NO es conformidad."),
-                    sum(clases == "sin_registro"), length(del_corte)), "WARN", origen)
-  invisible(stats::setNames(clases, basename(del_corte)))
+  acumulado <- character(0)
+  for (sd in subdirs) {
+    dir_c <- ruta_insumos(sd)
+    if (!dir.exists(dir_c))
+      stop(sprintf("reportar_estado_capturas: no existe '%s'.", dir_c), call. = FALSE)
+    todas <- sort(list.files(dir_c, "[.]rds$", full.names = TRUE))
+    del_corte <- todas[startsWith(basename(todas), prefijo)]
+    if (length(del_corte) == 0)
+      stop(sprintf("reportar_estado_capturas: ninguna captura con prefijo '%s' en %s.",
+                   prefijo, dir_c), call. = FALSE)
+    est <- lapply(del_corte, estado_temporal_captura)
+    clases <- vapply(est, function(e) e$estado, character(1))
+    log_msg(sprintf("Contrato temporal [%s]: %d capturas del corte %s (de %d .rds en el directorio).",
+                    sd, length(del_corte), corte, length(todas)), origen = origen)
+    for (s in ESTADOS_CAPTURA)
+      log_msg(sprintf("  %-16s: %d de %d capturas del corte", s, sum(clases == s),
+                      length(del_corte)),
+              if (identical(s, "fuera_de_corte") && sum(clases == s) > 0) "WARN" else "INFO",
+              origen)
+    for (k in seq_along(del_corte))
+      log_msg(sprintf("  %-52s %-16s (descarga %s, escape %s)",
+                      basename(del_corte[k]), est[[k]]$estado,
+                      est[[k]]$descarga_fecha %||% "NA",
+                      as.character(est[[k]]$escape)), origen = origen)
+    if (sum(clases == "sin_registro") > 0)
+      log_msg(sprintf(paste0("  %d de %d capturas del corte son ANTERIORES al contrato (P-74) y no ",
+                             "llevan fecha de descarga. 'sin_registro' NO es conformidad."),
+                      sum(clases == "sin_registro"), length(del_corte)), "WARN", origen)
+    acumulado <- c(acumulado, stats::setNames(clases, basename(del_corte)))
+  }
+  invisible(acumulado)
 }
 
-con_cache <- function(nombre_cache, fn_descarga, tope = NULL, origen = "cache") {
-  ruta <- ruta_cache(nombre_cache, tope)
+# `subdir` va AL FINAL de la firma y con default (P-66 acto b, enmienda 1): las 6
+# llamadas existentes pasan sus argumentos por nombre a partir del tercero, asi
+# que ninguna cambia de comportamiento. con_cache() sigue siendo agnostica al
+# ORIGEN del dato (fn_descarga es un closure arbitrario) y ahora tambien al
+# DESTINO, que era lo unico que la ataba a la Camara.
+con_cache <- function(nombre_cache, fn_descarga, tope = NULL, origen = "cache",
+                      subdir = "camara") {
+  ruta <- ruta_cache(nombre_cache, tope, subdir = subdir)
   refrescar <- isTRUE(getOption("camara.refrescar", REFRESCAR_API))
   if (file.exists(ruta) && !refrescar) {
     log_msg(sprintf("cache hit: %s", basename(ruta)), origen = origen)
