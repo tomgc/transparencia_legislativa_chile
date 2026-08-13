@@ -57,7 +57,7 @@ intencion primaria. Fuente del conteo: traspasos y logs de la sesion.
 > detalle cronologico son 58 (1-58). No se resuelve aqui porque resolverla exige
 > reclasificar alguna de las entradas 1-23, y el protocolo prohibe reescribir o
 > reclasificar entradas anteriores en silencio (§2.2.5). Los porcentajes se
-> calculan sobre la suma de la columna (56); suman 100,2 por redondeo a un decimal,
+> calculan sobre la suma de la columna (59); suman 100,2 por redondeo a un decimal,
 > no por una entrada sobrante (recuento de la sesion 16, pendiente de verificacion
 > programatica al integrar).
 > Pendiente declarado: auditar la clasificacion de las entradas 1-23 contra los
