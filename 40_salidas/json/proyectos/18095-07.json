@@ -1,0 +1,82 @@
+{
+  "boletin": "18095-07",
+  "nombre": "Modifica la ley N° 19.640, orgánica constitucional del Ministerio Público, a fin de establecer una inhabilidad temporal para que fiscales del Ministerio Público puedan asumir cargos de confianza del Presidente de la República",
+  "tipo_iniciativa": "Moción",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2026-01-27",
+  "tramitacion": {
+    "etapa_actual": "Primer trámite constitucional (C.Diputados)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2026-01-27",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-03-03",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento",
+        "sesion": "119/373"
+      }
+    ]
+  },
+  "autores": [
+    {
+      "parlamentario_id": "990",
+      "nombre": null,
+      "en_padron_vigente": false
+    },
+    {
+      "parlamentario_id": "1002",
+      "nombre": null,
+      "en_padron_vigente": false
+    },
+    {
+      "parlamentario_id": "1056",
+      "nombre": "Emilia Nuyado Ancapichun",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "975",
+      "nombre": null,
+      "en_padron_vigente": false
+    },
+    {
+      "parlamentario_id": "1038",
+      "nombre": "Marcos Ilabaca Cerda",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1181",
+      "nombre": "Nelson Venegas Salazar",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1142",
+      "nombre": "Daniel Manouchehri Lobos",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1103",
+      "nombre": null,
+      "en_padron_vigente": false
+    }
+  ],
+  "votaciones": [],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": true,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:41"
+  }
+}

@@ -1,0 +1,1787 @@
+{
+  "boletin": "18216-05",
+  "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
+  "tipo_iniciativa": "Mensaje",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2026-04-22",
+  "tramitacion": {
+    "etapa_actual": "Trámite finalización en Cámara de Origen (C.Diputados)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2026-04-22",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Texto del mensaje",
+        "sesion": "16/374"
+      },
+      {
+        "fecha": "2026-04-22",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .  Contiene Informes Financiero y de Impacto Regulatorio",
+        "sesion": "16/374"
+      },
+      {
+        "fecha": "2026-04-22",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Hacienda, y a las comisiones de Medio Ambiente y Recursos Naturales, y de Trabajo y Seguridad Social, en lo que corresponda. A la Corte Suprema, en lo pertinente.",
+        "sesion": "16/374"
+      },
+      {
+        "fecha": "2026-04-22",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 62-374 que hace presente la urgencia Suma",
+        "sesion": "16/374"
+      },
+      {
+        "fecha": "2026-04-22",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Los diputados Luis Cuello, Patricio Pinilla y Jorge Brito formularon reserva de constitucionalidad respecto de los artículos 11 y 12 permanentes y sexto transitorio por infringir el artículo 8 de la Constitución Política de la República.",
+        "sesion": "16/374"
+      },
+      {
+        "fecha": "2026-04-24",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio N° 21184. Oficio a la Corte Suprema.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-05-05",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 78-374 que hace presente la urgencia Suma",
+        "sesion": "18/374"
+      },
+      {
+        "fecha": "2026-05-11",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta oficio N? 116-2026 de la Corte Suprema",
+        "sesion": "21/374"
+      },
+      {
+        "fecha": "2026-05-11",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "S.E. el Presidente de la República formula indicaciones al proyecto. (033-374). Incluye informe financiero complementario N° 093 /11.05.2026.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-05-13",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "S.E. el Presidente de la República formula indicaciones al proyecto. (037-374). Incluye informe financiero complementario N° 097/13.05.2026.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-05-18",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "S.E. el Presidente de la República formula indicaciones al proyecto. (043-374). Incluye informe financiero complementario N° 100/13.05.2026.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-05-18",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta, Oficio de la Comisión de Hacienda mediante el cual informa y remite a la Comisión de Medio Ambiente y Recursos Naturales las normas contenidas en el proyecto que deben ser tratadas por ella. (29-5-2026).",
+        "sesion": "25/374"
+      },
+      {
+        "fecha": "2026-05-18",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta, Oficio de la Comisión de Hacienda mediante el cual informa y remite a la Comisión de Comisión de Trabajo y Seguridad Social las normas contenidas en el proyecto que deben ser tratadas por ella. (30-5-2026).",
+        "sesion": "25/374"
+      },
+      {
+        "fecha": "2026-05-18",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Trabajo y Seguridad Social.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-05-18",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión Medio Ambiente y Recursos Naturales.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-05-19",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del informe de la Comisión de Hacienda, del de la Comisión de Medio Ambiente, y del certificado de la Comisión de Trabajo",
+        "sesion": "26/374"
+      },
+      {
+        "fecha": "2026-05-20",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular a la vez .",
+        "sesion": "27/374"
+      },
+      {
+        "fecha": "2026-05-20",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio de ley a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-06-02",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Por acuerdo de Comités, el proyecto de ley se remite a la Comisión de Hacienda para su discusión en general, y en caso de ser aprobada la idea de legislar por la Sala del Senado, se remitirá para su discusión en particular a la Comisión de Hacienda, y a las Comisiones de Trabajo y Previsión Social y de Medio Ambiente, Cambio Climático y Bienes Nacionales, en lo pertinente",
+        "sesion": "24/374"
+      },
+      {
+        "fecha": "2026-06-02",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Hacienda",
+        "sesion": "24/374"
+      },
+      {
+        "fecha": "2026-06-02",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 111-374 que hace presente la urgencia Suma",
+        "sesion": "24/374"
+      },
+      {
+        "fecha": "2026-06-10",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 143-374 que retira y hace presente la urgencia Suma",
+        "sesion": "29/374"
+      },
+      {
+        "fecha": "2026-06-19",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Primer informe de comisión de Hacienda.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-06-23",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .",
+        "sesion": "35/374"
+      },
+      {
+        "fecha": "2026-06-23",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión general . Queda pendiente",
+        "sesion": "35/374"
+      },
+      {
+        "fecha": "2026-06-24",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión general . Queda pendiente",
+        "sesion": "36/374"
+      },
+      {
+        "fecha": "2026-06-24",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 178-374 que retira y hace presente la urgencia Suma",
+        "sesion": "37/374"
+      },
+      {
+        "fecha": "2026-06-24",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general Se fija como plazo para presentar indicaciones el 06/07/2026 a las 12:00",
+        "sesion": "37/374"
+      },
+      {
+        "fecha": "2026-07-06",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Por acuerdo de Comités, se fijó el siguiente cronograma para presentar indicaciones al proyecto de ley:\n- Lunes 6 de julio de 2026 hasta las 20:00 horas, para las indicaciones relativas a materias de Medio Ambiente.\n- Miércoles 8 de julio de 2026 hasta las 12:00 horas, para las indicaciones relativas a materias de Trabajo.\n- Jueves 9 de julio de 2026 hasta las 20:00 horas, para las indicaciones relativas a materias de Hacienda.\nDichas comisiones revisarán el proyecto en el mismo orden antes señalado.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-07",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Boletín de indicaciones .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-07",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "I.F. 153. Informe Financiero",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-07",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Segundo informe de comisión de Medio Ambiente, Cambio Climático y Bienes Nacionales.  COMPARADO DE INDICACIONES",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-07",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 187-374 que retira y hace presente la urgencia Suma",
+        "sesion": "40/374"
+      },
+      {
+        "fecha": "2026-07-08",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Boletín de indicaciones .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-08",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "IF 158. Informe Financiero",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-09",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Boletín de indicaciones .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-09",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Segundo informe de comisión de Trabajo y Previsión Social. Pasa a Comisión de Hacienda",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-09",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "IF 162. Informe Financiero",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-09",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "IIR. Informe de impacto regulatorio",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-10",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Segundo informe de comisión de Hacienda.  COMPARADO DE INDICACIONES",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-11",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio N° H-19 a la Corte Suprema",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-13",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Segundo informe de comisión de Medio Ambiente, Cambio Climático y Bienes Nacionales. Pasa a Comisión de Hacienda",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-13",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio N° MA-27-2026 a la Corte Suprema",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-14",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio N° H-20 a la Corte Suprema",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-14",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Segundo informe de comisión de Hacienda.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-14",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 201-374 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "42/374"
+      },
+      {
+        "fecha": "2026-07-14",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de segundo informe de comisión .",
+        "sesion": "42/374"
+      },
+      {
+        "fecha": "2026-07-15",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión particular . Aprobado con modificaciones",
+        "sesion": "43/374"
+      },
+      {
+        "fecha": "2026-07-15",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "La Honorable Senadora señora Provoste hace reserva de constitucionalidad",
+        "sesion": "43/374"
+      },
+      {
+        "fecha": "2026-07-15",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "El Honorable Senador señor De Urresti hace reserva de constitucionalidad",
+        "sesion": "43/374"
+      },
+      {
+        "fecha": "2026-07-16",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "La Honorable Senadora señora Pascual hace reserva de constitucionalidad",
+        "sesion": "43/374"
+      },
+      {
+        "fecha": "2026-07-16",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "El Honorable Senador señora Ibáñez hace reserva de constitucionalidad",
+        "sesion": "43/374"
+      },
+      {
+        "fecha": "2026-07-16",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "El Honorable Senador señor Castro hace reserva de constitucionalidad",
+        "sesion": "43/374"
+      },
+      {
+        "fecha": "2026-07-16",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "El Ejecutivo hace reserva de constitucionalidad",
+        "sesion": "43/374"
+      },
+      {
+        "fecha": "2026-07-17",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio modificaciones a Cámara de Origen .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-20",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta oficio con modificaciones de Cámara Revisora . Queda para tabla",
+        "sesion": "45/374"
+      },
+      {
+        "fecha": "2026-07-20",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 208-374 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "45/374"
+      },
+      {
+        "fecha": "2026-07-21",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Discusión única . Rechazadas las modificaciones .",
+        "sesion": "46/374"
+      },
+      {
+        "fecha": "2026-07-21",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Oficio rechazo modificaciones a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-21",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Oficio N° 21.412 de la Cámara de Diputados, que aprueba las enmiendas propuesta del Senado, salvo la que indica. En consecuencia, corresponde la formación de una Comisión Mixta del artículo 71 de la Carta Fundamental",
+        "sesion": "44/374"
+      },
+      {
+        "fecha": "2026-07-21",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta oficio rechazo a modificaciones .",
+        "sesion": "44/374"
+      },
+      {
+        "fecha": "2026-07-21",
+        "camara": "Senado",
+        "etapa": "Disc. informe C.Mixta por rechazo de modif. C. Revisora",
+        "descripcion": "La diputada Hube hace reserva de constitucionalidad respecto del artículo 39, nuevo.",
+        "sesion": "46/374"
+      },
+      {
+        "fecha": "2026-07-21",
+        "camara": "Senado",
+        "etapa": "Disc. informe C.Mixta por rechazo de modif. C. Revisora",
+        "descripcion": "El diputado Barraza formluló reserva de constitucionalidad a las enmiendas propuestas por el Senado a los artículos 1; 5; 6; 10; 11; 12; 13; 14; 15; 16; 17 Y 29 del proyecto de ley.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-21",
+        "camara": "Senado",
+        "etapa": "Disc. informe C.Mixta por rechazo de modif. C. Revisora",
+        "descripcion": "El diputado Mulet hace reserva de constitucionalidad respecto de los artículos 18 y 29 del proyecto de ley.",
+        "sesion": "46/374"
+      },
+      {
+        "fecha": "2026-07-21",
+        "camara": "Senado",
+        "etapa": "Disc. informe C.Mixta por rechazo de modif. C. Revisora",
+        "descripcion": "El diputado Barraza formluló reserva de constitucionalidad a las enmiendas propuestas por el Senado a los artículos 1; 5; 6; 10; 11; 12; 13; 14; 15; 16; 17 Y 29 del proyecto de ley.",
+        "sesion": "46/374"
+      },
+      {
+        "fecha": "2026-07-21",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Oficio N° 249-26. Toma conocimiento rechazo enmienda y designa integrantes Comisión Mixta",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-22",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta oficio integrantes de Comisión Mixta .",
+        "sesion": "47/374"
+      },
+      {
+        "fecha": "2026-07-22",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Oficio N° 21417. Comunica integración Comisión Mixta",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-22",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Se da cuenta del Oficio N° 21.417 de la Cámara de Diputados, mediante el que comunica integrantes de la Comisión Mixta",
+        "sesion": "45/374"
+      },
+      {
+        "fecha": "2026-07-22",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Informe de Comisión Mixta Comisión Mixta para Boletín Nº 18216-05.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-22",
+        "camara": "C.Diputados",
+        "etapa": "Disc. informe C.Mixta por rechazo de modific. en C. Origen",
+        "descripcion": "Cuenta informe Comisión Mixta .  Queda para tabla.",
+        "sesion": "48/374"
+      },
+      {
+        "fecha": "2026-07-22",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Discusión única . Aprobadas las modificaciones .",
+        "sesion": "48/374"
+      },
+      {
+        "fecha": "2026-07-22",
+        "camara": "C.Diputados",
+        "etapa": "Disc. informe C.Mixta por rechazo de modific. en C. Origen",
+        "descripcion": "Cuenta del Mensaje 221-374 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "48/374"
+      },
+      {
+        "fecha": "2026-07-22",
+        "camara": "C.Diputados",
+        "etapa": "Disc. informe C.Mixta por rechazo de modific. en C. Origen",
+        "descripcion": "Oficio aprobación de informe de Comisión Mixta a C. Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-22",
+        "camara": "Senado",
+        "etapa": "Disc. informe C.Mixta por rechazo de modif. C. Revisora",
+        "descripcion": "Cuenta oficio aprobación de informe de Comisión Mixta .",
+        "sesion": "46/374"
+      },
+      {
+        "fecha": "2026-07-22",
+        "camara": "Senado",
+        "etapa": "Disc. informe C.Mixta por rechazo de modif. C. Revisora",
+        "descripcion": "Discusión informe de Comisión Mixta . Queda pendiente Se solicita aplazamiento de la votación.",
+        "sesion": "46/374"
+      },
+      {
+        "fecha": "2026-07-31",
+        "camara": "Senado",
+        "etapa": "Disc. informe C.Mixta por rechazo de modif. C. Revisora",
+        "descripcion": "Cuenta oficio N° 210-2026 de la Corte Suprema",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-31",
+        "camara": "Senado",
+        "etapa": "Disc. informe C.Mixta por rechazo de modif. C. Revisora",
+        "descripcion": "Cuenta oficio N° 211-2026 de la Corte Suprema",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-08-04",
+        "camara": "C.Diputados",
+        "etapa": "Trámite finalización en Cámara de Origen",
+        "descripcion": "Cuenta oficio aprobación de informe de Comisión Mixta .",
+        "sesion": "51/374"
+      },
+      {
+        "fecha": "2026-08-04",
+        "camara": "Senado",
+        "etapa": "Disc. informe C.Mixta por rechazo de modif. C. Revisora",
+        "descripcion": "Cuenta del Mensaje 231-374 que hace presente la urgencia Discusión inmediata",
+        "sesion": "47/374"
+      },
+      {
+        "fecha": "2026-08-04",
+        "camara": "Senado",
+        "etapa": "Disc. informe C.Mixta por rechazo de modif. C. Revisora",
+        "descripcion": "Cuenta del Mensaje 222-374 que retira la urgencia Discusión inmediata",
+        "sesion": "47/374"
+      },
+      {
+        "fecha": "2026-08-04",
+        "camara": "Senado",
+        "etapa": "Disc. informe C.Mixta por rechazo de modif. C. Revisora",
+        "descripcion": "La Honorable Senadora señora Pascual hace reserva de constitucionalidad",
+        "sesion": "47/374"
+      },
+      {
+        "fecha": "2026-08-04",
+        "camara": "Senado",
+        "etapa": "Disc. informe C.Mixta por rechazo de modif. C. Revisora",
+        "descripcion": "Discusión informe de Comisión Mixta . Aprobado",
+        "sesion": "47/374"
+      },
+      {
+        "fecha": "2026-08-04",
+        "camara": "Senado",
+        "etapa": "Disc. informe C.Mixta por rechazo de modif. C. Revisora",
+        "descripcion": "Oficio aprobación de informe de Comisión Mixta a C.de Origen .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-08-04",
+        "camara": "C.Diputados",
+        "etapa": "Trámite finalización en Cámara de Origen",
+        "descripcion": "Cuenta agregada. Oficio del Senado, comunica aprobación de informe de Comisión Mixta",
+        "sesion": "51/374"
+      },
+      {
+        "fecha": "2026-08-04",
+        "camara": "C.Diputados",
+        "etapa": "Trámite finalización en Cámara de Origen",
+        "descripcion": "Oficio de ley al Ejecutivo .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-08-05",
+        "camara": "C.Diputados",
+        "etapa": "Trámite finalización en Cámara de Origen",
+        "descripcion": "Oficio N° 123-374. Observaciones de S.E. el Presidente de la República",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-08-05",
+        "camara": "C.Diputados",
+        "etapa": "Discusión veto en Cámara de Origen",
+        "descripcion": "Cuenta de observaciones . Pasa a Comisión de Hacienda",
+        "sesion": "52/374"
+      },
+      {
+        "fecha": "2026-08-10",
+        "camara": "C.Diputados",
+        "etapa": "Discusión veto en Cámara de Origen",
+        "descripcion": "Cuenta informe de comisión .",
+        "sesion": "53/374"
+      },
+      {
+        "fecha": "2026-08-10",
+        "camara": "C.Diputados",
+        "etapa": "Discusión veto en Cámara de Origen",
+        "descripcion": "Cuenta, Oficio del Tribunal Constitucional por el cual pone en conocimiento de la Cámara de Diputados sendos requerimientos de inconstitucionalidad presentados por un grupo de senadoras y senadores, y por un grupo de diputadas y diputados respecto de las normas que indican del proyecto de ley. Roles acumulados N°s 17828,17829 y 17832-26-CPT. (309-2026). OTORGA PLAZO PARA FORMULAR OBSERVACIONES AL REQUERIMIENTO DECLARADO ADMISIBLE.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-08-10",
+        "camara": "C.Diputados",
+        "etapa": "Discusión veto en Cámara de Origen",
+        "descripcion": "Oficio aprobación veto a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-08-11",
+        "camara": "C.Diputados",
+        "etapa": "Discusión veto en Cámara de Origen",
+        "descripcion": "Cuenta, Copia autorizada de una resolución del Tribunal Constitucional recaída en requerimientos de inconstitucionalidad presentados por un grupo de senadoras y senadores, y por un grupo de diputadas y diputados, respecto de ciertas normas del proyecto. Roles acumulados N°s 17828-26-CPT, 17829-26-CPT y N° 17832-26-CPT. CITA A AUDIENCIA PÚBLICA.",
+        "sesion": "54/374"
+      },
+      {
+        "fecha": "2026-08-11",
+        "camara": "Senado",
+        "etapa": "Discusión veto en Cámara Revisora",
+        "descripcion": "Cuenta oficio aprobación veto . Pasa a Comisión de Hacienda",
+        "sesion": "49/374"
+      },
+      {
+        "fecha": "2026-08-12",
+        "camara": "Senado",
+        "etapa": "Discusión veto en Cámara Revisora",
+        "descripcion": "Informe de comisión de Hacienda.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-08-12",
+        "camara": "Senado",
+        "etapa": "Discusión veto en Cámara Revisora",
+        "descripcion": "Cuenta informe de comisión .",
+        "sesion": "50/374"
+      },
+      {
+        "fecha": "2026-08-12",
+        "camara": "Senado",
+        "etapa": "Discusión veto en Cámara Revisora",
+        "descripcion": "Discusión veto . Aprobado",
+        "sesion": "50/374"
+      },
+      {
+        "fecha": "2026-08-12",
+        "camara": "Senado",
+        "etapa": "Discusión veto en Cámara Revisora",
+        "descripcion": "Oficio aprobación veto a Cámara de Origen .",
+        "sesion": "/"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "89670",
+      "fecha": "2026-08-10T19:20:02",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Observaciones P. De La R.",
+      "articulo": "Observación número 3 de S.E. el Presidente de la República para suprimir el artículo 40 del proyecto.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89669",
+      "fecha": "2026-08-10T19:19:12",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Observaciones P. De La R.",
+      "articulo": "Observación número 2 de S.E. el Presidente de la República para suprimir el artículo 39 del proyecto.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89668",
+      "fecha": "2026-08-10T19:18:26",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Observaciones P. De La R.",
+      "articulo": "Observación número 1 de S.E. el Presidente de la República para suprimir el artículo 32 del proyecto.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89542",
+      "fecha": "2026-07-22T19:13:38",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Comisión Mixta",
+      "articulo": "Proposición de la Comisión Mixta recaída en el proyecto de ley, originado en mensaje, “Para la reconstrucción nacional y el desarrollo económico y social”, que requiere para su aprobación del voto favorable de 78 diputadas y diputados por tratarse de una disposición de rango orgánico constitucional.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89495",
+      "fecha": "2026-07-21T14:04:59",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que agrega un artículo décimo octavo transitorio, nuevo; que consta en las páginas 620 a 622 del comparado; y que requiere para su aprobación del voto favorable de 78 diputadas y diputados, por tratarse de una norma de rango orgánico constitucional.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89494",
+      "fecha": "2026-07-21T14:03:21",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que reemplaza el artículo décimo cuarto transitorio, cuya votación separada ha sido solicitada por el diputado Daniel Manouchehri, y que consta en la página 616 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89493",
+      "fecha": "2026-07-21T14:02:31",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que reemplaza el artículo undécimo transitorio, cuya votación separada ha sido solicitada por el diputado Daniel Manouchehri, y que consta en las páginas 602 a 607 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89492",
+      "fecha": "2026-07-21T14:01:15",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que reemplaza el artículo tercero transitorio, cuya votación separada ha sido solicitada por el diputado Daniel Manouchehri y que consta en las páginas 542 a 583 del comparado. Cabe hacer presente, que el párrafo primero del número 13 de este artículo requiere para su aprobación del voto favorable de 78 diputadas y diputados, por tratarse de una norma de quórum calificado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89491",
+      "fecha": "2026-07-21T14:00:08",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que reemplaza el artículo primero transitorio, cuya votación separada ha sido solicitada por el diputado Daniel Manouchehri, y que consta en las páginas 531 a 539 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89490",
+      "fecha": "2026-07-21T13:57:47",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que agrega el artículo 37, nuevo, cuya votación separada ha sido solicitada por el diputado Daniel Manouchehri; que consta en las páginas 520 y 521 del comparado; y que requiere para su aprobación del voto favorable de 78 diputadas y diputados, por tratarse de una norma de quórum calificado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89489",
+      "fecha": "2026-07-21T13:55:52",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Número 1 del artículo 36, nuevo, propuesto por el Senado; que consta en las páginas 508 a 514 del comparado y que requiere para su aprobación del voto favorable de 78 diputadas y diputados, por tratarse de una norma de rango orgánico constitucional.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89488",
+      "fecha": "2026-07-21T13:54:46",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que agrega el artículo 35, nuevo, cuya votación separada ha sido solicitada por los diputados Daniel Manouchehri y Juan Valenzuela; que consta en las páginas 492 a 507 del comparado; y que requiere para su aprobación del voto favorable de 78 diputadas y diputados, por tratarse de una norma de rango orgánico constitucional.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89487",
+      "fecha": "2026-07-21T13:53:37",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que agrega el artículo 34, nuevo, cuya votación separada ha sido solicitada por el diputado Daniel Manouchehri, y que consta en la página 490 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89486",
+      "fecha": "2026-07-21T13:52:40",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que agrega el artículo 33, nuevo, cuya votación separada ha sido solicitada por la diputada Gael Yeomans y el diputado Juan Valenzuela, y que consta en las páginas 475 a 486 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89485",
+      "fecha": "2026-07-21T13:51:46",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que suprime el artículo 31 del proyecto, cuya votación separada ha sido solicitada por la diputada Gael Yeomans y los diputados Daniel Manouchehri y Juan Valenzuela, y que consta en las páginas 415 a 470 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89484",
+      "fecha": "2026-07-21T13:49:30",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que reemplaza el artículo 29 del proyecto, cuya votación separada ha sido solicitada por las diputadas Serrano, Yeomans, Schneider, Gazmuri y Tello, y de los diputados Leiva, Venegas, Malla, Soto, Díaz, Barría, Barraza y Manouchehri, y que consta en las páginas 380 a 412 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89483",
+      "fecha": "2026-07-21T13:48:39",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Nuevo inciso tercero que se incorpora al artículo 120, propuesto por el Senado en el nuevo número 3 del artículo 21 del proyecto; que consta en las páginas 363 y 364 del comparado; y que requiere para su aprobación del voto favorable de 78 diputadas y diputados, por tratarse de una norma de rango orgánico constitucional.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89482",
+      "fecha": "2026-07-21T13:47:31",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que reemplaza el número 2 del artículo 21 del proyecto, cuya votación separada ha sido solicitada por el diputado Daniel Manouchehri, y que consta en las páginas 361 y 362 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89481",
+      "fecha": "2026-07-21T13:45:45",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmiendas del Senado al artículo 17 del proyecto, cuya votación separada ha sido solicitada por las diputadas Serrano, Yeomans, Schneider, Gazmuri y Tello y de los diputados Leiva, Venegas, Malla, Soto, Díaz, Barría y Barraza; que constan en las páginas 328 y 339 del comparado; y que requieren para su aprobación del voto favorable de 78 diputadas y diputados, por tratarse de normas de rango orgánico constitucional.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89480",
+      "fecha": "2026-07-21T13:43:57",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que reemplaza el artículo 16 del proyecto, cuya votación separada ha sido solicitada por el diputado Daniel Manouchehri, y que consta en las páginas 325 y 326 del comparado. Cabe hacer presente, que los incisos tercero y final de este artículo requieren para su aprobación del voto favorable de 78 diputadas y diputados, por tratarse de normas de rango orgánico constitucional.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89479",
+      "fecha": "2026-07-21T13:42:15",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que reemplaza el artículo 15 del proyecto, cuya votación separada ha sido solicitada por el diputado Daniel Manouchehri, y que consta en la página 324 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89478",
+      "fecha": "2026-07-21T13:40:36",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que reemplaza el artículo 14 del proyecto, cuya votación separada ha sido solicitada por el diputado Daniel Manouchehri; que consta en las páginas 323 324 del comparado; y que requiere para su aprobación del voto favorable de 78 diputadas y diputados, por tratarse de una norma de rango orgánico constitucional.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89477",
+      "fecha": "2026-07-21T13:38:54",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que reemplaza el artículo 13 del proyecto, cuya votación separada ha sido solicitada por la diputada Yeomans y los diputados Leiva, Soto, Díaz, Manouchehri y Pinilla; y que consta en las páginas 320 a 322 del comparado. Cabe hacer presente, que el inciso cuarto de este artículo requiere para su aprobación del voto favorable de 78 diputadas y diputados, por tratarse de una norma de rango orgánico constitucional.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89476",
+      "fecha": "2026-07-21T13:36:44",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que reemplaza el artículo 12 del proyecto, cuya votación separada ha sido solicitada por la diputada Yeomans y los diputados Leiva, Soto, Díaz, Manouchehri y Pinilla; y que consta en las páginas 316 a 319 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89475",
+      "fecha": "2026-07-21T13:34:39",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmiendas del Senado al artículo 11 del proyecto, cuya votación separada ha sido solicitada por la diputada Yeomans y los diputados Leiva, Soto, Díaz y Pinilla; y que constan en las páginas 295 a 306 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89474",
+      "fecha": "2026-07-21T13:33:50",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que reemplaza el artículo 10 del proyecto, cuya votación separada ha sido solicitada por la diputada Gael Yeomans y el diputado Daniel Manouchehri, y que consta en las páginas 265 a 290 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89473",
+      "fecha": "2026-07-21T13:32:14",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmiendas del Senado al artículo 6 del proyecto, cuya votación separada ha sido solicitada por las diputadas Serrano, Yeomans, Schneider, Gazmuri y Tello y de los diputados Leiva, Venegas, Malla, Soto, Díaz, Barría y Barraza; y que constan en las páginas 26 a 39 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89472",
+      "fecha": "2026-07-21T13:30:21",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que reemplaza el artículo 5 del proyecto, cuya votación separada ha sido solicitada por las diputadas Serrano, Yeomans, Schneider, Gazmuri y Tello y de los diputados Leiva, Venegas, Malla, Soto, Díaz, Barría y Barraza; y que consta en las páginas 17 a 24 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89471",
+      "fecha": "2026-07-21T13:29:26",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmiendas del Senado al artículo 1 del proyecto, cuya votación separada ha sido solicitada por el diputado Juan Valenzuela, y que constan en las páginas 2 a 5 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89470",
+      "fecha": "2026-07-21T13:28:41",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Modificaciones incorporadas por el Senado en el proyecto de ley, originado en mensaje, “Para la reconstrucción nacional y el desarrollo económico y social.”, con la salvedad de las enmiendas que requieren quorum especial de aprobación y de aquellas cuya votación separada ha sido solicitada.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88980",
+      "fecha": "2026-05-20T14:04:00",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Reclamación de la declaración de inadmisibilidad efectuada por la Comisión de Hacienda (Art.69, ideas matrices) respecto de la indicación del diputado Brito y la diputada Yeomans, para agregar un artículo transitorio nuevo, del siguiente tenor: \n“Artículo final transitorio.- Respecto del Presidente de la República en ejercicio a la fecha de publicación de la presente ley, de sus Ministros de Estado y de los diputados y senadores en ejercicio en dicha oportunidad, continuará aplicándose el régimen tributario vigente con anterioridad a la entrada en vigencia de esta ley, así como las normas relativas a la determinación y cálculo de los impuestos que graven su patrimonio, bienes, inversiones o participaciones en sociedades. \nEn consecuencia, las disposiciones de la presente ley no les serán aplicables mientras se encuentren en el ejercicio de sus respectivos cargos.”. \nEn votación la reconsideración de la declaración de inadmisibilidad. \n(Quienes votan a favor lo hacen por la admisibilidad; quienes votan en contra por su inadmisibilidad)",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88979",
+      "fecha": "2026-05-20T14:01:43",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Reclamación de la declaración de inadmisibilidad efectuada por la Comisión de Hacienda (modificar elementos de un tributo, de conformidad con lo dispuesto  en  el  artículo  65  inciso  cuarto  N°1) respecto de la indicación del diputado Manouchehri:\n\"Artículo transitorio nuevo.- Sin perjuicio de las modificaciones al artículo 20 de la Ley sobre Impuesto a la Renta contenidas en el artículo 10 de la presente ley, la tasa de impuesto de primera categoría aplicable a las rentas devengadas o percibidas a partir del año 2026 y siguientes, se sujetará a las siguientes reglas.\n1.Para las rentas devengadas o percibidas durante el año comercial 2026, un 27%. \n2.Para las rentas devengadas o percibidas durante el año comercial 2027, un 26%.\n3.Para las rentas devengadas o percibidas durante el año comercial 2028, un 25%, siempre que al cierre del año comercial anterior se cumplan copulativamente las siguientes condiciones: (i) El Balance Cíclicamente Ajustado no sea inferior a -1,00% del Producto Interno Bruto, y (ii) La deuda pública sea inferior a 45% del Producto Interno Bruto.  \n4.Para las rentas devengadas o percibidas durante el año comercial 2029  o  aquel  que  corresponda  al  año  siguiente  en  que  se  cumplan  las  condiciones establecidas en la letra c) anterior, la tasa se rebajará en un punto porcentual respecto de la tasa del año comercial anterior siempre que se cumplan copulativamente las siguientes condiciones: (i) El Balance Cíclicamente Ajustado no sea inferior a -0,50% del Producto Interno Bruto, y (ii) La deuda pública sea inferior a 45% del Producto Interno Bruto. \n5.Para las rentas devengadas o percibidas durante el año comercial 2030  o  aquel  que  o  aquel  que  corresponda  al  año  siguiente  en  que  se  cumplan  las condiciones establecidas en la letra d) anterior, la tasa será de un 23% siempre que se cumplan copulativamente las siguientes condiciones: (i) El Balance Cíclicamente Ajustado no sea inferior a 0,00% del Producto Interno Bruto, y (ii) La deuda pública sea inferior a 45% del Producto Interno Bruto.”.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88978",
+      "fecha": "2026-05-20T13:57:46",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Reclamación de la declaración de inadmisibilidad efectuada por la Comisión de Hacienda (Art.65 inc.3, incide en la administración financiera del Estado) respecto de la indicación de las diputadas y los diputados Manouchehri, Yeomans, Barrera, Hassler, Ulloa y Brito, para incorporar un nuevo artículo:\n\"Artículo transitorio nuevo.- Los contribuyentes acogidos a lo dispuesto en el N° 3 de la letra D) del artículo 14 de la Ley sobre Impuesto a la Renta, que adquieran, en el periodo comprendido entre la entrada en vigencia de esta ley y el 31 de diciembre de 2028, activos intangibles destinados al interés, desarrollo o mantención de la empresa o negocio, podrán depreciar dichos activos de manera instantánea e íntegra, en el mismo ejercicio comercial en que sean adquiridos, los que quedarán valorados en 1 peso. \nPara estos efectos, sólo se considerarán activos intangibles susceptibles de acogerse al régimen que contempla el inciso anterior, los siguientes: \na) Los derechos de propiedad industrial protegidos conforme a la ley N° 19.039. \nb) Los derechos de propiedad intelectual protegidos conforme a la ley N° 17.336. \nc) Una nueva variedad vegetal protegida conforme a la ley N° 19.342. \nConforme a lo anterior, en ningún caso será aplicable este régimen de amortización respecto del activo intangible que regula el número 9 del artículo 31 de la Ley sobre Impuesto a la Renta. \nPara la revisión o fiscalización de lo contemplado en este artículo, los organismos ante los cuales se registran los bienes intangibles señalados en las letras a), b) y c) precedentes deberán informar al Servicio de Impuestos Internos, en la forma que este último determine mediante una resolución, los bienes intangibles que sean inscritos o transferidos durante la vigencia de esta ley. Por su parte, el Servicio de Impuestos Internos, mediante una actuación sometida al trámite de consulta pública establecido en el N° 1 de la letra A del artículo 6° del Código Tributario, contenido en el decreto ley N° 830, de 1974, instruirá sobre la forma de hacer efectivo lo establecido en este artículo en relación a la acreditación del desembolso asociado a los bienes intangibles respectivos”.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88977",
+      "fecha": "2026-05-20T13:52:42",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Reclamación de la declaración de inadmisibilidad efectuada por la Comisión de Hacienda (Art.65  inc.3,  incide  en  la  administración financiera del Estado) respecto de la indicación de las diputadas y diputados Manouchehri, Yeomans, Barrera, Hassler, Ulloa, Brito, para agregar el siguiente artículo transitorio, nuevo:\n“Artículo transitorio nuevo.- Transcurridos dos años desde la entrada en vigencia de la presente ley, el Ministerio de Hacienda deberá contratar una evaluación externa que se pronuncie sobre la implementación y aplicación de las medidas contenidas en la presente ley, refiriéndose, a lo menos, a su efecto sobre la recaudación fiscal, su impacto  en  la  actividad  económica,  sus  efectos  distributivos  y  el  cumplimiento  de  los compromisos  en  materia  de  gastos  adquiridos  durante  la  tramitación  de  la  misma.  El resultado de esa evaluación será remitido a la Comisión de Hacienda de la Cámara de Diputados y a la Comisión de Hacienda del Senado, y deberá será publicado en el sitio web del  Ministerio  de  Hacienda.\".",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88976",
+      "fecha": "2026-05-20T13:49:56",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Reclamación de la declaración de inadmisibilidad efectuada por la Comisión de Hacienda (Art.65  inc.3,  incide  en  la  administración  financiera  del Estado.) respecto de la indicación de las diputadas y diputados Manouchehri, Yeomans, Barrera, Hassler, Ulloa, Brito, para agregar el siguiente artículo transitorio, nuevo: \n“Artículo transitorio nuevo.- Subsidio al pie para la adquisición de Viviendas Nuevas. Establécese un subsidio de hasta 200 Unidades de Fomento para personas que adquieran  créditos  hipotecarios  sujetos  a  las  Garantías  Apoyo  a  la  Vivienda  Nueva establecidas en el artículo sexto transitorio de la ley Nº 21.543, que crea un Fondo de Garantías Especiales, el que se regirá por las reglas que se señalan a continuación y por las demás normas de aplicación general contempladas en uno o más decretos del Ministerio de Hacienda dictados bajo la fórmula “Por orden del Presidente de la República”. \nLos  financiamientos  beneficiados  por  el  subsidio  deberán  destinarse exclusivamente al pago de la proporción del precio de adquisición de viviendas nuevas que cumplan con los requisitos indicados en este artículo, que no sea cubierta por un crédito de una institución financiera. La totalidad del monto será entregado a la institución financiera, la que deberá enterarlo al vendedor de la vivienda, según la fórmula que determine el Ministerio de Hacienda mediante el o los decretos a los que se refiere el inciso primero. \nEl beneficio no será aplicable a compraventas de promesas celebradas con anterioridad al 31 de abril de 2026. La institución financiera deberá registrar en un soporte idóneo, por medio escrito o electrónico equivalente, una declaración jurada simple suscrita por el solicitante, que dé cuenta de que la promesa o la compraventa es elegible para el beneficio, de conformidad con lo establecido en el inciso anterior. El incumplimiento de esta obligación, o la falsedad en la declaración jurada, dará lugar a las sanciones correspondientes,  según  lo  dispuesto  en  el  artículo  1  de  la  Ley  N°  21.748  y  demás normativas aplicables. \nSe entregarán hasta cincuenta mil subsidios a personas naturales, de conformidad con las reglas que se señalan a continuación: \na) Ser persona natural que, al momento de la postulación y otorgamiento del subsidio, no sea propietaria, asignataria o beneficiaria de una vivienda, ni de derechos reales sobre un inmueble destinado a uso habitacional. \nb) Que el valor de la vivienda no supere las 4.000 unidades de fomento. \nc) Que la persona cumpla con los requisitos para acceder al Programa de Garantías Apoyo a la Vivienda Nueva, de conformidad con el artículo sexto transitorio de la ley Nº 21.543, que crea un Fondo de Garantías Especiales. \nd) Que cumpla con los demás requisitos establecidos en el o los decretos a que se refiere el inciso primero. \nSólo se podrá solicitar financiamientos con las condiciones señaladas en el presente artículo hasta veinticuatro meses después de la fecha de publicación de esta ley. \nUn decreto dictado por el Ministerio de Hacienda, a través de uno o más decretos supremos, bajo la fórmula “Por orden del Presidente de la República”, que deberá ser visado por la Dirección de Presupuestos, establecerá las reglas necesarias para la implementación de lo establecido en este artículo. \nSin perjuicio de lo anterior, el Ministerio de Hacienda podrá requerir del Administrador  del  Fondo  de  Garantías  Especiales  o  de  cada  una  de  las  instituciones acreedoras toda aquella información, nominada o innominada, que permita la oportuna verificación de los beneficios entregados y de los cambios en las circunstancias de los beneficiarios, entre otros elementos necesarios para verificar el adecuado funcionamiento del subsidio.”.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88975",
+      "fecha": "2026-05-20T13:43:22",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Reclamación de la declaración de inadmisibilidad efectuada por la Comisión de Hacienda (art 69, ideas matrices) respecto de la indicación del diputado Raúl Soto:\n“Incorpórese el siguiente artículo transitorio nuevo, del siguiente tenor: \nArtículo  transitorio nuevo:  Con  la  finalidad  de  aliviar  el  negativo  impacto que han provocado las alzas en el precio de los combustibles fósiles y de bienes y servicios de la canasta básica en la economía de los hogares, concédase un Bono Familiar de libre disposición compuesto por seis aportes mensuales de cien mil pesos de cargo fiscal, para los  hogares  cuyos  ingresos  totales  de  los  miembros  que  los  integran  no  superen,  en  su conjunto, los dos millones de pesos mensuales. \nEl Bono Familiar de Libre Disposición que concede esta ley no constituirá remuneración  o  renta  para  ningún  efecto  legal  y,  en  consecuencia,  no  será  imponible  ni tributable y no estará afecto a descuento alguno. \nLos  hogares  beneficiarios  podrán  postular  mediante  la  presentación  de sus  antecedentes  en  las  plataformas  digitales  que  el  Ministerio  de  Desarrollo  Social  y Familia dispondrá para tales efectos, así como también de manera presencial en las oficinas de Chile Atiende. Las postulaciones se podrán presentar durante los 30 días siguientes a la  publicación  de  esta  ley  en  el  Diario  Oficial.  Mediante resolución  exenta  dictada  por  la Subsecretaría   de   Evaluación   Social,   visada   por   la   Dirección   de   Presupuestos,   se establecerá la forma de verificación de los requisitos establecidos en esta ley. \nEl  Bono  Familiar  de  libre  disposición  será  pagado  a  través  de  bolsillo electrónico de conformidad con el artículo 10° de la ley 21550. El pago del primer aporte se efectuará  dentro  de  sesenta  días  corridos  contados  desde  la  publicación  de  la  ley  en  el Diario Oficial.  \nQuienes perciban indebidamente el Bono Familiar de libre disposición que establece este artículo deberán restituir las sumas indebidamente percibidas, reajustadas de  conformidad  con  la  variación  que  experimente  el  Índice  de  Precios  al  Consumidor determinada por el Instituto Nacional de Estadísticas, o la institución que lo reemplace, entre el mes anterior a aquel en que se percibió y el que antecede a su restitución. \nEl mayor gasto fiscal que represente la aplicación de esta ley se financiará con  cargo  a  los  recursos  del  Tesoro  Público.”.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88974",
+      "fecha": "2026-05-20T13:38:55",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Renovación de una indicación de las diputadas y los diputados Serrano, Gatica, Bassa, Crisóstomo y Tello para agregar el siguiente nuevo artículo transitorio, de cuyo tenor dará lectura el señor Secretario:\n“Artículo transitorio nuevo.- Las  disposiciones  de  la  presente  ley,  en materias ambientales y  tributarias, que  contemplen    reducción  de  plazos administrativos o establezcan reglas de silencio administrativo, entrarán en vigencia únicamente una vez que se haya verificado el reforzamiento de dotación y recursos de  los  órganos  de  la  Administración  del  Estado  y  de  las  unidades  administrativas respectivas  que  deban  asumir  la  mayor  carga  de  trabajo  derivada  de  dichas modificaciones. La ley que  disponga  el  referido  reforzamiento  institucional  deberá señalar expresamente, en una disposición transitoria, que se ha dado cumplimiento a lo establecido en el inciso precedente.”.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88973",
+      "fecha": "2026-05-20T13:37:36",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Nuevo artículo décimo noveno transitorio del proyecto, en los términos propuestos por la Comisión de Hacienda (que reemplaza al artículo décimo séptimo transitorio del mensaje), cuya votación separada ha sido solicitada por el diputado por las diputadas Ana María Gazmuri, Gael Yeomans y el diputado Jorge Brito, y que consta en la página 579 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88972",
+      "fecha": "2026-05-20T13:36:29",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Nuevo artículo décimo octavo transitorio del proyecto, en los términos propuestos por la Comisión de Hacienda, cuya votación separada ha sido solicitada por las diputadas Ana María Gazmuri, Gael Yeomans y el diputado Jorge Brito, y que consta en las páginas 578 a 579 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88971",
+      "fecha": "2026-05-20T13:35:28",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Nuevo artículo décimo séptimo transitorio del proyecto, en los términos propuestos por la Comisión de Hacienda, cuya votación separada ha sido solicitada por la diputada Ana María Gazmuri y por el diputado Boris Barrera, y que consta en las páginas 577 a 578 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88970",
+      "fecha": "2026-05-20T13:34:23",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo décimo sexto transitorio del proyecto, en los términos propuestos por la Comisión de Hacienda, cuya votación separada ha sido solicitada por el diputado Boris Barrera, y que consta en las páginas 576 y 577 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88969",
+      "fecha": "2026-05-20T13:33:27",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo décimo quinto transitorio del proyecto, en los términos propuestos por la Comisión de Hacienda, cuya votación separada ha sido solicitada por la diputada Ana María Gazmuri y por el diputado Boris Barrera, y que consta en la página 576 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88968",
+      "fecha": "2026-05-20T13:32:41",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo décimo cuarto transitorio del proyecto, en los términos propuestos por la Comisión de Medio Ambiente, cuya votación separada ha sido solicitada por la diputada Gael Yeomans, y los diputados Boris Barrera, Jorge Brito y Raúl Leiva, y que consta en la página 575 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88967",
+      "fecha": "2026-05-20T13:30:29",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo décimo tercero transitorio del proyecto, en los términos propuestos por la Comisión de Hacienda y por la Comisión de Medio Ambiente, cuya votación separada ha sido solicitada por la diputada Ana María Gazmuri y por el diputado Boris Barrera, y que consta en la página 575 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88966",
+      "fecha": "2026-05-20T13:28:51",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo décimo segundo transitorio del proyecto, en los términos propuestos por la Comisión de Hacienda, cuya votación separada ha sido solicitada por la diputada Ana María Gazmuri y por los diputados Boris Barrera y Raúl Leiva, y que consta en las páginas 571 a 575 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88981",
+      "fecha": "2026-05-20T13:26:32",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Indicación renovada del Ejecutivo para reemplazar el artículo décimo primero transitorio.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88965",
+      "fecha": "2026-05-20T13:18:02",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo décimo transitorio del proyecto, en los términos propuestos por la Comisión de Hacienda, cuya votación separada ha sido solicitada por el diputado Boris Barrera, y que consta en las páginas 557 a 562 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88964",
+      "fecha": "2026-05-20T13:16:50",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo noveno transitorio del proyecto, en los términos propuestos por la Comisión de Hacienda, cuya votación separada ha sido solicitada por el diputado Boris Barrera, y que consta en las páginas 556 a 557 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88963",
+      "fecha": "2026-05-20T13:14:49",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo séptimo transitorio del proyecto, en los términos propuestos por la Comisión de Hacienda, cuya votación separada ha sido solicitada por el diputado Boris Barrera, y que consta en las páginas 554 a 556 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88962",
+      "fecha": "2026-05-20T13:13:47",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo sexto transitorio del texto propuesto por la Comisión de Hacienda (que sustituye el artículo sexto transitorio del mensaje), cuya votación separada ha sido solicitada por la diputada Ana María Gazmuri y por los diputados Boris Barrera y Raúl Leiva, y que consta en las páginas 552 a 554 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88984",
+      "fecha": "2026-05-20T13:12:46",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Reclamación de la declaración de inadmisibilidad efectuada por la Comisión de Hacienda (Art.65 inc. cuarto N°1, materia de tributos) respecto de la indicación del diputado Raúl Soto para  reemplazar  el  artículo sexto transitorio del proyecto de ley.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88961",
+      "fecha": "2026-05-20T13:02:18",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo quinto transitorio del texto propuesto por la Comisión de Hacienda (que sustituye el artículo quinto transitorio del mensaje), cuya votación separada ha sido solicitada por los diputados Boris Barrera y Raúl Leiva, y que consta en las páginas 548 a 552 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88960",
+      "fecha": "2026-05-20T13:01:20",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo cuarto transitorio del texto propuesto por la Comisión de Hacienda (que sustituye el artículo cuarto transitorio del mensaje), cuya votación separada ha sido solicitada por la diputada Gael Yeomans y los diputados Boris Barrera y Jorge Brito, y que consta en las páginas 541 a 548 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88959",
+      "fecha": "2026-05-20T13:00:15",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo tercero transitorio del texto propuesto por la Comisión de Hacienda (que sustituye el artículo tercero transitorio del mensaje), cuya votación separada ha sido solicitada por los diputados Boris Barrera y Raúl Leiva, y que consta en las páginas 498 a 541 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88958",
+      "fecha": "2026-05-20T12:58:44",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo primero transitorio del texto propuesto por la Comisión de Hacienda (que sustituye el artículo primero transitorio del mensaje), cuya votación separada ha sido solicitada por los diputados Boris Barrera y Raúl Leiva, y que consta en las páginas 486 a 495 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88957",
+      "fecha": "2026-05-20T12:56:44",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Reclamación de la declaración de inadmisibilidad efectuada por la Comisión de Hacienda (Art. 65 inciso cuarto N°1, materia de tributos) respecto de la indicación de las diputadas y los diputados Manouchehri, Yeomans, Barrera, Hassler, Ulloa, Malla y Brito, para incorporar un nuevo artículo:\n\"Artículo nuevo.- Establécese  un  mecanismo  permanente  de  devolución mensual automática del Impuesto al Valor Agregado pagado por personas pertenecientes a hogares clasificados en el 60% más vulnerable según el Registro Social de Hogares, respecto del consumo de los siguientes bienes y servicios: (i) productos contenidos en la canasta básica de alimentos definida por el Instituto Nacional de Estadísticas; (ii) cuentas de electricidad, agua potable y gas de red, hasta los topes que determine el reglamento; (iii) medicamentos contenidos en el Petitorio Nacional de Medicamentos del Ministerio de Salud y bioequivalentes certificados por el Instituto de Salud Pública; y (iv) servicios de internet fijo domiciliario. \nLa  devolución  se  efectuará  automáticamente,  mes  a  mes,  mediante abono en el Bolsillo Familiar Electrónico regulado por la Ley N° 21.550, sobre la base del consumo  promedio  per  cápita  estimado  por  el  Servicio  de  Impuestos  Internos  en coordinación con el Ministerio de Desarrollo Social y Familia. El monto máximo a devolver no podrá exceder de una unidad tributaria mensual por hogar.\".",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88956",
+      "fecha": "2026-05-20T12:52:31",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Reclamación de la declaración de inadmisibilidad efectuada por la Comisión de Hacienda (Art.69 ideas matrices) respecto de la indicación de las diputadas y los diputados Manouchehri, Yeomans, Barrera, Hassler, Ulloa, Malla y Brito, para incorporar un nuevo artículo:  \n\"Artículo nuevo.- Por  el  plazo  de  ciento  ochenta  días  contado  desde  la publicación  de  la  presente  ley,  los  acreedores  bancarios  y  no  bancarios  sujetos  a  la fiscalización de la Comisión para el Mercado Financiero estarán obligados a ofrecer a sus deudores  personas  naturales  con  ingresos  mensuales  inferiores  a  treinta  unidades tributarias mensuales, un plan voluntario de regularización que contemple la condonación íntegra de los intereses penales y de las comisiones devengadas por mora, así como una reprogramación de hasta cuarenta y ocho cuotas, sin nuevas comisiones de cobranza extrajudicial. \nLa Comisión para el Mercado Financiero, en conjunto con el Servicio Nacional del Consumidor, definirá las condiciones operativas del régimen y supervisará su aplicación. La adhesión del deudor será voluntaria y no podrá significar, en caso alguno, una agravación de las condiciones originales del crédito.\".",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88955",
+      "fecha": "2026-05-20T12:48:04",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Reclamación de la declaración de inadmisibilidad efectuada por la Comisión de Hacienda (Art.69 ideas matrices) respecto de la indicación de las diputadas y los diputados Manouchehri, Yeomans, Barrera, Hassler, Ulloa, Malla y Brito, para incorporar un nuevo artículo:\n\"Artículo nuevo.- Se establecerá el derecho al olvido en materia financiera, en los siguientes términos: \n1)  Los responsables  del  tratamiento  de  datos personales  de  carácter económico, financiero, bancario o comercial deberán eliminar de sus registros, internos o de comunicación a terceros, los datos personales relativos a información financiera de deudas impagas o extinguidas de personas naturales, cuando la deuda se hubiere hecho exigible  o  se  hubiere  extinguido -lo  primero  que  ocurra-hace  más  de  cinco  años contados desde la entrada en vigencia de la presente ley. \n2) Las entidades del sistema financiero, bancario y comercial no podrán utilizar la información eliminada en virtud de este artículo, ni la información relativa a deudas extinguidas,  prescritas  o  pagadas,  como  criterio  para  denegar  el  acceso  al  crédito,  a productos financieros o a la apertura de cuentas a una persona natural. Toda denegación de crédito a una persona natural deberá ser fundada por escrito y entregada al solicitante, indicando los criterios objetivos en que se sustenta. \n3) El incumplimiento de las obligaciones establecidas en este artículo se sancionará conforme a la Ley N° 19.628, sobre Protección de la Vida Privada, y, una vez en plena vigencia, conforme a la Ley N° 21.719, sin perjuicio del derecho del titular a obtener indemnización por el daño patrimonial y moral causado.\".",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88954",
+      "fecha": "2026-05-20T12:43:23",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Reclamación de la declaración de inadmisibilidad efectuada por la Comisión de Hacienda (Art.65 inc. cuarto N°1, materia de tributos) respecto de la indicación de las diputadas y los diputados Manouchehri, Yeomans, Barrera, Hassler, Ulloa, Malla y Brito, para incorporar un nuevo artículo, de cuyo tenor dará lectura el señor Secretario: \n\"Artículo nuevo.- Modifícase el artículo vigésimo quinto de la Ley N° 21.755, en orden a establecer en forma permanente la tasa del Impuesto de Primera Categoría a 12,5% para los contribuyentes acogidos al régimen Pro-Pyme contenido en el numeral 3) de  la  letra  D)  del  artículo  14  de  la  Ley  sobre  Impuesto  a  la  Renta,  derogándose  la gradualidad que dispone su elevación a 15% en el año comercial 2028 y a 25% a contar del año comercial 2029. La tasa permanente del 12,5% mantendrá las mismas condiciones de cumplimiento de la cotización empleadora establecidas en el artículo cuarto transitorio de la Ley N° 21.735.\".",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88953",
+      "fecha": "2026-05-20T12:39:06",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Reclamación de la declaración de inadmisibilidad efectuada por la Comisión de Trabajo y Seguridad Social (Art 65, inciso cuarto N° 1, fijación y cálculo de impuestos) respecto de la indicación de las diputadas Gazmuri, Hassler, Castillo, Pizarro, Serrano, Santibáñez  y González,  y  de  los  diputados Barrera, Barraza, Salinas, Cuello y Gatica, para agregar un artículo nuevo:\n“Artículo 36: Impuesto a los súper ricos.\nEstablécese  un  impuesto  al  patrimonio,  al  que  quedarán  sujetos  los siguientes contribuyentes:\n1.Personas  naturales  domiciliadas  o  residentes  en  Chile  cuyo patrimonio neto total, determinado conforme a las reglas del presente artículo, exceda de USD 100.000.000 (cien millones de dólares de los Estados Unidos de América), o su equivalente en moneda nacional al 31 de diciembre de cada año.\n2.Personas naturales cuyo patrimonio neto total, determinado conforme a las reglas del presente artículo, exceda de USD 100.000.000 (cien millones de dólares de los Estados Unidos de América), o su equivalente en moneda nacional al 31 de diciembre de cada año, que trasladaron su residencia o domicilio tributario fuera de Chile, las que estarán afectas durante un período de cinco años contados desde el año del traslado.\nLa base imponible del impuesto estará constituida por el patrimonio neto total del contribuyente descontado el monto total de sus deudas exigibles, determinado con referencia al 31 de diciembre del año respectivo. El patrimonio neto total se entenderá como el valor de mercado de la totalidad de sus activos, incluyendo bienes, derechos, acciones, participaciones en sociedades cotizadas y no cotizadas en bolsa, instrumentos financieros, activos en el extranjero, descontados los pasivos.\nLa  tasa  del  impuesto  será  de  un  2%  del  patrimonio  neto  total  del contribuyente Contra este impuesto se podrá imputar el total de impuestos personales efectivamente pagados en Chile, durante el respectivo año.\nEl  Servicio  de  Impuestos  Internos  podrá  requerir  información  a organismos públicos nacionales e instituciones financieras privadas, así como autoridades extranjeras conforme a los tratados internacionales vigentes y mecanismos de intercambio automático  de información,  incluyendo  registros  de  beneficiarios  finales  y  estándares internacionales de transparencia fiscal.\na)Plan  Nacional  de Infraestructura  para  la  Educación  Pública,  cuyo objeto será la conservación y reposición de establecimientos educacionales de nivel inicial, básica y media.\nb)Garantizar el derecho a gratuidad en el transporte público urbano e interurbano a los estudiantes de enseñanza media.\nc)Ampliación  de  los  siguientes  programas  de  la  Junta  Nacional  de Auxilio Escolar y Becas:\ni.Servicios Médicos.\nii.Hogares  y  Residencias  Estudiantiles  \nii.  Beca  Mantención  para Educación Superior.\niii.Útiles Escolares.\niv.Programa de Alimentación Escolar.\nd) Ampliación de los siguientes programas del Servicio Nacional de Capacitación y Empleo:\ni. Subsidio Empleo a la mujer.\nII.Subisidio al Empleo Joven.\nii. Becas de Capacitación del Fondo de Cesantía Solidario.\nEl exceso de lo recaudado por el impuesto al patrimonio establecido en este artículo se destinará a Ingresos Generales de la Nación.”.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88952",
+      "fecha": "2026-05-20T12:33:02",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Reclamación de la declaración de inadmisibilidad efectuada por la Comisión de Hacienda (Art. 69, ideas matrices; Art.65 inc.3 y Art.65 N°2, incide en materia financiera del Estado y en materia tributaria) respecto de la indicación de las diputadas y los diputados Manouchehri, Yeomans, Barrera, Hassler, Ulloa, Malla y Brito, para agregar un artículo nuevo, que introduce modificaciones a la ley N° 20.712, sobre Administración de fondos de terceros y carteras individuales y deroga los cuerpos legales que indica, y que consta en las páginas 525 a 528 del informe de la Comisión de Hacienda.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88951",
+      "fecha": "2026-05-20T12:30:40",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Reclamación de la declaración de inadmisibilidad efectuada por la Comisión de Hacienda (Art 65, inciso cuarto N° 1, materia de tributos) respecto de la indicación de las diputadas y los diputados Manouchehri, Yeomans, Barrera, Hassler, Ulloa, Malla y Brito, para incorporar un nuevo artículo:\n\"Artículo nuevo.- Introdúcense las siguientes modificaciones en la Ley Nº 16.271, de Impuesto a las Herencias, Asignaciones y Donaciones, cuyo texto refundido, coordinado y sistematizado se encuentra fijado en el artículo 8° del decreto con fuerza de ley N° 1, del año 2000, del Ministerio de Justicia: \n1. Reemplázase en el artículo 1 la expresión “artículo 1.386” por “artículos 1136 y 1386”. \n2. Reemplázase, en el inciso primero del numeral 8º del artículo 18, la frase “En caso que estas donaciones se efectúen a los legitimarios en uno o varios ejercicios comerciales, todas las donaciones se acumularán en los términos del artículo 23 hasta por un lapso de 10 años comerciales, para cuyo efecto el legitimario deberá informar las donaciones conforme al siguiente inciso” por la oración “No gozarán de esta exención las donaciones efectuadas a personas que tengan la calidad de legitimarios o sean beneficiarias de la cuarta de mejoras del donante, según lo dispuesto en el artículo 1184 del Código Civil. Tampoco gozarán de esta exención las donaciones efectuadas a partes relacionadas con el donante en los términos del numeral 17 del artículo 8 del Código Tributario.”.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88950",
+      "fecha": "2026-05-20T12:26:09",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Reclamación de la declaración de inadmisibilidad efectuada por la Comisión de Hacienda (art 69, ideas matrices) respecto de la indicación de las diputadas y los diputados Gazmuri, Hassler, Castillo, Pizarro, Serrano, Santibáñez, González, Barrera, Barraza, Salinas, Cuello y Gatica para incorporar un nuevo artículo, de cuyo tenor dará lectura el señor Secretario: \n\"Artículo nuevo. Modifíquese el decreto con fuerza de ley N° 4/20.018, de 2006, del Ministerio de Minería, que fija el texto refundido, coordinado y sistematizado del decreto con fuerza de ley N° 1, de Minería, de 1982, Ley General de Servicios Eléctricos, en materia de energía eléctrica, en el siguiente sentido: \nAgrégase en el artículo 212°-11, en el inciso primero, luego del segundo punto seguido, la siguiente expresión: 'Los consejeros no podrán percibir una remuneración bruta  mensual  mayor  a  ochenta  unidades  tributarias  mensuales.  En  el  caso  de  su Presidente,  dicha  remuneración  no  podrá  exceder  las  noventa  unidades  tributarias mensuales.'.\"",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88949",
+      "fecha": "2026-05-20T12:21:21",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Reclamación de la declaración de inadmisibilidad efectuada por la Comisión de Hacienda (administración financiera o presupuestaria del Estado, Art. 65, inciso tercero y no tiene relación con ideas matrices o fundamentales del proyecto, Art. 69) respecto de la indicación del diputado Jorge Brito, de cuyo tenor dará lectura el señor Secretario: \n“Para agregar un nuevo artículo del siguiente tenor: \n“Artículo nuevo.- Modifícase la ley N° 21.808 que crea el nuevo Subsidio Unificado al Empleo, en el siguiente sentido: \na) Deróguese el artículo 7 \nb) En el artículo 18 modifíquese la frase “doce meses” por “veinticuatro meses”. \nc) En su artículo primero  transitorio  modificase  “séptimo”  por  “quinto”.  \nd)  En  su  artículo  segundo  transitorio eliminase el numeral 1.”.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88948",
+      "fecha": "2026-05-20T12:17:36",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Indicación renovada del diputado Raúl Soto para agregar un nuevo artículo permanente: \n“Incorpórese el siguiente artículo nuevo al proyecto de ley, del tenor que a continuación se expone: \nArtículo nuevo: Reemplazase el artículo 9° de la ley 18.010, por el siguiente texto:  \nArtículo  9°:  No  se  podrá  estipular,  en  ningún  caso,  el  pago  de  intereses  sobre intereses, ni capitalizarlos en cada vencimiento o renovación. Los intereses capitalizados con  infracción de lo dispuesto en el inciso anterior serán inoponibles al deudor y no tendrán efecto alguno.”.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88947",
+      "fecha": "2026-05-20T12:16:39",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Reclamación de la declaración de inadmisibilidad efectuada por la Comisión de Hacienda (art 69, ideas matrices) respecto de la indicación del diputado Raúl Soto, de cuyo tenor dará lectura el señor Secretario: \n“Incorpórese el siguiente artículo nuevo al proyecto de ley, del tenor que a continuación se expone: \nArtículo nuevo: Reemplazase el artículo 9° de la ley 18.010, por el siguiente texto:  \nArtículo  9°:  No  se  podrá  estipular,  en  ningún  caso,  el  pago  de  intereses  sobre intereses, ni capitalizarlos en cada vencimiento o renovación. Los intereses capitalizados con  infracción de lo dispuesto en el inciso anterior serán inoponibles al deudor y no tendrán efecto alguno.”.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88946",
+      "fecha": "2026-05-20T12:12:23",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Renovación de una indicación de la diputada Ana María Gazmuri para agregar un artículo nuevo permanente, de cuyo tenor dará lectura el señor Secretario: \n“Artículo  nuevo permanente.- Modifícase   la   ley   N°   16.282,   que   fija   disposiciones permanentes para casos de sismos o catástrofes, en el siguiente sentido:\nAgrégase el siguiente artículo 2° bis:\n“Artículo 2° bis.-Las  empresas  concesionarias  de  distribución  eléctrica, de servicios sanitarios y de distribución de gas estarán obligadas a reconectar, de forma gratuita y sin condición previa de pago, a los usuarios residenciales y a las micro, pequeñas o  medianas  empresas  en  los  términos  de  la  ley  N°  20.416,  con  domicilio  en  zonas declaradas en estado de catástrofe conforme a esta ley, que hubieren sido desconectados con anterioridad o durante la vigencia de dicha declaración por causales vinculadas alno pago de obligaciones dinerarias.\nLa   reconexión   deberá   efectuarse   dentro   de   los   siguientes   plazos, contados desde la solicitud del usuario:\na) Cuarenta y ocho horas para el suministro eléctrico.\nb) Cuarenta y ocho horas para el suministro de gas.\nc) Veinticuatro horas para el suministro de agua potable y alcantarillado. \nQueda prohibido a las empresas concesionarias cobrar al usuario cargo alguno por concepto de reconexión, reposición, visita técnica, revisión de instalaciones u otro similar, cualquiera sea la denominación que se le asigne, cuando la reconexión opere en virtud de lo dispuesto en este artículo.\nLos    plazos    establecidos    en    este    artículo    son    perentorios.    Su incumplimiento dará derecho al usuario a exigir una compensación equivalente a tres días de suministro gratuito por cada día de retardo, la que será descontada automáticamente de la facturación del período siguiente.\nEl  usuario  podrá  demandar  el  cumplimiento  forzoso  de  las  obligaciones establecidas en este artículo ante el tribunal civil competente”.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88945",
+      "fecha": "2026-05-20T12:09:13",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Renovación de una indicación de las diputadas y los diputados  Crisóstomo,  Bassa,  Gatica  y  Serrano para agregar un artículo final, permanente, de cuyo tenor dará lectura el señor Secretario:\n“Articulo  permanente  nuevo.- Sin   perjuicio   de   la   regulación establecida  en  esta  ley  para  determinar  la  indemnización  a  que  da  origen  la revocación judicial  de  la  resolución de  calificación  ambiental;  para  que  el  monto  se considere   firme y ejecutoriado, deberá someterse al juicio,   procedimiento y estándares que se establecen para la responsabilidad del Estado por error judicial”.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88944",
+      "fecha": "2026-05-20T12:07:14",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Renovación de indicación de las diputadas y diputados Crisóstomo,  Bassa,  Gatica  y  Serrano para agregar un artículo final, permanente, de cuyo tenor dará lectura el señor Secretario:\n“Articulo  permanente  nuevo. -Sin    perjuicio    de    las    normas establecidas  en  esta  ley  para  las  medidas  cautelares  que  pueden  adoptar  los tribunales  de  justicia  en  las  hipótesis  que  esta  ley  establece,  los  tribunales  podrán aplicar  los  plazos  y  reglas  generales,  desatendiendo  los  plazos  restrictivos  de  esta ley,  cuando consideren necesario  hacerlo, fundado  en  alguno  de  los  principios  que ordenan la regulación medio ambiental o aquellos regulados en el artículo 19 de la Constitución, lo que deberá fundarse en una resolución”.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88943",
+      "fecha": "2026-05-20T12:05:39",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Inciso tercero del artículo 30 nuevo del texto propuesto por la Comisión de Hacienda, cuya votación separada ha sido solicitada por el diputado Patricio Pinilla, y que consta en las páginas 484 a 485 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88942",
+      "fecha": "2026-05-20T12:04:33",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 30 nuevo del texto propuesto por la Comisión de Hacienda, cuya votación separada ha sido solicitada por la diputada Ana María Gazmuri y por el diputado Boris Barrera, y que consta en las páginas 483 a 486 del Comparado, con la salvedad de su inciso tercero, cuya votación separada a su vez ha sido solicitada.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88941",
+      "fecha": "2026-05-20T12:02:18",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Número 4 del artículo 29 del texto propuesto por la Comisión de Hacienda (que sustituye el artículo 33), cuya votación separada ha sido solicitada por el diputado Raúl Leiva, y que consta en las páginas 479 y 480 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88940",
+      "fecha": "2026-05-20T12:00:54",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Número 3 del artículo 29 del texto propuesto por la Comisión de Hacienda (que sustituye el artículo 33), cuya votación separada ha sido solicitada por el diputado Raúl Leiva, y que consta en las páginas 474 a 479 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88939",
+      "fecha": "2026-05-20T11:52:24",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 29 del texto propuesto por la Comisión de Hacienda (que sustituye el artículo 33), cuya votación separada ha sido solicitada por las diputadas Ana María Gazmuri, Gael Yeomans y los diputados Boris Barrera, Jorge Brito, Raúl Leiva, y que consta en las páginas 455 a 483 del Comparado, con la salvedad de sus numerales 3) y 4), cuya votación separada a su vez ha sido solicitada.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88938",
+      "fecha": "2026-05-20T11:50:57",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 28 del texto propuesto por la Comisión de Hacienda (art 32 del mensaje), cuya votación separada ha sido solicitada por la diputada Ana María Gazmuri y por el diputado Boris Barrera, y que consta en las páginas 453 a 455 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88937",
+      "fecha": "2026-05-20T11:49:51",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 27 del texto propuesto por la Comisión de Hacienda (artículo 31 del mensaje), cuya votación separada ha sido solicitada por el diputado Boris Barrera, y que consta en las páginas 446 a 453 del Comparado",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88936",
+      "fecha": "2026-05-20T11:48:45",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 26 en los términos propuestos por la Comisión de Trabajo y Seguridad Social (art 30 del mensaje), y que consta en las páginas 444 a 446 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88935",
+      "fecha": "2026-05-20T11:47:48",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 25 del texto propuesto por la Comisión de Hacienda (art 29 del mensaje), cuya votación separada ha sido solicitada por la diputada Ana María Gazmuri y por el diputado Boris Barrera, y que consta en las páginas 443 a 444 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88934",
+      "fecha": "2026-05-20T11:46:55",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 24 del texto propuesto por la Comisión de Hacienda (art 28 del mensaje), cuya votación separada ha sido solicitada por la diputada Ana María Gazmuri y por el diputado Boris Barrera, y que consta en las páginas 440 a 443 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88933",
+      "fecha": "2026-05-20T11:45:50",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 27 del mensaje, que la Comisión de Hacienda y la Comisión de Trabajo y Seguridad Social proponen rechazar, y que consta en las páginas 436 a 440 del comparado.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88932",
+      "fecha": "2026-05-20T11:44:38",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 26 del mensaje, que la Comisión de Hacienda y la Comisión de Trabajo y Seguridad Social proponen rechazar, y que consta en las páginas 417 a 436 del comparado.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88931",
+      "fecha": "2026-05-20T11:43:40",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 23 del texto sugerido por la Comisión de Hacienda (que sustituye el artículo 25 del mensaje), cuya votación separada ha sido solicitada por los diputados Boris Barrera y Raúl Leiva, y que consta en la página 417 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88930",
+      "fecha": "2026-05-20T11:42:11",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 22 del texto propuesto por la Comisión de Hacienda (artículo 24 del mensaje), cuya votación separada ha sido solicitada por el diputado Boris Barrera, y que consta en las páginas 413 a 417 del Comparado",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88929",
+      "fecha": "2026-05-20T11:40:52",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 23 del mensaje, que la Comisión de Hacienda propone rechazar, y que consta en las páginas 412 a 413 del comparado.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88928",
+      "fecha": "2026-05-20T11:39:47",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 21 del texto propuesto por la Comisión de Hacienda (que sustituye al artículo 22 del mensaje), cuya votación separada ha sido solicitada por las diputadas Ana María Gazmuri, Gael Yeomans y por los diputados Boris Barrera, Jorge Brito, y que consta en las páginas 399 a 412 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88927",
+      "fecha": "2026-05-20T11:29:59",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 20 nuevo, propuesto por la Comisión de Hacienda, cuya votación separada ha sido solicitada por la diputada Ana María Gazmuri y por el diputado Boris Barrera, y que consta en la página 398 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88926",
+      "fecha": "2026-05-20T11:29:14",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 19 del texto propuesto por la Comisión de Hacienda y la Comisión de Medio Ambiente (que sustituye el artículo 21 del mensaje), cuya votación separada ha sido solicitada por las diputadas Ana María Gazmuri, Gael Yeomans y por los diputados Boris Barrera, Jorge Brito, y que consta en las páginas 388 a 398 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88925",
+      "fecha": "2026-05-20T11:28:22",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 18 del texto propuesto por la Comisión de Hacienda y la Comisión de Medio Ambiente (art 20 del mensaje), cuya votación separada ha sido solicitada por las diputadas Ana María Gazmuri, Gael Yeomans y por los diputados Boris Barrera, Jorge Brito, y que consta en las páginas 387 a 388 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88924",
+      "fecha": "2026-05-20T11:25:51",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 17 del proyecto (artículo 19 del mensaje), en los términos propuestos por la Comisión de Hacienda y la Comisión de Medio Ambiente, cuya votación separada ha sido solicitada por las diputadas Ana María Gazmuri, Gael Yeomans y por los diputados Boris Barrera, Jorge Brito, que consta en la página 373 a 387 del Comparado, y que requiere para su aprobación del voto favorable de 78 diputadas y diputados por tratarse de una norma de rango orgánico constitucional.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88923",
+      "fecha": "2026-05-20T11:19:36",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 16 del texto propuesto por la Comisión de Hacienda y la Comisión de Medio Ambiente (que sustituye al artículo 18 del mensaje), cuya votación separada ha sido solicitada por la diputada Ana María Gazmurio y por los diputados Boris Barrera, Raúl Leiva, y que consta en las páginas 372 a 373 del comparado.\nCabe hacer presente que su inciso final requiere para su aprobación del voto favorable de 78 diputadas y diputados por tratarse de una norma de rango orgánico constitucional.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88922",
+      "fecha": "2026-05-20T11:17:14",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 15 del texto propuesto por la Comisión de Hacienda y la Comisión de Medio Ambiente (artículo 17 del mensaje), cuya votación separada ha sido solicitada por los diputados Boris Barrera, Raúl Leiva, y que consta en las páginas 371 a 372 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88921",
+      "fecha": "2026-05-20T11:13:37",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 14 del texto propuesto por la Comisión de Hacienda y la Comisión de Medio Ambiente (que sustituye al artículo 16 del mensaje), cuya votación separada ha sido solicitada por la diputada Ana María Gazmuri y por los diputados Boris Barrera y Raúl Leiva, que consta en la página 371 del comparado, y que requiere para su aprobación del voto favorable de 78 diputadas y diputados por tratarse de una norma de rango orgánico constitucional.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88920",
+      "fecha": "2026-05-20T11:08:58",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 13 del texto propuesto por la Comisión de Hacienda y la Comisión de Medio Ambiente (que sustituye al artículo 15 del mensaje), cuya votación separada ha sido solicitada por los diputados Boris Barrera, Raúl Leiva, y que consta en las páginas 367 a 371 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88919",
+      "fecha": "2026-05-20T11:06:19",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 12 del texto propuesto por la Comisión de Hacienda y por la Comisión de Medio Ambiente (que sustituye al artículo 14 del mensaje), cuya votación separada ha sido solicitada por la diputada Gael Yeomans y los diputados Boris Barrera, Jorge Brito, Raúl Leiva y Raúl Soto, y que consta en la página 365 a 367 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88918",
+      "fecha": "2026-05-20T11:05:19",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Renovado una indicación de las diputadas y diputados Serrano, Gatica, Bassa, Crisóstomo y Tello para  reemplazar  los  artículos  12,  13,  14,  15  y  16  del  texto propuesto por la Comisión de Hacienda,  por  uno  del siguiente tenor: \n“Artículo 12.- En caso que una Resolución de Calificación Ambiental sea anulada por sentencia  judicial  firme  y  ejecutoriada,  el  titular  podrá  solicitar  indemnización, cumpliendo los requisitos que el ordenamiento jurídico dispone para el error judicial.”",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88917",
+      "fecha": "2026-05-20T11:03:52",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Renovación de una indicación de las diputadas y diputados Serrano, Gatica, Bassa, Crisóstomo y Tello, para agregar un nuevo numeral al artículo 11 del proyecto, para incorporar un nuevo artículo 29 bis en la ley 19.300 del siguiente tenor: \n\"Art 29 bis.- La  acción  de  reclamación  a  que  se  refiere  el  artículo  anterior  podrá ser  ejercida,  asimismo,  por  quienes  acrediten  ser  titulares  de  derechos  o  intereses legítimos  que  puedan  resultar  afectados  por los  impactos  del  proyecto  o  actividad evaluado,  con   independencia   de   si   hubieren   participado   en   el   proceso   de participación ciudadana.\"",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88916",
+      "fecha": "2026-05-20T11:02:32",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Numeral 6) del artículo 11 propuesto por la Comisión de Hacienda (correspondiente al art 13 del mensaje), que la Comisión de Medio Ambiente propone rechazar, que consta en la página 352 del comparado, y que requiere para su aprobación del voto favorable de 78 diputadas y diputados por tratarse de una norma de rango orgánico constitucional.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88915",
+      "fecha": "2026-05-20T11:00:25",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 11 propuesto por la Comisión de Hacienda y Medio Ambiente (correspondiente al art 13 del mensaje), cuya votación separada ha sido solicitada por la diputada Gael Yeomans y los diputados Boris Barrera, Jorge Brito, Raúl Leiva, y que consta en las páginas 338 a 365 del comparado, con la salvedad de su numeral 6).",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88914",
+      "fecha": "2026-05-20T10:59:20",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Reclamación de la declaración de inadmisibilidad efectuada por la Comisión de Hacienda (Art. 65 inciso cuarto N°1, exenciones tributarias.) respecto de la indicación de las diputadas y diputados Gazmuri, Hassler, Castillo, Pizarro, Serrano, Santibáñez, González, Barrera, Barraza, Salinas, Cuello y Gatica, para agregar el siguiente artículo 10 bis nuevo en el proyecto de ley: \n\"Artículo 10 bis.- Es contrario a la probidad y transparencia de la función pública, que el beneficio fiscal del Impuesto Territorial del artículo anterior, sea percibido por alguna  persona  contribuyente  adulto  mayor,  en  tanto  tenga  cargo  de  responsabilidad pública de Subsecretario o Ministro de Estado.\"",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88913",
+      "fecha": "2026-05-20T10:54:39",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Reclamación de la declaración de inadmisibilidad efectuada por la Comisión de Hacienda (Art. 65 inciso cuarto N°1, exenciones tributarias.) respecto de la indicación del diputado Cesar Valenzuela, para agregar el siguiente artículo 10 bis nuevo en el proyecto de ley: \n\"Artículo 10 bis.- La exención regulada en el artículo anterior entrará en vigencia en la medida que se dicte una ley que asegure la compensación de manera íntegra de los ingresos al Fondo Común Municipal que se dejarán de percibir por aplicación de la misma. Dicha iniciativa deberá ser ingresada por el Presidente de la República antes del 30 julio del 2026.\"",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88912",
+      "fecha": "2026-05-20T10:50:34",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 10 del texto propuesto por la Comisión de Hacienda (que sustituye el 12 del mensaje), cuya votación separada ha sido solicitada por las diputadas Ana María Gazmuri, Gael Yeomans y los diputados Boris Barrera, Jorge Brito, Raúl Leiva, que consta en las páginas 330 a 338 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88911",
+      "fecha": "2026-05-20T10:46:46",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "En votación la indicación renovada del diputado Jorge Brito que consta en las páginas 603 a 620 del informe de la Comisión de Hacienda.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88910",
+      "fecha": "2026-05-20T10:45:22",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Reclamación de la declaración de inadmisibilidad efectuada por la Comisión de Hacienda (incide en  administración financiera o presupuestaria del Estado, Art. 65, inciso tercero y no tiene relación con ideas matrices o fundamentales del proyecto, Art. 69) respecto de la indicación del diputado Jorge Brito, que consta en las páginas 603 a 620 del informe de la Comisión de Hacienda, y que se refiere a la modificación del Código del Trabajo para establecer un sistema de Sala Cuna Universal.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88909",
+      "fecha": "2026-05-20T10:42:48",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 9 del proyecto, en los términos propuestos por la Comisión de Hacienda, cuya votación separada ha sido solicitada por las diputadas Ana María Gazmuri, Gael Yeomans y por los diputados Boris Barrera, Jorge Brito, Raúl Leiva, y que consta en las páginas 213 a 330 del Comparado",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88908",
+      "fecha": "2026-05-20T10:41:54",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Numeral 4) del artículo 8 del proyecto (art 10 del mensaje), en los términos propuestos por la Comisión de Hacienda, cuya votación separada ha sido solicitada por el diputado Raúl Leiva, y que consta en las páginas 188 a 213 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88907",
+      "fecha": "2026-05-20T10:41:00",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Numeral 3) del artículo 8 del proyecto (art 10 del mensaje), en los términos propuestos por la Comisión de Hacienda, cuya votación separada ha sido solicitada por el diputado Raúl Leiva, y que consta en las páginas 182 a 188 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88906",
+      "fecha": "2026-05-20T10:39:59",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 8 del proyecto (art 10 del mensaje), en los términos propuestos por la Comisión de Hacienda, cuya votación separada ha sido solicitada por la diputada Gael Yeomans y los diputados Boris Barrera, Jorge Brito y Raúl Soto, que consta en las páginas 67 a 213 del Comparado, con la salvedad de sus numerales 3) y 4), cuya votación separada a su vez ha sido solicitada.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88905",
+      "fecha": "2026-05-20T10:38:56",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 7 del texto propuesto por la Comisión de Hacienda (que sustituye el artículo 9 del mensaje), cuya votación separada ha sido solicitada por las diputadas Ana María Gazmuri, Gael Yeomans y los diputados Boris Barrera, Jorge Brito, Raúl Leiva, que consta en las páginas 52 a 67 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88904",
+      "fecha": "2026-05-20T10:37:40",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 8 del mensaje, que la Comisión de Hacienda propone rechazar, y que consta en la página 51 y 52 del comparado.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88903",
+      "fecha": "2026-05-20T10:36:32",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 6 en los términos propuestos por la Comisión de Hacienda y por la Comisión de Medio Ambiente (artículo 7 del mensaje), cuya votación separada ha sido solicitada por la diputada Ana María Gazmuri y por el diputado Boris Barrera, y que consta en la página 27 a 51 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88902",
+      "fecha": "2026-05-20T10:35:38",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 5 en los términos propuestos por la Comisión de Hacienda y por la Comisión de Medio Ambiente (artículo 6 del mensaje), cuya votación separada ha sido solicitada por la diputada Ana María Gazmuri y por el diputado Boris Barrera, y que consta en la página 26 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88901",
+      "fecha": "2026-05-20T10:34:44",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 4 en los términos propuestos por la Comisión de Hacienda y por la Comisión de Medio Ambiente (artículo 5 del mensaje), cuya votación separada ha sido solicitada por la diputada Ana María Gazmuri, y los diputados Boris Barrera y Jaime Coloma, que consta en las páginas 24 a 25 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88900",
+      "fecha": "2026-05-20T10:33:25",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 4 del mensaje, que la Comisión de Hacienda propone rechazar, y que consta en las páginas 18 a 24 del comparado.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88899",
+      "fecha": "2026-05-20T10:32:29",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Reclamación de la declaración de inadmisibilidad efectuada por la Comisión de Hacienda (Art.65 inc. 3, incide en la administración financiera) respecto de la indicación del diputado Barrera, para incorporar en el numeral 2) del artículo 3, un artículo nuevo:\nAgréguese, a continuación del artículo 24 quinquies en el decreto con fuerza de ley N° 2, de 1959, del Ministerio de Obras Públicas, sobre Plan Habitacional, contenido en el decreto Nº 1.101, de 1960, creado por esta ley, un artículo 24 sexies, del siguiente tenor: \n“Artículo 24 sexies.- El Servicio de Impuestos Internos estará habilitado para llevar un registro actualizado de los contribuyentes que hayan comunicado su opción de ingresar al régimen de la presente ley señalando quienes hayan comunicado  su  decisión  de  salida, con indicación, en este último caso, de que no podrán volver a ingresar. Dicho registro, sin incluir datos de carácter personal conforme a la ley Nº 19.628, deberá contener al menos el número total de contribuyentes activos en el régimen, el número de contribuyentes que han ejercido la opción de salida desde la entrada en vigencia del presente régimen y el número de viviendas económicas comprendidas en cada categoría, desagregado por región. Esta información puede ser actualizada semestralmente y estará disponible en el sitio web del Servicio.”.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88898",
+      "fecha": "2026-05-20T10:28:20",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 24 ter contenido en el numeral 2) del artículo 3 del proyecto, en los términos propuestos por la Comisión de Hacienda, cuya votación separada ha sido solicitada por el diputado Raul Leiva, y que consta en las páginas 13 a 16 del Comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88897",
+      "fecha": "2026-05-20T10:27:15",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 3 del proyecto, en los términos propuestos por la Comisión de Hacienda, cuya votación separada ha sido solicitada por las diputadas Ana María Gazmuri, Gael Yeomans, y por los diputados Boris Barrera, Jorge Brito, Raúl Leiva, que consta en las páginas 8 a 18 del Comparado, con la salvedad del artículo 24 ter que agrega su numeral 2), cuya votación separada a su vez ha sido solicitada.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88896",
+      "fecha": "2026-05-20T10:26:14",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 2 del proyecto, en los términos propuestos por la Comisión de Hacienda, cuya votación separada ha sido solicitada por las diputadas Ana María Gazmuri, Gael Yeomans, y los diputados Boris Barrera, Jorge Brito, Raúl Leiva y Raúl Soto, y que consta en la página 7 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88895",
+      "fecha": "2026-05-20T10:24:40",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 1 del proyecto, en los términos propuestos por la Comisión de Hacienda, cuya votación separada ha sido solicitada por las diputadas Ana María Gazmuri, Gael Yeomans, y los diputados Boris Barrera, Jorge Brito, Raúl Leiva y Raúl Soto, y que consta en las páginas 1 a 5 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88894",
+      "fecha": "2026-05-20T10:21:26",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 11 número 6; el artículo 14; el artículo 16 inciso final; y el artículo 17 del proyecto",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "88893",
+      "fecha": "2026-05-20T10:19:59",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": null,
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:41"
+  }
+}

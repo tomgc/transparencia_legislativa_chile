@@ -1,0 +1,115 @@
+{
+  "boletin": "18269-01",
+  "nombre": "Establece medidas de prevención y control de riesgos asociados a perros salvajes o ferales, en la seguridad de las personas, el ganado y la fauna silvestre",
+  "tipo_iniciativa": "Moción",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2026-05-13",
+  "tramitacion": {
+    "etapa_actual": "Primer trámite constitucional (C.Diputados)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2026-05-13",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-05-20",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Agricultura, Silvicultura y Desarrollo Rural",
+        "sesion": "27/374"
+      },
+      {
+        "fecha": "2026-06-08",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta oficio N°22/8/2026 de la Comisión de Agricultura, mediante el cual solicita refundir los poryectos boletines N°16962-01 y 18269-01. ACORDADO",
+        "sesion": "30/374"
+      },
+      {
+        "fecha": "2026-06-15",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 148-374 que hace presente la urgencia Simple",
+        "sesion": "33/374"
+      },
+      {
+        "fecha": "2026-06-22",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 159-374 que retira la urgencia Simple",
+        "sesion": "36/374"
+      },
+      {
+        "fecha": "2026-07-08",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta, Oficio de la Comisión de Agricultura, Silvicultura y Desarrollo Rural (N° 40/8/2026), mediante el cual solicita recabar el acuerdo de la Sala para refundir el proyecto, iniciado en moción, contenido en el boletín 18400-01, con los ya refundidos boletines 16962-01 y 18269-01. ACORDADO.",
+        "sesion": "41/374"
+      }
+    ]
+  },
+  "autores": [
+    {
+      "parlamentario_id": "803",
+      "nombre": "René Alinco Bustos",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "815",
+      "nombre": "Sergio Bobadilla Muñoz",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1140",
+      "nombre": "Daniel Lilayu Vivanco",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1183",
+      "nombre": "Flor Weisse Novoa",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1202",
+      "nombre": "Eduardo Cretton Rebolledo",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1199",
+      "nombre": "Jaime Coloma Álamos",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1233",
+      "nombre": "Ricardo Neumann Bertín",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1249",
+      "nombre": "Omar Sabat Guzmán",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1257",
+      "nombre": "Alejandra Valdebenito Torres",
+      "en_padron_vigente": true
+    }
+  ],
+  "votaciones": [],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": true,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:41"
+  }
+}
