@@ -261,3 +261,85 @@ El BACKLOG_DELTA debe traer SIEMPRE los pares de la nota 'Discrepancia
 heredada', no solo los de la tabla de clasificacion. Tercera repeticion
 (v18, v19, v20). Si el redactor solo actualiza la tabla, la nota queda stale
 y la corrige el cierre, que no deberia inventar reemplazos.
+
+---
+
+## v21 — 2026-08-13
+
+**Sesión 21:** entidad `proyecto` con tramitación desde el SIL (P-66, actos A y B).
+Paquete: `paquete_cierre_v21.md`. `push_autorizado: no`.
+
+### Fases
+
+| Fase | Resultado | Evidencia |
+|---|---|---|
+| F0 | CUMPLE tras **dos rechazos previos** (ver desviaciones) | 7 campos; 6 delimitadores 1 a 1 (L12/635, L638/722, L725/749); 0 placeholders sobre 6 patrones; `raiz_proyecto` == `pwd`; correlativo triple v20+1=21; backlog 60 == 60; sucio = solo el paquete |
+| F1 | CUMPLE | `sello_escaner: regenerar` → `Rscript 00_escanear_proyecto.R`, exit 0. Generó `20260813_192111_estructura.{md,txt}` y `estructura_actual.{md,txt}`; podó la corrida `20260813_091918` |
+| F2 | CUMPLE | `git mv` de `traspaso_cierre_v20.md` a `archivo/`. 20 en archivo, 0 planos |
+| F3 | CUMPLE | `traspaso_cierre_v21.md`, 620 líneas. **`vigentes = 1`** |
+| F4 | CUMPLE | 6 operaciones, todas con verificación de unicidad. Resultado: **62 entradas, 1-62, contigua, sin huecos ni duplicados**; primera nueva = 61 = 60+1 |
+| F5 | CUMPLE | `ESTADO.md`, 22 líneas, abre en `---` |
+| F6 | CUMPLE | 0 hallazgos: RUT 0, OneDrive/Dropbox 0, coautoría 0, placeholders 0, sobre los 5 archivos escritos |
+| F7 | CUMPLE | commit selectivo; 3 diffs bloque↔destino vacíos; paquete eliminado |
+| F8 | Sin push | `push_autorizado: no` |
+
+### Detalle de F4
+
+Seis operaciones, cada una con verificación de unicidad (ausente o duplicada → `stop()`):
+
+1. **Reparación estructural declarada por el paquete:** insertado
+   `### Sesion 20 (v20) — veredicto de fuentes tematicas BCN (P-68)` antes de la
+   entrada 59, que quedó colgando bajo el encabezado de la sesión 19 porque el
+   cierre v20 no creó el suyo. No se renumeró ni reescribió ninguna entrada.
+2. Encabezado de la sesión 21 más las entradas **61** y **62**, al final del detalle.
+3. `diagnostico/exploracion` 13 → 14; `consolidacion/salida` 3 → 4.
+4. Suma de la columna recalculada **en R**: **63**, que coincide con la declarada
+   por el paquete. Porcentajes recalculados sobre 63 y reescrita la columna completa.
+5. Nota de la discrepancia heredada actualizada (61→63, 60→62, base y cierre).
+6. Fila de la sesión 21 en el resumen y `Total` 60 → 62.
+
+**Declaración exigida por el propio delta:** los porcentajes recalculados suman
+**99,9** y no 100,0. El delta ordena declarar la diferencia en vez de ajustar
+ninguna celda a mano, y así se hizo: la nota del backlog dice ahora "en este corte
+suman 99,9 … y cuando no sumen 100,0 sera por redondeo a un decimal, no por una
+entrada sobrante". La discrepancia heredada sigue abierta con el mismo signo y la
+misma unidad (columna 63, entradas 62).
+
+### Desviaciones — dos rechazos de F0, uno legítimo y uno mío
+
+**Rechazo 1 (legítimo).** El primer paquete no traía los delimitadores
+`<<<BLOQUE … BLOQUE>>>` que exige §2 del instrumento (0 ocurrencias de `<<<` y de
+`>>>`; solo comentarios HTML que marcaban el inicio y no el cierre), y su campo
+`escaner` decía `regenerar` en vez de nombrar el script. Sin marca de cierre, las
+fronteras de cada bloque solo podían inferirse, y F7.3 exige diffear cada bloque
+contra su destino: ese diff habría validado un recorte propio, no el contenido del
+redactor. El redactor corrigió ambas cosas.
+
+**Rechazo 2 (error mío, y el más caro de la sesión).** Rechacé el paquete
+corregido afirmando que `backlog_ultimo_previo: 60` no cuadraba con el disco, que
+—dije— tenía 58 entradas. **Era falso.** Mi patrón de recuento estaba anclado a
+inicio de línea (`^\*\*N\.`) y el backlog usa **tres** formas: `N. `, `**N. ` y
+`- **N.** `. Las entradas 59 y 60 son de la tercera forma (L820 y L826) y mi
+patrón las perdía. Peor: sobre esa medición mala construí un diagnóstico
+equivocado —"el backlog es internamente inconsistente, el resumen cuenta 2
+entradas que el detalle nunca recibió"— y ofrecí al titular dos salidas para un
+problema inexistente. Una búsqueda literal con `fixed = TRUE`, que es lo que
+correspondía desde el principio para verificar una ausencia, lo habría descartado
+en un intento. **Lección: para afirmar que algo NO está, la herramienta es la
+búsqueda literal, no un patrón anclado que uno cree exhaustivo.**
+
+**Dos fallos de script durante F4**, ambos detenidos antes de escribir nada y con
+el backlog verificado idéntico a su respaldo en cada caso: `grep(fixed = TRUE)`
+con un `^` que en modo literal no ancla, e índices de columna desplazados en uno al
+partir las filas de la tabla por `" | "`.
+
+### Pendientes fuera de scope detectados
+
+- La discrepancia heredada del backlog (columna 63 contra 62 entradas) sigue
+  abierta; su resolución exige auditar la clasificación de las entradas 1-23.
+- El delta no aportó texto de glosa para las categorías cuyo N cambió, así que las
+  columnas de descripción de `diagnostico/exploracion` y `consolidacion/salida` no
+  mencionan las entradas 61 y 62. Se dejó como está: inventar esa glosa habría sido
+  completar el paquete.
+- Ramas `medicion/p66-acto-a` y `construccion/p66-acto-b` sin borrar, por
+  instrucción del titular.

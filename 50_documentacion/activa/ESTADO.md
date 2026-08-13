@@ -1,27 +1,22 @@
 ---
 slug: transparencia_legislativa_chile
-nombre_real: Transparencia Legislativa Chile
+nombre_real: Transparencia legislativa Chile
 categoria: activo
 semaforo: activo
-sesion_actual: v20
+sesion_actual: v21
 ultima_actividad: 2026-08-13
 maneja_sensibles: false
-tipo_pendiente: nuevo
+tipo_pendiente: deuda_tecnica
 ---
 ## En que vamos
-
-El portal publica el eje persona (155 perfiles) y el pipeline de la Camara corre
-desatendido con refresh semanal por PR. La sesion 20 cerro P-68 con veredicto NO:
-ni LeyChile ni datos.bcn.cl entregan materias en cantidad capaz de dar vuelta el
-veredicto del eje tematico, medido sobre 427 boletines al corte 2026-08-12. Ese
-"no" no cancela el eje de proyectos: lo acota a tramitacion, autoria y votaciones,
-sin bloque de materias.
+El portal pasa de una entidad publicada a dos: la entidad `proyecto` ya se sirve
+con tramitacion completa, 427 de 427 boletines resueltos por el SIL, y la entidad
+parlamentario quedo intacta hasta el byte de su indice. El eje tematico sigue
+cerrado por falta de cobertura en la fuente, y esta sesion no lo reabrio.
 
 ## Proximo paso
-
-P-66: publicar la entidad `proyecto` con tramitacion legislativa, con
-`cobertura_materias` explicito y el denominador contado en la corrida.
+Corregir la ruta de recuperacion del paso 37, que hoy manda a regenerar los pasos
+equivocados si `tramitacion.rds` se desalinea, antes de la corrida del cron.
 
 ## Bloqueantes
-
 ninguno
