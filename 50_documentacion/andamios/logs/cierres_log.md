@@ -144,3 +144,13 @@ Paquete: `paquete_cierre_v19.md` (711 líneas, md5 `c5683dea97485810a452fad2b6ce
   los porcentajes "se calculan sobre la suma de la columna (56)", cuando se
   calculan sobre 59. No entraba en el encargo de la corrección (que acotó a las
   dos ocurrencias del 100,0) y se deja declarado aquí para el próximo cierre.
+- **`87cb64a` cierra el pendiente anterior.** La misma nota afirmaba que los
+  porcentajes "se calculan sobre la suma de la columna (56)"; ahora dice 59, que es
+  la base sobre la que F4 los recalculo. Una sola ocurrencia (diff de 1 linea, y
+  cero ocurrencias de "(56)" en el archivo tras el reemplazo). Con esto los tres
+  textos stale que el BACKLOG_DELTA no cubria quedan cerrados: la cifra de la fila
+  del total, la frase que la afirmaba y la base del calculo. **Ninguno era un fallo
+  del cierre**: los tres nacieron de que el delta acotaba sus pares
+  buscar->reemplazar a la columna N, y F4 no inventa reemplazos no declarados.
+  Leccion para el redactor del proximo paquete: cuando un delta cambia una base de
+  calculo, sus pares tienen que cubrir tambien lo que esa base afirma en prosa.
