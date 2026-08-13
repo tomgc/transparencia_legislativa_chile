@@ -255,3 +255,369 @@ for (fn in c("corte_para_clave", "ruta_cache", "capturas_crudas_de_paso",
 }
 
 }  # fin criterios
+
+# =============================================================================
+# FASE p76p77 (encargo P-76/P-77 v2, sesion 19)
+# -----------------------------------------------------------------------------
+# Los escenarios que ejercitan la guarda corren en SUBPROCESOS, invocando este
+# mismo archivo con la fase "esc" y el nombre del escenario. Motivo (A76): el
+# fusible certifica el proceso donde vive, asi que tiene que estar armado en el
+# proceso que corre el pipeline, no en el que mira. De paso, cada escenario
+# arranca con las opciones limpias y ninguno contamina al siguiente.
+# =============================================================================
+
+RUTA_ESTE   <- file.path(ROOT, "50_documentacion", "andamios", "50_verificar_guarda_bot.R")
+RUTA_FUSIBLE <- file.path(ROOT, "50_documentacion", "andamios", "50_fusible_red.R")
+DIR_INT     <- ruta_salidas("intermedios")
+GUARDADO    <- file.path(TMP, "intermedios_guardados")
+
+# Estado de disco que cada escenario exige. Mover, nunca borrar (invariante 7).
+apartar_intermedios <- function() {
+  if (!dir.exists(GUARDADO)) dir.create(GUARDADO, recursive = TRUE)
+  n <- 0L
+  for (nm in INTERMEDIOS_PIPELINE) {
+    r <- file.path(DIR_INT, paste0(nm, ".rds"))
+    if (file.exists(r)) { file.rename(r, file.path(GUARDADO, paste0(nm, ".rds"))); n <- n + 1L }
+  }
+  n
+}
+restaurar_intermedios <- function() {
+  n <- 0L
+  for (nm in INTERMEDIOS_PIPELINE) {
+    g <- file.path(GUARDADO, paste0(nm, ".rds"))
+    r <- file.path(DIR_INT, paste0(nm, ".rds"))
+    if (file.exists(r)) unlink(r)          # el generado por un escenario
+    if (file.exists(g)) { file.rename(g, r); n <- n + 1L }
+  }
+  n
+}
+poner_rastro <- function(presente) {
+  r <- file.path(DIR_INT, RASTRO_ARRANQUE)
+  if (presente && !file.exists(r)) escribir_rastro_arranque(CORTE_FECHA, "escenario de prueba")
+  if (!presente && file.exists(r)) unlink(r)
+  file.exists(r)
+}
+correr_escenario <- function(nombre) {
+  out <- system2("Rscript", c(shQuote(RUTA_ESTE), "esc", nombre),
+                 stdout = TRUE, stderr = TRUE)
+  list(salida = attr(out, "status") %||% 0L, lineas = out)
+}
+tiene <- function(lineas, texto) any(vapply(lineas, function(l) grepl(texto, l, fixed = TRUE),
+                                            logical(1)))
+cuantas <- function(lineas, texto) sum(vapply(lineas, function(l) grepl(texto, l, fixed = TRUE),
+                                              logical(1)))
+veredicto <- function(id, ok, detalle) {
+  linea("%-4s %-9s %s", id, if (ok) "CUMPLE" else "NO CUMPLE", detalle)
+  invisible(ok)
+}
+
+if (identical(FASE, "esc")) {
+
+  ESC <- commandArgs(TRUE)[2]
+  source(RUTA_FUSIBLE)
+  instalar_fusible_red()                       # ANTES de tocar 00_run_all.R
+  source(file.path(ROOT, "00_run_all.R"))
+  RUTA_RASTRO <- ruta_salidas("intermedios", RASTRO_ARRANQUE)
+  CORTE_SIN_CAPTURAS <- format(as.Date(CORTE_FECHA) + 21, "%Y-%m-%d")
+
+  if (identical(ESC, "arranque")) {
+    # C4. Estado tipo runner: 0 intermedios, sin rastro, .gitkeep presente. Se
+    # fuerza refrescar=TRUE para que el primer extractor SALGA a la red: asi el
+    # escenario distingue "la guarda no detuvo" de "no habia nada que descargar".
+    cat("ESC arranque | rastro antes:", file.exists(RUTA_RASTRO), "\n")
+    options(camara.refrescar = TRUE)
+    run_all()
+    cat("ESC arranque | NO ESPERADO: run_all() retorno sin disparar el fusible\n")
+  }
+
+  if (identical(ESC, "borrados_regenera")) {
+    # C5. 0 intermedios + rastro presente + capturas del corte presentes.
+    cat("ESC borrados_regenera | rastro:", file.exists(RUTA_RASTRO), "\n")
+    r <- regenerar_intermedios_si_desalineados(PASOS_EXTRACCION, ROOT)
+    cat("ESC borrados_regenera | la guarda regenero:", isTRUE(r), "\n")
+    d <- vapply(INTERMEDIOS_PIPELINE, corte_declarado_por, character(1))
+    cat("ESC borrados_regenera | intermedios al corte vigente:",
+        sum(!is.na(d) & d == CORTE_FECHA), "de", length(INTERMEDIOS_PIPELINE), "\n")
+  }
+
+  if (identical(ESC, "borrados_stop")) {
+    # C6. Mismo estado, pero contra un corte cuyas capturas no existen. Se elige
+    # asi y no moviendo capturas: 20_insumos/camara/ no se toca (invariante 2).
+    cat("ESC borrados_stop | rastro:", file.exists(RUTA_RASTRO),
+        "| corte sin capturas:", CORTE_SIN_CAPTURAS, "\n")
+    e <- tryCatch({
+      regenerar_intermedios_si_desalineados(PASOS_EXTRACCION, ROOT,
+                                            corte = CORTE_SIN_CAPTURAS)
+      NULL
+    }, error = function(e) conditionMessage(e))
+    cat("ESC borrados_stop | hubo stop():", !is.null(e), "\n")
+    if (!is.null(e)) cat("--- mensaje del stop() ---\n", e, "\n--- fin ---\n", sep = "")
+  }
+
+  if (identical(ESC, "desalineados_presentes")) {
+    # C14, segundo sentido: los 6 intermedios EXISTEN y declaran otro corte. La
+    # primera linea del stop() tiene que seguir contando 6 de 6, como antes.
+    n <- sum(file.exists(ruta_salidas("intermedios", paste0(INTERMEDIOS_PIPELINE, ".rds"))))
+    cat("ESC desal_presentes | intermedios en disco:", n, "de",
+        length(INTERMEDIOS_PIPELINE), "\n")
+    e <- tryCatch({
+      regenerar_intermedios_si_desalineados(PASOS_EXTRACCION, ROOT,
+                                            corte = CORTE_SIN_CAPTURAS)
+      NULL
+    }, error = function(e) conditionMessage(e))
+    cat("ESC desal_presentes | hubo stop():", !is.null(e), "\n")
+    if (!is.null(e)) cat("--- mensaje del stop() ---\n", e, "\n--- fin ---\n", sep = "")
+  }
+
+  if (identical(ESC, "borrados_autorizado")) {
+    # C7 + C1 + C2. La opcion se enciende UNA vez y se pasa DOS veces por el
+    # mismo estado, en el mismo proceso.
+    options(camara.permitir_descarga_inicial = TRUE)
+    cat("ESC autorizado | opcion antes:", descarga_inicial_autorizada(), "\n")
+    p <- tryCatch({
+      regenerar_intermedios_si_desalineados(PASOS_EXTRACCION, ROOT,
+                                            corte = CORTE_SIN_CAPTURAS)
+      "paso"
+    }, error = function(e) "stop")
+    cat("ESC autorizado | primera pasada:", p, "\n")
+    cat("ESC autorizado | opcion despues:", descarga_inicial_autorizada(), "\n")
+    s <- tryCatch({
+      regenerar_intermedios_si_desalineados(PASOS_EXTRACCION, ROOT,
+                                            corte = CORTE_SIN_CAPTURAS)
+      "paso"
+    }, error = function(e) "stop")
+    cat("ESC autorizado | segunda pasada:", s, "\n")
+  }
+
+  if (identical(ESC, "escape_captura")) {
+    # C3. La linea de log del escape de captura, emitida por el codigo de AHORA y
+    # por el de HEAD, comparadas sin el sello de tiempo.
+    env_head <- new.env(parent = globalenv())
+    sys.source(file.path(TMP, "utils_head_main.R"), envir = env_head)
+    options(camara.permitir_captura_fuera_de_corte = TRUE)
+    l_head <- capture.output(env_head$consumir_escape_captura("contrato"))
+    options(camara.permitir_captura_fuera_de_corte = TRUE)
+    l_ahora <- capture.output(consumir_escape_captura("contrato"))
+    cat("ESC escape_captura | opcion tras consumir:",
+        isTRUE(getOption("camara.permitir_captura_fuera_de_corte", FALSE)), "\n")
+    cat("ESC escape_captura | identicas:",
+        identical(substring(l_head, 23), substring(l_ahora, 23)), "\n")
+    cat("HEAD :", substring(l_head, 23), "\n")
+    cat("AHORA:", substring(l_ahora, 23), "\n")
+  }
+
+  cat("ESC", ESC, "| fin sin disparar el fusible\n")
+}
+
+if (identical(FASE, "p76p77")) {
+
+titulo("Linea base de apertura")
+a_cap <- md5_de(ruta_insumos("camara"), "[.]rds$")
+a_jsn <- md5_de(ruta_salidas("json"), "[.]json$")
+a_doc <- md5_de(file.path(ROOT, "docs", "data"), "[.]json$")
+base <- readRDS(file.path(TMP, "guarda_linea_base.rds"))
+linea("Capturas: %d archivos | json: %d | docs/data: %d", length(a_cap), length(a_jsn), length(a_doc))
+resultados <- list()
+
+titulo("C14 (b). Intermedios PRESENTES y desalineados: la cifra no cambia")
+# Va primero, con los 6 intermedios todavia en su sitio: es el unico escenario que
+# los necesita en disco. La adopcion retroactiva del rastro que dispara se limpia
+# aqui mismo, para no contaminar C4 (que exige rastro ausente).
+linea("Estado: %d de %d intermedios en disco",
+      sum(file.exists(file.path(DIR_INT, paste0(INTERMEDIOS_PIPELINE, ".rds")))),
+      length(INTERMEDIOS_PIPELINE))
+r14 <- correr_escenario("desalineados_presentes")
+linea("Codigo de salida: %d | hubo stop(): %s | fusible disparado: %s",
+      r14$salida, tiene(r14$lineas, "hubo stop(): TRUE"),
+      tiene(r14$lineas, "FUSIBLE DE RED DISPARADO"))
+linea("La primera linea sigue contando 6 de 6: %s",
+      tiene(r14$lineas, "run_all: 6 de 6 intermedios NO corresponden al corte vigente"))
+subt("Primera linea del mensaje, con los 6 presentes")
+for (l in r14$lineas) if (tiene(l, "run_all: ")) linea("  %s", l)
+poner_rastro(FALSE)
+
+n_apartados <- apartar_intermedios()
+linea("Intermedios apartados a %s: %d de %d", GUARDADO, n_apartados, length(INTERMEDIOS_PIPELINE))
+
+titulo("C4. Arranque legitimo (estado tipo runner): la guarda no se detiene")
+poner_rastro(FALSE)
+linea("Estado: %d de %d intermedios en disco | rastro presente: %s | .gitkeep presente: %s",
+      sum(file.exists(file.path(DIR_INT, paste0(INTERMEDIOS_PIPELINE, ".rds")))),
+      length(INTERMEDIOS_PIPELINE), file.exists(file.path(DIR_INT, RASTRO_ARRANQUE)),
+      file.exists(file.path(DIR_INT, ".gitkeep")))
+r4 <- correr_escenario("arranque")
+rastro_tras_c4 <- file.exists(file.path(DIR_INT, RASTRO_ARRANQUE))
+linea("Codigo de salida: %d (99 = fusible) | rastro escrito por la guarda: %s",
+      r4$salida, rastro_tras_c4)
+linea("La guarda anuncio primera corrida: %s | fusible disparado: %s",
+      tiene(r4$lineas, "Primera corrida del corte"),
+      tiene(r4$lineas, "FUSIBLE DE RED DISPARADO"))
+resultados$C4 <- veredicto("C4", r4$salida == 99L && rastro_tras_c4 &&
+  tiene(r4$lineas, "Primera corrida del corte") &&
+  tiene(r4$lineas, "FUSIBLE DE RED DISPARADO") &&
+  !tiene(r4$lineas, "run_all: "),
+  "la corrida murio en el fusible, no en la guarda, y el rastro quedo escrito")
+restaurar_intermedios(); apartar_intermedios()
+
+titulo("C5. Intermedios borrados con capturas del corte: regenera sin red")
+poner_rastro(TRUE)
+r5 <- correr_escenario("borrados_regenera")
+n_hits <- cuantas(r5$lineas, "cache hit:")
+linea("Codigo de salida: %d | 'cache hit' contados: %d | fusible disparado: %s",
+      r5$salida, n_hits, tiene(r5$lineas, "FUSIBLE DE RED DISPARADO"))
+linea("La guarda regenero: %s | %s", tiene(r5$lineas, "la guarda regenero: TRUE"),
+      r5$lineas[vapply(r5$lineas, function(l)
+        grepl("intermedios al corte vigente", l, fixed = TRUE), logical(1))][1])
+resultados$C5 <- veredicto("C5", r5$salida == 0L && n_hits == 6L &&
+  !tiene(r5$lineas, "FUSIBLE DE RED DISPARADO") &&
+  tiene(r5$lineas, "intermedios al corte vigente: 6 de 6"),
+  "6 de 6 cache hit, exit 0, fusible sin disparar")
+restaurar_intermedios(); apartar_intermedios()
+
+titulo("C6. Intermedios borrados sin capturas del corte: se detiene")
+poner_rastro(TRUE)
+r6 <- correr_escenario("borrados_stop")
+linea("Codigo de salida: %d | hubo stop(): %s | fusible disparado: %s",
+      r6$salida, tiene(r6$lineas, "hubo stop(): TRUE"),
+      tiene(r6$lineas, "FUSIBLE DE RED DISPARADO"))
+linea("El mensaje nombra el caso y lo distingue del arranque: %s",
+      tiene(r6$lineas, "Esto NO es un arranque"))
+linea("El mensaje da el comando exacto: %s", tiene(r6$lineas, "source(\"30_procesamiento/"))
+resultados$C6 <- veredicto("C6", r6$salida == 0L && tiene(r6$lineas, "hubo stop(): TRUE") &&
+  tiene(r6$lineas, "Esto NO es un arranque") &&
+  tiene(r6$lineas, "source(\"30_procesamiento/") &&
+  !tiene(r6$lineas, "FUSIBLE DE RED DISPARADO"),
+  "stop() con el caso nombrado y el comando exacto, cero red")
+subt("Mensaje literal del stop()")
+for (l in r6$lineas) linea("  %s", l)
+
+titulo("C14. Ninguna linea del stop() cuenta mas intermedios de los que existen")
+linea("(a) Con 0 en disco, la primera linea dice 'no hay ningun intermedio': %s",
+      tiene(r6$lineas, "run_all: no hay ningun intermedio en disco: faltan los 6 de 6"))
+linea("(a) Y NO afirma '6 de 6 no corresponden al corte vigente': %s",
+      !tiene(r6$lineas, "6 de 6 intermedios NO corresponden al corte vigente"))
+linea("(b) Con los 6 presentes y desalineados, la cifra sigue siendo 6 de 6: %s",
+      tiene(r14$lineas, "run_all: 6 de 6 intermedios NO corresponden al corte vigente"))
+resultados$C14 <- veredicto("C14",
+  tiene(r6$lineas, "run_all: no hay ningun intermedio en disco: faltan los 6 de 6") &&
+  !tiene(r6$lineas, "6 de 6 intermedios NO corresponden al corte vigente") &&
+  tiene(r14$lineas, "run_all: 6 de 6 intermedios NO corresponden al corte vigente") &&
+  r14$salida == 0L && tiene(r14$lineas, "hubo stop(): TRUE"),
+  "la cifra mide el hecho en los dos sentidos, medidos por separado")
+
+titulo("C7 + C1 + C2. El escape autorizado pasa una vez y solo una")
+r7 <- correr_escenario("borrados_autorizado")
+for (l in r7$lineas) if (tiene(l, "ESC autorizado")) linea("  %s", l)
+resultados$C7 <- veredicto("C7", r7$salida == 0L && tiene(r7$lineas, "primera pasada: paso"),
+  "con la autorizacion declarada, la guarda deja seguir")
+resultados$C1 <- veredicto("C1", tiene(r7$lineas, "opcion antes: TRUE") &&
+  tiene(r7$lineas, "opcion despues: FALSE"),
+  "descarga_inicial_autorizada() devuelve FALSE despues de usarse")
+resultados$C2 <- veredicto("C2", tiene(r7$lineas, "segunda pasada: stop"),
+  "la segunda pasada en la misma sesion se detiene")
+
+titulo("C3. El escape de captura no cambio de comportamiento")
+r3 <- correr_escenario("escape_captura")
+for (l in r3$lineas) if (tiene(l, "ESC escape_captura") || tiene(l, "HEAD :") ||
+                         tiene(l, "AHORA:")) linea("  %s", l)
+resultados$C3 <- veredicto("C3", tiene(r3$lineas, "identicas: TRUE") &&
+  tiene(r3$lineas, "opcion tras consumir: FALSE"),
+  "linea de log identica a la de HEAD y sigue siendo de un solo uso")
+
+titulo("Restauracion del estado de disco")
+n_rest <- restaurar_intermedios()
+if (file.exists(file.path(DIR_INT, RASTRO_ARRANQUE))) unlink(file.path(DIR_INT, RASTRO_ARRANQUE))
+if (dir.exists(GUARDADO)) unlink(GUARDADO, recursive = TRUE)
+linea("Intermedios restaurados: %d de %d | rastro de prueba retirado: %s",
+      n_rest, length(INTERMEDIOS_PIPELINE), !file.exists(file.path(DIR_INT, RASTRO_ARRANQUE)))
+
+titulo("C11. Intermedios restaurados, md5 contra la linea base de G5")
+c_int <- md5_de(DIR_INT, "[.]rds$")
+iguales <- vapply(names(base$int), function(k)
+  identical(unname(base$int[k]), unname(c_int[k])), logical(1))
+for (k in names(base$int)) linea("  %-26s md5 igual: %s", k, identical(unname(base$int[k]), unname(c_int[k])))
+resultados$C11 <- veredicto("C11", all(iguales) && length(c_int) == length(base$int),
+  sprintf("%d de %d intermedios identicos a la linea base", sum(iguales), length(base$int)))
+
+titulo("C10. 20_insumos/camara/ intacto")
+c_cap <- md5_de(ruta_insumos("camara"), "[.]rds$")
+ok_cap <- identical(base$cap, c_cap)
+linea("Apertura: %d archivos | cierre: %d | identicos archivo por archivo: %s",
+      length(base$cap), length(c_cap), ok_cap)
+resultados$C10 <- veredicto("C10", ok_cap && length(c_cap) == length(base$cap),
+  sprintf("%d de %d capturas con md5 identico", sum(names(base$cap) %in% names(c_cap) &
+    base$cap[names(base$cap)] == c_cap[names(base$cap)]), length(base$cap)))
+
+titulo("Publicado intacto (json y docs/data)")
+c_jsn <- md5_de(ruta_salidas("json"), "[.]json$"); c_doc <- md5_de(file.path(ROOT, "docs", "data"), "[.]json$")
+linea("40_salidas/json: %d de %d identicos | docs/data: %d de %d identicos",
+      sum(base$jsn == c_jsn[names(base$jsn)]), length(base$jsn),
+      sum(base$doc == c_doc[names(base$doc)]), length(base$doc))
+
+titulo("C8. Las 9 funciones protegidas, identicas a HEAD")
+RUTA_HEAD <- file.path(TMP, "utils_head_main.R")
+cuerpo_de <- function(lineas, nombre) {
+  ini <- grep(sprintf("^%s <- function", nombre), lineas)
+  if (length(ini) != 1) stop(sprintf("C8: %s aparece %d veces.", nombre, length(ini)), call. = FALSE)
+  fin <- ini + which(lineas[(ini + 1):length(lineas)] == "}")[1]
+  lineas[ini:fin]
+}
+ln_head <- readLines(RUTA_HEAD, warn = FALSE); ln_now <- readLines(RUTA_UTILS, warn = FALSE)
+PROTEGIDAS <- c("sellar", "leer_sellado", "validar_corte",
+                "guarda_captura_en_corte", "verificar_cierre_de_descarga",
+                "registrar_captura", "estado_temporal_captura",
+                "reportar_estado_capturas", "con_cache")
+ok8 <- vapply(PROTEGIDAS, function(fn)
+  identical(cuerpo_de(ln_head, fn), cuerpo_de(ln_now, fn)), logical(1))
+for (fn in PROTEGIDAS)
+  linea("  %-30s HEAD %2d lineas | ahora %2d | identicas: %s", fn,
+        length(cuerpo_de(ln_head, fn)), length(cuerpo_de(ln_now, fn)), ok8[[fn]])
+resultados$C8 <- veredicto("C8", all(ok8),
+  sprintf("%d de %d funciones protegidas identicas", sum(ok8), length(PROTEGIDAS)))
+subt("Funciones que SI cambian en este PR (declaradas, no protegidas)")
+for (fn in c("consumir_escape_captura", "regenerar_intermedios_si_desalineados"))
+  linea("  %-38s HEAD %2d lineas -> ahora %2d | identicas: %s", fn,
+        length(cuerpo_de(ln_head, fn)), length(cuerpo_de(ln_now, fn)),
+        identical(cuerpo_de(ln_head, fn), cuerpo_de(ln_now, fn)))
+
+titulo("C13. .gitkeep sigue trackeado y sin cambios")
+tracked <- system2("git", c("-C", shQuote(ROOT), "ls-files", "40_salidas/intermedios"),
+                   stdout = TRUE)
+blob_head <- system2("git", c("-C", shQuote(ROOT), "rev-parse",
+                              "origin/main:40_salidas/intermedios/.gitkeep"), stdout = TRUE)
+blob_now <- system2("git", c("-C", shQuote(ROOT), "hash-object",
+                             file.path(DIR_INT, ".gitkeep")), stdout = TRUE)
+linea("git ls-files 40_salidas/intermedios: %d entrada(s) -> %s",
+      length(tracked), paste(tracked, collapse = ", "))
+linea("blob en origin/main: %s | blob ahora: %s", blob_head, blob_now)
+ignorado <- system2("git", c("-C", shQuote(ROOT), "check-ignore",
+                             file.path("40_salidas", "intermedios", RASTRO_ARRANQUE)),
+                    stdout = TRUE, stderr = FALSE)
+linea("El rastro esta gitignorado: %s (%s)", length(ignorado) > 0, paste(ignorado, collapse = ""))
+resultados$C13 <- veredicto("C13",
+  identical(tracked, "40_salidas/intermedios/.gitkeep") && identical(blob_head, blob_now) &&
+  length(ignorado) > 0,
+  ".gitkeep trackeado, mismo blob que origin/main, y el rastro ignorado")
+
+titulo("C9. Cero llamadas HTTP en todos los escenarios")
+escenarios <- list(r14, r3, r4, r5, r6, r7)
+disparos <- vapply(escenarios, function(r) tiene(r$lineas, "FUSIBLE DE RED DISPARADO"),
+                   logical(1))
+linea("Escenarios corridos: %d | con fusible armado: %d | que salieron a la red: %d",
+      length(disparos), sum(vapply(escenarios, function(r)
+        tiene(r$lineas, "Fusible de red ARMADO"), logical(1))), sum(disparos))
+linea("El unico disparo esperado es el de C4 (arranque, que DEBE llegar a la red): %s",
+      identical(unname(disparos), c(FALSE, FALSE, TRUE, FALSE, FALSE, FALSE)))
+resultados$C9 <- veredicto("C9",
+  identical(unname(disparos), c(FALSE, FALSE, TRUE, FALSE, FALSE, FALSE)) &&
+  all(vapply(escenarios, function(r) tiene(r$lineas, "Fusible de red ARMADO"), logical(1))),
+  "ninguna llamada HTTP salio: la unica que lo intento murio en el fusible")
+
+titulo("RESUMEN")
+for (k in c("C1","C2","C3","C4","C5","C6","C7","C8","C9","C10","C11","C13","C14"))
+  linea("  %-4s %s", k, if (isTRUE(resultados[[k]])) "CUMPLE" else "NO CUMPLE")
+linea("\nCriterios medidos aqui: %d de 14 (C12 se mide sobre el PR ya abierto)",
+      length(resultados))
+linea("CUMPLEN: %d de %d", sum(vapply(resultados, isTRUE, logical(1))), length(resultados))
+
+}  # fin p76p77
