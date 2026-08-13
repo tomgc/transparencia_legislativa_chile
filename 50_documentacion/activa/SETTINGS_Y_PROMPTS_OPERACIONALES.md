@@ -1,6 +1,148 @@
 # SETTINGS_Y_PROMPTS_OPERACIONALES.md
 
-> **Versión 12.**
+> **Versión 23.**
+>
+> **Cambios respecto a v22:** una sola línea, 2.2.15 campo `patron`: la cita
+> del catálogo canónico pasa de `catalogo_patrones_errores_v3.md` a `_v4.md`.
+> Origen: la ordenación de `herramientas_dev` (20260812) archivó el v3 por
+> regla de versiones y dejó la cita colgada; el propio v4 tenía esta
+> actualización inventariada como deuda. El 22 no se reutiliza: circuló
+> descargado. Las menciones a v1-v3 en registros de cambios anteriores son
+> históricas y quedan intactas.
+>
+> **Versión 22.**
+>
+> **Cambios respecto a v21:** instrumento en v4: el log del cierre pasa de
+> un archivo por sesión a **acumulativo único**
+> (`andamios/logs/cierres_log.md`, una sección anexada por cierre,
+> commiteada en F7). Motivo: proyectado a cientos de sesiones, un log por
+> cierre poblaba `andamios/logs/` sin límite; con esto el cierre deja cero
+> archivos netos en andamios. El 21 no se reutiliza: circuló descargado.
+>
+> **Versión 21.**
+>
+> **Cambios respecto a v20:** el gatillo por sesión desaparece; lo reemplaza
+> el comando global fijo `/cierre` de Claude Code
+> (`~/.claude/commands/cierre.md`, instalación por única vez), que descubre
+> el paquete en `andamios/` y lee TODOS los parámetros de su front matter,
+> que suma tres campos (`raiz_proyecto`, `push_autorizado`, `escaner`) y una
+> guardia de repo (front matter contra `pwd`). Instrumento
+> `cierre_sesion_autonomo_cc_v4.md`. Los pasos del titular siguen siendo
+> cuatro, pero el tercero pasa de pegar un bloque generado a escribir
+> `/cierre`. El 20 no se reutiliza: circuló descargado.
+>
+> **Versión 20.**
+>
+> **Cambios respecto a v19:** el canal delegado del cierre pasa a **forma
+> v2**, instrumento `cierre_sesion_autonomo_cc_v2.md`. Origen: el primer
+> cierre real por canal v1 (v116 de `slep_aprendizajes_ep`) produjo un
+> gatillo de más de 1000 líneas pegado en el chat, una parada evitable por
+> el escáner ya corrido en la sesión, y un turno extra para corregir el hash
+> de reapertura. Cuatro cambios: (1) el payload viaja en un **paquete de
+> cierre** descargable único que el titular guarda en
+> `50_documentacion/andamios/` (queda derogado el payload incrustado de
+> v19, y con él su prohibición del adjunto, que la nueva forma reemplaza);
+> (2) F1 **adopta** el escáner de la sesión cuando el `sello_escaner` del
+> paquete calza con el disco; (3) el traspaso cita `main` **previo** al
+> cierre y el hash definitivo lo agrega Claude Code al eco de reapertura;
+> (4) **apertura liviana**: el backlog y el escáner dejan de adjuntarse por
+> defecto (2.2.14, bloque 3). Los pasos manuales del titular quedan en
+> cuatro: instruir, guardar la descarga, pegar el gatillo, copiar la
+> reapertura.
+>
+> **Versión 19.**
+>
+> **Cambios respecto a v18:** la plantilla del gatillo de §2.1 suma una
+> **prohibición explícita** con tabla de racionalizaciones: el payload va
+> incrustado, nunca como adjunto o descarga aparte. Origen: primer uso real
+> del canal, donde una sesión entregó el payload como `.txt` descargable
+> citando fragilidad del pegado (falla de disciplina según §2.2.16, y la
+> forma correcta del arreglo es prohibición + racionalizaciones, no
+> reformular la receta). El número 18 no se reutiliza: esa versión ya
+> circuló descargada y editarla crearía dos v18 distintas (la lección del
+> salto v15→v16).
+>
+> **Versión 18.**
+>
+> **Cambios respecto a v17:** §2.1 **incrusta la plantilla del gatillo** del
+> cierre delegado. Motivo: la v17 la referenciaba solo por ruta de disco
+> (`herramientas_dev/prompts/`), accesible para Claude Code pero no para el
+> redactor, que opera desde la knowledge base; en el primer uso real el
+> redactor no pudo generar el gatillo sin pedir el archivo adjunto. La
+> división queda: la plantilla del gatillo (lo que el redactor produce) vive
+> aquí; las fases F0-F9 (lo que Claude Code ejecuta) viven solo en el
+> instrumento en disco. Si ambas divergen, manda este documento para el
+> gatillo y el instrumento para las fases.
+>
+> **Versión 17.**
+>
+> **Cambios respecto a v16:** §2.1 incorpora la **ejecución delegada del
+> cierre** como canal por defecto: al recibir la instrucción de cierre, el
+> asistente redacta el payload autoral completo (traspaso, delta del backlog,
+> ESTADO.md) y genera un gatillo único para Claude Code, que ejecuta todo el
+> housekeeping (escáner, archivado 1.3.1, escritura, verificaciones,
+> commits selectivos, push autorizado, eco de la reapertura) según el
+> instrumento `herramientas_dev/prompts/cierre_sesion_autonomo_cc_v1.md`.
+> El flujo manual anterior queda como fallback, no se elimina. §2.1bis y
+> §2.2.14 reciben una línea cada uno para el canal delegado. Motivo: el
+> cierre implicaba una cadena de pasos manuales del titular (correr escáner,
+> pegarlo al chat, sobreescribir estado y backlog, descargar el traspaso)
+> que son housekeeping mecánico, no decisión; la división correcta es
+> autoría al redactor, filesystem a Claude Code, decisión de push al titular.
+>
+> **Cambios respecto a v15:** nuevo paso **4ter** en §1.2.2, gatillo observable
+> del invariante de entorno (locale UTF-8) que la POLITICA v5.6 §5.2bis declara
+> en norma, apagado por el marcador `50_documentacion/activa/50_locale_utf8.md`.
+> Se inserta inmediatamente después del 4bis, que sobrevive sin cambios, y no
+> renumera ningún paso.
+>
+> **Por qué se salta a v16.** Circularon **dos documentos distintos numerados
+> v15**, cada uno con una mitad de este contenido: uno con la edición de §2.2.15
+> (catálogo v3 y conjunto `PAT-01` a `PAT-13`), publicado en `main` de
+> `herramientas_dev` y repartido en disco a seis repos de la cartera; otro con
+> el paso 4ter en §1.2.2, commiteado en `slep_aprendizajes_ep` y nunca
+> publicado. No son contradictorios sino complementarios, y la v16 es su fusión:
+> conserva íntegra la edición de §2.2.15 y le suma el 4ter. El número 15 no se
+> reutiliza porque quedó ambiguo: quien lo cite no puede saber a cuál de los dos
+> se refiere.
+>
+> El texto del 4ter es el ya redactado en la v15 de `slep_aprendizajes_ep`, no
+> una redacción nueva. La diferencia que importa es su evidencia: comprueba que
+> la guarda esté instalada (`grep -rl asegurar_locale_utf8 10_utils`) y no que
+> exista el archivo de configuración, que sería medir un proxy del riesgo y no
+> el riesgo (PAT-13 del catálogo).
+>
+> **Cambios respecto a v14:** §2.2.15 apunta al catálogo
+> `catalogo_patrones_errores_v3.md` (el v2 quedó archivado en
+> `_archivo/20260729/gobernanza/`) y el conjunto válido del campo `patron` pasa
+> de `PAT-01` a `PAT-12` a `PAT-01` a `PAT-13`. Motivo: la sesión de reparto de
+> gobernanza del 2026-07-29 aportó cuatro hallazgos de error; tres se
+> integraron como casos particulares de PAT-01, PAT-02 y PAT-03, y el cuarto
+> abrió **PAT-13** (precondición que mide un proxy y no el riesgo). Al ser el
+> primer cambio posterior a la adopción canónica del 2026-07-25, manda la regla
+> de mantenimiento del catálogo y se abre sufijo nuevo. Ninguna otra sección de
+> este documento se edita.
+>
+> **Versión 14.** Cambios respecto a v13: nueva §4.7 (**ordenación del repositorio**),
+> protocolo bajo demanda que ejecuta en un repo concreto lo que la POLITICA
+> v5.5 ya declaró en norma: regla 1.3.1 (traspaso vigente), prefijo de decena
+> en `50_*` con sus excepciones por contrato de cartera (§2), y exclusión de
+> árboles de dependencias de terceros en el escáner (§7.2). Añade lo que la
+> política no norma: el tratamiento de obsoletos y duplicados con grado de
+> certeza y grep de referencias vivas. Nuevo paso **4bis** en §1.2.2, gatillo
+> observable de apertura que enciende el pendiente en cada proyecto de la
+> cartera y se apaga con el marcador
+> `50_documentacion/activa/50_ordenacion_repositorio.md`. Motivo de diseño:
+> propagar el pendiente a los 18 repos por norma en la knowledge base y no por
+> 18 escrituras en `backlog_acumulativo.md`.
+>
+> **Versión 13.** Cambios respecto a v12: §2.1 suma el **archivado del traspaso anterior**
+> como paso obligatorio del cierre, con su comprobación (`vigentes=1`), en
+> aplicación de la nueva regla 1.3.1 de `POLITICA_PROYECTO.md` v5.5:
+> `traspasos/` mantiene un solo archivo a la vista y `traspasos/archivo/`
+> guarda los superados. El correlativo pasa a admitir tres dígitos desde
+> v100. Origen: sesión v103 de `slep_aprendizajes_ep`, con 102 traspasos
+> planos en la carpeta.
 >
 > **Cambios respecto a v11 (ola canónica mínima de la auditoría de errores
 > de la cartera, 2026-07-25):** §1.2.6 reemplaza el recordatorio de fuente
@@ -258,6 +400,30 @@ la sesión correrá en Claude Code.
    política. Toda desviación (carpetas con nombres antiguos, archivos
    fuera de lugar, huecos de numeración) se marca como **deuda heredada**,
    no se "ajusta" en silencio. Sin cambio.
+4bis. **Gatillo de ordenación del repositorio.** Comprobar si existe
+   `50_documentacion/activa/50_ordenacion_repositorio.md`. Si **no** existe,
+   el proyecto no ha pasado la ordenación de la política v5.5 y el pendiente
+   está vigente: declararlo en el acuse (Fase B, "Vigentes que condicionan
+   esta sesión") en una línea, con el resultado de
+   `ls 50_documentacion/traspasos/*.md | wc -l` como evidencia, y ofrecerlo
+   en la ruta de desarrollo (Fase C) como prioridad propuesta. **No se
+   ejecuta dentro de la sesión sin aprobación explícita** ni desplaza el foco
+   que el traspaso fijó: es una propuesta, no una interrupción. El protocolo
+   está en §4.7. Si el archivo existe, no se menciona.
+4ter. **Gatillo del invariante de entorno.** Comprobar si existe
+   `50_documentacion/activa/50_locale_utf8.md`. Si **no** existe, el proyecto
+   no tiene garantizada la locale UTF-8 de la POLITICA v5.6 §5.2bis y el
+   pendiente está vigente: declararlo en el acuse (Fase B, "Vigentes que
+   condicionan esta sesión") en una línea, con el resultado de
+   `grep -rl asegurar_locale_utf8 10_utils | wc -l` como evidencia, y ofrecerlo
+   en la ruta de desarrollo (Fase C) como prioridad propuesta. **No se instala
+   dentro de la sesión sin aprobación explícita** ni desplaza el foco que el
+   traspaso fijó: es una propuesta, no una interrupción. El helper se copia
+   idéntico desde `herramientas_dev/plantillas/10_locale.R` y no se edita por
+   proyecto. Si el proyecto no tiene `10_utils/10_configuracion.R`, el punto de
+   arranque **no se improvisa**: es decisión del titular y el gatillo se reporta
+   como bloqueado, no como pendiente barato. Si el archivo existe, no se
+   menciona.
 5. **Ejecutar la auditoría de apertura** (política, sección 5.6, preguntas
    marcadas "Apertura") y anotar hallazgos. Sin cambio.
 
@@ -598,7 +764,8 @@ aplica); planes no anclados en insumos reales.
 ### 2.1 Generación
 
 Al cerrar una sesión CONTINUATION o NEW PROJECT, generar
-`traspaso_cierre_vNN.md` (correlativo global, dos dígitos; snake_case
+`traspaso_cierre_vNN.md` (correlativo global; dos dígitos hasta v99, tres
+desde v100; snake_case
 según la política, sección 2; unifica la grafía antigua con guiones)
 en `50_documentacion/traspasos/`. El traspaso es el **único puente**
 entre sesiones: todo lo que no quede ahí, se pierde. Antes de cerrar:
@@ -608,6 +775,64 @@ El traspaso se entrega SIEMPRE materializado como archivo `.md` en esa
 ruta (nunca solo como texto plano en el chat), acompañado en el mensaje
 de cierre del bloque de reapertura (2.2.14). Entregarlo sin archivo es
 una desviación registrable en 2.2.15.
+
+**Ejecución delegada del cierre (canal por defecto; forma v2 desde SETTINGS
+v20).** Al recibir la instrucción de cierre, el asistente NO pide al titular
+correr el escáner, adjuntar el backlog ni sobreescribir archivos, y TAMPOCO
+pega el payload en el chat (la forma v1, de payload incrustado, queda
+derogada: sus gatillos superaban las 1000 líneas). Entrega exactamente dos
+cosas:
+
+1. **El paquete de cierre**, un único archivo descargable
+   `paquete_cierre_vNN.md` con front matter (`proyecto`, `raiz_proyecto`,
+   `traspaso_nuevo`, `sello_escaner`, `backlog_ultimo_previo`,
+   `push_autorizado`, `escaner`) y los tres bloques delimitados
+   (TRASPASO, BACKLOG_DELTA, ESTADO) con su destino declarado. El titular lo
+   guarda en `50_documentacion/andamios/` del repo. El paquete es un
+   vehículo: Claude Code lo distribuye, verifica por diff y lo elimina (única
+   eliminación sancionada del protocolo).
+2. Nada más: el gatillo por sesión no existe. El titular escribe el comando
+   global `/cierre` en Claude Code (abierto en la raíz del repo), que
+   descubre el único paquete de `andamios/` y toma todos los parámetros de
+   su front matter. La guardia de repo (raíz declarada contra `pwd`) detiene
+   el cierre lanzado en el proyecto equivocado.
+
+Claude Code ejecuta las fases del instrumento
+`herramientas_dev/prompts/cierre_sesion_autonomo_cc_v4.md`: precondiciones
+por triple origen y guardia de repo, escáner condicional (adopta la corrida de la sesión si el
+`sello_escaner` del paquete calza con el disco; `regenerar` lo corre; sello
+ausente del disco detiene), archivado 1.3.1, distribución de los tres
+bloques, verificaciones (`vigentes=1`, correlativos del backlog, greps de
+gobernanza), commits selectivos, push si está autorizado, sección nueva en el log acumulativo único de cierres, y eco de la
+reapertura seguido de la línea `Commit de cierre: <hash>`.
+
+Reglas de autoría que este canal impone al redactor: `main` se cita en el
+traspaso con el hash **previo** al cierre, rotulado "previo al commit de
+cierre", y el hash definitivo lo agrega Claude Code al eco (el commit de
+cierre no existe cuando el traspaso se redacta; citarlo obligaba a un turno
+de corrección); el BACKLOG_DELTA incluye también los ajustes de rótulos y
+prosa de sección que el delta deja stale, como pares buscar→reemplazar
+exactos; y `sello_escaner` lleva el sello real de la corrida de la sesión o
+la palabra `regenerar`, nunca un sello heredado.
+
+Los pasos manuales del titular son exactamente cuatro: instruir el cierre
+(con `push: si|no`; sin declaración, `no`, y viaja en el front matter), guardar la descarga en
+`andamios/`, escribir `/cierre`, copiar la reapertura. El flujo manual del
+resto de esta sección queda como **fallback** (Claude Code no disponible,
+repo fuera de la cartera, emergencia) y toda la normativa de contenido sigue
+vigente para ambos canales.
+
+*Prohibición (disciplina).* Sin tercera forma: ni payload pegado en el chat
+(v1 derogada), ni más de un archivo de cierre, ni pedir al titular colocar
+contenido destino por destino. Racionalizaciones que NO habilitan excepción:
+"es más directo pegarlo", "son pocos cambios", "el paquete es muy corto para
+justificar descarga". Un cierre corto usa el mismo canal que uno largo.
+
+**Comando `/cierre` (fijo, global; reemplaza a toda plantilla de gatillo).**
+Vive en `~/.claude/commands/cierre.md`, instalado por única vez; su contenido
+canónico está en la sección 3 del instrumento v4. Si no está instalado, ese
+mismo bloque pegado a mano equivale. El redactor no genera gatillos: su única
+entrega de cierre es el paquete.
 
 > **Convención de nombre — no negociable.** El separador es SIEMPRE
 > guión bajo: `traspaso_cierre_vNN.md`. NUNCA con guión medio
@@ -626,6 +851,32 @@ por su vacío y son obligatorias incluso vacías, porque su vacío es una
 afirmación verificable: Bugs de la sesión (2.2 punto 6), la auditoría de
 cierre (dentro de 2.2 punto 11) y la tabla de errores del asistente
 (2.2.15).
+
+**Archivado del traspaso anterior (POLITICA 1.3.1) — paso obligatorio.**
+`50_documentacion/traspasos/` contiene **un solo** archivo: el vigente.
+Antes de depositar el traspaso nuevo, mover el anterior:
+
+```bash
+cd <raiz_del_proyecto> && \
+  mkdir -p 50_documentacion/traspasos/archivo && \
+  git mv 50_documentacion/traspasos/traspaso_cierre_v<NN-1>.md \
+         50_documentacion/traspasos/archivo/
+```
+
+`git mv` siempre, nunca `cp` + `rm`: el historial de cada traspaso debe
+seguir siendo rastreable con `git log --follow`. Nada se borra jamás de
+`archivo/`.
+
+**Comprobación de cierre**, junto con las demás:
+
+```bash
+cd <raiz_del_proyecto> && \
+  n=$(ls 50_documentacion/traspasos/*.md | wc -l | tr -d ' ') && \
+  echo "vigentes=$n" && [ "$n" = "1" ] || { echo "FALLA: cierre a medias"; exit 1; }
+```
+
+Si el proyecto todavía tiene todos sus traspasos planos, migrarlos a
+`archivo/` es parte de ESTE cierre, no un pendiente que se hereda.
 
 **Chequeo de cierre del backlog (2.2.5):** si este es el segundo cierre o
 posterior y el backlog aún vive embebido en el traspaso, o en un archivo
@@ -697,7 +948,10 @@ la sesión que generó ese `ESTADO.md` (no es un error silencioso
 aceptable; es una ambigüedad a revisar por el titular).
 
 **Regla de generación:** `ESTADO.md` se escribe DESPUÉS del traspaso,
-nunca antes (el traspaso es la fuente; `ESTADO.md` es su destilación). Si
+nunca antes (el traspaso es la fuente; `ESTADO.md` es su destilación). En
+el canal delegado (§2.1), la destilación la redacta el asistente dentro
+del payload y la escritura en disco la ejecuta Claude Code en su fase F5,
+respetando este mismo orden. Si
 el cierre no alcanza a generarlo, no bloquea el cierre de sesión: el
 orquestador de cartera cae a PULL (lectura del traspaso/backlog) para ese
 proyecto, sin error.
@@ -824,9 +1078,14 @@ corrige con una entrada nueva.
 
 Esta sección aparece UNA sola vez dentro del traspaso (su sección final) y
 se replica **textualmente** al final del mensaje de chat con el que el
-asistente cierra la sesión, para copiar todo sin abrir el archivo. No se
-duplica dentro del propio traspaso. Con **valores reales, jamás
-placeholders**. El asistente no propone nombre para la nueva sesión.
+asistente cierra la sesión, para copiar todo sin abrir el archivo. En el
+canal delegado (§2.1) esa réplica la imprime Claude Code como último acto
+de su turno, extrayéndola del traspaso recién escrito y agregando debajo
+la línea `Commit de cierre: <hash>`, que por eso el traspaso nunca cita;
+el asistente no la duplica en su propio mensaje, que termina en
+el gatillo. No se duplica dentro del propio traspaso. Con **valores
+reales, jamás placeholders**. El asistente no propone nombre para la
+nueva sesión.
 
 - **Mensaje de apertura pre-armado:** declara tipo CONTINUATION, indica
   que el protocolo (política + este documento) vive en la knowledge base
@@ -845,11 +1104,16 @@ placeholders**. El asistente no propone nombre para la nueva sesión.
      protocolos 4.1-4.6 de este documento según la tarea;
      `auditoria_codigo_proyecto_md_v1.md` si habrá auditoría de cifras.
   3. *Específicos de la sesión* (SÍ se adjuntan): el traspaso
-     `traspaso_cierre_vNN.md`; el escáner `estructura_actual.md`; los
+     `traspaso_cierre_vNN.md`; los
      archivos críticos para retomar (solo los que la próxima sesión
      necesita, priorizando los del pendiente foco; los voluminosos
      pero críticos se mantienen anotados como tales); datos o
-     referencias externas si aplica, con su porqué.
+     referencias externas si aplica, con su porqué. El backlog NO se
+     adjunta (su último número viaja en el traspaso y el cierre lo
+     verificó contra disco); el escáner NO se adjunta por defecto (el
+     traspaso §10 trae su resumen) y se lista solo si la próxima
+     sesión trabajará estructura. Si la apertura necesita un dato de
+     cualquiera de los dos, se pide ese dato puntual, no el archivo.
 - **Nota final obligatoria:** si algún archivo listado cambió entre
   sesiones, adjuntar la versión más actualizada al abrir y avisarlo en
   el mensaje de apertura.
@@ -882,7 +1146,7 @@ código diluiría esa comparabilidad.
 | `regla_violada` | Documento + sección exacta de la regla que existía y no se siguió (p.ej. "userPreferences, edición de archivos: entregar completo, no fragmentos") |
 | `causa_raiz` | Por qué ocurrió pese a que la regla estaba disponible (nunca "no lo sabía": la regla existía; el análisis es de por qué no se aplicó en el momento) |
 | `salvaguarda_presente` | Qué documento(s) ya contenían la regla violada (POLITICA / SETTINGS / CLAUDE.md / userPreferences / más de uno) |
-| `patron` | Etiqueta `PAT-NN` del catálogo canónico (`herramientas_dev/gobernanza/catalogo_patrones_errores_v2.md`) más el matiz libre ("PAT-01, sobre firma de función"). Conjunto válido vigente: `PAT-01` a `PAT-12`. "Nuevo" se reserva para mecanismos que ningún `PAT-NN` cubre, se escribe `PAT-NUEVO-<slug>` y obliga a proponer la entrada nueva del catálogo en el mismo traspaso |
+| `patron` | Etiqueta `PAT-NN` del catálogo canónico (`herramientas_dev/gobernanza/catalogo_patrones_errores_v4.md`) más el matiz libre ("PAT-01, sobre firma de función"). Conjunto válido vigente: `PAT-01` a `PAT-13`. "Nuevo" se reserva para mecanismos que ningún `PAT-NN` cubre, se escribe `PAT-NUEVO-<slug>` y obliga a proponer la entrada nueva del catálogo en el mismo traspaso |
 | `gatillo_observable` | El predicado que era observable en el momento del error, escrito como condición verificable y no como narración. Empieza con una etiqueta del vocabulario controlado, dos puntos, y la precisión libre del caso. Vocabulario: `afirmar-sin-leer`, `estado-git`, `cifras-datos`, `encargos-premisas`, `ausencia-adjuntos`, `comando-entorno`, `restriccion-no-propagada`, `confirmacion-redundante`, `entrega-sin-destino-o-nombre`, `costo-sobre-regla`, `iteracion-sin-criterio`, `otro`. Existe para que los grupos de gatillo sean un campo del registro y no una reconstrucción por expresión regular sobre prosa libre (el catálogo v2 documenta esa brecha en PAT-01) |
 | `intentos_previos` | Número de intentos fallidos contra el mismo objetivo antes del error (`0` si ocurrió al primer intento), más una frase de qué falló en cada uno. Es el dato que el retrospectivo no tenía y sin el cual las salvaguardas de escalada (dos fallos, segundo rechazo) no son medibles |
 | `costo` | Consecuencia real en unidad observable (turnos perdidos, ciclos de copy-paste, artefactos rehechos, fases detenidas, cifra publicada incorrecta) o `ninguno`. Nunca adjetivos. Existe porque la frecuencia sola no ordena las salvaguardas: hay patrones de un registro con costo alto por evento y patrones frecuentes de costo bajo |
@@ -1316,3 +1580,122 @@ suitedoc::generar_suite(
 )
 # Requiere npm + red en tiempo de generación (descarga lucide-static fijado).
 ```
+
+### 4.7 Ordenación del repositorio
+
+Pone el árbol de un proyecto al día con la política v5.5. **No toca el
+pipeline:** mueve, renombra y archiva documentación. Nada se borra: todo lo
+que sale del árbol vivo va a `_archivo/YYYYMMDD/` conservando su ruta
+relativa (política 1.5). El protocolo se ejecuta una vez por proyecto; el
+mantenimiento posterior lo hace el cierre de sesión (§2.1, `vigentes=1`).
+
+**Cuándo aplica.** Cuando el gatillo de §1.2.2 punto 4bis se enciende (no
+existe `50_documentacion/activa/50_ordenacion_repositorio.md`) y el usuario
+aprueba abordarlo. También bajo demanda, invocando "ordenación del
+repositorio".
+
+**Tipo de sesión.** Se ejecuta como tarea dentro de una CONTINUATION del
+propio proyecto, no como sesión aparte: necesita el traspaso leído para saber
+qué documento está superado y cuál no.
+
+**Reparto de instancias.** El asistente conversacional redacta el encargo y
+decide los grados de certeza; Claude Code ejecuta los movimientos, los greps
+y los commits. El asistente no propone que el usuario mueva archivos a mano.
+
+#### 4.7.1 Precondiciones bloqueantes
+
+Se verifican **antes de tocar nada**. Si alguna falla, detenerse y reportar;
+no se "resuelve de paso".
+
+```bash
+cd <raiz_proyecto>
+git status --porcelain            # debe salir vacío (índice y árbol limpios)
+git stash list                    # debe salir vacío
+git rev-list --left-right --count @{u}...HEAD   # debe ser "0	0"
+git rev-parse --abbrev-ref HEAD   # NO debe ser main/master
+```
+
+Rama de trabajo propia: `ordenacion/<AAAAMMDD>`. El merge lo decide el
+titular; el protocolo termina en PR, nunca en merge.
+
+#### 4.7.2 Alcance (cuatro bloques, un commit por bloque)
+
+**Bloque 1 — Traspasos.** `50_documentacion/traspasos/` queda con un solo
+archivo, el de la última sesión cerrada; el resto va a `traspasos/archivo/`
+con `git mv` (nunca `cp` + `rm`, que rompe `git log --follow`). Es la regla
+1.3.1 de la política v5.5 y el paso de cierre de §2.1 de este documento. Si
+la copia local de `POLITICA_PROYECTO.md` o de
+`SETTINGS_Y_PROMPTS_OPERACIONALES.md` en `50_documentacion/activa/` es
+anterior a v5.5 / v14, actualizarla desde la knowledge base es parte de este
+bloque. Aserción de cierre: `ls 50_documentacion/traspasos/*.md` devuelve una
+línea.
+
+**Bloque 2 — Obsoletos y duplicados.** Proponer candidatos a
+`_archivo/YYYYMMDD/`: documentos superados por una versión posterior, specs
+de arquitecturas abandonadas, salidas regenerables, residuos de sesión. Cada
+candidato lleva **grado de certeza** declarado:
+
+| Grado | Criterio | Tratamiento |
+|---|---|---|
+| Alto | Existe la versión posterior en el árbol, o el traspaso declara la arquitectura abandonada | Se mueve |
+| Medio | Parece superado pero nada lo declara | Grep obligatorio antes de mover |
+| Bajo | Solo el nombre o la fecha lo sugieren | No se mueve; se lista como duda en el encargo |
+
+El grep de referencias vivas es `grep -rn --exclude-dir=_archivo
+--exclude-dir=.git "<nombre_archivo>" .`. **Si devuelve una referencia viva,
+la fila se cancela y se reporta**; no se mueve y no se "arregla la
+referencia" en el mismo paso. `andamios/` está congelado (política 1.2): sus
+archivos nunca son candidatos, y una referencia dentro de `andamios/` es
+registro histórico, no referencia viva (se anota, no cancela la fila).
+
+**Bloque 3 — Nomenclatura.** Los archivos de las subcarpetas de `50_*` llevan
+el prefijo de su decena, en minúsculas y snake_case (política §2). **Antes de
+renombrar cualquier archivo, grep de su nombre en `POLITICA_PROYECTO.md` y en
+`SETTINGS_Y_PROMPTS_OPERACIONALES.md`.** Si aparece fijado por nombre, no se
+renombra, por muy fuera de patrón que se vea: su nombre es un contrato que
+excede al proyecto. Las excepciones ya declaradas por la política (`ESTADO.md`,
+`gobernanza_datos.md`, `backlog_acumulativo.md`, `POLITICA_PROYECTO.md`,
+`SETTINGS_Y_PROMPTS_OPERACIONALES.md`) se dan por verificadas; el grep cubre
+las no anticipadas. Origen de la regla: sesión v103 de
+`slep_aprendizajes_ep`, donde el renombre de `ESTADO.md` se ejecutó y hubo que
+revertirlo. Todo renombre que sí proceda **actualiza sus referencias en el
+mismo commit**.
+
+**Bloque 4 — Escáner.** Verificar que `00_escanear_proyecto.R` excluya del
+barrido `node_modules/`, `packrat/` y `venv/` (política §7.2). Si no lo hace,
+los totales que declaran los traspasos están midiendo una dependencia y no el
+proyecto: corregir el script y declarar en el manifiesto el total antes y
+después.
+
+#### 4.7.3 Entrega
+
+1. **Encargo previo** en `50_documentacion/andamios/`, con la lista concreta
+   de movimientos y el grado de certeza de cada uno. Se entrega y se aprueba
+   **antes** de ejecutar.
+2. **Manifiesto** con hashes (`git hash-object`) de cada archivo movido,
+   origen y destino.
+3. **Log de greps** con el resultado de cada uno, **incluidas las filas
+   canceladas**. Una ejecución sin filas canceladas no es una ejecución
+   limpia por definición: si no hubo ninguna, se declara.
+4. **Commits selectivos**, uno por bloque, con rutas explícitas. Nunca
+   `git add -A` ni `git add .`.
+5. **Grep de privacidad y de coautoría** antes de cada commit de
+   documentación (política §6): sin RUT, sin nombres de personas, sin
+   atribución de coautoría a la herramienta.
+6. **Escáner al final** y **PR**. El merge lo decide el titular.
+7. **Marcador:** el último commit crea
+   `50_documentacion/activa/50_ordenacion_repositorio.md` con la fecha, la
+   rama, el hash del PR y el conteo de archivos movidos por bloque. Ese
+   archivo apaga el gatillo de §1.2.2 punto 4bis. Sin él, la ordenación se
+   volvería a proponer en cada apertura.
+
+#### 4.7.4 Prohibido
+
+- Borrar cualquier archivo (todo va a `_archivo/`).
+- `cp` + `rm` donde corresponde `git mv`.
+- Mover un candidato de grado medio o bajo sin grep previo.
+- Renombrar un archivo citado por nombre en la política o en este documento.
+- Tocar `30_procesamiento/` o cualquier script del pipeline.
+- Reescribir rutas dentro de `andamios/` (política 1.2).
+- Mezclar la ordenación con cambios de contenido: un cambio conceptual por
+  intervención.
