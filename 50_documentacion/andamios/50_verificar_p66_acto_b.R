@@ -187,5 +187,113 @@ verificar_f0bis <- function() {
   invisible(all(iguales) && ok3 && ok4 && all(ok6))
 }
 
+# =============================================================================
+# Cargador de DEFINICIONES, sin efectos de lado
+# -----------------------------------------------------------------------------
+# Un script de 30_procesamiento/ corre de arriba a abajo: source() lo ejecuta
+# entero, incluida la descarga. Para probar su parser sin red hay que evaluar
+# SOLO las asignaciones de nivel superior que definen funciones y constantes,
+# saltando toda llamada con efecto (source, library, con_cache, saveRDS...).
+# Asi la prueba ejercita el codigo REAL del paso, no una copia paralela que
+# podria divergir de el sin que nadie lo note.
+cargar_definiciones <- function(archivo) {
+  exprs <- parse(archivo)
+  e <- new.env(parent = globalenv())
+  es_asignacion <- function(x) is.call(x) && length(x) == 3L &&
+    as.character(x[[1]])[1] %in% c("<-", "=")
+  for (ex in exprs) {
+    if (!es_asignacion(ex)) next
+    rhs <- ex[[3]]
+    definible <- (is.call(rhs) && as.character(rhs[[1]])[1] %in% c("function", "c")) ||
+                 is.character(rhs) || is.numeric(rhs) || is.logical(rhs)
+    if (definible) tryCatch(eval(ex, envir = e), error = function(err) invisible(NULL))
+  }
+  e
+}
+
+# =============================================================================
+# F1 - el parser del 37, ejercitado sin red contra los 427 XML del acto A
+# =============================================================================
+verificar_f1 <- function() {
+  titulo("F1 - parser de tramitacion contra los XML ya descargados (cero red)")
+
+  DIR_EXP <- file.path(ROOT, "20_insumos", "exploracion", "20260813")
+  pedidos <- readRDS(file.path(DIR_EXP, "p66_g4_pedidos.rds"))
+  rutas   <- file.path(DIR_EXP, paste0("p66_g4_", sub("-.*$", "", pedidos), ".xml"))
+  linea("XML de la exploracion disponibles : %d de %d pedidos",
+        sum(file.exists(rutas)), length(pedidos))
+  stopifnot(all(file.exists(rutas)))
+
+  e <- cargar_definiciones(file.path(ROOT, "30_procesamiento", "37_extraer_tramitacion.R"))
+  faltan <- setdiff(c("parsear_tramitacion_sil", "acotar_tramites_al_corte",
+                      "tramites_vacio", "TRAMITES_COLUMNAS", "numero_de_boletin"),
+                    ls(e))
+  if (length(faltan) > 0)
+    stop(sprintf("F1: el cargador no obtuvo %s del 37.", paste(faltan, collapse = ", ")),
+         call. = FALSE)
+  linea("definiciones cargadas del 37       : %s", paste(sort(ls(e)), collapse = ", "))
+
+  CORTE <- "2026-08-12"
+  res <- lapply(seq_along(pedidos), function(k) {
+    p <- e$parsear_tramitacion_sil(readLines(rutas[k], warn = FALSE) |> paste(collapse = "\n"))
+    crudos <- p$tramites
+    tr <- e$acotar_tramites_al_corte(crudos, CORTE)
+    list(boletin = pedidos[k], reconocido = p$reconocido,
+         devuelto = p$boletin_devuelto, etapa = p$etapa_actual, estado = p$estado,
+         ley = p$ley_numero, subetapa = p$subetapa,
+         n_crudos = nrow(crudos), n_acotado = nrow(tr),
+         esquema_ok = identical(names(tr), e$TRAMITES_COLUMNAS))
+  })
+
+  lleno <- function(v) !is.na(v) & nzchar(trimws(v))
+  g <- function(campo) vapply(res, function(x) as.character(x[[campo]] %||% NA_character_), character(1))
+  N <- length(res)
+  reconocidos <- sum(vapply(res, function(x) isTRUE(x$reconocido), logical(1)))
+  n_crudos    <- sum(vapply(res, function(x) as.integer(x$n_crudos), integer(1)))
+  n_acotado   <- sum(vapply(res, function(x) as.integer(x$n_acotado), integer(1)))
+  coincide    <- sum(vapply(res, function(x)
+    identical(sub("-.*$", "", as.character(x$devuelto)), sub("-.*$", "", x$boletin)), logical(1)))
+  esquema     <- sum(vapply(res, function(x) isTRUE(x$esquema_ok), logical(1)))
+
+  linea("")
+  linea("boletines pedidos                  : %d", N)
+  linea("reconocidos por el parser          : %d de %d", reconocidos, N)
+  linea("boletin devuelto == pedido         : %d de %d", coincide, N)
+  linea("esquema de tramites canonico       : %d de %d", esquema, N)
+  linea("tramites ANTES del acotamiento     : %d", n_crudos)
+  linea("tramites DESPUES del acotamiento   : %d", n_acotado)
+  linea("descartados por corte > %s   : %d", CORTE, n_crudos - n_acotado)
+  linea("etapa no vacia                     : %d de %d", sum(lleno(g("etapa"))), N)
+  linea("estado no vacio                    : %d de %d", sum(lleno(g("estado"))), N)
+  linea("ley_numero no vacio                : %d de %d", sum(lleno(g("ley"))), N)
+  linea("subetapa no vacia                  : %d de %d", sum(lleno(g("subetapa"))), N)
+  linea("valores distintos de etapa         : %d", length(unique(trimws(g("etapa")[lleno(g("etapa"))]))))
+  linea("valores distintos de estado        : %d", length(unique(trimws(g("estado")[lleno(g("estado"))]))))
+
+  # Comparacion contra la ficha del acto A. Una diferencia es un resultado a
+  # explicar, no un error a ocultar: por eso se imprimen las dos cifras.
+  linea("")
+  linea("--- contraste con la ficha del acto A (medicion del mismo corte) ---")
+  cmp <- function(et, medido, ficha) linea("  %-34s medido=%-6s ficha=%-6s %s", et, medido, ficha,
+                                           if (identical(as.integer(medido), as.integer(ficha)))
+                                             "COINCIDE" else "DIFIERE")
+  cmp("boletines resueltos", reconocidos, 427L)
+  cmp("tramites totales (sin acotar)", n_crudos, 4799L)
+  cmp("etapa no vacia", sum(lleno(g("etapa"))), 427L)
+  cmp("estado no vacio", sum(lleno(g("estado"))), 427L)
+  cmp("ley_numero no vacio", sum(lleno(g("ley"))), 28L)
+  cmp("valores distintos de etapa", length(unique(trimws(g("etapa")[lleno(g("etapa"))]))), 12L)
+  cmp("valores distintos de estado", length(unique(trimws(g("estado")[lleno(g("estado"))]))), 4L)
+
+  # El acotamiento tiene que morder exactamente donde el acto A dijo: el boletin
+  # 18507-04 con un tramite del 13/08/2026.
+  afectados <- vapply(res, function(x) x$n_crudos > x$n_acotado, logical(1))
+  linea("")
+  linea("boletines con tramites descartados : %d -> %s", sum(afectados),
+        paste(vapply(res[afectados], function(x) x$boletin, character(1)), collapse = ", "))
+  invisible(TRUE)
+}
+
 if (identical(fase, "f0bis")) verificar_f0bis() else
+if (identical(fase, "f1"))    verificar_f1() else
   stop(sprintf("fase desconocida: '%s'", fase), call. = FALSE)
