@@ -39,25 +39,25 @@ intencion primaria. Fuente del conteo: traspasos y logs de la sesion.
 
 | Categoria | N | % | Descripcion / ejemplo |
 |-----------|---|---|-----------------------|
-| infraestructura | 6 | 11,3 | scaffold, estructura canonica, utils, config; fix de la clave de cache (tope); corte temporal explicito (CORTE_FECHA); sello de procedencia de los intermedios; arreglo del sello desalineado de los intermedios (P-62); guarda de autorregeneracion en el orquestador (P-65) |
-| extraccion de datos | 7 | 13,2 | pipeline de extraccion de la Camara (31-35); corrida del anno completo; detalle de proyectos (36); Capa 2 territorial (crosswalk + join en el 32); Capa 3 de asistencia simetrica (serie nominal, justificacion, dos ambitos); retiro del bloque legacy del 33 y de su descarga duplicada; captura cruda del 36 en XML y rescate del nodo Votaciones (P-63) |
-| consolidacion/salida | 3 | 5,7 | fusion a JSON (39) + orquestador; enriquecimiento de perfiles (contenido + trazabilidad); retiro del contrato legacy de asistencia del JSON publicado |
-| interfaz/dashboard | 5 | 9,4 | dashboard estatico Fase 2; enriquecimiento visual (metricas, materias, voto->proyecto); toggle del historial de votos; celda de region que lee el dato; frontend de la Capa 3 de asistencia en la ficha (dos ambitos, sin_registro, tabla de sesiones) |
-| diagnostico/exploracion | 11 | 20,8 | diagnostico insumos-first del contenido legible y del join voto->proyecto; exploracion API Senado v02 (backend con ids estables); asistencia nominal por sesion (H1-bis); esquema de la Camara y contrato de datos comun; auditoria adversarial de cobertura del web service de la Camara; diagnostico de brecha entre proposito declarado y entregado; cierre de P-56 (el `+0` entre cortes es real); comprobacion de la republicacion de Pages por identidad de md5; medicion del conflicto entre los dos PRs abiertos; auditoria de fuentes Camara/Senado con panel adversarial (P-61); medicion de la llave directa voto -> proyecto por votacion_id |
-| documentacion | 7 | 13,2 | README, CLAUDE.md, doc tecnica, exploracion API; precision del invariante R-only; consolidacion del backlog de las sesiones 7 a 11; correccion de la glosa del frontend que citaba el campo retirado; cierre de P-52 (auditoria de apertura #3); encargo de auditoria de fuentes Camara/Senado; ampliacion de ese encargo al eje tematico (P-61 v2) |
-| decision metodologica | 3 | 5,7 | mapa partido->tendencia (diferido en v01, poblado en v02); tres decisiones de arquitectura del pipeline del Senado (extendido + normalizacion, asistencia simetrica, clave compuesta con fecha capturada) |
-| integracion/repo | 7 | 13,2 | integracion de las tres ramas a main + reconciliacion de 36; migracion a GitHub (repo publico + Pages); primer refresh real en produccion; versionado de la memoria estructural del proyecto; merge y publicacion de la Capa 2 territorial; exclusion de la configuracion local del asistente del versionado (P-55); resolucion por hunk de los dos PRs abiertos y publicacion del contrato depurado (P-58) |
-| automatizacion | 3 | 5,7 | workflow de GitHub Actions para refresh semanal con gate de conteos; timeout declarado a nivel de job; el bot commitea en rama y abre PR (main deja de recibir escrituras automaticas) |
-| decision de alcance | 1 | 1,9 | Congreso completo (Camara + Senado) como objetivo real del proyecto |
-| **Suma de la columna** | **53** | **100,1** | |
+| infraestructura | 7 | 12,5 | scaffold, estructura canonica, utils, config; fix de la clave de cache (tope); corte temporal explicito (CORTE_FECHA); sello de procedencia de los intermedios; arreglo del sello desalineado de los intermedios (P-62); guarda de autorregeneracion en el orquestador (P-65); contrato temporal de la captura con guarda, registro y reporte (P-74, D31) |
+| extraccion de datos | 7 | 12,5 | pipeline de extraccion de la Camara (31-35); corrida del anno completo; detalle de proyectos (36); Capa 2 territorial (crosswalk + join en el 32); Capa 3 de asistencia simetrica (serie nominal, justificacion, dos ambitos); retiro del bloque legacy del 33 y de su descarga duplicada; captura cruda del 36 en XML y rescate del nodo Votaciones (P-63) |
+| consolidacion/salida | 3 | 5,4 | fusion a JSON (39) + orquestador; enriquecimiento de perfiles (contenido + trazabilidad); retiro del contrato legacy de asistencia del JSON publicado |
+| interfaz/dashboard | 5 | 8,9 | dashboard estatico Fase 2; enriquecimiento visual (metricas, materias, voto->proyecto); toggle del historial de votos; celda de region que lee el dato; frontend de la Capa 3 de asistencia en la ficha (dos ambitos, sin_registro, tabla de sesiones) |
+| diagnostico/exploracion | 12 | 21,4 | diagnostico insumos-first del contenido legible y del join voto->proyecto; exploracion API Senado v02 (backend con ids estables); asistencia nominal por sesion (H1-bis); esquema de la Camara y contrato de datos comun; auditoria adversarial de cobertura del web service de la Camara; diagnostico de brecha entre proposito declarado y entregado; cierre de P-56 (el `+0` entre cortes es real); comprobacion de la republicacion de Pages por identidad de md5; medicion del conflicto entre los dos PRs abiertos; auditoria de fuentes Camara/Senado con panel adversarial (P-61); medicion de la llave directa voto -> proyecto por votacion_id; medicion del contrato temporal del nodo Votaciones y de los seis intermedios (P-74 acto a) |
+| documentacion | 7 | 12,5 | README, CLAUDE.md, doc tecnica, exploracion API; precision del invariante R-only; consolidacion del backlog de las sesiones 7 a 11; correccion de la glosa del frontend que citaba el campo retirado; cierre de P-52 (auditoria de apertura #3); encargo de auditoria de fuentes Camara/Senado; ampliacion de ese encargo al eje tematico (P-61 v2) |
+| decision metodologica | 3 | 5,4 | mapa partido->tendencia (diferido en v01, poblado en v02); tres decisiones de arquitectura del pipeline del Senado (extendido + normalizacion, asistencia simetrica, clave compuesta con fecha capturada) |
+| integracion/repo | 7 | 12,5 | integracion de las tres ramas a main + reconciliacion de 36; migracion a GitHub (repo publico + Pages); primer refresh real en produccion; versionado de la memoria estructural del proyecto; merge y publicacion de la Capa 2 territorial; exclusion de la configuracion local del asistente del versionado (P-55); resolucion por hunk de los dos PRs abiertos y publicacion del contrato depurado (P-58) |
+| automatizacion | 4 | 7,1 | workflow de GitHub Actions para refresh semanal con gate de conteos; timeout declarado a nivel de job; el bot commitea en rama y abre PR (main deja de recibir escrituras automaticas); reparacion de la guarda circular que tenia roto el refresh en la primera corrida de un corte (P-65) |
+| decision de alcance | 1 | 1,8 | Congreso completo (Camara + Senado) como objetivo real del proyecto |
+| **Suma de la columna** | **56** | **100,0** | |
 
 > **Discrepancia heredada, no resuelta aqui.** La tabla vigente hasta v06
 > declaraba un total de 23 y su columna de N sumaba 24. Esa diferencia de una
-> unidad se arrastra: hoy la columna suma 53 mientras las entradas numeradas del
-> detalle cronologico son 52 (1-52). No se resuelve aqui porque resolverla exige
+> unidad se arrastra: hoy la columna suma 56 mientras las entradas numeradas del
+> detalle cronologico son 55 (1-55). No se resuelve aqui porque resolverla exige
 > reclasificar alguna de las entradas 1-23, y el protocolo prohibe reescribir o
 > reclasificar entradas anteriores en silencio (§2.2.5). Los porcentajes se
-> calculan sobre la suma de la columna (53); suman 100,1 por redondeo a un decimal,
+> calculan sobre la suma de la columna (56); suman 100,0 por redondeo a un decimal,
 > no por una entrada sobrante (recuento de la sesion 16, pendiente de verificacion
 > programatica al integrar).
 > Pendiente declarado: auditar la clasificacion de las entradas 1-23 contra los
@@ -84,7 +84,8 @@ intencion primaria. Fuente del conteo: traspasos y logs de la sesion.
 | 15 | v15 | 9 | Opus 5 | retiro del contrato legacy de asistencia (P-48) + cierres de P-52, P-55 y P-56 |
 | 16 | v16 | 5 | Opus 5 | publicacion, auditoria de fuentes y eje tematico |
 | 17 | v17 | 2 | Opus 5 | captura cruda del 36 y rescate del nodo Votaciones |
-| Total | | 52 | | |
+| 18 | v18 | 3 | Opus 5 | contrato temporal de la captura + reparacion del bot semanal |
+| Total | | 55 | | |
 
 > Sesion 8: el modelo no consta en `traspaso_cierre_v08.md` ni en los demas
 > insumos de esta consolidacion; se deja declarado como ausente en vez de
@@ -742,6 +743,41 @@ anteriores a 2026 y 1 del 2026-08-04, un dia despues del corte), y ese ultimo da
 es el que origina P-74. No se implemento nada: por invariante del encargo, la
 medicion es insumo de P-66 y no cambio de producto.
 
+### Sesion 18 (v18) — contrato temporal de la captura y reparacion del bot semanal
+
+**53. Medicion del contrato temporal del nodo `Votaciones` (P-74 acto a).**
+Medicion read-only en tres fases, sin escrituras fuera de andamios. Encontro 1 de 723
+eventos posteriores al corte declarado, en 1 de 115 boletines, y 0 consumidores del
+nodo en codigo y en las 106 claves de los 156 JSON. Su hallazgo decisivo no fue la
+cifra sino la causa: la captura del paso 36 se descargo el 2026-08-08 bajo una clave
+que declara el corte 2026-08-03, mientras las otras siete capturas del mismo corte se
+bajaron el dia que la clave dice. Eso movio el problema desde el sello (A67) hacia la
+ventana entre descarga y corte declarado, y abrio la via que ninguno de los dos
+caminos previstos cubria. Dos afirmaciones del primer borrador, una de ellas
+causalmente falsa, fueron derribadas por el panel adversarial y reemplazadas por
+medicion, no por texto mas suave.
+
+**54. Contrato temporal de la captura: guarda, registro y reporte, mas contencion en
+el 36 (P-74 acto b, decision D31).** El pipeline se detiene antes de escribir una
+captura cuya descarga caiga fuera del corte que su clave declara, con escape
+explicito de un solo uso; cada captura nueva persiste su fecha real de descarga; y
+`run_all()` reporta al cerrar en tres estados (`dentro_de_corte`, `fuera_de_corte`,
+`sin_registro`) con denominador. Como contencion, el paso 36 acota el nodo al corte y
+emite cuantos eventos descarta sobre cuantos. Las capturas anteriores al contrato no
+se reescriben (D24) y quedan en `sin_registro`, que no es conformidad. Verificado con
+14 criterios y neutralidad del artefacto publico en ambos destinos.
+
+**55. Reparacion de la guarda circular que tenia roto el refresh semanal (P-65).**
+La guarda de autorregeneracion exigia capturas crudas del corte vigente para permitir
+continuar, y en el runner esas capturas son exactamente las que la corrida iba a
+descargar: circular en el unico camino capaz de romper el ciclo. La corrida
+programada del 2026-08-10 ya habia fallado en produccion con 0 de 6 pasos. Se
+reparo separando tres estados que la guarda colapsaba en uno, decidiendo la rama de
+primera corrida por existencia de archivos en disco y no por `is.na()` del sello (que
+confunde ausencia con corrupcion), y unificando la resolucion de corte de
+`capturas_crudas_de_paso()`. Verificado en produccion por `workflow_dispatch`: 10 de
+10 pasos, y el PR del bot mergeado.
+
 ## Delta del backlog
 
 - **v01:** primer backlog, 5 entradas nuevas (1-5), taxonomia inicial propuesta.
@@ -905,3 +941,26 @@ medicion es insumo de P-66 y no cambio de producto.
   cambio de producto; y el push del cierre y los commits de documentacion son
   operaciones de git (precedente de la sesion 9).
 
+
+- **v18:** 3 entradas nuevas (53-55). Conteos actualizados (infraestructura 6->7,
+  diagnostico/exploracion 11->12, automatizacion 3->4); suma de la columna 53->56 y
+  porcentajes recalculados sobre 56 (recuento programatico en R exigido por el
+  paquete de cierre, con parada si difiere de lo declarado). Sin categorias nuevas.
+  Sin renumeracion ni reescritura de entradas 1-52. La discrepancia heredada sigue
+  abierta con el mismo signo y la misma unidad (columna 56, entradas 55).
+  **Mapeo declarado:** la entrada 54 va a `infraestructura` y no a `extraccion de
+  datos` pese a tocar el paso 36, porque su intencion primaria fue fijar una
+  propiedad del sistema (que una clave no pueda mentir sobre su dato) y no obtener
+  dato nuevo; criterio inverso al aplicado a la entrada 51 de v17. La entrada 55 va a
+  `automatizacion` y no a `infraestructura` porque el objeto reparado es el unico
+  camino desatendido del proyecto y su intencion primaria fue restituir el refresh
+  automatico, aunque el arreglo viva en `10_utils.R`. **Lo que NO se conto, declarado
+  para que una sesion futura no lo duplique:** el cierre retroactivo de la sesion 17
+  (archivado del v16, commit del traspaso y correccion de dos entradas de
+  `CLAUDE.md`) son operaciones de git y documentacion interna, precedente de la
+  sesion 9 y del delta de v17; los merges de los PRs #8, #9 y #10 son la publicacion
+  de los artefactos de las entradas 54 y 55, mismo criterio con que v16 y v17
+  excluyeron los merges de los PRs #5, #6 y #7; la corrida por `workflow_dispatch` es
+  la verificacion de la entrada 55, no un cambio de producto; y la descarga no
+  solicitada de 3230 llamadas es un error del asistente, que por la nota metodologica
+  no cuenta y queda registrado en el §15 del traspaso.
