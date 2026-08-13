@@ -294,6 +294,130 @@ verificar_f1 <- function() {
   invisible(TRUE)
 }
 
+# =============================================================================
+# F2 - guardas del extractor, escenario por escenario
+# =============================================================================
+# Cada escenario declara su resultado ESPERADO antes de correrse y se compara
+# con el observado. Todos corren en subproceso con el fusible de red armado: si
+# alguno intentara salir a la red, el proceso muere con 99 y el escenario cuenta
+# como fallo, no como exito silencioso.
+verificar_f2 <- function() {
+  titulo("F2 - guardas del extractor de tramitacion, por escenario")
+
+  # Preambulo comun de cada subproceso: fusible primero, definiciones despues.
+  pre <- '
+    ROOT <- rprojroot::find_root(rprojroot::has_file(".here"))
+    source(file.path(ROOT, "50_documentacion", "andamios", "50_fusible_red.R"))
+    instalar_fusible_red(silencioso = TRUE)
+    source(file.path(ROOT, "10_utils", "10_utils.R"))
+    suppressWarnings(suppressMessages(library(dplyr)))   # derivar_tramitacion() usa tibble()/bind_rows()
+    source(file.path(ROOT, "10_utils", "10_configuracion.R"))
+    src <- parse(file.path(ROOT, "30_procesamiento", "37_extraer_tramitacion.R"))
+    e <- new.env(parent = globalenv())
+    for (ex in src) {
+      if (is.call(ex) && length(ex) == 3L && as.character(ex[[1]])[1] %in% c("<-", "=")) {
+        rhs <- ex[[3]]
+        if ((is.call(rhs) && as.character(rhs[[1]])[1] %in% c("function", "c")) ||
+            is.character(rhs) || is.numeric(rhs) || is.logical(rhs))
+          try(eval(ex, envir = e), silent = TRUE)
+      }
+    }
+    prueba <- function(expr) tryCatch({ v <- expr; paste("SIN STOP ->", paste(utils::capture.output(str(v))[1], collapse=" ")) },
+                                      error = function(err) paste("STOP:", conditionMessage(err)))
+  '
+  esc <- list(
+    list(id = "E1 corte ausente (CORTE_FECHA vacia)",
+         esperado = "STOP",
+         cod = 'CORTE_FECHA <- ""; cat(prueba(corte_para_clave()), "\n")'),
+    list(id = "E2 corte con formato invalido",
+         esperado = "STOP",
+         cod = 'tr <- data.frame(fecha="2026-08-01", fecha_fuente="01/08/2026", camara="x",
+                                 etapa="x", descripcion="x", sesion="x", stringsAsFactors=FALSE)
+                cat(prueba(e$acotar_tramites_al_corte(tr, "12-08-2026")), "\n")'),
+    list(id = "E3 respuesta no 200 -> no se persiste crudo",
+         esperado = "xml NA y estado error_red, sin stop",
+         cod = 'cap <- data.frame(boletin="1-1", xml=NA_character_, estado="error_red",
+                                  estado_detalle="HTTP 503", stringsAsFactors=FALSE)
+                r <- e$derivar_tramitacion(cap, "2026-08-12")
+                cat(sprintf("resuelto=%s n_tramites=%d etapa_NA=%s xml_persistido=%s\n",
+                            r$resuelto[1], r$n_tramites[1], is.na(r$etapa_actual[1]), !is.na(cap$xml[1])))'),
+    list(id = "E4 XML malformado",
+         esperado = "STOP",
+         cod = 'cat(prueba(e$parsear_tramitacion_sil("<proyectos><proyecto>")), "\n")'),
+    list(id = "E5 boletin que el SIL no resuelve",
+         esperado = "reconocido=FALSE, 0 tramites, sin fabricar campos",
+         cod = 'p <- e$parsear_tramitacion_sil("<proyectos></proyectos>")
+                cat(sprintf("reconocido=%s n_tramites=%d etapa_NA=%s esquema_ok=%s\n",
+                            p$reconocido, nrow(p$tramites), is.na(p$etapa_actual),
+                            identical(names(p$tramites), e$TRAMITES_COLUMNAS)))'),
+    list(id = "E6 tramite posterior al corte",
+         esperado = "descartado y contado (1 de 2)",
+         cod = 'tr <- data.frame(fecha=c("2026-08-11","2026-08-13"),
+                                 fecha_fuente=c("11/08/2026","13/08/2026"),
+                                 camara=c("a","b"), etapa=c("a","b"),
+                                 descripcion=c("a","b"), sesion=c("a","b"), stringsAsFactors=FALSE)
+                o <- e$acotar_tramites_al_corte(tr, "2026-08-12")
+                cat(sprintf("antes=%d despues=%d descartados=%d\n", nrow(tr), nrow(o), nrow(tr)-nrow(o)))'),
+    list(id = "E7 fecha ilegible en un tramite",
+         esperado = "STOP",
+         cod = 'tr <- data.frame(fecha=c("2026-08-11", NA), fecha_fuente=c("11/08/2026","32/13/2026"),
+                                 camara=c("a","b"), etapa=c("a","b"),
+                                 descripcion=c("a","b"), sesion=c("a","b"), stringsAsFactors=FALSE)
+                cat(prueba(e$acotar_tramites_al_corte(tr, "2026-08-12")), "\n")'),
+    list(id = "E8 tabla de tramites sin columna fecha",
+         esperado = "STOP",
+         cod = 'tr <- data.frame(camara="a", etapa="b", stringsAsFactors=FALSE)
+                cat(prueba(e$acotar_tramites_al_corte(tr, "2026-08-12")), "\n")')
+  )
+
+  linea("%-42s %-46s %s", "escenario", "esperado", "observado")
+  linea("%s", strrep("-", 150))
+  ok <- logical(length(esc))
+  for (k in seq_along(esc)) {
+    r <- correr_aislado(paste(pre, esc[[k]]$cod, sep = "\n"))
+    obs <- trimws(paste(utils::tail(strsplit(r$salida, "\n")[[1]], 1), collapse = " "))
+    if (r$status == 99L) obs <- "FUSIBLE DISPARADO (intento de red)"
+    # Un escenario que NO espera stop() solo es conforme si ademas termino bien.
+    # La primera version aceptaba "cualquier salida no vacia", y con eso un
+    # "Ejecucion interrumpida" pasaba por conforme: un falso verde en el propio
+    # arnes, que es exactamente lo que un arnes no puede permitirse.
+    ok[k] <- if (identical(esc[[k]]$esperado, "STOP")) grepl("^STOP:", obs) else
+             r$status == 0L && nzchar(obs) &&
+             !grepl("FUSIBLE|Error|Ejecuci", obs)
+    linea("%-42s %-46s %s", esc[[k]]$id, esc[[k]]$esperado, substr(obs, 1, 96))
+  }
+  linea("\nEscenarios conformes: %d de %d", sum(ok), length(ok))
+
+  # E9: el cuadre D38 sobre la captura REAL. Se ejercita moviendo la captura a un
+  # respaldo, poniendo una truncada, corriendo el paso y restaurando. El md5 se
+  # comprueba antes y despues: si la restauracion fallara, la prueba lo dice.
+  cache <- file.path(ROOT, "20_insumos", "senado",
+                     "20260812_tramitacion_sil_2026_tope-inf.rds")
+  md5_antes <- unname(tools::md5sum(cache))
+  bak <- tempfile(fileext = ".rds"); file.copy(cache, bak, overwrite = TRUE)
+  obj <- readRDS(cache); truncada <- obj[seq_len(nrow(obj) - 3L), ]
+  attributes(truncada) <- utils::modifyList(attributes(truncada),
+                                            attributes(obj)[c("captura_temporal")])
+  saveRDS(truncada, cache)
+  r9 <- correr_aislado(paste0(
+    'ROOT <- rprojroot::find_root(rprojroot::has_file(".here"))\n',
+    'source(file.path(ROOT, "50_documentacion", "andamios", "50_fusible_red.R"))\n',
+    'instalar_fusible_red(silencioso = TRUE)\n',
+    'r <- tryCatch({ source(file.path(ROOT, "30_procesamiento", "37_extraer_tramitacion.R"),\n',
+    '                       chdir = TRUE); "NO SE DETUVO" },\n',
+    '              error = function(e) paste("STOP:", conditionMessage(e)))\n',
+    'cat("RESULTADO:", r, "\\n")'))
+  file.copy(bak, cache, overwrite = TRUE)
+  md5_despues <- unname(tools::md5sum(cache))
+  detuvo <- grepl("RESULTADO: STOP", r9$salida, fixed = TRUE) || r9$status != 0L
+  linea("\nE9 cuadre D38 con captura truncada  esperado=STOP  observado=%s",
+        if (detuvo) "STOP" else "NO SE DETUVO")
+  linea("   captura restaurada intacta        : %s (md5 %s)",
+        if (identical(md5_antes, md5_despues)) "SI" else "NO", md5_antes)
+  invisible(all(ok) && detuvo && identical(md5_antes, md5_despues))
+}
+
 if (identical(fase, "f0bis")) verificar_f0bis() else
 if (identical(fase, "f1"))    verificar_f1() else
+if (identical(fase, "f2"))    verificar_f2() else
   stop(sprintf("fase desconocida: '%s'", fase), call. = FALSE)
