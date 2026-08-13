@@ -197,9 +197,45 @@ linea("Puntos que invocan la guarda antes de escribir: %d de %d",
         any(vapply(l, function(x) grepl("asegurar_locale_utf8(", x, fixed = TRUE), logical(1)))
       }, logical(1))), length(PUNTOS))
 
-subt("(b) Barrido de G3 repetido: quien escribe sin pasar por ninguno de los cuatro")
+subt("(b) Universo alcanzable: quien escribe sin pasar por ninguno de los cuatro")
 archivos <- list.files(ROOT, pattern = "[.]R$", recursive = TRUE)
 archivos <- archivos[!startsWith(archivos, "renv/")]
+
+# El universo que importa NO es "todo .R del repositorio": es lo alcanzable desde
+# las tres raices por las que este proyecto arranca de verdad. Se calcula por
+# cierre transitivo sobre las menciones de archivos .R en lineas de CODIGO (los
+# comentarios no invocan nada). Un archivo que nadie alcanza no puede escribir en
+# una corrida de este proyecto, y meterlo en el denominador infla la cobertura.
+RAICES <- c("00_run_all.R", ".github/workflows/refresh-semanal.yml",
+            "00_escanear_proyecto.R")
+lineas_codigo <- function(rel) {
+  ruta <- file.path(ROOT, rel)
+  if (!file.exists(ruta)) return(character(0))
+  l <- readLines(ruta, warn = FALSE)
+  l[!startsWith(trimws(l), "#")]
+}
+alcanzables <- local({
+  vistos <- character(0); frontera <- RAICES
+  while (length(frontera) > 0) {
+    f <- frontera[1]; frontera <- frontera[-1]
+    if (f %in% vistos) next
+    vistos <- c(vistos, f)
+    l <- lineas_codigo(f)
+    hijos <- archivos[vapply(archivos, function(a)
+      any(vapply(l, function(x) grepl(a, x, fixed = TRUE) ||
+                   grepl(basename(a), x, fixed = TRUE), logical(1))), logical(1))]
+    frontera <- c(frontera, setdiff(hijos, vistos))
+  }
+  intersect(archivos, vistos)
+})
+EXCLUIDOS <- setdiff(archivos, alcanzables)
+linea("Raices declaradas: %d -> %s", length(RAICES), paste(RAICES, collapse = ", "))
+linea("Archivos .R del repositorio: %d | ALCANZABLES desde las raices: %d | fuera: %d",
+      length(archivos), length(alcanzables), length(EXCLUIDOS))
+subt("Universo alcanzable, enumerado")
+for (a in alcanzables) linea("    %s", a)
+subt("Fuera del universo (no alcanzables desde ninguna raiz)")
+for (a in EXCLUIDOS) linea("    %s", a)
 # "Pasa por" = ES uno de los cuatro, o menciona a uno de los cuatro en un source().
 pasa <- vapply(archivos, function(a) {
   if (a %in% PUNTOS) return(TRUE)
@@ -215,19 +251,51 @@ escribe_texto <- vapply(archivos, function(a) {
   any(vapply(c("writeLines(", "write_json(", "write.csv(", "write_csv("),
              function(t) tiene(l, t), logical(1)))
 }, logical(1))
-linea("Archivos .R barridos (contados): %d", length(archivos))
-linea("Escriben algun artefacto: %d de %d | escriben TEXTO: %d de %d",
-      sum(escribe), length(archivos), sum(escribe_texto), length(archivos))
-huerfanos       <- archivos[escribe & !pasa]
-huerfanos_texto <- archivos[escribe_texto & !pasa]
-linea("Escriben y NO pasan por ninguno de los cuatro: %d de %d",
-      length(huerfanos), length(archivos))
+en_universo <- archivos %in% alcanzables
+subt("Veredicto sobre el universo alcanzable")
+linea("Denominador (alcanzables): %d", sum(en_universo))
+linea("  de esos, escriben algun artefacto: %d de %d", sum(escribe & en_universo),
+      sum(en_universo))
+linea("  de esos, escriben TEXTO           : %d de %d",
+      sum(escribe_texto & en_universo), sum(en_universo))
+huerfanos <- archivos[escribe & !pasa & en_universo]
+linea("HUERFANOS (escriben y no pasan por ninguno de los cuatro): %d de %d",
+      length(huerfanos), sum(en_universo))
+if (length(huerfanos) == 0) linea("    (ninguno)")
 for (a in huerfanos) linea("    %s", a)
-linea("De esos, los que escriben TEXTO: %d de %d", length(huerfanos_texto), length(archivos))
-for (a in huerfanos_texto) linea("    %s", a)
+
+subt("Excluidos, por categoria (cada uno con SU razon, no con una comun)")
+escribe_de <- function(a, patrones) {
+  l <- codigo_de(file.path(ROOT, a))
+  any(vapply(patrones, function(t) tiene(l, t), logical(1)))
+}
+patrones_texto <- c("writeLines(", "write_json(", "write.csv(", "write_csv(")
+fuera_que_escriben <- EXCLUIDOS[vapply(EXCLUIDOS, escribe_de, logical(1),
+                                       patrones = patrones_escritura)]
+DIR_AUDITORIA <- "20_insumos/exploracion/20260807/"
+# (1) Los DECLARADOS por el titular: reproductores congelados de la auditoria de
+# fuentes del 2026-08-07 que escriben TEXTO. Van nombrados uno por uno aqui y en
+# el marcador. Guardados como procedencia; ninguna raiz los alcanza.
+declarados <- fuera_que_escriben[startsWith(fuera_que_escriben, DIR_AUDITORIA) &
+                                 vapply(fuera_que_escriben, escribe_de, logical(1),
+                                        patrones = patrones_texto)]
+linea("(1) Reproductores congelados que escriben TEXTO (auditoria 2026-08-07): %d",
+      length(declarados))
+for (a in declarados) linea("    %s", a)
+# (2) Misma auditoria, mismo congelamiento, pero solo escriben binario (.rds).
+otros_auditoria <- setdiff(fuera_que_escriben[startsWith(fuera_que_escriben, DIR_AUDITORIA)],
+                           declarados)
+linea("(2) Misma auditoria 2026-08-07, escriben solo binario: %d", length(otros_auditoria))
+for (a in otros_auditoria) linea("    %s", a)
+# (3) Andamios de medicion y arneses. NO son de esa auditoria: son de sesiones
+# distintas y se corren a mano. Se listan con su propia razon, sin heredar fecha.
+andamios <- setdiff(fuera_que_escriben, c(declarados, otros_auditoria))
+linea("(3) Andamios y arneses, corridos a mano, fuera del pipeline: %d", length(andamios))
+for (a in andamios) linea("    %s", a)
 res$C9 <- veredicto("C9", ok9a && length(huerfanos) == 0L,
-  sprintf("%d de %d puntos invocan antes de escribir; %d de %d archivos huerfanos",
-          length(PUNTOS), length(PUNTOS), length(huerfanos), length(archivos)))
+  sprintf("%d de %d puntos invocan antes de escribir; %d huerfanos sobre %d alcanzables (%d reproductores declarados fuera)",
+          length(PUNTOS), length(PUNTOS), length(huerfanos), sum(en_universo),
+          length(declarados)))
 
 titulo("C7. Nada mas cambio")
 c_cap <- md5_de(ruta_insumos("camara"), "[.]rds$")

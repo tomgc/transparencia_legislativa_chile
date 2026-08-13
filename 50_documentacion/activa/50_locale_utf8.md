@@ -44,6 +44,18 @@ Los cuatro invocan la guarda **antes** de su primera escritura de texto: 4 de 4,
 medido comparando el número de línea de la llamada contra el de la primera
 escritura, sobre líneas de código (los comentarios no cuentan).
 
+## Sobre qué universo hay cobertura (no "total" a secas)
+
+La cobertura es **total sobre el universo alcanzable, y ese universo tiene
+denominador**: los **13** archivos `.R` a los que se llega, por cierre transitivo
+sobre líneas de código, desde las tres raíces por las que este proyecto arranca —
+`00_run_all.R`, `.github/workflows/refresh-semanal.yml` y
+`00_escanear_proyecto.R`. Sobre esos 13: **9 escriben algún artefacto, 3 escriben
+texto, y 0 lo hacen sin pasar por uno de los cuatro puntos.**
+
+El repositorio tiene 30 archivos `.R` en total; los 17 restantes no son
+alcanzables desde ninguna raíz. La exclusión que importa va nombrada abajo.
+
 ## Qué se midió para escribir este marcador
 
 - **La guarda actúa:** subproceso con `LC_ALL=C LANG=C --vanilla` que carga
@@ -65,20 +77,32 @@ escritura, sobre líneas de código (los comentarios no cuentan).
 
 ## Lo que esta guarda NO cubre (medido, no supuesto)
 
-**4 de 30** archivos `.R` del repositorio escriben texto sin pasar por ninguno
-de los cuatro puntos. Los cuatro son reproductores congelados de la auditoría
-del 2026-08-07, guardados como procedencia dentro de `20_insumos/exploracion/`:
+### Cuatro reproductores congelados, excluidos por decisión del titular
 
-- `20_insumos/exploracion/20260807/20260807_sondeo_eje_tematico_senado.R`
-- `20_insumos/exploracion/20260807/d2_reproductor_asistencia_senado.R`
-- `20_insumos/exploracion/20260807/reproductor_universo_operaciones_camara.R`
-- `20_insumos/exploracion/20260807/senado_sondeo_reproductor.R`
+Escriben texto y no pasan por la guarda. Son reproductores de la **auditoría de
+fuentes del 2026-08-07**, guardados como procedencia dentro de
+`20_insumos/exploracion/20260807/`, congelados y no alcanzables desde ninguna de
+las tres raíces:
 
-Ninguno es alcanzable desde `00_run_all.R` ni desde el workflow semanal, y
-ninguno se corre en un refresh. **Quedan fuera de la guarda y es una decisión
-pendiente del titular**, no un descuido: el criterio C9 del encargo pedía 0 y
-la medición dio 4, así que C9 está declarado NO CUMPLE en el log de la corrida.
+| Archivo | Razón |
+|---|---|
+| `20_insumos/exploracion/20260807/20260807_sondeo_eje_tematico_senado.R` | Congelado, no alcanzable. Auditoría 2026-08-07 |
+| `20_insumos/exploracion/20260807/d2_reproductor_asistencia_senado.R` | Congelado, no alcanzable. Auditoría 2026-08-07 |
+| `20_insumos/exploracion/20260807/reproductor_universo_operaciones_camara.R` | Congelado, no alcanzable. Auditoría 2026-08-07 |
+| `20_insumos/exploracion/20260807/senado_sondeo_reproductor.R` | Congelado, no alcanzable. Auditoría 2026-08-07 |
 
-Del helper mismo, por su cabecera (no medido aquí): no cubre la **lectura**
-(H4), y `writeLines()` no escapa aunque el proceso corra en `C` (H1) — el efecto
-medible en esa ruta es el **orden de colación** (H2).
+Son diagnósticos de una sola vez contra APIs externas: no corren en ningún
+refresh y nadie los invoca desde el pipeline. **Exclusión declarada (sesión 19),
+no descuido.** Si alguno volviera a correrse a mano, corre sin esta guarda.
+
+Otros dos grupos quedan fuera por la misma razón estructural (no alcanzables), y
+se anotan para que la exclusión esté completa y no solo la parte cómoda: **3**
+archivos más de esa misma auditoría que escriben solo binario, y **6** andamios y
+arneses de medición de `50_documentacion/andamios/` — estos últimos **no** son de
+esa auditoría: son de sesiones distintas y se corren a mano.
+
+### Límites del helper
+
+Por su propia cabecera (**no medido aquí**): no cubre la **lectura**, que falla
+en silencio (H4); y `writeLines()` no escapa aunque el proceso corra en `C` (H1)
+— el efecto medible en esa ruta es el **orden de colación** (H2).
