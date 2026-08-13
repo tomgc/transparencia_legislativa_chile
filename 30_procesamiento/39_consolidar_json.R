@@ -577,3 +577,21 @@ log_msg(sprintf("Publicado en docs/data/: indice + %d perfiles.",
 if (length(archivos_perfil_docs) != nrow(indice))
   stop(sprintf("39_consolidar: DESAJUSTE docs/data perfiles (%d) vs indice (%d).",
                length(archivos_perfil_docs), nrow(indice)))
+
+# ---- Publicar la entidad `proyecto` (P-66 acto b) ---------------------------
+# Misma via que los perfiles: copiado explicito en R, idempotente, con limpieza
+# previa del destino. No se monta el directorio ni se enlaza: se copia, que es lo
+# que el resto del paso ya hacia y lo que el workflow semanal commitea.
+fs::dir_create(ruta_docs_data("proyectos"))
+antiguos_proy_docs <- fs::dir_ls(ruta_docs_data("proyectos"), glob = "*.json", fail = FALSE)
+if (length(antiguos_proy_docs) > 0) fs::file_delete(antiguos_proy_docs)
+fs::file_copy(ruta_json("indice_proyectos.json"),
+              ruta_docs_data("indice_proyectos.json"), overwrite = TRUE)
+fs::file_copy(archivos_proy, ruta_docs_data("proyectos"), overwrite = TRUE)
+
+archivos_proy_docs <- fs::dir_ls(ruta_docs_data("proyectos"), glob = "*.json")
+log_msg(sprintf("Publicado en docs/data/: indice de proyectos + %d proyectos.",
+                length(archivos_proy_docs)), origen = "39_consolidar")
+if (length(archivos_proy_docs) != nrow(proyectos_detalle))
+  stop(sprintf("39_consolidar: DESAJUSTE docs/data proyectos (%d) vs universo (%d).",
+               length(archivos_proy_docs), nrow(proyectos_detalle)), call. = FALSE)

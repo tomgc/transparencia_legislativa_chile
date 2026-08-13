@@ -1,0 +1,165 @@
+{
+  "boletin": "16808-25",
+  "nombre": "Modifica la ley N° 19.913 para prevenir y sancionar con mayor rigurosidad el lavado de activos asociado al comercio ilegal",
+  "tipo_iniciativa": "Moción",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2024-04-25",
+  "tramitacion": {
+    "etapa_actual": "Segundo trámite constitucional (Senado)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2024-04-25",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-05-06",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Seguridad Ciudadana",
+        "sesion": "25/372"
+      },
+      {
+        "fecha": "2024-09-02",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de Oficio de la Comisión de Gobierno Interior, Nacionalidad, Ciudadanía y Regionalización (N° 277/6/2024), por el cual solicita recabar el acuerdo de la Sala para que le sea remitido el proyecto. RECHAZADO.",
+        "sesion": "70/372"
+      },
+      {
+        "fecha": "2024-09-02",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio N° 19805. Comunica a la Comisión de Gobierno Interior que la Sala no accedió a su solicitud en orden a remitirle el proyecto de ley.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-05-14",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta, Oficio de la Comisión de Gobierno Interior, Nacionalidad, Ciudadanía y Regionalización (N° 375/6/2025), por el cual solicita recabar el acuerdo de la Sala para que le sea remitido el proyecto. ACORDADO.",
+        "sesion": "25/373"
+      },
+      {
+        "fecha": "2026-04-21",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 55-374 que hace presente la urgencia Suma",
+        "sesion": "15/374"
+      },
+      {
+        "fecha": "2026-05-04",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 68-374 que hace presente la urgencia Suma",
+        "sesion": "17/374"
+      },
+      {
+        "fecha": "2026-05-20",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Gobierno Interior Nacionalidad Ciudadanía y Regionalización.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-05-20",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 108-374 que hace presente la urgencia Suma",
+        "sesion": "27/374"
+      },
+      {
+        "fecha": "2026-06-02",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .",
+        "sesion": "28/374"
+      },
+      {
+        "fecha": "2026-06-02",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 120-374 que hace presente la urgencia Suma",
+        "sesion": "28/374"
+      },
+      {
+        "fecha": "2026-06-03",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular a la vez .",
+        "sesion": "29/374"
+      },
+      {
+        "fecha": "2026-06-03",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio de ley a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-06-03",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Seguridad Pública",
+        "sesion": "26/374"
+      },
+      {
+        "fecha": "2026-06-16",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 149-374 que retira y hace presente la urgencia Simple",
+        "sesion": "30/374"
+      },
+      {
+        "fecha": "2026-06-23",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 171-374 que retira y hace presente la urgencia Simple",
+        "sesion": "35/374"
+      },
+      {
+        "fecha": "2026-07-21",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 215-374 que retira y hace presente la urgencia Simple",
+        "sesion": "44/374"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "89032",
+      "fecha": "2026-06-03T13:50:06",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Indicación renovada de la diputada Carolina Tello, del siguiente tenor:\n\n“Nuevo numeral.- Para agregar al artículo 3° de la ley N°19.913 un inciso final, del siguiente tenor:\n“Para  efectos  de  la  fiscalización  del  cumplimiento  de  las obligaciones establecidas en la presente ley, cuando un sujeto obligado incurra en una infracción grave que dificulte o impida la verificación del origen, destino o trazabilidad de sus operaciones, la Unidad de Análisis Financiero podrá requerir la   información   financiera   necesaria   para   dichos   fines,   conforme   a   los procedimientos y autorizaciones establecidos en la legislación vigente.”.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89031",
+      "fecha": "2026-06-03T13:48:28",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": null,
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:41"
+  }
+}

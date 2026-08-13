@@ -1,0 +1,256 @@
+{
+  "boletin": "17724-34",
+  "nombre": "Reemplaza el artículo 5 bis del decreto ley N° 3.500, de 1980",
+  "tipo_iniciativa": "Mensaje",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2025-08-04",
+  "tramitacion": {
+    "etapa_actual": "Tramitación terminada",
+    "estado": "Publicado",
+    "ley_numero": "Ley N° 21.818",
+    "tramites": [
+      {
+        "fecha": "2025-08-04",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .  Incluye IF N° 218/04.08.2025.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-08-04",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Texto del Mensaje.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-08-04",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión Mujeres y Equidad de Género.",
+        "sesion": "54/373"
+      },
+      {
+        "fecha": "2025-08-12",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 936-373 que hace presente la urgencia Suma",
+        "sesion": "58/373"
+      },
+      {
+        "fecha": "2025-08-13",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio del Presidente de la República (160-373), mediante el cual formula indicaciones al proyecto. Se adjunta informe financiero complementario N° 233/12.08.2025.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-08-20",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 978-373 que retira y hace presente la urgencia Suma",
+        "sesion": "61/373"
+      },
+      {
+        "fecha": "2025-09-03",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión Mujeres y Equidad de Género.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-09-03",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1026-373 que retira y hace presente la urgencia Suma",
+        "sesion": "66/373"
+      },
+      {
+        "fecha": "2025-09-03",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio del Presidente de la República (N° 183-373), mediante el cual retira y formula indicación sustitutiva al proyecto. Se adjunta informe financiero N° 260/03.09.2025.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-09-10",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  Queda para tabla.",
+        "sesion": "69/373"
+      },
+      {
+        "fecha": "2025-09-15",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular a la vez .",
+        "sesion": "70/373"
+      },
+      {
+        "fecha": "2025-09-15",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio de ley a Cámara Revisora .  Se cambió el nombre del proyecto por el que se consigna en la suma.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-09-16",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de la Mujer y Equidad de Género",
+        "sesion": "55/373"
+      },
+      {
+        "fecha": "2025-10-07",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1133-373 que hace presente la urgencia Simple",
+        "sesion": "59/373"
+      },
+      {
+        "fecha": "2025-11-05",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1236-373 que retira y hace presente la urgencia Simple",
+        "sesion": "65/373"
+      },
+      {
+        "fecha": "2025-12-03",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1323-373 que retira y hace presente la urgencia Simple",
+        "sesion": "79/373"
+      },
+      {
+        "fecha": "2026-01-06",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1462-373 que hace presente la urgencia Suma",
+        "sesion": "86/373"
+      },
+      {
+        "fecha": "2026-01-20",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1548-373 que retira y hace presente la urgencia Suma",
+        "sesion": "91/373"
+      },
+      {
+        "fecha": "2026-01-21",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Primer informe de comisión de la Mujer y Equidad de Género.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-21",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .",
+        "sesion": "92/373"
+      },
+      {
+        "fecha": "2026-03-03",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1605-373 que hace presente la urgencia Suma",
+        "sesion": "97/373"
+      },
+      {
+        "fecha": "2026-04-14",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 42-374 que hace presente la urgencia Suma",
+        "sesion": "7/374"
+      },
+      {
+        "fecha": "2026-04-21",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular con modificaciones",
+        "sesion": "10/374"
+      },
+      {
+        "fecha": "2026-04-21",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio modificaciones a Cámara de Origen .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-04-22",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta oficio con modificaciones de Cámara Revisora . Queda para tabla",
+        "sesion": "16/374"
+      },
+      {
+        "fecha": "2026-05-04",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 67-374 que hace presente la urgencia Suma",
+        "sesion": "17/374"
+      },
+      {
+        "fecha": "2026-05-05",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Discusión única . Aprobadas las modificaciones .",
+        "sesion": "18/374"
+      },
+      {
+        "fecha": "2026-05-05",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Oficio N° 21.202, que comunica aprobacion de modificaciones",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-05-05",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Oficio de ley al Ejecutivo .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-05-05",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta oficio N° 21.202, que comunica aprobación de modificaciones",
+        "sesion": "12/374"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "88754",
+      "fecha": "2026-05-05T12:59:59",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Modificaciones incorporadas por el Senado en el proyecto de ley, originado en mensaje, que “Reemplaza el artículo 5 bis del decreto ley N° 3.500, de 1980.”, que requieren para su aprobación del voto favorable de 78 diputadas y diputados por tratarse de normas de quórum calificado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "85232",
+      "fecha": "2025-09-15T19:23:00",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": null,
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": true,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:41"
+  }
+}

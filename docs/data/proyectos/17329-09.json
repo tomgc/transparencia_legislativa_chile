@@ -1,0 +1,107 @@
+{
+  "boletin": "17329-09",
+  "nombre": "Regula la reutilización de aguas residuales tratadas, provenientes de emisarios submarinos",
+  "tipo_iniciativa": "Moción",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2025-01-06",
+  "tramitacion": {
+    "etapa_actual": "Segundo trámite constitucional (Senado)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2025-01-06",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-01-07",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Obras Públicas, Transportes y Telecomunicaciones.",
+        "sesion": "124/372"
+      },
+      {
+        "fecha": "2025-01-08",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Los Comités Parlamentarios acordaron radicar el proyecto en la Comisión de Recursos Hídricos y Desertificación.",
+        "sesion": "125/372"
+      },
+      {
+        "fecha": "2025-10-30",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Recursos Hídricos y Desertificación.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-11-04",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  Queda para tabla.",
+        "sesion": "87/373"
+      },
+      {
+        "fecha": "2026-01-05",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1444-373 que hace presente la urgencia Simple",
+        "sesion": "105/373"
+      },
+      {
+        "fecha": "2026-01-12",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular a la vez .",
+        "sesion": "109/373"
+      },
+      {
+        "fecha": "2026-01-12",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio de ley a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-13",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Recursos Hídricos, Desertificación y Sequía",
+        "sesion": "88/373"
+      },
+      {
+        "fecha": "2026-03-03",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1606-373 que hace presente la urgencia Simple",
+        "sesion": "97/373"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "87191",
+      "fecha": "2026-01-12T19:09:59",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": null,
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:41"
+  }
+}

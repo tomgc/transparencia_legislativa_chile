@@ -1,0 +1,134 @@
+{
+  "boletin": "18236-18",
+  "nombre": "Fortalece la protección de las víctimas de violencia intrafamiliar y previene su revictimización",
+  "tipo_iniciativa": "Moción",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2026-05-04",
+  "tramitacion": {
+    "etapa_actual": "Primer trámite constitucional (C.Diputados)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2026-05-04",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-05-06",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de la Familia.",
+        "sesion": "20/374"
+      },
+      {
+        "fecha": "2026-05-06",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Por acuerdo de los comités parlamentarios, el proyecto fue radicado en la Comisión de Mujeres y Equidad de Género.",
+        "sesion": "20/374"
+      },
+      {
+        "fecha": "2026-05-06",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Eximido del trámite ante Comisión Derivado a Comisión Mujeres y Equidad de Género",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-05-06",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio N° 21218. Comunica a la Comisión de Familia el acuerdo de los Comités Parlamentarios, en orden a   remitir a la Comisión de Mujeres y Equidad de Género el proyecto de ley.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-05-06",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio N° 21216. Comunica a la Comisión de Mujeres y Equidad de Género el acuerdo de los Comités Parlamentarios,en orden a asignarle el proyecto de ley, radicado originalmente en la Comisión de Familia.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-08-10",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio N°40/26/2026 de la Comisión de Mujeres y Equidad de Género mediante el cual solicita refundir los boletines N°18236-18 y 18414-18. ACORDADO",
+        "sesion": "53/374"
+      },
+      {
+        "fecha": "2026-08-10",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio N°21.470. Comunica que la Cámara de Diputados acordó acceder a la solicitud para refundir los proyectos de ley correspondientes a los boletines Nos. 18.236-18 y 18.414-18.",
+        "sesion": "/"
+      }
+    ]
+  },
+  "autores": [
+    {
+      "parlamentario_id": "1054",
+      "nombre": "Francesca Muñoz González",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1074",
+      "nombre": "Marisela Santibáñez Novoa",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1028",
+      "nombre": "Eduardo Durán Salinas",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1180",
+      "nombre": "Consuelo Veloso Ávila",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1119",
+      "nombre": "Sara Concha Smith",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1228",
+      "nombre": "Paulina Muñoz Minte",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1247",
+      "nombre": "Javiera Rodríguez Pascual",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1255",
+      "nombre": "Eileen Urqueta Rojas",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1231",
+      "nombre": "Ximena Naranjo Pinto",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1191",
+      "nombre": "Valentina Becerra Peña",
+      "en_padron_vigente": true
+    }
+  ],
+  "votaciones": [],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": true,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:41"
+  }
+}

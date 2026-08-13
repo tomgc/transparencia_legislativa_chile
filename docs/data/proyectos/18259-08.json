@@ -1,0 +1,188 @@
+{
+  "boletin": "18259-08",
+  "nombre": "Modifica el Código de Minería y las leyes números 21.420 y 21.649, en materia de amparo minero y otras materias que indica",
+  "tipo_iniciativa": "Mensaje",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2026-05-18",
+  "tramitacion": {
+    "etapa_actual": "Segundo trámite constitucional (Senado)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2026-05-18",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-05-19",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Texto del mensaje",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-05-19",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Minería y Energía, y a la Comisión de Hacienda en lo que corresponda.",
+        "sesion": "26/374"
+      },
+      {
+        "fecha": "2026-05-19",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 102 que hace presente la urgencia Suma",
+        "sesion": "26/374"
+      },
+      {
+        "fecha": "2026-06-02",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 120-374 que hace presente la urgencia Suma",
+        "sesion": "28/374"
+      },
+      {
+        "fecha": "2026-06-15",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 145-374 que hace presente la urgencia Suma",
+        "sesion": "33/374"
+      },
+      {
+        "fecha": "2026-06-22",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 162-374 que hace presente la urgencia Suma",
+        "sesion": "36/374"
+      },
+      {
+        "fecha": "2026-07-06",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 182-374 que retira y hace presente la urgencia Suma",
+        "sesion": "39/374"
+      },
+      {
+        "fecha": "2026-07-07",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "S.E. el Presidente de la República formula indicaciones al proyecto. (096-374). Incluye informe financiero complementario N° 154/06.07.2026.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-13",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Minería y Energía. Pasa a Comisión de Hacienda",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-13",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  (Minería). Pasa a Hacienda.",
+        "sesion": "42/374"
+      },
+      {
+        "fecha": "2026-07-20",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Hacienda.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-20",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .",
+        "sesion": "45/374"
+      },
+      {
+        "fecha": "2026-07-21",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 212-374 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "46/374"
+      },
+      {
+        "fecha": "2026-07-22",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular a la vez .",
+        "sesion": "48/374"
+      },
+      {
+        "fecha": "2026-07-22",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": ".",
+        "sesion": "48/374"
+      },
+      {
+        "fecha": "2026-07-22",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio de ley a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-08-04",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Minería y Energía y a Comisión de Hacienda en su caso",
+        "sesion": "47/374"
+      },
+      {
+        "fecha": "2026-08-05",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 242-374 que hace presente la urgencia Suma",
+        "sesion": "48/374"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "89546",
+      "fecha": "2026-07-22T19:18:29",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 5 transitorio, propuesto por la Comisión de Minería y Hacienda, cuya votación separada ha sido solicitada por la diputada Valentina Cáceres, y que consta en las páginas 26 a 29 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89545",
+      "fecha": "2026-07-22T19:17:34",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 5 nuevo, propuesto por la Comisión de Hacienda, y que consta en la página 24 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89544",
+      "fecha": "2026-07-22T19:16:06",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": null,
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:41"
+  }
+}

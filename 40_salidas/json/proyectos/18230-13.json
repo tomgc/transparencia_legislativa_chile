@@ -1,0 +1,257 @@
+{
+  "boletin": "18230-13",
+  "nombre": "Reajusta el monto del ingreso mínimo mensual, así como de la asignación familiar y maternal y del subsidio familiar",
+  "tipo_iniciativa": "Mensaje",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2026-04-30",
+  "tramitacion": {
+    "etapa_actual": "Tramitación terminada",
+    "estado": "Publicado",
+    "ley_numero": "Ley N° 21.830",
+    "tramites": [
+      {
+        "fecha": "2026-04-30",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .  Incluye IF N° 087/30.04.2026.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-04-30",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Texto del Mensaje.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-05-04",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Trabajo y Seguridad Social, y a la Comisión de Hacienda en lo que corresponda",
+        "sesion": "17/374"
+      },
+      {
+        "fecha": "2026-05-04",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 64-374 que hace presente la urgencia Suma",
+        "sesion": "17/374"
+      },
+      {
+        "fecha": "2026-05-10",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Trabajo y Seguridad Social. Pasa a Comisión de Hacienda",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-05-11",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 84-374 que hace presente la urgencia Suma",
+        "sesion": "21/374"
+      },
+      {
+        "fecha": "2026-05-18",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  (Trabajo). Pasa a Hacienda.",
+        "sesion": "25/374"
+      },
+      {
+        "fecha": "2026-05-20",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 109-374 que retira y hace presente la urgencia Suma",
+        "sesion": "27/374"
+      },
+      {
+        "fecha": "2026-06-02",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 120-374 que hace presente la urgencia Suma",
+        "sesion": "28/374"
+      },
+      {
+        "fecha": "2026-06-02",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Hacienda.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-06-03",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular a la vez .",
+        "sesion": "29/374"
+      },
+      {
+        "fecha": "2026-06-03",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  (Hacienda). Queda para tabla.",
+        "sesion": "29/374"
+      },
+      {
+        "fecha": "2026-06-03",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio de ley a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-06-03",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Hacienda",
+        "sesion": "26/374"
+      },
+      {
+        "fecha": "2026-06-09",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 137-374 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "28/374"
+      },
+      {
+        "fecha": "2026-06-09",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Primer informe de comisión de Hacienda.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-06-10",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .",
+        "sesion": "29/374"
+      },
+      {
+        "fecha": "2026-06-10",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general Se fija como plazo para presentar indicaciones el 15/06/2026 a las 13:00",
+        "sesion": "29/374"
+      },
+      {
+        "fecha": "2026-06-15",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Boletín de indicaciones .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-06-16",
+        "camara": "C.Diputados",
+        "etapa": "Trámite finalización en Cámara de Origen",
+        "descripcion": "Cuenta oficio aprobación sin modificaciones de C. Revisora .",
+        "sesion": "34/374"
+      },
+      {
+        "fecha": "2026-06-16",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 150-374 que hace presente la urgencia Discusión inmediata",
+        "sesion": "30/374"
+      },
+      {
+        "fecha": "2026-06-16",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión particular . Aprobado sin modificaciones",
+        "sesion": "30/374"
+      },
+      {
+        "fecha": "2026-06-16",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio N° 201-26. Oficio aprobación sin modificaciones a C. Revisora",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-06-17",
+        "camara": "C.Diputados",
+        "etapa": "Trámite finalización en Cámara de Origen",
+        "descripcion": "Cuenta oficio aprobación sin modificaciones de C. Revisora .",
+        "sesion": "35/374"
+      },
+      {
+        "fecha": "2026-06-17",
+        "camara": "C.Diputados",
+        "etapa": "Trámite finalización en Cámara de Origen",
+        "descripcion": "Oficio de ley al Ejecutivo .",
+        "sesion": "/"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "89038",
+      "fecha": "2026-06-03T13:57:14",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Nuevo artículo 6 del proyecto, en los términos propuestos por la Comisión de Hacienda, y que consta en las páginas 7 y 8 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89037",
+      "fecha": "2026-06-03T13:56:14",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Nuevo artículo 3 del proyecto, en los términos propuestos por la Comisión de Hacienda, y que consta en la página 2 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89036",
+      "fecha": "2026-06-03T13:55:26",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Nuevo artículo 2 del proyecto, en los términos propuestos por la Comisión de Hacienda, cuya votación separada ha sido solicitada por las diputadas Gazmuri, Serrano y Yeomans, y por los diputados Barraza y Brito, y que consta en las páginas 1 a 2 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89035",
+      "fecha": "2026-06-03T13:54:27",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 1 del proyecto, en los términos propuestos por la Comisión de Trabajo y Seguridad Social, cuya votación separada ha sido solicitada por las diputadas Gazmuri, Serrano y Yeomans, y por los diputados Barraza y Brito, y que consta en la página 1 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89034",
+      "fecha": "2026-06-03T13:53:06",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículos 2 y 3 del texto propuesto por la Comisión de Trabajo y Seguridad Social.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89033",
+      "fecha": "2026-06-03T13:52:07",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": null,
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": true,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:41"
+  }
+}

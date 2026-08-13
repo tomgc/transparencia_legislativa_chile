@@ -1,0 +1,153 @@
+{
+  "boletin": "16300-07",
+  "nombre": "Modifica el Código Penal para extender la legítima defensa privilegiada al funcionario militar o policial que actúe en defensa de su persona o derechos, o de los de un tercero, encontrándose en calidad de franco",
+  "tipo_iniciativa": "Moción",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2023-09-25",
+  "tramitacion": {
+    "etapa_actual": "Segundo trámite constitucional (Senado)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2023-09-25",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2023-09-26",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento.",
+        "sesion": "81/371"
+      },
+      {
+        "fecha": "2023-09-26",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "A petición del diputado señor Kaiser, la Sala acordó radicar el proyecto en la Comisión de Seguridad Ciudadana.",
+        "sesion": "81/371"
+      },
+      {
+        "fecha": "2023-09-26",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio N° 18825. Comunica radicación del proyecto en la comisión de Seguridad Ciudadana",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-06-15",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 148-374 que hace presente la urgencia Simple",
+        "sesion": "33/374"
+      },
+      {
+        "fecha": "2026-07-13",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 197-374 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "42/374"
+      },
+      {
+        "fecha": "2026-07-20",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 209-374 que hace presente la urgencia Discusión inmediata",
+        "sesion": "45/374"
+      },
+      {
+        "fecha": "2026-08-03",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Seguridad Ciudadana.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-08-03",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 223-374 que hace presente la urgencia Discusión inmediata",
+        "sesion": "49/374"
+      },
+      {
+        "fecha": "2026-08-04",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  Queda para tabla.",
+        "sesion": "50/374"
+      },
+      {
+        "fecha": "2026-08-05",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 237-374 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "52/374"
+      },
+      {
+        "fecha": "2026-08-11",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular a la vez .",
+        "sesion": "54/374"
+      },
+      {
+        "fecha": "2026-08-11",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio de ley a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-08-11",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento",
+        "sesion": "49/374"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "89695",
+      "fecha": "2026-08-11T13:11:19",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo único del proyecto, en los términos propuestos por la Comisión de Seguridad, que consta en la página 5 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89694",
+      "fecha": "2026-08-11T13:10:37",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Indicación renovada del diputado señor Raúl Leiva para sustituir el artículo único del proyecto por el siguiente: \n“Artículo único.- Agrégase, en el párrafo tercero del numeral 6° del artículo 10 del Código Penal, a continuación del punto aparte, que pasa a ser punto seguido, las siguientes oraciones: ‘La circunstancia de encontrarse el funcionario en calidad de franco no excluirá la aplicación de la presunción establecida en este párrafo, siempre que su actuación se realice en razón de su cargo o con motivo u ocasión del cumplimiento de funciones de resguardo del orden público y seguridad pública interior.”.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89693",
+      "fecha": "2026-08-11T13:09:05",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": null,
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:41"
+  }
+}

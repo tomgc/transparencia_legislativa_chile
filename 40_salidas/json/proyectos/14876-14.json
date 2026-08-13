@@ -1,0 +1,163 @@
+{
+  "boletin": "14876-14",
+  "nombre": "Permite a las personas solteras postular, en igualdad de condiciones, a subsidios habitacionales",
+  "tipo_iniciativa": "Moción",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2022-03-28",
+  "tramitacion": {
+    "etapa_actual": "Archivado",
+    "estado": "Archivado",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2022-03-28",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2022-04-04",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Vivienda, Desarrollo Urbano y Bienes Nacionales.",
+        "sesion": "6/370"
+      },
+      {
+        "fecha": "2025-04-07",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 87-373 que hace presente la urgencia Simple",
+        "sesion": "9/373"
+      },
+      {
+        "fecha": "2025-05-07",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 322-373 que retira y hace presente la urgencia Simple",
+        "sesion": "22/373"
+      },
+      {
+        "fecha": "2025-07-15",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 825-373 que hace presente la urgencia Simple",
+        "sesion": "50/373"
+      },
+      {
+        "fecha": "2025-08-13",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 951-373 que retira y hace presente la urgencia Simple",
+        "sesion": "59/373"
+      },
+      {
+        "fecha": "2025-09-10",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1060-373 que retira y hace presente la urgencia Simple",
+        "sesion": "69/373"
+      },
+      {
+        "fecha": "2025-10-08",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1138-373 que retira y hace presente la urgencia Simple",
+        "sesion": "78/373"
+      },
+      {
+        "fecha": "2025-10-14",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1154-373 que hace presente la urgencia Suma",
+        "sesion": "80/373"
+      },
+      {
+        "fecha": "2025-11-03",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1223-373 que hace presente la urgencia Suma",
+        "sesion": "86/373"
+      },
+      {
+        "fecha": "2025-11-24",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1257-373 que hace presente la urgencia Suma",
+        "sesion": "91/373"
+      },
+      {
+        "fecha": "2025-12-10",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1356-373 que hace presente la urgencia Suma",
+        "sesion": "101/373"
+      },
+      {
+        "fecha": "2025-12-17",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Vivienda y Desarrollo Urbano.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-05",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1447-373 que hace presente la urgencia Suma",
+        "sesion": "105/373"
+      },
+      {
+        "fecha": "2026-01-05",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  Queda para tabla.",
+        "sesion": "105/373"
+      },
+      {
+        "fecha": "2026-01-13",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Rechazado .",
+        "sesion": "110/373"
+      },
+      {
+        "fecha": "2026-01-13",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio rechazo al Ejecutivo .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-13",
+        "camara": "Senado",
+        "etapa": "Insistencia",
+        "descripcion": "Archivado Rechazado en general.",
+        "sesion": "/"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "87213",
+      "fecha": "2026-01-13T13:10:30",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": null,
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:41"
+  }
+}

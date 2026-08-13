@@ -1,0 +1,135 @@
+{
+  "boletin": "17629-10",
+  "nombre": "Aprueba el &quot;Acuerdo entre el Gobierno de la República de Chile y el Gobierno del Estado Plurinacional de Bolivia sobre exención mutua de visa y del permiso de residencia oficial para titulares de pasaportes diplomáticos y oficiales&quot;, suscrito en Santa Cruz de la Sierra, Estado Plurinacional de Bolivia, el 25 de abril de 2025",
+  "tipo_iniciativa": "Mensaje",
+  "camara_origen": "Senado",
+  "fecha_ingreso": "2025-06-27",
+  "tramitacion": {
+    "etapa_actual": "Tramitación terminada",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2025-06-27",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-06-30",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Relaciones Exteriores",
+        "sesion": "31/373"
+      },
+      {
+        "fecha": "2025-07-10",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Relaciones Exteriores.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-07-15",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .",
+        "sesion": "38/373"
+      },
+      {
+        "fecha": "2025-07-22",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular a la vez",
+        "sesion": "40/373"
+      },
+      {
+        "fecha": "2025-07-22",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio de ley a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-07-23",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Relaciones Exteriores, Asuntos Interparlamentarios e Integración Latinoamericana",
+        "sesion": "53/373"
+      },
+      {
+        "fecha": "2025-12-16",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Primer informe de comisión de Relaciones Exteriores, Asuntos Interparlamentarios e Integración Latinoamericana.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-05",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  Queda para tabla.",
+        "sesion": "105/373"
+      },
+      {
+        "fecha": "2026-01-06",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1454-373 que hace presente la urgencia Suma",
+        "sesion": "106/373"
+      },
+      {
+        "fecha": "2026-01-12",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular sin modificaciones .",
+        "sesion": "109/373"
+      },
+      {
+        "fecha": "2026-01-12",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio aprobación sin modificaciones a Cámara de Origen .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-13",
+        "camara": "Senado",
+        "etapa": "Trámite finalización en Cámara de Origen",
+        "descripcion": "Cuenta oficio aprobación sin modificaciones de C. Revisora .",
+        "sesion": "88/373"
+      },
+      {
+        "fecha": "2026-01-13",
+        "camara": "Senado",
+        "etapa": "Trámite finalización en Cámara de Origen",
+        "descripcion": "Oficio de ley al Ejecutivo .",
+        "sesion": "/"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "87190",
+      "fecha": "2026-01-12T19:08:55",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Proyecto de acuerdo que “Aprueba el Acuerdo entre el Gobierno de la República de Chile y el Gobierno del Estado Plurinacional de Bolivia sobre exención mutua de visa y del permiso de residencia oficial para titulares de pasaportes diplomáticos y oficiales, suscrito en Santa Cruz de la Sierra, Estado Plurinacional de Bolivia, el 25 de abril de 2025.”.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:41"
+  }
+}

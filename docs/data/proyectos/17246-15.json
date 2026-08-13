@@ -1,0 +1,431 @@
+{
+  "boletin": "17246-15",
+  "nombre": "Modifica las leyes que indica para mejorar la fiscalización y aumentar las sanciones por evasión del pago de tarifas en el transporte público remunerado de pasajeros",
+  "tipo_iniciativa": "Moción",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2024-11-18",
+  "tramitacion": {
+    "etapa_actual": "Tramitación terminada",
+    "estado": "Publicado",
+    "ley_numero": "Ley N° 21.816",
+    "tramites": [
+      {
+        "fecha": "2024-11-18",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-11-25",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Obras Públicas, Transportes y Telecomunicaciones",
+        "sesion": "108/372"
+      },
+      {
+        "fecha": "2025-04-21",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta, oficio de la Comisión de Obras Públicas, Transportes y Telecomunicaciones (N° 571), por el cual solicita recabar el acuerdo de la Sala para refundir el proyecto, iniciado en moción, boletín N° 17246-15, con el iniciado en mensaje, boletín N° 17441-15. ACORDADO.",
+        "sesion": "16/373"
+      },
+      {
+        "fecha": "2025-05-06",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta, oficio N° 134-2025 de la Corte Suprema, por el cual remite opinión respecto del proyecto (informe N° 14-2025).",
+        "sesion": "21/373"
+      },
+      {
+        "fecha": "2025-05-12",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 382-373 que hace presente la urgencia Suma",
+        "sesion": "23/373"
+      },
+      {
+        "fecha": "2025-05-19",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio del Presidente de la República (N° 62-373), mediante el cual formula indicaciones al proyecto. Se adjunta informe financiero complementario N°126/16.05.2025.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-05-20",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 482-373 que retira y hace presente la urgencia Suma",
+        "sesion": "29/373"
+      },
+      {
+        "fecha": "2025-06-04",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 595-373 que retira y hace presente la urgencia Suma",
+        "sesion": "33/373"
+      },
+      {
+        "fecha": "2025-06-17",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio de S.E. el Presidente de la República (N° 094-373), mediante el cual formula indicaciones al proyecto. Incluye informe financiero complementario N° 162/17.06.2025.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-06-18",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 686-373 que retira y hace presente la urgencia Suma",
+        "sesion": "40/373"
+      },
+      {
+        "fecha": "2025-07-02",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 746-373 que retira y hace presente la urgencia Suma",
+        "sesion": "44/373"
+      },
+      {
+        "fecha": "2025-07-09",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Obras Públicas, Transportes y Telecomunicaciones. Pasa a Comisión de Seguridad Ciudadana",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-07-09",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Obras Públicas, Transportes y Telecomunicaciones. Pasa a Comisión de Seguridad Ciudadana",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-07-14",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  (Transportes). Pasa a Seguridad Ciudadana.",
+        "sesion": "48/373"
+      },
+      {
+        "fecha": "2025-07-15",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 820-373 que retira y hace presente la urgencia Suma",
+        "sesion": "50/373"
+      },
+      {
+        "fecha": "2025-07-23",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 879-373 que retira y hace presente la urgencia Suma",
+        "sesion": "53/373"
+      },
+      {
+        "fecha": "2025-08-06",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 914-373 que retira y hace presente la urgencia Suma",
+        "sesion": "56/373"
+      },
+      {
+        "fecha": "2025-08-11",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  (Seguridad Ciudadana). Pasa a Hacienda.",
+        "sesion": "57/373"
+      },
+      {
+        "fecha": "2025-08-13",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Seguridad Ciudadana. Pasa a Comisión de Hacienda",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-08-20",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 978-373 que retira y hace presente la urgencia Suma",
+        "sesion": "61/373"
+      },
+      {
+        "fecha": "2025-08-22",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Hacienda.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-09-01",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  (Hacienda). Queda para tabla.",
+        "sesion": "63/373"
+      },
+      {
+        "fecha": "2025-09-01",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular a la vez",
+        "sesion": "63/373"
+      },
+      {
+        "fecha": "2025-09-01",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio de ley a Cámara Revisora .  Se cambió el nombre del proyecto por el que se consigna en la suma.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-09-02",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Transportes y Telecomunicaciones, y a la Comisión de Hacienda, en su caso.",
+        "sesion": "49/373"
+      },
+      {
+        "fecha": "2025-09-16",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1074-373 que retira y hace presente la urgencia Suma",
+        "sesion": "55/373"
+      },
+      {
+        "fecha": "2025-10-01",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1103-373 que retira y hace presente la urgencia Suma",
+        "sesion": "58/373"
+      },
+      {
+        "fecha": "2025-10-10",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Primer informe de comisión de Transportes y Telecomunicaciones.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-10-14",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .",
+        "sesion": "61/373"
+      },
+      {
+        "fecha": "2025-10-15",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1175-373 que retira y hace presente la urgencia Suma",
+        "sesion": "62/373"
+      },
+      {
+        "fecha": "2025-11-04",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1214-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "64/373"
+      },
+      {
+        "fecha": "2025-11-04",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general Se fija como plazo para presentar indicaciones el 17/11/2025 a las 12:00",
+        "sesion": "64/373"
+      },
+      {
+        "fecha": "2025-11-17",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Boletín de indicaciones .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-11-17",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio N° I.F. 329. Informe financiero",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-11-19",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "La Sala acuerda fijar un nuevo plazo para presentar indicaciones a este proyecto de ley, hasta las 17:00 horas del día de hoy, en la Secretaría de la Comisión de Transportes y Telecomunicaciones",
+        "sesion": "68/373"
+      },
+      {
+        "fecha": "2025-11-20",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Segundo informe de comisión de Transportes y Telecomunicaciones. Pasa a Comisión de Hacienda",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-11-20",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Boletín de indicaciones .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-11-25",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1265-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "76/373"
+      },
+      {
+        "fecha": "2025-11-26",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1287-373 que retira la urgencia Discusión inmediata",
+        "sesion": "77/373"
+      },
+      {
+        "fecha": "2025-12-02",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1303-373 que hace presente la urgencia Suma",
+        "sesion": "78/373"
+      },
+      {
+        "fecha": "2025-12-16",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1403-373 que retira y hace presente la urgencia Suma",
+        "sesion": "82/373"
+      },
+      {
+        "fecha": "2026-01-06",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1462-373 que hace presente la urgencia Suma",
+        "sesion": "86/373"
+      },
+      {
+        "fecha": "2026-01-20",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1548-373 que retira y hace presente la urgencia Suma",
+        "sesion": "91/373"
+      },
+      {
+        "fecha": "2026-01-27",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Segundo informe de comisión de Hacienda.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-03-03",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1604-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "97/373"
+      },
+      {
+        "fecha": "2026-03-03",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de segundo informe de comisión .",
+        "sesion": "97/373"
+      },
+      {
+        "fecha": "2026-03-17",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2-374 que hace presente la urgencia Suma",
+        "sesion": "1/374"
+      },
+      {
+        "fecha": "2026-03-18",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión particular . Aprobado con modificaciones",
+        "sesion": "2/374"
+      },
+      {
+        "fecha": "2026-03-18",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio modificaciones a Cámara de Origen .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-03-23",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta oficio con modificaciones de Cámara Revisora . Queda para tabla .",
+        "sesion": "3/374"
+      },
+      {
+        "fecha": "2026-04-06",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 23-374 que hace presente la urgencia Suma",
+        "sesion": "8/374"
+      },
+      {
+        "fecha": "2026-04-08",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Discusión única . Aprobadas las modificaciones .",
+        "sesion": "10/374"
+      },
+      {
+        "fecha": "2026-04-08",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Oficio N° 21.151, que comunica aprobación de modificaciones",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-04-08",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta oficio N? 21.151, que comunica aprobacion de modificaciones",
+        "sesion": "6/374"
+      },
+      {
+        "fecha": "2026-04-08",
+        "camara": "C.Diputados",
+        "etapa": "Trámite de aprobacion presidencial",
+        "descripcion": "Oficio de ley al Ejecutivo.",
+        "sesion": "/"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "88594",
+      "fecha": "2026-04-08T13:18:29",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Modificaciones incorporadas por el Senado en el proyecto de ley, originado en moción, que “Modifica las leyes que indica para mejorar la fiscalización y aumentar las sanciones por evasión del pago de tarifas en el transporte público remunerado de pasajeros.”.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "84385",
+      "fecha": "2025-09-01T19:11:32",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": null,
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": true,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:41"
+  }
+}

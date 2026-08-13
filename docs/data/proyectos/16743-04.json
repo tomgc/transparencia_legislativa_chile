@@ -1,0 +1,456 @@
+{
+  "boletin": "16743-04",
+  "nombre": "Modifica diversos cuerpos legales, con el objeto de facilitar la creación de nuevos establecimientos educacionales",
+  "tipo_iniciativa": "Moción",
+  "camara_origen": "Senado",
+  "fecha_ingreso": "2024-04-09",
+  "tramitacion": {
+    "etapa_actual": "Tercer trámite constitucional (Senado)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2024-04-09",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-04-16",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Educación",
+        "sesion": "9/372"
+      },
+      {
+        "fecha": "2024-04-16",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "La Honorable Senadora señora Núñez suscribe esta iniciativa de ley, en calidad de autora.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-03-10",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Educación.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-03-11",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .",
+        "sesion": "1/373"
+      },
+      {
+        "fecha": "2025-06-04",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general Se fija como plazo para presentar indicaciones el 26/06/2025 a las 12:00",
+        "sesion": "25/373"
+      },
+      {
+        "fecha": "2025-06-26",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Boletín de indicaciones .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-06-26",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio N° I.F. N° 16. Informe financiero",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-07-08",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "La Sala acuerda fijar un nuevo plazo para presentar indicaciones a este proyecto de ley, hasta las 12:00 horas del día 14 de julio de 2025, en la Secretaría de la Comisión de Educación.",
+        "sesion": "35/373"
+      },
+      {
+        "fecha": "2025-07-22",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "La Sala acuerda fijar un nuevo plazo para presentar indicaciones a este proyecto de ley, hasta las 12:00 horas del día 1 de agosto de 2025, en la Secretaría de la Comisión de Educación.",
+        "sesion": "40/373"
+      },
+      {
+        "fecha": "2025-08-01",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Boletín de indicaciones .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-08-13",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Segundo informe de comisión de Educación. Pasa a Comisión de Hacienda",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-12-02",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "La Sala acuerda fijar un nuevo plazo para presentar indicaciones a este proyecto de ley, hasta las 17:00 horas del día de hoy, en la Secretaría de la Comisión de Hacienda.",
+        "sesion": "78/373"
+      },
+      {
+        "fecha": "2025-12-02",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Boletín de indicaciones .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-12-03",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Segundo informe de comisión de Hacienda.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-12-09",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1347-373 que hace presente la urgencia Suma",
+        "sesion": "80/373"
+      },
+      {
+        "fecha": "2025-12-09",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de segundo informe de comisión .",
+        "sesion": "80/373"
+      },
+      {
+        "fecha": "2026-01-06",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1462-373 que hace presente la urgencia Suma",
+        "sesion": "86/373"
+      },
+      {
+        "fecha": "2026-01-21",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión particular . Aprobado",
+        "sesion": "92/373"
+      },
+      {
+        "fecha": "2026-01-21",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio de ley a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-26",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Educación, y a la Comisión de Hacienda en lo que corresponda.",
+        "sesion": "115/373"
+      },
+      {
+        "fecha": "2026-01-26",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1582-373 que hace presente la urgencia Suma",
+        "sesion": "115/373"
+      },
+      {
+        "fecha": "2026-01-28",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1590-373 que retira la urgencia Suma",
+        "sesion": "117/373"
+      },
+      {
+        "fecha": "2026-03-17",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 01-374 que hace presente la urgencia Suma",
+        "sesion": "1/374"
+      },
+      {
+        "fecha": "2026-04-06",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 23-374 que hace presente la urgencia Suma",
+        "sesion": "8/374"
+      },
+      {
+        "fecha": "2026-04-20",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 48-374 que hace presente la urgencia Suma",
+        "sesion": "14/374"
+      },
+      {
+        "fecha": "2026-05-04",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 68-374 que hace presente la urgencia Suma",
+        "sesion": "17/374"
+      },
+      {
+        "fecha": "2026-05-11",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "S.E. el Presidente de la República formula indicaciones al proyecto. (034-374).",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-05-18",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 97-374 que hace presente la urgencia Suma",
+        "sesion": "25/374"
+      },
+      {
+        "fecha": "2026-05-19",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 101-374 que retira la urgencia Suma",
+        "sesion": "26/374"
+      },
+      {
+        "fecha": "2026-06-02",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "S.E. el Presidente de la República retira y formula indicaciones al proyecto. (057-374). Incluye IFC N° 118/02.06.2026.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-06-02",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 119-374 que hace presente la urgencia Suma",
+        "sesion": "28/374"
+      },
+      {
+        "fecha": "2026-06-08",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Primer informe de comisión de Educación. Pasa a Comisión de Hacienda",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-06-08",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta informe comisión de Educación. Pasa a Comisión de Hacienda",
+        "sesion": "30/374"
+      },
+      {
+        "fecha": "2026-06-15",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 145-374 que hace presente la urgencia Suma",
+        "sesion": "33/374"
+      },
+      {
+        "fecha": "2026-06-22",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Primer informe de comisión de Educación. Pasa a Comisión de Hacienda",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-06-24",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 174-374 que hace presente la urgencia Suma",
+        "sesion": "38/374"
+      },
+      {
+        "fecha": "2026-07-02",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Primer informe de comisión de Hacienda.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-06",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  (Hacienda). Queda para tabla.",
+        "sesion": "39/374"
+      },
+      {
+        "fecha": "2026-07-07",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular con modificaciones .",
+        "sesion": "40/374"
+      },
+      {
+        "fecha": "2026-07-07",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio modificaciones a Cámara de Origen .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-07",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "La diputada Daniela Serrano formula reserva de constitucionalidad.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-07",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta oficio con modificaciones de Cámara Revisora . Pasa a Comisión de Educación",
+        "sesion": "40/374"
+      },
+      {
+        "fecha": "2026-08-11",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Informe de comisión de Educación. Pasa a Comisión de Hacienda",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-08-11",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 254-374 que hace presente la urgencia Suma",
+        "sesion": "49/374"
+      },
+      {
+        "fecha": "2026-08-11",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Informe de comisión de Hacienda.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-08-12",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta informe de comisión .",
+        "sesion": "50/374"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "89312",
+      "fecha": "2026-07-07T13:11:43",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Artículo segundo transitorio del proyecto, en los términos propuestos por la Comisión de Educación, cuya votación separada ha sido solicitada por la diputada Daniela Serrano, y que consta en las páginas 126 y 127 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89311",
+      "fecha": "2026-07-07T13:10:00",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Nuevo artículo sexto, en los términos propuestos por la Comisión de Hacienda, cuya votación separada ha sido solicitada por la diputada Daniela Serrano, y que consta en las páginas 111 a 123 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89310",
+      "fecha": "2026-07-07T13:07:45",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Artículo quinto del proyecto, en los términos propuestos por la Comisión de Educación, cuya votación separada ha sido solicitada por la diputada Daniela Serrano, y que consta en las páginas 91 a 109 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89309",
+      "fecha": "2026-07-07T13:06:50",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Número 3 del artículo tercero del proyecto, en los términos propuestos por la Comisión de Educación, que coincide con el texto aprobado por el Senado, cuya votación separada ha sido solicitada por la diputada Daniela Serrano, y que consta en la página 88 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89308",
+      "fecha": "2026-07-07T13:06:02",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Números 1 y 2 del artículo tercero del proyecto, en los términos propuestos por la Comisión de Educación, cuya votación separada ha sido solicitada por la diputada Daniela Serrano, que requieren para su aprobación del voto favorable de 78 diputadas y diputados por tratarse de una norma de rango orgánico constitucional, y que constan en las páginas 71 a 86 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89307",
+      "fecha": "2026-07-07T13:04:20",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Indicación renovada, de la diputada Emilia Schneider, que  agrega el siguiente número 4 nuevo al artículo primero del proyecto:\n“4. Incorpórase, antes del artículo 9º, un artículo 8º sexies nuevo (o el adjetivo numeral que corresponda según lo aprobado), del siguiente tenor:\n“Artículo 8º sexies.- Dentro de las estimaciones de demanda potencial, realizadas por la autoridad pública o por los sostenedores en virtud de lo dispuesto en los artículos anteriores, deberá siempre tenerse en consideración la tasa de natalidad y la migración en las respectivas de limitaciones geográficas, como factores influyentes en los cambios demográficos recientes o esperables, de la población usuaria de los servicios educacionales.”.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89306",
+      "fecha": "2026-07-07T13:02:48",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Numeral 6, literal vi, letra a), número 1 del artículo primero del proyecto, en los términos propuestos por la Comisión de Educación, que coincide con el texto aprobado por el Senado, cuya votación separada ha sido solicitada por el diputado Felipe Ross, y que consta en la página 9 del comparado.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89305",
+      "fecha": "2026-07-07T13:01:47",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Indicación renovada, de la diputada Daniela Serrano, que agrega el siguiente texto al inciso primero del numeral 5, literal vi, letra a), número 1 del artículo primero del proyecto:\n“Los contratos de arrendamiento celebrados no podrán ocultar relacione de propiedad indirecta cualquiera sea la estructura societaria utilizada o el acto jurídico empleado para dichos efectos. Cualquier infracción a la prohibición de contratar con personas relacionadas será sancionada con la revocación inmediata del derecho a percibir la subvención y la restitución de los fondos percibidos. Corresponderá a la Superintendencia fiscalizar el cumplimiento de esta prohibición conforme a sus atribuciones legales.”",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89304",
+      "fecha": "2026-07-07T13:00:06",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Artículo primero del proyecto, en los términos propuestos por la Comisión de Educación, cuya votación separada ha sido solicitada por la diputada Daniela Serrano, y que consta en las páginas 1 a 58 del comparado, con la salvedad del numeral 6, literal vi, letra a), del número 1 de dicho artículo, cuya votación separada a su vez ha sido solicitada.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89303",
+      "fecha": "2026-07-07T12:58:43",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": null,
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89302",
+      "fecha": "2026-07-07T12:57:35",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": null,
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:41"
+  }
+}

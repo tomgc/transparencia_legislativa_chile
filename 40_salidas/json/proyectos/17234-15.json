@@ -1,0 +1,172 @@
+{
+  "boletin": "17234-15",
+  "nombre": "Modifica el decreto ley N° 3.063, de 1979, para exigir la emisión de un permiso de circulación estandarizado en todas las comunas del país",
+  "tipo_iniciativa": "Moción",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2024-11-14",
+  "tramitacion": {
+    "etapa_actual": "Segundo trámite constitucional (Senado)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2024-11-14",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-11-15",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Obras Públicas, Transportes y Telecomunicaciones.",
+        "sesion": "104/372"
+      },
+      {
+        "fecha": "2024-11-19",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Comunicación del diputado señor Winter por la cual solicita que el proyecto sea radicado en la Comisión de Gobierno Interior, Nacionalidad, Ciudadanía y Regionalización, por tratar materias relativas a la Ley de Rentas Municipales. RECHAZADO.",
+        "sesion": "106/372"
+      },
+      {
+        "fecha": "2024-11-19",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio N° 20023. Comunica al diputado Winter que la Sala no accedió a su petición en orden a remitir el proyecto a la Comisión de Gobierno Interior.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-11-27",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de Oficio de la Comisión de Gobierno Interior, Nacionalidad, Ciudadanía y Regionalización (N° 312/6/2024), por el cual solicita recabar nuevamente el acuerdo de la Sala para que le sea remitido el proyecto, por considerarlo propio de su competencia. RECHAZADO.",
+        "sesion": "110/372"
+      },
+      {
+        "fecha": "2024-11-27",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio N° 20065. Comunica a la Comisión de Gobierno Interior que la Sala no accedió a su petición en orden a que le sea remitido el proyecto de ley.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-01-13",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  Queda para tabla.",
+        "sesion": "126/372"
+      },
+      {
+        "fecha": "2025-09-08",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general .",
+        "sesion": "67/373"
+      },
+      {
+        "fecha": "2025-09-09",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio N°20.778. Remite el proyecto a segundo informe de la Comisión de Obras Públicas, Transportes  Telecomunicaciones.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-12-05",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Segundo informe de comisión de Obras Públicas, Transportes y Telecomunicaciones.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-12-09",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de segundo informe de comisión .  Queda para tabla.",
+        "sesion": "100/373"
+      },
+      {
+        "fecha": "2026-04-06",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión particular . Aprobado .",
+        "sesion": "8/374"
+      },
+      {
+        "fecha": "2026-04-06",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio de ley a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-04-07",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Transportes y Telecomunicaciones",
+        "sesion": "5/374"
+      },
+      {
+        "fecha": "2026-05-05",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 75-374 que hace presente la urgencia Simple",
+        "sesion": "12/374"
+      },
+      {
+        "fecha": "2026-06-02",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 123-374 que retira y hace presente la urgencia Simple",
+        "sesion": "24/374"
+      },
+      {
+        "fecha": "2026-06-23",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 171-374 que retira y hace presente la urgencia Simple",
+        "sesion": "35/374"
+      },
+      {
+        "fecha": "2026-07-21",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 215-374 que retira y hace presente la urgencia Simple",
+        "sesion": "44/374"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "88545",
+      "fecha": "2026-04-06T19:16:45",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo único del proyecto, en los términos propuestos por la Comisión de Obras Públicas, Transportes y Telecomunicaciones, en su segundo informe.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "84556",
+      "fecha": "2025-09-08T19:20:27",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": null,
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:41"
+  }
+}

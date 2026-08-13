@@ -1,0 +1,789 @@
+{
+  "boletin": "17117-03",
+  "nombre": "Reconoce y fortalece a las ferias libres como pilar de la alimentación y el desarrollo local, otorgando un marco jurídico integral para ellas",
+  "tipo_iniciativa": "Mensaje",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2024-09-11",
+  "tramitacion": {
+    "etapa_actual": "Tramitación terminada",
+    "estado": "Publicado",
+    "ley_numero": "Ley N° 21.815",
+    "tramites": [
+      {
+        "fecha": "2024-09-11",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .  Incluye IF N° 248/10.09.2024.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-09-11",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Texto del Mensaje.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-09-11",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "A petición de la diputada señora Catalina Pérez, la Sala acordó radicar el proyecto en la Comisión de Gobierno Interior, Nacionalidad, Ciudadanía y Regionalización.",
+        "sesion": "76/372"
+      },
+      {
+        "fecha": "2024-09-11",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Economía, Fomento; Micro, Pequeña y Mediana Empresa, Protección de los Consumidores y Turismo; y a la Comisión de Hacienda en lo que corresponda.",
+        "sesion": "76/372"
+      },
+      {
+        "fecha": "2024-09-11",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio N° 19838. Comunica a la Comisión de Gobierno Interior que la Sala acordó remitirle el proyecto de ley para su estudio e informe.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-09-11",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1513-372 que hace presente la urgencia Simple",
+        "sesion": "76/372"
+      },
+      {
+        "fecha": "2024-09-30",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1661-372 que retira y hace presente la urgencia Suma",
+        "sesion": "80/372"
+      },
+      {
+        "fecha": "2024-10-14",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1784-372 que retira y hace presente la urgencia Suma",
+        "sesion": "88/372"
+      },
+      {
+        "fecha": "2024-10-29",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1896-372 que retira y hace presente la urgencia Suma",
+        "sesion": "93/372"
+      },
+      {
+        "fecha": "2024-11-13",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2054-372 que retira y hace presente la urgencia Suma",
+        "sesion": "102/372"
+      },
+      {
+        "fecha": "2024-11-27",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2177-372 que retira y hace presente la urgencia Suma",
+        "sesion": "110/372"
+      },
+      {
+        "fecha": "2024-12-11",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2340-372 que retira y hace presente la urgencia Suma",
+        "sesion": "116/372"
+      },
+      {
+        "fecha": "2025-01-06",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta, oficio N° 420-2024 de la Corte Suprema, por el cual remite opinión respecto del proyecto (informe N° 67-2024).",
+        "sesion": "122/372"
+      },
+      {
+        "fecha": "2025-01-06",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2450-372 que hace presente la urgencia Suma",
+        "sesion": "122/372"
+      },
+      {
+        "fecha": "2025-01-14",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio del Presidente de la República (N°308-372), mediante el cual formula indicaciones al proyecto. Se adjunta informe financiero complementario N° 15/13.01.2025",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-01-21",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2637-372 que retira y hace presente la urgencia Suma",
+        "sesion": "130/372"
+      },
+      {
+        "fecha": "2025-03-03",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2750-372 que hace presente la urgencia Suma",
+        "sesion": "135/372"
+      },
+      {
+        "fecha": "2025-03-11",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2764-373 que hace presente la urgencia Suma",
+        "sesion": "1/373"
+      },
+      {
+        "fecha": "2025-04-08",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 90-373 que hace presente la urgencia Suma",
+        "sesion": "10/373"
+      },
+      {
+        "fecha": "2025-04-23",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 217-373 que retira y hace presente la urgencia Suma",
+        "sesion": "18/373"
+      },
+      {
+        "fecha": "2025-05-05",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  (Gobierno Interior). Pasa a Hacienda.",
+        "sesion": "19/373"
+      },
+      {
+        "fecha": "2025-05-06",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Informe financiero sustitutivo N°113/05.05.2025.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-05-07",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 313-373 que retira y hace presente la urgencia Suma",
+        "sesion": "22/373"
+      },
+      {
+        "fecha": "2025-05-16",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Hacienda.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-05-19",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  (Hacienda). Queda para tabla.",
+        "sesion": "27/373"
+      },
+      {
+        "fecha": "2025-05-20",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 474-373 que retira y hace presente la urgencia Suma",
+        "sesion": "29/373"
+      },
+      {
+        "fecha": "2025-06-03",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Queda pendiente .",
+        "sesion": "31/373"
+      },
+      {
+        "fecha": "2025-06-04",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular a la vez .",
+        "sesion": "33/373"
+      },
+      {
+        "fecha": "2025-06-04",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio de ley a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-06-04",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Economía, y a la Comisión de Hacienda, en su caso.",
+        "sesion": "25/373"
+      },
+      {
+        "fecha": "2025-06-10",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 634-373 que retira y hace presente la urgencia Simple",
+        "sesion": "26/373"
+      },
+      {
+        "fecha": "2025-06-17",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 673-373 que retira y hace presente la urgencia Suma",
+        "sesion": "28/373"
+      },
+      {
+        "fecha": "2025-07-02",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 750-373 que retira y hace presente la urgencia Suma",
+        "sesion": "34/373"
+      },
+      {
+        "fecha": "2025-07-15",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 826-373 que retira y hace presente la urgencia Suma",
+        "sesion": "39/373"
+      },
+      {
+        "fecha": "2025-07-23",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 884-373 que retira y hace presente la urgencia Suma",
+        "sesion": "41/373"
+      },
+      {
+        "fecha": "2025-08-06",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 919-373 que retira y hace presente la urgencia Suma",
+        "sesion": "44/373"
+      },
+      {
+        "fecha": "2025-08-20",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 983-373 que retira y hace presente la urgencia Suma",
+        "sesion": "48/373"
+      },
+      {
+        "fecha": "2025-08-26",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Primer informe de comisión de Economía.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-09-02",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .",
+        "sesion": "49/373"
+      },
+      {
+        "fecha": "2025-09-03",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión general . Queda pendiente",
+        "sesion": "50/373"
+      },
+      {
+        "fecha": "2025-09-09",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1053-373 que hace presente la urgencia Suma",
+        "sesion": "51/373"
+      },
+      {
+        "fecha": "2025-09-09",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general",
+        "sesion": "51/373"
+      },
+      {
+        "fecha": "2025-09-10",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "En sesión de hoy, se aprobó un plazo de indicaciones respecto del presente proyecto de ley hasta las 12.00 horas del día 2 de octubre de 2025",
+        "sesion": "53/373"
+      },
+      {
+        "fecha": "2025-09-16",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1074-373 que retira y hace presente la urgencia Suma",
+        "sesion": "55/373"
+      },
+      {
+        "fecha": "2025-10-01",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1103-373 que retira y hace presente la urgencia Suma",
+        "sesion": "58/373"
+      },
+      {
+        "fecha": "2025-10-02",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Boletín de indicaciones .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-10-02",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio N° I.F. 284. Informe Financiero",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-10-15",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1175-373 que retira y hace presente la urgencia Suma",
+        "sesion": "62/373"
+      },
+      {
+        "fecha": "2025-10-27",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1178-373 que retira y hace presente la urgencia Suma",
+        "sesion": "63/373"
+      },
+      {
+        "fecha": "2025-11-05",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1235-373 que retira y hace presente la urgencia Suma",
+        "sesion": "65/373"
+      },
+      {
+        "fecha": "2025-11-25",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1269-373 que hace presente la urgencia Suma",
+        "sesion": "76/373"
+      },
+      {
+        "fecha": "2025-12-09",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "La Sala acuerda fijar un nuevo plazo para presentar indicaciones a este proyecto de ley, hasta las 12:00 horas del día 11 de diciembre de 2025, en la Secretaría de la Comisión de Economía.",
+        "sesion": "80/373"
+      },
+      {
+        "fecha": "2025-12-10",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1362-373 que retira y hace presente la urgencia Suma",
+        "sesion": "81/373"
+      },
+      {
+        "fecha": "2025-12-11",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Boletín de indicaciones .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-06",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Segundo informe de comisión de Economía. Pasa a Comisión de Hacienda",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-06",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1462-373 que hace presente la urgencia Suma",
+        "sesion": "86/373"
+      },
+      {
+        "fecha": "2026-01-07",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Segundo informe de comisión de Hacienda.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-13",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de segundo informe de comisión .",
+        "sesion": "88/373"
+      },
+      {
+        "fecha": "2026-01-14",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión particular . Aprobado con modificaciones",
+        "sesion": "90/373"
+      },
+      {
+        "fecha": "2026-01-15",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio modificaciones a Cámara de Origen .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-19",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta oficio con modificaciones de Cámara Revisora . Queda para tabla .",
+        "sesion": "112/373"
+      },
+      {
+        "fecha": "2026-01-19",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1535-373 que hace presente la urgencia Suma",
+        "sesion": "112/373"
+      },
+      {
+        "fecha": "2026-01-26",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Discusión única . Aprobadas las modificaciones .",
+        "sesion": "115/373"
+      },
+      {
+        "fecha": "2026-01-26",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1580-373 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "115/373"
+      },
+      {
+        "fecha": "2026-01-26",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Oficio de ley al Ejecutivo .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-26",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Oficio N° 21.018, que comunica aprobacion de modificaciones",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-27",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta oficio N° 21.018, que comunica aprobación de modificaciones",
+        "sesion": "96/373"
+      },
+      {
+        "fecha": "2026-01-30",
+        "camara": "C.Diputados",
+        "etapa": "Trámite de aprobacion presidencial",
+        "descripcion": "Oficio N°21.041 al Tribunal Constitucional",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-03-02",
+        "camara": "C.Diputados",
+        "etapa": "Trámite de aprobacion presidencial",
+        "descripcion": "Cuenta, Oficio de S.E. el Presidente de la República por el cual comunica que ha resuelto no hacer uso de la facultad de veto, que le confiere el inciso primero del artículo 73 de la Constitución Política de la República, respecto del proyecto. (018-373).",
+        "sesion": "118/373"
+      },
+      {
+        "fecha": "2026-05-04",
+        "camara": "C.Diputados",
+        "etapa": "Trámite en Tribunal Constitucional",
+        "descripcion": "Ingreso fallo del Tribunal Constitucional .",
+        "sesion": "17/374"
+      },
+      {
+        "fecha": "2026-05-04",
+        "camara": "C.Diputados",
+        "etapa": "Trámite en Tribunal Constitucional",
+        "descripcion": "Cuenta fallo del Tribunal Constitucional .",
+        "sesion": "17/374"
+      },
+      {
+        "fecha": "2026-05-11",
+        "camara": "C.Diputados",
+        "etapa": "Trámite en Tribunal Constitucional",
+        "descripcion": "Cuenta de oficio N° 248-2026, del Tribunal Constitucional, por el cual remite copia autorizada de resolución que niega lugar a la solicitud de rectificación de la sentencia de control de constitucionalidad.",
+        "sesion": "21/374"
+      },
+      {
+        "fecha": "2026-05-12",
+        "camara": "",
+        "etapa": "Tramitación terminada",
+        "descripcion": "Oficio N°21.223. Oficio de ley al Ejecutivo.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-05-12",
+        "camara": "",
+        "etapa": "Tramitación terminada",
+        "descripcion": "Cuenta de resolución del Tribunal Constitucional",
+        "sesion": "15/374"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "87524",
+      "fecha": "2026-01-26T19:28:09",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que agrega una oración final a la letra h) del artículo 39, cuya votación separada ha sido solicitada por el diputado José Carlos Meza, y que consta en la página 77 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87523",
+      "fecha": "2026-01-26T19:27:13",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que incorpora incisos quinto y sexto nuevos, sustituyendo el inciso quinto del artículo 29, cuya votación separada ha sido solicitada por el diputado José Carlos Meza, y que consta en las páginas 50 a 51 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87522",
+      "fecha": "2026-01-26T19:26:24",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmiendas del Senado respecto de la letra g) -que pasaría a ser f)-, y de la letra j) -que pasaría a ser i)- del artículo 4, cuya votación separada ha sido solicitada por el diputado José Carlos Meza, y que consta en las páginas 9 a 11 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87521",
+      "fecha": "2026-01-26T19:25:32",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Modificaciones incorporadas por el Senado en el inciso cuarto del artículo 13; el nuevo inciso final que incorpora el Senado en el artículo 17; el nuevo inciso tercero que incorpora el Senado en el artículo 24, todos estos permanentes; y las enmiendas a los artículos cuarto y quinto transitorios; que requieren para su aprobación del voto favorable de 76 diputadas y diputados por tratarse de normas de rango orgánico constitucional.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87520",
+      "fecha": "2026-01-26T19:24:11",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Modificaciones incorporadas por el Senado en el proyecto de ley, originado en mensaje, que “Reconoce y fortalece a las ferias libres como pilar de la alimentación y el desarrollo local, otorgando un marco jurídico integral para ellas.”, con la salvedad de aquellas que requieren quorum especial de aprobación y de aquellas cuya votación separada ha sido solicitada.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "82625",
+      "fecha": "2025-06-04T13:29:20",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 42 del proyecto (Sesiones del Consejo), cuya votación separada ha sido solicitada por los diputados Juan Manuel Fuenzalida y José Carlos Meza, y que consta en las páginas 86 a 87 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "82624",
+      "fecha": "2025-06-04T13:28:27",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 41 del proyecto (Duración de las y los miembros del Consejo), cuya votación separada ha sido solicitada por los diputados Juan Manuel Fuenzalida y José Carlos Meza, y que consta en las páginas 85 a 86 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "82623",
+      "fecha": "2025-06-04T13:27:39",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 40 del proyecto (Funciones del Consejo), cuya votación separada ha sido solicitada por los diputados Juan Manuel Fuenzalida y José Carlos Meza, y que consta en las páginas 83 a 85 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "82622",
+      "fecha": "2025-06-04T13:26:56",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 39 del proyecto (Miembros del Consejo), cuya votación separada ha sido solicitada por los diputados Roberto Arroyo, Juan Manuel Fuenzalida y José Carlos Meza, y que consta en las páginas 79 a 83 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "82621",
+      "fecha": "2025-06-04T13:26:10",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 38 del proyecto (Del Consejo Nacional Consultivo de las Ferias Libres), cuya votación separada ha sido solicitada por los diputados Roberto Arroyo, Juan Manuel Fuenzalida y José Carlos Meza, y que consta en las páginas 78 a 79 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "82620",
+      "fecha": "2025-06-04T13:25:18",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 36 del proyecto (Funciones del Consejo Participativo Comunal de Ferias Libres), cuya votación separada ha sido solicitada por los diputados Juan Manuel Fuenzalida y José Carlos Meza, y que consta en las páginas 73 a 76 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "82619",
+      "fecha": "2025-06-04T13:24:32",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 35 del proyecto (Consejo Participativo Comunal de Ferias Libres), cuya votación separada ha sido solicitada por los diputados Roberto Arroyo, Juan Manuel Fuenzalida y José Carlos Meza, y que consta en las páginas 71 a 73 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "82618",
+      "fecha": "2025-06-04T13:23:29",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 32 del proyecto (Aprobación del reglamento interno y elección del primer Comité de Representación), cuya votación separada ha sido solicitada por el diputado Roberto Arroyo, y que consta en las páginas 64 a 65 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "82617",
+      "fecha": "2025-06-04T13:22:44",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 31 del proyecto (Funciones del Comité de Representación), cuya votación separada ha sido solicitada por el diputado Roberto Arroyo, y que consta en las páginas 59 a 64 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "82616",
+      "fecha": "2025-06-04T13:21:53",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 30 del proyecto (Comité de representación), cuya votación separada ha sido solicitada por los diputados Roberto Arroyo, Juan Manuel Fuenzalida y José Carlos Meza, y que consta en las páginas 53 a 58 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "82615",
+      "fecha": "2025-06-04T13:21:04",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 29 del proyecto (Asamblea General), cuya votación separada ha sido solicitada por el diputado Roberto Arroyo, y que consta en las páginas 51 a 53 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "82614",
+      "fecha": "2025-06-04T13:20:04",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 28 del proyecto (Representación de la feria libre), cuya votación separada ha sido solicitada por el diputado Roberto Arroyo, y que consta en la página 50 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "82613",
+      "fecha": "2025-06-04T13:19:11",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 26 del proyecto (Solicitud de permiso presentada por la comunidad hereditaria de una o un feriante fallecido), cuya votación separada ha sido solicitada por el diputado Roberto Arroyo, y que consta en las páginas 45 a 48 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "82610",
+      "fecha": "2025-06-04T13:16:47",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 22 del proyecto (Conformación de la lista de espera), cuya votación separada ha sido solicitada por el diputado Roberto Arroyo, y que consta en las páginas 39 a 41 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "82609",
+      "fecha": "2025-06-04T13:15:49",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Resto del artículo 17 del proyecto (Cierre y modificación de las características esenciales de las ferias libres), cuya votación separada ha sido solicitada por el diputado Roberto Arroyo, que consta en las páginas 31 a 32 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "82608",
+      "fecha": "2025-06-04T13:14:47",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 17, inciso primero, del proyecto (Cierre y modificación de las características esenciales de las ferias libres), cuya votación separada ha sido solicitada por el diputado Roberto Arroyo, que consta en la página 31 del comparado, y que requiere para su aprobación del voto favorable de 77 diputadas y diputados por tratarse de una disposición de rango orgánico constitucional.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "82607",
+      "fecha": "2025-06-04T13:13:51",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Resto del artículo 16 del proyecto (Alteraciones temporales en el funcionamiento de las ferias libres), cuya votación separada ha sido solicitada por el diputado Roberto Arroyo, que consta en las páginas 29 a 30 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "82606",
+      "fecha": "2025-06-04T13:12:26",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 16, inciso primero, del proyecto (Alteraciones temporales en el funcionamiento de las ferias libres), cuya votación separada ha sido solicitada por el diputado Roberto Arroyo, que consta en la página 29 del comparado, y que requiere para su aprobación del voto favorable de 77 diputadas y diputados por tratarse de una disposición de rango orgánico constitucional.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "82605",
+      "fecha": "2025-06-04T13:11:25",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 10 del proyecto (Pronunciamiento del Consejo Participativo Comunal de Ferias Libres), cuya votación separada ha sido solicitada por el diputado Roberto Arroyo, y que consta en las páginas 19 a 20 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "82604",
+      "fecha": "2025-06-04T13:10:28",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 9 del proyecto (Consulta a juntas de vecinos aledañas), cuya votación separada ha sido solicitada por el diputado Roberto Arroyo, y que consta en las páginas 18 a 19 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "82603",
+      "fecha": "2025-06-04T13:08:45",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Votación general los artículos 5; 6, incisos primero y cuarto; 8, inciso primero; 11, encabezamiento; 13, incisos primero y cuarto; 16, inciso primero; 17, inciso primero; 24, inciso primero; 27; 44; 45 y 48 permanentes; y los artículos cuarto; quinto, incisos primero, tercero y cuarto; y sexto transitorios, que requieren para su aprobación del voto favorable de 77 diputadas y diputados por tratarse de disposiciones de rango orgánico constitucional.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "82602",
+      "fecha": "2025-06-04T13:07:05",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": null,
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": true,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:41"
+  }
+}

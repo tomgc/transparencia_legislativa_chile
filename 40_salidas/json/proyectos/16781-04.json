@@ -1,0 +1,1237 @@
+{
+  "boletin": "16781-04",
+  "nombre": "Modifica la ley N° 20.370, General de Educación, para crear la figura del coordinador de buena convivencia escolar",
+  "tipo_iniciativa": "Moción",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2024-04-17",
+  "tramitacion": {
+    "etapa_actual": "Tramitación terminada",
+    "estado": "Publicado",
+    "ley_numero": "Ley N° 21.809",
+    "tramites": [
+      {
+        "fecha": "2024-04-17",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-04-24",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Educación",
+        "sesion": "23/372"
+      },
+      {
+        "fecha": "2024-07-23",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de Oficio de la Comisión de Educación (N° 697/4/2024), por el cual solicita recabar el acuerdo de la Sala en orden a refundir el proyecto de ley, iniciado en mensaje, contenido en el boletín N° 16901-04, con los proyectos, iniciados en moción, contenidos en los boletines 16781-04 y 16881-04. ACORDADO.",
+        "sesion": "54/372"
+      },
+      {
+        "fecha": "2024-07-23",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio N°19.690. Comunica que la Cámara de Diputados accedió a la solicitud para refundir los proyectos de ley correspondientes a los boletines Nos. 16.781-04, 16.881-04 y 16.901-04.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-07-24",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1067-372 que retira y hace presente la urgencia Suma",
+        "sesion": "56/372"
+      },
+      {
+        "fecha": "2024-08-07",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1189-372 que retira y hace presente la urgencia Suma",
+        "sesion": "63/372"
+      },
+      {
+        "fecha": "2024-08-14",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1265-372 que retira y hace presente la urgencia Suma",
+        "sesion": "66/372"
+      },
+      {
+        "fecha": "2024-08-26",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio N° 175-372. Oficio del Presidente de la República (N°175-372, por el cual formula indicaciones al proyecto. Acompaña informe financiero Complementario N°224/23.08.2024.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-08-28",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1353-372 que retira y hace presente la urgencia Suma",
+        "sesion": "69/372"
+      },
+      {
+        "fecha": "2024-09-04",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1464-372 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "72/372"
+      },
+      {
+        "fecha": "2024-09-09",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1467-372 que retira y hace presente la urgencia Suma",
+        "sesion": "73/372"
+      },
+      {
+        "fecha": "2024-09-22",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Educación. Pasa a Comisión de Hacienda",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-09-23",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .",
+        "sesion": "77/372"
+      },
+      {
+        "fecha": "2024-09-24",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1576-372 que retira y hace presente la urgencia Suma",
+        "sesion": "78/372"
+      },
+      {
+        "fecha": "2024-10-08",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Hacienda.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-10-09",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .",
+        "sesion": "86/372"
+      },
+      {
+        "fecha": "2024-10-14",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1780-372 que hace presente la urgencia Discusión inmediata",
+        "sesion": "88/372"
+      },
+      {
+        "fecha": "2024-10-16",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "La diputada Sara Concha Smith formula reserva de constitucionalidad.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-10-16",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "El diputado Stephan Schubert Rubio formula reserva de constitucionalidad.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-10-16",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "La diputada Francesca Muñoz González formula reserva de constitucionalidad.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-10-16",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular a la vez",
+        "sesion": "90/372"
+      },
+      {
+        "fecha": "2024-10-16",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio de ley a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-10-21",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Educación",
+        "sesion": "67/372"
+      },
+      {
+        "fecha": "2024-10-29",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1907-372 que hace presente la urgencia Suma",
+        "sesion": "68/372"
+      },
+      {
+        "fecha": "2024-11-13",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2108-372 que retira y hace presente la urgencia Suma",
+        "sesion": "73/372"
+      },
+      {
+        "fecha": "2024-12-03",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2274-372 que hace presente la urgencia Suma",
+        "sesion": "84/372"
+      },
+      {
+        "fecha": "2024-12-18",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2441-372 que retira y hace presente la urgencia Suma",
+        "sesion": "91/372"
+      },
+      {
+        "fecha": "2025-01-07",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2503-372 que hace presente la urgencia Suma",
+        "sesion": "92/372"
+      },
+      {
+        "fecha": "2025-01-22",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2707-372 que retira y hace presente la urgencia Suma",
+        "sesion": "97/372"
+      },
+      {
+        "fecha": "2025-03-04",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2753-372 que hace presente la urgencia Suma",
+        "sesion": "101/372"
+      },
+      {
+        "fecha": "2025-03-11",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2-373 que hace presente la urgencia Suma",
+        "sesion": "1/373"
+      },
+      {
+        "fecha": "2025-04-08",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 106-373 que hace presente la urgencia Suma",
+        "sesion": "9/373"
+      },
+      {
+        "fecha": "2025-04-15",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Primer informe de comisión de Educación.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-04-16",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .",
+        "sesion": "12/373"
+      },
+      {
+        "fecha": "2025-04-23",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 251-373 que retira y hace presente la urgencia Suma",
+        "sesion": "15/373"
+      },
+      {
+        "fecha": "2025-05-07",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 352-373 que retira y hace presente la urgencia Suma",
+        "sesion": "18/373"
+      },
+      {
+        "fecha": "2025-05-14",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 435-373 que retira y hace presente la urgencia Suma",
+        "sesion": "20/373"
+      },
+      {
+        "fecha": "2025-05-28",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 537-373 que retira y hace presente la urgencia Suma",
+        "sesion": "23/373"
+      },
+      {
+        "fecha": "2025-06-04",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general",
+        "sesion": "25/373"
+      },
+      {
+        "fecha": "2025-06-10",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "La Sala aprobó fijar un plazo para presentar indicaciones al presente proyecto de ley hasta las 12.00 horas del viernes 27 de junio de 2025, en la Secretaría del Senado",
+        "sesion": "26/373"
+      },
+      {
+        "fecha": "2025-06-11",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 646-373 que retira y hace presente la urgencia Suma",
+        "sesion": "27/373"
+      },
+      {
+        "fecha": "2025-06-18",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 688-373 que retira y hace presente la urgencia Suma",
+        "sesion": "30/373"
+      },
+      {
+        "fecha": "2025-06-27",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Boletín de indicaciones .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-06-30",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Por acuerdo de Comités, ratificado por la Sala, se fija un nuevo plazo para presentar indicaciones a este proyecto de ley, hasta las 12:00 horas del día 1 de julio de 2025, en la Secretaría de la Comisión de Educación.",
+        "sesion": "31/373"
+      },
+      {
+        "fecha": "2025-07-01",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Boletín de indicaciones .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-07-02",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 750-373 que retira y hace presente la urgencia Suma",
+        "sesion": "34/373"
+      },
+      {
+        "fecha": "2025-07-09",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "La Sala acuerda fijar un nuevo plazo para presentar indicaciones a este proyecto de ley, hasta las 12:00 horas del día 18 de julio de 2025, en la Secretaría de la Comisión de Educación.",
+        "sesion": "36/373"
+      },
+      {
+        "fecha": "2025-07-15",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 826-373 que retira y hace presente la urgencia Suma",
+        "sesion": "39/373"
+      },
+      {
+        "fecha": "2025-07-15",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "La Sala acuerda ampliar el plazo para presentar indicaciones a este proyecto de ley, hasta las 12:00 horas del día 31 de julio de 2025, en la Secretaría de la Comisión de Educación.",
+        "sesion": "39/373"
+      },
+      {
+        "fecha": "2025-07-23",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 884-373 que retira y hace presente la urgencia Suma",
+        "sesion": "41/373"
+      },
+      {
+        "fecha": "2025-07-31",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Boletín de indicaciones .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-08-06",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 919-373 que retira y hace presente la urgencia Suma",
+        "sesion": "44/373"
+      },
+      {
+        "fecha": "2025-08-20",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 983-373 que retira y hace presente la urgencia Suma",
+        "sesion": "48/373"
+      },
+      {
+        "fecha": "2025-09-03",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1031-373 que retira y hace presente la urgencia Suma",
+        "sesion": "50/373"
+      },
+      {
+        "fecha": "2025-09-16",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1074-373 que retira y hace presente la urgencia Suma",
+        "sesion": "55/373"
+      },
+      {
+        "fecha": "2025-10-01",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1103-373 que retira y hace presente la urgencia Suma",
+        "sesion": "58/373"
+      },
+      {
+        "fecha": "2025-10-15",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1175-373 que retira y hace presente la urgencia Suma",
+        "sesion": "62/373"
+      },
+      {
+        "fecha": "2025-10-27",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1178-373 que retira y hace presente la urgencia Suma",
+        "sesion": "63/373"
+      },
+      {
+        "fecha": "2025-11-05",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1235-373 que retira y hace presente la urgencia Suma",
+        "sesion": "65/373"
+      },
+      {
+        "fecha": "2025-11-19",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "La Sala acuerda fijar un nuevo plazo para presentar indicaciones a este proyecto de ley, hasta las 12:00 horas del día 24 de noviembre de 2025, en la Comisión de Educación.",
+        "sesion": "68/373"
+      },
+      {
+        "fecha": "2025-11-24",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Boletín de indicaciones .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-11-25",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1269-373 que hace presente la urgencia Suma",
+        "sesion": "76/373"
+      },
+      {
+        "fecha": "2025-12-09",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Segundo informe de comisión de Educación. Pasa a Comisión de Hacienda",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-12-10",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1367-373 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "81/373"
+      },
+      {
+        "fecha": "2025-12-12",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Segundo informe de comisión de Hacienda.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-12-16",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de segundo informe de comisión .",
+        "sesion": "82/373"
+      },
+      {
+        "fecha": "2026-01-06",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1459-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "86/373"
+      },
+      {
+        "fecha": "2026-01-07",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "El Honorable Senador señor Kusanovic hace reserva de constitucionalidad en la discusión del proyecto de ley",
+        "sesion": "87/373"
+      },
+      {
+        "fecha": "2026-01-07",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión particular . Aprobado con modificaciones",
+        "sesion": "87/373"
+      },
+      {
+        "fecha": "2026-01-09",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio modificaciones a Cámara de Origen .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-12",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta oficio con modificaciones de Cámara Revisora . Queda para tabla",
+        "sesion": "108/373"
+      },
+      {
+        "fecha": "2026-01-14",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1516-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "111/373"
+      },
+      {
+        "fecha": "2026-01-20",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "El diputado Stephan Schubert Rubio formula reserva de constitucionalidad.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-20",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Discusión única . Rechazadas las modificaciones",
+        "sesion": "113/373"
+      },
+      {
+        "fecha": "2026-01-20",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Oficio rechazo modificaciones a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-20",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta oficio rechazo a modificaciones .",
+        "sesion": "91/373"
+      },
+      {
+        "fecha": "2026-01-20",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Oficio N° 38. Oficio a S.E. el Presidente de la Cámara de Diputados, mediante el cual toma conocimiento del rechazo de algunas enmiendas y designa a integrantes de la Comisión Mixta",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-21",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta oficio integrantes de Comisión Mixta .",
+        "sesion": "114/373"
+      },
+      {
+        "fecha": "2026-01-26",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Informe de Comisión Mixta de Educación.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-26",
+        "camara": "C.Diputados",
+        "etapa": "Disc. informe C.Mixta por rechazo de modific. en C. Origen",
+        "descripcion": "Cuenta informe Comisión Mixta .",
+        "sesion": "115/373"
+      },
+      {
+        "fecha": "2026-01-26",
+        "camara": "C.Diputados",
+        "etapa": "Disc. informe C.Mixta por rechazo de modific. en C. Origen",
+        "descripcion": "Cuenta del Mensaje 1581-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "115/373"
+      },
+      {
+        "fecha": "2026-01-26",
+        "camara": "C.Diputados",
+        "etapa": "Disc. informe C.Mixta por rechazo de modific. en C. Origen",
+        "descripcion": "Discusión informe de Comisión Mixta . Aprobado",
+        "sesion": "115/373"
+      },
+      {
+        "fecha": "2026-01-26",
+        "camara": "C.Diputados",
+        "etapa": "Disc. informe C.Mixta por rechazo de modific. en C. Origen",
+        "descripcion": "Oficio aprobación de informe de Comisión Mixta a C. Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-27",
+        "camara": "Senado",
+        "etapa": "Disc. informe C.Mixta por rechazo de modif. C. Revisora",
+        "descripcion": "Cuenta oficio aprobación de informe de Comisión Mixta .",
+        "sesion": "96/373"
+      },
+      {
+        "fecha": "2026-01-27",
+        "camara": "Senado",
+        "etapa": "Disc. informe C.Mixta por rechazo de modif. C. Revisora",
+        "descripcion": "Discusión informe de Comisión Mixta . Aprobado",
+        "sesion": "96/373"
+      },
+      {
+        "fecha": "2026-01-27",
+        "camara": "Senado",
+        "etapa": "Disc. informe C.Mixta por rechazo de modif. C. Revisora",
+        "descripcion": "Oficio aprobación de informe de Comisión Mixta a C.de Origen .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-28",
+        "camara": "C.Diputados",
+        "etapa": "Trámite finalización en Cámara de Origen",
+        "descripcion": "Cuenta oficio aprobación de informe de Comisión Mixta .",
+        "sesion": "117/373"
+      },
+      {
+        "fecha": "2026-01-28",
+        "camara": "C.Diputados",
+        "etapa": "Trámite finalización en Cámara de Origen",
+        "descripcion": "Oficio de ley al Ejecutivo .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-03-02",
+        "camara": "C.Diputados",
+        "etapa": "Trámite en Tribunal Constitucional",
+        "descripcion": "Oficio N°21.042 al Tribunal Constitucional",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-03-02",
+        "camara": "C.Diputados",
+        "etapa": "Trámite de aprobacion presidencial",
+        "descripcion": "Cuenta, Oficio de S.E. el Presidente de la República por el cual comunica que ha resuelto no hacer uso de la facultad de veto, que le confiere el inciso primero del artículo 73 de la Constitución Política de la República, respecto del proyecto. (019-373).",
+        "sesion": "118/373"
+      },
+      {
+        "fecha": "2026-03-18",
+        "camara": "C.Diputados",
+        "etapa": "Trámite en Tribunal Constitucional",
+        "descripcion": "Ingreso fallo del Tribunal Constitucional .",
+        "sesion": "2/374"
+      },
+      {
+        "fecha": "2026-03-18",
+        "camara": "C.Diputados",
+        "etapa": "Trámite en Tribunal Constitucional",
+        "descripcion": "Ingreso fallo del Tribunal Constitucional .",
+        "sesion": "2/374"
+      },
+      {
+        "fecha": "2026-03-18",
+        "camara": "C.Diputados",
+        "etapa": "Trámite en Tribunal Constitucional",
+        "descripcion": "Cuenta fallo del Tribunal Constitucional .",
+        "sesion": "2/374"
+      },
+      {
+        "fecha": "2026-03-18",
+        "camara": "C.Diputados",
+        "etapa": "Trámite en Tribunal Constitucional",
+        "descripcion": "Ingreso fallo del Tribunal Constitucional .",
+        "sesion": "2/374"
+      },
+      {
+        "fecha": "2026-03-18",
+        "camara": "C.Diputados",
+        "etapa": "Trámite en Tribunal Constitucional",
+        "descripcion": "Ingreso fallo del Tribunal Constitucional .",
+        "sesion": "2/374"
+      },
+      {
+        "fecha": "2026-03-18",
+        "camara": "C.Diputados",
+        "etapa": "Trámite en Tribunal Constitucional",
+        "descripcion": "Ingreso fallo del Tribunal Constitucional .",
+        "sesion": "2/374"
+      },
+      {
+        "fecha": "2026-03-18",
+        "camara": "C.Diputados",
+        "etapa": "Trámite en Tribunal Constitucional",
+        "descripcion": "Ingreso fallo del Tribunal Constitucional .",
+        "sesion": "2/374"
+      },
+      {
+        "fecha": "2026-03-18",
+        "camara": "C.Diputados",
+        "etapa": "Trámite en Tribunal Constitucional",
+        "descripcion": "Ingreso fallo del Tribunal Constitucional .",
+        "sesion": "2/374"
+      },
+      {
+        "fecha": "2026-03-18",
+        "camara": "C.Diputados",
+        "etapa": "Trámite en Tribunal Constitucional",
+        "descripcion": "Ingreso fallo del Tribunal Constitucional .",
+        "sesion": "2/374"
+      },
+      {
+        "fecha": "2026-03-18",
+        "camara": "",
+        "etapa": "Tramitación terminada",
+        "descripcion": "Oficio N°21.082. Oficio de ley al Ejecutivo.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-03-18",
+        "camara": "C.Diputados",
+        "etapa": "Trámite en Tribunal Constitucional",
+        "descripcion": "Oficio de ley al Ejecutivo .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-03-18",
+        "camara": "",
+        "etapa": "Tramitación terminada",
+        "descripcion": "Oficio N°21.082. Oficio de ley al Ejecutivo.",
+        "sesion": "/"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "87519",
+      "fecha": "2026-01-26T19:22:46",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Comisión Mixta",
+      "articulo": "Proposición de la Comisión Mixta recaída en el proyecto de ley, originado en mociones y mensaje, “Sobre convivencia, buen trato y bienestar de las comunidades educativas, con el objetivo de prevenir y erradicar el acoso escolar, la discriminación y todo tipo de violencia en los establecimientos educacionales.”. \nCabe hacer presente que los numerales 3) y 16), nuevos, del artículo 1 y el inciso segundo del artículo 16, nuevo, requieren para su aprobación del voto favorable de 76 diputadas y diputados por tratarse de disposiciones de rango orgánico constitucional.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87415",
+      "fecha": "2026-01-20T13:42:51",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que agrega un nuevo artículo 17 del proyecto,  junto con las disposiciones transitorias decima a décimo séptima, cuya votación separada ha sido solicitada por el diputado Juan Irarrázaval, y que consta en las páginas 174 a 175 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87414",
+      "fecha": "2026-01-20T13:41:02",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que agrega un nuevo artículo 16 del proyecto, cuya votación separada ha sido solicitada por el diputado Juan Irarrázaval, y que consta en las páginas 172 a 174 del comparado.\n(Se hace presente  que su inciso segundo requiere se rechazó por n alcanzar el quorum constitucional requerido).",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87413",
+      "fecha": "2026-01-20T13:39:55",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que agrega un nuevo artículo 15 del proyecto, cuya votación separada ha sido solicitada por el diputado Juan Irarrázaval, y que consta en las páginas 170 a 171 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87412",
+      "fecha": "2026-01-20T13:39:09",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que agrega un nuevo artículo 14 del proyecto, cuya votación separada ha sido solicitada por el diputado Juan Irarrázaval, y que consta en las páginas 166 a 170 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87411",
+      "fecha": "2026-01-20T13:38:11",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que agrega un nuevo artículo 13 del proyecto, cuya votación separada ha sido solicitada por el diputado Juan Irarrázaval, y que consta en las páginas 164 a 166 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87410",
+      "fecha": "2026-01-20T13:37:10",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que agrega un nuevo artículo 12 del proyecto, cuya votación separada ha sido solicitada por el diputado Juan Irarrázaval, y que consta en las páginas 159 a 163 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87409",
+      "fecha": "2026-01-20T13:36:05",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que agrega un nuevo artículo 11 del proyecto, cuya votación separada ha sido solicitada por el diputado Juan Irarrázaval, y que consta en las páginas 157 a 159 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87408",
+      "fecha": "2026-01-20T13:35:07",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que agrega un nuevo artículo 10 del proyecto, cuya votación separada ha sido solicitada por el diputado Juan Irarrázaval, y que consta en las páginas 154 a 157 del comparado.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87407",
+      "fecha": "2026-01-20T13:34:05",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que agrega un nuevo artículo 9 del proyecto, cuya votación separada ha sido solicitada por el diputado Juan Irarrázaval, que consta en las páginas 149 a 150 del comparado, y que requiere para su aprobación del voto favorable de 76 diputadas y diputados, por tratarse de una norma de rango orgánico constitucional.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87406",
+      "fecha": "2026-01-20T13:33:06",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmiendas del Senado respecto del número 2 del artículo 6 del proyecto, cuya votación separada ha sido solicitada por el diputado Juan Irarrázaval, y que consta en las páginas 144 a 147 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87405",
+      "fecha": "2026-01-20T13:32:04",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmiendas del Senado respecto del número 1 del artículo 6 del proyecto, cuya votación separada ha sido solicitada por el diputado Juan Irarrázaval, y que consta en las páginas 139 a 143 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87404",
+      "fecha": "2026-01-20T13:31:20",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmiendas del Senado respecto del número 2 del artículo 5 del proyecto, cuya votación separada ha sido solicitada por el diputado Juan Irarrázaval, y que consta en las páginas 135 a 139 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87403",
+      "fecha": "2026-01-20T13:30:20",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmiendas del Senado respecto del número 1 del artículo 5 del proyecto, cuya votación separada ha sido solicitada por el diputado Juan Irarrázaval, y que consta en las páginas 130 a 135 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87402",
+      "fecha": "2026-01-20T13:29:33",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmiendas del Senado respecto del número que ha pasado a ser 11 del artículo 4 del proyecto, cuya votación separada ha sido solicitada por el diputado Juan Irarrázaval, y que consta en las páginas 126 a 127 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87401",
+      "fecha": "2026-01-20T13:28:35",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que agrega un nuevo número 5 al artículo 4 del proyecto, cuya votación separada ha sido solicitada por el diputado Juan Irarrázaval, y que consta en las páginas 121 a 124 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87400",
+      "fecha": "2026-01-20T13:27:35",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que sustituye el número que ha pasado a ser 2 del artículo 4 del proyecto, cuya votación separada ha sido solicitada por el diputado Juan Irarrázaval, y que consta en las páginas 103 a 109 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87399",
+      "fecha": "2026-01-20T13:26:31",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que agrega un nuevo número 1 al artículo 4 del proyecto, cuya votación separada ha sido solicitada por el diputado Juan Irarrázaval, y que consta en las páginas 102 a 103 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87398",
+      "fecha": "2026-01-20T13:25:29",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que agrega un nuevo número 6 al artículo 2 del proyecto, cuya votación separada ha sido solicitada por el diputado Juan Irarrázaval, y que consta en la página 83 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87397",
+      "fecha": "2026-01-20T13:24:28",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que agrega un nuevo número 5 al artículo 2 del proyecto, cuya votación separada ha sido solicitada por el diputado Juan Irarrázaval, y que consta en las páginas 81 a 82 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87396",
+      "fecha": "2026-01-20T13:23:30",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que agrega un nuevo número 4 al artículo 2 del proyecto, cuya votación separada ha sido solicitada por el diputado Juan Irarrázaval, y que consta en la página 80 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87395",
+      "fecha": "2026-01-20T13:22:29",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que agrega un nuevo número 1 al artículo 2 del proyecto, cuya votación separada ha sido solicitada por el diputado Juan Irarrázaval, y que consta en las páginas 76 a 77 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87394",
+      "fecha": "2026-01-20T13:21:39",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que agrega un nuevo número 16 al artículo 1 del proyecto, cuya votación separada ha sido solicitada por el diputado Juan Irarrázaval, que consta en las páginas 65 a 66 del comparado, y que requiere para su aprobación del voto favorable de 76 diputadas y diputados por tratarse de una norma orgánica constitucional.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87393",
+      "fecha": "2026-01-20T13:20:42",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmiendas del Senado respecto del número que ha pasado a ser 14 del artículo 1 del proyecto, cuya votación separada ha sido solicitada por el diputado Juan Irarrázaval, y que consta en las páginas 51 a 58 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87392",
+      "fecha": "2026-01-20T13:19:57",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmiendas del Senado respecto del número que ha pasado a ser 13 del artículo 1 del proyecto, cuya votación separada ha sido solicitada por la diputada Marcia Raphael y por los diputados Felipe Donoso, Juan Irarrázaval y Hugo Rey, y que consta en las páginas 47 a 51 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87391",
+      "fecha": "2026-01-20T13:19:00",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmiendas del Senado respecto del número que ha pasado a ser 12 del artículo 1 del proyecto, cuya votación separada ha sido solicitada por el diputado Juan Irarrázaval, y que consta en las páginas 46 a 47 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87390",
+      "fecha": "2026-01-20T13:18:05",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que agrega un nuevo número 10 al artículo 1 del proyecto, cuya votación separada ha sido solicitada por las diputadas Sara Concha, Marcia Raphael y por los diputados Felipe Donoso, Juan Irarrázaval y Hugo Rey, y que consta en las páginas 34 a 45 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87389",
+      "fecha": "2026-01-20T13:17:02",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmiendas del Senado respecto del número que ha pasado a ser 9 del artículo 1 del proyecto, cuya votación separada ha sido solicitada por la diputada Marcia Raphael y por los diputados Felipe Donoso, Juan Irarrázaval y Hugo Rey, y que consta en las páginas 29 a 34 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87388",
+      "fecha": "2026-01-20T13:16:12",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmiendas del Senado respecto del número que ha pasado a ser 8 del artículo 1 del proyecto, cuya votación separada ha sido solicitada por el diputado Juan Irarrázaval, y que consta en las páginas 27 a 29 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87387",
+      "fecha": "2026-01-20T13:14:35",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado respecto del inciso segundo del artículo 16 B del número que ha pasado a ser 7 del artículo 1 del proyecto, cuya votación separada ha sido solicitada por el diputado Felipe Donoso, y que consta en la página 21 del comparado.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87386",
+      "fecha": "2026-01-20T13:13:40",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmiendas del Senado respecto del número que ha pasado a ser 7 del artículo 1 del proyecto, cuya votación separada ha sido solicitada por el diputado Juan Irarrázaval, que consta en las páginas 21 a 27 del comparado, con la salvedad de la modificación propuesta sobre el inciso segundo del artículo 16 B, cuya votación separada a la vez ha sido solicitada.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87385",
+      "fecha": "2026-01-20T13:12:34",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmiendas del Senado respecto del número que ha pasado a ser 6 del artículo 1 del proyecto, cuya votación separada ha sido solicitada por el diputado Juan Irarrázaval, y que consta en las páginas 17 a 21 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87384",
+      "fecha": "2026-01-20T13:11:39",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que agrega un inciso final en el número que ha pasado a ser 4 del artículo 1 del proyecto, cuya votación separada ha sido solicitada por el diputado Juan Irarrázaval, y que consta en la página 17 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87383",
+      "fecha": "2026-01-20T13:10:09",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado para sustituir el inciso que ha pasado a ser quinto en el número que ha pasado a ser 4 del artículo 1 del proyecto, cuya votación separada ha sido solicitada por la diputada Marcia Raphael y por el diputado Hugo Rey, y que consta en la página 15 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87382",
+      "fecha": "2026-01-20T13:06:34",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado para eliminar los incisos tercero y cuarto del número que ha pasado a ser 4 del artículo 1 del proyecto, cuya votación separada ha sido solicitada por los diputados Felipe Donoso y Juan Irarrázaval, y que consta en las páginas 14 a 15 del comparado.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87381",
+      "fecha": "2026-01-20T13:05:17",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que agrega un nuevo número 3 al artículo 1 del proyecto, cuya votación separada ha sido solicitada por la diputada Marcia Raphael y por los diputados Juan Irarrázaval y Hugo Rey, que consta en las páginas 6 a 13 del comparado, y que requiere para su aprobación del voto favorable de 76 diputadas y diputados por tratarse de una norma orgánica constitucional.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87380",
+      "fecha": "2026-01-20T13:04:19",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que agrega un nuevo número 1 al artículo 1 del proyecto, cuya votación separada ha sido solicitada por el diputado Juan Irarrázaval, que consta en las páginas 4 a 5 del comparado, y que requiere para su aprobación del voto favorable de 76 diputadas y diputados por tratarse de una norma orgánica constitucional.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "87379",
+      "fecha": "2026-01-20T13:03:18",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Modificaciones incorporadas por el Senado en el proyecto de ley, originado en mociones y mensaje refundidos, “Sobre convivencia, buen trato y bienestar de las comunidades educativas, con el objetivo de prevenir y erradicar el acoso escolar, la discriminación y todo tipo de violencia en los establecimientos educacionales.”, con la salvedad de aquellas que requieren quorum especial de aprobación y de aquellas cuya votación separada ha sido solicitada.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "42106",
+      "fecha": "2024-10-16T13:54:27",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo séptimo transitorio del texto propuesto por la Comisión de Educación, cuya votación separada ha sido solicitada por el diputado Sergio Bobadilla y que consta en las páginas 279 y 280 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "42105",
+      "fecha": "2024-10-16T13:53:32",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo quinto transitorio del texto propuesto por la Comisión de Educación, cuya votación separada ha sido solicitada por el diputado Sergio Bobadilla y que consta en las páginas 275 a 277 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "42104",
+      "fecha": "2024-10-16T13:52:49",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo tercero transitorio del texto propuesto por la Comisión de Educación, cuya votación separada ha sido solicitada por la diputada Marcia Raphael y el diputado Hugo Rey y que consta en las páginas 273 y 274 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "42103",
+      "fecha": "2024-10-16T13:51:23",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 7 nuevo, propuesto por la Comisión de Hacienda, y que consta en las páginas 269 y 270 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "42102",
+      "fecha": "2024-10-16T13:50:36",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 4° del texto propuesto por la Comisión de Educación, cuya votación separada ha sido solicitada por el diputado Sergio Bobadilla y que consta en las páginas 203 a 242 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "42101",
+      "fecha": "2024-10-16T13:49:52",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 3° del texto propuesto por la Comisión de Educación, cuya votación separada ha sido solicitada por el diputado Sergio Bobadilla, y que consta en las páginas 201 a 203 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "42100",
+      "fecha": "2024-10-16T13:49:12",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Numeral 14) del artículo 1° del texto propuesto por la Comisión de Educación, cuya votación separada ha sido solicitada por la diputada Marcia Raphael y los diputados Hugo Rey y Sergio Bobadilla, y que consta en las páginas 107 a 116 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "42099",
+      "fecha": "2024-10-16T13:48:10",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Numeral 13) del artículo 1° del texto propuesto por la Comisión de Educación, cuya votación separada ha sido solicitada por la diputada Marcia Raphael y los diputados Hugo Rey y Sergio Bobadilla, y que consta en las páginas 102 a 107 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "42098",
+      "fecha": "2024-10-16T13:47:18",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Numeral 11) del artículo 1° del texto propuesto por la Comisión de Educación, cuya votación separada ha sido solicitada por el diputado Sergio Bobadilla, y que consta en las páginas 92 a 96 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "42097",
+      "fecha": "2024-10-16T13:46:29",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Numeral 10) del artículo 1° del texto propuesto por la Comisión de Educación, cuya votación separada ha sido solicitada por la diputada Marcia Raphael y los diputados Hugo Rey, Leonidas Romero y Sergio Bobadilla, y que consta en las páginas 70 a 86 del comparado.",
+      "resultado": "Unánime",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "42096",
+      "fecha": "2024-10-16T13:45:39",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Numeral 9) del artículo 1° del texto propuesto por la Comisión de Educación, cuya votación separada ha sido solicitada por el diputado Sergio Bobadilla, y que consta en las páginas 61 a 68 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "42095",
+      "fecha": "2024-10-16T13:44:51",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Numeral 8) del artículo 1° del texto propuesto por la Comisión de Educación, cuya votación separada ha sido solicitada por la diputada Marcia Raphael y el diputado Hugo Rey, y que consta en las páginas 58 a 61 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "42094",
+      "fecha": "2024-10-16T13:44:01",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Numeral 7) del artículo 1° del texto propuesto por la Comisión de Educación, cuya votación separada ha sido solicitada por el diputado Sergio Bobadilla, y que consta en las páginas 42 a 54 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "42093",
+      "fecha": "2024-10-16T13:43:11",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Numeral 6) del artículo 1° del texto propuesto por la Comisión de Educación, cuya votación separada ha sido solicitada por los diputados Sergio Bobadilla y Diego Schalper, y que consta en las páginas 36 a 42 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "42092",
+      "fecha": "2024-10-16T13:42:04",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Numeral 4) del artículo 1° del texto propuesto por la Comisión de Educación, cuya votación separada ha sido solicitada por la diputada Marcia Raphael y los diputados Hugo Rey y Sergio Bobadilla, y que consta en las páginas 26 a 35 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "42091",
+      "fecha": "2024-10-16T13:39:26",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": null,
+      "resultado": "Unánime",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "42090",
+      "fecha": "2024-10-16T13:38:07",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": null,
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": true,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:41"
+  }
+}

@@ -1,0 +1,354 @@
+{
+  "boletin": "16481-25",
+  "nombre": "Modifica el Código Procesal Penal, con el objeto de aumentar el plazo máximo para considerar una situación entre las hipótesis de flagrancia",
+  "tipo_iniciativa": "Moción",
+  "camara_origen": "Senado",
+  "fecha_ingreso": "2023-12-19",
+  "tramitacion": {
+    "etapa_actual": "Comisión Mixta por rechazo de modificaciones (Senado)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2023-12-19",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2023-12-20",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Seguridad Pública",
+        "sesion": "87/371"
+      },
+      {
+        "fecha": "2024-01-16",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Seguridad Pública.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-01-17",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .",
+        "sesion": "96/371"
+      },
+      {
+        "fecha": "2024-03-13",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general Se fija como plazo para presentar indicaciones el 18/03/2024 a las 12:00",
+        "sesion": "2/372"
+      },
+      {
+        "fecha": "2024-03-13",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "La Sala acuerda que el proyecto de ley sea conocido en particular por la Comisión de Constitución, Legislación, Justicia y Reglamento, en lugar de la Comisión de Seguridad Pública.",
+        "sesion": "2/372"
+      },
+      {
+        "fecha": "2024-03-18",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Boletín de indicaciones .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-03-18",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio N°I.F. N° 65. Informe Financiero",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-06-23",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Segundo informe de comisión de Constitución, Legislación, Justicia y Reglamento.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-06-30",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de segundo informe de comisión .",
+        "sesion": "31/373"
+      },
+      {
+        "fecha": "2025-06-30",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión particular . Aprobado",
+        "sesion": "31/373"
+      },
+      {
+        "fecha": "2025-06-30",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio de ley a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-07-01",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Seguridad Ciudadana",
+        "sesion": "43/373"
+      },
+      {
+        "fecha": "2025-09-29",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio del Presidente de la República (N°200-373), por el cual formula indicaciones al proyecto. Se adjunta informe financiero complementario N° 280/26.09.2025.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-10-27",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Primer informe de comisión de Seguridad Ciudadana.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-10-27",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  Queda para tabla.",
+        "sesion": "82/373"
+      },
+      {
+        "fecha": "2025-11-26",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general",
+        "sesion": "94/373"
+      },
+      {
+        "fecha": "2026-01-07",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de segundo informe de comisión .  Queda para tabla.",
+        "sesion": "107/373"
+      },
+      {
+        "fecha": "2026-01-07",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de segundo informe de comisión .",
+        "sesion": "107/373"
+      },
+      {
+        "fecha": "2026-01-08",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Segundo informe de comisión de Seguridad Ciudadana.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-03-04",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión particular . Aprobado con modificaciones .",
+        "sesion": "121/373"
+      },
+      {
+        "fecha": "2026-03-04",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio modificaciones a Cámara de Origen .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-03-10",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta oficio con modificaciones de Cámara Revisora . Queda para tabla",
+        "sesion": "99/373"
+      },
+      {
+        "fecha": "2026-03-17",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 3-374 que hace presente la urgencia Simple",
+        "sesion": "1/374"
+      },
+      {
+        "fecha": "2026-03-24",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Discusión única . Rechazadas las modificaciones",
+        "sesion": "3/374"
+      },
+      {
+        "fecha": "2026-03-24",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Oficio rechazo modificaciones a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-03-25",
+        "camara": "C.Diputados",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta oficio rechazo a modificaciones .",
+        "sesion": "6/374"
+      },
+      {
+        "fecha": "2026-04-07",
+        "camara": "C.Diputados",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Oficio N°95. Designa integrantes Comisión Mixta",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-04-08",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta oficio integrantes de Comisión Mixta .",
+        "sesion": "10/374"
+      },
+      {
+        "fecha": "2026-04-21",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta oficio integrantes de Comisión Mixta .",
+        "sesion": "10/374"
+      },
+      {
+        "fecha": "2026-05-05",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Mensaje 74-374 que hace presente la urgencia Suma",
+        "sesion": "12/374"
+      },
+      {
+        "fecha": "2026-05-12",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Mensaje 87-374 que hace presente la urgencia Suma",
+        "sesion": "15/374"
+      },
+      {
+        "fecha": "2026-05-18",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Mensaje 95-374 que hace presente la urgencia Suma",
+        "sesion": "18/374"
+      },
+      {
+        "fecha": "2026-06-03",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Mensaje 126-374 que hace presente la urgencia Suma",
+        "sesion": "26/374"
+      },
+      {
+        "fecha": "2026-06-09",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Mensaje 136-374 que hace presente la urgencia Suma",
+        "sesion": "28/374"
+      },
+      {
+        "fecha": "2026-06-15",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta oficio N°196/SEC/26, mediante el cual el Senado solicita a la Cámara de Diputados tener a bien designar o actualizar la nómina de sus integrantes ante la Comisión Mixta.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-06-16",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Mensaje 154-374 que hace presente la urgencia Suma",
+        "sesion": "30/374"
+      },
+      {
+        "fecha": "2026-06-23",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Mensaje 172-374 que hace presente la urgencia Suma",
+        "sesion": "35/374"
+      },
+      {
+        "fecha": "2026-07-07",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Mensaje 188-374 que hace presente la urgencia Suma",
+        "sesion": "40/374"
+      },
+      {
+        "fecha": "2026-07-14",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Mensaje 202-374 que hace presente la urgencia Suma",
+        "sesion": "42/374"
+      },
+      {
+        "fecha": "2026-08-04",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Mensaje 234-374 que retira y hace presente la urgencia Suma",
+        "sesion": "47/374"
+      },
+      {
+        "fecha": "2026-08-10",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Oficio N°21.477. Comunica la nómina de las diputadas y los diputados que integrarán la comisión mixta que deberá formarse.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-08-11",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Mensaje 254-374 que retira y hace presente la urgencia Suma",
+        "sesion": "49/374"
+      },
+      {
+        "fecha": "2026-08-11",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Oficio N° 21.477,de la Cámara de Diputado, por el cual designa integrantes de la Comisión Mixta",
+        "sesion": "49/374"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "87754",
+      "fecha": "2026-03-04T16:43:43",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "En votación particular el texto del proyecto en los términos propuestos por la Comisión de Seguridad Ciudadana, tanto en su primer como en su segundo informe.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "86600",
+      "fecha": "2025-11-26T13:12:24",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": null,
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:41"
+  }
+}

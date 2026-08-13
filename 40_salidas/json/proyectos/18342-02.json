@@ -1,0 +1,98 @@
+{
+  "boletin": "18342-02",
+  "nombre": "Modifica la ley N° 17.798, sobre control de armas, para agravar la sanción aplicable a los delitos perpetrados mediante el uso de fuegos artificiales y facultar a los inspectores municipales para fiscalizar la comercialización, porte y uso de estos elementos",
+  "tipo_iniciativa": "Moción",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2026-06-08",
+  "tramitacion": {
+    "etapa_actual": "Primer trámite constitucional (C.Diputados)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2026-06-08",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-06-15",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Defensa Nacional",
+        "sesion": "33/374"
+      },
+      {
+        "fecha": "2026-06-15",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "A solicitud de la diputada Pérez el proyecto se radica en la Comisión de Gobierno Interior. ACORDADO",
+        "sesion": "33/374"
+      },
+      {
+        "fecha": "2026-06-15",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio N° 21311. Por acuerdo de la Sala, remite a la Comisión de Gobierno Interior, Nacionalidad, Ciudadanía y Regionalización el proyecto de ley, inicialmente asignado a la Comisión de Defensa Nacional.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-14",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Eximido del trámite ante Comisión Derivado a Comisión de Gobierno Interior Nacionalidad Ciudadanía y Regionalización",
+        "sesion": "/"
+      }
+    ]
+  },
+  "autores": [
+    {
+      "parlamentario_id": "1059",
+      "nombre": "Ximena Ossandón Irarrázabal",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1028",
+      "nombre": "Eduardo Durán Salinas",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1243",
+      "nombre": "Tamara Ramírez Ramírez",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1260",
+      "nombre": "César Valenzuela Maass",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1227",
+      "nombre": "Claudia Mora Vega",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1234",
+      "nombre": "Mario Olavarría Rodríguez",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1213",
+      "nombre": "Irací Hassler Jacob",
+      "en_padron_vigente": true
+    }
+  ],
+  "votaciones": [],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": true,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:42"
+  }
+}

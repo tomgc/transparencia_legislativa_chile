@@ -1,0 +1,135 @@
+{
+  "boletin": "17630-10",
+  "nombre": "Aprueba el &quot;Acuerdo entre la República de Chile y la República Federativa de Brasil para el reconocimiento recíproco de licencias de conductor&quot;, hecho en Santiago, República de Chile, el 5 de agosto de 2024.",
+  "tipo_iniciativa": "Mensaje",
+  "camara_origen": "Senado",
+  "fecha_ingreso": "2025-06-27",
+  "tramitacion": {
+    "etapa_actual": "Tramitación terminada",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2025-06-27",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-06-27",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio N°. Acuerdo",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-06-30",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Relaciones Exteriores",
+        "sesion": "31/373"
+      },
+      {
+        "fecha": "2025-09-03",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Relaciones Exteriores.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-09-09",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .",
+        "sesion": "51/373"
+      },
+      {
+        "fecha": "2026-05-19",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular a la vez",
+        "sesion": "20/374"
+      },
+      {
+        "fecha": "2026-05-19",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio de ley a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-05-20",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Relaciones Exteriores, Asuntos Interparlamentarios e Integración Latinoamericana",
+        "sesion": "27/374"
+      },
+      {
+        "fecha": "2026-06-02",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Primer informe de comisión de Relaciones Exteriores, Asuntos Interparlamentarios e Integración Latinoamericana.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-06-09",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .",
+        "sesion": "31/374"
+      },
+      {
+        "fecha": "2026-06-10",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular sin modificaciones .",
+        "sesion": "32/374"
+      },
+      {
+        "fecha": "2026-06-10",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio aprobación sin modificaciones a Cámara de Origen .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-06-10",
+        "camara": "Senado",
+        "etapa": "Trámite finalización en Cámara de Origen",
+        "descripcion": "Cuenta oficio aprobación sin modificaciones de C. Revisora .",
+        "sesion": "29/374"
+      },
+      {
+        "fecha": "2026-06-10",
+        "camara": "Senado",
+        "etapa": "Trámite finalización en Cámara de Origen",
+        "descripcion": "Oficio de ley al Ejecutivo .",
+        "sesion": "/"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "89105",
+      "fecha": "2026-06-10T13:08:30",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "En votación el proyecto de acuerdo que aprueba el “Acuerdo entre la República de Chile y la República Federativa de Brasil para el reconocimiento recíproco de licencias de conductor\", hecho en Santiago, República de Chile, el 5 de agosto de 2024.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:41"
+  }
+}

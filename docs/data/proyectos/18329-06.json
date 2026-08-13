@@ -1,0 +1,134 @@
+{
+  "boletin": "18329-06",
+  "nombre": "Sanciona la ocupación de bienes nacionales de uso público mediante instalaciones precarias que sirven de base a la comisión de delitos",
+  "tipo_iniciativa": "Moción",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2026-06-05",
+  "tramitacion": {
+    "etapa_actual": "Primer trámite constitucional (C.Diputados)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2026-06-05",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-06-10",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "A solicitud del diputado Coloma el proyecto se radica en la Comisión de Seguridad Ciudadana.",
+        "sesion": "32/374"
+      },
+      {
+        "fecha": "2026-06-10",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Gobierno Interior, Nacionalidad, Ciudadanía y Regionalización.",
+        "sesion": "32/374"
+      },
+      {
+        "fecha": "2026-06-15",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 148-374 que hace presente la urgencia Simple",
+        "sesion": "33/374"
+      },
+      {
+        "fecha": "2026-06-17",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Por acuerdo de los Comités Parlamentarios, se remite el proyecto a la Comisión de Gobierno Interior, Nacionalidad, Ciudadanía y Regionalización, en calidad de comisión técnica.",
+        "sesion": "35/374"
+      },
+      {
+        "fecha": "2026-07-08",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta, Oficio de la Comisión de Gobierno Interior, Nacionalidad, Ciudadanía y Regionalización (N° 18/1/2026), mediante el cual solicita recabar el acuerdo de la Sala para refundir los proyectos, iniciados en moción, contenidos en los boletines 18329-06 y 18349-06. ACORDADO.",
+        "sesion": "41/374"
+      },
+      {
+        "fecha": "2026-07-08",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio N° 21371. Comunica que la Cámara de Diputados accedió a la solicitud para fusionar los proyectos de ley correspondientes a los boletines Nos. 18.329-06 y 18.349-06.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-13",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 196-374 que retira y hace presente la urgencia Simple",
+        "sesion": "42/374"
+      }
+    ]
+  },
+  "autores": [
+    {
+      "parlamentario_id": "1009",
+      "nombre": "Jorge Alessandri Vergara",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1062",
+      "nombre": "Joanna Pérez Olea",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1182",
+      "nombre": "Sebastián Videla Castillo",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1228",
+      "nombre": "Paulina Muñoz Minte",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1215",
+      "nombre": "Álvaro Jofré Cáceres",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1237",
+      "nombre": "Francisco Orrego Gutiérrez",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1199",
+      "nombre": "Jaime Coloma Álamos",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1248",
+      "nombre": "Felipe Ross Correa",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1218",
+      "nombre": "José Antonio Kast Adriasola",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1193",
+      "nombre": "Patricio Briones Moller",
+      "en_padron_vigente": true
+    }
+  ],
+  "votaciones": [],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-12",
+    "universo": "Los 427 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": true,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-13T18:02:42"
+  }
+}
