@@ -70,3 +70,62 @@ Paquete: `paquete_cierre_v18.md` (57.961 bytes, md5 `100c69f63d8967a74b30bbcbe26
   borrar y sin decisión del titular.
 - El escáner podó `20260808_082255_*`; la poda es comportamiento propio del
   escáner, no del cierre.
+
+## v19 — 2026-08-13
+
+Paquete: `paquete_cierre_v19.md` (711 líneas, md5 `c5683dea97485810a452fad2b6ce2d8e`).
+`push_autorizado: no` · `sello_escaner: regenerar` · `backlog_ultimo_previo: 55`.
+
+### Fases
+
+| Fase | Resultado | Evidencia |
+|---|---|---|
+| F0.1 | OK | `.git/` y `50_documentacion/traspasos/` presentes |
+| F0.2 | OK | 1 paquete; 7 de 7 campos del front matter; 3 bloques abren y cierran (líneas 18/556, 560/671, 675/711); 0 placeholders |
+| F0.3 | OK | `raiz_proyecto` == `pwd` == `/Users/tomgc/Projects/transparencia_legislativa_chile` |
+| F0.4 | OK | máximo en `traspasos/` = v18, en `archivo/` = v17 → siguiente **v19**, igual al front matter y al nombre del paquete |
+| F0.5 | OK | último número real del backlog en disco = **55**, contiguo 1-55 sin duplicados ni huecos, igual al declarado |
+| F0.6 | OK | `git status --porcelain -- 50_documentacion/` solo reporta el propio paquete (el vehículo); nada más sucio |
+| F1 | OK | `sello_escaner: regenerar` → escáner corrido; sello **20260813_091918**; podados los dos archivos de `20260808_145921` |
+| F2 | OK | `git mv` de v18 a `archivo/` (`R`); 0 traspasos planos rezagados |
+| F3 | OK | 534 líneas escritas; `vigentes = 1` (`traspaso_cierre_v19.md`) |
+| F4 | OK | 5 operaciones, cada par con **exactamente una** coincidencia; primera entrada nueva = **56** = 55+1; recuento final **1-58 contiguo**, 0 duplicados, 0 huecos; suma de la columna N = **59** (recuento programático, no heredado) |
+| F5 | OK | 25 líneas; `slug` y `nombre_real` conservados del disco, como exige el bloque |
+| F6 | OK | 5 archivos revisados, **0 hallazgos** (RUT, OneDrive, coautoría a la herramienta, placeholders) |
+| F7.3 | OK | 4 de 4 bloques idénticos a su destino: TRASPASO (534 vs 534 líneas), entradas del backlog (36 líneas verbatim), delta del backlog (22 líneas verbatim), ESTADO (25 líneas) |
+| F8 | No aplica | `push_autorizado: no`: el commit queda local y se declara |
+
+### Desviaciones
+
+1. **El cierre se ejecuta sobre `main`, no sobre la rama de trabajo.** La sesión
+   terminó en `chore/p59-locale-utf8`; el traspaso §1 cita `main` = `97dab39`
+   como "previo al commit de cierre", que es exactamente el `HEAD` de `main`. Se
+   hizo `checkout main` antes de F1. El instrumento no habla de ramas; dejar la
+   memoria del proyecto dentro de un PR abierto habría sido peor.
+2. **F7.3 se corrió ANTES del commit**, no después. Es estrictamente más
+   estricto: si un bloque no calzaba, no quedaba nada commiteado que revertir.
+3. **Bug propio en F4, detectado y revertido dentro de la fase.** El primer
+   intento insertaba la fila de v19 con un `\n` embebido y luego separaba con
+   `strsplit`, que sobre una línea vacía devuelve `character(0)`: eso borró las
+   83 líneas en blanco del backlog. Se detectó por conteo (1 vs 83), se restauró
+   con `git checkout --` (md5 idéntico al respaldo previo a la fase) y se
+   reaplicó insertando la fila como línea propia. Resultado final: 88 líneas en
+   blanco (83 previas + 5 de los dos bloques anexados).
+4. **`traspaso_nuevo` trae un nombre de archivo** (`traspaso_cierre_v19.md`) donde
+   el instrumento describe `v<NN>`. Los tres orígenes coinciden en 19, así que no
+   detiene; se anota como desprolijidad del paquete.
+
+### Pendientes fuera de scope detectados
+
+- **La nota de la discrepancia heredada quedó a medias.** El delta ordenó
+  recalcular los porcentajes sobre 59 y actualizar el texto de la nota, pero
+  autorizó tocar solo `**56**` → `**59**` en la fila del total. Los porcentajes
+  redondeados ahora suman **100,2** mientras la fila del total sigue declarando
+  `**100,0**` y la nota sigue afirmando que "suman 100,0 por redondeo". Es
+  exactamente el tipo de rótulo stale que el instrumento pide evitar; no se
+  corrigió porque ningún par buscar→reemplazar lo cubría.
+- **La entrada de P-59 en `CLAUDE.md` sigue pendiente**: el PR #11 ya modifica esa
+  lista y agregarla en la rama de P-59 habría garantizado conflicto.
+- **Dos PR abiertos y sin mergear al cierre**, #11 y #12, ambos con sus criterios
+  medidos. El último commit de `chore/p59-locale-utf8` (el log con C8) está sin
+  push, así que el PR #12 todavía no lo muestra.

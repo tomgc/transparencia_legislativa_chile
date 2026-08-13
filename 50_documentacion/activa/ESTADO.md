@@ -1,33 +1,25 @@
-
 ---
 slug: transparencia_legislativa_chile
 nombre_real: Transparencia Legislativa Chile
 categoria: activo
 semaforo: activo
-sesion_actual: v18
-ultima_actividad: 2026-08-12
+sesion_actual: v19
+ultima_actividad: 2026-08-13
 maneja_sensibles: false
-tipo_pendiente: deuda_tecnica
+tipo_pendiente: nuevo
 ---
 ## En que vamos
-
-La sesion 18 cerro P-74 en dos actos: midio el alcance temporal del nodo
-`Votaciones` y luego implanto un contrato por el que una captura declara su fecha
-real de descarga y el pipeline se detiene si esa descarga cae fuera del corte que su
-clave dice (D31). Al verificar ese trabajo contra el bot semanal aparecio que estaba
-roto desde el PR #6 por una guarda circular, con una corrida programada ya fallida en
-produccion; se reparo y se verifico de punta a punta con una corrida real de 10 de 10
-pasos. El proyecto queda sin bugs activos, con el refresh automatico restituido y con
-`CORTE_FECHA` en 2026-08-12.
+La sesion 19 cerro las dos deudas declaradas de la guarda de arranque (el escape
+que no se consumia y el borrado de intermedios que se leia como primera corrida) y
+la corrigio ademas en un mensaje que contaba archivos inexistentes. Con esa ruta
+cerrada, ratifico D31 como archivo de decision, descarto las capturas en
+cuarentena e instalo la guarda de locale UTF-8 en cuatro puntos de arranque,
+apagando el gatillo 4ter. Quedan dos PR completos y sin mergear, #11 y #12, y
+ningun bug activo.
 
 ## Proximo paso
-
-Cerrar en un solo PR las dos deudas declaradas del PR #9: que el escape de la guarda
-de primera corrida se consuma al usarse (hoy es asimetrico con el de D31) y que
-borrar los intermedios sin tener capturas del corte no derive en una descarga
-silenciosa.
+Sondear LeyChile y datos.bcn.cl (P-68), lo unico capaz de dar vuelta el veredicto
+del eje tematico y lo que define el alcance de P-66.
 
 ## Bloqueantes
-
 ninguno
-
