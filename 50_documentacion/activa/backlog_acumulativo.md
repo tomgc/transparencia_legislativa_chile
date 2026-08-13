@@ -53,13 +53,13 @@ intencion primaria. Fuente del conteo: traspasos y logs de la sesion.
 
 > **Discrepancia heredada, no resuelta aqui.** La tabla vigente hasta v06
 > declaraba un total de 23 y su columna de N sumaba 24. Esa diferencia de una
-> unidad se arrastra: hoy la columna suma 59 mientras las entradas numeradas del
-> detalle cronologico son 58 (1-58). No se resuelve aqui porque resolverla exige
+> unidad se arrastra: hoy la columna suma 61 mientras las entradas numeradas del
+> detalle cronologico son 60 (1-60). No se resuelve aqui porque resolverla exige
 > reclasificar alguna de las entradas 1-23, y el protocolo prohibe reescribir o
 > reclasificar entradas anteriores en silencio (§2.2.5). Los porcentajes se
-> calculan sobre la suma de la columna (59); suman 100,2 por redondeo a un decimal,
-> no por una entrada sobrante (recuento de la sesion 16, pendiente de verificacion
-> programatica al integrar).
+> calculan sobre la suma de la columna (61); en este corte suman 100,0 exactamente
+> (recuento programatico en R, cierre v20), y cuando no sumen 100,0 sera por
+> redondeo a un decimal, no por una entrada sobrante.
 > Pendiente declarado: auditar la clasificacion de las entradas 1-23 contra los
 > traspasos v01-v06 y corregir con una nota explicita.
 
