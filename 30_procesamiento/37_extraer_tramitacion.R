@@ -171,7 +171,28 @@ acotar_tramites_al_corte <- function(tramites, corte = CORTE_FECHA) {
                         "(literal de la fuente: '%s'). No se acota por una fecha que no se pudo leer."),
                  length(malas), nrow(tramites),
                  as.character(tramites$fecha_fuente[malas[1]])), call. = FALSE)
-  tramites[f <= corte, , drop = FALSE]
+  # DOS CAUSAS, NO UNA (hallazgo del panel adversarial, F6/P2). Un tramite queda
+  # fuera del corte por dos motivos que no son el mismo hecho:
+  #   (1) es realmente posterior al corte -- el caso que D-h existe para contener;
+  #   (2) la FUENTE trae un anno absurdo -- medido: el boletin 18232-25 declara
+  #       25/05/2626 para su "Oficio de ley al Ejecutivo", y ese proyecto ya
+  #       figura como Publicado con su numero de ley, asi que el evento
+  #       demostrablemente ocurrio ANTES del corte.
+  # El descarte es correcto en los dos casos (publicar una fecha de 2626 seria
+  # peor), pero llamarlos igual esconde que en (2) el artefacto pierde un tramite
+  # real y el proyecto se publica sin su hito terminal. Se descartan igual y se
+  # CUENTAN por separado, con el mismo criterio que el 36 usa para no colapsar
+  # `no_reconocido` con `error_red`.
+  anio <- suppressWarnings(as.integer(substr(f, 1, 4)))
+  tope_plausible <- if (exists("ANIO_PROCESO", inherits = TRUE)) ANIO_PROCESO + 1L else 9999L
+  fuera        <- f > corte
+  implausible  <- fuera & !is.na(anio) & anio > tope_plausible
+  out <- tramites[!fuera, , drop = FALSE]
+  attr(out, "descarte_causas") <- list(
+    posterior_al_corte = sum(fuera & !implausible),
+    anio_implausible   = sum(implausible),
+    fechas_implausibles = as.character(tramites$fecha_fuente[implausible]))
+  out
 }
 
 # ---- Descarga ----------------------------------------------------------------
@@ -294,6 +315,8 @@ derivar_tramitacion <- function(captura, corte = CORTE_FECHA) {
   acc <- new.env(parent = emptyenv())
   acc$eventos_totales <- 0L; acc$eventos_fuera <- 0L
   acc$bol_afectados <- character(0); acc$bol_vaciados <- character(0)
+  acc$por_corte <- 0L; acc$por_anio <- 0L; acc$bol_anio <- character(0)
+  acc$fechas_anio <- character(0)
   # Denominador de afectados: los que traian tramites ANTES del filtro. Usar el
   # conteo posterior dejaria fuera justo a los que el filtro vacia.
   acc$bol_con_tramites_pre <- 0L
@@ -314,6 +337,15 @@ derivar_tramitacion <- function(captura, corte = CORTE_FECHA) {
     acc$eventos_fuera   <- acc$eventos_fuera + fuera
     if (nrow(crudos) > 0) acc$bol_con_tramites_pre <- acc$bol_con_tramites_pre + 1L
     if (fuera > 0) acc$bol_afectados <- c(acc$bol_afectados, captura$boletin[i])
+    causas <- attr(tr, "descarte_causas")
+    if (!is.null(causas)) {
+      acc$por_corte <- acc$por_corte + causas$posterior_al_corte
+      acc$por_anio  <- acc$por_anio  + causas$anio_implausible
+      if (causas$anio_implausible > 0) {
+        acc$bol_anio    <- c(acc$bol_anio, captura$boletin[i])
+        acc$fechas_anio <- c(acc$fechas_anio, causas$fechas_implausibles)
+      }
+    }
     if (nrow(crudos) > 0 && nrow(tr) == 0)
       acc$bol_vaciados <- c(acc$bol_vaciados, captura$boletin[i])
     tibble(
@@ -346,6 +378,19 @@ derivar_tramitacion <- function(captura, corte = CORTE_FECHA) {
   if (length(acc$bol_afectados) > 0)
     log_msg(sprintf("Acotamiento (D-h): boletines con tramites descartados: %s",
                     paste(acc$bol_afectados, collapse = ", ")), "WARN", "37_tramitacion")
+  # Las dos causas, separadas. Un descarte por anno absurdo NO es un evento del
+  # futuro: es un dato real que la fuente fecho mal y que el artefacto pierde.
+  # Colapsarlo con el otro caso hace que el contador diga "2 posteriores al
+  # corte" cuando uno de los dos ocurrio antes y esta probado por el propio JSON
+  # (proyecto Publicado, con numero de ley). Hallazgo del panel adversarial.
+  log_msg(sprintf(paste0("Acotamiento (D-h), por causa: %d posteriores al corte; %d con anno ",
+                         "implausible (> %d). Los segundos NO son eventos futuros: son fechas ",
+                         "erroneas de la fuente y el proyecto se publica sin ese tramite%s."),
+                  acc$por_corte, acc$por_anio, ANIO_PROCESO + 1L,
+                  if (length(acc$bol_anio))
+                    sprintf(" -> %s (fechas: %s)", paste(acc$bol_anio, collapse = ", "),
+                            paste(acc$fechas_anio, collapse = ", ")) else ""),
+          if (acc$por_anio > 0) "WARN" else "INFO", "37_tramitacion")
   log_msg(sprintf("Acotamiento (D-h): %d de %d boletines con tramites quedaron vacios y no lo estaban%s.",
                   length(acc$bol_vaciados), acc$bol_con_tramites_pre,
                   if (length(acc$bol_vaciados)) paste0(": ", paste(acc$bol_vaciados, collapse = ", ")) else ""),
