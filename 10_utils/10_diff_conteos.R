@@ -24,6 +24,17 @@ source(file.path(rprojroot::find_root(rprojroot::has_file(".here")),
                  "10_utils", "10_utils.R"))
 instalar_si_falta(c("jsonlite"))
 
+# ---- Guarda de locale UTF-8 (P-59, POLITICA 5.2bis) -------------------------
+# Punto de arranque PROPIO: este archivo NO carga 10_configuracion.R y el
+# workflow lo invoca suelto (refresh-semanal.yml:88). Su salida de texto termina
+# en resumen_diff.txt, que el workflow concatena en commit_msg.txt y usa como
+# mensaje de commit y como cuerpo del PR: sin esta guarda, una corrida con
+# LC_CTYPE=C podria escribir ese texto escapado en el historial del repositorio.
+# La ruta se resuelve como ya lo hace este archivo, con rprojroot.
+source(file.path(rprojroot::find_root(rprojroot::has_file(".here")),
+                 "10_utils", "10_locale.R"))
+asegurar_locale_utf8("10_diff_conteos")
+
 # ---- Contar los conteos clave de un directorio de salida JSON ---------------
 # Devuelve un vector nombrado (integer) con: total de perfiles, total de
 # votaciones, total de mociones/proyectos, y el split de votos con/sin proyecto
