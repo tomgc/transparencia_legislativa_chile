@@ -343,3 +343,71 @@ partir las filas de la tabla por `" | "`.
   completar el paquete.
 - Ramas `medicion/p66-acto-a` y `construccion/p66-acto-b` sin borrar, por
   instrucción del titular.
+## v22 — 2026-08-14
+
+Instrumento: `cierre_sesion_autonomo_cc_v4.md`. Paquete: `paquete_cierre_v22.md`.
+`push_autorizado: si`. `sello_escaner: regenerar`.
+
+### Fases
+
+| Fase | Qué se hizo | Evidencia |
+|---|---|---|
+| F0 | Precondiciones | `.git` y `50_documentacion/traspasos` presentes; **1** paquete; 7 campos de front matter; 3 delimitadores abren y 3 cierran; **0** placeholders; `raiz_proyecto` = `pwd`; correlativo por triple origen: máximo en `traspasos/` + `archivo/` = **21**, +1 = **22** = `traspaso_nuevo` = nombre del paquete; `backlog_ultimo_previo: 62` = último número real en disco (grep); **0** sucios en `50_documentacion/` excluyendo el paquete y las salidas del escáner |
+| F1 | Escáner regenerado | `sello_escaner: regenerar` → `Rscript 00_escanear_proyecto.R`. Generó `20260814_054531_estructura.{md,txt}` y actualizó `estructura_actual.{md,txt}`; podó `20260813_125459_*` |
+| F2 | Archivado | `git mv` (rename `R` en el índice, no `cp`+`rm`) de `traspaso_cierre_v21.md` a `archivo/`. Planos restantes **0**; en `archivo/` **21** |
+| F3 | Traspaso | Bloque extraído en R y escrito byte a byte: **585 líneas**, `identical()` contra el bloque del paquete **TRUE**. `vigentes = 1` |
+| F4 | Backlog | **18 pares** buscar→reemplazar, los 18 con **exactamente 1 ocurrencia** verificada ANTES de escribir; entradas 63 y 64 anexadas; bullet de v22 anexado |
+| F5 | ESTADO.md | Bloque escrito: **27 líneas**, `identical()` **TRUE** |
+| F6 | Gobernanza | 4 chequeos (RUT, OneDrive, coautoría, placeholders) sobre 7 archivos escritos: **0 hallazgos** |
+| F7 | Commits | `git add` selectivo (traspasos nuevo y archivado, backlog, ESTADO, salidas del escáner, este log). Nunca `git add .`, nunca el paquete |
+| F8 | Push | `push_autorizado: si` |
+| F9 | Log y reapertura | Esta sección, anexada antes de F7 para entrar en el mismo commit (forma preferida del instrumento) |
+
+### Verificaciones del backlog (F4)
+
+- **Numeración:** 64 entradas en el detalle cronológico, rango **1-64**, **0** duplicados, **0** huecos, contigua. Primera entrada nueva **63** = `backlog_ultimo_previo` + 1.
+- **Recuento programático exigido por la nota de ejecución del paquete:** los 10 porcentajes recalculados en R sobre el archivo ya modificado **coinciden los 10** con lo declarado; suma de la columna **65** (declarada 65) y suma de porcentajes **100,0** (declarada 100,0). Sin parada.
+- **Fila del resumen:** `Total = 64` = entradas numeradas en disco.
+- **Bullets de delta:** 21 presentes, de `v01` a `v22`; **falta el de `v21`**, tal como el propio paquete declara y deja como **P-98**. No se reconstruyó de memoria.
+
+### Desviaciones y defectos detectados
+
+1. **El paquete no trae encabezado de sesión para el backlog.** El bloque `BACKLOG_DELTA`
+   ordena "anexar al final del detalle cronológico" y entrega las entradas 63 y 64, pero
+   **no entrega un `### Sesion 22 (v22) — …`**. Se aplicó literalmente, así que ambas
+   entradas quedan bajo el encabezado `### Sesion 21 (v21)` (línea 838), que es
+   incorrecto. **No se fabricó el encabezado:** componer su título sería completar
+   contenido del redactor, que el instrumento §5 prohíbe. Los 21 cierres anteriores sí
+   traen encabezado por sesión, así que la omisión es del paquete v22, no del formato.
+   **Queda para reparación del titular.**
+2. **El cierre se ejecutó sobre `main`, no sobre la rama de trabajo.** `/cierre` se
+   invocó con el árbol en `sondeo/p92-eje-tematico` (con PR #17 abierto). El instrumento
+   no fija rama, pero el traspaso §1 cita `main` como "previo al commit de cierre" y el
+   cierre v21 (`4160f46`) vive en `main`: ambos indican que el commit de cierre va sobre
+   `main`. Se hizo `git checkout main` antes de F1 y se revalidó F0.6 allí (**0** sucios).
+   Dejarlo en la rama del sondeo habría metido documentación de cierre dentro del PR #17.
+3. **Fecha:** el traspaso declara "Fecha de cierre 2026-08-13" y `Sys.Date()` en la
+   ejecución da **2026-08-14**. Esta sección del log usa la fecha del sistema, como manda
+   F9.3. El traspaso **no se editó**.
+4. **Heterogeneidad de formato de las entradas del backlog, preexistente:** conviven tres
+   formas (`N. ` en 23 entradas, `**N.**` en 39, `- **N.**` en 2). Las entradas 63 y 64
+   usan `**N.**`, que es la forma que el paquete entregó y la misma de 61 y 62. No se
+   normalizó nada.
+5. **Dos defectos en mis propios scripts de verificación**, corregidos antes de dar F4 por
+   buena: el primer patrón de recuento solo capturaba `**N.**` y contó **4** entradas en
+   vez de 64 (falso verde por criterio que no cubre el universo); y `sub()` sin anclar
+   `.*$` devolvía el número pegado al texto y producía `NA`. El recuento definitivo es el
+   del tercer intento.
+
+### Pendientes fuera de scope detectados
+
+- **P-98** (ya en el traspaso): falta el bullet de delta de `v21` en el backlog.
+- **Nuevo, sin número:** el paquete de cierre debería entregar el encabezado de sesión
+  del backlog junto con las entradas. Es la desviación 1 de arriba y afectará a todo
+  cierre futuro si el redactor no lo incorpora.
+- **Ramas locales sin podar:** 16 ramas locales, varias ya mergeadas
+  (`feat/captura-xml-y-nodo-votaciones`, `fix/autorregeneracion-intermedios`,
+  `construccion/p66-acto-b`, entre otras). No se tocó ninguna: borrar ramas exige
+  compuerta de confirmación del titular.
+- **PR #16 y #17 abiertos** al cierre, ninguno mergeado, como declara el traspaso.
+

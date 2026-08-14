@@ -1,8 +1,8 @@
 ============================================================
  ESTRUCTURA DEL PROYECTO
  Raíz: /Users/tomgc/Projects/transparencia_legislativa_chile
- Fecha: 2026-08-13 19:21:11
- Total: 30 carpetas, 4299 archivos
+ Fecha: 2026-08-14 05:45:31
+ Total: 30 carpetas, 4300 archivos
 ============================================================
 
 ├── 10_utils/
@@ -3585,12 +3585,12 @@
 │   │   ├── 50_veredicto_contrato_simetrico_senado.md    [13.03K]
 │   │   ├── 50_veredicto_eje_tematico.md    [19.18K]
 │   │   ├── 50_veredicto_fuentes_tematicas_bcn.md    [22.42K]
-│   │   ├── backlog_acumulativo.md    [74.09K]
+│   │   ├── backlog_acumulativo.md    [75.68K]
 │   │   ├── documentacion_tecnica_v1.md    [4.44K]
 │   │   ├── encargo_contrato_datos_camara_senado.md    [14.93K]
 │   │   ├── encargo_exploracion_asistencia_senado_h1bis.md    [14.97K]
 │   │   ├── encargo_exploracion_senado_v02.md    [15.56K]
-│   │   ├── ESTADO.md    [852.00B]
+│   │   ├── ESTADO.md    [759.00B]
 │   │   ├── exploracion_api_camara.md    [7.29K]
 │   │   ├── POLITICA_PROYECTO.md    [35.86K]
 │   │   ├── procedimiento_actualizacion.md    [7.41K]
@@ -3630,7 +3630,7 @@
 │   │   │   ├── 20260813_p66_acto_a_log.md    [30.92K]
 │   │   │   ├── 20260813_p66_acto_b_log.md    [20.58K]
 │   │   │   ├── 20260813_p68_sondeo_log.md    [45.99K]
-│   │   │   ├── cierres_log.md    [17.25K]
+│   │   │   ├── cierres_log.md    [22.24K]
 │   │   ├── muestras/
 │   │   │   ├── bcn_ficha_carter_4558.html    [80.02K]
 │   │   │   ├── bcn_ficha_colisionado_1159_persona_5221.html    [76.04K]
@@ -3699,14 +3699,14 @@
 │   │   ├── 50_verificar_p74_acto_b.R    [37.51K]
 │   │   ├── explorar_contenido_proyectos.R    [13.60K]
 │   │   ├── medir_fuente_territorio.R    [18.23K]
-│   │   ├── paquete_cierre_v21.md    [41.51K]
+│   │   ├── paquete_cierre_v22.md    [45.65K]
 │   ├── estructura/
-│   │   ├── 20260813_091918_estructura.md    [188.77K]
-│   │   ├── 20260813_091918_estructura.txt    [188.93K]
 │   │   ├── 20260813_125459_estructura.md    [192.16K]
 │   │   ├── 20260813_125459_estructura.txt    [192.32K]
-│   │   ├── estructura_actual.md    [192.16K]
-│   │   ├── estructura_actual.txt    [192.32K]
+│   │   ├── 20260813_192111_estructura.md    [262.97K]
+│   │   ├── 20260813_192111_estructura.txt    [263.13K]
+│   │   ├── estructura_actual.md    [262.97K]
+│   │   ├── estructura_actual.txt    [263.13K]
 │   ├── traspasos/
 │   │   ├── archivo/
 │   │   │   ├── traspaso_cierre_v01.md    [13.54K]
@@ -3728,7 +3728,8 @@
 │   │   │   ├── traspaso_cierre_v17.md    [29.47K]
 │   │   │   ├── traspaso_cierre_v18.md    [45.74K]
 │   │   │   ├── traspaso_cierre_v19.md    [30.98K]
-│   │   ├── traspaso_cierre_v20.md    [32.66K]
+│   │   │   ├── traspaso_cierre_v20.md    [32.66K]
+│   │   ├── traspaso_cierre_v21.md    [36.23K]
 ├── docs/
 │   ├── assets/
 │   │   ├── fonts/
@@ -4341,7 +4342,7 @@
 
   .xml             2110
   .json            1842
-  .md               95
+  .md               96
   .rds              90
   .html             75
   .R                47
