@@ -16,35 +16,35 @@
   "asistencia": {
     "alcance_temporal": {
       "anio_proceso": 2026,
-      "corte_fecha": "2026-08-12",
-      "sesiones_alcance": 76,
+      "corte_fecha": "2026-08-17",
+      "sesiones_alcance": 77,
       "fecha_primera": "2026-01-05",
-      "fecha_ultima": "2026-08-11",
+      "fecha_ultima": "2026-08-12",
       "periodo_id": "11",
       "periodo_nombre": "2026-2030",
       "periodo_inicio": "2026-03-11",
-      "sesiones_periodo_vigente": 58,
-      "nota": "Cobertura parcial: solo sesiones de sala del anno 2026 hasta el 2026-08-12 (76 sesiones, de 2026-01-05 a 2026-08-11). NO es la trayectoria completa del parlamentario. El ambito 'periodo_vigente' cuenta las 58 sesiones desde la instalacion del periodo 2026-2030 (2026-03-11) y usa el mismo denominador para todos, por lo que es el comparable entre diputados; 'en_ejercicio' cuenta solo las sesiones del alcance posteriores a la asuncion de cada diputado."
+      "sesiones_periodo_vigente": 59,
+      "nota": "Cobertura parcial: solo sesiones de sala del anno 2026 hasta el 2026-08-17 (77 sesiones, de 2026-01-05 a 2026-08-12). NO es la trayectoria completa del parlamentario. El ambito 'periodo_vigente' cuenta las 59 sesiones desde la instalacion del periodo 2026-2030 (2026-03-11) y usa el mismo denominador para todos, por lo que es el comparable entre diputados; 'en_ejercicio' cuenta solo las sesiones del alcance posteriores a la asuncion de cada diputado."
     },
     "periodo_vigente": {
-      "n_sesiones": 58,
+      "n_sesiones": 59,
       "n_asiste": 57,
-      "n_no_asiste": 1,
+      "n_no_asiste": 2,
       "n_sin_registro": 0,
-      "n_justificadas": 0,
-      "n_injustificadas": 1,
-      "tasa_presencia": 0.982758620689655,
-      "tasa_presencia_o_justificada": 0.982758620689655
+      "n_justificadas": 2,
+      "n_injustificadas": 0,
+      "tasa_presencia": 0.966101694915254,
+      "tasa_presencia_o_justificada": 1
     },
     "en_ejercicio": {
-      "n_sesiones": 58,
+      "n_sesiones": 59,
       "n_asiste": 57,
-      "n_no_asiste": 1,
+      "n_no_asiste": 2,
       "n_sin_registro": 0,
-      "n_justificadas": 0,
-      "n_injustificadas": 1,
-      "tasa_presencia": 0.982758620689655,
-      "tasa_presencia_o_justificada": 0.982758620689655
+      "n_justificadas": 2,
+      "n_injustificadas": 0,
+      "tasa_presencia": 0.966101694915254,
+      "tasa_presencia_o_justificada": 1
     },
     "sesiones": [
       {
@@ -567,19 +567,38 @@
         "tipo_sesion": "Especial",
         "en_periodo_vigente": true,
         "asistencia": "no_asiste",
-        "justificacion": null
+        "justificacion": {
+          "codigo": "18",
+          "glosa": "Impedimento grave (Art. 42)",
+          "rebaja_asistencia": true,
+          "rebaja_quorum": false
+        }
+      },
+      {
+        "sesion_id": "4813",
+        "sesion_numero": "56",
+        "fecha": "2026-08-12",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "no_asiste",
+        "justificacion": {
+          "codigo": "18",
+          "glosa": "Impedimento grave (Art. 42)",
+          "rebaja_asistencia": true,
+          "rebaja_quorum": false
+        }
       }
     ]
   },
   "votaciones": {
     "anio": 2026,
-    "n_votaciones": 530,
+    "n_votaciones": 539,
     "resumen_por_sentido": {
       "en_contra": 142,
       "a_favor": 322,
       "abstencion": 31,
       "dispensado": 0,
-      "no_vota": 35
+      "no_vota": 44
     },
     "votos": [
       {
@@ -7626,6 +7645,111 @@
         "sentido": "no_vota",
         "descripcion": "Proyecto de Resolución N° 205",
         "proyecto": null
+      },
+      {
+        "votacion_id": "89738",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-08-12",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89743",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-08-12",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89745",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-08-12",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89746",
+        "boletin": null,
+        "tipo": "Proyecto de Resolución",
+        "fecha": "2026-08-12",
+        "resultado": "Rechazado",
+        "sentido": "no_vota",
+        "descripcion": "Proyecto de Resolución N° 40",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89747",
+        "boletin": null,
+        "tipo": "Proyecto de Resolución",
+        "fecha": "2026-08-12",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Proyecto de Resolución N° 41",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89748",
+        "boletin": null,
+        "tipo": "Proyecto de Resolución",
+        "fecha": "2026-08-12",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Proyecto de Resolución N° 42",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89749",
+        "boletin": "18210-06",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-08-12",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18210-06",
+        "proyecto": {
+          "boletin": "18210-06",
+          "nombre": "Concede la nacionalidad chilena por gracia al ciudadano uruguayo Pablo Lemoine",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89750",
+        "boletin": "16777-07",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-08-12",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 16777-07",
+        "proyecto": {
+          "boletin": "16777-07",
+          "nombre": "Modifica el Código Penal, en materia de internación al territorio nacional de enfermedades animales o plagas vegetales",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89751",
+        "boletin": "18030-12",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-08-12",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18030-12",
+        "proyecto": {
+          "boletin": "18030-12",
+          "nombre": "Modifica la ley N° 21.600, que crea el Servicio de Biodiversidad y Áreas Protegidas y el Sistema Nacional de Áreas Protegidas, para impedir el establecimiento de nuevos sitios prioritarios mientras no se dicte el reglamento que señala",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       }
     ]
   },
@@ -7892,6 +8016,6 @@
     "fuente": "opendata.camara.cl",
     "periodo": "2026-2030",
     "anio_proceso": 2026,
-    "generado": "2026-08-12T12:17:21"
+    "generado": "2026-08-17T11:46:30"
   }
 }
