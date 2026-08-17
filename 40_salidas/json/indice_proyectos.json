@@ -85,7 +85,7 @@
     "etapa_actual": "Comisión Mixta por rechazo de modificaciones (Senado)",
     "estado": "En tramitación",
     "ley_numero": null,
-    "n_tramites": 59,
+    "n_tramites": 60,
     "n_autores": 0,
     "n_votaciones": 6,
     "n_materias": 0
@@ -372,6 +372,19 @@
     "estado": "En tramitación",
     "ley_numero": null,
     "n_tramites": 9,
+    "n_autores": 0,
+    "n_votaciones": 1,
+    "n_materias": 0
+  },
+  {
+    "boletin": "16777-07",
+    "nombre": "Modifica el Código Penal, en materia de internación al territorio nacional de enfermedades animales o plagas vegetales",
+    "camara_origen": "Senado",
+    "fecha_ingreso": "2024-04-23",
+    "etapa_actual": "Segundo trámite constitucional (C.Diputados)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "n_tramites": 26,
     "n_autores": 0,
     "n_votaciones": 1,
     "n_materias": 0
@@ -1179,7 +1192,7 @@
     "ley_numero": null,
     "n_tramites": 25,
     "n_autores": 0,
-    "n_votaciones": 1,
+    "n_votaciones": 2,
     "n_materias": 0
   },
   {
@@ -2401,7 +2414,7 @@
     "ley_numero": null,
     "n_tramites": 7,
     "n_autores": 10,
-    "n_votaciones": 0,
+    "n_votaciones": 1,
     "n_materias": 0
   },
   {
@@ -2474,10 +2487,10 @@
     "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
     "camara_origen": "C.Diputados",
     "fecha_ingreso": "2026-04-22",
-    "etapa_actual": "Trámite finalización en Cámara de Origen (C.Diputados)",
+    "etapa_actual": "Trámite en Tribunal Constitucional (C.Diputados)",
     "estado": "En tramitación",
     "ley_numero": null,
-    "n_tramites": 97,
+    "n_tramites": 99,
     "n_autores": 0,
     "n_votaciones": 120,
     "n_materias": 0
@@ -5012,7 +5025,7 @@
     "etapa_actual": "Primer trámite constitucional (C.Diputados)",
     "estado": "En tramitación",
     "ley_numero": null,
-    "n_tramites": 4,
+    "n_tramites": 5,
     "n_autores": 10,
     "n_votaciones": 0,
     "n_materias": 0
@@ -5547,6 +5560,45 @@
     "ley_numero": null,
     "n_tramites": 2,
     "n_autores": 10,
+    "n_votaciones": 0,
+    "n_materias": 0
+  },
+  {
+    "boletin": "18574-25",
+    "nombre": "Modifica el Código Penal para tipificar supuestos de tenencia de armas cortantes o punzantes en establecimientos penitenciarios",
+    "camara_origen": "C.Diputados",
+    "fecha_ingreso": "2026-08-07",
+    "etapa_actual": "Primer trámite constitucional (C.Diputados)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "n_tramites": 2,
+    "n_autores": 9,
+    "n_votaciones": 0,
+    "n_materias": 0
+  },
+  {
+    "boletin": "18575-11",
+    "nombre": "Promueve el establecimiento de escuelas de medicina en todas las regiones del país",
+    "camara_origen": "C.Diputados",
+    "fecha_ingreso": "2026-08-05",
+    "etapa_actual": "Primer trámite constitucional (C.Diputados)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "n_tramites": 3,
+    "n_autores": 9,
+    "n_votaciones": 0,
+    "n_materias": 0
+  },
+  {
+    "boletin": "18576-06",
+    "nombre": "Modifica la Ley sobre Rentas Municipales para ampliar el plazo de vigencia de las patentes municipales provisorias",
+    "camara_origen": "C.Diputados",
+    "fecha_ingreso": "2026-08-06",
+    "etapa_actual": "Primer trámite constitucional (C.Diputados)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "n_tramites": 2,
+    "n_autores": 6,
     "n_votaciones": 0,
     "n_materias": 0
   }
