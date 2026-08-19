@@ -1,0 +1,87 @@
+{
+  "boletin": "18574-25",
+  "nombre": "Modifica el Código Penal para tipificar supuestos de tenencia de armas cortantes o punzantes en establecimientos penitenciarios",
+  "tipo_iniciativa": "Moción",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2026-08-07",
+  "tramitacion": {
+    "etapa_actual": "Primer trámite constitucional (C.Diputados)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2026-08-07",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-08-12",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Seguridad Ciudadana",
+        "sesion": "56/374"
+      }
+    ]
+  },
+  "autores": [
+    {
+      "parlamentario_id": "1165",
+      "nombre": "Agustín Romero Leiva",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1104",
+      "nombre": "Chiara Barchiesi Chávez",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1247",
+      "nombre": "Javiera Rodríguez Pascual",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1245",
+      "nombre": "Alejandro Riquelme Ducci",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1263",
+      "nombre": "Sebastián Zamora Soto",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1219",
+      "nombre": "Tomás Kast Sommerhoff",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1191",
+      "nombre": "Valentina Becerra Peña",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1220",
+      "nombre": "Leandro Kunstmann Collado",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1190",
+      "nombre": "Enrique Bassaletti Riess",
+      "en_padron_vigente": true
+    }
+  ],
+  "votaciones": [],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-17",
+    "universo": "Los 431 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": true,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-17T11:46:41"
+  }
+}
