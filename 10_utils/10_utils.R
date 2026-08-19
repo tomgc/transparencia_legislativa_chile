@@ -857,11 +857,20 @@ regenerar_intermedios_si_desalineados <- function(pasos, root, corte = CORTE_FEC
               length(INTERMEDIOS_PIPELINE),
               file.path("40_salidas/intermedios", RASTRO_ARRANQUE))
     else ""
+    # P-93: el directorio se DERIVA de las rutas que devolvio
+    # capturas_crudas_de_paso(), no se escribe a mano. Estaba fijo en
+    # "20_insumos/camara/" y mentia desde que existe el paso 37, cuya captura
+    # vive en 20_insumos/senado/ (el SIL esta en otro host). El nombre del
+    # archivo y el source() de recuperacion siempre fueron correctos; lo que
+    # mandaba a mirar la carpeta equivocada era esta linea.
+    dirs_faltantes <- unique(dirname(unlist(faltantes, use.names = FALSE)))
+    dirs_faltantes <- sub("^.*/(20_insumos/[^/]+)$", "\\1", dirs_faltantes)
+    etiqueta_dirs  <- paste0(paste(sort(dirs_faltantes), collapse = "/ y "), "/")
     stop(sprintf(paste0(
       "%s",
       "%s",
       "  No se pueden regenerar: falta la captura cruda de ese corte en ",
-      "20_insumos/camara/ (%d archivo(s)): %s.\n",
+      "%s (%d archivo(s)): %s.\n",
       "  La regeneracion automatica no descarga nada de la red (invariante del ",
       "proyecto), asi que este paso no puede resolverse solo.\n",
       "  Corre CON RED, desde la raiz del proyecto y en este orden:\n%s\n",
@@ -870,6 +879,7 @@ regenerar_intermedios_si_desalineados <- function(pasos, root, corte = CORTE_FEC
       "declara options(%s = TRUE) antes de la corrida."),
       linea_estado,
       nota_borrados,
+      etiqueta_dirs,
       length(unlist(faltantes, use.names = FALSE)),
       paste(basename(unlist(faltantes, use.names = FALSE)), collapse = ", "),
       paste(sprintf("    source(\"%s\")", names(faltantes)), collapse = "\n"),
