@@ -1,0 +1,2273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ComisionesColeccion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://opendata.camara.cl/camaradiputados/v1">
+  <Comision>
+    <Id>3082</Id>
+    <Nombre>CEI 64 Comisión Especial Investigadora de la libre competencia en el mercado del gas residencial</Nombre>
+    <NombreWeb>CEI 64 de actos de órganos públicos encargados de velar por la libre competencia en el mercado de los productos ofrecidos para el suministro de gas residencial bajo la modalidad de Gas Licuado de Petróleo (GLP)</NombreWeb>
+    <Alias>CEI 64 Gas licuado</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2021-06-24T16:48:15</FechaInicio>
+    <FechaConstitucion>2021-07-01T16:48:15</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+    <Presidente>
+      <Id>1016</Id>
+      <Nombre>Miguel Ángel</Nombre>
+      <ApellidoPaterno>Calisto</ApellidoPaterno>
+      <ApellidoMaterno>Águila</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>2401</Id>
+    <Nombre>CEI 34 Actos del Gobierno en relación con contaminación ambiental que afecta a la comuna de Coronel.</Nombre>
+    <NombreWeb>CEI 34 Comisión Especial Investigadora de actos del Gobierno en relación con la contaminación ambiental que afecta a la comuna de Coronel, provocada por la presencia de asbesto, metales pesados y otros elementos contaminantes</NombreWeb>
+    <Alias>CEI 34 Contaminación  en Coronel</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2019-09-24T00:00:00</FechaInicio>
+    <FechaConstitucion>2019-09-25T00:00:00</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+    <Presidente>
+      <Id>1034</Id>
+      <Nombre>Félix</Nombre>
+      <ApellidoPaterno>González</ApellidoPaterno>
+      <ApellidoMaterno>Gatica</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>3021</Id>
+    <Nombre>CEI 62 Actos de la Corfo relativos a licitación para creación de Instituto de Tecnologías Limpias</Nombre>
+    <NombreWeb>CEI 62 de los actos de la Corfo y de otras autoridades en relación con su intervención en el proceso de licitación para la creación de un Instituto de Tecnologías Limpias</NombreWeb>
+    <Alias>CEI 62 Instituto Tecnologías Limpias</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2021-07-29T00:00:00</FechaInicio>
+    <FechaConstitucion>2021-06-17T00:00:00</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+    <Presidente>
+      <Id>1036</Id>
+      <Nombre>Tomás</Nombre>
+      <ApellidoPaterno>Hirsch</ApellidoPaterno>
+      <ApellidoMaterno>Goldschmidt</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>2802</Id>
+    <Nombre>CEI 52 Implementación de ley sobre Nueva Educación Pública (instalación Serv Locales de Educación)</Nombre>
+    <NombreWeb>CEI 52 de eventuales irregularidades cometidas en implementación de la ley sobre Nueva Educación Pública, en particular en relación con la instalación y funcionamiento de los nuevos Servicios Locales de Educación Pública.</NombreWeb>
+    <Alias>CEI 52 Servicios Locales de Educación</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2021-01-15T13:11:58</FechaInicio>
+    <FechaConstitucion>2021-01-19T14:10:56</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+    <Presidente>
+      <Id>1060</Id>
+      <Nombre>Luis</Nombre>
+      <ApellidoPaterno>Pardo</ApellidoPaterno>
+      <ApellidoMaterno>Sáinz</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>3101</Id>
+    <Nombre>CEI 65 Actos del gobierno en relación con ley N° 21.330 sobre anticipo de rentas vitalicias.</Nombre>
+    <NombreWeb>CEI 65 para fiscalizar los actos del gobierno y las actuaciones de los órganos de la administración del Estado, que tengan relación con el Mercado de Seguros y el anticipo de rentas vitalicias.</NombreWeb>
+    <Alias>CEI 65 Rentas vitalicias</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2021-06-24T16:49:06</FechaInicio>
+    <FechaConstitucion>2021-07-06T16:49:06</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+    <Presidente>
+      <Id>897</Id>
+      <Nombre>Alejandra</Nombre>
+      <ApellidoPaterno>Sepúlveda</ApellidoPaterno>
+      <ApellidoMaterno>Orbenes</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>403</Id>
+    <Nombre>Futuro, Ciencias, Tecnología, Conocimiento e Innovación</Nombre>
+    <NombreWeb>Futuro, Ciencias, Tecnología, Conocimiento e Innovación</NombreWeb>
+    <Alias>Ciencias </Alias>
+    <Tipo Valor="1">Permanente</Tipo>
+    <FechaInicio>2022-03-14T10:15:01</FechaInicio>
+    <FechaConstitucion>2022-03-14T10:15:01</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>17</Numero>
+    <Presidente>
+      <Id>1097</Id>
+      <Nombre>Eric</Nombre>
+      <ApellidoPaterno>Aedo</ApellidoPaterno>
+      <ApellidoMaterno>Jeldres</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>3382</Id>
+    <Nombre>CEI 9 Criminalidad macrozona sur</Nombre>
+    <NombreWeb>CEI 9 Criminalidad y el robo de madera en la macrozona sur durante los últimos cuatro años, así como también las acciones conjuntas de los organismos del estado para prevenir tales hechos.</NombreWeb>
+    <Alias>CEI 9 Crimen en macrozona sur</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2022-07-19T00:00:00</FechaInicio>
+    <FechaConstitucion>2022-07-19T00:00:00</FechaConstitucion>
+    <FechaTermino>2023-07-25T00:00:00</FechaTermino>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>2863</Id>
+    <Nombre>De Personas Mayores y Discapacidad</Nombre>
+    <NombreWeb>De Personas Mayores y Discapacidad</NombreWeb>
+    <Alias>Personas Mayores</Alias>
+    <Tipo Valor="1">Permanente</Tipo>
+    <FechaInicio>2022-03-14T10:15:01</FechaInicio>
+    <FechaConstitucion>2022-03-14T10:15:01</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>35</Numero>
+    <Presidente>
+      <Id>1098</Id>
+      <Nombre>Yovana</Nombre>
+      <ApellidoPaterno>Ahumada</ApellidoPaterno>
+      <ApellidoMaterno>Palma</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>4561</Id>
+    <Nombre>Subcomisión de Reglamento</Nombre>
+    <NombreWeb>Subcomisión de Reglamento</NombreWeb>
+    <Alias>Subcomisión Reglamento</Alias>
+    <Tipo Valor="1">Permanente</Tipo>
+    <FechaInicio>2025-04-21T00:00:00</FechaInicio>
+    <FechaConstitucion>2025-04-21T16:12:10</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+    <Presidente>
+      <Id>1009</Id>
+      <Nombre>Jorge</Nombre>
+      <ApellidoPaterno>Alessandri</ApellidoPaterno>
+      <ApellidoMaterno>Vergara</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>405</Id>
+    <Nombre>Medio Ambiente y Recursos Naturales</Nombre>
+    <NombreWeb>Medio Ambiente y Recursos Naturales</NombreWeb>
+    <Alias>Medio Ambiente</Alias>
+    <Tipo Valor="1">Permanente</Tipo>
+    <FechaInicio>2022-03-14T10:15:01</FechaInicio>
+    <FechaConstitucion>2022-03-14T10:15:01</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>9</Numero>
+    <Presidente>
+      <Id>1099</Id>
+      <Nombre>Jaime</Nombre>
+      <ApellidoPaterno>Araya</ApellidoPaterno>
+      <ApellidoMaterno>Guerrero</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>3421</Id>
+    <Nombre>CEI 11 Criminalidad macrozona Norte</Nombre>
+    <NombreWeb>CEI 11 Criminalidad Macrozona Norte</NombreWeb>
+    <Alias>CEI 11 Macrozona norte </Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2022-12-20T00:00:00</FechaInicio>
+    <FechaConstitucion>2022-12-20T00:00:00</FechaConstitucion>
+    <FechaTermino>2023-09-26T17:30:15</FechaTermino>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>3281</Id>
+    <Nombre>Acusación Constitucional en contra del ex ministro de Relaciones Exteriores, señor Andrés Allamand.</Nombre>
+    <NombreWeb>Comisión encargada de informar la Acusación Constitucional en contra del ex ministro de Relaciones Exteriores, señor Andrés Allamand Zavala. </NombreWeb>
+    <Alias>AC ex Ministro RREE Allamand</Alias>
+    <Tipo Valor="6">Acusación Constitucional</Tipo>
+    <FechaInicio>2022-05-16T00:00:00</FechaInicio>
+    <FechaConstitucion>2022-05-10T00:00:00</FechaConstitucion>
+    <FechaTermino>2022-05-18T10:03:34</FechaTermino>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>4341</Id>
+    <Nombre>Acusación Constitucional a Ministra del Interior y Seguridad Pública señora Carolina Tohá Morales</Nombre>
+    <NombreWeb>Acusación Constitucional en contra de la Ministra del Interior y Seguridad Pública, señora Carolina Tohá Morales</NombreWeb>
+    <Alias>AC MinistraTohá</Alias>
+    <Tipo Valor="6">Acusación Constitucional</Tipo>
+    <FechaInicio>2024-10-02T00:00:00</FechaInicio>
+    <FechaConstitucion>2024-10-02T00:00:00</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+    <Presidente>
+      <Id>1099</Id>
+      <Nombre>Jaime</Nombre>
+      <ApellidoPaterno>Araya</ApellidoPaterno>
+      <ApellidoMaterno>Guerrero</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>493</Id>
+    <Nombre>Seguridad Ciudadana</Nombre>
+    <NombreWeb>Seguridad Ciudadana</NombreWeb>
+    <Alias>Seguridad Ciudadana</Alias>
+    <Tipo Valor="1">Permanente</Tipo>
+    <FechaInicio>2022-03-14T10:15:01</FechaInicio>
+    <FechaConstitucion>2022-03-14T10:15:01</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>21</Numero>
+    <Presidente>
+      <Id>1100</Id>
+      <Nombre>Cristián</Nombre>
+      <ApellidoPaterno>Araya</ApellidoPaterno>
+      <ApellidoMaterno>Lerdo de Tejada</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>961</Id>
+    <Nombre>Emergencia, Desastres y Bomberos</Nombre>
+    <NombreWeb>Emergencia, Desastres y Bomberos</NombreWeb>
+    <Alias>Bomberos</Alias>
+    <Tipo Valor="1">Permanente</Tipo>
+    <FechaInicio>2022-03-14T10:15:01</FechaInicio>
+    <FechaConstitucion>2022-03-14T10:15:01</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>22</Numero>
+    <Presidente>
+      <Id>1100</Id>
+      <Nombre>Cristián</Nombre>
+      <ApellidoPaterno>Araya</ApellidoPaterno>
+      <ApellidoMaterno>Lerdo de Tejada</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>412</Id>
+    <Nombre>Educación</Nombre>
+    <NombreWeb>Educación</NombreWeb>
+    <Alias>Educación</Alias>
+    <Tipo Valor="1">Permanente</Tipo>
+    <FechaInicio>2022-03-14T10:15:01</FechaInicio>
+    <FechaConstitucion>2022-03-14T10:15:01</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>4</Numero>
+    <Presidente>
+      <Id>1101</Id>
+      <Nombre>Mónica</Nombre>
+      <ApellidoPaterno>Arce</ApellidoPaterno>
+      <ApellidoMaterno>Castro</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>3461</Id>
+    <Nombre>CEI 13 sobre Hospital de Alto Hospicio e infraestructura hospitalaria en Tarapacá</Nombre>
+    <NombreWeb>CEI 13 de actos del Gobierno relacionados con la construcción del hospital de Alto Hospicio y de la inversión pública en infraestructura hospitalaria en esa región.</NombreWeb>
+    <Alias>CEI 13 Hospital Alto Hospicio</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2023-04-04T00:00:00</FechaInicio>
+    <FechaConstitucion>2023-03-22T00:00:00</FechaConstitucion>
+    <FechaTermino>2023-12-13T15:07:06</FechaTermino>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>407</Id>
+    <Nombre>Hacienda</Nombre>
+    <NombreWeb>Hacienda</NombreWeb>
+    <Alias>Hacienda</Alias>
+    <Tipo Valor="1">Permanente</Tipo>
+    <FechaInicio>2022-03-14T10:15:01</FechaInicio>
+    <FechaConstitucion>2022-03-14T10:15:01</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>5</Numero>
+    <Presidente>
+      <Id>1012</Id>
+      <Nombre>Boris</Nombre>
+      <ApellidoPaterno>Barrera</ApellidoPaterno>
+      <ApellidoMaterno>Moreno</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>4124</Id>
+    <Nombre>CEI 50 Inteligencia y Crimen Organizado (2022-2026)</Nombre>
+    <NombreWeb>CEI 50 Inteligencia y Crimen Organizado (2022-2026)</NombreWeb>
+    <Alias>CEI 50 Inteligencia y Crimen Organiza   </Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2024-04-22T10:47:43</FechaInicio>
+    <FechaConstitucion>2024-04-22T10:47:43</FechaConstitucion>
+    <FechaTermino>2025-01-07T19:32:29</FechaTermino>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>402</Id>
+    <Nombre>Obras Públicas, Transportes y Telecomunicaciones</Nombre>
+    <NombreWeb>Obras Públicas, Transportes y Telecomunicaciones</NombreWeb>
+    <Alias>Obras Públicas</Alias>
+    <Tipo Valor="1">Permanente</Tipo>
+    <FechaInicio>2022-03-14T10:15:01</FechaInicio>
+    <FechaConstitucion>2022-03-14T10:15:01</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>7</Numero>
+    <Presidente>
+      <Id>1110</Id>
+      <Nombre>Carlos</Nombre>
+      <ApellidoPaterno>Bianchi</ApellidoPaterno>
+      <ApellidoMaterno>Chelech</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>3362</Id>
+    <Nombre>CEI 7 Eventuales irregularidades ENAP</Nombre>
+    <NombreWeb>CEI 7 Eventuales irregularidades cometidas por ENAP en actuaciones administrativas, cumplimiento de dictámenes de la Contraloría General de la República e inversiones efectuadas que afectarían su estado financiero, en los periodos que se indican.</NombreWeb>
+    <Alias>CEI 7 Irregularidades ENAP</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2022-07-19T00:00:00</FechaInicio>
+    <FechaConstitucion>2022-07-19T00:00:00</FechaConstitucion>
+    <FechaTermino>2023-01-16T17:00:00</FechaTermino>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>3622</Id>
+    <Nombre>CEI 18, 21 y 22 Prevención y combate de incendios</Nombre>
+    <NombreWeb>CEI 18, 21 y 22 Incendios forestales en el país</NombreWeb>
+    <Alias>CEI 18 21 22 Combate Incendios</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2023-03-22T17:06:14</FechaInicio>
+    <FechaConstitucion>2023-03-22T17:06:14</FechaConstitucion>
+    <FechaTermino>2023-12-21T11:36:05</FechaTermino>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>494</Id>
+    <Nombre>Zonas Extremas y Antártica Chilena</Nombre>
+    <NombreWeb>Zonas Extremas y Antártica Chilena</NombreWeb>
+    <Alias>Zonas Extremas</Alias>
+    <Tipo Valor="1">Permanente</Tipo>
+    <FechaInicio>2022-03-14T10:15:01</FechaInicio>
+    <FechaConstitucion>2022-03-14T10:15:01</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>20</Numero>
+    <Presidente>
+      <Id>1111</Id>
+      <Nombre>Fernando</Nombre>
+      <ApellidoPaterno>Bórquez</ApellidoPaterno>
+      <ApellidoMaterno>Montecinos</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>3721</Id>
+    <Nombre>CEI 25 Seguridad portuaria</Nombre>
+    <NombreWeb>CEI 25 Seguridad portuaria</NombreWeb>
+    <Alias>CEI 25 Seguridad portuaria</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2023-07-31T00:00:00</FechaInicio>
+    <FechaConstitucion>2023-07-31T00:00:00</FechaConstitucion>
+    <FechaTermino>2024-01-25T10:06:32</FechaTermino>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>4545</Id>
+    <Nombre>CEI 68 Distribución eléctrica</Nombre>
+    <NombreWeb>CEI 68 encargada de reunir  sobre las actuaciones del Gobierno relacionadas con la fiscalización, coordinación, operatividad y funcionamiento de los servicios de distribución eléctrica, entre los años 2024 y 2025.</NombreWeb>
+    <Alias>CEI 68 Distribución eléctrica.</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2025-04-21T17:53:17</FechaInicio>
+    <FechaConstitucion>2025-04-22T17:53:18</FechaConstitucion>
+    <FechaTermino>2026-03-04T15:06:57</FechaTermino>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>3682</Id>
+    <Nombre>Comisiones unidas de Constitución y Seguridad Ciudadana para tratar proyecto reglas uso de la fuerza</Nombre>
+    <NombreWeb>Comisiones unidas de Constitución y Seguridad Ciudadana para tratar proyecto que establece normas generales sobre uso de la fuerza para personal de fuerzas de orden y seguridad pública y de FFAA en las circunstancias que se señala, boletín 15805-07</NombreWeb>
+    <Alias>Constitución y S. Ciudadana</Alias>
+    <Tipo Valor="4">Unida</Tipo>
+    <FechaInicio>2023-04-11T12:41:57</FechaInicio>
+    <FechaConstitucion>2023-04-12T12:41:57</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+    <Presidente>
+      <Id>1016</Id>
+      <Nombre>Miguel Ángel</Nombre>
+      <ApellidoPaterno>Calisto</ApellidoPaterno>
+      <ApellidoMaterno>Águila</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>3262</Id>
+    <Nombre>CEI 2 sobre actuaciones del Alto Mando de la PDI</Nombre>
+    <NombreWeb>CEI 2 Comisión Especial Investigadora con el objeto de reunir antecedentes sobre actuar de las autoridades de gobierno, en especial las relacionadas con la PDI y su alto mando, respecto a diversas irregularidades y el posible tráfico de influencias</NombreWeb>
+    <Alias>CEI 2 Irregularidades actos PDI</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2022-07-04T00:00:00</FechaInicio>
+    <FechaConstitucion>2022-07-04T00:00:00</FechaConstitucion>
+    <FechaTermino>2023-07-25T19:40:00</FechaTermino>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>3561</Id>
+    <Nombre>Acusación Constitucional ex Ministra de Justicia, señora Marcela Ríos T</Nombre>
+    <NombreWeb>Acusación Constitucional en contra de la Ex Ministra de Justicia y Derechos Humanos, señora Marcela Ríos Tobar</NombreWeb>
+    <Alias>AC ex Ministra Justicia Ríos</Alias>
+    <Tipo Valor="6">Acusación Constitucional</Tipo>
+    <FechaInicio>2023-01-16T00:00:00</FechaInicio>
+    <FechaConstitucion>2023-01-10T00:00:00</FechaConstitucion>
+    <FechaTermino>2023-07-25T17:31:32</FechaTermino>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>418</Id>
+    <Nombre>Régimen Interno y Administración</Nombre>
+    <NombreWeb>Régimen Interno y Administración</NombreWeb>
+    <Alias>Régimen Interno</Alias>
+    <Tipo Valor="1">Permanente</Tipo>
+    <FechaInicio>2022-03-14T10:15:01</FechaInicio>
+    <FechaConstitucion>2022-03-14T10:15:01</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+    <Presidente>
+      <Id>1019</Id>
+      <Nombre>José Miguel</Nombre>
+      <ApellidoPaterno>Castro</ApellidoPaterno>
+      <ApellidoMaterno>Bascuñán</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>3841</Id>
+    <Nombre>CEIS 33, 32 y 30 sobre transferencia de recursos del programa de asentamientos precarios del MINVU</Nombre>
+    <NombreWeb>CEI 33, 32 y 30 Encargada de reunir información sobre las transferencias realizadas en el marco del Programa de Asentamientos Precarios del Ministerio de Vivienda y Urbanismo (CEI 30, 32 y 33)</NombreWeb>
+    <Alias>CEI 30 Asentamientos precarios MINVU</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2023-08-07T19:53:01</FechaInicio>
+    <FechaConstitucion>2023-08-07T19:53:01</FechaConstitucion>
+    <FechaTermino>2024-01-30T10:06:23</FechaTermino>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>4563</Id>
+    <Nombre>CEI 70 reconstrucción incendios Valparaíso</Nombre>
+    <NombreWeb>CEI 70 Reconstrucción de las viviendas y ayudas materiales y económicas a los damnificados de los incendios que afectaron a las comunas de Valparaíso, Viña del Mar y Villa Alemana en febrero de 2024.</NombreWeb>
+    <Alias>CEI 70 reconstrucción incendio</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2025-05-13T15:46:57</FechaInicio>
+    <FechaConstitucion>2025-05-14T15:46:57</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+    <Presidente>
+      <Id>1021</Id>
+      <Nombre>Andrés</Nombre>
+      <ApellidoPaterno>Celis</ApellidoPaterno>
+      <ApellidoMaterno>Montt</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>3842</Id>
+    <Nombre>CEI 31 Administración y estados financieros ENAMI</Nombre>
+    <NombreWeb>CEI 31 Sobre administración y estados financieros de la ENAMI</NombreWeb>
+    <Alias>CEI 31 ENAMI</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2023-10-23T00:00:00</FechaInicio>
+    <FechaConstitucion>2023-10-23T00:00:00</FechaConstitucion>
+    <FechaTermino>2024-05-29T17:00:00</FechaTermino>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>4321</Id>
+    <Nombre>Acusación Constitucional Ministros de la Corte Suprema señora Angela Vivanco y señor Sergio Muñoz</Nombre>
+    <NombreWeb>Acusación Constitucional, en contra de los ministros de la Corte Suprema, señora Ángela Vivanco Martínez y señor Sergio Muñoz Gajardo</NombreWeb>
+    <Alias>AC Ministros Vivanco y Muñoz</Alias>
+    <Tipo Valor="6">Acusación Constitucional</Tipo>
+    <FechaInicio>2024-09-25T00:00:00</FechaInicio>
+    <FechaConstitucion>2024-09-25T00:00:00</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+    <Presidente>
+      <Id>1022</Id>
+      <Nombre>Sofía</Nombre>
+      <ApellidoPaterno>Cid</ApellidoPaterno>
+      <ApellidoMaterno>Versalovic</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>3601</Id>
+    <Nombre>CEI 16 Indultos</Nombre>
+    <NombreWeb>CEI 16 Actos de gobierno relacionados con la concesión de indultos particulares por parte del Presidente de la República con el concurso del Ministerio de Justicia y Derechos Humanos</NombreWeb>
+    <Alias>CEI 16 Indultos</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2023-03-22T15:34:49</FechaInicio>
+    <FechaConstitucion>2023-03-22T15:34:49</FechaConstitucion>
+    <FechaTermino>2023-11-28T17:03:28</FechaTermino>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>3623</Id>
+    <Nombre>CEI 20 Corporaciones Vita 2008-2021</Nombre>
+    <NombreWeb>CEI 20 Corporaciones Vita 2008-2021</NombreWeb>
+    <Alias>CEI 20 Corporaciones Vita</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2023-05-30T15:54:04</FechaInicio>
+    <FechaConstitucion>2023-05-30T15:54:04</FechaConstitucion>
+    <FechaTermino>2024-01-25T10:06:32</FechaTermino>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>3984</Id>
+    <Nombre>Comisiones unidas de Relaciones Exteriores y Hacienda</Nombre>
+    <NombreWeb>Comisiones unidas RREE y Hacienda para tratar proyecto que enmienda Convenio entre Chile y Estados Unidos para Evitar Doble Imposición y Prevenir la Evasión Fiscal en Relación a Impuestos a la Renta y al Patrimonio, 16389-10</NombreWeb>
+    <Alias>RREE y Hacienda</Alias>
+    <Tipo Valor="4">Unida</Tipo>
+    <FechaInicio>2023-11-06T00:00:00</FechaInicio>
+    <FechaConstitucion>2023-11-06T00:00:00</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+    <Presidente>
+      <Id>1124</Id>
+      <Nombre>Tomás</Nombre>
+      <ApellidoPaterno>De Rementería</ApellidoPaterno>
+      <ApellidoMaterno>Venegas</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>3941</Id>
+    <Nombre>CEI 38 y 39 conservación y protección Campo Dunar de la Punta de Concón.</Nombre>
+    <NombreWeb>CEI 38 y 39 Encargada de reunir antecedentes sobre los actos del Gobierno relacionados con la protección y conservación del Campo Dunar de la Punta de Concón (CEI 38 y 39)</NombreWeb>
+    <Alias>CEI 38 Campo Dunar Concón</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2023-12-11T18:07:23</FechaInicio>
+    <FechaConstitucion>2023-12-11T18:07:23</FechaConstitucion>
+    <FechaTermino>2024-07-04T10:07:14</FechaTermino>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>496</Id>
+    <Nombre>Cultura, Artes y Comunicaciones</Nombre>
+    <NombreWeb>Cultura, Artes y Comunicaciones</NombreWeb>
+    <Alias>Cultura y Artes</Alias>
+    <Tipo Valor="1">Permanente</Tipo>
+    <FechaInicio>2022-03-14T10:15:01</FechaInicio>
+    <FechaConstitucion>2022-03-14T10:15:01</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>24</Numero>
+    <Presidente>
+      <Id>1125</Id>
+      <Nombre>Viviana</Nombre>
+      <ApellidoPaterno>Delgado</ApellidoPaterno>
+      <ApellidoMaterno>Riquelme</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>3882</Id>
+    <Nombre>CEI 35 Aguas San Isidro</Nombre>
+    <NombreWeb>CEI 35 Encargada de fiscalizar los actos del Gobierno en relación con los problemas sanitarios ambientales generados por la empresa de servicios sanitarios Aguas San Isidro</NombreWeb>
+    <Alias>CEI 35 Aguas San Isidro</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2023-12-11T00:00:00</FechaInicio>
+    <FechaConstitucion>2023-12-11T00:00:00</FechaConstitucion>
+    <FechaTermino>2024-07-22T17:00:16</FechaTermino>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>3501</Id>
+    <Nombre>CEI 14 sobre inobservancia convenio de riego Endesa de 1947 (Laguna del Maule)</Nombre>
+    <NombreWeb>CEI 14 Encargada de fiscalizar los actos del Gobierno, relacionados con la posible inobservancia del convenio de riego Endesa de 1947, para la utilización de recursos hídricos provenientes del Embalse Laguna del Maule.</NombreWeb>
+    <Alias>CEI 14 Convenio de riego Endesa</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2023-04-04T00:00:00</FechaInicio>
+    <FechaConstitucion>2023-04-04T00:00:00</FechaConstitucion>
+    <FechaTermino>2023-11-28T17:03:28</FechaTermino>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>4243</Id>
+    <Nombre>CEI 56 Funcionamiento de la Asociación de Municipalidades con Farmacias Populares</Nombre>
+    <NombreWeb>CEI 56 Funcionamiento de la Asociación de Municipalidades con Farmacias Populares</NombreWeb>
+    <Alias>CEI 56 Farmacias Populares</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2024-07-23T13:03:07</FechaInicio>
+    <FechaConstitucion>2024-07-23T13:03:07</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+    <Presidente>
+      <Id>1028</Id>
+      <Nombre>Eduardo</Nombre>
+      <ApellidoPaterno>Durán</ApellidoPaterno>
+      <ApellidoMaterno>Salinas</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>4582</Id>
+    <Nombre>Acusación Constitucional, contra el Delegado Presidencial de la Región Metropolitana.</Nombre>
+    <NombreWeb>Acusación Constitucional, contra el Delegado Presidencial de la Región Metropolitana, don Gonzalo Durán Baronti.</NombreWeb>
+    <Alias>AC. Delegado Presidencial.</Alias>
+    <Tipo Valor="6">Acusación Constitucional</Tipo>
+    <FechaInicio xsi:nil="true"/>
+    <FechaConstitucion xsi:nil="true"/>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+    <Presidente>
+      <Id>1031</Id>
+      <Nombre>Juan</Nombre>
+      <ApellidoPaterno>Fuenzalida</ApellidoPaterno>
+      <ApellidoMaterno>Cobo</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>4041</Id>
+    <Nombre>CEI 44 Sobre brote de bacterias burkholderia cepacia</Nombre>
+    <NombreWeb>CEI 44 Sobre brote de bacterias burkholderia cepacia</NombreWeb>
+    <Alias>CEI 44 Burkholderia cepacia</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2023-12-18T20:47:24</FechaInicio>
+    <FechaConstitucion>2023-12-18T20:47:24</FechaConstitucion>
+    <FechaTermino>2024-07-31T10:00:00</FechaTermino>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>408</Id>
+    <Nombre>Trabajo y Seguridad Social</Nombre>
+    <NombreWeb>Trabajo y Seguridad Social</NombreWeb>
+    <Alias>Trabajo</Alias>
+    <Tipo Valor="1">Permanente</Tipo>
+    <FechaInicio>2022-03-14T10:15:01</FechaInicio>
+    <FechaConstitucion>2022-03-14T10:15:01</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>11</Numero>
+    <Presidente>
+      <Id>1129</Id>
+      <Nombre>Andrés</Nombre>
+      <ApellidoPaterno>Giordano</ApellidoPaterno>
+      <ApellidoMaterno>Salazar</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>3441</Id>
+    <Nombre>CEI 12 Hechos ocurridos en la empresa Kayser</Nombre>
+    <NombreWeb>CEI 12 Sobre actos de los órganos competentes de la Administración del Estado en relación con los hechos ocurridos en dependencias de la empresa Kayser en las fechas que se indican.</NombreWeb>
+    <Alias>CEI 12 Hechos Empresa Kayser</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2022-12-20T10:13:19</FechaInicio>
+    <FechaConstitucion>2022-12-20T10:13:19</FechaConstitucion>
+    <FechaTermino>2023-11-28T17:03:28</FechaTermino>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>3921</Id>
+    <Nombre>CEI N° 37 comercialización ilegal de salmones</Nombre>
+    <NombreWeb>CEI N° 37 encargada de recabar antecedentes sobre la comercialización de salmones de origen ilegal, las nulas condiciones sanitarias en que es comercializado y su impacto en la industria y trabajo en la zona centro sur del país.</NombreWeb>
+    <Alias>CEI 37 salmones origen ilegal</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2023-12-11T18:06:44</FechaInicio>
+    <FechaConstitucion>2023-12-11T18:06:44</FechaConstitucion>
+    <FechaTermino>2024-07-31T10:00:00</FechaTermino>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>789</Id>
+    <Nombre>Deportes y Recreación</Nombre>
+    <NombreWeb>Deportes y Recreación</NombreWeb>
+    <Alias>Deportes</Alias>
+    <Tipo Valor="1">Permanente</Tipo>
+    <FechaInicio>2022-03-14T10:15:01</FechaInicio>
+    <FechaConstitucion>2022-03-14T10:15:01</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>29</Numero>
+    <Presidente>
+      <Id>1132</Id>
+      <Nombre>Jorge</Nombre>
+      <ApellidoPaterno>Guzmán</ApellidoPaterno>
+      <ApellidoMaterno>Zepeda</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>415</Id>
+    <Nombre>Familia</Nombre>
+    <NombreWeb>Familia</NombreWeb>
+    <Alias>Familia</Alias>
+    <Tipo Valor="1">Permanente</Tipo>
+    <FechaInicio>2022-03-14T10:15:01</FechaInicio>
+    <FechaConstitucion>2022-03-14T10:15:01</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>16</Numero>
+    <Presidente>
+      <Id>1133</Id>
+      <Nombre>Juan</Nombre>
+      <ApellidoPaterno>Irarrázaval</ApellidoPaterno>
+      <ApellidoMaterno>Rossel</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>3401</Id>
+    <Nombre>CEI 10 Operaciones línea aérea Conviasa en Chile</Nombre>
+    <NombreWeb>CEI 10 Actos de los organismos competentes en relación con las operaciones de la línea aérea estatal venezolana Conviasa en Chile, por eventuales actos de terrorismo de sus integrantes.</NombreWeb>
+    <Alias>CEI 10 Conviasa</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2022-10-05T14:59:15</FechaInicio>
+    <FechaConstitucion>2022-10-05T14:59:15</FechaConstitucion>
+    <FechaTermino>2023-10-25T10:01:09</FechaTermino>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>4121</Id>
+    <Nombre>CEI 47, 48, 49 y 51 (Incendio Región Valparaíso febrero 2024)</Nombre>
+    <NombreWeb>CEI 47, 48, 49 y 51 (Incendio Región Valparaíso febrero 2024)</NombreWeb>
+    <Alias>CEI 47, 48, 49 y 51 (Incendio Reg Valpo)</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2024-04-01T11:24:05</FechaInicio>
+    <FechaConstitucion>2024-04-02T11:24:05</FechaConstitucion>
+    <FechaTermino>2024-10-01T19:32:52</FechaTermino>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>4001</Id>
+    <Nombre>CEI 40 Sistema de protección financiera para enfermedades de alto costo</Nombre>
+    <NombreWeb>CEI 40 encargada de fiscalizar los actos del Gobierno relacionados con el funcionamiento del sistema de protección financiera para el diagnóstico y tratamiento de enfermedades de alto costo y la incorporación de nuevas coberturas en éste.</NombreWeb>
+    <Alias>CEI 40 Ley Ricarte Soto</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2023-12-18T20:44:32</FechaInicio>
+    <FechaConstitucion>2023-12-18T20:44:32</FechaConstitucion>
+    <FechaTermino>2024-08-12T17:03:22</FechaTermino>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>4422</Id>
+    <Nombre>CEI 63, 64 listas de espera </Nombre>
+    <NombreWeb>CEI 63, 64 encargada de reunir antecedentes relativos a los actos de gobierno referidos a la gestión de las listas de espera y de la fiscalización y control de los registro de listas de espera No Ges, desde el año 2022 a la fecha.</NombreWeb>
+    <Alias>CEI 63, 64 Listas de espera </Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2025-01-06T12:53:20</FechaInicio>
+    <FechaConstitucion>2024-12-07T12:53:20</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+    <Presidente>
+      <Id>1137</Id>
+      <Nombre>Tomás</Nombre>
+      <ApellidoPaterno>Lagomarsino</ApellidoPaterno>
+      <ApellidoMaterno>Guzmán</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>3741</Id>
+    <Nombre>CEI 26 Procedimiento y criterios para pensiones de gracia a víctimas de hechos estallido social</Nombre>
+    <NombreWeb>CEI 26 Encargada de reunir antecedentes relacionados con el procedimiento y criterios para otorgar pensiones de gracia a presuntas víctimas de hechos ocurridos durante el denominado estallido social.</NombreWeb>
+    <Alias>Control Sistema Inteligencia del Estado </Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2023-07-31T12:42:56</FechaInicio>
+    <FechaConstitucion>2023-08-01T12:42:56</FechaConstitucion>
+    <FechaTermino>2024-01-25T10:06:32</FechaTermino>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>413</Id>
+    <Nombre>Defensa Nacional</Nombre>
+    <NombreWeb>Defensa Nacional</NombreWeb>
+    <Alias>Defensa</Alias>
+    <Tipo Valor="1">Permanente</Tipo>
+    <FechaInicio>2022-03-14T10:15:01</FechaInicio>
+    <FechaConstitucion>2022-03-14T10:15:01</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>6</Numero>
+    <Presidente>
+      <Id>1139</Id>
+      <Nombre>Enrique</Nombre>
+      <ApellidoPaterno>Lee</ApellidoPaterno>
+      <ApellidoMaterno>Flores</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>3221</Id>
+    <Nombre>Comisiones Unidas Seguridad Ciudadana y Mujeres</Nombre>
+    <NombreWeb>Comisiones Unidas Seguridad Ciudadana y Mujeres</NombreWeb>
+    <Alias>Unidas S. Ciudadana y Mujeres</Alias>
+    <Tipo Valor="4">Unida</Tipo>
+    <FechaInicio>2022-03-16T00:00:00</FechaInicio>
+    <FechaConstitucion>2022-03-22T00:00:00</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+    <Presidente>
+      <Id>1044</Id>
+      <Nombre>Raúl</Nombre>
+      <ApellidoPaterno>Leiva</ApellidoPaterno>
+      <ApellidoMaterno>Carvajal</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>4381</Id>
+    <Nombre>CEI 61 Fundación ProCultura</Nombre>
+    <NombreWeb>CEI 61 encargada de reunir información relativa a determinados actos del Gobierno en relación con los convenios y programas ejecutados con fondos públicos por la Fundación Procultura desde el 2019 a la fecha</NombreWeb>
+    <Alias>CEI 61 Fundación ProCultura</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2024-11-19T12:41:45</FechaInicio>
+    <FechaConstitucion>2024-11-20T12:41:45</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+    <Presidente>
+      <Id>1046</Id>
+      <Nombre>Andrés</Nombre>
+      <ApellidoPaterno>Longton</ApellidoPaterno>
+      <ApellidoMaterno>Herrera</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>4461</Id>
+    <Nombre>CEI 66, 67 Compra casa Salvador Allende</Nombre>
+    <NombreWeb>CEI 66, 67 encargada de reunir información  en relación con el proceso de adquisición por el Fisco de Chile de la casa que fuera propiedad del ex Pdte. Salvador Allende Gossens</NombreWeb>
+    <Alias>CEI 66, 67 compra casa S. Allende</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2025-03-10T14:19:36</FechaInicio>
+    <FechaConstitucion>2025-03-12T14:19:36</FechaConstitucion>
+    <FechaTermino>2026-03-04T15:06:57</FechaTermino>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>4201</Id>
+    <Nombre>CEI 54, 55 Normativa aplicable al Servicio Militar</Nombre>
+    <NombreWeb>CEI 54, 55 encargada de reunir antecedentes sobre los actos del Gobierno referidos al cumplimiento de la normativa aplicable al Servicio Militar, especialmente en los hechos ocurridos durante los ejercicios militares realizados en la comuna de Putre.</NombreWeb>
+    <Alias>CEI 54, 55 Servicio Militar</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2024-06-03T00:00:00</FechaInicio>
+    <FechaConstitucion>2024-06-03T00:00:00</FechaConstitucion>
+    <FechaTermino>2024-11-20T10:02:05</FechaTermino>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>644</Id>
+    <Nombre>Revisora de Cuentas</Nombre>
+    <NombreWeb>Revisora de Cuentas</NombreWeb>
+    <Alias>Revisora de Cuentas</Alias>
+    <Tipo Valor="1">Permanente</Tipo>
+    <FechaInicio>2022-03-14T10:15:01</FechaInicio>
+    <FechaConstitucion>2022-03-14T10:15:01</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+    <Presidente>
+      <Id>1142</Id>
+      <Nombre>Daniel</Nombre>
+      <ApellidoPaterno>Manouchehri</ApellidoPaterno>
+      <ApellidoMaterno>Lobos</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>3521</Id>
+    <Nombre>CEI 15 sobre eventual contrabando de productos falsificados de La Polar S.A</Nombre>
+    <NombreWeb>CEI 15 Encargada de fiscalizar los actos del Gobierno relacionados con las operaciones de la Sociedad Anónima chilena, La Polar S.A.</NombreWeb>
+    <Alias>CEI 15 Eventual contrabando La Polar</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2023-04-04T19:02:03</FechaInicio>
+    <FechaConstitucion>2023-04-04T19:02:03</FechaConstitucion>
+    <FechaTermino>2023-12-13T15:07:06</FechaTermino>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>4002</Id>
+    <Nombre>CEI 41, 42 y Eventuales irregularidades en Servicio Impuestos Internos y Comisión Mercado Financiero</Nombre>
+    <NombreWeb>CEI 41, 42 y 43 Eventuales irregularidades en Servicio de Impuestos Internos y Comisión para el Mercado Financiero</NombreWeb>
+    <Alias>CEI 41 42 y 43 Irregularidades SII y CMF</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2023-12-18T20:46:02</FechaInicio>
+    <FechaConstitucion>2023-12-18T20:46:02</FechaConstitucion>
+    <FechaTermino>2024-06-18T10:05:23</FechaTermino>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>720</Id>
+    <Nombre>Recursos Hídricos y Desertificación</Nombre>
+    <NombreWeb>Recursos Hídricos y Desertificación</NombreWeb>
+    <Alias>Recursos Hídricos</Alias>
+    <Tipo Valor="1">Permanente</Tipo>
+    <FechaInicio>2022-03-14T10:15:01</FechaInicio>
+    <FechaConstitucion>2022-03-14T10:15:01</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>33</Numero>
+    <Presidente>
+      <Id>1143</Id>
+      <Nombre>Cristóbal</Nombre>
+      <ApellidoPaterno>Martínez</ApellidoPaterno>
+      <ApellidoMaterno>Ramírez</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>4401</Id>
+    <Nombre>CEI 62 Actos de autoridades y policías tras denuncia criminal contra exsubsecretario Monsalve</Nombre>
+    <NombreWeb>CEI 62 Actos de autoridades y policías tras denuncia criminal contra exsubsecretario Monsalve</NombreWeb>
+    <Alias>CEI  62 Caso Monsalve</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2024-11-19T12:42:18</FechaInicio>
+    <FechaConstitucion>2024-11-20T12:42:18</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+    <Presidente>
+      <Id>1050</Id>
+      <Nombre>Miguel</Nombre>
+      <ApellidoPaterno>Mellado</ApellidoPaterno>
+      <ApellidoMaterno>Suazo</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>401</Id>
+    <Nombre>Constitución, Legislación, Justicia y Reglamento</Nombre>
+    <NombreWeb>Constitución, Legislación, Justicia y Reglamento</NombreWeb>
+    <Alias>Constitución</Alias>
+    <Tipo Valor="1">Permanente</Tipo>
+    <FechaInicio>2022-03-14T10:15:01</FechaInicio>
+    <FechaConstitucion>2022-03-14T10:15:01</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>3</Numero>
+    <Presidente>
+      <Id>1148</Id>
+      <Nombre>Javiera</Nombre>
+      <ApellidoPaterno>Morales</ApellidoPaterno>
+      <ApellidoMaterno>Alvarado</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>553</Id>
+    <Nombre>Desarrollo Social, Superación de la Pobreza y Planificación</Nombre>
+    <NombreWeb>Desarrollo Social, Superación de la Pobreza y Planificación</NombreWeb>
+    <Alias>Desarrollo Social</Alias>
+    <Tipo Valor="1">Permanente</Tipo>
+    <FechaInicio>2022-03-14T10:15:01</FechaInicio>
+    <FechaConstitucion>2022-03-14T10:15:01</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>23</Numero>
+    <Presidente>
+      <Id>1149</Id>
+      <Nombre>Carla</Nombre>
+      <ApellidoPaterno>Morales</ApellidoPaterno>
+      <ApellidoMaterno>Maldonado</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>4323</Id>
+    <Nombre>Acusación Constitucional en contra del ministro de la Corte Suprema señor Jean Pierre Matus Acuña</Nombre>
+    <NombreWeb>Acusación Constitucional en contra del ministro de la Corte Suprema señor Jean Pierre Matus Acuña</NombreWeb>
+    <Alias>AC Ministro Matus</Alias>
+    <Tipo Valor="6">Acusación Constitucional</Tipo>
+    <FechaInicio>2024-09-25T00:00:00</FechaInicio>
+    <FechaConstitucion>2024-09-25T00:00:00</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+    <Presidente>
+      <Id>1053</Id>
+      <Nombre>Cristhian</Nombre>
+      <ApellidoPaterno>Moreira</ApellidoPaterno>
+      <ApellidoMaterno>Barros</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>3361</Id>
+    <Nombre>Comisión acusación constitucional deducida en contra de la Ministra del Interior y Seguridad Pública</Nombre>
+    <NombreWeb>Acusación Constitucional deducida en contra de la Ministra del Interior y Seguridad Pública, señora Izkia Siches Pastén</NombreWeb>
+    <Alias>AC Ministra Interior Siches</Alias>
+    <Tipo Valor="6">Acusación Constitucional</Tipo>
+    <FechaInicio>2022-06-28T10:15:01</FechaInicio>
+    <FechaConstitucion xsi:nil="true"/>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+    <Presidente>
+      <Id>1053</Id>
+      <Nombre>Cristhian</Nombre>
+      <ApellidoPaterno>Moreira</ApellidoPaterno>
+      <ApellidoMaterno>Barros</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>4301</Id>
+    <Nombre>CEI 59 continuidad servicios eléctricos y agua potable durante eventos climáticos</Nombre>
+    <NombreWeb>CEI 59 encargada de reunir antecedentes sobre los cortes de luz y agua potable durante los eventos climáticos del año 2023 y 2024 en las regiones que se indican.</NombreWeb>
+    <Alias>CEI 59 cortes de luz y agua</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2024-11-19T12:40:35</FechaInicio>
+    <FechaConstitucion>2024-11-20T12:40:35</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+    <Presidente>
+      <Id>872</Id>
+      <Nombre>Jaime</Nombre>
+      <ApellidoPaterno>Mulet</ApellidoPaterno>
+      <ApellidoMaterno>Martínez</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>3261</Id>
+    <Nombre>CEI 1 Presunto aprovechamiento irregular de aguas en Cuenca Río Huasco, especialmente Río Matancilla</Nombre>
+    <NombreWeb>CEI 1 Comisión Especial Investigadora con el objeto de fiscalizar los actos del Gobierno relacionados con el perfeccionamiento presuntamente irregular de derechos de aprovechamiento de aguas en  Río Huasco.</NombreWeb>
+    <Alias>CEI 1 Aprovechamiento Río Huasco</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2022-07-04T00:00:00</FechaInicio>
+    <FechaConstitucion>2022-07-04T00:00:00</FechaConstitucion>
+    <FechaTermino>2023-01-09T17:12:00</FechaTermino>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>4661</Id>
+    <Nombre>Acusación Constitucional contra exministro Diego Pardow</Nombre>
+    <NombreWeb>Acusación Constitucional deducida por once diputadas y diputados contra el exministro de Energía, señor Diego Pardow Lorenzo.</NombreWeb>
+    <Alias>AC Diego Pardow</Alias>
+    <Tipo Valor="6">Acusación Constitucional</Tipo>
+    <FechaInicio xsi:nil="true"/>
+    <FechaConstitucion xsi:nil="true"/>
+    <FechaTermino>2025-11-19T10:07:28</FechaTermino>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>4101</Id>
+    <Nombre>CEI 46 Atribuciones del Ministerio Hacienda, SII, CMF en la operación tributos</Nombre>
+    <NombreWeb>CEI 46 Comisión Investigadora del mayor fraude tributario de la historia</NombreWeb>
+    <Alias>CEI 46 Operación Tributos</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2024-03-13T00:00:00</FechaInicio>
+    <FechaConstitucion>2024-03-13T00:00:00</FechaConstitucion>
+    <FechaTermino>2024-09-30T17:01:27</FechaTermino>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>4521</Id>
+    <Nombre>Acusación Constitucional en contra de la ex Ministra de Defensa Nacional, señora Maya Fernández </Nombre>
+    <NombreWeb>Acusación Constitucional deducida, en contra de la ex Ministra de Defensa Nacional, Maya Fernández</NombreWeb>
+    <Alias>ACU (11) ex Min. Defensa</Alias>
+    <Tipo Valor="6">Acusación Constitucional</Tipo>
+    <FechaInicio>2025-03-12T14:29:29</FechaInicio>
+    <FechaConstitucion>2025-03-12T14:29:27</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+    <Presidente>
+      <Id>74</Id>
+      <Nombre>Jaime</Nombre>
+      <ApellidoPaterno>Naranjo</ApellidoPaterno>
+      <ApellidoMaterno>Ortiz</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>417</Id>
+    <Nombre>Agricultura, Silvicultura y Desarrollo Rural</Nombre>
+    <NombreWeb>Agricultura, Silvicultura y Desarrollo Rural</NombreWeb>
+    <Alias>Agricultura</Alias>
+    <Tipo Valor="1">Permanente</Tipo>
+    <FechaInicio>2022-03-14T10:15:01</FechaInicio>
+    <FechaConstitucion>2022-03-14T10:15:01</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>8</Numero>
+    <Presidente>
+      <Id>1152</Id>
+      <Nombre>Gloria</Nombre>
+      <ApellidoPaterno>Naveillan</ApellidoPaterno>
+      <ApellidoMaterno>Arriagada</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>416</Id>
+    <Nombre>Vivienda, Desarrollo Urbano y Bienes Nacionales</Nombre>
+    <NombreWeb>Vivienda, Desarrollo Urbano y Bienes Nacionales</NombreWeb>
+    <Alias>Vivienda</Alias>
+    <Tipo Valor="1">Permanente</Tipo>
+    <FechaInicio>2022-03-14T10:15:01</FechaInicio>
+    <FechaConstitucion>2022-03-14T10:15:01</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>14</Numero>
+    <Presidente>
+      <Id>1056</Id>
+      <Nombre>Emilia</Nombre>
+      <ApellidoPaterno>Nuyado</ApellidoPaterno>
+      <ApellidoMaterno>Ancapichun</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>406</Id>
+    <Nombre>Relaciones Exteriores, Asuntos Interparlamentarios e Integración Latinoamericana</Nombre>
+    <NombreWeb>Relaciones Exteriores, Asuntos Interparlamentarios e Integración Latinoamericana</NombreWeb>
+    <Alias>Relaciones Exteriores</Alias>
+    <Tipo Valor="1">Permanente</Tipo>
+    <FechaInicio>2022-03-14T10:15:01</FechaInicio>
+    <FechaConstitucion>2022-03-14T10:15:01</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>2</Numero>
+    <Presidente>
+      <Id>1153</Id>
+      <Nombre>Coca Ericka</Nombre>
+      <ApellidoPaterno>Ñanco</ApellidoPaterno>
+      <ApellidoMaterno>Vásquez</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>3821</Id>
+    <Nombre>CEI 29 Juegos Panamericanos y Parapanamericanos Santiago 2023</Nombre>
+    <NombreWeb>CEI 29 Ministerio del Deporte y el Instituto Nacional de Deportes, posibles irregularidades ocurridas, desde el año 2018 al 2023, en la organización, ejecución de obras y financiamiento de los Juegos Panamericanos y Parapanamericanos Santiago 2023.</NombreWeb>
+    <Alias>CEI 29 Juegos PP y ParaPP Stgo 2023</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2023-10-04T11:09:32</FechaInicio>
+    <FechaConstitucion>2023-10-04T11:09:32</FechaConstitucion>
+    <FechaTermino>2024-04-17T10:03:03</FechaTermino>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>4681</Id>
+    <Nombre>Acusación Constitucional contra el ministro de la Excma. Corte Suprema Diego Simpertigue Limare</Nombre>
+    <NombreWeb>Acusación Constitucional contra el ministro de la Excma. Corte Suprema Diego Simpertigue Limare</NombreWeb>
+    <Alias>AC Diego Simpertigue</Alias>
+    <Tipo Valor="6">Acusación Constitucional</Tipo>
+    <FechaInicio xsi:nil="true"/>
+    <FechaConstitucion xsi:nil="true"/>
+    <FechaTermino>2025-12-15T16:03:33</FechaTermino>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>3641</Id>
+    <Nombre>CEI 19 falla San Ramón</Nombre>
+    <NombreWeb>CEI 19  falla San Ramón</NombreWeb>
+    <Alias>CEI 19  San Ramón</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2023-05-31T00:00:00</FechaInicio>
+    <FechaConstitucion>2023-05-31T00:00:00</FechaConstitucion>
+    <FechaTermino>2023-12-21T11:36:05</FechaTermino>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>414</Id>
+    <Nombre>Gobierno Interior, Nacionalidad, Ciudadanía y Regionalización</Nombre>
+    <NombreWeb>Gobierno Interior, Nacionalidad, Ciudadanía y Regionalización</NombreWeb>
+    <Alias>Gobierno Interior</Alias>
+    <Tipo Valor="1">Permanente</Tipo>
+    <FechaInicio>2022-03-14T10:15:01</FechaInicio>
+    <FechaConstitucion>2022-03-14T10:15:01</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>1</Numero>
+    <Presidente>
+      <Id>1155</Id>
+      <Nombre>Rubén Darío</Nombre>
+      <ApellidoPaterno>Oyarzo</ApellidoPaterno>
+      <ApellidoMaterno>Figueroa</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>4081</Id>
+    <Nombre>CEI 45 Sobre entrega de fondos públicos a entidades privadas por parte de ciertos Ministerios</Nombre>
+    <NombreWeb>CEI 45 Cuestionamiento a la entrega de fondos públicos a entidades privadas, por parte de Ministerios y Seremis determinados</NombreWeb>
+    <Alias>CEI 45 Fondos a privados</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2024-03-13T16:42:47</FechaInicio>
+    <FechaConstitucion>2024-03-13T16:42:47</FechaConstitucion>
+    <FechaTermino>2024-09-30T17:01:27</FechaTermino>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>4541</Id>
+    <Nombre>“Comisiones Unidas de Gobierno, OOPP y Seguridad Ciudadana (NarcoAvionetas)”</Nombre>
+    <NombreWeb>“Comisiones Unidas de Gobierno, OOPP y Seguridad Ciudadana (NarcoAvionetas)”</NombreWeb>
+    <Alias>Narcoaviones</Alias>
+    <Tipo Valor="4">Unida</Tipo>
+    <FechaInicio>2025-03-25T14:27:54</FechaInicio>
+    <FechaConstitucion xsi:nil="true"/>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+    <Presidente>
+      <Id>1155</Id>
+      <Nombre>Rubén Darío</Nombre>
+      <ApellidoPaterno>Oyarzo</ApellidoPaterno>
+      <ApellidoMaterno>Figueroa</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>4621</Id>
+    <Nombre>CEI 73 Uso de licencias médicas en el sector público</Nombre>
+    <NombreWeb>CEI 73 encargada de reunir antecedentes sobre los actos del Gobierno en relación con el deber de fiscalizar el correcto otorgamiento y uso de licencias médicas en el sector público.</NombreWeb>
+    <Alias>CEI 73 licencias médicas</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2025-06-17T15:29:00</FechaInicio>
+    <FechaConstitucion>2025-06-18T15:29:00</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+    <Presidente>
+      <Id>1156</Id>
+      <Nombre>Hernán</Nombre>
+      <ApellidoPaterno>Palma</ApellidoPaterno>
+      <ApellidoMaterno>Pérez</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>3942</Id>
+    <Nombre>Comisiones unidas de Desarrollo Social y Personas Mayores</Nombre>
+    <NombreWeb>Comisiones unidas de Desarrollo Social y Personas Mayores</NombreWeb>
+    <Alias>Desarrollo Social y Personas Mayores</Alias>
+    <Tipo Valor="4">Unida</Tipo>
+    <FechaInicio>2023-10-12T14:22:41</FechaInicio>
+    <FechaConstitucion xsi:nil="true"/>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+    <Presidente>
+      <Id>1157</Id>
+      <Nombre>Marlene</Nombre>
+      <ApellidoPaterno>Pérez</ApellidoPaterno>
+      <ApellidoMaterno>Cartes</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>4322</Id>
+    <Nombre>Acusación Constitucional en contra de la Ministra de la Corte Suprema, sra. Angela Vivanco Martínez</Nombre>
+    <NombreWeb>Acusación Constitucional en contra de la Ministra de la Corte Suprema, señora Angela Vivanco Martínez</NombreWeb>
+    <Alias>AC Ministra Vivanco</Alias>
+    <Tipo Valor="6">Acusación Constitucional</Tipo>
+    <FechaInicio>2024-09-25T00:00:00</FechaInicio>
+    <FechaConstitucion>2024-09-25T00:00:00</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+    <Presidente>
+      <Id>1157</Id>
+      <Nombre>Marlene</Nombre>
+      <ApellidoPaterno>Pérez</ApellidoPaterno>
+      <ApellidoMaterno>Cartes</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>3342</Id>
+    <Nombre>CEI 5 persecución de la delincuencia</Nombre>
+    <NombreWeb>CEI 5 Sobre actos del Gobierno, en especial el Min. del Interior y Seguridad Pública y delegaciones presidenciales, referidos al resguardo de la seguridad y orden público interno y combate contra la delincuencia, crimen organizado y terrorismo.</NombreWeb>
+    <Alias>CEI 5 Resguardo orden público</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2022-07-13T10:16:22</FechaInicio>
+    <FechaConstitucion>2022-07-13T10:16:22</FechaConstitucion>
+    <FechaTermino>2023-01-26T10:12:12</FechaTermino>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>410</Id>
+    <Nombre>Economía, Fomento; Micro, Pequeña y Mediana Empresa; Protección de los Consumidores y Turismo</Nombre>
+    <NombreWeb>Economía, Fomento; Micro, Pequeña y Mediana Empresa; Protección de los Consumidores y Turismo</NombreWeb>
+    <Alias>Economía</Alias>
+    <Tipo Valor="1">Permanente</Tipo>
+    <FechaInicio>2022-03-14T10:15:01</FechaInicio>
+    <FechaConstitucion>2022-03-14T10:15:01</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>13</Numero>
+    <Presidente>
+      <Id>1158</Id>
+      <Nombre>Víctor Alejandro</Nombre>
+      <ApellidoPaterno>Pino</ApellidoPaterno>
+      <ApellidoMaterno>Fuentes</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>4061</Id>
+    <Nombre>Acusación Constitucional en contra del Ministro de Vivienda y Urbanismo, señor Carlos Montes C.</Nombre>
+    <NombreWeb>Acusación Constitucional contra el Ministro de Vivienda y Urbanismo, señor Carlos Montes Cisternas.</NombreWeb>
+    <Alias>Acusación Constitucional</Alias>
+    <Tipo Valor="6">Acusación Constitucional</Tipo>
+    <FechaInicio>2023-12-21T00:00:00</FechaInicio>
+    <FechaConstitucion>2023-12-20T00:00:00</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+    <Presidente>
+      <Id>1158</Id>
+      <Nombre>Víctor Alejandro</Nombre>
+      <ApellidoPaterno>Pino</ApellidoPaterno>
+      <ApellidoMaterno>Fuentes</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>4601</Id>
+    <Nombre>CEI 72 Robo de cables de cobre</Nombre>
+    <NombreWeb>CEI 72 encargada de reunir antecedentes relativos a los actos de Gobierno en relación con las medidas adoptadas para prevenir el constante robo de cables de cobre.</NombreWeb>
+    <Alias>CEI 72 Robo cables de cobre</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2025-06-10T18:10:47</FechaInicio>
+    <FechaConstitucion>2025-06-11T18:10:47</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+    <Presidente>
+      <Id>1158</Id>
+      <Nombre>Víctor Alejandro</Nombre>
+      <ApellidoPaterno>Pino</ApellidoPaterno>
+      <ApellidoMaterno>Fuentes</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>3701</Id>
+    <Nombre>CEI 24 SML Osamentas sin identificar de víctimas de desaparición forzada</Nombre>
+    <NombreWeb>CEI 24 SML por Osamentas sin identificar de víctimas de desaparición forzada</NombreWeb>
+    <Alias>CEI 24 SML</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2023-07-31T12:41:58</FechaInicio>
+    <FechaConstitucion>2023-08-02T12:41:58</FechaConstitucion>
+    <FechaTermino>2024-01-30T10:06:23</FechaTermino>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>1921</Id>
+    <Nombre>Mujeres y Equidad de Género</Nombre>
+    <NombreWeb>Mujeres y Equidad de Género</NombreWeb>
+    <Alias>Mujeres y Equidad de Género</Alias>
+    <Tipo Valor="1">Permanente</Tipo>
+    <FechaInicio>2022-03-14T10:15:01</FechaInicio>
+    <FechaConstitucion>2022-03-14T10:15:01</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>34</Numero>
+    <Presidente>
+      <Id>1160</Id>
+      <Nombre>Alejandra</Nombre>
+      <ApellidoPaterno>Placencia</ApellidoPaterno>
+      <ApellidoMaterno>Cabello</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>4641</Id>
+    <Nombre>Acusación Constitucional contra del Ministro de la Corte de Apelaciones, don Antonio Ulloa Márquez.</Nombre>
+    <NombreWeb>Acusación Constitucional deducida en contra del Ministro de la Corte de Apelaciones de Santiago, don Antonio Ulloa Márquez.</NombreWeb>
+    <Alias>Acusación Ministro Ulloa.</Alias>
+    <Tipo Valor="6">Acusación Constitucional</Tipo>
+    <FechaInicio xsi:nil="true"/>
+    <FechaConstitucion xsi:nil="true"/>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+    <Presidente>
+      <Id>1160</Id>
+      <Nombre>Alejandra</Nombre>
+      <ApellidoPaterno>Placencia</ApellidoPaterno>
+      <ApellidoMaterno>Cabello</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>3661</Id>
+    <Nombre>CEI 23 situación carcelaria nacional</Nombre>
+    <NombreWeb>CEI 23 situación carcelaria del país</NombreWeb>
+    <Alias>CEI 23 Situación carcelaria del país</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2023-09-04T10:37:27</FechaInicio>
+    <FechaConstitucion>2023-09-04T10:37:27</FechaConstitucion>
+    <FechaTermino>2024-04-17T10:03:03</FechaTermino>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>421</Id>
+    <Nombre>Pesca, Acuicultura e Intereses Marítimos</Nombre>
+    <NombreWeb>Pesca, Acuicultura e Intereses Marítimos</NombreWeb>
+    <Alias>Pesca y Acuicultura</Alias>
+    <Tipo Valor="1">Permanente</Tipo>
+    <FechaInicio>2022-03-14T10:15:01</FechaInicio>
+    <FechaConstitucion>2022-03-14T10:15:01</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>18</Numero>
+    <Presidente>
+      <Id>1162</Id>
+      <Nombre>Matías</Nombre>
+      <ApellidoPaterno>Ramírez</ApellidoPaterno>
+      <ApellidoMaterno>Pascal</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>4181</Id>
+    <Nombre>CEI 53 Implementación del Sistema de Educación Pública, desde el año 2022 a la fecha</Nombre>
+    <NombreWeb>CEI 53 Sistema de Educación Pública</NombreWeb>
+    <Alias>CEI 53 SEP (Ed. Pública)</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2024-05-30T20:28:08</FechaInicio>
+    <FechaConstitucion>2024-05-30T20:28:08</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+    <Presidente>
+      <Id>1163</Id>
+      <Nombre>Marcia</Nombre>
+      <ApellidoPaterno>Raphael</ApellidoPaterno>
+      <ApellidoMaterno>Mora</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>4562</Id>
+    <Nombre>CEI 69, 71 Seguridad marítima y pesquera</Nombre>
+    <NombreWeb>CEI 69, 71 encargada de fiscalizar los actos de Gobierno sobre la seguridad marítima y pesquera en las costas del país, particularmente en la Región del Biobío, con ocasión de la colisión y destrucción de la embarcación "Bruma", en marzo de 2025.</NombreWeb>
+    <Alias>CEI 69, 71 Seguridad Marítima y Pesquera</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2025-05-13T15:46:35</FechaInicio>
+    <FechaConstitucion>2025-05-14T15:46:35</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+    <Presidente>
+      <Id>1067</Id>
+      <Nombre>Hugo</Nombre>
+      <ApellidoPaterno>Rey</ApellidoPaterno>
+      <ApellidoMaterno>Martínez</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>3343</Id>
+    <Nombre>CEI 6 sobre eventual sobreprecio cobrado por Metrogas</Nombre>
+    <NombreWeb>CEI 6 Encargada de reunir antecedentes sobre los actos del Ministerio de Energía y la Superintendencia de Electricidad y Combustibles relativos al eventual sobreprecio cobrado por la distribuidora Metrogas.</NombreWeb>
+    <Alias>CEI 6 Sobreprecio metrogas</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2022-07-13T00:00:00</FechaInicio>
+    <FechaConstitucion>2022-07-12T00:00:00</FechaConstitucion>
+    <FechaTermino>2023-09-26T17:30:15</FechaTermino>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>3761</Id>
+    <Nombre>CEI 27 Reposición del Estadio Municipal de San Antonio</Nombre>
+    <NombreWeb>CEI 27 Reposición del Estadio Municipal de San Antonio</NombreWeb>
+    <Alias>CEI 27 Estadio Sn Antonio</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2023-08-21T16:32:27</FechaInicio>
+    <FechaConstitucion>2023-08-23T16:32:27</FechaConstitucion>
+    <FechaTermino>2024-01-30T10:06:23</FechaTermino>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>3541</Id>
+    <Nombre>Acusación Constitucional Ministro Jackson</Nombre>
+    <NombreWeb>Acusación Constitucional contra Ministro Giorgio Jackson</NombreWeb>
+    <Alias>AC Ministro Jackson</Alias>
+    <Tipo Valor="6">Acusación Constitucional</Tipo>
+    <FechaInicio>2023-01-11T00:00:00</FechaInicio>
+    <FechaConstitucion>2023-01-05T00:00:00</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+    <Presidente>
+      <Id>1169</Id>
+      <Nombre>Clara</Nombre>
+      <ApellidoPaterno>Sagardía</ApellidoPaterno>
+      <ApellidoMaterno>Cabezas</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>4361</Id>
+    <Nombre>CEI 60 Funcionamiento general de las universidades.</Nombre>
+    <NombreWeb>CEI 60 sobre proceso de acreditación, entrega de recursos públicos, financiamiento, cumplimiento de la normativa educacional vigente y funcionamiento general de las universidades.</NombreWeb>
+    <Alias>CEI 60 universidades</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2024-11-19T12:41:00</FechaInicio>
+    <FechaConstitucion>2024-11-20T12:41:00</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+    <Presidente>
+      <Id>1073</Id>
+      <Nombre>Juan</Nombre>
+      <ApellidoPaterno>Santana</ApellidoPaterno>
+      <ApellidoMaterno>Castillo</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>4126</Id>
+    <Nombre>CEI 52 Agresiones sexuales en el deporte</Nombre>
+    <NombreWeb>CEI 52 Agresiones sexuales en el deporte</NombreWeb>
+    <Alias>CEI 52 Agresión sexual deporte</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2024-05-30T21:23:35</FechaInicio>
+    <FechaConstitucion>2024-05-30T21:23:35</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+    <Presidente>
+      <Id>1074</Id>
+      <Nombre>Marisela</Nombre>
+      <ApellidoPaterno>Santibáñez</ApellidoPaterno>
+      <ApellidoMaterno>Novoa</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>4281</Id>
+    <Nombre>CEI 58 Derechos de aprovechamiento de Aguas Región del Ñuble y Biobío.</Nombre>
+    <NombreWeb>CEI 58 encargada de reunir antecedentes sobre determinados actos del Gobierno, respecto de los criterios aplicados para conceder  aumentos de caudal a asociaciones de canalistas con derechos de aprovechamiento de aguas en Ñuble y Biobío.</NombreWeb>
+    <Alias>CEI 58 Aguas Ñuble y Biobío</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2024-08-28T17:07:38</FechaInicio>
+    <FechaConstitucion>2024-09-03T17:07:38</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+    <Presidente>
+      <Id>953</Id>
+      <Nombre>Frank</Nombre>
+      <ApellidoPaterno>Sauerbaum</ApellidoPaterno>
+      <ApellidoMaterno>Muñoz</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>497</Id>
+    <Nombre>Subcomisión de Crimen Organizado</Nombre>
+    <NombreWeb>Subcomisión de Crimen Organizado</NombreWeb>
+    <Alias>Subcomisión Crimen Organizado</Alias>
+    <Tipo Valor="1">Permanente</Tipo>
+    <FechaInicio>2025-03-04T00:00:00</FechaInicio>
+    <FechaConstitucion>2025-03-04T00:00:00</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+    <Presidente>
+      <Id>1075</Id>
+      <Nombre>Diego</Nombre>
+      <ApellidoPaterno>Schalper</ApellidoPaterno>
+      <ApellidoMaterno>Sepúlveda</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>817</Id>
+    <Nombre>Control del Sistema de Inteligencia del Estado</Nombre>
+    <NombreWeb>Control del Sistema de Inteligencia del Estado</NombreWeb>
+    <Alias>Control de inteligencia</Alias>
+    <Tipo Valor="1">Permanente</Tipo>
+    <FechaInicio>2022-03-14T10:15:01</FechaInicio>
+    <FechaConstitucion>2022-03-14T10:15:01</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+    <Presidente>
+      <Id>1172</Id>
+      <Nombre>Stephan</Nombre>
+      <ApellidoPaterno>Schubert</ApellidoPaterno>
+      <ApellidoMaterno>Rubio</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>3341</Id>
+    <Nombre>CEI 4 Sobre decisiones administrativas relativas a beneficios intrapenitenciarios</Nombre>
+    <NombreWeb>CEI 4 Encargada de reunir antecedentes sobre las decisiones de Gendarmería y eventualmente, del Ministerio de Justicia y Derechos Humanos, sobre los permisos de salida y demás beneficios intrapenitenciarios.</NombreWeb>
+    <Alias>CEI 4  Sistema penitenciario</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2022-07-13T10:15:16</FechaInicio>
+    <FechaConstitucion>2022-07-13T10:15:16</FechaConstitucion>
+    <FechaTermino>2023-07-04T17:32:28</FechaTermino>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>409</Id>
+    <Nombre>Minería y Energía</Nombre>
+    <NombreWeb>Minería y Energía</NombreWeb>
+    <Alias>Minería y Energía</Alias>
+    <Tipo Valor="1">Permanente</Tipo>
+    <FechaInicio>2022-03-14T10:15:01</FechaInicio>
+    <FechaConstitucion>2022-03-14T10:15:01</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>12</Numero>
+    <Presidente>
+      <Id>1174</Id>
+      <Nombre>Marco Antonio</Nombre>
+      <ApellidoPaterno>Sulantay</ApellidoPaterno>
+      <ApellidoMaterno>Olivares</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>3881</Id>
+    <Nombre>CEI 34 y 36 Gobierno Corporativo CODELCO</Nombre>
+    <NombreWeb>CEI 34 y 36 Encargada de fiscalizar los actos del Gobierno entre los años 2006 y 2022 respecto de CODELCO y su gobierno corporativo en proyectos estructurales y cumplimiento de normas laborales, sobre tercerización y protocolos de seguridad.</NombreWeb>
+    <Alias>CEI 34  CODELCO</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2023-12-11T00:00:00</FechaInicio>
+    <FechaConstitucion>2023-12-11T00:00:00</FechaConstitucion>
+    <FechaTermino>2024-07-22T17:00:16</FechaTermino>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>4441</Id>
+    <Nombre>CEI 65 sobre Acuerdo de asociación Codelco y Corfo con SQM</Nombre>
+    <NombreWeb>CEI 65 Acuerdo de asociación Codelco y Corfo con SQM para la explotación del litio en el salar de Atacama y compra de mina Salar Blanco</NombreWeb>
+    <Alias>CEI 65 Codelco Corfo SQM litio</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2025-01-13T17:21:20</FechaInicio>
+    <FechaConstitucion>2025-01-15T17:21:20</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+    <Presidente>
+      <Id>1175</Id>
+      <Nombre>Cristián</Nombre>
+      <ApellidoPaterno>Tapia</ApellidoPaterno>
+      <ApellidoMaterno>Ramos</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>404</Id>
+    <Nombre>De Derechos Humanos y Pueblos Originarios</Nombre>
+    <NombreWeb>De Derechos Humanos y Pueblos Originarios</NombreWeb>
+    <Alias>Derechos Humanos</Alias>
+    <Tipo Valor="1">Permanente</Tipo>
+    <FechaInicio>2022-03-14T10:15:01</FechaInicio>
+    <FechaConstitucion>2022-03-14T10:15:01</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>15</Numero>
+    <Presidente>
+      <Id>1177</Id>
+      <Nombre>Carolina</Nombre>
+      <ApellidoPaterno>Tello</ApellidoPaterno>
+      <ApellidoMaterno>Rojas</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>3801</Id>
+    <Nombre>Acusación Constitucional Ministro de Educación, señor Marco Antonio Avila Lavanal</Nombre>
+    <NombreWeb>Acusación Constitucional deducida, en contra del Ministro de Educación, señor Marco Antonio Ávila Lavanal</NombreWeb>
+    <Alias>AC Ministro Educación Ávila</Alias>
+    <Tipo Valor="6">Acusación Constitucional</Tipo>
+    <FechaInicio>2023-07-03T00:00:00</FechaInicio>
+    <FechaConstitucion>2023-06-20T00:00:00</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+    <Presidente>
+      <Id>1178</Id>
+      <Nombre>Héctor</Nombre>
+      <ApellidoPaterno>Ulloa</ApellidoPaterno>
+      <ApellidoMaterno>Aguilera</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>3621</Id>
+    <Nombre>CEI 17 Licitaciones del Servicio de Protección Especializada de la Niñez y Adolescencia</Nombre>
+    <NombreWeb>CEI 17 Encargada de reunir antecedentes sobre las licitaciones del Servicio de Protección Especializada de la Niñez y Adolescencia y demás antecedentes que se indican sobre la competencia, funcionamiento y personal del referido servicio.</NombreWeb>
+    <Alias>CEI 17 Protección Especializada NNA</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2023-05-30T00:00:00</FechaInicio>
+    <FechaConstitucion>2023-05-30T00:00:00</FechaConstitucion>
+    <FechaTermino>2023-12-13T15:07:06</FechaTermino>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>3301</Id>
+    <Nombre>CEI 3 Incendios en estaciones de metro durante octubre de 2019 en la Región Metropolitana.</Nombre>
+    <NombreWeb>CEI 3 Comisión Especial Investigadora encargada de fiscalizar los actos del Gobierno en relación con los incendios en estaciones de metro durante octubre de 2019 en la Región Metropolitana.</NombreWeb>
+    <Alias>CEI 3 Incendio Metro</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2022-07-04T09:49:00</FechaInicio>
+    <FechaConstitucion>2022-07-04T09:49:00</FechaConstitucion>
+    <FechaTermino>2023-07-25T00:00:00</FechaTermino>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>3381</Id>
+    <Nombre>CEI 8 Alerta ambiental Concón Quintero Puchuncaví</Nombre>
+    <NombreWeb>CEI 8 encargada de fiscalizar los actos del Gobierno relacionados con la alerta ambiental en Concón, Quintero y Puchuncaví.</NombreWeb>
+    <Alias>CEI 8 Alerta Ambiental</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2022-07-19T00:00:00</FechaInicio>
+    <FechaConstitucion>2022-07-19T00:00:00</FechaConstitucion>
+    <FechaTermino>2023-07-04T17:32:28</FechaTermino>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>4261</Id>
+    <Nombre>CEI 57 Acompañamiento personas cuya identidad de género no coincide con nombre y sexo registral.</Nombre>
+    <NombreWeb>CEI 57 Encargada de reunir antecedentes sobre los actos del Gobierno relacionados con los planes y programas de acompañamiento para personas cuya identidad de género no coincida con su nombre y sexo registral.</NombreWeb>
+    <Alias>CEI 57 PAIG y PST</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2024-07-31T15:12:18</FechaInicio>
+    <FechaConstitucion>2024-07-31T15:12:18</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+    <Presidente>
+      <Id>1183</Id>
+      <Nombre>Flor</Nombre>
+      <ApellidoPaterno>Weisse</ApellidoPaterno>
+      <ApellidoMaterno>Novoa</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>3781</Id>
+    <Nombre>CEI 28 Sobre beneficios intrapenitenciarios</Nombre>
+    <NombreWeb>CEI 28 Sobre beneficios intrapenitenciarios</NombreWeb>
+    <Alias>CEI 28 Beneficios intrapenitenciarios</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2023-08-21T16:31:59</FechaInicio>
+    <FechaConstitucion>2023-08-23T16:32:00</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+    <Presidente>
+      <Id>1183</Id>
+      <Nombre>Flor</Nombre>
+      <ApellidoPaterno>Weisse</ApellidoPaterno>
+      <ApellidoMaterno>Novoa</ApellidoMaterno>
+    </Presidente>
+  </Comision>
+  <Comision>
+    <Id>3642</Id>
+    <Nombre>CEI 18, 21 y 22  sobre combate de incendios</Nombre>
+    <NombreWeb>CEI 18, 21 Y 22 sobre combate de incendios</NombreWeb>
+    <Alias>CEI 22 Incendios desde 2020</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2023-03-22T11:50:53</FechaInicio>
+    <FechaConstitucion>2023-03-22T11:50:53</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo/>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>3861</Id>
+    <Nombre>CEI 33, 32 y 30 Actuaciones MINVU en la entrega, fiscalización y entrega de fondos públicos.</Nombre>
+    <NombreWeb>CEI 33, 32 y 30  Encargada de reunir información sobre los actos del MINVU en la entrega, fiscalización y ejecución de fondos públicos, especialmente aquellos que se entregan vía trato directo</NombreWeb>
+    <Alias>CEI 33 Entrega Fondos Públicos MINVU</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2023-08-07T18:08:53</FechaInicio>
+    <FechaConstitucion>2023-08-07T18:08:53</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo/>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>4021</Id>
+    <Nombre>Eventuales irregularidades en Servicio de Impuestos Internos y Comisión para el Mercado Financiero</Nombre>
+    <NombreWeb>CEI 42 Eventuales irregularidades en Servicio de Impuestos Internos y Comisión para el Mercado Financiero</NombreWeb>
+    <Alias>CEI 42 Irregularidades SII y CMF</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2023-12-18T20:47:07</FechaInicio>
+    <FechaConstitucion>2023-12-18T20:47:07</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo/>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>3321</Id>
+    <Nombre>Obras Públicas y Recursos Hídricos por déficit hídrico en Lago Caburga</Nombre>
+    <NombreWeb>Obras Públicas y Recursos Hídricos por déficit hídrico en Lago Caburga</NombreWeb>
+    <Alias>Unidas Lago Caburga</Alias>
+    <Tipo Valor="4">Unida</Tipo>
+    <FechaInicio>2022-05-16T17:18:42</FechaInicio>
+    <FechaConstitucion xsi:nil="true"/>
+    <FechaTermino xsi:nil="true"/>
+    <Correo/>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>2921</Id>
+    <Nombre>Subcomisión de Régimen Interno en materia de Comunicaciones</Nombre>
+    <NombreWeb>Subcomisión de Régimen Interno en materia de Comunicaciones</NombreWeb>
+    <Alias>Subcomisión Régimen Interno</Alias>
+    <Tipo Valor="1">Permanente</Tipo>
+    <FechaInicio>2022-03-14T10:15:01</FechaInicio>
+    <FechaConstitucion>2022-03-14T10:15:01</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>3901</Id>
+    <Nombre>CEI 36 Productividad y administración de CODELCO</Nombre>
+    <NombreWeb>CEI Encargada de recabar antecedentes relativos a la baja productividad y administración de CODELCO, en los últimos seis años.</NombreWeb>
+    <Alias>CEI 36 Productividad CODELCO</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2023-12-11T00:00:00</FechaInicio>
+    <FechaConstitucion>2023-12-11T00:00:00</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo/>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>4221</Id>
+    <Nombre>CEI 55 acciones de instrucción y concripción militar por los hechos ocurridos en Putre</Nombre>
+    <NombreWeb>CEI 55 encargada de reunir antecedentes relativos a determinados actos del Gobierno relacionados con la planificación, supervisión y fiscalización de las normas y reglamentos referidos a las acciones de instrucción y conscripción militar.</NombreWeb>
+    <Alias>CEI 55 instrucción militar</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio xsi:nil="true"/>
+    <FechaConstitucion xsi:nil="true"/>
+    <FechaTermino xsi:nil="true"/>
+    <Correo/>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>4581</Id>
+    <Nombre>Desaparición de la tripulación de la embarcación pesquera "Bruma" el pasado 30 de marzo de 2025</Nombre>
+    <NombreWeb>CEI 71 encargada de fiscalizar los actos de gobiernos relativos a la desaparición de la tripulación de la embarcación pesquera "Bruma" el pasado 30 de marzo de 2025</NombreWeb>
+    <Alias>Desaparición Tripulación Bruma</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio xsi:nil="true"/>
+    <FechaConstitucion xsi:nil="true"/>
+    <FechaTermino xsi:nil="true"/>
+    <Correo/>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>4701</Id>
+    <Nombre>test</Nombre>
+    <NombreWeb>test</NombreWeb>
+    <Alias>test</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio xsi:nil="true"/>
+    <FechaConstitucion xsi:nil="true"/>
+    <FechaTermino xsi:nil="true"/>
+    <Correo/>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>4483</Id>
+    <Nombre>CEI 67 compra casa expresidente Allende II</Nombre>
+    <NombreWeb>CEI 67 sobre el proceso llevado a cabo por el Ministerio de Bienes Nacionales para la adquisición de la residencia del expresidente Salvador Allende.</NombreWeb>
+    <Alias>CEI 67 compra casa S. Allende</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio xsi:nil="true"/>
+    <FechaConstitucion xsi:nil="true"/>
+    <FechaTermino xsi:nil="true"/>
+    <Correo/>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>4423</Id>
+    <Nombre>CEI 63/64 Listas de espera II</Nombre>
+    <NombreWeb>Encargada de reunir antecedentes relativos a actos del Gobierno, particularmente del Ministerio de Salud y Servicios de Salud relacionados con el manejo de las listas de espera en el sistema público de salud (Listas de espera II)</NombreWeb>
+    <Alias>Lista de espera II</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio xsi:nil="true"/>
+    <FechaConstitucion xsi:nil="true"/>
+    <FechaTermino xsi:nil="true"/>
+    <Correo/>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>4003</Id>
+    <Nombre>Eventuales irregularidades en Servicio de Impuestos Internos y Comisión para el Mercado Financiero</Nombre>
+    <NombreWeb>CEI 43 Eventuales irregularidades en Servicio de Impuestos Internos y Comisión para el Mercado Financiero</NombreWeb>
+    <Alias>CEI 43 Irregularidades en SII y CMF</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2023-12-18T20:46:54</FechaInicio>
+    <FechaConstitucion>2023-12-18T20:46:54</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo/>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>4122</Id>
+    <Nombre>CEI 48 (Incendio Región Valparaíso febrero 2024)</Nombre>
+    <NombreWeb>CEI 48 (Incendio Región Valparaíso febrero 2024)</NombreWeb>
+    <Alias>CEI 48 (Incendio Valpo 2024)</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio xsi:nil="true"/>
+    <FechaConstitucion xsi:nil="true"/>
+    <FechaTermino xsi:nil="true"/>
+    <Correo/>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>4123</Id>
+    <Nombre>CEI 49 (Incendio Región Valparaíso febrero 2024)</Nombre>
+    <NombreWeb>CEI 49 (Incendio Región Valparaíso febrero 2024)</NombreWeb>
+    <Alias>CEI 49 (Incendio Valpo 2024)</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio xsi:nil="true"/>
+    <FechaConstitucion xsi:nil="true"/>
+    <FechaTermino xsi:nil="true"/>
+    <Correo/>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>4125</Id>
+    <Nombre>CEI 51 Incendios Región Valparaíso febrero 2024</Nombre>
+    <NombreWeb>CEI 51 Incendios Región Valparaíso febrero 2024</NombreWeb>
+    <Alias>CEI 51 Incendios Valpo 2024</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio xsi:nil="true"/>
+    <FechaConstitucion xsi:nil="true"/>
+    <FechaTermino xsi:nil="true"/>
+    <Correo/>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>3624</Id>
+    <Nombre>CEI 18, 21 y 22 sobre incendios forestales</Nombre>
+    <NombreWeb>CEI 18, 21 y 22 Encargada de reunir antecedentes relativos a la gestión y reacción ante incendios forestales en el país desde 2017 a la fecha.</NombreWeb>
+    <Alias>CEI 21 Incendios 2017 a la fecha</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2023-03-22T11:49:33</FechaInicio>
+    <FechaConstitucion>2023-03-22T11:49:33</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo/>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>3843</Id>
+    <Nombre>CEI 33, 32 y 30 sobre Programa de Asentamientos Precarios del MINVU</Nombre>
+    <NombreWeb>CEI 33, 32 y 30  sobre la transferencia de recursos por medio de asignaciones directas a instituciones privadas del año 2015 a la fecha.</NombreWeb>
+    <Alias>CEI 32 Transferencias MINVU</Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2023-08-07T18:08:18</FechaInicio>
+    <FechaConstitucion>2023-08-07T18:08:18</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo/>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>3961</Id>
+    <Nombre>CEI 39 - Colector de Aguas Lluvias Reñaca Norte</Nombre>
+    <NombreWeb>CEI 39 - Colector de Aguas Lluvias Reñaca Norte</NombreWeb>
+    <Alias>CEI 39 - Aguas Lluvias </Alias>
+    <Tipo Valor="3">Especial Investigadora</Tipo>
+    <FechaInicio>2023-12-11T18:07:38</FechaInicio>
+    <FechaConstitucion>2023-12-11T18:07:38</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo/>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+  <Comision>
+    <Id>4141</Id>
+    <Nombre>Unidas de Minería y Economía por cierre temporal de operaciones Compañía Siderúrgica Huachipato S.A.</Nombre>
+    <NombreWeb>Unidas de Minería y Economía por cierre temporal de operaciones Compañía Siderúrgica Huachipato S.A.</NombreWeb>
+    <Alias>cierre temporal Huachipato S.A</Alias>
+    <Tipo Valor="4">Unida</Tipo>
+    <FechaInicio>2024-03-25T00:00:00</FechaInicio>
+    <FechaConstitucion>2024-04-04T00:00:00</FechaConstitucion>
+    <FechaTermino xsi:nil="true"/>
+    <Correo>[REDACTADO-P92]</Correo>
+    <Telefono>[REDACTADO-P92]</Telefono>
+    <Fax>[REDACTADO-P92]</Fax>
+    <Numero>0</Numero>
+  </Comision>
+</ComisionesColeccion>

@@ -1,0 +1,1 @@
+El nombre de m&#233;todo de servicios Web retornarCatalogoSufijosBoletin no es v&#225;lido.

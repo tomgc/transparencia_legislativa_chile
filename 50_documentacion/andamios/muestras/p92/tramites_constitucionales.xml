@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TramitesConstitucionalesColeccion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://opendata.camara.cl/camaradiputados/v1">
+  <TramiteConstitucional Id="1">Primer Trámite</TramiteConstitucional>
+  <TramiteConstitucional Id="2">Segundo Trámite</TramiteConstitucional>
+  <TramiteConstitucional Id="3">Tercer Trámite</TramiteConstitucional>
+  <TramiteConstitucional Id="4">Comisión Mixta</TramiteConstitucional>
+  <TramiteConstitucional Id="5">Observaciones P. De La R.</TramiteConstitucional>
+  <TramiteConstitucional Id="6">Único</TramiteConstitucional>
+</TramitesConstitucionalesColeccion>
