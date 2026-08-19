@@ -502,9 +502,16 @@ con_cache <- function(nombre_cache, fn_descarga, tope = NULL, origen = "cache",
 # Alcance: vive en el orquestador, no dentro del 39. Invocar el 39 suelto con
 # intermedios desalineados sigue fallando, y eso es correcto.
 
-# Los 6 intermedios que consume el 39 (39_consolidar_json.R:49-58).
+# Los 7 intermedios que consume el 39 (39_consolidar_json.R:49-64).
+# P-86: `tramitacion` entra aqui. Sin el, la guarda no MIRA ese intermedio, asi
+# que un tramitacion.rds desalineado no se detectaba en el punto donde hay
+# captura cruda para arreglarlo sin red, y el fallo aparecia mas tarde, en
+# validar_corte() dentro del 39, con un mensaje que manda a regenerar 32-36.
+# Medido en F0bis: el 37 regenera desde su captura versionada sin una sola
+# llamada de red y con contenido identico, igual que 32-36, asi que entra en pie
+# de igualdad con ellos y no como caso aparte.
 INTERMEDIOS_PIPELINE <- c("diputados", "asistencia_nominal", "asistencia_ambitos",
-                          "votos", "proyectos", "proyectos_detalle")
+                          "votos", "proyectos", "proyectos_detalle", "tramitacion")
 
 # P-77: rastro de arranque. Vive DENTRO de 40_salidas/intermedios/ y esta
 # gitignorado (.gitignore, junto a la linea de los .rds). Su unica funcion es
@@ -589,6 +596,11 @@ capturas_crudas_de_paso <- function(id, corte = NULL) {
     # leerse; mismo criterio que los de asistencia_long tras el retiro del legacy.
     "36" = ruta_cache(sprintf("detalle_proyectos_xml_%d", ANIO_PROCESO), Inf,
                       corte = corte),
+    # P-86: el 37 captura del SIL, que vive en otro host y por eso en otro
+    # subdirectorio (enmienda 1 de P-66). La clave replica la del propio paso
+    # (37:capturar_tramitacion); el tope es Inf porque el 37 no aplica cap propio.
+    "37" = ruta_cache(sprintf("tramitacion_sil_%d", ANIO_PROCESO), Inf,
+                      corte = corte, subdir = "senado"),
     stop(sprintf("capturas_crudas_de_paso: el paso %s no declara captura cruda.", id),
          call. = FALSE))
 }

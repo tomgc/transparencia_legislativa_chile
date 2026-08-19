@@ -51,17 +51,19 @@ PASOS <- list(
 # Pasos de EXTRACCION (los que producen los intermedios sellados). Es lo que
 # regenera la guarda de alineamiento cuando detecta el desfase de P-62; se deriva
 # de PASOS para que no exista una segunda lista de rutas que se desincronice.
-# DEUDA DECLARADA (P-66 acto b, F5). El filtro sigue en 32:36 y NO incluye el 37
-# a proposito: sumarlo obliga a extender `capturas_crudas_de_paso()` (que hace
-# stop() ante un id que no conoce) y `INTERMEDIOS_PIPELINE` (que enumera 6), y
-# ninguno de los dos esta dentro del alcance que la enmienda 1 autorizo a tocar.
-# CONSECUENCIA MEDIDA, para que nadie la descubra por sorpresa: si `tramitacion.rds`
-# queda desalineado y los otros 6 estan al dia, esta guarda no lo detecta (no lo
-# mira) y la corrida avanza hasta validar_corte() en el 39, que SI lo atrapa y
-# detiene -- pero su mensaje dice "regenera los pasos 32-36", que es la
-# instruccion equivocada: hay que correr el 37. El dato nunca se publica mal; lo
-# que falla es la ruta de recuperacion que el mensaje sugiere.
-PASOS_EXTRACCION <- Filter(function(p) p$id %in% 32:36, PASOS)
+# DEUDA CERRADA POR P-86 (sesion 22). El filtro estuvo en 32:36 y dejaba fuera al
+# 37: la guarda no lo miraba, el desalineamiento de `tramitacion.rds` aparecia
+# recien en validar_corte() dentro del 39, y su mensaje mandaba a regenerar los
+# pasos 32-36, que no producen ese intermedio.
+# Este filtro es el TERCER asiento del defecto, y el que realmente construye la
+# instruccion de recuperacion: la guarda arma esa linea con `p$ruta` de los pasos
+# que recibe (10_utils.R, regenerar_intermedios_si_desalineados), no con
+# INTERMEDIOS_PIPELINE ni con capturas_crudas_de_paso(), que solo deciden que se
+# mira y donde esta su captura. Sin extender esto, agregar el 37 a las otras dos
+# estructuras no cambiaba una sola palabra del mensaje.
+# Entra en 32:37 y no como caso aparte porque F0bis lo midio: el 37 regenera
+# desde su captura versionada sin red y con contenido identico, igual que 32-36.
+PASOS_EXTRACCION <- Filter(function(p) p$id %in% 32:37, PASOS)
 
 # ---- Funcion principal ----
 run_all <- function(from = NULL, to = NULL, only = NULL, skip = NULL) {
