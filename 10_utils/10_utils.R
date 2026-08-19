@@ -605,6 +605,108 @@ capturas_crudas_de_paso <- function(id, corte = NULL) {
          call. = FALSE))
 }
 
+# ---- Guarda estructural del registro de pasos (P-93) ------------------------
+# Un paso del pipeline queda registrado en cuatro sitios: PASOS y su campo
+# `intermedios` (00_run_all.R), PASOS_EXTRACCION (derivada de PASOS, mismo
+# archivo), INTERMEDIOS_PIPELINE y las ramas de capturas_crudas_de_paso()
+# (ambas aqui). Nada obligaba a sincronizarlos: P-66 agrego el paso 37 tocando
+# solo el primero, el sintoma tardo dos sesiones en aparecer y costo P-86.
+# Esta guarda cierra la clase entera del defecto, no el caso: compara las cuatro
+# estructuras y se detiene nombrando al paso huerfano y la estructura que le
+# falta.
+#
+# Es ESTRUCTURAL y ESTATICA: solo lee objetos de R ya cargados en memoria. No
+# toca el filesystem, no lee sellos, no llama a la red y no depende del corte.
+# Por eso corre antes que cualquier otra guarda en run_all(): un pipeline mal
+# registrado no debe llegar siquiera a mirar los sellos.
+#
+# Las ramas de capturas_crudas_de_paso() se enumeran desde `body()`, que expone
+# los nombres de rama del switch en el arbol de sintaxis ya cargado. Es la unica
+# forma de comprobar el sentido inverso (una rama que no corresponda a ningun
+# paso) sin leer el archivo, que violaria el caracter estatico de la guarda.
+verificar_registro_pasos <- function(pasos,
+                                     excepciones = PASOS_SIN_INTERMEDIO,
+                                     extraccion  = PASOS_EXTRACCION,
+                                     intermedios = INTERMEDIOS_PIPELINE) {
+  ids_pasos <- vapply(pasos, function(p) p$id, integer(1))
+  ids_ext   <- vapply(extraccion, function(p) p$id, integer(1))
+  esperados <- setdiff(ids_pasos, excepciones)
+
+  # Ramas declaradas en el switch de capturas_crudas_de_paso(), desde el AST.
+  ramas   <- names(body(capturas_crudas_de_paso)[[2]])
+  ids_cap <- suppressWarnings(as.integer(ramas[nzchar(ramas)]))
+  ids_cap <- ids_cap[!is.na(ids_cap)]
+
+  # Intermedios que cada paso declara producir (campo `intermedios` de PASOS).
+  declarados <- lapply(pasos, function(p)
+    if (is.null(p$intermedios)) character(0) else as.character(p$intermedios))
+  names(declarados) <- as.character(ids_pasos)
+  nombres_de <- function(id) {
+    v <- declarados[[as.character(id)]]
+    if (is.null(v)) character(0) else v
+  }
+
+  fallas <- character(0)
+
+  # 1) Sentido directo: todo paso esperado, en las tres estructuras.
+  for (id in esperados) {
+    nom <- nombres_de(id)
+    chk <- c(PASOS_EXTRACCION        = id %in% ids_ext,
+             INTERMEDIOS_PIPELINE    = length(nom) > 0 && all(nom %in% intermedios),
+             capturas_crudas_de_paso = id %in% ids_cap)
+    if (all(chk)) next
+    detalle <- if (length(nom) == 0)
+      "su entrada de PASOS no declara el campo `intermedios`"
+    else if (!all(nom %in% intermedios))
+      sprintf("declara %s, que no esta en INTERMEDIOS_PIPELINE",
+              paste(setdiff(nom, intermedios), collapse = ", "))
+    else ""
+    fallas <- c(fallas, sprintf(
+      "  paso %d: NO registrado en %s. %s.%s",
+      id, paste(names(chk)[!chk], collapse = ", "),
+      if (any(chk)) paste("Si lo esta en", paste(names(chk)[chk], collapse = ", "))
+      else "No lo esta en ninguna de las tres",
+      if (nzchar(detalle)) paste0(" ", detalle, ".") else ""))
+  }
+
+  # 2) Sentido inverso: registrado en alguna estructura, ausente de PASOS.
+  for (id in setdiff(ids_ext, ids_pasos))
+    fallas <- c(fallas, sprintf(
+      "  paso %d: esta en PASOS_EXTRACCION pero no existe en PASOS.", id))
+  for (id in setdiff(ids_cap, ids_pasos))
+    fallas <- c(fallas, sprintf(
+      "  paso %d: tiene rama en capturas_crudas_de_paso() pero no existe en PASOS.", id))
+  for (nm in setdiff(intermedios, unique(unlist(declarados))))
+    fallas <- c(fallas, sprintf(
+      "  intermedio '%s': esta en INTERMEDIOS_PIPELINE y ningun paso de PASOS lo declara.", nm))
+
+  # 3) Coherencia de las excepciones: no existen, o estan registradas igual.
+  for (id in setdiff(excepciones, ids_pasos))
+    fallas <- c(fallas, sprintf(
+      "  paso %d: figura en PASOS_SIN_INTERMEDIO pero no existe en PASOS.", id))
+  for (id in intersect(excepciones, ids_pasos)) {
+    donde <- c("PASOS_EXTRACCION", "capturas_crudas_de_paso",
+               "el campo `intermedios` de PASOS")[
+      c(id %in% ids_ext, id %in% ids_cap, length(nombres_de(id)) > 0)]
+    if (length(donde) > 0)
+      fallas <- c(fallas, sprintf(
+        "  paso %d: declarado SIN intermedio, pero esta registrado en %s.",
+        id, paste(donde, collapse = ", ")))
+  }
+
+  if (length(fallas) > 0)
+    stop(sprintf(paste0(
+      "verificar_registro_pasos: %d incoherencia(s) en el registro de pasos.\n%s\n",
+      "  El registro es obligatorio por defecto: un paso nuevo debe entrar en\n",
+      "  PASOS (con su campo `intermedios`) y en PASOS_EXTRACCION, ambos en\n",
+      "  00_run_all.R, y en INTERMEDIOS_PIPELINE y capturas_crudas_de_paso(),\n",
+      "  ambos en 10_utils/10_utils.R. Si el paso no produce intermedio sellado,\n",
+      "  la exclusion es explicita: sumalo a PASOS_SIN_INTERMEDIO (00_run_all.R)."),
+      length(fallas), paste(fallas, collapse = "\n")), call. = FALSE)
+
+  invisible(TRUE)
+}
+
 # Corte que declara un intermedio, SIN abortar: NA si falta el archivo o no trae
 # sello. Reusa leer_sellado() (no se escribe un segundo lector de sello); su
 # stop() se captura porque aqui "no legible" ES una de las condiciones que hay
