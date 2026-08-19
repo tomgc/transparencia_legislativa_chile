@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TramitesReglamentariosColeccion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://opendata.camara.cl/camaradiputados/v1">
+  <TramiteReglamentario Id="1">Primer Informe</TramiteReglamentario>
+  <TramiteReglamentario Id="2">Segundo Informe</TramiteReglamentario>
+  <TramiteReglamentario Id="3">Tercer Informe</TramiteReglamentario>
+  <TramiteReglamentario Id="4">Informe Observaciones</TramiteReglamentario>
+  <TramiteReglamentario Id="5">Primer Informe Complementario</TramiteReglamentario>
+  <TramiteReglamentario Id="6">Segundo Informe Complementario</TramiteReglamentario>
+  <TramiteReglamentario Id="7">Sin Informe</TramiteReglamentario>
+  <TramiteReglamentario Id="8">Informe Enmiendas Del Senado</TramiteReglamentario>
+</TramitesReglamentariosColeccion>
