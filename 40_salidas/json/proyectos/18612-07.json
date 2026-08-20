@@ -1,0 +1,91 @@
+{
+  "boletin": "18612-07",
+  "nombre": "Modifica diversos cuerpos legales para fortalecer la protección de redes de suministro de servicios públicos o domiciliarios",
+  "tipo_iniciativa": "Moción",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2026-08-14",
+  "tramitacion": {
+    "etapa_actual": "Primer trámite constitucional (C.Diputados)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2026-08-14",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-08-19",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento",
+        "sesion": "60/374"
+      },
+      {
+        "fecha": "2026-08-19",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "A solicitud del diputado Cristián Araya el proyecto quedó radicado en la comisión de Seguridad Ciudadana",
+        "sesion": "60/374"
+      },
+      {
+        "fecha": "2026-08-19",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio N° 21523. Comunica a la Comisión de Seguridad Ciudadana el acuerdo de la Sala, en orden a asignarle el proyecto de ley, radicado inicialmente en la Comisión de Constitución, Legislación, Justicia y Reglamento.",
+        "sesion": "/"
+      }
+    ]
+  },
+  "autores": [
+    {
+      "parlamentario_id": "1099",
+      "nombre": "Jaime Araya Guerrero",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1100",
+      "nombre": "Cristián Araya Lerdo de Tejada",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1117",
+      "nombre": "Nathalie Castillo Rojas",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1246",
+      "nombre": "José Antonio Rivas Villalobos",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1236",
+      "nombre": "Paula Olmos Contreras",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1207",
+      "nombre": "Valentina Cáceres Monsálvez",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1250",
+      "nombre": "Bernardo Salinas Maya",
+      "en_padron_vigente": true
+    }
+  ],
+  "votaciones": [],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-20",
+    "universo": "Los 464 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": true,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-20T02:19:28"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "boletin": "12786-12",
+  "nombre": "Modifica la ley N°20.380, sobre Protección de los animales, para regular las carreras de perros",
+  "tipo_iniciativa": "Moción",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2019-07-10",
+  "tramitacion": {
+    "etapa_actual": "Primer trámite constitucional (C.Diputados)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2019-07-10",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2019-07-24",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión Medio Ambiente y Recursos Naturales. Se remite el proyecto a la Corte Suprema.",
+        "sesion": "55/367"
+      },
+      {
+        "fecha": "2019-07-24",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio N° 14.881 a la Corte Suprema.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2019-07-24",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio N° 14.888. Por acuerdo de la Sala, remite el proyecto a la Comisión de Agricultura, Silvicultura y Desarrollo Rural.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2019-09-25",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de oficio de la Corte Suprema (N°206-2019), por el cual remite opinión sobre el proyecto (informe N°36-2019).",
+        "sesion": "77/367"
+      },
+      {
+        "fecha": "2019-12-17",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Agricultura, Silvicultura y Desarrollo Rural.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2020-01-07",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  Queda para tabla.",
+        "sesion": "135/367"
+      },
+      {
+        "fecha": "2020-01-08",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de Copia de oficio de la Comisión de Agricultura, Silvicultura y Desarrollo Rural (N° 289/2020), por el cual consulta la opinión de la Excma. Corte Suprema respecto de lo dispuesto en el artículo 14 quáter, contenido en el número 1 del artículo único del proyecto, por haber sido objeto de modificaciones.",
+        "sesion": "136/367"
+      },
+      {
+        "fecha": "2020-03-10",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de Oficio de la Excma. Corte Suprema (N°55-2020), por el cual remite nueva opinión sobre el proyecto (informe N°2-2020).",
+        "sesion": "155/367"
+      },
+      {
+        "fecha": "2026-08-18",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Rechazado .",
+        "sesion": "59/374"
+      },
+      {
+        "fecha": "2026-08-19",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio N° 21.521. Al archivo por rechazo en general del proyecto. (Art 68)",
+        "sesion": "/"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "89844",
+      "fecha": "2026-08-18T21:55:32",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": null,
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89843",
+      "fecha": "2026-08-18T21:53:29",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": null,
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    }
+  ],
+  "materias": [
+    {
+      "id": "17392",
+      "nombre": "PROTECCIÓN DE ANIMALES"
+    },
+    {
+      "id": "22183",
+      "nombre": "CARRERAS DE PERROS"
+    }
+  ],
+  "metadatos": {
+    "corte": "2026-08-20",
+    "universo": "Los 464 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": true,
+    "cobertura_ley": false,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-20T02:19:27"
+  }
+}
