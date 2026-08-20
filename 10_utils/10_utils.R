@@ -248,6 +248,13 @@ ruta_cache <- function(nombre_cache, tope = NULL, corte = NULL, subdir = "camara
 # que la enmienda 1 existe para no abrir.
 DIRECTORIOS_CRUDO <- c("camara", "senado")
 
+# Traduce la declaracion de arriba a las rutas que el bot del refresh versiona.
+# El paso "Commit en rama" de .github/workflows/refresh-semanal.yml depende de
+# esta funcion: ampliar DIRECTORIOS_CRUDO amplia lo que el bot commitea (P-99).
+rutas_versionables_crudo <- function() {
+  file.path("20_insumos", DIRECTORIOS_CRUDO)
+}
+
 # ---- Contrato temporal de la captura (P-74 acto (b), D31) -------------------
 # EL PROBLEMA (medido en el acto (a)): corte_para_clave() construye la clave del
 # archivo desde CORTE_FECHA y deliberadamente NO desde Sys.Date() (ver el

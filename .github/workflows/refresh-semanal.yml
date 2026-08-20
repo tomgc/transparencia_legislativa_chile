@@ -112,7 +112,41 @@ jobs:
           # si el commit condicional de abajo sale por 'exit 0', no hay push ni PR.
           git checkout -b "$RAMA"
           # El commit incluye el cambio de CORTE_FECHA junto con los datos.
-          git add 10_utils/10_configuracion.R 20_insumos/camara 40_salidas/json docs/data
+          # P-99: la lista de rutas de captura cruda NO vive aqui. El YAML se la
+          # pregunta a R, que ya la declara en DIRECTORIOS_CRUDO (10_utils.R), via
+          # rutas_versionables_crudo(). Dos listas que deben coincidir y nada que lo
+          # obligue es justo el defecto que esto cierra: la enumeracion a mano se
+          # quedo en el mundo previo al paso 37 y dejaba 20_insumos/senado/ sin
+          # versionar. El regimen sigue CERRADO: solo entra lo que R declara, y la
+          # validacion de mas abajo mata el job si el staged trae otra cosa.
+          RUTAS_CRUDO=$(Rscript -e 'source("10_utils/10_utils.R"); cat(rutas_versionables_crudo(), sep=" ")')
+          if [ -z "$RUTAS_CRUDO" ]; then
+            echo "rutas_versionables_crudo() devolvio vacio: un git add sin esas rutas"
+            echo "degradaria el conjunto en silencio. Abortado."
+            exit 1
+          fi
+          echo "Rutas de crudo declaradas en R: ${RUTAS_CRUDO}"
+          git add 10_utils/10_configuracion.R $RUTAS_CRUDO 40_salidas/json docs/data
+          echo "--- inventario staged ---"
+          git diff --cached --name-only | sed "s|^|  staged: |"
+          # Compuerta mecanica (P-99): ninguna ruta llega al commit sin estar
+          # declarada. .gitignore pasa a ser segunda linea de defensa, no la unica.
+          Rscript -e '
+            source("10_utils/10_utils.R")
+            permitidas <- c("10_utils/10_configuracion.R", "40_salidas/json",
+                            "docs/data", rutas_versionables_crudo())
+            staged <- system2("git", c("diff", "--cached", "--name-only"), stdout = TRUE)
+            declarada <- function(x) any(x == permitidas | startsWith(x, paste0(permitidas, "/")))
+            ok <- vapply(staged, declarada, logical(1), USE.NAMES = FALSE)
+            cat(sprintf("Validacion del staged: %d rutas, %d declaradas.\n",
+                        length(staged), sum(ok)))
+            if (any(!ok)) {
+              cat("\n### RUTA INTRUSA EN EL STAGED -> NO se publica ###\n")
+              cat(paste0("  - ", staged[!ok]), sep = "\n"); cat("\n")
+              cat("Declaradas: ", paste(permitidas, collapse = ", "), "\n", sep = "")
+              quit(status = 1)
+            }
+          '
           if git diff --cached --quiet; then
             echo "Sin cambios que commitear (corpus identico al corte previo)."
             echo "No se publica rama ni se abre PR."
