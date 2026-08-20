@@ -37,9 +37,13 @@ intrusa. `.gitignore` pasa a ser la segunda línea de defensa en vez de la únic
 | `c050dfb` | `main` (local, **sin push**) | docs: encargo P-99 v3 |
 | `de320c8` | `fix/p99-rutas-crudo-desde-r` | feat(p99): helper `rutas_versionables_crudo()` |
 | `3bbfdbd` | `fix/p99-rutas-crudo-desde-r` | fix(p99): el refresh deriva de R las rutas y valida el staged |
+| `c5e8fcb` | `fix/p99-rutas-crudo-desde-r` | docs: log de P-99 (este archivo) |
 
 `f5b3869` (merge del PR #19) llegó a `origin/main` por el merge delegado, no por
 un commit de esta corrida.
+
+PR de P-99: **#21**. PR de refresh abierto por la corrida de F2: **#20**. Ninguno
+de los dos se mergea.
 
 ## 3. F0 — estado y compuertas
 
