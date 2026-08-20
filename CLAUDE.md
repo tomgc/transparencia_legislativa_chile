@@ -55,7 +55,13 @@ estático (Fase 2) visualiza en el navegador.
 ## Estructura de archivos relevantes
 
 - `10_utils/10_utils.R` — bootstrapping, `descargar_xml_camara()`, `con_cache()`,
-  helpers de nodo XML y de llave.
+  helpers de nodo XML y de llave. Tambien `DIRECTORIOS_CRUDO` y
+  `rutas_versionables_crudo()`, la unica declaracion de que directorios de
+  `20_insumos/` son captura cruda y que rutas de ellos versiona el bot del refresh.
+- `.github/workflows/refresh-semanal.yml` — refresh semanal. Su paso de commit
+  **no enumera rutas de crudo**: se las pregunta a R con
+  `rutas_versionables_crudo()`, y valida en R que lo staged este contenido en lo
+  declarado antes de commitear (P-99).
 - `10_utils/10_configuracion.R` — rutas (`here::here()`), `ANIO_PROCESO`, topes
   de extracción, dominios canónicos, `MAPA_PARTIDO_TENDENCIA`.
 - `10_utils/10_locale.R` — `asegurar_locale_utf8()`, guarda de arranque del
@@ -95,7 +101,33 @@ estático (Fase 2) visualiza en el navegador.
 
 ## Últimos cambios (máx. 5, más recientes primero)
 
-1. **Guarda de locale UTF-8 (2026-08-13, P-59):** el proyecto no garantizaba
+1. **El refresh versiona las capturas crudas que R declara (2026-08-20, P-99):**
+   el paso de commit de `refresh-semanal.yml` enumeraba a mano las rutas que
+   versionaba y esa lista se quedo en el mundo previo al paso 37: publicaba
+   `20_insumos/camara` y dejaba fuera `20_insumos/senado`, de modo que la promesa
+   de P-65 (regenerar cualquier intermedio sin red desde la captura ya versionada)
+   no se podia cumplir para el 37. **Dos listas que debian coincidir y nada que lo
+   obligara.** Ahora hay una sola: el YAML pregunta a R via el helper nuevo
+   `rutas_versionables_crudo()` (`10_utils/10_utils.R`), que traduce
+   `DIRECTORIOS_CRUDO` a `file.path("20_insumos", DIRECTORIOS_CRUDO)`. **Ampliar
+   `DIRECTORIOS_CRUDO` amplia lo que el bot commitea**: hasta P-99 esa constante
+   solo decidia que vigilaba el contrato temporal de P-74; desde P-99 decide,
+   ademas, que publica el bot. Se descarto ampliar el `git add` al directorio
+   completo porque invertia el regimen de fallo (con enumeracion solo entra lo
+   nombrado; con el directorio entra todo lo no excluido, y al otro lado hay
+   respuestas de sondeo con padron nominal del Senado que el proyecto ya fallo en
+   contra de publicar). El helper deriva de una **constante nominada**, no del
+   disco, y entre el `git add` y el `git commit` una compuerta en R exige que todo
+   lo staged caiga bajo lo declarado y mata el job nombrando la ruta intrusa:
+   `.gitignore` pasa a segunda linea de defensa en vez de unica. Probada en las dos
+   direcciones (calla con 5/5 declaradas; con un intruso bajo `territorio/` sale en
+   1 y lo nombra). Corrida real desde la rama, verde en 18,5 min: `senado` paso de
+   3 a 5 archivos trackeados y `territorio` quedo en 2, con
+   `Validacion del staged: 1251 rutas, 1251 declaradas`. Pendiente declarado
+   (P-102): `ruta_cache()` y la rama 37 de `capturas_crudas_de_paso()` siguen con
+   literales de subdirectorio. Rama `fix/p99-rutas-crudo-desde-r`, **mergeada en
+   `main` por el PR #21**.
+2. **Guarda de locale UTF-8 (2026-08-13, P-59):** el proyecto no garantizaba
    locale UTF-8 en el arranque, defecto que en otro repo de la cartera escribió
    escapado todo el texto acentuado de una corrida completa. Nuevo
    `10_utils/10_locale.R` con `asegurar_locale_utf8()`, copia byte a byte de la
@@ -121,7 +153,7 @@ estático (Fase 2) visualiza en el navegador.
    9 de 9 criterios CUMPLE. Marcador del gatillo:
    `50_documentacion/activa/50_locale_utf8.md`. Rama `chore/p59-locale-utf8`,
    **mergeada en `main` por el PR #12**.
-2. **Escape de arranque consumible y rastro de arranque (2026-08-12, P-76 y P-77):**
+3. **Escape de arranque consumible y rastro de arranque (2026-08-12, P-76 y P-77):**
    las dos deudas del PR #9, en la misma función. **P-76:**
    `camara.permitir_descarga_inicial` quedaba encendida después de usarse, así que
    autorizar un caso autorizaba todo lo que siguiera en esa sesión de `run_all()`.
@@ -145,7 +177,7 @@ estático (Fase 2) visualiza en el navegador.
    corrigió la primera línea del `stop()` de la guarda, que agregaba desalineados
    presentes y ausentes en una sola cifra. Rama `fix/p76-p77-guarda-arranque`,
    **mergeada en `main` por el PR #11**.
-3. **Captura XML cruda del 36 y nodo `Votaciones` (2026-08-08, P-63):** el paso 36
+4. **Captura XML cruda del 36 y nodo `Votaciones` (2026-08-08, P-63):** el paso 36
    cacheaba el tibble **ya parseado** dentro de la carpeta de dato crudo, así que el
    nodo `Votaciones` se perdía al parsear y la guarda de P-65 prometía regenerar sin
    red algo que solo podía reproducir con los campos que el parser de ese día
@@ -161,7 +193,7 @@ estático (Fase 2) visualiza en el navegador.
    `metadatos.generado`. 12/12 criterios, panel adversarial 4/4. Rama
    `feat/captura-xml-y-nodo-votaciones`, **mergeada en `main` por el PR #7**
    (`17af73c`).
-4. **Autorregeneración de intermedios (2026-08-08, P-65):** `run_all()` deja de
+5. **Autorregeneración de intermedios (2026-08-08, P-65):** `run_all()` deja de
    depender de la memoria del operador para resolver el desfase que documentó P-62
    (los intermedios están gitignored, el corte sí viaja, y toda copia local queda
    desalineada tras cada merge del bot). Nueva guarda
@@ -177,20 +209,6 @@ estático (Fase 2) visualiza en el navegador.
    dato publicado idéntico (156/156, excluido `metadatos.generado`). Rama
    `fix/autorregeneracion-intermedios`, **mergeada en `main` por el PR #6**
    (`f1584b8`).
-5. **Capa 3 — asistencia simétrica (2026-07-25):** el `33` deja de descartar el
-   nodo `Justificacion` y persiste dos intermedios nuevos: `asistencia_nominal.rds`
-   (una fila por diputado × sesión, con fecha, tipo de sesión, código y glosa de
-   justificación y las dos rebajas) y `asistencia_ambitos.rds` (6 conteos + 2 tasas
-   por ámbito). El `39` los publica dentro del bloque `asistencia` —
-   `alcance_temporal`, `periodo_vigente`, `en_ejercicio`, `sesiones[]` — y agrega
-   `tasa_presencia` al índice; los 5 campos legacy quedan idénticos en 155/155
-   (verificado contra `git show ac177be:`). Ámbito `periodo_vigente` con
-   denominador común 48 desde la instalación del periodo (2026-03-11, dato de
-   `retornarPeriodoLegislativoActual`, no hardcodeado). Las rebajas se persisten
-   pero no entran en ninguna fórmula (semántica no documentada). `docs/data`
-   +5,85 %. Panel adversarial 4/4. Rama `feat/capa3-asistencia` (sin merge, gate
-   del titular); `docs/index.html` sin tocar.
-
 <!-- CANONICO_SLEP:INICIO v2 -->
 ## 1. Identidad y prioridades
 
