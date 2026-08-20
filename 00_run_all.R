@@ -29,24 +29,42 @@ source(file.path(ROOT, "10_utils", "10_configuracion.R"))
 
 # ---- Definicion de pasos ----
 # El id refleja el numero de sub-etapa en 30_procesamiento/ (POLITICA 1.2).
+# `intermedios` (P-93) nombra los .rds sellados que el paso ESCRIBE en
+# 40_salidas/intermedios/, sin la extension. Se declara aqui, en la misma linea
+# en que se declara el paso, para que agregar un paso y registrar su intermedio
+# sean el mismo acto: es el campo contra el que verificar_registro_pasos()
+# compara INTERMEDIOS_PIPELINE. Ojo: el 33 LEE diputados.rds (lo escribe el 32) y
+# escribe los dos de asistencia; lo que va aqui es lo que escribe, no lo que lee.
 PASOS <- list(
   list(id = 32L, etiqueta = "Extraer diputados (roster vigente)",
-       ruta = "30_procesamiento/32_extraer_diputados.R"),
+       ruta = "30_procesamiento/32_extraer_diputados.R",
+       intermedios = "diputados"),
   list(id = 33L, etiqueta = "Extraer asistencia a sesiones",
-       ruta = "30_procesamiento/33_extraer_asistencia.R"),
+       ruta = "30_procesamiento/33_extraer_asistencia.R",
+       intermedios = c("asistencia_nominal", "asistencia_ambitos")),
   list(id = 34L, etiqueta = "Extraer votaciones nominales",
-       ruta = "30_procesamiento/34_extraer_votaciones.R"),
+       ruta = "30_procesamiento/34_extraer_votaciones.R",
+       intermedios = "votos"),
   list(id = 35L, etiqueta = "Extraer proyectos (mociones)",
-       ruta = "30_procesamiento/35_extraer_proyectos.R"),
+       ruta = "30_procesamiento/35_extraer_proyectos.R",
+       intermedios = "proyectos"),
   list(id = 36L, etiqueta = "Extraer detalle de proyectos (contenido: tipo, materias)",
-       ruta = "30_procesamiento/36_extraer_detalle_proyectos.R"),
+       ruta = "30_procesamiento/36_extraer_detalle_proyectos.R",
+       intermedios = "proyectos_detalle"),
   # 37 va DESPUES del 36 y ANTES del 39: consume el universo congelado que dejan
   # 34 y 35, y su intermedio lo lee el 39 para publicar la entidad `proyecto`.
   list(id = 37L, etiqueta = "Extraer tramitacion (SIL, bicameral)",
-       ruta = "30_procesamiento/37_extraer_tramitacion.R"),
+       ruta = "30_procesamiento/37_extraer_tramitacion.R",
+       intermedios = "tramitacion"),
   list(id = 39L, etiqueta = "Consolidar JSON estatico",
        ruta = "30_procesamiento/39_consolidar_json.R")
 )
+
+# Pasos que NO producen intermedio sellado y por tanto NO se registran en las
+# estructuras de la guarda. Es una lista de EXCEPCIONES: el registro es
+# obligatorio por defecto, de modo que un paso nuevo falla ruidosamente hasta
+# que alguien decida conscientemente excluirlo.
+PASOS_SIN_INTERMEDIO <- c(39L)
 
 # Pasos de EXTRACCION (los que producen los intermedios sellados). Es lo que
 # regenera la guarda de alineamiento cuando detecta el desfase de P-62; se deriva
@@ -89,6 +107,14 @@ run_all <- function(from = NULL, to = NULL, only = NULL, skip = NULL) {
   for (p in PASOS) if (!file_exists(path(ROOT, p$ruta))) faltantes <- c(faltantes, p$ruta)
   if (length(faltantes) > 0)
     stop("Rutas no encontradas:\n  ", paste(faltantes, collapse = "\n  "))
+
+  # Guarda estructural del registro de pasos (P-93). Va PRIMERO, antes de la
+  # guarda de alineamiento: un pipeline mal registrado no debe llegar siquiera a
+  # mirar los sellos, porque la guarda de P-65 solo vigila los pasos que recibe y
+  # un paso huerfano es justamente el que no le llega. No toca disco ni red:
+  # compara PASOS, PASOS_EXTRACCION, INTERMEDIOS_PIPELINE y las ramas de
+  # capturas_crudas_de_paso(). En silencio si todo esta sincronizado.
+  verificar_registro_pasos(PASOS)
 
   # Guarda de alineamiento de intermedios (P-65). PUNTO UNICO: aqui pasan las
   # cuatro formas de invocacion (from/to/only/skip), despues de validar rutas y
