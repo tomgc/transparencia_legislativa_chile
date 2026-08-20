@@ -1,0 +1,149 @@
+{
+  "boletin": "17324-33",
+  "nombre": "Modifica el Código de Aguas para garantizar la participación de comités y cooperativas de agua potable rural, prestadoras de servicios sanitarios rurales, en los directorios de las comunidades de agua",
+  "tipo_iniciativa": "Moción",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2024-12-26",
+  "tramitacion": {
+    "etapa_actual": "Primer trámite constitucional (C.Diputados)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2024-12-26",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-01-07",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Recursos Hídricos y Desertificación.",
+        "sesion": "124/372"
+      },
+      {
+        "fecha": "2025-01-07",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "A petición  del diputado señor Coloma, la Sala acordó remitir el proyecto a la Comisión de Agricultura, Silvicultura y Desarrollo Rural, una vez que sea despachado por la Comisión de Recursos Hídricos.",
+        "sesion": "124/372"
+      },
+      {
+        "fecha": "2025-01-07",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio N°20134. Comunica a la Comisión de Agricultura la asignación del proyecto de ley una vez despachado por la Comisión de Recursos Hídricos.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-01-07",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio N°20135. Comunica a la Comisión de Recursos Hidricos que la Sala accedió a la solicitud del diputado Juan Antonio Coloma para remitir el proyecto de ley a la Comisión de Agricultura, con posterioridad a su despacho.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-01-22",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta, Oficio de la Comisión de Recursos Hídricos y Desertificación (N° 517/2025), por el cual solicita recabar el acuerdo de la Sala para refundir los proyectos, iniciados en moción, contenidos en los boletines N°s 17324-33 y 17325-33. ACORDADO.",
+        "sesion": "132/372"
+      },
+      {
+        "fecha": "2025-01-22",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio N°20.207. Comunica que la Cámara de Diputados acordó la fusión de los proyectos correspondientes a los boletines Nos. 17.324-33 y 17.325-33.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-07-30",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Recursos Hídricos y Desertificación. Pasa a Comisión de Agricultura, Silvicultura y Desarrollo Rural",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-08-13",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  (Recursos Hídricos). Pasa a Agricultura.",
+        "sesion": "59/373"
+      },
+      {
+        "fecha": "2026-01-05",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Agricultura, Silvicultura y Desarrollo Rural.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-05",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Agricultura, Silvicultura y Desarrollo Rural.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-05",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  (Agricultura). Queda para tabla.",
+        "sesion": "105/373"
+      },
+      {
+        "fecha": "2026-04-15",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Queda pendiente .",
+        "sesion": "13/374"
+      },
+      {
+        "fecha": "2026-07-20",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Queda pendiente .",
+        "sesion": "45/374"
+      },
+      {
+        "fecha": "2026-08-19",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general .",
+        "sesion": "60/374"
+      },
+      {
+        "fecha": "2026-08-19",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio N°21.533. Remite las indicaciones presentadas durante la discusión general en Sala.",
+        "sesion": "/"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "89867",
+      "fecha": "2026-08-19T13:33:43",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": null,
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-20",
+    "universo": "Los 464 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-20T02:19:27"
+  }
+}
