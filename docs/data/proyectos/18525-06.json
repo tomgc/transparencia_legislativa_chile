@@ -1,0 +1,169 @@
+{
+  "boletin": "18525-06",
+  "nombre": "Modifica la ley N° 21.802, que fortalece la institucionalidad municipal en materia de seguridad pública y prevención del delito",
+  "tipo_iniciativa": "Mensaje",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2026-08-04",
+  "tramitacion": {
+    "etapa_actual": "Segundo trámite constitucional (Senado)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2026-08-04",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .  Incluye IF N° 187/04.08.2026.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-08-04",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Texto del Mensaje.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-08-04",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Gobierno Interior, Nacionalidad, Ciudadanía y Regionalización.",
+        "sesion": "50/374"
+      },
+      {
+        "fecha": "2026-08-04",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 230-374 que hace presente la urgencia Discusión inmediata",
+        "sesion": "50/374"
+      },
+      {
+        "fecha": "2026-08-11",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "S.E. el Presidente de la República formula indicación al proyecto. (136-374). Incluye informe financiero complementario N° 195/11.08.2026.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-08-11",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 248-374 que retira la urgencia Discusión inmediata",
+        "sesion": "54/374"
+      },
+      {
+        "fecha": "2026-08-11",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 250-374 que hace presente la urgencia Discusión inmediata",
+        "sesion": "54/374"
+      },
+      {
+        "fecha": "2026-08-17",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Gobierno Interior Nacionalidad Ciudadanía y Regionalización.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-08-17",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  Queda para tabla.",
+        "sesion": "57/374"
+      },
+      {
+        "fecha": "2026-08-18",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 265-374 que hace presente la urgencia Discusión inmediata",
+        "sesion": "58/374"
+      },
+      {
+        "fecha": "2026-08-18",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular a la vez .",
+        "sesion": "58/374"
+      },
+      {
+        "fecha": "2026-08-18",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio de ley a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-08-18",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Gobierno, Descentralización y Regionalización",
+        "sesion": "51/374"
+      },
+      {
+        "fecha": "2026-08-18",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "La Sala acuerda que el proyecto sea conocido por la Comisión de Seguridad Pública, una vez que sea despachado por la Comisión de Gobierno, Descentralización y Regionalización",
+        "sesion": "51/374"
+      },
+      {
+        "fecha": "2026-08-19",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 279-374 que retira y hace presente la urgencia Suma",
+        "sesion": "52/374"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "89817",
+      "fecha": "2026-08-18T13:24:39",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Votación particular del inciso noveno incorporado por el numeral 1 del artículo único del proyecto, cuya votación separada ha sido solicitada por los diputados Javier Olivares y Álvaro Jofré, que consta en las páginas 6 y 7 del comparado, y que requieren para su aprobación del voto favorable de 78 diputadas y diputados, por tratarse de normas de rango orgánico constitucional.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89816",
+      "fecha": "2026-08-18T13:23:32",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Votación particular del inciso octavo incorporado por el numeral 1 del artículo único del proyecto, cuya votación separada ha sido solicitada por el diputado Javier Olivares, que consta en la página 6 del comparado, y que requiere para su aprobación del voto favorable de 78 diputadas y diputados, por tratarse de normas de rango orgánico constitucional.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89815",
+      "fecha": "2026-08-18T13:22:00",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": null,
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89814",
+      "fecha": "2026-08-18T13:21:12",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": null,
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-20",
+    "universo": "Los 464 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-20T02:19:28"
+  }
+}

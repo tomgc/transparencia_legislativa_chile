@@ -9,8 +9,8 @@
     "region": "Región Metropolitana de Santiago",
     "tendencia": "derecha",
     "n_proyectos": 6,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.983050847457627
+    "n_votaciones": 892,
+    "tasa_presencia": 0.983870967741935
   },
   {
     "id": "1257",
@@ -22,8 +22,8 @@
     "region": "Región de Aysén del General Carlos Ibáñez del Campo",
     "tendencia": "derecha",
     "n_proyectos": 18,
-    "n_votaciones": 539,
-    "tasa_presencia": 0.966101694915254
+    "n_votaciones": 580,
+    "tasa_presencia": 0.967741935483871
   },
   {
     "id": "1013",
@@ -34,8 +34,8 @@
     "distrito": 26,
     "region": "Región de Los Lagos",
     "tendencia": "centroizquierda",
-    "n_proyectos": 16,
-    "n_votaciones": 851,
+    "n_proyectos": 17,
+    "n_votaciones": 892,
     "tasa_presencia": 1
   },
   {
@@ -48,7 +48,7 @@
     "region": "Región de Magallanes y de la Antártica Chilena",
     "tendencia": "derecha",
     "n_proyectos": 5,
-    "n_votaciones": 539,
+    "n_votaciones": 580,
     "tasa_presencia": 1
   },
   {
@@ -60,8 +60,8 @@
     "distrito": 26,
     "region": "Región de Los Lagos",
     "tendencia": "centro",
-    "n_proyectos": 10,
-    "n_votaciones": 539,
+    "n_proyectos": 13,
+    "n_votaciones": 580,
     "tasa_presencia": 1
   },
   {
@@ -73,9 +73,9 @@
     "distrito": 12,
     "region": "Región Metropolitana de Santiago",
     "tendencia": "izquierda",
-    "n_proyectos": 31,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.88135593220339
+    "n_proyectos": 32,
+    "n_votaciones": 892,
+    "tasa_presencia": 0.870967741935484
   },
   {
     "id": "1222",
@@ -86,9 +86,9 @@
     "distrito": 27,
     "region": "Región de Aysén del General Carlos Ibáñez del Campo",
     "tendencia": "centroizquierda",
-    "n_proyectos": 7,
-    "n_votaciones": 539,
-    "tasa_presencia": 0.966101694915254
+    "n_proyectos": 9,
+    "n_votaciones": 580,
+    "tasa_presencia": 0.967741935483871
   },
   {
     "id": "1061",
@@ -99,8 +99,8 @@
     "distrito": 22,
     "region": "Región de La Araucanía",
     "tendencia": "centroizquierda",
-    "n_proyectos": 19,
-    "n_votaciones": 539,
+    "n_proyectos": 20,
+    "n_votaciones": 580,
     "tasa_presencia": 1
   },
   {
@@ -112,9 +112,9 @@
     "distrito": 7,
     "region": "Región de Valparaíso",
     "tendencia": "centroderecha",
-    "n_proyectos": 23,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.932203389830508
+    "n_proyectos": 24,
+    "n_votaciones": 892,
+    "tasa_presencia": 0.935483870967742
   },
   {
     "id": "1221",
@@ -126,7 +126,7 @@
     "region": "Región de Valparaíso",
     "tendencia": "derecha",
     "n_proyectos": 2,
-    "n_votaciones": 539,
+    "n_votaciones": 580,
     "tasa_presencia": 1
   },
   {
@@ -139,7 +139,7 @@
     "region": "Región del Maule",
     "tendencia": "derecha",
     "n_proyectos": 5,
-    "n_votaciones": 851,
+    "n_votaciones": 892,
     "tasa_presencia": 1
   },
   {
@@ -151,9 +151,9 @@
     "distrito": 5,
     "region": "Región de Coquimbo",
     "tendencia": null,
-    "n_proyectos": 6,
-    "n_votaciones": 539,
-    "tasa_presencia": 0.88135593220339
+    "n_proyectos": 11,
+    "n_votaciones": 580,
+    "tasa_presencia": 0.887096774193548
   },
   {
     "id": "1012",
@@ -165,8 +165,8 @@
     "region": "Región Metropolitana de Santiago",
     "tendencia": "izquierda",
     "n_proyectos": 9,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.983050847457627
+    "n_votaciones": 892,
+    "tasa_presencia": 0.983870967741935
   },
   {
     "id": "1187",
@@ -177,8 +177,8 @@
     "distrito": 3,
     "region": "Región de Antofagasta",
     "tendencia": "derecha",
-    "n_proyectos": 3,
-    "n_votaciones": 539,
+    "n_proyectos": 4,
+    "n_votaciones": 580,
     "tasa_presencia": 1
   },
   {
@@ -190,9 +190,9 @@
     "distrito": 28,
     "region": "Región de Magallanes y de la Antártica Chilena",
     "tendencia": null,
-    "n_proyectos": 16,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.966101694915254
+    "n_proyectos": 17,
+    "n_votaciones": 892,
+    "tasa_presencia": 0.967741935483871
   },
   {
     "id": "1195",
@@ -203,9 +203,9 @@
     "distrito": 2,
     "region": "Región de Tarapacá",
     "tendencia": null,
-    "n_proyectos": 16,
-    "n_votaciones": 539,
-    "tasa_presencia": 0.983050847457627
+    "n_proyectos": 20,
+    "n_votaciones": 580,
+    "tasa_presencia": 0.983870967741935
   },
   {
     "id": "1197",
@@ -216,8 +216,8 @@
     "distrito": 19,
     "region": "Región de Ñuble",
     "tendencia": "centroderecha",
-    "n_proyectos": 15,
-    "n_votaciones": 539,
+    "n_proyectos": 18,
+    "n_votaciones": 580,
     "tasa_presencia": 1
   },
   {
@@ -229,9 +229,9 @@
     "distrito": 9,
     "region": "Región Metropolitana de Santiago",
     "tendencia": "centroizquierda",
-    "n_proyectos": 20,
-    "n_votaciones": 539,
-    "tasa_presencia": 0.949152542372881
+    "n_proyectos": 21,
+    "n_votaciones": 580,
+    "tasa_presencia": 0.951612903225806
   },
   {
     "id": "1206",
@@ -242,8 +242,8 @@
     "distrito": 16,
     "region": "Región del Libertador General Bernardo O'Higgins",
     "tendencia": null,
-    "n_proyectos": 12,
-    "n_votaciones": 539,
+    "n_proyectos": 15,
+    "n_votaciones": 580,
     "tasa_presencia": 1
   },
   {
@@ -255,8 +255,8 @@
     "distrito": 5,
     "region": "Región de Coquimbo",
     "tendencia": "izquierda",
-    "n_proyectos": 18,
-    "n_votaciones": 851,
+    "n_proyectos": 19,
+    "n_votaciones": 892,
     "tasa_presencia": 1
   },
   {
@@ -269,8 +269,8 @@
     "region": "Región Metropolitana de Santiago",
     "tendencia": "derecha",
     "n_proyectos": 8,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.864406779661017
+    "n_votaciones": 892,
+    "tasa_presencia": 0.870967741935484
   },
   {
     "id": "1104",
@@ -282,8 +282,8 @@
     "region": "Región de Valparaíso",
     "tendencia": "derecha",
     "n_proyectos": 9,
-    "n_votaciones": 851,
-    "tasa_presencia": 1
+    "n_votaciones": 892,
+    "tasa_presencia": 0.967741935483871
   },
   {
     "id": "1227",
@@ -294,9 +294,9 @@
     "distrito": 11,
     "region": "Región Metropolitana de Santiago",
     "tendencia": "centroderecha",
-    "n_proyectos": 21,
-    "n_votaciones": 539,
-    "tasa_presencia": 0.966101694915254
+    "n_proyectos": 23,
+    "n_votaciones": 580,
+    "tasa_presencia": 0.967741935483871
   },
   {
     "id": "1244",
@@ -308,8 +308,8 @@
     "region": "Región de Los Lagos",
     "tendencia": "derecha",
     "n_proyectos": 7,
-    "n_votaciones": 539,
-    "tasa_presencia": 1
+    "n_votaciones": 580,
+    "tasa_presencia": 0.951612903225806
   },
   {
     "id": "1153",
@@ -321,8 +321,8 @@
     "region": "Región de La Araucanía",
     "tendencia": "izquierda",
     "n_proyectos": 13,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.559322033898305
+    "n_votaciones": 892,
+    "tasa_presencia": 0.532258064516129
   },
   {
     "id": "1214",
@@ -334,7 +334,7 @@
     "region": "Región Metropolitana de Santiago",
     "tendencia": "derecha",
     "n_proyectos": 4,
-    "n_votaciones": 539,
+    "n_votaciones": 580,
     "tasa_presencia": 1
   },
   {
@@ -346,9 +346,9 @@
     "distrito": 11,
     "region": "Región Metropolitana de Santiago",
     "tendencia": "izquierda",
-    "n_proyectos": 6,
-    "n_votaciones": 539,
-    "tasa_presencia": 1
+    "n_proyectos": 7,
+    "n_votaciones": 580,
+    "tasa_presencia": 0.967741935483871
   },
   {
     "id": "1180",
@@ -359,9 +359,9 @@
     "distrito": 18,
     "region": "Región del Maule",
     "tendencia": "izquierda",
-    "n_proyectos": 20,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.966101694915254
+    "n_proyectos": 21,
+    "n_votaciones": 892,
+    "tasa_presencia": 0.967741935483871
   },
   {
     "id": "1200",
@@ -372,9 +372,9 @@
     "distrito": 8,
     "region": "Región Metropolitana de Santiago",
     "tendencia": "centro",
-    "n_proyectos": 11,
-    "n_votaciones": 539,
-    "tasa_presencia": 0.966101694915254
+    "n_proyectos": 12,
+    "n_votaciones": 580,
+    "tasa_presencia": 0.967741935483871
   },
   {
     "id": "1224",
@@ -385,8 +385,8 @@
     "distrito": 6,
     "region": "Región de Valparaíso",
     "tendencia": "centro",
-    "n_proyectos": 17,
-    "n_votaciones": 539,
+    "n_proyectos": 18,
+    "n_votaciones": 580,
     "tasa_presencia": 1
   },
   {
@@ -399,7 +399,7 @@
     "region": "Región del Maule",
     "tendencia": null,
     "n_proyectos": 2,
-    "n_votaciones": 539,
+    "n_votaciones": 580,
     "tasa_presencia": 1
   },
   {
@@ -412,8 +412,8 @@
     "region": "Región de La Araucanía",
     "tendencia": "derecha",
     "n_proyectos": 4,
-    "n_votaciones": 539,
-    "tasa_presencia": 0.983050847457627
+    "n_votaciones": 580,
+    "tasa_presencia": 0.983870967741935
   },
   {
     "id": "1100",
@@ -424,9 +424,9 @@
     "distrito": 11,
     "region": "Región Metropolitana de Santiago",
     "tendencia": "derecha",
-    "n_proyectos": 9,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.915254237288136
+    "n_proyectos": 11,
+    "n_votaciones": 892,
+    "tasa_presencia": 0.919354838709677
   },
   {
     "id": "1175",
@@ -437,9 +437,9 @@
     "distrito": 4,
     "region": "Región de Atacama",
     "tendencia": null,
-    "n_proyectos": 15,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.864406779661017
+    "n_proyectos": 16,
+    "n_votaciones": 892,
+    "tasa_presencia": 0.870967741935484
   },
   {
     "id": "1143",
@@ -451,8 +451,8 @@
     "region": "Región de Ñuble",
     "tendencia": "derecha",
     "n_proyectos": 18,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.949152542372881
+    "n_votaciones": 892,
+    "tasa_presencia": 0.951612903225806
   },
   {
     "id": "1082",
@@ -463,9 +463,9 @@
     "distrito": 21,
     "region": "Región del Biobío",
     "tendencia": "derecha",
-    "n_proyectos": 11,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.949152542372881
+    "n_proyectos": 12,
+    "n_votaciones": 892,
+    "tasa_presencia": 0.951612903225806
   },
   {
     "id": "1260",
@@ -477,7 +477,7 @@
     "region": "Región Metropolitana de Santiago",
     "tendencia": "centroizquierda",
     "n_proyectos": 11,
-    "n_votaciones": 539,
+    "n_votaciones": 580,
     "tasa_presencia": 1
   },
   {
@@ -490,7 +490,7 @@
     "region": "Región del Maule",
     "tendencia": "derecha",
     "n_proyectos": 3,
-    "n_votaciones": 539,
+    "n_votaciones": 580,
     "tasa_presencia": 1
   },
   {
@@ -503,8 +503,8 @@
     "region": "Región de Los Lagos",
     "tendencia": "derecha",
     "n_proyectos": 16,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.983050847457627
+    "n_votaciones": 892,
+    "tasa_presencia": 0.983870967741935
   },
   {
     "id": "1142",
@@ -516,8 +516,8 @@
     "region": "Región de Coquimbo",
     "tendencia": "centroizquierda",
     "n_proyectos": 8,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.949152542372881
+    "n_votaciones": 892,
+    "tasa_presencia": 0.951612903225806
   },
   {
     "id": "1261",
@@ -528,9 +528,9 @@
     "distrito": 24,
     "region": "Región de Los Ríos",
     "tendencia": null,
-    "n_proyectos": 19,
-    "n_votaciones": 539,
-    "tasa_presencia": 0.932203389830508
+    "n_proyectos": 25,
+    "n_votaciones": 580,
+    "tasa_presencia": 0.935483870967742
   },
   {
     "id": "1173",
@@ -541,9 +541,9 @@
     "distrito": 12,
     "region": "Región Metropolitana de Santiago",
     "tendencia": "izquierda",
-    "n_proyectos": 12,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.983050847457627
+    "n_proyectos": 13,
+    "n_votaciones": 892,
+    "tasa_presencia": 0.983870967741935
   },
   {
     "id": "1075",
@@ -554,9 +554,9 @@
     "distrito": 11,
     "region": "Región Metropolitana de Santiago",
     "tendencia": "centroderecha",
-    "n_proyectos": 23,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.949152542372881
+    "n_proyectos": 24,
+    "n_votaciones": 892,
+    "tasa_presencia": 0.935483870967742
   },
   {
     "id": "1262",
@@ -567,9 +567,9 @@
     "distrito": 14,
     "region": "Región Metropolitana de Santiago",
     "tendencia": "derecha",
-    "n_proyectos": 3,
-    "n_votaciones": 539,
-    "tasa_presencia": 0.983050847457627
+    "n_proyectos": 4,
+    "n_votaciones": 580,
+    "tasa_presencia": 0.983870967741935
   },
   {
     "id": "1202",
@@ -581,7 +581,7 @@
     "region": "Región de La Araucanía",
     "tendencia": "derecha",
     "n_proyectos": 14,
-    "n_votaciones": 539,
+    "n_votaciones": 580,
     "tasa_presencia": 1
   },
   {
@@ -593,8 +593,8 @@
     "distrito": 13,
     "region": "Región Metropolitana de Santiago",
     "tendencia": "centroderecha",
-    "n_proyectos": 30,
-    "n_votaciones": 851,
+    "n_proyectos": 31,
+    "n_votaciones": 892,
     "tasa_presencia": 1
   },
   {
@@ -606,9 +606,9 @@
     "distrito": 5,
     "region": "Región de Coquimbo",
     "tendencia": "centro",
-    "n_proyectos": 14,
-    "n_votaciones": 539,
-    "tasa_presencia": 0.983050847457627
+    "n_proyectos": 16,
+    "n_votaciones": 580,
+    "tasa_presencia": 0.983870967741935
   },
   {
     "id": "1056",
@@ -619,8 +619,8 @@
     "distrito": 25,
     "region": "Región de Los Lagos",
     "tendencia": "centroizquierda",
-    "n_proyectos": 8,
-    "n_votaciones": 851,
+    "n_proyectos": 10,
+    "n_votaciones": 892,
     "tasa_presencia": 1
   },
   {
@@ -633,8 +633,8 @@
     "region": "Región Metropolitana de Santiago",
     "tendencia": "izquierda",
     "n_proyectos": 10,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.966101694915254
+    "n_votaciones": 892,
+    "tasa_presencia": 0.967741935483871
   },
   {
     "id": "1190",
@@ -645,8 +645,8 @@
     "distrito": 8,
     "region": "Región Metropolitana de Santiago",
     "tendencia": null,
-    "n_proyectos": 11,
-    "n_votaciones": 539,
+    "n_proyectos": 13,
+    "n_votaciones": 580,
     "tasa_presencia": 1
   },
   {
@@ -658,9 +658,9 @@
     "distrito": 5,
     "region": "Región de Coquimbo",
     "tendencia": "derecha",
-    "n_proyectos": 3,
-    "n_votaciones": 539,
-    "tasa_presencia": 0.898305084745763
+    "n_proyectos": 4,
+    "n_votaciones": 580,
+    "tasa_presencia": 0.903225806451613
   },
   {
     "id": "1239",
@@ -672,8 +672,8 @@
     "region": "Región de Antofagasta",
     "tendencia": "centro",
     "n_proyectos": 14,
-    "n_votaciones": 539,
-    "tasa_presencia": 1
+    "n_votaciones": 580,
+    "tasa_presencia": 0.967741935483871
   },
   {
     "id": "1116",
@@ -685,8 +685,8 @@
     "region": "Región de Ñuble",
     "tendencia": null,
     "n_proyectos": 24,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.966101694915254
+    "n_votaciones": 892,
+    "tasa_presencia": 0.935483870967742
   },
   {
     "id": "1248",
@@ -698,8 +698,8 @@
     "region": "Región Metropolitana de Santiago",
     "tendencia": "derecha",
     "n_proyectos": 5,
-    "n_votaciones": 539,
-    "tasa_presencia": 0.966101694915254
+    "n_votaciones": 580,
+    "tasa_presencia": 0.967741935483871
   },
   {
     "id": "1253",
@@ -711,7 +711,7 @@
     "region": "Región del Libertador General Bernardo O'Higgins",
     "tendencia": "derecha",
     "n_proyectos": 5,
-    "n_votaciones": 539,
+    "n_votaciones": 580,
     "tasa_presencia": 1
   },
   {
@@ -723,9 +723,9 @@
     "distrito": 15,
     "region": "Región del Libertador General Bernardo O'Higgins",
     "tendencia": "centroizquierda",
-    "n_proyectos": 12,
-    "n_votaciones": 539,
-    "tasa_presencia": 0.932203389830508
+    "n_proyectos": 14,
+    "n_votaciones": 580,
+    "tasa_presencia": 0.935483870967742
   },
   {
     "id": "1201",
@@ -737,7 +737,7 @@
     "region": "Región de La Araucanía",
     "tendencia": "centro",
     "n_proyectos": 14,
-    "n_votaciones": 539,
+    "n_votaciones": 580,
     "tasa_presencia": 1
   },
   {
@@ -750,8 +750,8 @@
     "region": "Región del Biobío",
     "tendencia": "derecha",
     "n_proyectos": 12,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.932203389830508
+    "n_votaciones": 892,
+    "tasa_presencia": 0.935483870967742
   },
   {
     "id": "1054",
@@ -762,9 +762,9 @@
     "distrito": 20,
     "region": "Región del Biobío",
     "tendencia": "derecha",
-    "n_proyectos": 10,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.983050847457627
+    "n_proyectos": 11,
+    "n_votaciones": 892,
+    "tasa_presencia": 0.983870967741935
   },
   {
     "id": "1204",
@@ -775,8 +775,8 @@
     "distrito": 19,
     "region": "Región de Ñuble",
     "tendencia": "centroizquierda",
-    "n_proyectos": 4,
-    "n_votaciones": 539,
+    "n_proyectos": 5,
+    "n_votaciones": 580,
     "tasa_presencia": 1
   },
   {
@@ -788,8 +788,8 @@
     "distrito": 10,
     "region": "Región Metropolitana de Santiago",
     "tendencia": "centroderecha",
-    "n_proyectos": 23,
-    "n_votaciones": 539,
+    "n_proyectos": 25,
+    "n_votaciones": 580,
     "tasa_presencia": 1
   },
   {
@@ -801,9 +801,9 @@
     "distrito": 16,
     "region": "Región del Libertador General Bernardo O'Higgins",
     "tendencia": "izquierda",
-    "n_proyectos": 11,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.949152542372881
+    "n_proyectos": 12,
+    "n_votaciones": 892,
+    "tasa_presencia": 0.951612903225806
   },
   {
     "id": "1087",
@@ -815,8 +815,8 @@
     "region": "Región Metropolitana de Santiago",
     "tendencia": "izquierda",
     "n_proyectos": 22,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.949152542372881
+    "n_votaciones": 892,
+    "tasa_presencia": 0.951612903225806
   },
   {
     "id": "915",
@@ -828,8 +828,8 @@
     "region": "Región del Maule",
     "tendencia": "derecha",
     "n_proyectos": 4,
-    "n_votaciones": 539,
-    "tasa_presencia": 0.966101694915254
+    "n_votaciones": 580,
+    "tasa_presencia": 0.967741935483871
   },
   {
     "id": "1152",
@@ -840,9 +840,9 @@
     "distrito": 22,
     "region": "Región de La Araucanía",
     "tendencia": "derecha",
-    "n_proyectos": 8,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.813559322033898
+    "n_proyectos": 9,
+    "n_votaciones": 892,
+    "tasa_presencia": 0.82258064516129
   },
   {
     "id": "1086",
@@ -854,8 +854,8 @@
     "region": "Región Metropolitana de Santiago",
     "tendencia": "izquierda",
     "n_proyectos": 9,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.898305084745763
+    "n_votaciones": 892,
+    "tasa_presencia": 0.903225806451613
   },
   {
     "id": "1065",
@@ -867,8 +867,8 @@
     "region": "Región Metropolitana de Santiago",
     "tendencia": "derecha",
     "n_proyectos": 9,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.949152542372881
+    "n_votaciones": 892,
+    "tasa_presencia": 0.951612903225806
   },
   {
     "id": "1258",
@@ -879,8 +879,8 @@
     "distrito": 17,
     "region": "Región del Maule",
     "tendencia": "centro",
-    "n_proyectos": 10,
-    "n_votaciones": 539,
+    "n_proyectos": 11,
+    "n_votaciones": 580,
     "tasa_presencia": 1
   },
   {
@@ -892,8 +892,8 @@
     "distrito": 8,
     "region": "Región Metropolitana de Santiago",
     "tendencia": null,
-    "n_proyectos": 7,
-    "n_votaciones": 539,
+    "n_proyectos": 10,
+    "n_votaciones": 580,
     "tasa_presencia": 1
   },
   {
@@ -906,8 +906,8 @@
     "region": "Región Metropolitana de Santiago",
     "tendencia": "derecha",
     "n_proyectos": 17,
-    "n_votaciones": 539,
-    "tasa_presencia": 0.966101694915254
+    "n_votaciones": 580,
+    "tasa_presencia": 0.967741935483871
   },
   {
     "id": "1176",
@@ -919,8 +919,8 @@
     "region": "Región de Valparaíso",
     "tendencia": null,
     "n_proyectos": 14,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.915254237288136
+    "n_votaciones": 892,
+    "tasa_presencia": 0.919354838709677
   },
   {
     "id": "1105",
@@ -932,8 +932,8 @@
     "region": "Región de Los Lagos",
     "tendencia": "centro",
     "n_proyectos": 13,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.966101694915254
+    "n_votaciones": 892,
+    "tasa_presencia": 0.919354838709677
   },
   {
     "id": "1178",
@@ -944,9 +944,9 @@
     "distrito": 26,
     "region": "Región de Los Lagos",
     "tendencia": null,
-    "n_proyectos": 26,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.932203389830508
+    "n_proyectos": 27,
+    "n_votaciones": 892,
+    "tasa_presencia": 0.935483870967742
   },
   {
     "id": "1186",
@@ -958,7 +958,7 @@
     "region": "Región Metropolitana de Santiago",
     "tendencia": "izquierda",
     "n_proyectos": 7,
-    "n_votaciones": 539,
+    "n_votaciones": 580,
     "tasa_presencia": 1
   },
   {
@@ -971,7 +971,7 @@
     "region": "Región de Atacama",
     "tendencia": "derecha",
     "n_proyectos": 4,
-    "n_votaciones": 539,
+    "n_votaciones": 580,
     "tasa_presencia": 1
   },
   {
@@ -983,8 +983,8 @@
     "distrito": 10,
     "region": "Región Metropolitana de Santiago",
     "tendencia": "izquierda",
-    "n_proyectos": 12,
-    "n_votaciones": 539,
+    "n_proyectos": 13,
+    "n_votaciones": 580,
     "tasa_presencia": 1
   },
   {
@@ -996,9 +996,9 @@
     "distrito": 3,
     "region": "Región de Antofagasta",
     "tendencia": null,
-    "n_proyectos": 20,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.966101694915254
+    "n_proyectos": 23,
+    "n_votaciones": 892,
+    "tasa_presencia": 0.935483870967742
   },
   {
     "id": "1189",
@@ -1009,9 +1009,9 @@
     "distrito": 7,
     "region": "Región de Valparaíso",
     "tendencia": "izquierda",
-    "n_proyectos": 10,
-    "n_votaciones": 539,
-    "tasa_presencia": 0.915254237288136
+    "n_proyectos": 11,
+    "n_votaciones": 580,
+    "tasa_presencia": 0.919354838709677
   },
   {
     "id": "1199",
@@ -1022,8 +1022,8 @@
     "distrito": 14,
     "region": "Región Metropolitana de Santiago",
     "tendencia": "derecha",
-    "n_proyectos": 13,
-    "n_votaciones": 539,
+    "n_proyectos": 15,
+    "n_votaciones": 580,
     "tasa_presencia": 1
   },
   {
@@ -1036,8 +1036,8 @@
     "region": "Región de Atacama",
     "tendencia": "izquierda",
     "n_proyectos": 16,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.898305084745763
+    "n_votaciones": 892,
+    "tasa_presencia": 0.903225806451613
   },
   {
     "id": "1229",
@@ -1049,7 +1049,7 @@
     "region": "Región del Maule",
     "tendencia": "centro",
     "n_proyectos": 8,
-    "n_votaciones": 539,
+    "n_votaciones": 580,
     "tasa_presencia": 1
   },
   {
@@ -1061,8 +1061,8 @@
     "distrito": 6,
     "region": "Región de Valparaíso",
     "tendencia": "centro",
-    "n_proyectos": 22,
-    "n_votaciones": 539,
+    "n_proyectos": 23,
+    "n_votaciones": 580,
     "tasa_presencia": 1
   },
   {
@@ -1075,8 +1075,8 @@
     "region": "Región de Magallanes y de la Antártica Chilena",
     "tendencia": "izquierda",
     "n_proyectos": 8,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.101694915254237
+    "n_votaciones": 892,
+    "tasa_presencia": 0.0967741935483871
   },
   {
     "id": "1247",
@@ -1088,7 +1088,7 @@
     "region": "Región Metropolitana de Santiago",
     "tendencia": "derecha",
     "n_proyectos": 11,
-    "n_votaciones": 539,
+    "n_votaciones": 580,
     "tasa_presencia": 1
   },
   {
@@ -1100,9 +1100,9 @@
     "distrito": 21,
     "region": "Región del Biobío",
     "tendencia": "centro",
-    "n_proyectos": 14,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.949152542372881
+    "n_proyectos": 16,
+    "n_votaciones": 892,
+    "tasa_presencia": 0.935483870967742
   },
   {
     "id": "1009",
@@ -1114,8 +1114,8 @@
     "region": "Región Metropolitana de Santiago",
     "tendencia": "derecha",
     "n_proyectos": 7,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.915254237288136
+    "n_votaciones": 892,
+    "tasa_presencia": 0.919354838709677
   },
   {
     "id": "1015",
@@ -1127,8 +1127,8 @@
     "region": "Región de Valparaíso",
     "tendencia": "izquierda",
     "n_proyectos": 6,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.88135593220339
+    "n_votaciones": 892,
+    "tasa_presencia": 0.854838709677419
   },
   {
     "id": "1208",
@@ -1140,8 +1140,8 @@
     "region": "Región de Arica y Parinacota",
     "tendencia": "centro",
     "n_proyectos": 14,
-    "n_votaciones": 539,
-    "tasa_presencia": 0.966101694915254
+    "n_votaciones": 580,
+    "tasa_presencia": 0.967741935483871
   },
   {
     "id": "1132",
@@ -1152,9 +1152,9 @@
     "distrito": 17,
     "region": "Región del Maule",
     "tendencia": "centroderecha",
-    "n_proyectos": 15,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.983050847457627
+    "n_proyectos": 16,
+    "n_votaciones": 892,
+    "tasa_presencia": 0.983870967741935
   },
   {
     "id": "1218",
@@ -1166,7 +1166,7 @@
     "region": "Región Metropolitana de Santiago",
     "tendencia": "derecha",
     "n_proyectos": 6,
-    "n_votaciones": 539,
+    "n_votaciones": 580,
     "tasa_presencia": 1
   },
   {
@@ -1178,9 +1178,9 @@
     "distrito": 20,
     "region": "Región del Biobío",
     "tendencia": "centroizquierda",
-    "n_proyectos": 9,
-    "n_votaciones": 539,
-    "tasa_presencia": 0.983050847457627
+    "n_proyectos": 16,
+    "n_votaciones": 580,
+    "tasa_presencia": 0.983870967741935
   },
   {
     "id": "1146",
@@ -1192,8 +1192,8 @@
     "region": "Región Metropolitana de Santiago",
     "tendencia": "derecha",
     "n_proyectos": 4,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.932203389830508
+    "n_votaciones": 892,
+    "tasa_presencia": 0.935483870967742
   },
   {
     "id": "1226",
@@ -1204,9 +1204,9 @@
     "distrito": 23,
     "region": "Región de La Araucanía",
     "tendencia": null,
-    "n_proyectos": 20,
-    "n_votaciones": 539,
-    "tasa_presencia": 0.949152542372881
+    "n_proyectos": 21,
+    "n_votaciones": 580,
+    "tasa_presencia": 0.951612903225806
   },
   {
     "id": "1108",
@@ -1217,9 +1217,9 @@
     "distrito": 22,
     "region": "Región de La Araucanía",
     "tendencia": "centroderecha",
-    "n_proyectos": 16,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.898305084745763
+    "n_proyectos": 18,
+    "n_votaciones": 892,
+    "tasa_presencia": 0.903225806451613
   },
   {
     "id": "1133",
@@ -1231,8 +1231,8 @@
     "region": "Región Metropolitana de Santiago",
     "tendencia": "derecha",
     "n_proyectos": 7,
-    "n_votaciones": 851,
-    "tasa_presencia": 1
+    "n_votaciones": 892,
+    "tasa_presencia": 0.983870967741935
   },
   {
     "id": "1259",
@@ -1244,8 +1244,8 @@
     "region": "Región de Valparaíso",
     "tendencia": "centro",
     "n_proyectos": 16,
-    "n_votaciones": 539,
-    "tasa_presencia": 0.966101694915254
+    "n_votaciones": 580,
+    "tasa_presencia": 0.967741935483871
   },
   {
     "id": "1073",
@@ -1256,9 +1256,9 @@
     "distrito": 4,
     "region": "Región de Atacama",
     "tendencia": "centroizquierda",
-    "n_proyectos": 9,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.932203389830508
+    "n_proyectos": 10,
+    "n_votaciones": 892,
+    "tasa_presencia": 0.935483870967742
   },
   {
     "id": "1220",
@@ -1270,7 +1270,7 @@
     "region": "Región de Los Ríos",
     "tendencia": "derecha",
     "n_proyectos": 4,
-    "n_votaciones": 539,
+    "n_votaciones": 580,
     "tasa_presencia": 1
   },
   {
@@ -1282,9 +1282,9 @@
     "distrito": 21,
     "region": "Región del Biobío",
     "tendencia": "centro",
-    "n_proyectos": 10,
-    "n_votaciones": 539,
-    "tasa_presencia": 0.559322033898305
+    "n_proyectos": 11,
+    "n_votaciones": 580,
+    "tasa_presencia": 0.532258064516129
   },
   {
     "id": "1127",
@@ -1296,8 +1296,8 @@
     "region": "Región Metropolitana de Santiago",
     "tendencia": "izquierda",
     "n_proyectos": 12,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.983050847457627
+    "n_votaciones": 892,
+    "tasa_presencia": 0.935483870967742
   },
   {
     "id": "1159",
@@ -1308,9 +1308,9 @@
     "distrito": 13,
     "region": "Región Metropolitana de Santiago",
     "tendencia": "izquierda",
-    "n_proyectos": 8,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.966101694915254
+    "n_proyectos": 10,
+    "n_votaciones": 892,
+    "tasa_presencia": 0.967741935483871
   },
   {
     "id": "1122",
@@ -1322,7 +1322,7 @@
     "region": "Región de Valparaíso",
     "tendencia": "izquierda",
     "n_proyectos": 21,
-    "n_votaciones": 851,
+    "n_votaciones": 892,
     "tasa_presencia": 1
   },
   {
@@ -1334,8 +1334,8 @@
     "distrito": 1,
     "region": "Región de Arica y Parinacota",
     "tendencia": "centroizquierda",
-    "n_proyectos": 21,
-    "n_votaciones": 851,
+    "n_proyectos": 23,
+    "n_votaciones": 892,
     "tasa_presencia": 1
   },
   {
@@ -1347,9 +1347,9 @@
     "distrito": 6,
     "region": "Región de Valparaíso",
     "tendencia": "centroderecha",
-    "n_proyectos": 13,
-    "n_votaciones": 539,
-    "tasa_presencia": 0.983050847457627
+    "n_proyectos": 14,
+    "n_votaciones": 580,
+    "tasa_presencia": 0.983870967741935
   },
   {
     "id": "1170",
@@ -1361,8 +1361,8 @@
     "region": "Región de Valparaíso",
     "tendencia": "derecha",
     "n_proyectos": 5,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.983050847457627
+    "n_votaciones": 892,
+    "tasa_presencia": 0.983870967741935
   },
   {
     "id": "1251",
@@ -1373,9 +1373,9 @@
     "distrito": 12,
     "region": "Región Metropolitana de Santiago",
     "tendencia": "derecha",
-    "n_proyectos": 14,
-    "n_votaciones": 539,
-    "tasa_presencia": 0.949152542372881
+    "n_proyectos": 15,
+    "n_votaciones": 580,
+    "tasa_presencia": 0.935483870967742
   },
   {
     "id": "986",
@@ -1386,9 +1386,9 @@
     "distrito": 3,
     "region": "Región de Antofagasta",
     "tendencia": "centroizquierda",
-    "n_proyectos": 16,
-    "n_votaciones": 539,
-    "tasa_presencia": 0.88135593220339
+    "n_proyectos": 19,
+    "n_votaciones": 580,
+    "tasa_presencia": 0.887096774193548
   },
   {
     "id": "1174",
@@ -1400,8 +1400,8 @@
     "region": "Región de Coquimbo",
     "tendencia": "derecha",
     "n_proyectos": 17,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.983050847457627
+    "n_votaciones": 892,
+    "tasa_presencia": 0.983870967741935
   },
   {
     "id": "1188",
@@ -1412,8 +1412,8 @@
     "distrito": 8,
     "region": "Región Metropolitana de Santiago",
     "tendencia": "izquierda",
-    "n_proyectos": 10,
-    "n_votaciones": 539,
+    "n_proyectos": 12,
+    "n_votaciones": 580,
     "tasa_presencia": 1
   },
   {
@@ -1425,9 +1425,9 @@
     "distrito": 24,
     "region": "Región de Los Ríos",
     "tendencia": "centroizquierda",
-    "n_proyectos": 6,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.915254237288136
+    "n_proyectos": 7,
+    "n_votaciones": 892,
+    "tasa_presencia": 0.919354838709677
   },
   {
     "id": "1234",
@@ -1438,9 +1438,9 @@
     "distrito": 8,
     "region": "Región Metropolitana de Santiago",
     "tendencia": "derecha",
-    "n_proyectos": 20,
-    "n_votaciones": 539,
-    "tasa_presencia": 0.864406779661017
+    "n_proyectos": 22,
+    "n_votaciones": 580,
+    "tasa_presencia": 0.870967741935484
   },
   {
     "id": "1074",
@@ -1451,9 +1451,9 @@
     "distrito": 14,
     "region": "Región Metropolitana de Santiago",
     "tendencia": null,
-    "n_proyectos": 17,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.796610169491525
+    "n_proyectos": 18,
+    "n_votaciones": 892,
+    "tasa_presencia": 0.790322580645161
   },
   {
     "id": "1157",
@@ -1464,9 +1464,9 @@
     "distrito": 20,
     "region": "Región del Biobío",
     "tendencia": null,
-    "n_proyectos": 21,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.898305084745763
+    "n_proyectos": 22,
+    "n_votaciones": 892,
+    "tasa_presencia": 0.854838709677419
   },
   {
     "id": "1107",
@@ -1477,9 +1477,9 @@
     "distrito": 6,
     "region": "Región de Valparaíso",
     "tendencia": "izquierda",
-    "n_proyectos": 11,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.0338983050847458
+    "n_proyectos": 12,
+    "n_votaciones": 892,
+    "tasa_presencia": 0.032258064516129
   },
   {
     "id": "1209",
@@ -1490,8 +1490,8 @@
     "distrito": 24,
     "region": "Región de Los Ríos",
     "tendencia": "izquierda",
-    "n_proyectos": 10,
-    "n_votaciones": 539,
+    "n_proyectos": 11,
+    "n_votaciones": 580,
     "tasa_presencia": 1
   },
   {
@@ -1503,9 +1503,9 @@
     "distrito": 26,
     "region": "Región de Los Lagos",
     "tendencia": "centroderecha",
-    "n_proyectos": 14,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.864406779661017
+    "n_proyectos": 15,
+    "n_votaciones": 892,
+    "tasa_presencia": 0.870967741935484
   },
   {
     "id": "1166",
@@ -1517,7 +1517,7 @@
     "region": "Región del Libertador General Bernardo O'Higgins",
     "tendencia": null,
     "n_proyectos": 14,
-    "n_votaciones": 851,
+    "n_votaciones": 892,
     "tasa_presencia": 1
   },
   {
@@ -1529,9 +1529,9 @@
     "distrito": 5,
     "region": "Región de Coquimbo",
     "tendencia": "izquierda",
-    "n_proyectos": 14,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.711864406779661
+    "n_proyectos": 17,
+    "n_votaciones": 892,
+    "tasa_presencia": 0.725806451612903
   },
   {
     "id": "1181",
@@ -1542,9 +1542,9 @@
     "distrito": 6,
     "region": "Región de Valparaíso",
     "tendencia": "centroizquierda",
-    "n_proyectos": 9,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.966101694915254
+    "n_proyectos": 10,
+    "n_votaciones": 892,
+    "tasa_presencia": 0.967741935483871
   },
   {
     "id": "1249",
@@ -1555,9 +1555,9 @@
     "distrito": 24,
     "region": "Región de Los Ríos",
     "tendencia": null,
-    "n_proyectos": 16,
-    "n_votaciones": 539,
-    "tasa_presencia": 0.983050847457627
+    "n_proyectos": 17,
+    "n_votaciones": 580,
+    "tasa_presencia": 0.983870967741935
   },
   {
     "id": "1039",
@@ -1569,7 +1569,7 @@
     "region": "Región Metropolitana de Santiago",
     "tendencia": "centro",
     "n_proyectos": 14,
-    "n_votaciones": 851,
+    "n_votaciones": 892,
     "tasa_presencia": 1
   },
   {
@@ -1581,8 +1581,8 @@
     "distrito": 20,
     "region": "Región del Biobío",
     "tendencia": "centro",
-    "n_proyectos": 36,
-    "n_votaciones": 539,
+    "n_proyectos": 39,
+    "n_votaciones": 580,
     "tasa_presencia": 1
   },
   {
@@ -1594,9 +1594,9 @@
     "distrito": 21,
     "region": "Región del Biobío",
     "tendencia": "centro",
-    "n_proyectos": 28,
-    "n_votaciones": 539,
-    "tasa_presencia": 0.966101694915254
+    "n_proyectos": 33,
+    "n_votaciones": 580,
+    "tasa_presencia": 0.967741935483871
   },
   {
     "id": "1236",
@@ -1607,9 +1607,9 @@
     "distrito": 4,
     "region": "Región de Atacama",
     "tendencia": "centro",
-    "n_proyectos": 19,
-    "n_votaciones": 539,
-    "tasa_presencia": 0.779661016949153
+    "n_proyectos": 22,
+    "n_votaciones": 580,
+    "tasa_presencia": 0.790322580645161
   },
   {
     "id": "1228",
@@ -1620,8 +1620,8 @@
     "distrito": 25,
     "region": "Región de Los Lagos",
     "tendencia": "derecha",
-    "n_proyectos": 11,
-    "n_votaciones": 539,
+    "n_proyectos": 13,
+    "n_votaciones": 580,
     "tasa_presencia": 1
   },
   {
@@ -1634,7 +1634,7 @@
     "region": "Región del Biobío",
     "tendencia": "derecha",
     "n_proyectos": 7,
-    "n_votaciones": 539,
+    "n_votaciones": 580,
     "tasa_presencia": 1
   },
   {
@@ -1646,9 +1646,9 @@
     "distrito": 8,
     "region": "Región Metropolitana de Santiago",
     "tendencia": "derecha",
-    "n_proyectos": 16,
-    "n_votaciones": 539,
-    "tasa_presencia": 0.966101694915254
+    "n_proyectos": 17,
+    "n_votaciones": 580,
+    "tasa_presencia": 0.967741935483871
   },
   {
     "id": "1196",
@@ -1660,7 +1660,7 @@
     "region": "Región del Maule",
     "tendencia": "centro",
     "n_proyectos": 7,
-    "n_votaciones": 539,
+    "n_votaciones": 580,
     "tasa_presencia": 1
   },
   {
@@ -1673,8 +1673,8 @@
     "region": "Región Metropolitana de Santiago",
     "tendencia": "centroizquierda",
     "n_proyectos": 9,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.949152542372881
+    "n_votaciones": 892,
+    "tasa_presencia": 0.951612903225806
   },
   {
     "id": "1077",
@@ -1685,8 +1685,8 @@
     "distrito": 15,
     "region": "Región del Libertador General Bernardo O'Higgins",
     "tendencia": "centroizquierda",
-    "n_proyectos": 12,
-    "n_votaciones": 851,
+    "n_proyectos": 13,
+    "n_votaciones": 892,
     "tasa_presencia": 1
   },
   {
@@ -1699,8 +1699,8 @@
     "region": "Región de Aysén del General Carlos Ibáñez del Campo",
     "tendencia": null,
     "n_proyectos": 2,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.966101694915254
+    "n_votaciones": 892,
+    "tasa_presencia": 0.967741935483871
   },
   {
     "id": "843",
@@ -1712,8 +1712,8 @@
     "region": "Región de La Araucanía",
     "tendencia": "centroderecha",
     "n_proyectos": 15,
-    "n_votaciones": 539,
-    "tasa_presencia": 0.932203389830508
+    "n_votaciones": 580,
+    "tasa_presencia": 0.935483870967742
   },
   {
     "id": "1233",
@@ -1725,7 +1725,7 @@
     "region": "Región del Libertador General Bernardo O'Higgins",
     "tendencia": "derecha",
     "n_proyectos": 13,
-    "n_votaciones": 539,
+    "n_votaciones": 580,
     "tasa_presencia": 1
   },
   {
@@ -1737,9 +1737,9 @@
     "distrito": 20,
     "region": "Región del Biobío",
     "tendencia": "derecha",
-    "n_proyectos": 25,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.88135593220339
+    "n_proyectos": 28,
+    "n_votaciones": 892,
+    "tasa_presencia": 0.887096774193548
   },
   {
     "id": "1184",
@@ -1751,7 +1751,7 @@
     "region": "Región del Maule",
     "tendencia": null,
     "n_proyectos": 4,
-    "n_votaciones": 851,
+    "n_votaciones": 892,
     "tasa_presencia": 1
   },
   {
@@ -1763,9 +1763,9 @@
     "distrito": 18,
     "region": "Región del Maule",
     "tendencia": null,
-    "n_proyectos": 11,
-    "n_votaciones": 539,
-    "tasa_presencia": 0.966101694915254
+    "n_proyectos": 12,
+    "n_votaciones": 580,
+    "tasa_presencia": 0.967741935483871
   },
   {
     "id": "1119",
@@ -1777,7 +1777,7 @@
     "region": "Región de Ñuble",
     "tendencia": "derecha",
     "n_proyectos": 12,
-    "n_votaciones": 851,
+    "n_votaciones": 892,
     "tasa_presencia": 1
   },
   {
@@ -1790,8 +1790,8 @@
     "region": "Región del Libertador General Bernardo O'Higgins",
     "tendencia": "derecha",
     "n_proyectos": 6,
-    "n_votaciones": 539,
-    "tasa_presencia": 1
+    "n_votaciones": 580,
+    "tasa_presencia": 0.983870967741935
   },
   {
     "id": "1182",
@@ -1802,8 +1802,8 @@
     "distrito": 3,
     "region": "Región de Antofagasta",
     "tendencia": null,
-    "n_proyectos": 17,
-    "n_votaciones": 851,
+    "n_proyectos": 19,
+    "n_votaciones": 892,
     "tasa_presencia": 1
   },
   {
@@ -1816,8 +1816,8 @@
     "region": "Región de Valparaíso",
     "tendencia": null,
     "n_proyectos": 9,
-    "n_votaciones": 539,
-    "tasa_presencia": 0.983050847457627
+    "n_votaciones": 580,
+    "tasa_presencia": 0.983870967741935
   },
   {
     "id": "815",
@@ -1829,7 +1829,7 @@
     "region": "Región del Biobío",
     "tendencia": "derecha",
     "n_proyectos": 17,
-    "n_votaciones": 851,
+    "n_votaciones": 892,
     "tasa_presencia": 1
   },
   {
@@ -1841,9 +1841,9 @@
     "distrito": 6,
     "region": "Región de Valparaíso",
     "tendencia": "izquierda",
-    "n_proyectos": 12,
-    "n_votaciones": 539,
-    "tasa_presencia": 0.966101694915254
+    "n_proyectos": 15,
+    "n_votaciones": 580,
+    "tasa_presencia": 0.967741935483871
   },
   {
     "id": "1172",
@@ -1855,8 +1855,8 @@
     "region": "Región de La Araucanía",
     "tendencia": "derecha",
     "n_proyectos": 1,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.915254237288136
+    "n_votaciones": 892,
+    "tasa_presencia": 0.919354838709677
   },
   {
     "id": "1216",
@@ -1868,8 +1868,8 @@
     "region": "Región de Arica y Parinacota",
     "tendencia": "derecha",
     "n_proyectos": 6,
-    "n_votaciones": 539,
-    "tasa_presencia": 0.915254237288136
+    "n_votaciones": 580,
+    "tasa_presencia": 0.919354838709677
   },
   {
     "id": "1243",
@@ -1880,9 +1880,9 @@
     "distrito": 9,
     "region": "Región Metropolitana de Santiago",
     "tendencia": "centro",
-    "n_proyectos": 18,
-    "n_votaciones": 539,
-    "tasa_presencia": 0.949152542372881
+    "n_proyectos": 19,
+    "n_votaciones": 580,
+    "tasa_presencia": 0.951612903225806
   },
   {
     "id": "1256",
@@ -1893,9 +1893,9 @@
     "distrito": 8,
     "region": "Región Metropolitana de Santiago",
     "tendencia": "izquierda",
-    "n_proyectos": 8,
-    "n_votaciones": 539,
-    "tasa_presencia": 1
+    "n_proyectos": 9,
+    "n_votaciones": 580,
+    "tasa_presencia": 0.951612903225806
   },
   {
     "id": "1219",
@@ -1907,8 +1907,8 @@
     "region": "Región de La Araucanía",
     "tendencia": "centroderecha",
     "n_proyectos": 19,
-    "n_votaciones": 539,
-    "tasa_presencia": 0.915254237288136
+    "n_votaciones": 580,
+    "tasa_presencia": 0.919354838709677
   },
   {
     "id": "1191",
@@ -1919,9 +1919,9 @@
     "distrito": 13,
     "region": "Región Metropolitana de Santiago",
     "tendencia": "derecha",
-    "n_proyectos": 6,
-    "n_votaciones": 539,
-    "tasa_presencia": 0.983050847457627
+    "n_proyectos": 7,
+    "n_votaciones": 580,
+    "tasa_presencia": 0.983870967741935
   },
   {
     "id": "1207",
@@ -1932,9 +1932,9 @@
     "distrito": 15,
     "region": "Región del Libertador General Bernardo O'Higgins",
     "tendencia": null,
-    "n_proyectos": 10,
-    "n_votaciones": 539,
-    "tasa_presencia": 0.949152542372881
+    "n_proyectos": 13,
+    "n_votaciones": 580,
+    "tasa_presencia": 0.951612903225806
   },
   {
     "id": "1231",
@@ -1946,7 +1946,7 @@
     "region": "Región de Tarapacá",
     "tendencia": null,
     "n_proyectos": 20,
-    "n_votaciones": 539,
+    "n_votaciones": 580,
     "tasa_presencia": 1
   },
   {
@@ -1958,8 +1958,8 @@
     "distrito": 12,
     "region": "Región Metropolitana de Santiago",
     "tendencia": "centroderecha",
-    "n_proyectos": 37,
-    "n_votaciones": 851,
+    "n_proyectos": 38,
+    "n_votaciones": 892,
     "tasa_presencia": 1
   },
   {
@@ -1971,9 +1971,9 @@
     "distrito": 12,
     "region": "Región Metropolitana de Santiago",
     "tendencia": "centro",
-    "n_proyectos": 16,
-    "n_votaciones": 539,
-    "tasa_presencia": 0.932203389830508
+    "n_proyectos": 17,
+    "n_votaciones": 580,
+    "tasa_presencia": 0.887096774193548
   },
   {
     "id": "1017",
@@ -1985,8 +1985,8 @@
     "region": "Región Metropolitana de Santiago",
     "tendencia": "derecha",
     "n_proyectos": 6,
-    "n_votaciones": 851,
-    "tasa_presencia": 0.983050847457627
+    "n_votaciones": 892,
+    "tasa_presencia": 0.983870967741935
   },
   {
     "id": "1215",
@@ -1997,8 +1997,8 @@
     "distrito": 2,
     "region": "Región de Tarapacá",
     "tendencia": "derecha",
-    "n_proyectos": 12,
-    "n_votaciones": 539,
+    "n_proyectos": 13,
+    "n_votaciones": 580,
     "tasa_presencia": 1
   },
   {
@@ -2011,7 +2011,7 @@
     "region": "Región del Biobío",
     "tendencia": "centro",
     "n_proyectos": 13,
-    "n_votaciones": 539,
+    "n_votaciones": 580,
     "tasa_presencia": 1
   }
 ]
