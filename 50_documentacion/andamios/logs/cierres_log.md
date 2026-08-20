@@ -411,3 +411,90 @@ Instrumento: `cierre_sesion_autonomo_cc_v4.md`. Paquete: `paquete_cierre_v22.md`
   compuerta de confirmación del titular.
 - **PR #16 y #17 abiertos** al cierre, ninguno mergeado, como declara el traspaso.
 
+
+## v23 — 2026-08-19
+
+Instrumento: `cierre_sesion_autonomo_cc_v8.md`. Paquete: `paquete_cierre_v23.md`
+(segunda emision). `push_autorizado: si`. `sello_escaner: regenerar`.
+
+### Fases
+
+| Fase | Que se hizo | Evidencia |
+|---|---|---|
+| F0 | Precondiciones, 7 puntos | `.git` y `traspasos/` presentes; **1** paquete en `andamios/`; **13 de 13** campos de front matter; **4** delimitadores abren y **4** cierran; `raiz_proyecto` = `pwd`; correlativo triple max(`v22`)+1 = `v23` = `traspaso_nuevo` = nombre del paquete; `backlog_total_previo` **64** = ultimo numero real del Detalle cronologico; entradas **65, 66, 67** contiguas; tramo `65→67`; `settings_version` calza con la linea real de SETTINGS; `compuerta_dudas: 5 registradas` = **5** filas de §11.4 con sus tres campos |
+| F1 | Copia de trabajo | Los tres destinos copiados al scratchpad; el arbol real no se toco hasta F6 |
+| F2 | Inserciones por posicion estructural | Los 3 encabezados aparecen **exactamente 1 vez** (resumen L66, detalle L99, delta L896). Bloque de sesion 23 al final del Detalle; fila del resumen; bullet del delta |
+| F3 | Rotulos derivados | **5** patrones con disparo (14 reescrituras), **10** con cero. Umbral 7.3 dispensado por el titular; ver Desviaciones |
+| F4 | Invariantes I1-I7 | **7 de 7 VERDES**, sin excepcion |
+| F5 | Compuerta | Pasa |
+| F6 | Arbol real | Escaner regenerado (poda incluida); `git mv` de `traspaso_cierre_v22.md` a `archivo/` (**22** en archivo, **1** plano vigente); tres archivos copiados desde la copia de trabajo |
+| F8 | Distribucion | **3 de 3** bloques `identical()` TRUE contra su destino. Verificado ANTES del commit |
+| F7 | Commit y push | `git add` selectivo; nunca `git add .` ni el paquete |
+| F9 | Log y reapertura | Esta seccion |
+
+### F3 — disparos por patron
+
+| Patron | Disparos | Resultado |
+|---|---|---|
+| R12-tabla | 10 | suma de la columna 65->68; 10 porcentajes recalculados sobre 68; suman 100,1 |
+| R12-prosa-estado | 1 | columna 65->68, entradas 64->67, rango (1-64)->(1-67) |
+| R12-prosa-denominador | 1 | denominador 65->68 |
+| R12-prosa-suma-pct | 1 | suma de porcentajes -> 100,1 |
+| R11-puntero | 1 | `cierre v22` -> `cierre v23`; **0** sobrevivientes |
+| R1 a R10 | 0 | ninguno de esos rotulos existe en este backlog |
+
+### F4 — invariantes
+
+| # | Resultado |
+|---|---|
+| I1 | VERDE. **67** entradas en el Detalle cronologico, rango 1-67, **0** duplicados, **0** huecos |
+| I2 | VERDE. Las **23** filas de sesion suman **67** = `Total` declarado = `backlog_total_nuevo` |
+| I3 | VERDE. Filas del resumen 22 -> **23** |
+| I4 | VERDE. **19** apariciones de 64/65/`cierre v22`, las **19** clasificadas como historicas o legitimas: ids de pendiente (`P-64`, `P-65`), referencia de linea (`00_run_all.R:64`), numeros de entrada del propio detalle, bullet historico de v22 y las transiciones del bullet nuevo. **0** sobrevivientes de `cierre v22` |
+| I5 | VERDE. **0** autorreferencias de cifras en el bloque de autoria |
+| I6 | VERDE. **0** hallazgos sobre 3 archivos en los 5 chequeos (RUT, OneDrive, credenciales, coautoria, placeholders) |
+| I7 | VERDE. **1** traspaso vigente tras el archivado |
+
+### Desviaciones
+
+1. **Regla 7.3 dispensada por el titular.** El catalogo de la seccion 5 es de cartera y
+   este backlog nunca llevo R1-R10: no tiene rango en el encabezado, ni mapa de tramos,
+   ni cabecera del resumen, ni nota de cierre. La premisa del umbral ("indica que la
+   estructura del archivo cambio") queda falsada por medicion: el log del cierre v22
+   describe este mismo archivo con la misma forma. El cierre se detuvo en F3, el titular
+   autorizo el paso por excepcion y la correccion del instrumento quedo registrada como
+   **P-104**. Los siete invariantes de F4 se mantuvieron bloqueantes.
+2. **`Delta del backlog` es una lista de bullets, no una tabla.** F2 nombra "tabla"; el
+   encabezado existe y es unico, asi que la insercion se resolvio igual y el item nuevo
+   copio el formato del ultimo bullet existente.
+3. **La ultima fila de la tabla del resumen es `| Total |`, un agregado.** "Final de la
+   tabla" en sentido literal habria puesto la fila de sesion 23 debajo del Total; entro
+   antes, y el Total paso 64 -> 67 por ser magnitud derivada.
+4. **Prosa reenvuelta.** El bloque de la discrepancia heredada se normalizo por
+   envoltorio (F3) y se reescribio a 76 columnas, asi que su diff toca lineas cuyo texto
+   no cambio.
+5. **Glosa de la columna de descripcion sin tocar.** Las categorias `infraestructura` y
+   `diagnostico/exploracion` cambiaron de N pero su glosa no menciona las entradas 65-67:
+   inventarla habria sido completar contenido del redactor. Mismo criterio que en v21.
+6. **Dos defectos en mis propios scripts, corregidos antes de dar la fase por buena:** un
+   indice desplazado en la tercera insercion de F2 (se rehizo desde copia limpia con
+   orden de insercion estrictamente descendente) y la fila `Suma de la columna` perdiendo
+   su celda final vacia en F3 (`strsplit` descarta campos vacios al final).
+
+### Pendientes fuera de scope detectados
+
+- **P-104** (ya en el traspaso): el umbral de la regla 7.3 mide un proxy que no aplica a
+  este repo.
+- **P-98** sigue abierto: falta el bullet de delta de `v21` en el backlog. No se
+  reconstruyo de memoria.
+- **Discrepancia heredada** del backlog abierta, ahora columna 68 contra 67 entradas.
+- **Copia sobrante del paquete en `50_documentacion/traspasos/paquete_cierre_v23.md`.** El
+  titular la declaro borrada; sigue presente y sin trackear (49 042 bytes, emision
+  anterior del paquete). No detiene (F0.7 exceptua "paquete"), no se conto para el
+  correlativo, no se commiteo y no se borro: la unica eliminacion que el instrumento
+  sanciona es la del vehiculo en `andamios/`.
+- **Snapshot `20260819_161404_estructura.{md,txt}`** quedaba sin trackear de una corrida
+  previa del escaner en esta misma sesion. Entra en el commit por ser salida del escaner,
+  categoria que F7 nombra explicitamente; se declara aqui por no haberla producido este
+  cierre.
+- **PR #19 abierto** al cierre, sin mergear, como declara el traspaso.
