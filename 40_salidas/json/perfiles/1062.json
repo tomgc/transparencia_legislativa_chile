@@ -16,35 +16,35 @@
   "asistencia": {
     "alcance_temporal": {
       "anio_proceso": 2026,
-      "corte_fecha": "2026-08-17",
-      "sesiones_alcance": 77,
+      "corte_fecha": "2026-08-20",
+      "sesiones_alcance": 80,
       "fecha_primera": "2026-01-05",
-      "fecha_ultima": "2026-08-12",
+      "fecha_ultima": "2026-08-18",
       "periodo_id": "11",
       "periodo_nombre": "2026-2030",
       "periodo_inicio": "2026-03-11",
-      "sesiones_periodo_vigente": 59,
-      "nota": "Cobertura parcial: solo sesiones de sala del anno 2026 hasta el 2026-08-17 (77 sesiones, de 2026-01-05 a 2026-08-12). NO es la trayectoria completa del parlamentario. El ambito 'periodo_vigente' cuenta las 59 sesiones desde la instalacion del periodo 2026-2030 (2026-03-11) y usa el mismo denominador para todos, por lo que es el comparable entre diputados; 'en_ejercicio' cuenta solo las sesiones del alcance posteriores a la asuncion de cada diputado."
+      "sesiones_periodo_vigente": 62,
+      "nota": "Cobertura parcial: solo sesiones de sala del anno 2026 hasta el 2026-08-20 (80 sesiones, de 2026-01-05 a 2026-08-18). NO es la trayectoria completa del parlamentario. El ambito 'periodo_vigente' cuenta las 62 sesiones desde la instalacion del periodo 2026-2030 (2026-03-11) y usa el mismo denominador para todos, por lo que es el comparable entre diputados; 'en_ejercicio' cuenta solo las sesiones del alcance posteriores a la asuncion de cada diputado."
     },
     "periodo_vigente": {
-      "n_sesiones": 59,
-      "n_asiste": 56,
-      "n_no_asiste": 3,
+      "n_sesiones": 62,
+      "n_asiste": 58,
+      "n_no_asiste": 4,
       "n_sin_registro": 0,
       "n_justificadas": 3,
-      "n_injustificadas": 0,
-      "tasa_presencia": 0.949152542372881,
-      "tasa_presencia_o_justificada": 1
+      "n_injustificadas": 1,
+      "tasa_presencia": 0.935483870967742,
+      "tasa_presencia_o_justificada": 0.983870967741935
     },
     "en_ejercicio": {
-      "n_sesiones": 77,
-      "n_asiste": 71,
-      "n_no_asiste": 6,
+      "n_sesiones": 80,
+      "n_asiste": 73,
+      "n_no_asiste": 7,
       "n_sin_registro": 0,
       "n_justificadas": 3,
-      "n_injustificadas": 3,
-      "tasa_presencia": 0.922077922077922,
-      "tasa_presencia_o_justificada": 0.961038961038961
+      "n_injustificadas": 4,
+      "tasa_presencia": 0.9125,
+      "tasa_presencia_o_justificada": 0.95
     },
     "sesiones": [
       {
@@ -754,18 +754,45 @@
         "en_periodo_vigente": true,
         "asistencia": "asiste",
         "justificacion": null
+      },
+      {
+        "sesion_id": "4814",
+        "sesion_numero": "57",
+        "fecha": "2026-08-17",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4815",
+        "sesion_numero": "58",
+        "fecha": "2026-08-18",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4816",
+        "sesion_numero": "59",
+        "fecha": "2026-08-18",
+        "tipo_sesion": "Especial",
+        "en_periodo_vigente": true,
+        "asistencia": "no_asiste",
+        "justificacion": null
       }
     ]
   },
   "votaciones": {
     "anio": 2026,
-    "n_votaciones": 851,
+    "n_votaciones": 892,
     "resumen_por_sentido": {
-      "en_contra": 113,
-      "a_favor": 437,
-      "abstencion": 54,
+      "en_contra": 117,
+      "a_favor": 449,
+      "abstencion": 55,
       "dispensado": 0,
-      "no_vota": 247
+      "no_vota": 271
     },
     "votos": [
       {
@@ -12236,14 +12263,550 @@
           "tipo_iniciativa": "Moción",
           "materias": []
         }
+      },
+      {
+        "votacion_id": "89772",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-08-17",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89773",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-08-17",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89774",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-08-17",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "2-Acusacion Constitucional",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89779",
+        "boletin": "17912-25",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-08-17",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17912-25",
+        "proyecto": {
+          "boletin": "17912-25",
+          "nombre": "Modifica la ley N° 19.913 para incorporar los delitos contra la propiedad industrial al catálogo de precedentes de lavado de activos",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89780",
+        "boletin": "17912-25",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-08-17",
+        "resultado": "Rechazado",
+        "sentido": "abstencion",
+        "descripcion": "Boletín N° 17912-25",
+        "proyecto": {
+          "boletin": "17912-25",
+          "nombre": "Modifica la ley N° 19.913 para incorporar los delitos contra la propiedad industrial al catálogo de precedentes de lavado de activos",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89781",
+        "boletin": "17912-25",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-08-17",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17912-25",
+        "proyecto": {
+          "boletin": "17912-25",
+          "nombre": "Modifica la ley N° 19.913 para incorporar los delitos contra la propiedad industrial al catálogo de precedentes de lavado de activos",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89782",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-08-17",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89783",
+        "boletin": "17451-15",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-08-17",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17451-15",
+        "proyecto": {
+          "boletin": "17451-15",
+          "nombre": "Autoriza la circulación en el país de vehículos que participen en competiciones de carácter internacional o federadas, en las formas y condiciones que señala",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89784",
+        "boletin": "17837-13",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-08-17",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17837-13",
+        "proyecto": {
+          "boletin": "17837-13",
+          "nombre": "Modifica el Código del Trabajo y otros cuerpos legales para fortalecer la protección de la salud y seguridad de las personas trabajadoras",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89797",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-08-18",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89798",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-08-18",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89799",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-08-18",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89800",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-08-18",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89801",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-08-18",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89806",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-08-18",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89808",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-08-18",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89809",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-08-18",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89811",
+        "boletin": null,
+        "tipo": "Proyecto de Acuerdo",
+        "fecha": "2026-08-18",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Proyecto de Acuerdo N° 24",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89812",
+        "boletin": null,
+        "tipo": "Proyecto de Resolución",
+        "fecha": "2026-08-18",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 43",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89813",
+        "boletin": null,
+        "tipo": "Proyecto de Resolución",
+        "fecha": "2026-08-18",
+        "resultado": "Rechazado",
+        "sentido": "no_vota",
+        "descripcion": "Proyecto de Resolución N° 45",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89814",
+        "boletin": "18525-06",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-08-18",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18525-06",
+        "proyecto": {
+          "boletin": "18525-06",
+          "nombre": "Modifica la ley N° 21.802, que fortalece la institucionalidad municipal en materia de seguridad pública y prevención del delito",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89815",
+        "boletin": "18525-06",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-08-18",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18525-06",
+        "proyecto": {
+          "boletin": "18525-06",
+          "nombre": "Modifica la ley N° 21.802, que fortalece la institucionalidad municipal en materia de seguridad pública y prevención del delito",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89816",
+        "boletin": "18525-06",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-08-18",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18525-06",
+        "proyecto": {
+          "boletin": "18525-06",
+          "nombre": "Modifica la ley N° 21.802, que fortalece la institucionalidad municipal en materia de seguridad pública y prevención del delito",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89817",
+        "boletin": "18525-06",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-08-18",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18525-06",
+        "proyecto": {
+          "boletin": "18525-06",
+          "nombre": "Modifica la ley N° 21.802, que fortalece la institucionalidad municipal en materia de seguridad pública y prevención del delito",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89842",
+        "boletin": "15387-12",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-08-18",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 15387-12",
+        "proyecto": {
+          "boletin": "15387-12",
+          "nombre": "Modifica la ley N°21.020, sobre tenencia responsable de mascotas y animales de compañía, para prohibir y sancionar las carreras de perros",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89843",
+        "boletin": "12786-12",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-08-18",
+        "resultado": "Rechazado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 12786-12",
+        "proyecto": {
+          "boletin": "12786-12",
+          "nombre": "Modifica la ley N°20.380, sobre Protección de los animales, para regular las carreras de perros",
+          "tipo_iniciativa": "Moción",
+          "materias": [
+            {
+              "id": "17392",
+              "nombre": "PROTECCIÓN DE ANIMALES"
+            },
+            {
+              "id": "22183",
+              "nombre": "CARRERAS DE PERROS"
+            }
+          ]
+        }
+      },
+      {
+        "votacion_id": "89844",
+        "boletin": "12786-12",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-08-18",
+        "resultado": "Rechazado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 12786-12",
+        "proyecto": {
+          "boletin": "12786-12",
+          "nombre": "Modifica la ley N°20.380, sobre Protección de los animales, para regular las carreras de perros",
+          "tipo_iniciativa": "Moción",
+          "materias": [
+            {
+              "id": "17392",
+              "nombre": "PROTECCIÓN DE ANIMALES"
+            },
+            {
+              "id": "22183",
+              "nombre": "CARRERAS DE PERROS"
+            }
+          ]
+        }
+      },
+      {
+        "votacion_id": "89850",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-08-19",
+        "resultado": "Rechazado",
+        "sentido": "no_vota",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89851",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-08-19",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89852",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-08-19",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89854",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-08-19",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89855",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-08-19",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89859",
+        "boletin": null,
+        "tipo": "Proyecto de Acuerdo",
+        "fecha": "2026-08-19",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Proyecto de Acuerdo N° 25",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89860",
+        "boletin": null,
+        "tipo": "Proyecto de Resolución",
+        "fecha": "2026-08-19",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Proyecto de Resolución N° 46",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89861",
+        "boletin": null,
+        "tipo": "Proyecto de Resolución",
+        "fecha": "2026-08-19",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Proyecto de Resolución N° 47",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89862",
+        "boletin": "18429-10",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-08-19",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18429-10",
+        "proyecto": {
+          "boletin": "18429-10",
+          "nombre": "Aprueba el Tratado entre la República de Chile y la República Federativa de Brasil sobre Asistencia Jurídica Mutua en Materia Penal, hecho en Brasilia, el 22 de abril de 2025",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89863",
+        "boletin": "18189-14",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-08-19",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18189-14",
+        "proyecto": {
+          "boletin": "18189-14",
+          "nombre": "Modifica la ley N° 20.898, con el objeto de ampliar el régimen excepcional de regularización de viviendas y actualizar la fecha de su aplicación",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89864",
+        "boletin": "18189-14",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-08-19",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18189-14",
+        "proyecto": {
+          "boletin": "18189-14",
+          "nombre": "Modifica la ley N° 20.898, con el objeto de ampliar el régimen excepcional de regularización de viviendas y actualizar la fecha de su aplicación",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89865",
+        "boletin": "18189-14",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-08-19",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 18189-14",
+        "proyecto": {
+          "boletin": "18189-14",
+          "nombre": "Modifica la ley N° 20.898, con el objeto de ampliar el régimen excepcional de regularización de viviendas y actualizar la fecha de su aplicación",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89866",
+        "boletin": "16397-15",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-08-19",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 16397-15",
+        "proyecto": {
+          "boletin": "16397-15",
+          "nombre": "Modifica la ley N° 18.290, de Tránsito, para aumentar las sanciones por no usar sistemas de retención infantil y por trasladar menores de 12 años en asientos delanteros",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89867",
+        "boletin": "17324-33",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-08-19",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Boletín N° 17324-33",
+        "proyecto": {
+          "boletin": "17324-33",
+          "nombre": "Modifica el Código de Aguas para garantizar la participación de comités y cooperativas de agua potable rural, prestadoras de servicios sanitarios rurales, en los directorios de las comunidades de agua",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       }
     ]
   },
   "proyectos": {
     "anio": 2026,
-    "n_proyectos": 14,
+    "n_proyectos": 16,
     "estado_tramitacion_disponible": false,
     "proyectos": [
+      {
+        "boletin": "18604-07",
+        "nombre": "Modifica el Código Penal para agravar la pena por la receptación de vehículos en supuestos que indica",
+        "fecha_ingreso": "2026-08-11",
+        "admisible": "true",
+        "rol": "firmante",
+        "tipo_iniciativa": "Moción",
+        "materias": []
+      },
+      {
+        "boletin": "18587-06",
+        "nombre": "Sanciona el incumplimiento de órdenes de evacuación o prohibiciones de ingreso emitidas por las autoridades y permite exigir el reembolso de los costos extraordinarios de búsqueda y rescate",
+        "fecha_ingreso": "2026-08-10",
+        "admisible": "true",
+        "rol": "firmante",
+        "tipo_iniciativa": "Moción",
+        "materias": []
+      },
       {
         "boletin": "18562-07",
         "nombre": "Establece controles obligatorios sobre consumo de drogas y una causal de cesación en el cargo de las autoridades y directivos superiores que indica",
@@ -12376,6 +12939,6 @@
     "fuente": "opendata.camara.cl",
     "periodo": "2026-2030",
     "anio_proceso": 2026,
-    "generado": "2026-08-17T11:46:30"
+    "generado": "2026-08-20T02:19:20"
   }
 }

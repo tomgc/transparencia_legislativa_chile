@@ -1,0 +1,99 @@
+{
+  "boletin": "18600-06",
+  "nombre": "Declara feriado nacional el 17 de septiembre de 2026",
+  "tipo_iniciativa": "Moción",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2026-08-12",
+  "tramitacion": {
+    "etapa_actual": "Primer trámite constitucional (C.Diputados)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2026-08-12",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-08-19",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Gobierno Interior Nacionalidad Ciudadanía y Regionalización y a Comisión de Hacienda",
+        "sesion": "60/374"
+      },
+      {
+        "fecha": "2026-08-19",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Se rechazó solicitud del diputado Barraza para omitir trámite en la Comisión de Hacienda. RECHAZADO",
+        "sesion": "60/374"
+      }
+    ]
+  },
+  "autores": [
+    {
+      "parlamentario_id": "1074",
+      "nombre": "Marisela Santibáñez Novoa",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1159",
+      "nombre": "Lorena Pizarro Sierra",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1117",
+      "nombre": "Nathalie Castillo Rojas",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1128",
+      "nombre": "Ana María Gazmuri Vieira",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1173",
+      "nombre": "Daniela Serrano Salazar",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1211",
+      "nombre": "Sofía González Cortés",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1210",
+      "nombre": "Gustavo Gatica Villarroel",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1250",
+      "nombre": "Bernardo Salinas Maya",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1213",
+      "nombre": "Irací Hassler Jacob",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1188",
+      "nombre": "Marcos Barraza Gómez",
+      "en_padron_vigente": true
+    }
+  ],
+  "votaciones": [],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-08-20",
+    "universo": "Los 464 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": true,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-08-20T02:19:28"
+  }
+}
