@@ -631,6 +631,48 @@ capturas_crudas_de_paso <- function(id, corte = NULL) {
 # los nombres de rama del switch en el arbol de sintaxis ya cargado. Es la unica
 # forma de comprobar el sentido inverso (una rama que no corresponda a ningun
 # paso) sin leer el archivo, que violaria el caracter estatico de la guarda.
+#
+# P-100: la llamada al switch se BUSCA en el cuerpo, no se toma por posicion.
+# `body(...)[[2]]` asumia que el switch es la segunda expresion del cuerpo, cosa
+# que deja de ser cierta en cuanto alguien antepone una linea (un log, una
+# validacion de argumento, un `stopifnot`). Entonces `names()` sobre lo que no es
+# el switch devuelve NULL o los nombres equivocados, `ids_cap` queda vacio y la
+# guarda declara huerfanos a los 6 pasos que si estaban registrados: falso
+# positivo que detiene run_all() en su entrada, y con el, el cron. Buscar la
+# llamada es robusto a la forma del cuerpo y no cuesta nada, porque el AST ya
+# esta en memoria.
+# Localiza LA llamada a `switch` dentro del cuerpo de una funcion, recorriendo el
+# AST en vez de indexar por posicion (P-100). Las dos condiciones de contorno son
+# fallos ruidosos y no silencios: una guarda que no puede auditar no esta diciendo
+# que todo este bien, y elegir entre dos switches seria adivinar.
+localizar_switch <- function(fn, nombre_fn) {
+  hallazgos <- list()
+  recorrer <- function(nodo) {
+    if (!is.call(nodo)) return(invisible(NULL))
+    if (identical(nodo[[1L]], as.name("switch")))
+      hallazgos[[length(hallazgos) + 1L]] <<- nodo
+    for (k in seq_along(nodo)) {
+      hijo <- tryCatch(nodo[[k]], error = function(e) NULL)
+      if (!is.null(hijo)) recorrer(hijo)
+    }
+    invisible(NULL)
+  }
+  recorrer(body(fn))
+  if (length(hallazgos) == 0L)
+    stop(sprintf(paste0(
+      "localizar_switch: no hay ninguna llamada a switch() en el cuerpo de %s(). ",
+      "La guarda del registro de pasos no puede auditar sus ramas, y no degrada a ",
+      "silencio: revisa si esa funcion dejo de declarar sus capturas con un switch."),
+      nombre_fn), call. = FALSE)
+  if (length(hallazgos) > 1L)
+    stop(sprintf(paste0(
+      "localizar_switch: %d llamadas a switch() en el cuerpo de %s(); se esperaba ",
+      "exactamente una. Elegir cual auditar seria adivinar: declara una sola o ",
+      "cambia la guarda para que sepa cual es la de las capturas."),
+      length(hallazgos), nombre_fn), call. = FALSE)
+  hallazgos[[1L]]
+}
+
 verificar_registro_pasos <- function(pasos,
                                      excepciones = PASOS_SIN_INTERMEDIO,
                                      extraccion  = PASOS_EXTRACCION,
@@ -640,7 +682,7 @@ verificar_registro_pasos <- function(pasos,
   esperados <- setdiff(ids_pasos, excepciones)
 
   # Ramas declaradas en el switch de capturas_crudas_de_paso(), desde el AST.
-  ramas   <- names(body(capturas_crudas_de_paso)[[2]])
+  ramas   <- names(localizar_switch(capturas_crudas_de_paso, "capturas_crudas_de_paso"))
   ids_cap <- suppressWarnings(as.integer(ramas[nzchar(ramas)]))
   ids_cap <- ids_cap[!is.na(ids_cap)]
 
