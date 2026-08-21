@@ -581,3 +581,361 @@ mismo que una prueba suficiente.
 P-105 cruzaron, 0 intrusos, el YAML es el mismo blob que `main`, y la salida
 publicada es idéntica en 1 242 de 1 242 archivos. Lo que falla no es la separación:
 es el arreglo que aproveché para meter en la misma rama.
+
+---
+
+# Ronda B2 — revertir DE-2, restaurar lo perdido, versionar el arnés de P-100
+
+> **Encargo:** `50_documentacion/andamios/50_encargo_s24_encargo_b2_revertir_de2_y_arnes.md`.
+> **Misma rama que B:** `fix/p100-p101-p102-derivacion`. **Sesión:** 24.
+> Esta sección amplía el log del encargo B; no lo reemplaza.
+
+## B2.1 Resumen
+
+El panel de B devolvió NO PASA por dos cosas, y las dos se corrigen aquí sin
+diseñar nada nuevo: **revertir** y **restaurar**. Más lo que faltaba desde el
+principio: **un arnés versionado para P-100**.
+
+**Un resultado de F0 cambia el encargo y hay que decirlo arriba: H3 es falsa.** El
+encargo daba por hecho que revertir mataría las seis instancias «porque las seis
+nacieron del prepase». **Sólo dos nacieron ahí.** Medido en las dos ramas en la
+misma corrida: las instancias 1 y 5 difieren entre la rama A y la rama B (son
+consecuencia de la corrección de B, y la reversión las mata); las otras cuatro,
+más el caso silencioso, **se comportan igual en las dos** y por tanto son
+defectos heredados de A2, no de B. Se reportan por separado, como el propio
+encargo manda cuando H3 resulta falsa.
+
+## B2.2 Inventario de commits de esta ronda
+
+| Hash | Mensaje |
+|---|---|
+| `1d46a23` | revert(de-2): `localizar_switch` vuelve byte a byte al estado de `ff71730` (incluye el encargo B2) |
+| `4a44d13` | chore(p100): arnés versionado del localizador, con los siete casos de regresión del panel |
+
+## B2.3 F0 — estado y reproducción
+
+**F0.1 (H1 verdadera).** `main` en `37e571c`, la rama en `885fc55`, la rama A en
+`ff71730`, las tres en `0 0` con su remoto.
+
+**F0.2 (H2 verdadera).** `localizar_switch()` en la rama A son 88 líneas con **0
+referencias a objetos de P-105**: transportable byte a byte.
+
+**F0.3 (H3 FALSA) — las seis instancias, antes de tocar nada.**
+
+| instancia | rama A (`ff71730`) | rama B (`885fc55`) | ¿difiere? |
+|---|---|---|---|
+| 1 (R2) símbolo libre ligado a `switch` | DETIENE | **RESUELVE[32,33,34,35,36,37]** | **sí — consecuencia de B** |
+| 2 (R3a) símbolo asignado sólo en una anónima | DETIENE | DETIENE | no — heredada de A2 |
+| 3 (R3b) `do.call(base::rbind, …)` | DETIENE | DETIENE | no — heredada de A2 |
+| 4 (R3c) `do.call(quote=TRUE, "switch", …)` | DETIENE | DETIENE | no — heredada de A2 |
+| 5 (R3d) `assign("h",…)` ; `do.call(h, …)` | DETIENE | **RESUELVE[32]** | **sí — consecuencia de B** |
+| 6 (R3e) `quote(switch(…))` + el `switch` real | DETIENE | DETIENE | no — heredada de A2 |
+| 6bis el caso **silencioso** | RESUELVE[97,98,99] | RESUELVE[97,98,99] | no — heredada de A2 |
+
+**2 de 7.** El caso 6bis merece subrayado: es un **falso negativo**, la guarda
+audita 97/98/99 mientras el despacho real declara 32/33, **y existe en la rama A
+desde A2**. No lo introdujo B y la reversión no lo toca.
+
+**F0.4 (H4 verdadera).** Método sensible a comentarios sobre el archivo completo:
+461 tokens `COMMENT` en la rama A y 426 en la B; 45 sólo en A y 13 sólo en B. De
+los 45, todos menos 2 están dentro del bloque de P-105; los 2 restantes son
+exactamente el par `# Default CRUDO_CAMARA` de R4. Los 13 de B son el par
+revertido más el comentario del prepase.
+
+## B2.4 F1 — la reversión, la restauración y el arnés
+
+### 1. Las seis instancias, antes y después
+
+| instancia | B antes (`885fc55`) | B2 después | |
+|---|---|---|---|
+| 1 símbolo libre ligado a `switch` | RESUELVE[32,…,37] | **DETIENE** | revertida |
+| 5 `assign("h",…)` ; `do.call(h, …)` | RESUELVE[32] | **DETIENE** | revertida |
+| 2, 3, 4, 6, 6bis | sin cambio | sin cambio | heredadas de A2 |
+
+Y contra la rama A, que es la referencia: **0 de 7 difieren**.
+
+### 2. `localizar_switch()` idéntico byte a byte
+
+```
+  lineas: 88 y 88 | identicas linea a linea: TRUE
+  md5 del texto fuente: 0d8936e92295ddf0d16c588a91dde282  (los dos)
+  tokens COMMENT dentro de la funcion: 6 y 6 | identicos: TRUE
+```
+
+### 3. El método nuevo al lado del viejo, sobre el par que el panel usó
+
+```
+== EQUIVALENCIA: rama A vs rama B (885fc55) ==
+  METODO NUEVO (texto fuente, ve comentarios): difieren 2 de 48
+     ruta_cache
+     localizar_switch
+  METODO VIEJO (deparse, ciego a comentarios): difieren 1 de 48
+     localizar_switch
+  objetos que SOLO el metodo nuevo ve distintos: ruta_cache
+```
+
+**Ésa es la demostración**: el método que el encargo B exigió no podía ver
+`ruta_cache`, que era exactamente donde estaba la pérdida. Y tras revertir y
+restaurar, sobre el par rama A / rama B2:
+
+```
+  METODO NUEVO: difieren 0 de 48   |   METODO VIEJO: difieren 0 de 48
+  comentarios solo en la rama B2: 0
+  comentarios solo en la rama A: 43, los 43 dentro del bloque de P-105
+```
+
+### 4. Diferencias de comentario en cero
+
+Ningún comentario existe en la rama B2 que no exista en la rama A, y los 43 que
+sólo están en A son P-105 íntegro.
+
+### 5. Los cuatro defectos originales, todavía muertos
+
+`D1` fall-through → `32,33,37`; `D1` indexado (37:190) → `32,37`; `D2`
+`base::switch` → `32,37`; `D2` `do.call("switch", …)` → `32,37`. `D3` y `D4` **no
+aplican**: `barrido_datos_personales` no existe en esta rama.
+
+### 6. Las 19 formas de AST, ahora desde el arnés versionado
+
+19 de 19 `[ok]`, más 3 casos sobre la función **real** y 3 de contorno. El arnés
+lee el texto de `capturas_crudas_de_paso()` **del archivo** e inserta las formas
+ahí, para que la prueba mida la función que hay hoy y no una copia que se
+desincroniza.
+
+### 7. El arnés falla cuando debe
+
+Roto a propósito un caso esperado del bloque `ast`:
+
+```
+ARNES DEL LOCALIZADOR: 1 caso(s) NO dieron lo esperado.
+  - ast / switch(...) pelado: esperado DETIENE, obtenido RESUELVE[32,37]
+EXIT_REAL=1
+```
+
+Y con todo en orden, `EXIT_REAL=0`.
+
+### 8. Control conocido-bueno
+
+```
+lineas main: 131 | rama B2: 131 | identicas: TRUE
+guarda en main: 0 | en rama B2: 0 -> SILENCIO en ambas: TRUE
+cache hit: 7 | cache miss/http/descargando: 0
+md5 de salidas: comparables 1242 | IDENTICOS 1242
+```
+
+### 9. Los cinco escenarios de P-93 y los tres mensajes de P-101
+
+Los cinco se detienen nombrando el elemento y el control calla. Los tres mensajes
+salen exactos: `20_insumos/senado/`, `20_insumos/camara/`, y
+`20_insumos/camara/ y 20_insumos/senado/`.
+
+### 10. Equivalencia de rutas de P-102
+
+22 filas, **22 idénticas**. Las dos que comparan símbolo contra literal comparan
+el valor.
+
+### 11. El YAML en cero y el diff enumerado
+
+`git diff main -- .github/workflows/refresh-semanal.yml`: **0 líneas**. Seis
+archivos en el diff contra `main`, los seis justificados (§B2.7), **0 sin
+justificar**, y **0 líneas** que mencionen objetos o patrones del barrido en
+código o en el arnés, sobre 305 líneas cambiadas.
+
+## B2.5 F2 — panel de tercera vuelta. Veredicto: **PASA, por concordancia**
+
+Dos panelistas independientes, sin este log. **Los dos superaron el control
+negativo triple**, así que sus veredictos cuentan.
+
+| | Panelista 1 | Panelista 2 |
+|---|---|---|
+| **Veredicto** | **PASA** | **PASA** |
+| D1–D4 sobre `b897ec4` | logrado | logrado |
+| Falso negativo sobre `885fc55` | logrado | logrado |
+| Ceguera de `deparse()` | logrado | logrado |
+| ¿Queda diferencia en `localizar_switch()`? | **ninguna**: idéntico en bytes crudos (74 / 4053 / 3929 en las tres funciones), token stream igual, 6 COMMENT iguales, 0 CR, 0 espacios finales | **ninguna**: 4 052 bytes en las dos, md5 `0d8936e92295`, 641 tokens y 6 COMMENT iguales |
+| ¿Se perdió algo? | 48/48 unidades comunes idénticas, 0 comentarios exclusivos de la rama | `git diff ff71730 rama` = **0 inserciones / 136 supresiones**, todas de P-105; **0 líneas de P-100/101/102 perdidas** |
+| Defectos de código | **ninguno** | ninguno de esta ronda |
+| No regresión | 6/6 rutas, guarda en silencio, 6/6 escenarios, 621/621 JSON idénticos, 7 intermedios iguales | 12 rutas, 6 escenarios, 619+619 JSON con `"generado"` como única diferencia, 0 red con fusible |
+
+**Nota de proceso:** los dos panelistas cayeron por errores de API (uno de ellos
+porque la máquina se suspendió) y se reanudaron pidiéndoles el informe con lo que
+ya tenían medido, declarando explícitamente qué bloques quedaban sin medir. **Los
+dos respondieron «ninguno».**
+
+### B2.5.1 Lo que el panel confirmó
+
+- **La reversión está completa y es exacta.** Los dos midieron `localizar_switch`
+  byte a byte contra `ff71730` y no encontraron diferencia de ninguna naturaleza,
+  incluidos comentarios, retornos de carro y espacios finales. La única
+  diferencia es de **posición** en el archivo (líneas 820-907 → 684-771), por las
+  136 líneas de P-105 que no están.
+- **0 huellas del prepase**: `asignados`, `es_asig` y `rec` dan 0 ocurrencias.
+- **Los dos casos del control negativo 2 vuelven a detener** en la rama.
+- **El arnés hace su trabajo**: `EXIT=0` con 25/25 casos en la rama; `EXIT=1`
+  contra `885fc55` nombrando las dos regresiones; y contra `b897ec4`, 16 casos.
+  El panelista 1 lo sometió además a mutación deliberada y 4 de sus 5 mutantes
+  murieron; el panelista 2 corrió 7 y mataron 5.
+- **Ningún comentario nuevo afirma inalcanzabilidad**: el panelista 2 lo verificó
+  con `grep` de `inalcanzab|imposible|nunca|jamas` sobre el arnés → 0.
+- **P-105 ausente**: 0 apariciones de los 7 nombres del barrido, YAML idéntico a
+  `main`, y sólo 6 archivos cambian.
+
+### B2.5.2 Los cuatro defectos que el panel sí encontró, y qué se hizo
+
+**Ninguno es de código de esta ronda.** Reproducidos por el ejecutor:
+
+**(a) El conteo de un comentario que escribí en el arnés era falso.** Decía
+«Cuatro de ellos son FALSOS POSITIVOS» cuando por su propia definición son
+**seis**: los casos 1 a 6 son todos código sano ante el que la guarda se detiene.
+Es exactamente la clase que el 🔒 de este encargo prohíbe. **Corregido en
+`1fbaf49`, después del panel**, y se declara aquí que el artefacto que los
+panelistas revisaron llevaba el conteo malo. Es una línea de comentario en el
+arnés, no en el código auditado, y el arnés sigue en `EXIT=0`.
+
+**(b) `argumento_vacio()` es inerte hoy.** El panelista 2 midió que borrar
+`if (argumento_vacio(nodo, k)) next` **no rompe nada**: el arnés sigue en
+`EXIT=0` y el fall-through sigue resolviendo `32,33,37`. Reproducido:
+
+```
+  linea eliminada: 738 -> if (argumento_vacio(nodo, k)) next
+  EXIT_REAL del arnes con la guarda de D1 borrada = 0
+  fall-through sin la guarda de D1: RESUELVE[32,33,37]
+```
+
+La razón es que `recorrer(nodo[[k]])` pasa el símbolo vacío **como argumento**,
+sin bindearlo, y `is.call()` sobre él devuelve `FALSE` sin error. Lo que arregló
+D1 fue **quitar el binding** (`hijo <- nodo[[k]]` seguido de `is.null(hijo)`), no
+el salto. El salto es defensa redundante, y **el arnés no la fija**. Se registra
+como pendiente; no se toca, porque cambiarlo sería rediseñar lo que §4.1 manda
+revertir.
+
+**(c) `base::do.call("switch", list(...))` es un falso negativo silencioso** no
+cubierto por el arnés, y `(switch)(...)` con señuelo también: la guarda resuelve
+el conjunto equivocado. **Heredados de `b897ec4`**, idénticos en las cuatro
+versiones: no son regresión de esta ronda ni de B.
+
+**(d) Documentación desactualizada**: `CLAUDE.md` sigue declarando P-102 como
+pendiente abierto y no tiene entrada para P-100/101/102, y
+`37_extraer_tramitacion.R:254` conserva `# subdir = "senado"` sobre una línea que
+ya usa `CRUDO_SENADO`. El segundo estaba ya declarado como pendiente 6 del log de
+B y excluido a propósito. `CLAUDE.md` se actualiza al mergear, como se hizo con
+P-99.
+
+### B2.5.3 Desacuerdos
+
+Ninguno sobre el veredicto ni sobre la reversión. El panelista 1 clasifica el
+`(switch)(...)` con señuelo como falso negativo no cubierto; el panelista 2 lo
+clasifica como **falso positivo ruidoso** y reserva el falso negativo para
+`base::do.call("switch", ...)`. Medido por el ejecutor: `(switch)(...)` **solo**
+detiene, y **con señuelo** resuelve `32,33,34,35,36,37` mientras el despacho real
+declara `32,33`. **Los dos tienen razón en su caso**: el comportamiento depende de
+si hay señuelo. Queda declarado.
+
+## B2.6 Verificación de invariantes (§6 del encargo B2)
+
+1. **Toda cifra viene de un bloque de R de esta corrida.** Las 7 instancias en las
+   dos ramas, los 88 renglones y el md5 del bloque, los 461/426/415 tokens
+   `COMMENT`, las 131 líneas, los 1 242 md5 y las 22 rutas se calcularon con
+   `Rscript` en el mismo turno.
+
+2. **¿Queda alguna diferencia en `localizar_switch()`?** Por el método de §4.3, no
+   por `deparse()`: 88 líneas contra 88, **idénticas línea a línea**, mismo md5 del
+   texto fuente (`0d8936e9…`), y **6 tokens `COMMENT` idénticos** dentro de la
+   función. **Ninguna.**
+
+3. **¿Algún comentario que B2 escribe afirma una propiedad que no midió?** B2
+   agrega **69 líneas de comentario**; las que afirman inalcanzabilidad o
+   imposibilidad: **0**. Las únicas que hablan de `do.call` o de DE-2 en código son
+   la descripción del bloque `regresion` del arnés, que dice *«los siete casos que
+   el panel de la sesión 24 usó para medir una corrección de `do.call` que después
+   se revirtió»* — un hecho sobre la historia, no una propiedad del código. **El
+   código calla sobre DE-2, como manda §4.2.**
+
+4. **¿Cubre el arnés las seis instancias revertidas?** Caso por caso, los **siete**
+   están en el bloque `regresion`, cada uno con su esperado y su nota: dos marcados
+   `contrato: sin esto vuelve el falso negativo` (las que la reversión mata), cuatro
+   `falso positivo vigente`, y uno `FALSO NEGATIVO conocido, documentado`.
+
+5. **¿Qué encuentra el arnés si mañana vuelve el prepase?** Corrido contra
+   `885fc55`, no de memoria:
+
+   ```
+   ARNES DEL LOCALIZADOR: 2 caso(s) NO dieron lo esperado.
+     - regresion / simbolo libre ligado a switch: esperado DETIENE, obtenido RESUELVE[32,33,34,35,36,37]
+     - regresion / assign("h",...) ; do.call(h, ...): esperado DETIENE, obtenido RESUELVE[32]
+   estado de salida: 1
+   ```
+
+   **Nombra exactamente las dos que la reversión mató, y sale en 1.**
+
+## B2.7 El diff contra `main`, archivo por archivo
+
+| archivo | por qué está |
+|---|---|
+| `10_utils/10_utils.R` | P-100, P-101 y P-102. 0 objetos de P-105 |
+| `30_procesamiento/37_extraer_tramitacion.R` | P-102: los tres literales del paso 37 |
+| `50_documentacion/andamios/50_verificar_localizador_p100.R` | el arnés versionado que exige §4.4 |
+| `50_documentacion/andamios/50_encargo_s24_encargo_b_separacion_p100_p101_p102.md` | el encargo B |
+| `50_documentacion/andamios/50_encargo_s24_encargo_b2_revertir_de2_y_arnes.md` | el encargo B2 |
+| `50_documentacion/andamios/logs/20260821_encargo_b_separacion_log.md` | este log |
+
+**Archivos sin justificar: 0. Líneas de barrido en código y en el arnés: 0.**
+
+## B2.8 Decisiones autónomas de esta ronda
+
+1. **Se reportó H3 como falsa en vez de forzarla.** El encargo daba por hecho que
+   las seis instancias nacían del prepase; la medición dice que sólo dos. Las otras
+   cuatro se registran como heredadas de A2, que es lo que §0.2 manda cuando H3 no
+   se sostiene.
+2. **El arnés declara el caso 6bis como `FALSO NEGATIVO conocido, documentado`.**
+   Aserta el comportamiento vigente para que un cambio no pase inadvertido, y la
+   nota deja explícito que no es el comportamiento deseable. Un arnés que aserta un
+   defecto sin decir que lo es lo convierte en contrato.
+3. **El arnés lee la función real del archivo** en vez de copiar su texto. Una copia
+   se desincroniza en cuanto alguien toque el pipeline, y entonces la prueba mide
+   una función que ya no existe.
+4. **No se tocó ninguna de las cuatro instancias heredadas.** Están fuera del
+   alcance de B2, y arreglarlas sería diseñar la tercera versión que §4.1 prohíbe.
+
+## B2.9 Pendientes que viajan con el PR
+
+1. **DE-2 sigue vivo como falso positivo ruidoso.** `do.call(rbind, piezas)` con
+   símbolo pelado detiene la guarda. Hoy `capturas_crudas_de_paso()` —la única
+   función auditada— tiene **0 `do.call`** (medido), pero eso depende de código que
+   nadie ha escrito: el árbol tiene 6 usos de esa forma en otros archivos. Se
+   registra; el código no lo afirma en ningún comentario.
+2. **`argumento_vacio()` es redundante hoy** (§B2.5.2b) y el arnés no lo fija.
+3. **`base::do.call("switch", …)` y `(switch)(…)` con señuelo** son falsos
+   negativos heredados de `b897ec4`, no cubiertos por el arnés.
+4. **El arnés no corre en CI.** El encargo dice explícitamente que eso no se decide
+   aquí; queda registrado.
+5. **`30_procesamiento/37_extraer_tramitacion.R:254`**: `# subdir = "senado"` sobre
+   una línea que ya usa `CRUDO_SENADO`. Misma clase que el comentario restaurado.
+6. **`formals()` pasa de literal a símbolo** en `ruta_cache` y `con_cache`.
+7. **`CLAUDE.md` no se actualizó**: sigue declarando P-102 como pendiente abierto y
+   no tiene entrada para P-100/101/102. Corresponde al mergear, igual que en P-99.
+8. **Las cuatro instancias heredadas de A2** (§B2.3, F0.3): la anónima, `base::rbind`,
+   el argumento nombrado de `do.call` y `quote()` contado como despacho, con su
+   caso silencioso.
+9. **Todo P-105 sigue fuera**, por diseño.
+
+**Marcas `# REVISAR` nuevas introducidas por B2: 0.**
+
+## B2.10 Notas para el revisor
+
+**Lo primero es que esta ronda no diseñó nada.** Revirtió `localizar_switch()` a un
+estado que dos paneles habían verificado —byte a byte, comprobado por dos
+panelistas independientes— y restauró dos líneas de comentario. Lo único nuevo es
+el arnés.
+
+**Lo segundo es lo que la medición de F0 corrigió del propio encargo:** H3 daba por
+hecho que las seis instancias nacían del prepase, y sólo dos lo hacían. Las otras
+cuatro son de A2 y siguen abiertas. Un encargo que hubiera «cerrado las seis» sin
+medir habría declarado resueltos cuatro defectos vivos.
+
+**Lo tercero es el hallazgo del panel sobre el arnés (§B2.5.2b):** `argumento_vacio()`
+—el helper con nombre que A2 introdujo para arreglar D1— **no es lo que arregla
+D1**. Lo que lo arregla es la ausencia del binding. El arnés que este encargo
+agrega no distingue las dos cosas, y por eso un mutante que borra el helper
+sobrevive. Es la clase de cosa que sólo aparece cuando alguien ataca el arnés en
+vez de leerlo.
