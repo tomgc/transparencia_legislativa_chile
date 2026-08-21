@@ -242,8 +242,8 @@ CRUDO_SENADO <- "senado"
 # segunda fuente (el SIL, tramitacion.senado.cl) y mezclarla con las capturas de
 # opendata.camara.cl en el mismo directorio borraria la unica senal de que son
 # origenes distintos. Una carpeta por host, igual que `camara/` es la Camara.
-# Default "camara": toda llamada existente conserva su ruta byte a byte, lo que
-# se comprueba programaticamente contra la salida de HEAD, no por inspeccion.
+# Default CRUDO_CAMARA: toda llamada existente conserva su ruta byte a byte, lo
+# que se comprueba programaticamente contra la salida de HEAD, no por inspeccion.
 # El resto de la clave (corte y tope) NO cambia: la doctrina de que la clave
 # codifica todo lo que altera el contenido sigue viviendo en un solo sitio.
 ruta_cache <- function(nombre_cache, tope = NULL, corte = NULL, subdir = CRUDO_CAMARA) {
