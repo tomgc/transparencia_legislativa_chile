@@ -222,6 +222,16 @@ corte_para_clave <- function(corte = NULL) {
 # tope de extraccion (ver sufijo_tope): un cambio de cualquiera genera una clave
 # distinta, no reutiliza el snapshot viejo. NO usa Sys.Date(): el corte es
 # explicito para que el refresh sea reproducible entre dias, sin drift.
+# ---- Subdirectorios de crudo, nombrados una sola vez (P-102) ----------------
+# Cada fuente de crudo escribe en su propia carpeta (una por host, enmienda 1 de
+# P-66). El nombre de esa carpeta se escribia a mano en seis sitios; ahora se
+# nombra aqui y los seis lo leen. Por NOMBRE y no por posicion:
+# `DIRECTORIOS_CRUDO[1]` habria sido tan fragil como el literal que reemplaza,
+# porque reordenar el vector cambiaria en silencio a que carpeta apunta cada
+# llamada. Renombrar un directorio pasa a ser una linea en vez de un grep.
+CRUDO_CAMARA <- "camara"
+CRUDO_SENADO <- "senado"
+
 # Depende de ruta_insumos(), REFRESCAR_API y CORTE_FECHA (de 10_configuracion.R,
 # disponibles en tiempo de ejecucion, ya que config se carga antes de extraer).
 # Ruta del cache crudo para (nombre_cache, tope) al corte vigente. Un solo lugar
@@ -236,7 +246,7 @@ corte_para_clave <- function(corte = NULL) {
 # se comprueba programaticamente contra la salida de HEAD, no por inspeccion.
 # El resto de la clave (corte y tope) NO cambia: la doctrina de que la clave
 # codifica todo lo que altera el contenido sigue viviendo en un solo sitio.
-ruta_cache <- function(nombre_cache, tope = NULL, corte = NULL, subdir = "camara") {
+ruta_cache <- function(nombre_cache, tope = NULL, corte = NULL, subdir = CRUDO_CAMARA) {
   ruta_insumos(subdir,
                sprintf("%s_%s%s.rds", corte_para_clave(corte), nombre_cache, sufijo_tope(tope)))
 }
@@ -246,7 +256,7 @@ ruta_cache <- function(nombre_cache, tope = NULL, corte = NULL, subdir = "camara
 # escribe el crudo y donde se audita. Agregar una fuente y olvidarse de sumarla a
 # esta lista dejaria su captura fuera del reporte, que es justo el punto ciego
 # que la enmienda 1 existe para no abrir.
-DIRECTORIOS_CRUDO <- c("camara", "senado")
+DIRECTORIOS_CRUDO <- c(CRUDO_CAMARA, CRUDO_SENADO)
 
 # Traduce la declaracion de arriba a las rutas que el bot del refresh versiona.
 # El paso "Commit en rama" de .github/workflows/refresh-semanal.yml depende de
@@ -467,7 +477,7 @@ reportar_estado_capturas <- function(corte = CORTE_FECHA, origen = "contrato",
 # ORIGEN del dato (fn_descarga es un closure arbitrario) y ahora tambien al
 # DESTINO, que era lo unico que la ataba a la Camara.
 con_cache <- function(nombre_cache, fn_descarga, tope = NULL, origen = "cache",
-                      subdir = "camara") {
+                      subdir = CRUDO_CAMARA) {
   ruta <- ruta_cache(nombre_cache, tope, subdir = subdir)
   refrescar <- isTRUE(getOption("camara.refrescar", REFRESCAR_API))
   if (file.exists(ruta) && !refrescar) {
@@ -607,7 +617,7 @@ capturas_crudas_de_paso <- function(id, corte = NULL) {
     # subdirectorio (enmienda 1 de P-66). La clave replica la del propio paso
     # (37:capturar_tramitacion); el tope es Inf porque el 37 no aplica cap propio.
     "37" = ruta_cache(sprintf("tramitacion_sil_%d", ANIO_PROCESO), Inf,
-                      corte = corte, subdir = "senado"),
+                      corte = corte, subdir = CRUDO_SENADO),
     stop(sprintf("capturas_crudas_de_paso: el paso %s no declara captura cruda.", id),
          call. = FALSE))
 }
