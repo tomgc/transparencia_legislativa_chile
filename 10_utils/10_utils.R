@@ -927,9 +927,16 @@ regenerar_intermedios_si_desalineados <- function(pasos, root, corte = CORTE_FEC
   declarados <- vapply(INTERMEDIOS_PIPELINE, corte_declarado_por, character(1))
   malos <- names(declarados)[is.na(declarados) | declarados != corte]
   if (length(malos) > 0)
+    # P-101: el subdirectorio NO se nombra aqui. La rama de arriba puede derivarlo
+    # de las rutas que faltan; esta no, porque lo que reporta son nombres de
+    # intermedio y el vector de capturas esta vacio por construccion. Decia
+    # "20_insumos/camara/" y mentia para toda captura del paso 37, que vive en
+    # 20_insumos/senado/. Se generaliza a 20_insumos/, que es cierto para todos los
+    # casos: el mensaje de una guarda es parte de su contrato, y vale mas ser menos
+    # especifico que ser especificamente falso.
     stop(sprintf(paste0("guarda_intermedios: tras regenerar, %d de %d intermedios siguen ",
                         "desalineados con el corte %s (%s). No se continua; revisa la ",
-                        "captura cruda de 20_insumos/camara/."),
+                        "captura cruda de 20_insumos/."),
                  length(malos), length(INTERMEDIOS_PIPELINE), corte,
                  paste(malos, collapse = ", ")), call. = FALSE)
   log_msg(sprintf("Intermedios regenerados: %d de %d al corte %s. Sigue el pipeline.",
