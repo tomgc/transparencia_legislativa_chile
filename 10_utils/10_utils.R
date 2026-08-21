@@ -265,6 +265,79 @@ rutas_versionables_crudo <- function() {
   file.path("20_insumos", DIRECTORIOS_CRUDO)
 }
 
+# ---- Barrido de dato personal sobre el crudo (P-105) ------------------------
+# EL HUECO QUE CIERRA: la compuerta que P-99 puso en el workflow valida RUTAS.
+# Comprueba que nada fuera de lo declarado entre al commit, pero no mira lo que
+# hay DENTRO de las rutas legitimas. Un archivo con datos personales depositado
+# en 20_insumos/senado/ con nombre plausible pasaba las dos barreras.
+#
+# ALCANCE, declarado aqui para que nadie lo suponga mas amplio de lo que es:
+# esta funcion barre las RUTAS QUE RECIBE, y el llamador del workflow le pasa
+# solo las que caen bajo rutas_versionables_crudo(). NO barre 40_salidas/json ni
+# docs/data, que son derivados de ese mismo crudo (barrer el origen los cubre) ni
+# 10_utils/10_configuracion.R. Tampoco valida rutas: de eso se encarga la
+# compuerta de P-99, y las dos son independientes.
+#
+# LOS PATRONES son los cinco calibrados en la auditoria de gobernanza de P-99
+# (50_documentacion/andamios/logs/20260819_auditoria_gobernanza_p99_log.md, §4),
+# reproducidos byte a byte antes de adoptarlos. Son expresiones regulares de R
+# base: 10_utils.R no adquiere dependencias de paquetes por esto.
+PATRONES_DATO_PERSONAL <- c(
+  correo         = "[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}",
+  rut_con_puntos = "\\b[0-9]{1,2}[.][0-9]{3}[.][0-9]{3}[-][0-9kK]\\b",
+  rut_sin_puntos = "\\b[0-9]{7,8}[-][0-9kK]\\b",
+  telefono_cl    = "\\+?56[ ]?[29][0-9]{7,8}\\b",
+  digitos_9mas   = "\\b[0-9]{9,}\\b"
+)
+
+# Recoge TODO valor de texto de un objeto de R, recursivamente. Un .rds de
+# captura es un data.frame cuyas columnas pueden ser list-cols anidadas: barrer
+# solo las columnas de primer nivel dejaria fuera justo donde vive el XML.
+texto_de_objeto <- function(o, prof = 0L) {
+  if (prof > 6L) return(character(0))
+  if (is.character(o)) return(o)
+  if (is.factor(o))    return(as.character(o))
+  if (is.list(o)) return(unlist(lapply(o, texto_de_objeto, prof = prof + 1L),
+                                use.names = FALSE))
+  character(0)
+}
+
+# Barre `rutas` con los cinco patrones y devuelve un data.frame de hallazgos
+# (archivo, patron, coincidencias), vacio si no hay ninguno. El VOLUMEN barrido
+# viaja como atributos (`valores`, `caracteres`, `archivos`) porque un cero sin
+# volumen no es un cero: si el barrido no leyo nada, tambien devuelve cero.
+# NUNCA devuelve el texto coincidente: el log de un job de CI es publico.
+barrido_datos_personales <- function(rutas, patrones = PATRONES_DATO_PERSONAL) {
+  hallazgos <- list()
+  n_val <- 0L; n_chr <- 0
+  for (r in rutas) {
+    if (!file.exists(r) || dir.exists(r)) next
+    tx <- if (grepl("[.]rds$", r, ignore.case = TRUE)) {
+      texto_de_objeto(tryCatch(readRDS(r), error = function(e) NULL))
+    } else {
+      tryCatch(readLines(r, warn = FALSE, encoding = "UTF-8"),
+               error = function(e) character(0))
+    }
+    tx <- tx[!is.na(tx)]
+    n_val <- n_val + length(tx); n_chr <- n_chr + sum(nchar(tx))
+    if (length(tx) == 0L) next
+    for (nm in names(patrones)) {
+      n <- sum(grepl(patrones[[nm]], tx, perl = TRUE))
+      if (n > 0L) hallazgos[[length(hallazgos) + 1L]] <-
+        data.frame(archivo = r, patron = nm, coincidencias = n,
+                   stringsAsFactors = FALSE)
+    }
+  }
+  out <- if (length(hallazgos) == 0L)
+    data.frame(archivo = character(0), patron = character(0),
+               coincidencias = integer(0), stringsAsFactors = FALSE)
+  else do.call(rbind, hallazgos)
+  attr(out, "archivos")   <- length(rutas)
+  attr(out, "valores")    <- n_val
+  attr(out, "caracteres") <- n_chr
+  out
+}
+
 # ---- Contrato temporal de la captura (P-74 acto (b), D31) -------------------
 # EL PROBLEMA (medido en el acto (a)): corte_para_clave() construye la clave del
 # archivo desde CORTE_FECHA y deliberadamente NO desde Sys.Date() (ver el
