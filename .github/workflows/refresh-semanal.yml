@@ -147,6 +147,32 @@ jobs:
               quit(status = 1)
             }
           '
+          # Compuerta de CONTENIDO (P-105). La de arriba valida rutas: comprueba
+          # que nada fuera de lo declarado entre al commit, pero no mira lo que hay
+          # dentro de las rutas legitimas. Esta barre el crudo staged con los cinco
+          # patrones calibrados en la auditoria de gobernanza de P-99. Alcance: solo
+          # lo que cae bajo rutas_versionables_crudo(); 40_salidas/json y docs/data
+          # son derivados de ese mismo crudo, asi que barrer el origen los cubre.
+          # Las dos compuertas son independientes y ninguna tapa a la otra.
+          Rscript -e '
+            source("10_utils/10_utils.R")
+            staged <- system2("git", c("diff", "--cached", "--name-only"), stdout = TRUE)
+            prefijos <- paste0(rutas_versionables_crudo(), "/")
+            es_crudo <- function(x) any(startsWith(x, prefijos))
+            crudo <- staged[vapply(staged, es_crudo, logical(1), USE.NAMES = FALSE)]
+            h <- barrido_datos_personales(crudo)
+            cat(sprintf(
+              "Barrido de dato personal: %d archivo(s) de crudo, %d caracteres, %d hallazgo(s).\n",
+              attr(h, "archivos"), attr(h, "caracteres"), nrow(h)))
+            if (nrow(h) > 0) {
+              cat("\n### DATO PERSONAL EN EL CRUDO STAGED -> NO se publica ###\n")
+              for (k in seq_len(nrow(h)))
+                cat(sprintf("  - %s : patron %s (%d coincidencia(s))\n",
+                            h$archivo[k], h$patron[k], h$coincidencias[k]))
+              cat("El texto coincidente NO se imprime: el log de este job es publico.\n")
+              quit(status = 1)
+            }
+          '
           if git diff --cached --quiet; then
             echo "Sin cambios que commitear (corpus identico al corte previo)."
             echo "No se publica rama ni se abre PR."
