@@ -120,8 +120,8 @@ if ("contorno" %in% bloques) {
 
 # ---- regresion --------------------------------------------------------------
 # Los siete casos del panel. El esperado es el comportamiento del estado
-# revertido. Cuatro de ellos son FALSOS POSITIVOS (la guarda se detiene ante
-# codigo sano) y uno es un FALSO NEGATIVO conocido: se declaran aqui como
+# revertido. Seis de los siete son casos en que la guarda SE DETIENE ante codigo
+# sano (falsos positivos) y el septimo es un FALSO NEGATIVO conocido: se declaran aqui como
 # comportamiento vigente para que un cambio no pase inadvertido, NO como
 # comportamiento deseable. Estan registrados como pendientes en el log.
 if ("regresion" %in% bloques) {
