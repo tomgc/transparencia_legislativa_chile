@@ -724,35 +724,122 @@ capturas_crudas_de_paso <- function(id, corte = NULL) {
 # positivo que detiene run_all() en su entrada, y con el, el cron. Buscar la
 # llamada es robusto a la forma del cuerpo y no cuesta nada, porque el AST ya
 # esta en memoria.
-# Localiza LA llamada a `switch` dentro del cuerpo de una funcion, recorriendo el
-# AST en vez de indexar por posicion (P-100). Las dos condiciones de contorno son
-# fallos ruidosos y no silencios: una guarda que no puede auditar no esta diciendo
-# que todo este bien, y elegir entre dos switches seria adivinar.
+# A2: la version de P-100 moria ante entradas que no sabia interpretar. Tres
+# defectos medidos por el panel, con sus dos correcciones y una decision:
+#  (D1) un simbolo vacio en el AST -- el fall-through `"32" = ,` del propio switch
+#       de capturas, o cualquier `x[!f, , drop = FALSE]` -- reventaba al BINDEARLO
+#       a una variable. El `tryCatch` no protegia nada porque la extraccion no
+#       falla: falla la evaluacion del binding. Ahora se detecta por IDENTIDAD
+#       contra `quote(expr = )`, sin binding intermedio, y se salta.
+#  (D2) `base::switch(...)` no se reconocia y el mensaje afirmaba que la funcion
+#       habia dejado de declarar sus capturas con un switch, que era falso. Ahora
+#       se reconocen las TRES formas escribibles y ningun mensaje afirma una causa
+#       que no se midio: se nombra lo que se encontro y lo que no se pudo decidir.
+#  (decision) un `switch` dentro del cuerpo de una `function` anidada NO es la
+#       declaracion de capturas, es codigo auxiliar de esa funcion. El recorrido
+#       NO entra en cuerpos de `function`. Si el unico switch del cuerpo vive ahi,
+#       eso cuenta como cero llamadas y falla ruidosamente.
+#
+# NINGUNA rama termina en silencio. Las cuatro salidas posibles son: la llamada
+# encontrada; cero llamadas; mas de una; y al menos una construccion irresoluble
+# (do.call con funcion no literal, o `switch` calificado con un namespace que no
+# es base). Las tres ultimas son stop().
+
+# Un argumento vacio del AST se detecta por identidad y SIN bindearlo: bindearlo
+# es lo que dispara "el argumento X esta ausente" (D1).
+argumento_vacio <- function(nodo, k) identical(nodo[[k]], quote(expr = ))
+
+# Localiza la llamada que PORTA las ramas de despacho dentro del cuerpo de una
+# funcion, recorriendo el AST en vez de indexar por posicion (P-100). Devuelve
+# esa llamada: el llamador toma `names()` sobre ella. Para `do.call("switch",
+# list(...))` devuelve el `list(...)`, cuyo `names()` tiene la misma forma que el
+# de un `switch(...)` directo.
 localizar_switch <- function(fn, nombre_fn) {
-  hallazgos <- list()
+  hallazgos    <- list()
+  irresolubles <- character(0)
+
+  # Cabecera de una llamada: TRUE si es el simbolo `nm` pelado.
+  es_simbolo <- function(x, nm) is.symbol(x) && identical(x, as.name(nm))
+
   recorrer <- function(nodo) {
     if (!is.call(nodo)) return(invisible(NULL))
-    if (identical(nodo[[1L]], as.name("switch")))
+    cab <- nodo[[1L]]
+
+    # (0) Cuerpo de una `function` anidada: no se entra. Decision del encargo A2.
+    if (es_simbolo(cab, "function")) return(invisible(NULL))
+
+    # (1) switch(...) pelado.
+    if (es_simbolo(cab, "switch")) {
       hallazgos[[length(hallazgos) + 1L]] <<- nodo
+
+    # (2) base::switch(...) / base:::switch(...).
+    } else if (is.call(cab) &&
+               (es_simbolo(cab[[1L]], "::") || es_simbolo(cab[[1L]], ":::")) &&
+               length(cab) == 3L && es_simbolo(cab[[3L]], "switch")) {
+      if (es_simbolo(cab[[2L]], "base")) {
+        hallazgos[[length(hallazgos) + 1L]] <<- nodo
+      } else {
+        irresolubles <<- c(irresolubles, sprintf(
+          "switch calificado con un namespace que no es base: %s",
+          paste(deparse(cab), collapse = "")))
+      }
+
+    # (3) do.call("switch", list(...)) con literales.
+    } else if (es_simbolo(cab, "do.call")) {
+      que  <- if ("what" %in% names(nodo)) nodo[["what"]] else if (length(nodo) >= 2L) nodo[[2L]] else NULL
+      args <- if ("args" %in% names(nodo)) nodo[["args"]] else if (length(nodo) >= 3L) nodo[[3L]] else NULL
+      es_switch <- (is.character(que) && length(que) == 1L && identical(que, "switch")) ||
+                   es_simbolo(que, "switch")
+      no_decidible <- !(is.character(que) && length(que) == 1L) && !is.symbol(que)
+      if (es_switch) {
+        if (!is.null(args) && is.call(args) && es_simbolo(args[[1L]], "list")) {
+          hallazgos[[length(hallazgos) + 1L]] <<- args
+        } else {
+          irresolubles <<- c(irresolubles, sprintf(
+            "do.call(\"switch\", ...) cuyos argumentos no son un list() literal: %s",
+            paste(deparse(nodo), collapse = "")))
+        }
+      } else if (no_decidible || (is.symbol(que) && !es_simbolo(que, "switch"))) {
+        irresolubles <<- c(irresolubles, sprintf(
+          "do.call con funcion no literal, imposible decidir si despacha: %s",
+          paste(deparse(nodo), collapse = "")))
+      }
+    }
+
+    # Recorrido de los hijos. El argumento vacio se salta ANTES de tocarlo.
     for (k in seq_along(nodo)) {
-      hijo <- tryCatch(nodo[[k]], error = function(e) NULL)
-      if (!is.null(hijo)) recorrer(hijo)
+      if (argumento_vacio(nodo, k)) next
+      recorrer(nodo[[k]])
     }
     invisible(NULL)
   }
+
   recorrer(body(fn))
+
+  encabezado <- sprintf("localizar_switch: la guarda del registro de pasos audita %s()", nombre_fn)
+  if (length(irresolubles) > 0L)
+    stop(sprintf(paste0(
+      "%s y encontro %d construccion(es) que NO puede interpretar:\n%s\n",
+      "  Ademas encontro %d llamada(s) de despacho reconocible(s). No se elige entre ",
+      "lo reconocido y lo no interpretado: se detiene. Reescribe esa construccion en ",
+      "una de las tres formas que la guarda reconoce (switch, base::switch, o ",
+      "do.call(\"switch\", list(...))), o amplia la guarda."),
+      encabezado, length(irresolubles),
+      paste0("    - ", irresolubles, collapse = "\n"), length(hallazgos)), call. = FALSE)
   if (length(hallazgos) == 0L)
     stop(sprintf(paste0(
-      "localizar_switch: no hay ninguna llamada a switch() en el cuerpo de %s(). ",
-      "La guarda del registro de pasos no puede auditar sus ramas, y no degrada a ",
-      "silencio: revisa si esa funcion dejo de declarar sus capturas con un switch."),
-      nombre_fn), call. = FALSE)
+      "%s y NO encontro ninguna llamada de despacho en su cuerpo. Se buscaron las ",
+      "tres formas reconocidas: switch(...), base::switch(...) y ",
+      "do.call(\"switch\", list(...)); los cuerpos de `function` anidadas no se ",
+      "inspeccionan, porque un switch ahi dentro no es la declaracion de capturas. ",
+      "La guarda no puede auditar las ramas y no degrada a silencio."),
+      encabezado), call. = FALSE)
   if (length(hallazgos) > 1L)
     stop(sprintf(paste0(
-      "localizar_switch: %d llamadas a switch() en el cuerpo de %s(); se esperaba ",
-      "exactamente una. Elegir cual auditar seria adivinar: declara una sola o ",
-      "cambia la guarda para que sepa cual es la de las capturas."),
-      length(hallazgos), nombre_fn), call. = FALSE)
+      "%s y encontro %d llamadas de despacho en su cuerpo; se esperaba exactamente ",
+      "una. Elegir cual auditar seria adivinar: deja una sola, o cambia la guarda ",
+      "para que sepa cual es la de las capturas."),
+      encabezado, length(hallazgos)), call. = FALSE)
   hallazgos[[1L]]
 }
 
