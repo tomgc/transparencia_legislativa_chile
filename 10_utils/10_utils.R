@@ -242,8 +242,8 @@ CRUDO_SENADO <- "senado"
 # segunda fuente (el SIL, tramitacion.senado.cl) y mezclarla con las capturas de
 # opendata.camara.cl en el mismo directorio borraria la unica senal de que son
 # origenes distintos. Una carpeta por host, igual que `camara/` es la Camara.
-# Default "camara": toda llamada existente conserva su ruta byte a byte, lo que
-# se comprueba programaticamente contra la salida de HEAD, no por inspeccion.
+# Default CRUDO_CAMARA: toda llamada existente conserva su ruta byte a byte, lo
+# que se comprueba programaticamente contra la salida de HEAD, no por inspeccion.
 # El resto de la clave (corte y tope) NO cambia: la doctrina de que la clave
 # codifica todo lo que altera el contenido sigue viviendo en un solo sitio.
 ruta_cache <- function(nombre_cache, tope = NULL, corte = NULL, subdir = CRUDO_CAMARA) {
@@ -682,33 +682,6 @@ argumento_vacio <- function(nodo, k) identical(nodo[[k]], quote(expr = ))
 # list(...))` devuelve el `list(...)`, cuyo `names()` tiene la misma forma que el
 # de un `switch(...)` directo.
 localizar_switch <- function(fn, nombre_fn) {
-  # DE-2: un simbolo pelado en la posicion de funcion de do.call() es decidible,
-  # y hay que decidirlo bien. `do.call(rbind, piezas)` nombra una funcion del
-  # entorno y NO es switch: resoluble, se ignora. `do.call(g, ...)` donde `g` se
-  # asigna en este mismo cuerpo es una variable cuyo valor no se determina
-  # sintacticamente: irresoluble, se detiene. Los dos se escriben igual, asi que
-  # el discriminador es si el simbolo recibe una asignacion en el cuerpo. Esta
-  # pasada previa los recoge; sin ella la version de A2 marcaba irresoluble a
-  # `do.call(rbind, ...)` afirmando "funcion no literal", que era falso.
-  asignados <- local({
-    s <- character(0)
-    rec <- function(nodo) {
-      if (!is.call(nodo)) return(invisible(NULL))
-      if ((es_asig <- identical(nodo[[1L]], as.name("<-")) ||
-                      identical(nodo[[1L]], as.name("="))  ||
-                      identical(nodo[[1L]], as.name("<<-"))) &&
-          length(nodo) >= 2L && is.symbol(nodo[[2L]]))
-        s <<- c(s, as.character(nodo[[2L]]))
-      for (k in seq_along(nodo)) {
-        if (argumento_vacio(nodo, k)) next
-        rec(nodo[[k]])
-      }
-      invisible(NULL)
-    }
-    rec(body(fn))
-    unique(s)
-  })
-
   hallazgos    <- list()
   irresolubles <- character(0)
 
@@ -744,6 +717,7 @@ localizar_switch <- function(fn, nombre_fn) {
       args <- if ("args" %in% names(nodo)) nodo[["args"]] else if (length(nodo) >= 3L) nodo[[3L]] else NULL
       es_switch <- (is.character(que) && length(que) == 1L && identical(que, "switch")) ||
                    es_simbolo(que, "switch")
+      no_decidible <- !(is.character(que) && length(que) == 1L) && !is.symbol(que)
       if (es_switch) {
         if (!is.null(args) && is.call(args) && es_simbolo(args[[1L]], "list")) {
           hallazgos[[length(hallazgos) + 1L]] <<- args
@@ -752,18 +726,9 @@ localizar_switch <- function(fn, nombre_fn) {
             "do.call(\"switch\", ...) cuyos argumentos no son un list() literal: %s",
             paste(deparse(nodo), collapse = "")))
         }
-      } else if (is.character(que) && length(que) == 1L) {
-        # Literal de cadena distinto de "switch": decidiblemente no despacha.
-      } else if (is.symbol(que) && !(as.character(que) %in% asignados)) {
-        # Simbolo libre: nombra una funcion del entorno y no es `switch`.
-        # Decidiblemente no despacha. Es el caso de do.call(rbind, piezas).
-      } else if (is.symbol(que)) {
+      } else if (no_decidible || (is.symbol(que) && !es_simbolo(que, "switch"))) {
         irresolubles <<- c(irresolubles, sprintf(
-          "do.call cuya funcion es la variable `%s`, asignada en este mismo cuerpo: %s",
-          as.character(que), paste(deparse(nodo), collapse = "")))
-      } else {
-        irresolubles <<- c(irresolubles, sprintf(
-          "do.call cuya funcion es una expresion calculada: %s",
+          "do.call con funcion no literal, imposible decidir si despacha: %s",
           paste(deparse(nodo), collapse = "")))
       }
     }
@@ -781,11 +746,11 @@ localizar_switch <- function(fn, nombre_fn) {
   encabezado <- sprintf("localizar_switch: la guarda del registro de pasos audita %s()", nombre_fn)
   if (length(irresolubles) > 0L)
     stop(sprintf(paste0(
-      "%s y encontro %d construccion(es) que NO puede decidir:\n%s\n",
+      "%s y encontro %d construccion(es) que NO puede interpretar:\n%s\n",
       "  Ademas encontro %d llamada(s) de despacho reconocible(s). No se elige entre ",
-      "lo reconocido y lo no decidido: se detiene. Reescribela en una de las formas ",
-      "que la guarda reconoce (switch, base::switch, do.call(\"switch\", list(...))), ",
-      "o amplia la guarda para que sepa decidirla."),
+      "lo reconocido y lo no interpretado: se detiene. Reescribe esa construccion en ",
+      "una de las tres formas que la guarda reconoce (switch, base::switch, o ",
+      "do.call(\"switch\", list(...))), o amplia la guarda."),
       encabezado, length(irresolubles),
       paste0("    - ", irresolubles, collapse = "\n"), length(hallazgos)), call. = FALSE)
   if (length(hallazgos) == 0L)
