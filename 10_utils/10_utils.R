@@ -302,40 +302,103 @@ texto_de_objeto <- function(o, prof = 0L) {
   character(0)
 }
 
-# Barre `rutas` con los cinco patrones y devuelve un data.frame de hallazgos
-# (archivo, patron, coincidencias), vacio si no hay ninguno. El VOLUMEN barrido
-# viaja como atributos (`valores`, `caracteres`, `archivos`) porque un cero sin
-# volumen no es un cero: si el barrido no leyo nada, tambien devuelve cero.
-# NUNCA devuelve el texto coincidente: el log de un job de CI es publico.
+# Barre `rutas` y devuelve un data.frame con UNA fila por archivo y estado, no un
+# conteo. A2: la version anterior tenia DOS estados de hecho (hallazgos y no
+# hallazgos) y por eso confundia "no pude leerlo" con "esta limpio" (D4), y moria
+# sin nombrar el archivo ante UTF-8 invalido (D3). Ahora son TRES, exhaustivos y
+# excluyentes:
+#   limpio    -- se leyo entero y ningun patron disparo
+#   hallazgos -- se leyo y al menos un patron disparo (una fila por patron)
+#   ilegible  -- NO se pudo mirar: el archivo no existe, no se abre, el .rds no
+#                deserializa, o trae cadenas con UTF-8 invalido que grepl() no
+#                escanea (devuelve FALSE con warning, o sea, falso negativo mudo)
+# El llamador trata `ilegible` como FALLO, igual que un hallazgo: un estado con
+# mas de una causa no puede gobernar el control de flujo en silencio.
+#
+# El VOLUMEN viaja en atributos (`archivos`, `valores`, `caracteres`) y los
+# archivos por estado tienen que sumar el total de entrada: un cero sin volumen no
+# es un cero (A108). NUNCA se devuelve el texto coincidente ni el motivo textual:
+# el log de un job de CI es publico.
+ESTADOS_BARRIDO <- c("limpio", "hallazgos", "ilegible")
+
 barrido_datos_personales <- function(rutas, patrones = PATRONES_DATO_PERSONAL) {
-  hallazgos <- list()
+  filas <- list()
   n_val <- 0L; n_chr <- 0
+  por_estado <- c(limpio = 0L, hallazgos = 0L, ilegible = 0L)
+  agregar <- function(archivo, estado, patron = NA_character_,
+                      coincidencias = NA_integer_, motivo = NA_character_)
+    filas[[length(filas) + 1L]] <<- data.frame(
+      archivo = archivo, estado = estado, patron = patron,
+      coincidencias = coincidencias, motivo = motivo, stringsAsFactors = FALSE)
+
   for (r in rutas) {
-    if (!file.exists(r) || dir.exists(r)) next
-    tx <- if (grepl("[.]rds$", r, ignore.case = TRUE)) {
-      texto_de_objeto(tryCatch(readRDS(r), error = function(e) NULL))
-    } else {
-      tryCatch(readLines(r, warn = FALSE, encoding = "UTF-8"),
-               error = function(e) character(0))
+    if (!file.exists(r)) {
+      por_estado[["ilegible"]] <- por_estado[["ilegible"]] + 1L
+      agregar(r, "ilegible", motivo = "la ruta no existe en disco"); next
     }
+    if (dir.exists(r)) {
+      por_estado[["ilegible"]] <- por_estado[["ilegible"]] + 1L
+      agregar(r, "ilegible", motivo = "es un directorio, no un archivo"); next
+    }
+    es_rds <- grepl("[.]rds$", r, ignore.case = TRUE)
+    leido <- if (es_rds) {
+      tryCatch(list(ok = TRUE, tx = texto_de_objeto(readRDS(r))),
+               error = function(e) list(ok = FALSE, motivo = "el .rds no deserializa"))
+    } else {
+      tryCatch(list(ok = TRUE, tx = readLines(r, warn = FALSE, encoding = "UTF-8")),
+               error = function(e) list(ok = FALSE, motivo = "el archivo no se pudo leer como texto"))
+    }
+    if (!isTRUE(leido$ok)) {
+      por_estado[["ilegible"]] <- por_estado[["ilegible"]] + 1L
+      agregar(r, "ilegible", motivo = leido$motivo); next
+    }
+    tx <- leido$tx
     tx <- tx[!is.na(tx)]
+    # D3: una cadena con UTF-8 invalido no la escanea grepl() -- devuelve FALSE con
+    # warning. Se marca ilegible ANTES de contar caracteres, porque nchar() tambien
+    # aborta sobre ella y lo hacia sin nombrar el archivo.
+    if (length(tx) > 0L && !all(validUTF8(tx))) {
+      por_estado[["ilegible"]] <- por_estado[["ilegible"]] + 1L
+      agregar(r, "ilegible", motivo = "contiene cadenas con UTF-8 invalido, no escaneables"); next
+    }
     n_val <- n_val + length(tx); n_chr <- n_chr + sum(nchar(tx))
-    if (length(tx) == 0L) next
+    golpes <- 0L
     for (nm in names(patrones)) {
       n <- sum(grepl(patrones[[nm]], tx, perl = TRUE))
-      if (n > 0L) hallazgos[[length(hallazgos) + 1L]] <-
-        data.frame(archivo = r, patron = nm, coincidencias = n,
-                   stringsAsFactors = FALSE)
+      if (n > 0L) {
+        golpes <- golpes + 1L
+        agregar(r, "hallazgos", patron = nm, coincidencias = n)
+      }
+    }
+    if (golpes > 0L) por_estado[["hallazgos"]] <- por_estado[["hallazgos"]] + 1L
+    else {
+      por_estado[["limpio"]] <- por_estado[["limpio"]] + 1L
+      agregar(r, "limpio")
     }
   }
-  out <- if (length(hallazgos) == 0L)
-    data.frame(archivo = character(0), patron = character(0),
-               coincidencias = integer(0), stringsAsFactors = FALSE)
-  else do.call(rbind, hallazgos)
+  out <- if (length(filas) == 0L)
+    data.frame(archivo = character(0), estado = character(0), patron = character(0),
+               coincidencias = integer(0), motivo = character(0), stringsAsFactors = FALSE)
+  else do.call(rbind, filas)
   attr(out, "archivos")   <- length(rutas)
   attr(out, "valores")    <- n_val
   attr(out, "caracteres") <- n_chr
+  attr(out, "por_estado") <- por_estado
   out
+}
+
+# Atajos de lectura del resultado, para que el llamador no reimplemente el filtro.
+hallazgos_del_barrido <- function(b) b[b$estado == "hallazgos", , drop = FALSE]
+ilegibles_del_barrido <- function(b) b[b$estado == "ilegible", , drop = FALSE]
+
+# Alcance por defecto para uso LOCAL (a mano, antes de commitear): TODO
+# 20_insumos/, territorio incluido. No es el mismo alcance que el del bot, que
+# solo commitea rutas_versionables_crudo(): el camino manual es por donde entro la
+# unica captura del Senado anterior al bot, y territorio llega a produccion aunque
+# el bot no lo versione (distrito y region del JSON publicado salen de ahi).
+rutas_barribles_locales <- function(raiz = "20_insumos") {
+  f <- list.files(raiz, recursive = TRUE, full.names = TRUE, all.files = TRUE, no.. = TRUE)
+  f[!dir.exists(f)]
 }
 
 # ---- Contrato temporal de la captura (P-74 acto (b), D31) -------------------
