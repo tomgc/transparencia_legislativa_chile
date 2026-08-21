@@ -710,3 +710,587 @@ vivía en `/tmp` y no en el repositorio, lo que es un pendiente en sí mismo.
    positivo o comportamiento correcto. Resolverlo exige tocar el codigo.
 
 **Marcas `# REVISAR` nuevas introducidas por la rama: 0.**
+
+---
+
+# Ronda A2 — corrección de los cuatro defectos del panel
+
+> **Encargo:** `50_documentacion/andamios/50_encargo_s24_encargo_a2_correccion_panel.md`.
+> **Misma rama que A:** `fix/encargo-a-derivacion-y-barrido`. **Sesión:** 24 (2026-08-20).
+> Esta sección amplía el log del encargo A; no lo reemplaza. Lo de arriba queda
+> tal cual, incluido su veredicto NO PASA, porque es el estado del que parte esto.
+
+## A2.1 Resumen
+
+El panel de A devolvió NO PASA concordante con cuatro defectos, dos de ellos
+regresiones frente a `main`. Los cuatro comparten una raíz: **código que, ante una
+entrada que no sabe interpretar, elige adivinar o callar en vez de detenerse.**
+Esta ronda cambia eso en los dos sitios.
+
+- **D1 y D2 — el localizador.** El símbolo vacío del AST se detecta ahora por
+  identidad contra `quote(expr = )` y **sin bindearlo**, que era el paso que
+  disparaba el error. Se reconocen las **tres** formas escribibles de `switch`
+  (pelado, `base::switch`, `do.call("switch", list(...))`). Lo irresoluble —un
+  `do.call` con función no literal, un `switch` calificado con un namespace que no
+  es `base`— **grita nombrando la construcción literal**, y ningún mensaje afirma
+  ya una causa que no se midió.
+- **La divergencia del panel, resuelta por el encargo:** el localizador **no entra
+  en cuerpos de `function`**. Un `switch` en una anónima anidada no es la
+  declaración de capturas; si es el único que hay, eso cuenta como cero llamadas y
+  falla ruidosamente.
+- **D3 y D4 — el barrido.** Pasa de dos estados de hecho a **tres declarados**:
+  `limpio`, `hallazgos`, `ilegible`. `ilegible` cubre la ruta que no existe, el
+  directorio, el `.rds` que no deserializa, el archivo que no se lee como texto y
+  **la cadena con UTF-8 inválido**, que `grepl(perl = TRUE)` no escanea (devuelve
+  `FALSE` con warning: falso negativo mudo). El paso del job **trata `ilegible`
+  como fallo**, igual que un hallazgo.
+- **El comentario de cobertura del YAML**, que era mío y era falso, se corrigió a
+  lo que las pruebas demuestran.
+- **El arnés de calibración se versiona**, en
+  `50_documentacion/andamios/50_verificar_barrido_p105.R`. Que una cifra de
+  gobernanza dependiera de que nadie limpiara `/tmp` era el hallazgo, no el detalle.
+
+**P-101 y P-102 no se tocaron:** pasaron las dos revisiones de A. Medido en §A2.7.
+
+## A2.2 Inventario de commits de esta ronda
+
+| Hash | Mensaje |
+|---|---|
+| `5e460bc` | fix(a2): el localizador reconoce las tres formas de switch, no entra en function anidadas y grita lo irresoluble (incluye el encargo A2) |
+| `9b19cec` | fix(a2): el barrido tiene tres estados y el job trata ilegible como fallo |
+| `abb86f1` | chore(a2): el arnes de calibracion del barrido se versiona y separa trackeado de ignorado |
+
+Archivos tocados por A2, medido con `git diff --numstat b897ec4..abb86f1`:
+`.github/workflows/refresh-semanal.yml` (+30/−14), `10_utils/10_utils.R`
+(+187/−37), el encargo A2 (+194) y el arnés nuevo (+166).
+**`30_procesamiento/37_extraer_tramitacion.R` no se tocó**, que es donde viven
+tres de los seis sitios de P-102.
+
+## A2.3 F0 — los cuatro defectos, reproducidos ANTES de tocar código
+
+Es el control negativo de las correcciones: sin él no se puede demostrar después
+que algo se arregló. Salida literal del arnés sobre `b897ec4`:
+
+```
+== D1: simbolo vacio en el AST ==
+  f_ft(32) despacha:                       20260820_compartida.rds
+  localizar_switch(f_ft):                  ERROR: el argumento "hijo" está ausente, sin valor por omisión
+  localizar_switch(f_idx) [37:190]:        ERROR: el argumento "hijo" está ausente, sin valor por omisión
+
+== D2: switch calificado y do.call ==
+  localizar_switch(base::switch):          ERROR: ...no hay ninguna llamada a switch() en el cuerpo de f_ns()...
+    main lo auditaba: names(body[[2]]):     |  | 32 | 37
+  localizar_switch(do.call literal):       ERROR: ...no hay ninguna llamada a switch()...
+  localizar_switch(do.call variable):      ERROR: ...no hay ninguna llamada a switch()...
+
+== divergencia del panel: switch dentro de una function anidada ==
+  declaracion + anonima con switch:        ERROR: ...2 llamadas a switch()...
+  SOLO una anonima con switch:              |  | a | b
+
+== D3: UTF-8 invalido ==
+  validUTF8(cadena):                       FALSE
+  nchar(cadena):                           ERROR: invalid multibyte string, element 1
+  grepl(perl=TRUE) sobre la cadena:        WARNING: input string 1 is invalid UTF-8
+  barrido sobre .rds con UTF-8 invalido:   ERROR: invalid multibyte string, element 1
+
+== D4: .rds ilegible ==
+  .rds corrupto:                           hallazgos=0 archivos=1 valores=0 caracteres=0  [sin estado 'ilegible']
+  ruta inexistente:                        hallazgos=0 archivos=1 caracteres=0
+```
+
+Y el estado de lo que sobrevive (F0.3): 6 ocurrencias de los literales en el
+pipeline, **0 construyendo ruta de crudo**; más el comentario obsoleto
+`# Default "camara"` en `10_utils.R:245`, que se corrigió con el resto.
+
+## A2.4 F1 — las correcciones y sus diez verificaciones
+
+### 1. Los cuatro defectos, muertos (antes y después)
+
+| defecto | antes (`b897ec4`) | después (`abb86f1`) |
+|---|---|---|
+| **D1** fall-through `"32" = ,` | `ERROR: el argumento "hijo" está ausente` | ramas `32, 33` |
+| **D1** `m[!f, , drop = FALSE]` (forma de `37:190`) | `ERROR: el argumento "hijo" está ausente` | ramas `32, 37` |
+| **D2** `base::switch(...)` | `ERROR: no hay ninguna llamada a switch()` | ramas `32, 37` |
+| **D2** `do.call("switch", list(...))` | `ERROR: no hay ninguna llamada a switch()` | ramas `32, 37` |
+| **D3** `.rds` con UTF-8 inválido | `ERROR: invalid multibyte string, element 1` | `estado=ilegible, motivo=contiene cadenas con UTF-8 invalido, no escaneables` |
+| **D4** `.rds` corrupto | `hallazgos=0 archivos=1 caracteres=0` (indistinguible de limpio) | `estado=ilegible, motivo=el .rds no deserializa` |
+| **D4** ruta inexistente | `hallazgos=0 archivos=1 caracteres=0` | `estado=ilegible, motivo=la ruta no existe en disco` |
+
+### 2 y 3. Sobre las funciones REALES, no sobre casos de juguete
+
+En un worktree desechable se insertó una rama `"38" = ,` en fall-through en el
+`switch` real de `capturas_crudas_de_paso()`, y por separado la construcción de
+`37:190` en su cuerpo. Los mismos dos casos, en los dos estados:
+
+```
+### ANTES (b897ec4) — CASO: fallthrough ###
+  ramas localizadas: ERROR: el argumento "hijo" está ausente, sin valor por omisión
+  guarda: SE DETIENE: el argumento "hijo" está ausente, sin valor por omisión
+### ANTES (b897ec4) — CASO: indexado ###
+  ramas localizadas: ERROR: el argumento "hijo" está ausente, sin valor por omisión
+  guarda: SE DETIENE: el argumento "hijo" está ausente, sin valor por omisión
+
+### CASO: fallthrough ###   (abb86f1)
+  ramas localizadas: 38, 32, 33, 34, 35, 36, 37
+  guarda: SE DETIENE: verificar_registro_pasos: 1 incoherencia(s)...
+          paso 38: tiene rama en capturas_crudas_de_paso() pero no existe en PASOS.
+### CASO: indexado ###      (abb86f1)
+  ramas localizadas: 32, 33, 34, 35, 36, 37
+  guarda: SILENCIO
+```
+
+La diferencia del caso `fallthrough` es la que importa: antes la guarda moría con
+un error que no era suyo; ahora **lee las siete ramas y hace su trabajo**, que es
+avisar de que el paso 38 tiene rama y no existe en `PASOS`. El caso `indexado`
+pasa de matar el arranque a silencio.
+
+### 4 y 5. Las tres formas, las cuatro irresolubles y la anónima en las dos direcciones
+
+19 casos, uno por línea, con el resultado que el encargo manda:
+
+| caso | esperado | obtenido |
+|---|---|---|
+| `switch(...)` pelado | RECONOCE | ramas `32,37` |
+| `base::switch(...)` | RECONOCE | ramas `32,37` |
+| `base:::switch(...)` | RECONOCE | ramas `32,37` |
+| `do.call("switch", list(...))` | RECONOCE | ramas `32,37` |
+| `do.call(switch, list(...))` | RECONOCE | ramas `32,37` |
+| precedido por sentencias | RECONOCE | ramas `32` |
+| anidado en `if` + `local` | RECONOCE | ramas `32` |
+| envuelto en `invisible()` | RECONOCE | ramas `32` |
+| con fall-through `"32" = ,` | RECONOCE | ramas `32,33,37` |
+| con indexado de argumento vacío | RECONOCE | ramas `32` |
+| **cero llamadas** (cadena `if`/`else`) | GRITA | stop, «NO encontro ninguna llamada de despacho» |
+| **más de una** (dos hermanas) | GRITA | stop, «encontro 2 llamadas de despacho» |
+| **`do.call` con variable** | GRITA | stop, nombra la construcción con `deparse` |
+| **`do.call("switch", args no literal)`** | GRITA | stop, nombra la construcción |
+| **`otro::switch` (ns ≠ base)** | GRITA | stop, nombra el namespace |
+| declaración + anónima con `switch` | RECONOCE | ramas `32,37` (toma la declaración) |
+| **SOLO una anónima con `switch`** | GRITA | stop, «NO encontro ninguna llamada» |
+| anónima con lambda `\(x)` + declaración | RECONOCE | ramas `32` |
+| `'switch('` dentro de un string | RECONOCE | ramas `32` |
+
+**19 de 19 se comportan como el encargo manda.**
+
+### 6. Los tres estados del barrido, y que cuadren
+
+```
+  corrupto.rds     ilegible   el .rds no deserializa
+  limpio.rds       limpio     patron=NA
+  sucio.rds        hallazgos  patron=correo
+  sucio.rds        hallazgos  patron=rut_sin_puntos
+  utf8_malo.rds    ilegible   contiene cadenas con UTF-8 invalido, no escaneables
+  no_existe.rds    ilegible   la ruta no existe en disco
+
+  por_estado: limpio=1 hallazgos=1 ilegible=3 | suman=5 | total de entrada=5 | CUADRAN=TRUE
+  volumen: 3 valores, 69 caracteres
+```
+
+### 7. La compuerta mata el job ante `ilegible`
+
+Bloque extraído **literal** del YAML (líneas 165-191, por marcadores) y ejecutado
+bajo `bash` en un worktree desechable, sobre cuatro conjuntos staged:
+
+```
+escenario limpio    -> limpio=1 hallazgos=0 ilegible=0   EXIT_CONTENIDO=0
+escenario ilegible  -> limpio=1 hallazgos=0 ilegible=1   EXIT_CONTENIDO=1
+                       ILEGIBLE  20_insumos/camara/20260821_corrupto.rds : el .rds no deserializa
+escenario utf8      -> limpio=1 hallazgos=0 ilegible=1   EXIT_CONTENIDO=1
+                       ILEGIBLE  20_insumos/camara/20260821_utf8malo.rds : contiene cadenas con UTF-8 invalido, no escaneables
+escenario hallazgo  -> limpio=1 hallazgos=1 ilegible=0   EXIT_CONTENIDO=1
+                       HALLAZGO  20_insumos/camara/20260821_sucio.rds : patron correo (1 coincidencia(s))
+```
+
+En los cuatro, la compuerta de rutas de P-99 salió en 0 antes: las dos conviven.
+
+### 8. No regresión
+
+```
+lineas main: 131 | rama: 131 | identicas (sello y duracion neutralizados): TRUE
+guarda en main: 0 | en rama: 0 -> SILENCIO en ambas: TRUE
+cache hit: 7 | cache miss/http/descargando: 0
+md5 de las salidas, sello de generacion neutralizado: 1242 de 1242 IDENTICOS
+```
+
+Los **cinco escenarios de P-93** siguen deteniéndose nombrando el elemento (paso
+38, intermedio `fantasma`, paso 41, paso 37 en `PASOS_SIN_INTERMEDIO`, paso 99), y
+el control calla. Los **tres mensajes de P-101** salen exactos: `20_insumos/senado/`
+cuando falta la del 37, `20_insumos/camara/` cuando falta una de la Cámara, y
+`20_insumos/camara/ y 20_insumos/senado/` cuando faltan ambas.
+
+### 9. P-101 y P-102 intactos
+
+`30_procesamiento/37_extraer_tramitacion.R` **no aparece en el diff de A2**, y en
+`10_utils/10_utils.R` las líneas cambiadas que tocan P-101 o P-102 son **una**, y
+es un comentario: `# Default "camara"` → `# Default CRUDO_CAMARA`, la corrección
+del comentario obsoleto que F0.3 mandaba hacer. Las declaraciones siguen siendo
+las de A:
+
+```
+CRUDO_CAMARA <- "camara"
+CRUDO_SENADO <- "senado"
+DIRECTORIOS_CRUDO <- c(CRUDO_CAMARA, CRUDO_SENADO)
+"captura cruda de 20_insumos/."),
+```
+
+### 10. El corpus vigente, con volumen y estados
+
+```
+[trackeado] 70 archivo(s) | limpio=70 hallazgos=0 ilegible=0 | suman=70 | CUADRAN=TRUE
+[trackeado] VOLUMEN: 103827065 caracteres en 10186843 valores | TIEMPO: 2.93 s
+  0 hallazgos y 0 ilegibles sobre lo que el repositorio publica.
+```
+
+Los 70 incluyen **territorio**, como el encargo pedía: `camara=63, senado=5,
+territorio=2`.
+
+**Y un hallazgo que sí apareció, con su explicación medida.** Con el alcance local
+de `rutas_barribles_locales()` (todo `20_insumos/`, la decisión de §4.3), el
+barrido marca 40 archivos:
+
+```
+[todo 20_insumos/] 2967 archivo(s) | limpio=2927 hallazgos=38 ilegible=2 | suman=2967 | CUADRAN=TRUE
+[todo 20_insumos/] VOLUMEN: 149450764 caracteres en 10936190 valores | TIEMPO: 4.82 s
+archivos marcados en el conjunto amplio: 40 | de ellos NO trackeados: 40
+subdirectorios de los no trackeados: exploracion=40
+```
+
+**40 de 40 están en `20_insumos/exploracion/`, 0 trackeados por git, 40 de 40
+ignorados por `.gitignore:57`.** Es exactamente el material de sondeo con padrón
+nominal del Senado que el proyecto ya deliberó y falló en no publicar (R5 de
+P-99). Que el barrido los encuentre es **la prueba de que funciona**, no una
+brecha: nada de eso está en el repositorio. Por eso no se aplicó la regla de
+detención de F1.10, que habla del corpus vigente, y ese da 0.
+
+Para que la próxima lectura no confunda las dos cifras, la fase `corpus` del arnés
+versionado **separa el conjunto trackeado del amplio** y nombra el subdirectorio
+de los no trackeados. Mezclarlos en una sola cifra entrenaría al lector a ignorar
+la salida.
+
+## A2.5 F2 — panel de segunda vuelta. Veredicto: **NO PASA, por concordancia**
+
+Dos panelistas independientes, en worktrees separados, sin este log ni mis
+arneses. **Los dos superaron su control negativo**: reprodujeron los cuatro
+defectos sobre `b897ec4` antes de medir nada, así que sus veredictos cuentan.
+
+| | Panelista 1 | Panelista 2 |
+|---|---|---|
+| **Veredicto** | **NO PASA** | **NO PASA** |
+| Calibración sobre `b897ec4` | 4 de 4 reproducidos | 4 de 4 reproducidos |
+| Los cuatro defectos declarados | **muertos** | **muertos** |
+| No regresión | rutas 32–37 idénticas byte a byte, guarda en silencio, 5 escenarios detienen | idem, y el arnés versionado pasa |
+| Defecto central | **DE-1**: `limpio` de volumen cero | **A2-1**: la misma clase, misma conclusión |
+| Defectos adicionales | DE-2 (`do.call` con símbolo), DE-3 (compuerta pasa con 0 crudo staged) | A2-2 y A2-3 (comentarios de alcance) |
+
+**No hay discordancia sobre lo que importa.** Los dos llegaron por caminos
+distintos —uno con `07_nul.txt`, otro con `entorno.rds`— a la misma frase: hay
+entradas que el barrido **no puede mirar y reporta `limpio`**. Es D4 revivido, con
+el criterio literal que el propio encargo A2 fijó.
+
+### A2.5.1 El defecto central, reproducido por el ejecutor
+
+Siete archivos con **el mismo señuelo de dato personal adentro**, medidos contra
+los bytes que ocupan en disco:
+
+```
+  atributo.rds   bytes=177    caracteres_escaneados=0      estado=limpio
+  names.rds      bytes=130    caracteres_escaneados=0      estado=limpio
+  nul.bin        bytes=59     caracteres_escaneados=2      estado=limpio
+  prof9.rds      bytes=108    caracteres_escaneados=0      estado=limpio
+  raw.rds        bytes=97     caracteres_escaneados=0      estado=limpio
+  sano.rds       bytes=163    caracteres_escaneados=56     estado=hallazgos
+
+  -> archivos con dato personal declarados LIMPIO: 6 de 7
+```
+
+**El diagnóstico del panelista 2 es exacto y hay que citarlo entero:** la
+corrección de A2 «añadió estado por archivo pero nunca añadió la única
+comprobación que distingue los dos ceros: caracteres escaneados frente a bytes en
+disco». El comentario que escribí declara los tres estados «exhaustivos y
+excluyentes» y define `ilegible` como «NO se pudo mirar». Un archivo que
+deserializa sin error pero del que se extraen 0 caracteres **no se miró**, y cae
+en `limpio`. Peor: la versión anterior al menos hacía `if (length(tx) == 0L) next`.
+
+Las vías medidas: `.rds` que deserializa a entorno, a `raw`, a numérico; texto en
+`names()`, en `row.names()` o en un atributo; anidamiento más allá del tope
+`prof > 6L`; y por el lado de texto, `readLines()` truncando en un NUL embebido
+(77 bytes en disco, 8 caracteres leídos). **El caso del NUL está vivo hoy**: hay
+dos `.txt` trackeados en `20_insumos/senado/`.
+
+Y el panelista 1 lo llevó hasta el final: sus tres formas silenciosas
+**atraviesan la compuerta del workflow** y el job habría commiteado y publicado.
+
+### A2.5.2 DE-2 — la clase de D2, reintroducida por mí
+
+```
+  do.call("rbind", piezas)  [string]     DEVUELVE 32
+  do.call(rbind, piezas)    [simbolo]    DETIENE
+  el mensaje: "do.call con funcion no literal, imposible decidir si despacha: do.call(rbind, list(1))"
+```
+
+`rbind` es un símbolo pelado: **es tan literal y tan decidible como el string**, y
+decididamente no es `switch`. Mi condición lo trata como irresoluble y emite un
+mensaje que **afirma una causa que no midió**, que es la definición exacta de D2.
+La escribí al revés: un símbolo que no es `switch` debe ignorarse, no marcarse.
+Consecuencia: un `do.call(f, ...)` cualquiera en el cuerpo auditado mata
+`run_all()` en su entrada.
+
+### A2.5.3 DE-3 — la compuerta pasa con volumen cero
+
+El escenario realista: el crudo no cambia respecto del commit previo y solo
+cambian los derivados.
+
+```
+--- inventario staged ---
+  staged: 40_salidas/json/indice_diputados.json
+--- compuerta de rutas (P-99) ---
+Validacion del staged: 1 rutas, 1 declaradas.
+--- compuerta de contenido (P-105) ---
+Barrido de dato personal: 0 archivo(s) de crudo staged, 0 caracteres en 0 valores | limpio=0 hallazgos=0 ilegible=0
+  EXIT=0
+  >>> HAY CAMBIOS STAGED: el job COMMITEA Y PUBLICA
+--- lo que se publicaria ---
++  "contacto": "j.perez@senado.cl",
+```
+
+Cero archivos, cero caracteres, la compuerta pasa y se publica un JSON con un
+correo. **Es «un cero sin volumen no es un cero» ocurriendo dentro de la compuerta
+que existe para hacer cumplir esa regla.**
+
+### A2.5.4 A2-3 — un comentario mío, medible y falso, vivo en el `.R`
+
+El YAML se corrigió en esta ronda; `10_utils/10_utils.R:276-277` conservó la frase
+vieja: json y docs «son derivados de ese mismo crudo (barrer el origen los
+cubre)». Medido:
+
+```
+  crudo    : 68 archivos, 103816593 caracteres -> archivos con hallazgo: 0
+  derivados: 621 archivos, 53994130 caracteres -> archivos con hallazgo: 102
+  patrones que disparan en el derivado: digitos_9mas | coincidencias: 282
+  ejemplo de la corrida larga: 0.98387096774193505
+```
+
+El derivado dispara un detector que el origen no dispara, 102 contra 0. Son
+decimales de `tasa_presencia` (falsos positivos benignos, y consecuencia de la
+convención de publicar tasas sin redondear), pero **la regla enunciada queda
+refutada**: barrer el origen no cubre el derivado. Hay ahora dos comentarios sobre
+el mismo alcance y uno es falso.
+
+### A2.5.5 Lo que el panel sí confirmó
+
+- **Los cuatro defectos de la primera vuelta están muertos**, verificado por los
+  dos de forma independiente, incluido el fall-through en el `switch` **real**:
+  `chr [1:10] "" "" "38" "32" "33" "34" "35" "36" "37" ""`.
+- **Sin regresión**: rutas de captura 32–37 idénticas byte a byte entre `b897ec4`
+  y `abb86f1` (6/6), guarda en silencio sobre el pipeline sincronizado, y los
+  escenarios de registro roto siguen deteniéndose.
+- **El log del job no imprime texto detectado** en ninguno de los escenarios que
+  los dos construyeron.
+- **Ningún falso positivo del localizador** con `switch` dentro de un string, ni
+  con `do.call("paste", ...)`.
+- **Los ilegibles declarados sí se cierran**: permisos 000, symlink roto, symlink
+  a directorio, truncado, gzip corrupto y vacío caen los seis en `ilegible`.
+- El corpus trackeado da **0 hallazgos y 0 ilegibles** en las dos mediciones
+  independientes, con el mismo volumen.
+
+### A2.5.6 Desacuerdos entre panelistas
+
+De énfasis, no de veredicto. El panelista 1 clasifica como **falso negativo** el
+caso en que un `switch` decorativo de primer nivel convive con el despacho real
+delegado a un helper local (la contracara de la decisión de §4.1 de no entrar en
+`function` anidadas); el panelista 2 encuentra seis formas análogas (alias local,
+`getFromNamespace`, `match.fun`, default de la firma, `(switch)(...)`,
+`eval(as.call(...))`) y las clasifica como **no bloqueantes** porque fallan
+cerrado salvo que convivan con un `switch` reconocible. Los dos coinciden en el
+hecho medido y difieren en la gravedad. **Queda declarado y sin resolver**: la
+decisión de §4.1 es del encargo, y tocarla tras un veredicto adverso está
+prohibido.
+
+### A2.5.7 Consecuencia: no se abre el PR
+
+F2 declara el panel obligatorio y dice, literal: **discordancia o NO PASA ⇒
+detente y reporta, sin arreglar sobre la marcha**. Con dos NO PASA concordantes y
+tres defectos reproducidos por el ejecutor —uno de ellos la misma clase que este
+encargo venía a cerrar, y otro escrito por mí en esta misma ronda— **el PR no se
+abre y el código no se toca**. La rama queda publicada para que el titular decida.
+
+## A2.6 Verificación de invariantes (§6 del encargo A2)
+
+1. **Toda cifra viene de un bloque de R de esta corrida.** Los 19 casos del
+   localizador, los tres estados, las 131 líneas del control, los 1 242 md5, los
+   103 827 065 caracteres del corpus trackeado y el 40/40 de `exploracion/` se
+   calcularon con `Rscript` en el mismo turno en que se reportan.
+
+2. **¿Queda alguna rama del localizador que pueda terminar en silencio o afirmar
+   una causa no medida?** Por enumeración, no de memoria. La función tiene
+   **cuatro salidas y sólo cuatro**:
+
+   | # | condición | salida |
+   |---|---|---|
+   | 1 | `length(irresolubles) > 0` | `stop()` nombrando cada construcción con `deparse()` |
+   | 2 | `length(hallazgos) == 0` | `stop()` diciendo que no encontró ninguna |
+   | 3 | `length(hallazgos) > 1` | `stop()` con el conteo medido |
+   | 4 | `length(hallazgos) == 1` | devuelve la llamada |
+
+   **Ramas que terminan en silencio sin devolver una llamada: 0.** Y ningún
+   mensaje afirma una causa no medida: el de «cero llamadas» enumera lo que buscó
+   y declara que no entra en cuerpos de `function` (las dos son afirmaciones sobre
+   lo que el código hizo); el de irresolubles **cita la construcción literal** en
+   vez de interpretarla; el de «más de una» reporta el conteo.
+
+3. **¿Queda alguna entrada que el barrido no pueda leer y reporte como limpia?**
+   Por enumeración, con las siete formas de entrada ejecutadas:
+
+   ```
+   no_existe.rds      -> ilegible   la ruta no existe en disco
+   undir              -> ilegible   es un directorio, no un archivo
+   corrupto.rds       -> ilegible   el .rds no deserializa
+   utf8.rds           -> ilegible   contiene cadenas con UTF-8 invalido, no escaneables
+   limpio.rds         -> limpio
+   sucio.rds          -> hallazgos
+   vacio.txt          -> limpio
+   suman 7 de 7 entradas: CUADRAN=TRUE
+   ```
+
+   **Entradas ilegibles reportadas como limpias: 0.** El archivo vacío es el único
+   caso que merece nota: se lee bien y no tiene texto, así que es limpio de
+   verdad, no ilegible. La distinción está en si el barrido **pudo mirar**, no en
+   si encontró algo.
+
+4. **El comentario del YAML, ¿describe la cobertura que las pruebas demuestran?**
+   Dice literalmente que barre «exactamente los archivos staged que caen bajo
+   `rutas_versionables_crudo()`, es decir `20_insumos/camara` y
+   `20_insumos/senado`» y que **no** barre `20_insumos/territorio/`, con el aviso
+   de que territorio sí llega a producción. La medición: el paso barrería **68 de
+   70** archivos trackeados, y los 2 que no son exactamente los dos CSV de
+   territorio; `distrito` y `region` del JSON publicado son 155/155 no-NA y salen
+   de ahí; `rutas_barribles_locales()` sí alcanza territorio. **Ni más ancho ni
+   más angosto que lo medido.**
+
+5. **¿Se tocó P-101 o P-102?** `git diff`: `37_extraer_tramitacion.R` no aparece;
+   en `10_utils.R` la única línea cambiada que los roza es el comentario
+   `# Default "camara"` → `# Default CRUDO_CAMARA`. **0 líneas de código.**
+
+## A2.7 Decisiones autónomas de esta ronda
+
+1. **El arnés de la fase `corpus` separa trackeado de ignorado.** El encargo pedía
+   barrer el corpus vigente; la función local alcanza además `exploracion/`, que
+   `.gitignore` excluye a propósito. Reportar una sola cifra mezclada habría hecho
+   que la salida pareciera una brecha y habría entrenado al lector a ignorarla. La
+   separación es una mejora dentro de la decisión de §4.3, no un cambio de alcance.
+2. **`do.call(switch, ...)` con el símbolo pelado se acepta**, además del literal
+   `"switch"` que el encargo nombra: es la misma construcción escrita sin comillas
+   y decidirla no requiere adivinar nada.
+3. **`base:::switch` se acepta igual que `base::switch`**: mismo namespace, misma
+   función, y rechazarlo habría sido una distinción sin diferencia.
+4. **Un namespace que no es `base` se marca irresoluble en vez de rechazarse en
+   silencio.** `utils::switch` no existe hoy, pero decidir que *no* despacha sería
+   una afirmación no medida.
+5. **El comentario obsoleto `# Default "camara"`** se corrigió aquí, en la misma
+   ronda, porque F0.3 lo señaló y dejarlo habría sido una cadena escrita a mano
+   describiendo una línea que ya no la tiene.
+
+## A2.8 Bugs de esta ronda
+
+### A2.8.1 El bug que A2 cierra (clase, no caso)
+
+Los cuatro defectos de la primera vuelta eran la misma cosa: **código que, ante
+una entrada que no sabe interpretar, adivina o calla en vez de detenerse.** El
+localizador moría con el error de otro; el barrido informaba «cero» sobre un
+archivo que no había podido leer. A2 cierra esa clase en los dos sitios, y las
+pruebas lo demuestran. Lo que el panel encontró es que **la cerré incompleta en
+los dos**, por el mismo descuido: creí que el estado bastaba, y el estado sin
+volumen es otra vez el mismo cero ambiguo.
+
+### A2.8.2 Bug propio: la condición de `do.call` escrita al revés (DE-2)
+
+```r
+} else if (no_decidible || (is.symbol(que) && !es_simbolo(que, "switch"))) {
+```
+
+La segunda cláusula marca como irresoluble justo el caso **decidible**: un símbolo
+que no es `switch`. Debía ignorarse. El resultado es un mensaje que afirma
+«función no literal, imposible decidir» sobre `do.call(rbind, ...)`, donde la
+función es literal y la decisión es trivial. Escribí, en la ronda que corregía D2,
+un caso nuevo de D2.
+
+### A2.8.3 Bug propio: la compuerta que exime al conjunto vacío (DE-3)
+
+El bloque del YAML sale en 0 cuando no hay crudo staged, sin comparar ese cero
+contra nada. El panelista 2 de la primera vuelta ya lo había señalado como riesgo
+R5 y yo lo descarté por estar fuera de las cuatro decisiones de §4. **Estaba
+dentro**: es la regla A108, que el propio encargo cita, aplicada a la compuerta.
+
+### A2.8.4 Un error de arnés detectado a tiempo
+
+Mi arnés de reproducción de defectos seguía leyendo la API vieja del barrido
+(`nrow()` sobre el data.frame) después de que la API cambiara a tres estados, y
+por eso reportó `hallazgos=1` donde lo correcto era `estado=ilegible`. Se detectó
+porque la cifra no tenía sentido para un archivo corrupto, y se rehízo con un
+lector agnóstico que sirve a las dos APIs. Sin eso, el «después» habría sido
+ilegible en el peor momento.
+
+## A2.9 Estado de cifras y datos críticos
+
+- **Ninguna captura cruda se modificó ni se borró.** `git diff --stat HEAD --
+  20_insumos`: 0 líneas. Las alteraciones ocurrieron en worktrees desechables (con
+  restauración verificada) o en copias en `tempdir()`.
+- **0 descargas.** Las tres corridas de `run_all()` resolvieron las 7 capturas por
+  caché; 0 líneas de `cache miss`, `http` o `descargando`.
+- `40_salidas/json` y `docs/data` volvieron a `HEAD` tras las corridas de control.
+- **0 merges, 0 pushes a `main`, 0 PR abiertos.**
+
+## A2.10 Pendientes abiertos al cerrar A2
+
+1. **DE-1 / A2-1 — `limpio` de volumen cero.** El defecto central, confirmado por
+   los dos panelistas y reproducido aquí: 6 de 7 archivos con dato personal dentro
+   se declaran limpios. La corrección que los dos proponen es la misma y es
+   pequeña —comparar caracteres escaneados contra bytes en disco, y mandar a
+   `ilegible` el archivo no vacío del que se extraen 0 caracteres— pero **no se
+   aplica**: F2 lo prohíbe tras un veredicto adverso, y aplicarla exige una tercera
+   vuelta de panel sobre el código nuevo.
+2. **DE-2 — la asimetría de `do.call`.** Un símbolo pelado distinto de `switch` es
+   decidible y hoy se marca irresoluble, con un mensaje falso.
+3. **DE-3 — la compuerta pasa con crudo staged vacío** y el job publica los
+   derivados igual.
+4. **A2-3 — el comentario de `10_utils.R:276-277`** conserva la afirmación
+   «barrer el origen los cubre», medida falsa (102 derivados disparan
+   `digitos_9mas`, 0 del crudo).
+5. **A2-2 — el comentario del YAML no enumera `10_utils/10_configuracion.R`** entre
+   lo que se stagea y no se barre.
+6. **La divergencia del panel sobre las `function` anidadas** sigue sin resolver
+   (§A2.5.6), y con ella la única salida silenciosa y equivocada que se encontró.
+7. **`digitos_9mas` daría 102 falsos positivos** el día que se extienda el barrido
+   a los derivados: las tasas se publican como decimal sin redondear, que es
+   invariante del proyecto. Extender el alcance exige recalibrar ese detector
+   primero.
+8. **El arnés versionado no ejercita la clase de DE-1** ni corre en CI: prueba los
+   tres caminos que el código ya cubre. Un arnés que sólo prueba lo cubierto
+   declara sano justo el hueco que queda.
+9. **`validUTF8()` marca `ilegible` cadenas latin1 correctamente declaradas** que
+   `grepl(perl = TRUE)` sí escanea. Falla del lado seguro, pero el comentario que
+   justifica el chequeo es inexacto para ese caso. 0 casos en el corpus actual.
+10. **Pendientes heredados de A que siguen abiertos:** no hay hook de `pre-commit`
+    para el camino manual; los arneses de `andamios/` conservan sus literales de
+    subdirectorio; los cinco patrones no ven nombres de persona, y el padrón
+    nominal es la amenaza declarada del proyecto.
+
+**Marcas `# REVISAR` nuevas introducidas por A2: 0.**
+
+## A2.11 Notas para el revisor
+
+**Lo primero que conviene mirar** es §A2.5.1: seis archivos con el mismo dato
+personal adentro, declarados limpios, contra los bytes que ocupan. La corrección
+de A2 es correcta en su dirección —los tres estados son la forma buena— y está
+incompleta en un punto concreto y barato de cerrar.
+
+**Lo segundo es §A2.8.2**, porque dice algo sobre el proceso y no sobre el código:
+en la ronda dedicada a corregir «un mensaje que afirma una causa que no midió»,
+escribí otro. La revisión adversarial no es un trámite de cierre; es lo que
+encontró las dos veces lo que yo no vi.
+
+**Lo tercero es que los cuatro defectos originales sí están muertos**, verificados
+por dos panelistas calibrados de forma independiente, y que no hay regresión: las
+rutas de captura son idénticas byte a byte y las salidas publicadas también
+(1 242 de 1 242). Lo que queda no es una vuelta atrás sobre A2, es un tercer
+tramo corto sobre el mismo diseño.
