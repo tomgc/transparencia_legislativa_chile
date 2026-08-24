@@ -64,3 +64,5 @@ _archivo/
 # .claude/launch.json SI se versiona (configuracion del servidor de preview,
 # util para cualquiera que clone): por eso se ignora el archivo, no la carpeta.
 .claude/settings.local.json
+50_documentacion/activa/POLITICA_PROYECTO.md
+50_documentacion/activa/SETTINGS_Y_PROMPTS_OPERACIONALES.md
