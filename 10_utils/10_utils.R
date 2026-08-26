@@ -222,6 +222,16 @@ corte_para_clave <- function(corte = NULL) {
 # tope de extraccion (ver sufijo_tope): un cambio de cualquiera genera una clave
 # distinta, no reutiliza el snapshot viejo. NO usa Sys.Date(): el corte es
 # explicito para que el refresh sea reproducible entre dias, sin drift.
+# ---- Subdirectorios de crudo, nombrados una sola vez (P-102) ----------------
+# Cada fuente de crudo escribe en su propia carpeta (una por host, enmienda 1 de
+# P-66). El nombre de esa carpeta se escribia a mano en seis sitios; ahora se
+# nombra aqui y los seis lo leen. Por NOMBRE y no por posicion:
+# `DIRECTORIOS_CRUDO[1]` habria sido tan fragil como el literal que reemplaza,
+# porque reordenar el vector cambiaria en silencio a que carpeta apunta cada
+# llamada. Renombrar un directorio pasa a ser una linea en vez de un grep.
+CRUDO_CAMARA <- "camara"
+CRUDO_SENADO <- "senado"
+
 # Depende de ruta_insumos(), REFRESCAR_API y CORTE_FECHA (de 10_configuracion.R,
 # disponibles en tiempo de ejecucion, ya que config se carga antes de extraer).
 # Ruta del cache crudo para (nombre_cache, tope) al corte vigente. Un solo lugar
@@ -232,11 +242,11 @@ corte_para_clave <- function(corte = NULL) {
 # segunda fuente (el SIL, tramitacion.senado.cl) y mezclarla con las capturas de
 # opendata.camara.cl en el mismo directorio borraria la unica senal de que son
 # origenes distintos. Una carpeta por host, igual que `camara/` es la Camara.
-# Default "camara": toda llamada existente conserva su ruta byte a byte, lo que
-# se comprueba programaticamente contra la salida de HEAD, no por inspeccion.
+# Default CRUDO_CAMARA: toda llamada existente conserva su ruta byte a byte, lo
+# que se comprueba programaticamente contra la salida de HEAD, no por inspeccion.
 # El resto de la clave (corte y tope) NO cambia: la doctrina de que la clave
 # codifica todo lo que altera el contenido sigue viviendo en un solo sitio.
-ruta_cache <- function(nombre_cache, tope = NULL, corte = NULL, subdir = "camara") {
+ruta_cache <- function(nombre_cache, tope = NULL, corte = NULL, subdir = CRUDO_CAMARA) {
   ruta_insumos(subdir,
                sprintf("%s_%s%s.rds", corte_para_clave(corte), nombre_cache, sufijo_tope(tope)))
 }
@@ -246,7 +256,7 @@ ruta_cache <- function(nombre_cache, tope = NULL, corte = NULL, subdir = "camara
 # escribe el crudo y donde se audita. Agregar una fuente y olvidarse de sumarla a
 # esta lista dejaria su captura fuera del reporte, que es justo el punto ciego
 # que la enmienda 1 existe para no abrir.
-DIRECTORIOS_CRUDO <- c("camara", "senado")
+DIRECTORIOS_CRUDO <- c(CRUDO_CAMARA, CRUDO_SENADO)
 
 # Traduce la declaracion de arriba a las rutas que el bot del refresh versiona.
 # El paso "Commit en rama" de .github/workflows/refresh-semanal.yml depende de
@@ -467,7 +477,7 @@ reportar_estado_capturas <- function(corte = CORTE_FECHA, origen = "contrato",
 # ORIGEN del dato (fn_descarga es un closure arbitrario) y ahora tambien al
 # DESTINO, que era lo unico que la ataba a la Camara.
 con_cache <- function(nombre_cache, fn_descarga, tope = NULL, origen = "cache",
-                      subdir = "camara") {
+                      subdir = CRUDO_CAMARA) {
   ruta <- ruta_cache(nombre_cache, tope, subdir = subdir)
   refrescar <- isTRUE(getOption("camara.refrescar", REFRESCAR_API))
   if (file.exists(ruta) && !refrescar) {
@@ -607,7 +617,7 @@ capturas_crudas_de_paso <- function(id, corte = NULL) {
     # subdirectorio (enmienda 1 de P-66). La clave replica la del propio paso
     # (37:capturar_tramitacion); el tope es Inf porque el 37 no aplica cap propio.
     "37" = ruta_cache(sprintf("tramitacion_sil_%d", ANIO_PROCESO), Inf,
-                      corte = corte, subdir = "senado"),
+                      corte = corte, subdir = CRUDO_SENADO),
     stop(sprintf("capturas_crudas_de_paso: el paso %s no declara captura cruda.", id),
          call. = FALSE))
 }
@@ -631,6 +641,135 @@ capturas_crudas_de_paso <- function(id, corte = NULL) {
 # los nombres de rama del switch en el arbol de sintaxis ya cargado. Es la unica
 # forma de comprobar el sentido inverso (una rama que no corresponda a ningun
 # paso) sin leer el archivo, que violaria el caracter estatico de la guarda.
+#
+# P-100: la llamada al switch se BUSCA en el cuerpo, no se toma por posicion.
+# `body(...)[[2]]` asumia que el switch es la segunda expresion del cuerpo, cosa
+# que deja de ser cierta en cuanto alguien antepone una linea (un log, una
+# validacion de argumento, un `stopifnot`). Entonces `names()` sobre lo que no es
+# el switch devuelve NULL o los nombres equivocados, `ids_cap` queda vacio y la
+# guarda declara huerfanos a los 6 pasos que si estaban registrados: falso
+# positivo que detiene run_all() en su entrada, y con el, el cron. Buscar la
+# llamada es robusto a la forma del cuerpo y no cuesta nada, porque el AST ya
+# esta en memoria.
+# A2: la version de P-100 moria ante entradas que no sabia interpretar. Tres
+# defectos medidos por el panel, con sus dos correcciones y una decision:
+#  (D1) un simbolo vacio en el AST -- el fall-through `"32" = ,` del propio switch
+#       de capturas, o cualquier `x[!f, , drop = FALSE]` -- reventaba al BINDEARLO
+#       a una variable. El `tryCatch` no protegia nada porque la extraccion no
+#       falla: falla la evaluacion del binding. Ahora se detecta por IDENTIDAD
+#       contra `quote(expr = )`, sin binding intermedio, y se salta.
+#  (D2) `base::switch(...)` no se reconocia y el mensaje afirmaba que la funcion
+#       habia dejado de declarar sus capturas con un switch, que era falso. Ahora
+#       se reconocen las TRES formas escribibles y ningun mensaje afirma una causa
+#       que no se midio: se nombra lo que se encontro y lo que no se pudo decidir.
+#  (decision) un `switch` dentro del cuerpo de una `function` anidada NO es la
+#       declaracion de capturas, es codigo auxiliar de esa funcion. El recorrido
+#       NO entra en cuerpos de `function`. Si el unico switch del cuerpo vive ahi,
+#       eso cuenta como cero llamadas y falla ruidosamente.
+#
+# NINGUNA rama termina en silencio. Las cuatro salidas posibles son: la llamada
+# encontrada; cero llamadas; mas de una; y al menos una construccion irresoluble
+# (do.call con funcion no literal, o `switch` calificado con un namespace que no
+# es base). Las tres ultimas son stop().
+
+# Un argumento vacio del AST se detecta por identidad y SIN bindearlo: bindearlo
+# es lo que dispara "el argumento X esta ausente" (D1).
+argumento_vacio <- function(nodo, k) identical(nodo[[k]], quote(expr = ))
+
+# Localiza la llamada que PORTA las ramas de despacho dentro del cuerpo de una
+# funcion, recorriendo el AST en vez de indexar por posicion (P-100). Devuelve
+# esa llamada: el llamador toma `names()` sobre ella. Para `do.call("switch",
+# list(...))` devuelve el `list(...)`, cuyo `names()` tiene la misma forma que el
+# de un `switch(...)` directo.
+localizar_switch <- function(fn, nombre_fn) {
+  hallazgos    <- list()
+  irresolubles <- character(0)
+
+  # Cabecera de una llamada: TRUE si es el simbolo `nm` pelado.
+  es_simbolo <- function(x, nm) is.symbol(x) && identical(x, as.name(nm))
+
+  recorrer <- function(nodo) {
+    if (!is.call(nodo)) return(invisible(NULL))
+    cab <- nodo[[1L]]
+
+    # (0) Cuerpo de una `function` anidada: no se entra. Decision del encargo A2.
+    if (es_simbolo(cab, "function")) return(invisible(NULL))
+
+    # (1) switch(...) pelado.
+    if (es_simbolo(cab, "switch")) {
+      hallazgos[[length(hallazgos) + 1L]] <<- nodo
+
+    # (2) base::switch(...) / base:::switch(...).
+    } else if (is.call(cab) &&
+               (es_simbolo(cab[[1L]], "::") || es_simbolo(cab[[1L]], ":::")) &&
+               length(cab) == 3L && es_simbolo(cab[[3L]], "switch")) {
+      if (es_simbolo(cab[[2L]], "base")) {
+        hallazgos[[length(hallazgos) + 1L]] <<- nodo
+      } else {
+        irresolubles <<- c(irresolubles, sprintf(
+          "switch calificado con un namespace que no es base: %s",
+          paste(deparse(cab), collapse = "")))
+      }
+
+    # (3) do.call("switch", list(...)) con literales.
+    } else if (es_simbolo(cab, "do.call")) {
+      que  <- if ("what" %in% names(nodo)) nodo[["what"]] else if (length(nodo) >= 2L) nodo[[2L]] else NULL
+      args <- if ("args" %in% names(nodo)) nodo[["args"]] else if (length(nodo) >= 3L) nodo[[3L]] else NULL
+      es_switch <- (is.character(que) && length(que) == 1L && identical(que, "switch")) ||
+                   es_simbolo(que, "switch")
+      no_decidible <- !(is.character(que) && length(que) == 1L) && !is.symbol(que)
+      if (es_switch) {
+        if (!is.null(args) && is.call(args) && es_simbolo(args[[1L]], "list")) {
+          hallazgos[[length(hallazgos) + 1L]] <<- args
+        } else {
+          irresolubles <<- c(irresolubles, sprintf(
+            "do.call(\"switch\", ...) cuyos argumentos no son un list() literal: %s",
+            paste(deparse(nodo), collapse = "")))
+        }
+      } else if (no_decidible || (is.symbol(que) && !es_simbolo(que, "switch"))) {
+        irresolubles <<- c(irresolubles, sprintf(
+          "do.call con funcion no literal, imposible decidir si despacha: %s",
+          paste(deparse(nodo), collapse = "")))
+      }
+    }
+
+    # Recorrido de los hijos. El argumento vacio se salta ANTES de tocarlo.
+    for (k in seq_along(nodo)) {
+      if (argumento_vacio(nodo, k)) next
+      recorrer(nodo[[k]])
+    }
+    invisible(NULL)
+  }
+
+  recorrer(body(fn))
+
+  encabezado <- sprintf("localizar_switch: la guarda del registro de pasos audita %s()", nombre_fn)
+  if (length(irresolubles) > 0L)
+    stop(sprintf(paste0(
+      "%s y encontro %d construccion(es) que NO puede interpretar:\n%s\n",
+      "  Ademas encontro %d llamada(s) de despacho reconocible(s). No se elige entre ",
+      "lo reconocido y lo no interpretado: se detiene. Reescribe esa construccion en ",
+      "una de las tres formas que la guarda reconoce (switch, base::switch, o ",
+      "do.call(\"switch\", list(...))), o amplia la guarda."),
+      encabezado, length(irresolubles),
+      paste0("    - ", irresolubles, collapse = "\n"), length(hallazgos)), call. = FALSE)
+  if (length(hallazgos) == 0L)
+    stop(sprintf(paste0(
+      "%s y NO encontro ninguna llamada de despacho en su cuerpo. Se buscaron las ",
+      "tres formas reconocidas: switch(...), base::switch(...) y ",
+      "do.call(\"switch\", list(...)); los cuerpos de `function` anidadas no se ",
+      "inspeccionan, porque un switch ahi dentro no es la declaracion de capturas. ",
+      "La guarda no puede auditar las ramas y no degrada a silencio."),
+      encabezado), call. = FALSE)
+  if (length(hallazgos) > 1L)
+    stop(sprintf(paste0(
+      "%s y encontro %d llamadas de despacho en su cuerpo; se esperaba exactamente ",
+      "una. Elegir cual auditar seria adivinar: deja una sola, o cambia la guarda ",
+      "para que sepa cual es la de las capturas."),
+      encabezado, length(hallazgos)), call. = FALSE)
+  hallazgos[[1L]]
+}
+
 verificar_registro_pasos <- function(pasos,
                                      excepciones = PASOS_SIN_INTERMEDIO,
                                      extraccion  = PASOS_EXTRACCION,
@@ -640,7 +779,7 @@ verificar_registro_pasos <- function(pasos,
   esperados <- setdiff(ids_pasos, excepciones)
 
   # Ramas declaradas en el switch de capturas_crudas_de_paso(), desde el AST.
-  ramas   <- names(body(capturas_crudas_de_paso)[[2]])
+  ramas   <- names(localizar_switch(capturas_crudas_de_paso, "capturas_crudas_de_paso"))
   ids_cap <- suppressWarnings(as.integer(ramas[nzchar(ramas)]))
   ids_cap <- ids_cap[!is.na(ids_cap)]
 
@@ -927,9 +1066,16 @@ regenerar_intermedios_si_desalineados <- function(pasos, root, corte = CORTE_FEC
   declarados <- vapply(INTERMEDIOS_PIPELINE, corte_declarado_por, character(1))
   malos <- names(declarados)[is.na(declarados) | declarados != corte]
   if (length(malos) > 0)
+    # P-101: el subdirectorio NO se nombra aqui. La rama de arriba puede derivarlo
+    # de las rutas que faltan; esta no, porque lo que reporta son nombres de
+    # intermedio y el vector de capturas esta vacio por construccion. Decia
+    # "20_insumos/camara/" y mentia para toda captura del paso 37, que vive en
+    # 20_insumos/senado/. Se generaliza a 20_insumos/, que es cierto para todos los
+    # casos: el mensaje de una guarda es parte de su contrato, y vale mas ser menos
+    # especifico que ser especificamente falso.
     stop(sprintf(paste0("guarda_intermedios: tras regenerar, %d de %d intermedios siguen ",
                         "desalineados con el corte %s (%s). No se continua; revisa la ",
-                        "captura cruda de 20_insumos/camara/."),
+                        "captura cruda de 20_insumos/."),
                  length(malos), length(INTERMEDIOS_PIPELINE), corte,
                  paste(malos, collapse = ", ")), call. = FALSE)
   log_msg(sprintf("Intermedios regenerados: %d de %d al corte %s. Sigue el pipeline.",

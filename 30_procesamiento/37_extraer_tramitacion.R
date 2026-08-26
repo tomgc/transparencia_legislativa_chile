@@ -243,7 +243,7 @@ log_msg(log_moldes, origen = "37_tramitacion")
 # proposito: reportar_estado_capturas() barre los .rds del directorio y un
 # archivo sin atributo de captura entraria como `sin_registro`, ensuciando el
 # reporte del contrato temporal con algo que no es una captura.
-ruta_pedidos <- ruta_insumos("senado", sprintf("%s_tramitacion_pedidos.txt",
+ruta_pedidos <- ruta_insumos(CRUDO_SENADO, sprintf("%s_tramitacion_pedidos.txt",
                                                corte_para_clave()))
 fs::dir_create(dirname(ruta_pedidos))
 writeLines(boletines, ruta_pedidos, useBytes = TRUE)
@@ -277,7 +277,7 @@ capturar_tramitacion <- function() {
       Sys.sleep(PAUSA_SIL)
     }
     bind_rows(filas)
-  }, tope = Inf, origen = "37_tramitacion", subdir = "senado")
+  }, tope = Inf, origen = "37_tramitacion", subdir = CRUDO_SENADO)
 }
 
 captura <- capturar_tramitacion()
@@ -437,6 +437,6 @@ ruta_out <- ruta_salidas("intermedios", "tramitacion.rds")
 escribir_atomico(tramitacion, ruta_out, function(o, r) saveRDS(o, r),
                  hash_origen = hash_origen_de(
                    ruta_cache(sprintf("tramitacion_sil_%d", ANIO_PROCESO), Inf,
-                              subdir = "senado")))
+                              subdir = CRUDO_SENADO)))
 log_msg(sprintf("Escrito: %s (%d boletines)", ruta_out, nrow(tramitacion)),
         origen = "37_tramitacion")
