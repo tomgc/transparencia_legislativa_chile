@@ -251,7 +251,7 @@ log_msg(sprintf("Lista pedida persistida ANTES de llamar: %s (%d boletines).",
                 basename(ruta_pedidos), length(boletines)), origen = "37_tramitacion")
 
 # ---- Captura cruda: el XML de respuesta, tal cual ---------------------------
-# subdir = "senado": el crudo de esta fuente NO se mezcla con el de
+# subdir = CRUDO_SENADO: el crudo de esta fuente NO se mezcla con el de
 # opendata.camara.cl. Una carpeta por host (enmienda 1 del encargo).
 # tope = Inf: este paso no aplica cap propio; procesa todo el universo congelado.
 capturar_tramitacion <- function() {

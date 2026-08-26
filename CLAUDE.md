@@ -3,7 +3,7 @@
 Contrato operativo de Claude Code para `transparencia_legislativa_chile`. El
 detalle de estructura, gobernanza y principios vive en
 `50_documentacion/activa/POLITICA_PROYECTO.md` y
-`SETTINGS_Y_PROMPTS_OPERACIONALES.md`: consúltalos, no los dupliques.
+`SETTINGS_Y_PROMPTS_OPERACIONALES.md`: consúltalos, no los dupliques. Desde `c1e18fd` **no se versionan**: viven como copia local del titular, cubierta por `.gitignore`, así que no están en un clon fresco.
 
 ## Descripción
 
@@ -101,7 +101,34 @@ estático (Fase 2) visualiza en el navegador.
 
 ## Últimos cambios (máx. 5, más recientes primero)
 
-1. **El refresh versiona las capturas crudas que R declara (2026-08-20, P-99):**
+1. **La guarda busca el switch, el mensaje generaliza y los literales de crudo
+   derivan (2026-08-26, P-100, P-101 y P-102):** tres defectos de la misma familia,
+   un dato que el programa ya tiene vuelto a escribir a mano. **P-100:**
+   `verificar_registro_pasos()` localizaba el `switch` de `capturas_crudas_de_paso()`
+   con `body(...)[[2]]`, o sea por POSICION; una sola sentencia antepuesta bastaba
+   para que declarara huerfanos a los 6 pasos registrados y detuviera `run_all()` en
+   su entrada, y con el, el cron. Ahora `localizar_switch()` **busca** la llamada
+   recorriendo el AST, reconoce `switch`, `base::switch` y `do.call("switch", ...)`,
+   **no entra en cuerpos de `function` anidadas** (un switch ahi dentro no es la
+   declaracion de capturas) y sus tres condiciones de fallo son `stop()` ruidosos:
+   ninguna rama degrada a silencio. **P-101:** el mensaje que la guarda de
+   intermedios emite DESPUES de regenerar decia `20_insumos/camara/` y no tenia de
+   donde derivar el subdirectorio, porque lo que reporta son nombres de intermedio;
+   se generaliza a `20_insumos/`, cierto en 28 de 28 casos medidos. **P-102:** seis
+   literales de subdirectorio (no dos ni cinco, como decian dos inventarios previos)
+   derivan de `CRUDO_CAMARA` y `CRUDO_SENADO`, de las que a su vez deriva
+   `DIRECTORIOS_CRUDO`; equivalencia de rutas probada 22/22 sobre dos cortes.
+   **Arnes versionado nuevo:** `50_documentacion/andamios/50_verificar_localizador_p100.R`,
+   19 formas de AST + 3 sobre la funcion real + 3 de contorno + 7 casos de regresion,
+   que **sale con estado 1** si alguno no da lo esperado. Nacio porque las pruebas de
+   P-100 vivian en scratchpads de sesion: tres paneles adversariales hicieron falta, y
+   uno de ellos encontro que una correccion intermedia habia cambiado un falso
+   positivo inalcanzable por un falso negativo alcanzable; se **revirtio** byte a byte.
+   **Pendiente declarado:** `do.call(rbind, ...)` con simbolo pelado detiene la guarda
+   (falso positivo ruidoso); hoy `capturas_crudas_de_paso()` tiene 0 `do.call`, pero eso
+   depende de codigo que nadie ha escrito. Rama `fix/p100-p101-p102-derivacion`,
+   **mergeada en `main` por el PR #22**.
+2. **El refresh versiona las capturas crudas que R declara (2026-08-20, P-99):**
    el paso de commit de `refresh-semanal.yml` enumeraba a mano las rutas que
    versionaba y esa lista se quedo en el mundo previo al paso 37: publicaba
    `20_insumos/camara` y dejaba fuera `20_insumos/senado`, de modo que la promesa
@@ -123,11 +150,11 @@ estático (Fase 2) visualiza en el navegador.
    direcciones (calla con 5/5 declaradas; con un intruso bajo `territorio/` sale en
    1 y lo nombra). Corrida real desde la rama, verde en 18,5 min: `senado` paso de
    3 a 5 archivos trackeados y `territorio` quedo en 2, con
-   `Validacion del staged: 1251 rutas, 1251 declaradas`. Pendiente declarado
-   (P-102): `ruta_cache()` y la rama 37 de `capturas_crudas_de_paso()` siguen con
-   literales de subdirectorio. Rama `fix/p99-rutas-crudo-desde-r`, **mergeada en
+   `Validacion del staged: 1251 rutas, 1251 declaradas`. El pendiente que dejaba
+   abierto (P-102, los literales de subdirectorio) lo cierra el PR #22, entrada 1.
+   Rama `fix/p99-rutas-crudo-desde-r`, **mergeada en
    `main` por el PR #21**.
-2. **Guarda de locale UTF-8 (2026-08-13, P-59):** el proyecto no garantizaba
+3. **Guarda de locale UTF-8 (2026-08-13, P-59):** el proyecto no garantizaba
    locale UTF-8 en el arranque, defecto que en otro repo de la cartera escribió
    escapado todo el texto acentuado de una corrida completa. Nuevo
    `10_utils/10_locale.R` con `asegurar_locale_utf8()`, copia byte a byte de la
@@ -153,7 +180,7 @@ estático (Fase 2) visualiza en el navegador.
    9 de 9 criterios CUMPLE. Marcador del gatillo:
    `50_documentacion/activa/50_locale_utf8.md`. Rama `chore/p59-locale-utf8`,
    **mergeada en `main` por el PR #12**.
-3. **Escape de arranque consumible y rastro de arranque (2026-08-12, P-76 y P-77):**
+4. **Escape de arranque consumible y rastro de arranque (2026-08-12, P-76 y P-77):**
    las dos deudas del PR #9, en la misma función. **P-76:**
    `camara.permitir_descarga_inicial` quedaba encendida después de usarse, así que
    autorizar un caso autorizaba todo lo que siguiera en esa sesión de `run_all()`.
@@ -177,7 +204,7 @@ estático (Fase 2) visualiza en el navegador.
    corrigió la primera línea del `stop()` de la guarda, que agregaba desalineados
    presentes y ausentes en una sola cifra. Rama `fix/p76-p77-guarda-arranque`,
    **mergeada en `main` por el PR #11**.
-4. **Captura XML cruda del 36 y nodo `Votaciones` (2026-08-08, P-63):** el paso 36
+5. **Captura XML cruda del 36 y nodo `Votaciones` (2026-08-08, P-63):** el paso 36
    cacheaba el tibble **ya parseado** dentro de la carpeta de dato crudo, así que el
    nodo `Votaciones` se perdía al parsear y la guarda de P-65 prometía regenerar sin
    red algo que solo podía reproducir con los campos que el parser de ese día
@@ -193,22 +220,6 @@ estático (Fase 2) visualiza en el navegador.
    `metadatos.generado`. 12/12 criterios, panel adversarial 4/4. Rama
    `feat/captura-xml-y-nodo-votaciones`, **mergeada en `main` por el PR #7**
    (`17af73c`).
-5. **Autorregeneración de intermedios (2026-08-08, P-65):** `run_all()` deja de
-   depender de la memoria del operador para resolver el desfase que documentó P-62
-   (los intermedios están gitignored, el corte sí viaja, y toda copia local queda
-   desalineada tras cada merge del bot). Nueva guarda
-   `regenerar_intermedios_si_desalineados()` en `10_utils/10_utils.R:294`, invocada
-   desde **un solo sitio** del orquestador (`00_run_all.R:84`), antes de resolver
-   ningún paso: compara el sello de los 6 intermedios contra `CORTE_FECHA` y, si hay
-   desfase, regenera `32`–`36` desde la captura cruda ya versionada — con aviso por
-   consola y caché forzado, **0 llamadas a la API**. Si falta esa captura, `stop()`
-   con los archivos, el motivo y los `source()` exactos: nunca descarga por su
-   cuenta ni degrada en silencio. Idempotente con sellos alineados (0 avisos).
-   `validar_corte()`, `leer_sellado()` y `sellar()` **sin tocar** — la guarda actúa
-   aguas arriba. 4 escenarios probados 4/4; `20_insumos/camara/` intacto (43/43 md5);
-   dato publicado idéntico (156/156, excluido `metadatos.generado`). Rama
-   `fix/autorregeneracion-intermedios`, **mergeada en `main` por el PR #6**
-   (`f1584b8`).
 <!-- CANONICO_SLEP:INICIO v2 -->
 ## 1. Identidad y prioridades
 
