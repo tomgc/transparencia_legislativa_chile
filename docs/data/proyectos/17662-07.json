@@ -1,0 +1,174 @@
+{
+  "boletin": "17662-07",
+  "nombre": "Aumenta sanciones aplicables al delito de atentado contra la autoridad cometido contra miembros de las Fuerzas de Orden y Seguridad Pública",
+  "tipo_iniciativa": "Moción",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2025-06-30",
+  "tramitacion": {
+    "etapa_actual": "Segundo trámite constitucional (Senado)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2025-06-30",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-07-08",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento.",
+        "sesion": "46/373"
+      },
+      {
+        "fecha": "2025-07-08",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "A petición del diputado señor Miguel Mellado, la Sala acordó radicar el proyecto en la Comisión de Seguridad Ciudadana.",
+        "sesion": "46/373"
+      },
+      {
+        "fecha": "2025-07-08",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Eximido del trámite ante Comisión Derivado a Comisión de Seguridad Ciudadana",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-06-15",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 148-374 que hace presente la urgencia Simple",
+        "sesion": "33/374"
+      },
+      {
+        "fecha": "2026-07-06",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "S.E. el Presidente de la República formula indicaciones al proyecto. (092-374). Incluye informe financiero N° 152/03.07.2026.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-13",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 196-374 que retira y hace presente la urgencia Simple",
+        "sesion": "42/374"
+      },
+      {
+        "fecha": "2026-08-10",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 246-374 que retira y hace presente la urgencia Suma",
+        "sesion": "53/374"
+      },
+      {
+        "fecha": "2026-08-12",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 259-374 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "56/374"
+      },
+      {
+        "fecha": "2026-08-18",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Seguridad Ciudadana.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-08-18",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  (Seguridad Ciudadana). Queda para tabla.",
+        "sesion": "59/374"
+      },
+      {
+        "fecha": "2026-08-19",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 276-374 que hace presente la urgencia Suma",
+        "sesion": "60/374"
+      },
+      {
+        "fecha": "2026-08-31",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión pendiente.",
+        "sesion": "61/374"
+      },
+      {
+        "fecha": "2026-09-01",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular a la vez .",
+        "sesion": "62/374"
+      },
+      {
+        "fecha": "2026-09-01",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "El diputado Luis Cuello formula reserva de constitucionalidad respecto del numeral 2 del artículo 1 del proyecto, que introduce un nuevo artículo 497 bis",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-09-01",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio de ley a Cámara Revisora .  .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-09-01",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Seguridad Pública",
+        "sesion": "53/374"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "89934",
+      "fecha": "2026-09-01T13:39:49",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Admisibilidad de la indicación presentada en la Comisión de Seguridad Ciudadana por el diputado Raúl Leiva, para incorporar un artículo nuevo al proyecto del siguiente tenor:\nArtículo nuevo. –Incorpórase un artículo 260 quater al Código Penal:\n“Artículo 260 quater. –Se considerará circunstancia agravante de los delitos contemplados en este título el hecho de que sean cometidos por personal de las Fuerzas de Orden y Seguridad    Pública, cuando comprometan la imagen institucional.”.\n\n(los que votan a favor lo hacen por la admisibilidad de la indicación, los que votan en contra lo hacen por su inadmisibilidad).",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89933",
+      "fecha": "2026-09-01T13:33:06",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Indicación renovada del diputado Raúl Leiva, para incorporar al proyecto el siguiente artículo nuevo: \n“Artículo nuevo. -Agregase el siguiente numeral 6 nuevo, al artículo 417 del Código Penal:\n“6.  Las proferidas contra las Fuerzas de Orden y Seguridad Públicas en el ejercicio de sus funciones.”.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "89932",
+      "fecha": "2026-09-01T13:30:45",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": null,
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-09-07",
+    "universo": "Los 470 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-09-07T16:39:13"
+  }
+}
