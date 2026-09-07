@@ -33,7 +33,7 @@
     "etapa_actual": "Segundo trámite constitucional (Senado)",
     "estado": "En tramitación",
     "ley_numero": null,
-    "n_tramites": 18,
+    "n_tramites": 19,
     "n_autores": 0,
     "n_votaciones": 1,
     "n_materias": 4
@@ -98,7 +98,7 @@
     "etapa_actual": "Comisión Mixta por rechazo de modificaciones (Senado)",
     "estado": "En tramitación",
     "ley_numero": null,
-    "n_tramites": 61,
+    "n_tramites": 62,
     "n_autores": 0,
     "n_votaciones": 6,
     "n_materias": 0
@@ -153,6 +153,19 @@
     "n_tramites": 22,
     "n_autores": 0,
     "n_votaciones": 2,
+    "n_materias": 0
+  },
+  {
+    "boletin": "15295-07",
+    "nombre": "Modifica el decreto ley N°321, de 1925, a fin de restringir los requisitos necesarios para acceder al beneficio de libertad condicional",
+    "camara_origen": "C.Diputados",
+    "fecha_ingreso": "2022-08-18",
+    "etapa_actual": "Primer trámite constitucional (C.Diputados)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "n_tramites": 16,
+    "n_autores": 0,
+    "n_votaciones": 1,
     "n_materias": 0
   },
   {
@@ -241,7 +254,7 @@
     "etapa_actual": "Segundo trámite constitucional (Senado)",
     "estado": "En tramitación",
     "ley_numero": null,
-    "n_tramites": 15,
+    "n_tramites": 17,
     "n_autores": 0,
     "n_votaciones": 3,
     "n_materias": 0
@@ -293,7 +306,7 @@
     "etapa_actual": "Comisión Mixta por rechazo de modificaciones (Senado)",
     "estado": "En tramitación",
     "ley_numero": null,
-    "n_tramites": 47,
+    "n_tramites": 50,
     "n_autores": 0,
     "n_votaciones": 2,
     "n_materias": 0
@@ -316,9 +329,9 @@
     "nombre": "Amplía la penalización dispuesta en el artículo 304 bis del Código Penal, para fortalecer la seguridad perimetral de los recintos penales",
     "camara_origen": "C.Diputados",
     "fecha_ingreso": "2024-01-15",
-    "etapa_actual": "Trámite de aprobacion presidencial (C.Diputados)",
-    "estado": "En tramitación",
-    "ley_numero": null,
+    "etapa_actual": "Tramitación terminada",
+    "estado": "Publicado",
+    "ley_numero": "Ley N° 21.834",
     "n_tramites": 68,
     "n_autores": 0,
     "n_votaciones": 3,
@@ -342,10 +355,10 @@
     "nombre": "Dicta normas sobre transferencia de tecnología y conocimiento",
     "camara_origen": "C.Diputados",
     "fecha_ingreso": "2024-04-01",
-    "etapa_actual": "Trámite de aprobacion presidencial (C.Diputados)",
+    "etapa_actual": "Trámite en Tribunal Constitucional (C.Diputados)",
     "estado": "En tramitación",
     "ley_numero": null,
-    "n_tramites": 81,
+    "n_tramites": 84,
     "n_autores": 0,
     "n_votaciones": 6,
     "n_materias": 0
@@ -384,7 +397,7 @@
     "etapa_actual": "Segundo trámite constitucional (Senado)",
     "estado": "En tramitación",
     "ley_numero": null,
-    "n_tramites": 16,
+    "n_tramites": 17,
     "n_autores": 0,
     "n_votaciones": 2,
     "n_materias": 0
@@ -397,7 +410,7 @@
     "etapa_actual": "Tercer trámite constitucional (Senado)",
     "estado": "En tramitación",
     "ley_numero": null,
-    "n_tramites": 48,
+    "n_tramites": 49,
     "n_autores": 0,
     "n_votaciones": 11,
     "n_materias": 0
@@ -462,7 +475,7 @@
     "etapa_actual": "Comisión Mixta por rechazo de modificaciones (Senado)",
     "estado": "En tramitación",
     "ley_numero": null,
-    "n_tramites": 84,
+    "n_tramites": 85,
     "n_autores": 0,
     "n_votaciones": 10,
     "n_materias": 0
@@ -566,7 +579,7 @@
     "etapa_actual": "Comisión Mixta por rechazo de modificaciones (Senado)",
     "estado": "En tramitación",
     "ley_numero": null,
-    "n_tramites": 36,
+    "n_tramites": 38,
     "n_autores": 0,
     "n_votaciones": 5,
     "n_materias": 0
@@ -605,7 +618,7 @@
     "etapa_actual": "Segundo trámite constitucional (Senado)",
     "estado": "En tramitación",
     "ley_numero": null,
-    "n_tramites": 19,
+    "n_tramites": 20,
     "n_autores": 0,
     "n_votaciones": 2,
     "n_materias": 0
@@ -644,7 +657,7 @@
     "etapa_actual": "Segundo trámite constitucional (Senado)",
     "estado": "En tramitación",
     "ley_numero": null,
-    "n_tramites": 22,
+    "n_tramites": 23,
     "n_autores": 0,
     "n_votaciones": 3,
     "n_materias": 0
@@ -810,9 +823,9 @@
     "nombre": "Autoriza la circulación en el país de vehículos que participen en competiciones de carácter internacional o federadas, en las formas y condiciones que señala",
     "camara_origen": "C.Diputados",
     "fecha_ingreso": "2025-04-07",
-    "etapa_actual": "Tercer trámite constitucional (C.Diputados)",
-    "estado": "En tramitación",
-    "ley_numero": null,
+    "etapa_actual": "Tramitación terminada",
+    "estado": "Publicado",
+    "ley_numero": "Ley N° 21.837",
     "n_tramites": 24,
     "n_autores": 0,
     "n_votaciones": 2,
@@ -949,6 +962,19 @@
     "n_materias": 0
   },
   {
+    "boletin": "17662-07",
+    "nombre": "Aumenta sanciones aplicables al delito de atentado contra la autoridad cometido contra miembros de las Fuerzas de Orden y Seguridad Pública",
+    "camara_origen": "C.Diputados",
+    "fecha_ingreso": "2025-06-30",
+    "etapa_actual": "Segundo trámite constitucional (Senado)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "n_tramites": 17,
+    "n_autores": 0,
+    "n_votaciones": 3,
+    "n_materias": 0
+  },
+  {
     "boletin": "17675-25",
     "nombre": "Modifica cuerpos legales para fortalecer la seguridad del transporte público subterráneo del Metro de Santiago",
     "camara_origen": "C.Diputados",
@@ -956,7 +982,7 @@
     "etapa_actual": "Segundo trámite constitucional (Senado)",
     "estado": "En tramitación",
     "ley_numero": null,
-    "n_tramites": 21,
+    "n_tramites": 22,
     "n_autores": 0,
     "n_votaciones": 3,
     "n_materias": 0
@@ -982,7 +1008,7 @@
     "etapa_actual": "Segundo trámite constitucional (Senado)",
     "estado": "En tramitación",
     "ley_numero": null,
-    "n_tramites": 26,
+    "n_tramites": 28,
     "n_autores": 0,
     "n_votaciones": 1,
     "n_materias": 0
@@ -1047,9 +1073,22 @@
     "etapa_actual": "Primer trámite constitucional (C.Diputados)",
     "estado": "En tramitación",
     "ley_numero": null,
-    "n_tramites": 14,
+    "n_tramites": 15,
     "n_autores": 0,
     "n_votaciones": 1,
+    "n_materias": 0
+  },
+  {
+    "boletin": "17818-24",
+    "nombre": "Modifica diversos cuerpos legales para reconocer y promover el circo tradicional chileno",
+    "camara_origen": "C.Diputados",
+    "fecha_ingreso": "2025-09-01",
+    "etapa_actual": "Segundo trámite constitucional (Senado)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "n_tramites": 7,
+    "n_autores": 0,
+    "n_votaciones": 4,
     "n_materias": 0
   },
   {
@@ -1096,10 +1135,10 @@
     "nombre": "Crea un nuevo Juzgado de Letras del Trabajo en Santiago y fortalece los juzgados de letras del trabajo que indica",
     "camara_origen": "C.Diputados",
     "fecha_ingreso": "2025-10-03",
-    "etapa_actual": "Trámite finalización en Cámara de Origen (C.Diputados)",
+    "etapa_actual": "Trámite de aprobacion presidencial (C.Diputados)",
     "estado": "En tramitación",
     "ley_numero": null,
-    "n_tramites": 38,
+    "n_tramites": 41,
     "n_autores": 0,
     "n_votaciones": 1,
     "n_materias": 0
@@ -1128,6 +1167,19 @@
     "n_tramites": 10,
     "n_autores": 0,
     "n_votaciones": 3,
+    "n_materias": 0
+  },
+  {
+    "boletin": "17914-13",
+    "nombre": "Modifica el Código del Trabajo para calificar el uso indebido de licencias médicas como falta de probidad del trabajador en el desempeño de sus funciones",
+    "camara_origen": "C.Diputados",
+    "fecha_ingreso": "2025-10-10",
+    "etapa_actual": "Segundo trámite constitucional (Senado)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "n_tramites": 12,
+    "n_autores": 0,
+    "n_votaciones": 2,
     "n_materias": 0
   },
   {
@@ -2048,7 +2100,7 @@
     "etapa_actual": "Segundo trámite constitucional (Senado)",
     "estado": "En tramitación",
     "ley_numero": null,
-    "n_tramites": 28,
+    "n_tramites": 29,
     "n_autores": 0,
     "n_votaciones": 2,
     "n_materias": 0
@@ -2074,7 +2126,7 @@
     "etapa_actual": "Tercer trámite constitucional (C.Diputados)",
     "estado": "En tramitación",
     "ley_numero": null,
-    "n_tramites": 20,
+    "n_tramites": 21,
     "n_autores": 1,
     "n_votaciones": 1,
     "n_materias": 0
@@ -2113,7 +2165,7 @@
     "etapa_actual": "Segundo trámite constitucional (Senado)",
     "estado": "En tramitación",
     "ley_numero": null,
-    "n_tramites": 23,
+    "n_tramites": 24,
     "n_autores": 4,
     "n_votaciones": 0,
     "n_materias": 0
@@ -2516,7 +2568,7 @@
     "etapa_actual": "Segundo trámite constitucional (Senado)",
     "estado": "En tramitación",
     "ley_numero": null,
-    "n_tramites": 16,
+    "n_tramites": 18,
     "n_autores": 6,
     "n_votaciones": 1,
     "n_materias": 0
@@ -2578,10 +2630,10 @@
     "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
     "camara_origen": "C.Diputados",
     "fecha_ingreso": "2026-04-22",
-    "etapa_actual": "Trámite finalización en Cámara de Origen (C.Diputados)",
+    "etapa_actual": "Trámite en Tribunal Constitucional (C.Diputados)",
     "estado": "En tramitación",
     "ley_numero": null,
-    "n_tramites": 103,
+    "n_tramites": 109,
     "n_autores": 0,
     "n_votaciones": 120,
     "n_materias": 0
@@ -2659,7 +2711,7 @@
     "etapa_actual": "Primer trámite constitucional (C.Diputados)",
     "estado": "En tramitación",
     "ley_numero": null,
-    "n_tramites": 7,
+    "n_tramites": 10,
     "n_autores": 10,
     "n_votaciones": 0,
     "n_materias": 0
@@ -2789,7 +2841,7 @@
     "etapa_actual": "Primer trámite constitucional (C.Diputados)",
     "estado": "En tramitación",
     "ley_numero": null,
-    "n_tramites": 8,
+    "n_tramites": 9,
     "n_autores": 10,
     "n_votaciones": 0,
     "n_materias": 0
@@ -2802,7 +2854,7 @@
     "etapa_actual": "Tercer trámite constitucional (C.Diputados)",
     "estado": "En tramitación",
     "ley_numero": null,
-    "n_tramites": 19,
+    "n_tramites": 20,
     "n_autores": 10,
     "n_votaciones": 0,
     "n_materias": 0
@@ -2854,7 +2906,7 @@
     "etapa_actual": "Primer trámite constitucional (C.Diputados)",
     "estado": "En tramitación",
     "ley_numero": null,
-    "n_tramites": 9,
+    "n_tramites": 11,
     "n_autores": 10,
     "n_votaciones": 0,
     "n_materias": 0
@@ -2945,7 +2997,7 @@
     "etapa_actual": "Trámite finalización en Cámara de Origen (C.Diputados)",
     "estado": "En tramitación",
     "ley_numero": null,
-    "n_tramites": 12,
+    "n_tramites": 13,
     "n_autores": 0,
     "n_votaciones": 1,
     "n_materias": 0
@@ -2955,10 +3007,10 @@
     "nombre": "Aprueba el Acuerdo general sobre los privilegios e inmunidades de la Organización Internacional de Policía Criminal-INTERPOL, aprobado en Marrakech, Marruecos, el 24 de noviembre de 2025",
     "camara_origen": "C.Diputados",
     "fecha_ingreso": "2026-05-18",
-    "etapa_actual": "Trámite finalización en Cámara de Origen (C.Diputados)",
+    "etapa_actual": "Tramitación terminada",
     "estado": "En tramitación",
     "ley_numero": null,
-    "n_tramites": 12,
+    "n_tramites": 14,
     "n_autores": 0,
     "n_votaciones": 1,
     "n_materias": 0
@@ -2971,7 +3023,7 @@
     "etapa_actual": "Segundo trámite constitucional (Senado)",
     "estado": "En tramitación",
     "ley_numero": null,
-    "n_tramites": 18,
+    "n_tramites": 19,
     "n_autores": 0,
     "n_votaciones": 3,
     "n_materias": 0
@@ -2984,7 +3036,7 @@
     "etapa_actual": "Segundo trámite constitucional (Senado)",
     "estado": "En tramitación",
     "ley_numero": null,
-    "n_tramites": 20,
+    "n_tramites": 21,
     "n_autores": 0,
     "n_votaciones": 3,
     "n_materias": 0
@@ -3153,7 +3205,7 @@
     "etapa_actual": "Primer trámite constitucional (C.Diputados)",
     "estado": "En tramitación",
     "ley_numero": null,
-    "n_tramites": 4,
+    "n_tramites": 5,
     "n_autores": 4,
     "n_votaciones": 0,
     "n_materias": 0
@@ -3478,7 +3530,7 @@
     "etapa_actual": "Primer trámite constitucional (C.Diputados)",
     "estado": "En tramitación",
     "ley_numero": null,
-    "n_tramites": 6,
+    "n_tramites": 9,
     "n_autores": 10,
     "n_votaciones": 0,
     "n_materias": 0
@@ -4102,7 +4154,7 @@
     "etapa_actual": "Segundo trámite constitucional (Senado)",
     "estado": "En tramitación",
     "ley_numero": null,
-    "n_tramites": 17,
+    "n_tramites": 18,
     "n_autores": 0,
     "n_votaciones": 4,
     "n_materias": 0
@@ -4255,12 +4307,12 @@
     "nombre": "Entrega un bono extraordinario de apoyo a la niñez",
     "camara_origen": "C.Diputados",
     "fecha_ingreso": "2026-06-24",
-    "etapa_actual": "Segundo trámite constitucional (Senado)",
-    "estado": "En tramitación",
-    "ley_numero": null,
-    "n_tramites": 19,
+    "etapa_actual": "Tramitación terminada",
+    "estado": "Publicado",
+    "ley_numero": "Ley N° 21.840",
+    "n_tramites": 32,
     "n_autores": 0,
-    "n_votaciones": 4,
+    "n_votaciones": 5,
     "n_materias": 0
   },
   {
@@ -4388,7 +4440,7 @@
     "etapa_actual": "Primer trámite constitucional (C.Diputados)",
     "estado": "En tramitación",
     "ley_numero": null,
-    "n_tramites": 8,
+    "n_tramites": 9,
     "n_autores": 10,
     "n_votaciones": 0,
     "n_materias": 0
@@ -4401,8 +4453,8 @@
     "etapa_actual": "Primer trámite constitucional (C.Diputados)",
     "estado": "En tramitación",
     "ley_numero": null,
-    "n_tramites": 7,
-    "n_autores": 8,
+    "n_tramites": 10,
+    "n_autores": 7,
     "n_votaciones": 0,
     "n_materias": 0
   },
@@ -4518,7 +4570,7 @@
     "etapa_actual": "Primer trámite constitucional (C.Diputados)",
     "estado": "En tramitación",
     "ley_numero": null,
-    "n_tramites": 6,
+    "n_tramites": 7,
     "n_autores": 7,
     "n_votaciones": 0,
     "n_materias": 0
@@ -4687,7 +4739,7 @@
     "etapa_actual": "Primer trámite constitucional (C.Diputados)",
     "estado": "En tramitación",
     "ley_numero": null,
-    "n_tramites": 2,
+    "n_tramites": 3,
     "n_autores": 9,
     "n_votaciones": 0,
     "n_materias": 0
@@ -4745,6 +4797,19 @@
     "n_materias": 0
   },
   {
+    "boletin": "18464-14",
+    "nombre": "Modifica el decreto ley N° 2.695, de 1979, estableciendo un nuevo procedimiento para la regularización de la posesión de la pequeña propiedad raíz y la constitución del dominio sobre ella, en situaciones de emergencia",
+    "camara_origen": "C.Diputados",
+    "fecha_ingreso": "2026-07-15",
+    "etapa_actual": "Segundo trámite constitucional (Senado)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "n_tramites": 16,
+    "n_autores": 0,
+    "n_votaciones": 1,
+    "n_materias": 0
+  },
+  {
     "boletin": "18467-06",
     "nombre": "Modifica la ley N°18.700, orgánica constitucional sobre Votaciones Populares y Escrutinios, para incorporar el principio de equidad territorial en la distribución de escaños de la Cámara de Diputados",
     "camara_origen": "C.Diputados",
@@ -4778,7 +4843,7 @@
     "etapa_actual": "Primer trámite constitucional (C.Diputados)",
     "estado": "En tramitación",
     "ley_numero": null,
-    "n_tramites": 2,
+    "n_tramites": 3,
     "n_autores": 9,
     "n_votaciones": 0,
     "n_materias": 0
@@ -5337,7 +5402,7 @@
     "etapa_actual": "Segundo trámite constitucional (Senado)",
     "estado": "En tramitación",
     "ley_numero": null,
-    "n_tramites": 15,
+    "n_tramites": 17,
     "n_autores": 0,
     "n_votaciones": 4,
     "n_materias": 0
@@ -5402,7 +5467,7 @@
     "etapa_actual": "Primer trámite constitucional (C.Diputados)",
     "estado": "En tramitación",
     "ley_numero": null,
-    "n_tramites": 2,
+    "n_tramites": 4,
     "n_autores": 1,
     "n_votaciones": 0,
     "n_materias": 0
@@ -5558,7 +5623,7 @@
     "etapa_actual": "Primer trámite constitucional (C.Diputados)",
     "estado": "En tramitación",
     "ley_numero": null,
-    "n_tramites": 4,
+    "n_tramites": 6,
     "n_autores": 10,
     "n_votaciones": 0,
     "n_materias": 0
@@ -5610,7 +5675,7 @@
     "etapa_actual": "Primer trámite constitucional (C.Diputados)",
     "estado": "En tramitación",
     "ley_numero": null,
-    "n_tramites": 4,
+    "n_tramites": 6,
     "n_autores": 9,
     "n_votaciones": 0,
     "n_materias": 0
@@ -6028,6 +6093,19 @@
     "ley_numero": null,
     "n_tramites": 4,
     "n_autores": 7,
+    "n_votaciones": 0,
+    "n_materias": 0
+  },
+  {
+    "boletin": "18622-24",
+    "nombre": "Establece requisitos de elegibilidad para el acceso a fondos públicos destinados a actividades culturales y artísticas",
+    "camara_origen": "C.Diputados",
+    "fecha_ingreso": "2026-07-29",
+    "etapa_actual": "Primer trámite constitucional (C.Diputados)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "n_tramites": 3,
+    "n_autores": 2,
     "n_votaciones": 0,
     "n_materias": 0
   }
