@@ -5,17 +5,10 @@
   "camara_origen": "C.Diputados",
   "fecha_ingreso": "2026-04-22",
   "tramitacion": {
-    "etapa_actual": "Trámite finalización en Cámara de Origen (C.Diputados)",
+    "etapa_actual": "Trámite en Tribunal Constitucional (C.Diputados)",
     "estado": "En tramitación",
     "ley_numero": null,
     "tramites": [
-      {
-        "fecha": "2026-04-22",
-        "camara": "C.Diputados",
-        "etapa": "Primer trámite constitucional",
-        "descripcion": "Texto del mensaje",
-        "sesion": "16/374"
-      },
       {
         "fecha": "2026-04-22",
         "camara": "C.Diputados",
@@ -28,6 +21,13 @@
         "camara": "C.Diputados",
         "etapa": "Primer trámite constitucional",
         "descripcion": "Cuenta de proyecto . Pasa a Comisión de Hacienda, y a las comisiones de Medio Ambiente y Recursos Naturales, y de Trabajo y Seguridad Social, en lo que corresponda. A la Corte Suprema, en lo pertinente.",
+        "sesion": "16/374"
+      },
+      {
+        "fecha": "2026-04-22",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Texto del mensaje",
         "sesion": "16/374"
       },
       {
@@ -155,6 +155,13 @@
         "etapa": "Segundo trámite constitucional",
         "descripcion": "Cuenta del Mensaje 111-374 que hace presente la urgencia Suma",
         "sesion": "24/374"
+      },
+      {
+        "fecha": "2026-06-02",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio N°H-10. Oficio consulta al señor Ministro de Hacienda",
+        "sesion": "/"
       },
       {
         "fecha": "2026-06-10",
@@ -454,14 +461,14 @@
         "fecha": "2026-07-21",
         "camara": "Senado",
         "etapa": "Disc. informe C.Mixta por rechazo de modif. C. Revisora",
-        "descripcion": "El diputado Mulet hace reserva de constitucionalidad respecto de los artículos 18 y 29 del proyecto de ley.",
+        "descripcion": "El diputado Barraza formluló reserva de constitucionalidad a las enmiendas propuestas por el Senado a los artículos 1; 5; 6; 10; 11; 12; 13; 14; 15; 16; 17 Y 29 del proyecto de ley.",
         "sesion": "46/374"
       },
       {
         "fecha": "2026-07-21",
         "camara": "Senado",
         "etapa": "Disc. informe C.Mixta por rechazo de modif. C. Revisora",
-        "descripcion": "El diputado Barraza formluló reserva de constitucionalidad a las enmiendas propuestas por el Senado a los artículos 1; 5; 6; 10; 11; 12; 13; 14; 15; 16; 17 Y 29 del proyecto de ley.",
+        "descripcion": "El diputado Mulet hace reserva de constitucionalidad respecto de los artículos 18 y 29 del proyecto de ley.",
         "sesion": "46/374"
       },
       {
@@ -502,15 +509,15 @@
       {
         "fecha": "2026-07-22",
         "camara": "C.Diputados",
-        "etapa": "Disc. informe C.Mixta por rechazo de modific. en C. Origen",
-        "descripcion": "Cuenta informe Comisión Mixta .  Queda para tabla.",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Discusión única . Aprobadas las modificaciones .",
         "sesion": "48/374"
       },
       {
         "fecha": "2026-07-22",
         "camara": "C.Diputados",
-        "etapa": "Tercer trámite constitucional",
-        "descripcion": "Discusión única . Aprobadas las modificaciones .",
+        "etapa": "Disc. informe C.Mixta por rechazo de modific. en C. Origen",
+        "descripcion": "Cuenta informe Comisión Mixta .  Queda para tabla.",
         "sesion": "48/374"
       },
       {
@@ -626,6 +633,13 @@
         "sesion": "52/374"
       },
       {
+        "fecha": "2026-08-06",
+        "camara": "C.Diputados",
+        "etapa": "Discusión veto en Cámara de Origen",
+        "descripcion": "Informe de comisión de Hacienda.",
+        "sesion": "/"
+      },
+      {
         "fecha": "2026-08-10",
         "camara": "C.Diputados",
         "etapa": "Discusión veto en Cámara de Origen",
@@ -706,14 +720,14 @@
         "fecha": "2026-08-17",
         "camara": "C.Diputados",
         "etapa": "Trámite finalización en Cámara de Origen",
-        "descripcion": "Cuenta, Copia autorizada de una resolución del Tribunal Constitucional por la cual tiene por acompañadas observaciones formuladas al requerimiento de inconstitucionalidad presentado por un grupo de senadoras y senadores, y por un grupo de diputadas y diputados, respecto de ciertas normas del proyecto. Roles acumulados N°s 17828-26-CPT, 17829-26-CPT y 17832-26-CPT.",
+        "descripcion": "Cuenta oficio aprobación veto .",
         "sesion": "57/374"
       },
       {
         "fecha": "2026-08-17",
         "camara": "C.Diputados",
         "etapa": "Trámite finalización en Cámara de Origen",
-        "descripcion": "Cuenta oficio aprobación veto .",
+        "descripcion": "Cuenta, Copia autorizada de una resolución del Tribunal Constitucional por la cual tiene por acompañadas observaciones formuladas al requerimiento de inconstitucionalidad presentado por un grupo de senadoras y senadores, y por un grupo de diputadas y diputados, respecto de ciertas normas del proyecto. Roles acumulados N°s 17828-26-CPT, 17829-26-CPT y 17832-26-CPT.",
         "sesion": "57/374"
       },
       {
@@ -726,9 +740,37 @@
       {
         "fecha": "2026-08-17",
         "camara": "C.Diputados",
-        "etapa": "Trámite finalización en Cámara de Origen",
-        "descripcion": "Cuenta, Copia autorizada de una resolución del Tribunal Constitucional mediante la cual prorroga por diez días el plazo para resolver el requerimiento de inconstitucionalidad presentado respecto del proyecto.",
+        "etapa": "Trámite en Tribunal Constitucional",
+        "descripcion": "Cuenta, Copia autorizada de una resolución del Tribunal Constitucional mediante la cual prorroga por diez días el plazo para resolver el requerimiento de inconstitucionalidad presentado respecto del proyecto. Roles acumulados N°s 17828-26-CPT, 17829-26-CPT y 17832-26-CPT.",
         "sesion": "57/374"
+      },
+      {
+        "fecha": "2026-08-19",
+        "camara": "C.Diputados",
+        "etapa": "Trámite en Tribunal Constitucional",
+        "descripcion": "Cuenta, Oficio 321-2026 del Tribunal Constitucional por el cual remite copia autorizada de la resolución recaída en el requerimiento de inconstitucionalidad presentado por el Presidente de la República, respecto del artículo 31 del proyecto. Rol N° 17892-26-CPT. Otorga plazo para formular observaciones al requerimiento declarado admisible.",
+        "sesion": "60/374"
+      },
+      {
+        "fecha": "2026-08-31",
+        "camara": "C.Diputados",
+        "etapa": "Trámite en Tribunal Constitucional",
+        "descripcion": "Cuenta, Copia autorizada de la resolución del Tribunal Constitucional recaída en el requerimiento de inconstitucionalidad presentado por S.E. el Presidente de la República, respecto del artículo 31 del proyecto. Rol N° 17892-26-CPT. Prorroga por diez días el plazo para resolver el requerimiento.",
+        "sesion": "61/374"
+      },
+      {
+        "fecha": "2026-08-31",
+        "camara": "C.Diputados",
+        "etapa": "Trámite en Tribunal Constitucional",
+        "descripcion": "Cuenta, Oficio del Tribunal Constitucional por el cual remite copia autorizada de la sentencia definitiva recaída en el proceso sobre requerimientos de inconstitucionalidad presentados por un grupo de senadoras y senadores, y por un grupo de diputadas y diputados, respecto del proyecto. Roles acumulados N°s 17.828-26-CPT, 17.829-26-CPT y 17.832-26-CPT. Acogido parcialmente.",
+        "sesion": "61/374"
+      },
+      {
+        "fecha": "2026-09-01",
+        "camara": "C.Diputados",
+        "etapa": "Trámite en Tribunal Constitucional",
+        "descripcion": "Oficio N°2059/2026. Respuesta Ministerio de Hacienda",
+        "sesion": "/"
       }
     ]
   },
@@ -1817,13 +1859,13 @@
   ],
   "materias": [],
   "metadatos": {
-    "corte": "2026-08-20",
-    "universo": "Los 464 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "corte": "2026-09-14",
+    "universo": "Los 480 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
     "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
     "cobertura_materias": false,
     "cobertura_ley": false,
     "cobertura_autoria": false,
     "tramites_descartados_por_corte": 0,
-    "generado": "2026-08-20T02:19:27"
+    "generado": "2026-09-14T17:12:29"
   }
 }
