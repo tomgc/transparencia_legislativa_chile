@@ -5,7 +5,7 @@
   "camara_origen": "C.Diputados",
   "fecha_ingreso": "2025-08-06",
   "tramitacion": {
-    "etapa_actual": "Primer trámite constitucional (C.Diputados)",
+    "etapa_actual": "Segundo trámite constitucional (Senado)",
     "estado": "En tramitación",
     "ley_numero": null,
     "tramites": [
@@ -71,11 +71,68 @@
         "etapa": "Primer trámite constitucional",
         "descripcion": "Cuenta de segundo informe de comisión .  Queda para tabla.",
         "sesion": "21/374"
+      },
+      {
+        "fecha": "2026-09-09",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión particular . Aprobado .",
+        "sesion": "66/374"
+      },
+      {
+        "fecha": "2026-09-09",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio de ley a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-09-09",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Cultura, Patrimonio, Artes, Deportes y Recreación",
+        "sesion": "58/374"
       }
     ]
   },
   "autores": [],
   "votaciones": [
+    {
+      "votacion_id": "90026",
+      "fecha": "2026-09-09T12:48:46",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Número 3 del artículo único del proyecto, en los términos propuestos por la Comisión de Deportes y Recreación, tanto en su primer como en su segundo informe, y que consta en la página 8 del comparado.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90025",
+      "fecha": "2026-09-09T12:47:36",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Número 2 del artículo único del proyecto, en los términos propuestos por la Comisión de Deportes y Recreación, tanto en su primer como en su segundo informe, cuya votación separada ha sido solicitada por los diputados Marco Antonio Sulantay y Benjamín Moreno y que consta en las páginas 5 y 6 del comparado.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90024",
+      "fecha": "2026-09-09T12:46:25",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Letra b) del número 1 del artículo único del proyecto, en los términos propuestos por la Comisión de Deportes y Recreación, tanto en su primer como en su segundo informe, cuya votación separada ha sido solicitada por los diputados Marco Antonio Sulantay y Benjamín Moreno y que consta en las páginas 3 y 4 del comparado.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90023",
+      "fecha": "2026-09-09T12:45:28",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Encabezado del artículo único y la letra a) de su número 1, en los términos propuestos por la Comisión de Deportes y Recreación, tanto en su primer como en su segundo informe y que consta en las páginas 1 a 2 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
     {
       "votacion_id": "88646",
       "fecha": "2026-04-15T13:11:11",
@@ -88,13 +145,13 @@
   ],
   "materias": [],
   "metadatos": {
-    "corte": "2026-08-20",
-    "universo": "Los 464 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "corte": "2026-09-14",
+    "universo": "Los 480 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
     "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
     "cobertura_materias": false,
     "cobertura_ley": false,
     "cobertura_autoria": false,
     "tramites_descartados_por_corte": 0,
-    "generado": "2026-08-20T02:19:27"
+    "generado": "2026-09-14T17:12:29"
   }
 }
