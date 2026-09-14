@@ -5,7 +5,7 @@
   "camara_origen": "Senado",
   "fecha_ingreso": "2023-12-19",
   "tramitacion": {
-    "etapa_actual": "Comisión Mixta por rechazo de modificaciones (Senado)",
+    "etapa_actual": "Trámite de aprobacion presidencial (Senado)",
     "estado": "En tramitación",
     "ley_numero": null,
     "tramites": [
@@ -337,11 +337,118 @@
         "etapa": "Comisión Mixta por rechazo de modificaciones",
         "descripcion": "Cuenta del Mensaje 278-374 que hace presente la urgencia Suma",
         "sesion": "52/374"
+      },
+      {
+        "fecha": "2026-08-31",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Oficio N° 21538.  Comunica que la diputada Lorena Fries Monleón  reemplazará al diputado Jaime Bassa Mercado en la comisión mixta encargada de resolver las divergencias entre ambas cámaras.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-09-01",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Mensaje 287-374 que hace presente la urgencia Suma",
+        "sesion": "53/374"
+      },
+      {
+        "fecha": "2026-09-01",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Oficio N° 21.538 de la Cámara de Diputados, por el cual reemplaza integrante de la Comisión Mixta",
+        "sesion": "53/374"
+      },
+      {
+        "fecha": "2026-09-08",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Informe de Comisión Mixta Comisión Mixta para Boletín Nº 16481-25.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-09-08",
+        "camara": "Senado",
+        "etapa": "Disc. informe C.Mixta por rechazo de modific. en C. Origen",
+        "descripcion": "Cuenta informe Comisión Mixta .",
+        "sesion": "56/374"
+      },
+      {
+        "fecha": "2026-09-08",
+        "camara": "Senado",
+        "etapa": "Disc. informe C.Mixta por rechazo de modific. en C. Origen",
+        "descripcion": "Cuenta del Mensaje 310-374 que hace presente la urgencia Discusión inmediata",
+        "sesion": "56/374"
+      },
+      {
+        "fecha": "2026-09-08",
+        "camara": "Senado",
+        "etapa": "Disc. informe C.Mixta por rechazo de modific. en C. Origen",
+        "descripcion": "Discusión informe de Comisión Mixta . Aprobado",
+        "sesion": "56/374"
+      },
+      {
+        "fecha": "2026-09-08",
+        "camara": "Senado",
+        "etapa": "Disc. informe C.Mixta por rechazo de modific. en C. Origen",
+        "descripcion": "Oficio aprobación de informe de Comisión Mixta a C. Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-09-09",
+        "camara": "C.Diputados",
+        "etapa": "Disc. informe C.Mixta por rechazo de modif. C. Revisora",
+        "descripcion": "Discusión informe de Comisión Mixta . Aprobado .",
+        "sesion": "66/374"
+      },
+      {
+        "fecha": "2026-09-09",
+        "camara": "C.Diputados",
+        "etapa": "Disc. informe C.Mixta por rechazo de modif. C. Revisora",
+        "descripcion": "Cuenta oficio aprobación de informe de Comisión Mixta .",
+        "sesion": "66/374"
+      },
+      {
+        "fecha": "2026-09-09",
+        "camara": "C.Diputados",
+        "etapa": "Disc. informe C.Mixta por rechazo de modif. C. Revisora",
+        "descripcion": "Cuenta del Mensaje 315-374 que hace presente la urgencia Discusión inmediata",
+        "sesion": "66/374"
+      },
+      {
+        "fecha": "2026-09-09",
+        "camara": "C.Diputados",
+        "etapa": "Disc. informe C.Mixta por rechazo de modif. C. Revisora",
+        "descripcion": "Oficio aprobación de informe de Comisión Mixta a C.de Origen .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-09-09",
+        "camara": "Senado",
+        "etapa": "Trámite finalización en Cámara de Origen",
+        "descripcion": "Cuenta oficio aprobación de informe de Comisión Mixta .",
+        "sesion": "58/374"
+      },
+      {
+        "fecha": "2026-09-09",
+        "camara": "Senado",
+        "etapa": "Trámite finalización en Cámara de Origen",
+        "descripcion": "Oficio de ley al Ejecutivo .",
+        "sesion": "/"
       }
     ]
   },
   "autores": [],
   "votaciones": [
+    {
+      "votacion_id": "90020",
+      "fecha": "2026-09-09T12:41:22",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Comisión Mixta",
+      "articulo": "En votación la proposición de la Comisión Mixta recaída en el proyecto de ley, originado en moción, que “Modifica el Código Procesal Penal, con el objeto de aumentar el plazo máximo para considerar una situación entre las hipótesis de flagrancia.”, que incluye disposiciones que requieren para su aprobación del voto favorable de 78 diputadas y diputados por tratarse de una disposición de rango orgánico constitucional.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
     {
       "votacion_id": "87754",
       "fecha": "2026-03-04T16:43:43",
@@ -363,13 +470,13 @@
   ],
   "materias": [],
   "metadatos": {
-    "corte": "2026-08-20",
-    "universo": "Los 464 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "corte": "2026-09-14",
+    "universo": "Los 480 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
     "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
     "cobertura_materias": false,
     "cobertura_ley": false,
     "cobertura_autoria": false,
     "tramites_descartados_por_corte": 0,
-    "generado": "2026-08-20T02:19:27"
+    "generado": "2026-09-14T17:12:29"
   }
 }
