@@ -90,7 +90,8 @@ intencion primaria. Fuente del conteo: traspasos y logs de la sesion.
 | 21 | v21 | 2 | Opus 5 | entidad proyecto con tramitacion (P-66) |
 | 22 | v22 | 2 | Opus 5 | runner del paso 37 (P-86, P-90) y sondeo del eje tematico (P-92) |
 | 23 | v23 | 3 | Opus 5 | P-91 refutado, guarda de registro de pasos (P-93) y auditoria de gobernanza de crudos (P-99) |
-| Total | | 67 | | |
+| 24 | v24 | 5 | Opus 5 | cierre de P-99 y de las tres deudas de derivacion, las cuatro en produccion; el barrido de contenido no cierra |
+| Total | | 72 | | |
 
 > Sesion 8: el modelo no consta en `traspaso_cierre_v08.md` ni en los demas
 > insumos de esta consolidacion; se deja declarado como ausente en vez de
@@ -953,6 +954,79 @@ rediseno (D56) deriva las rutas de `DIRECTORIOS_CRUDO` (`10_utils/10_utils.R:249
 declaracion unica en el repo) y agrega una validacion del conjunto staged que mata el
 job ante cualquier ruta intrusa. Decidido y escrito como encargo; no implementado.
 Categoria: diagnostico/exploracion.
+
+### Sesion 24 (v24) — cierre de P-99 y de las tres deudas de derivacion, las cuatro en produccion; el barrido de contenido no cierra
+
+**68.** Implementacion de P-99: el refresh versiona las capturas crudas que R declara.
+El paso de commit del workflow dejo de enumerar rutas a mano y pasa a consumir la
+salida de `rutas_versionables_crudo()`, helper nuevo que devuelve
+`file.path("20_insumos", DIRECTORIOS_CRUDO)`, de modo que la unica declaracion de
+que versiona el bot vive en R y no en dos listas que pueden desincronizarse. Entre
+el `git add` y el `git commit` se agrego una validacion en R que mata el job
+nombrando cualquier ruta staged no declarada, lo que convierte a `.gitignore` en
+segunda linea de defensa en vez de la unica frente al padron del Senado. Se probo
+que la compuerta falla cuando debe (ruta intrusa bajo `territorio/`, salida 1
+nombrandola) y calla cuando debe, y se corrio el workflow real desde la rama:
+`conclusion = success`, 1 251 rutas staged y 1 251 declaradas, 0 bajo `territorio/`.
+Sobre `origin/refresh/2026-08-20`, el conteo por subdirectorio de `20_insumos/` paso
+de 57/3/2 a 63/5/2: las dos altas del Senado son la medicion que cierra P-99.
+Categoria: automatizacion.
+
+**69.** Merge de los tres PR pendientes y devolucion del dato fresco a produccion.
+PR #19 (guarda de sincronia del registro de pasos, P-93) mergeado en `f5b3869`; PR
+#21 (el cambio de P-99) y PR #20 (el corte 2026-08-20) mergeados en ese orden, con
+la verificacion previa de que los blobs de los tres archivos compartidos eran
+identicos entre `origin/main` y la rama del bot, de modo que el merge del segundo no
+revertia el primero. Con eso, `main` queda con la primera captura cruda del Senado
+versionada por el bot en la historia del proyecto (antes solo existia la que el
+titular subio a mano en `b4b0bcd`), y la guarda de P-93 corrio por primera vez en el
+runner, en silencio. `CLAUDE.md` documenta desde aqui que `DIRECTORIOS_CRUDO` decide
+tambien que versiona el bot, y no solo que vigila el contrato temporal de P-74.
+Categoria: integracion/repo.
+
+**70.** Derivacion de literales y localizacion del `switch` por recorrido (P-100,
+P-101, P-102), con arnes versionado. `verificar_registro_pasos()` dejo de localizar
+el `switch` de `capturas_crudas_de_paso()` con `body(...)[[2]]`, que asumia posicion
+sintactica y degradaba a falso positivo ante cualquier sentencia previa; el mensaje
+de faltantes se generalizo a `20_insumos/` donde el vector esta vacio por
+construccion, para no nombrar un subdirectorio que puede ser el equivocado; y seis
+literales de subdirectorio (no dos ni cinco, como estimaban dos inventarios previos
+que miraban partes distintas del arbol) pasaron a derivar de `DIRECTORIOS_CRUDO`. El
+trabajo costo tres rondas y tres paneles adversariales: la primera introdujo defectos
+en el barrido, la segunda un falso negativo al cerrar un falso positivo inalcanzable,
+y la tercera revirtio esa correccion byte a byte y agrego el arnes que nunca habia
+existido (`50_verificar_localizador_p100.R`, 32 casos, salida 1 cuando uno falla).
+Verificacion: control conocido-bueno 131/131 lineas y 1 242/1 242 salidas con md5
+identico, 0 red, cinco escenarios de P-93, 19/19 formas de AST y 22/22 rutas
+equivalentes. PR #22. Categoria: infraestructura.
+
+**71.** Compuerta de contenido para el crudo versionado (P-105): construida, medida y
+no incorporada. La compuerta de P-99 valida rutas y no contenido, asi que un archivo
+con datos personales y nombre plausible bajo `camara/` o `senado/` pasa las dos
+barreras. Se construyo una funcion de barrido en R con los cinco patrones calibrados
+en la auditoria de P-99 y un paso del job que la invoca, y se midio el corpus
+vigente: 70 archivos trackeados, limpio 70, hallazgos 0, ilegible 0, sobre 103 827 065
+caracteres en 2,93 s, con el limpio sobreviviendo a la reconciliacion bytes contra
+caracteres. Dos paneles adversariales la rechazaron por tres defectos, el central de
+diseno: seis de siete archivos con el mismo senuelo dentro fueron declarados
+`limpio` porque el barrido nunca comparo caracteres escaneados contra bytes en disco,
+que es la unica comprobacion que distingue "no pude leerlo" de "esta limpio". Queda
+aislada en la rama `fix/encargo-a-derivacion-y-barrido` (`ff71730`), intacta, como
+insumo de su propio encargo. Categoria: automatizacion.
+
+**72.** Los dos documentos normativos dejan de versionarse (decision del titular,
+commit `c1e18fd`, 2026-08-24). `POLITICA_PROYECTO.md` y
+`SETTINGS_Y_PROMPTS_OPERACIONALES.md` salen del repositorio (2 478 lineas) y pasan a
+vivir como copia local cubierta por `.gitignore`. La decision viajo dentro de PR #22,
+que es de codigo, y por eso se midio antes de mergear: `c1e18fd` solo agrega dos
+lineas a `.gitignore` y no da de baja ninguna regla, y ningun archivo deja de estar
+ignorado (2 896/2 896 de `20_insumos/exploracion/` antes y despues; los 40 que el
+barrido marca, 40/40, contados con `git check-ignore`). Consecuencia abierta: 36
+archivos versionados citan los normativos y `CLAUDE.md` lo hacia en cinco puntos como
+fuente de gobernanza; se agrego una clausula en su cabecera y las otras cuatro
+referencias siguen apuntando a archivos ausentes de un clon fresco. Categoria:
+documentacion.
+
 ## Delta del backlog
 
 - **v01:** primer backlog, 5 entradas nuevas (1-5), taxonomia inicial propuesta.
@@ -1206,3 +1280,15 @@ Categoria: diagnostico/exploracion.
   son mediciones que cambiaron una decision, y una de ellas refuto un bug heredado del
   traspaso anterior. El patron util no es cuanto se construyo sino cuantas veces la
   medicion contradijo al documento: dos, y en ambos casos antes de tocar codigo.
+
+- **v24:** 5 entradas nuevas (68-72). Recuento tematico diferido (`recuento_tematico:
+  diferido`, instrumento de cierre v14): la tabla de Clasificacion tematica queda
+  intacta (columna 68, entradas 72 tras este cierre) y el reparto se archiva aqui: 68 ->
+  automatizacion; 69 -> integracion/repo; 70 -> infraestructura; 71 -> automatizacion;
+  72 -> documentacion. Sin categorias nuevas ni reclasificaciones. Sin renumeracion ni
+  reescritura de entradas 1-67. **Lectura:** La sesion concentra el peso en
+  automatizacion (2 de 5), que pasa a ser la categoria del bot y de sus compuertas, y
+  confirma el patron de las ultimas seis sesiones: el trabajo de producto se detuvo y el
+  de infraestructura de confianza (guardas, compuertas, arneses) absorbe casi todo. La
+  entrada 71 es la primera del proyecto que registra trabajo construido, medido y
+  deliberadamente no incorporado.
