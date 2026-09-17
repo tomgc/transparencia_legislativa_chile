@@ -7,7 +7,7 @@ sesion_actual: v24
 ultima_actividad: 2026-09-17
 maneja_sensibles: true
 tipo_pendiente: deuda_heredada
-sesion_abierta: false
+sesion_abierta: true
 maquina: MacBook-Pro-de-Tomas.local
 commit_cierre: 1bc9d3e
 traspaso_vigente: traspaso_cierre_v24.md
