@@ -1,16 +1,25 @@
 ---
 slug: transparencia_legislativa_chile
-nombre_real: Transparencia Legislativa Chile
+nombre_real: Transparencia legislativa Chile
 categoria: activo
 semaforo: activo
-sesion_actual: v23
-ultima_actividad: 2026-08-19
-maneja_sensibles: false
-tipo_pendiente: bug
+sesion_actual: v24
+ultima_actividad: 2026-09-17
+maneja_sensibles: true
+tipo_pendiente: deuda_heredada
+sesion_abierta: false
+maquina: MacBook-Pro-de-Tomas.local
+commit_cierre: 1bc9d3e
+traspaso_vigente: traspaso_cierre_v24.md
+cierre_incompleto: no
+insumos_verificados: 2026-09-17
+ventana_insumos: ./20_insumos
 ---
 ## En que vamos
-El portal volvio a publicar dato fresco: se mergearon los tres PR abiertos (refresh del 2026-08-17, fix del runner y sondeo tematico) y se refuto P-91, que resulto no ser un bug sino un run antiguo leido contra el arbol de hoy. La guarda que impide que un paso nuevo del pipeline quede sin registrar quedo construida, probada y en PR #19 sin mergear. Aparecio P-99: el bot no versiona las capturas del Senado, asi que la garantia de regenerar sin red no se cumple para el paso 37.
+La sesion 24 cerro P-99 y las tres deudas de derivacion de literales: el refresh ya no enumera rutas a mano sino que se las pregunta a R, y `main` tiene por primera vez capturas crudas del Senado versionadas por el bot. Se mergearon cuatro PR (#19, #21, #20, #22) y el localizador del registro de pasos quedo con arnes versionado en verde. El barrido de dato personal (P-105) se construyo, lo rechazaron tres paneles adversariales y quedo aislado en su rama, sin llegar a produccion.
+
 ## Proximo paso
-Mergear PR #19 y ejecutar el encargo de P-99 ya escrito, que hace que el workflow derive de R las rutas de crudo que versiona.
+Encargo E de gobernanza documental: las referencias rotas a los normativos desversionados (P-111), P-103 remedido contra la version vigente, P-60 y el gatillo de locale UTF-8.
+
 ## Bloqueantes
 ninguno
