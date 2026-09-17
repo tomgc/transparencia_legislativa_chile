@@ -498,3 +498,86 @@ Instrumento: `cierre_sesion_autonomo_cc_v8.md`. Paquete: `paquete_cierre_v23.md`
   categoria que F7 nombra explicitamente; se declara aqui por no haberla producido este
   cierre.
 - **PR #19 abierto** al cierre, sin mergear, como declara el traspaso.
+
+## v24 — 2026-09-17
+
+Instrumento: `cierre_sesion_autonomo_cc_v14.md` | kit `8427947`. Paquete: `paquete_cierre_v24.md`
+(tercera emision: la segunda se detuvo en F5 por un vehiculo rezagado del v23 en `traspasos/` y por
+I2bis; esta trae `recuento_tematico: diferido` y P-112). `push_autorizado: si`. `sello_escaner: regenerar`.
+
+### F0.0
+
+kit: sincronizado (`fetch` + `merge --ff-only`, 0/0 de divergencia, trackeados limpios).
+normativos: al dia (POLITICA `> **Versión 5.8 — vigente.**` y SETTINGS `> **Versión 37.**`,
+identicos byte a byte al kit por `cmp`).
+
+### Tabla de severidades
+
+| condicion | severidad | resultado |
+|---|---|---|
+| F0.1 `.git` y `traspasos/` | BLOQUEA | pasa |
+| F0.2 un paquete en `andamios/`; 13 campos; 4/4 delimitadores; 0 placeholders; 0 derivados con valor | BLOQUEA | pasa |
+| F0.3 `raiz_proyecto` = `pwd` | BLOQUEA | pasa |
+| F0.4 correlativo: max(v23) + 1 = v24 = `traspaso_nuevo` = nombre | BLOQUEA | pasa |
+| F0.5 `n` = 5 = `backlog_entradas_nuevas`; patron de entrada `^\*\*[0-9]+\.\*\* `; provisionales 68-72 contiguos | BLOQUEA | pasa |
+| F0.5 desplazamiento `k` | REPARA | k = 0, sin desplazamiento |
+| F0.5 `sesion_nueva` 24 = 23 + 1; `fecha_cierre` = fecha de la maquina | ADVIERTE | pasa |
+| F0.5bis reparto: 5 lineas = provisionales; 4 categorias existentes en disco; control positivo | BLOQUEA | pasa |
+| F0.5ter `diferido`: suma N en disco 68 vs U 67 | REPARA | no aplica: la tabla no cuadra, el diferimiento se demuestra |
+| F0.6 `settings_version` = linea del kit | BLOQUEA | pasa |
+| F0.6 `compuerta_dudas: 6 registradas` = 6 filas en §11.4 | BLOQUEA/ADVIERTE | pasa |
+| F0.7 arbol limpio en lo que el cierre escribe | BLOQUEA | pasa (el vehiculo rezagado del v23 lo elimino el titular antes de esta corrida, con verificacion de que su contenido ya estaba en disco) |
+| F0.7bis sucio fuera de esas rutas | BLOQUEA | lista vacia: sin commit de trabajo |
+| F0.8 `commit_cierre` y `maquina` = `<<EJECUTOR>>` | BLOQUEA | pasa (2 marcadores) |
+| F2 encabezados unicos (Clasificacion, Resumen, Detalle, Delta); ultimo encabezado de sesion reconocible | BLOQUEA | pasa |
+| F2 fila del resumen / bullet del delta compuestos por el ejecutor | REPARA | compuestos desde el formato de la ultima fila y el ultimo bullet; sin normalizacion de filas del paquete |
+| F3 rotulos del catalogo aplicable sin disparo | ADVIERTE | `R11-puntero` 0 disparos (ultimo disparo: v23). Ver F3 |
+| F3 cifras sin rotulo | ADVIERTE | 0 nuevas: las cifras de las zonas declarativas son historicas legitimas (nota de consolidacion s12, notas del resumen) o gobernadas por R12, fuera del catalogo con `diferido` |
+| F4 I1, I2, I2ter, I3, I6, I7 | BLOQUEA | pasa |
+| F4 I4 | ADVIERTE | 2 apariciones no historicas, listadas abajo |
+| F4 I5 | ADVIERTE | 0 autorreferencias |
+| F8 diff de distribucion | BLOQUEA | TRASPASO, ESTADO (marcadores en sitio) y BACKLOG_ENTRADAS identicos |
+
+renumeracion: sin desplazamiento (68-72 provisionales = 68-72 finales).
+
+### F3 — disparos por patron
+
+Catalogo aplicable (log v23): R12-tabla, R12-prosa-estado, R12-prosa-denominador,
+R12-prosa-suma-pct, R11-puntero. Con `recuento_tematico: diferido`, R12 y R13 salen del
+catalogo aplicable por declaracion (v13).
+
+| rotulo | disparos | resultado |
+|---|---|---|
+| R11-puntero | 0 | advertencia: el puntero `(recuento programatico en R, cierre v23)` queda como esta porque el ultimo recuento sigue siendo el de v23; con `diferido` reescribirlo mentiria |
+| catalogo no aplicable | 0 | R1 a R10, R12 (por declaracion), R13 (por declaracion): 12 de 13 |
+
+### F4 — invariantes
+
+| # | resultado |
+|---|---|
+| I1 | VERDE. 72 entradas en el Detalle cronologico, 1-72, 0 duplicados, 0 huecos (patron unificado: `N.`, `**N.`, `**N.**`, `- **N.**`) |
+| I2 | VERDE. Las 24 filas de sesion suman 72 = `Total` |
+| I2ter | VERDE. Tabla de Clasificacion tematica byte a byte identica (13 lineas), suma N 68 sin cambio; entradas 68-72 una vez cada una en el reparto; reparto archivado en el bullet del delta v24 |
+| I3 | VERDE. Filas del resumen 23 -> 24 |
+| I4 | ADVIERTE. Apariciones de 67 / v23 fuera del Detalle: 6. Historicas legitimas: fila `| 23 | v23 |` del resumen, bullet del delta v23 (x2), `1-67` en el bullet nuevo (rango previo), `cierre v23` en el puntero del recuento (ultimo recuento real). **No historicas (2):** la nota bajo la Clasificacion tematica dice `hoy la columna suma 68 mientras las entradas numeradas del detalle cronologico son 67 (1-67)` y ahora son 72; no se reescribio porque es prosa del recuento diferido (R12-prosa-estado), y el titular decide |
+| I5 | VERDE. 0 autorreferencias de cifras en las entradas |
+| I6 | VERDE. 0 hallazgos en 5 chequeos (RUT, OneDrive, credenciales, coautoria, placeholders) sobre backlog y paquete |
+| I7 | VERDE. 1 traspaso vigente (`traspaso_cierre_v24.md`); 23 en `archivo/` |
+
+### Recuento diferido
+
+Poblacion declarada por la tabla en disco: 68 (columna N), entradas del Detalle tras el cierre: 72.
+Reparto archivado: 68 -> automatizacion; 69 -> integracion/repo; 70 -> infraestructura;
+71 -> automatizacion; 72 -> documentacion. Categorias nuevas: ninguna. Reclasificaciones: ninguna.
+
+### Commits
+
+- hash de trabajo: ninguno (arbol limpio fuera de las rutas del cierre al abrir).
+- hash de documentacion: `26ee83e` (traspaso v24, archivado de v23, backlog, 5 salidas del escaner con poda de `20260819_161404_*`).
+- push: por publicar (`push_autorizado: si`).
+
+### Advertencias que viajan al eco
+
+1. `R11-puntero` sin disparo (ultimo disparo: v23), consecuencia de `diferido`.
+2. I4: la nota bajo la Clasificacion tematica conserva `67 (1-67)` como recuento de entradas.
+3. P-112 (nuevo en el traspaso): `vigente` es inalcanzable en este repo mientras la columna N sume U+1; ademas SETTINGS §2.1 licencia `diferido` solo con poblacion **menor**, y aqui es mayor: divergencia de redaccion a reportar a la cartera.
