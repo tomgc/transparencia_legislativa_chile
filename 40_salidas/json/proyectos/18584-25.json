@@ -1,0 +1,160 @@
+{
+  "boletin": "18584-25",
+  "nombre": "Modifica el Código Penal para ampliar el ámbito de aplicación del delito de interrupción u obstaculización de la libre circulación y del funcionamiento de los servicios de transporte",
+  "tipo_iniciativa": "Mensaje",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2026-08-17",
+  "tramitacion": {
+    "etapa_actual": "Segundo trámite constitucional (Senado)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2026-08-17",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .  Incluye IF N° 201/17.08.2026.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-08-17",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Texto del Mensaje.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-08-17",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Seguridad Ciudadana.",
+        "sesion": "57/374"
+      },
+      {
+        "fecha": "2026-08-17",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 264-374 que hace presente la urgencia Suma",
+        "sesion": "57/374"
+      },
+      {
+        "fecha": "2026-08-31",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 280-374 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "61/374"
+      },
+      {
+        "fecha": "2026-09-04",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "S.E. el Presidente de la República formula indicaciones al proyecto. (159-374).",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-09-04",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "S.E. el Presidente de la República formula indicación sustitutiva al proyecto. (159-374).",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-09-07",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 301-374 que hace presente la urgencia Suma",
+        "sesion": "64/374"
+      },
+      {
+        "fecha": "2026-09-08",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 306-374 que hace presente la urgencia Discusión inmediata",
+        "sesion": "65/374"
+      },
+      {
+        "fecha": "2026-09-09",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 317-374 que retira y hace presente la urgencia Suma",
+        "sesion": "66/374"
+      },
+      {
+        "fecha": "2026-09-21",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  Queda para tabla.",
+        "sesion": "67/374"
+      },
+      {
+        "fecha": "2026-09-21",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Seguridad Ciudadana.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-09-23",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular a la vez .",
+        "sesion": "70/374"
+      },
+      {
+        "fecha": "2026-09-23",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio de ley a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-09-23",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento",
+        "sesion": "60/374"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "90141",
+      "fecha": "2026-09-23T13:33:13",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Indicación renovada de la diputada Schneider y los diputados Salinas, Pinilla y Araya, Jaime, para agregar un inciso final nuevo al artículo 268 septies del Código Penal, del siguiente tenor:\n\n‘No constituirán los delitos previstos en este artículo las interrupciones u obstaculizaciones transitorias que se produzcan con ocasión del ejercicio legítimo y pacífico de los derechos de reunión, manifestación, libertad de expresión, asociación o libertad sindical, incluida la huelga ejercida conforme a derecho, siempre que no medie violencia o intimidación en las personas ni se genere un peligro concreto y grave para la vida o integridad física de terceros.’.”",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90140",
+      "fecha": "2026-09-23T13:31:26",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Indicación renovada del diputado Raúl Leiva para agregar un nuevo inciso segundo al artículo 268 septies del Código Penal, del siguiente tenor:\n“Lo dispuesto en el presente artículo no será aplicable si la persona se encuentra ejerciendo su legítimo derecho a reunión, huelga o manifestación pacífica”.”.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90139",
+      "fecha": "2026-09-23T13:28:14",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": null,
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-09-28",
+    "universo": "Los 505 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-09-28T18:51:45"
+  }
+}

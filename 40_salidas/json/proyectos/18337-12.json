@@ -1,0 +1,202 @@
+{
+  "boletin": "18337-12",
+  "nombre": "Modifica la ley N° 21.368, con el objeto de prorrogar la entrada en vigencia de su reglamento y flexibilizar la aplicación de las disposiciones que indica",
+  "tipo_iniciativa": "Moción",
+  "camara_origen": "Senado",
+  "fecha_ingreso": "2026-06-10",
+  "tramitacion": {
+    "etapa_actual": "Tercer trámite constitucional (Senado)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2026-06-10",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-06-16",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Medio Ambiente, Cambio Climático y Bienes Nacionales",
+        "sesion": "30/374"
+      },
+      {
+        "fecha": "2026-06-23",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Medio Ambiente, Cambio Climático y Bienes Nacionales.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-06-23",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 173-374 que hace presente la urgencia Simple",
+        "sesion": "35/374"
+      },
+      {
+        "fecha": "2026-06-23",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "El Honorable Senador señor De Urresti adhiere a este proyecto de ley",
+        "sesion": "35/374"
+      },
+      {
+        "fecha": "2026-06-23",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "El Honorable Senador señor Celis adhiere a este proyecto de ley",
+        "sesion": "35/374"
+      },
+      {
+        "fecha": "2026-06-24",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .",
+        "sesion": "36/374"
+      },
+      {
+        "fecha": "2026-07-21",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 215-374 que retira y hace presente la urgencia Simple",
+        "sesion": "44/374"
+      },
+      {
+        "fecha": "2026-08-04",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 232-374 que retira y hace presente la urgencia Suma",
+        "sesion": "47/374"
+      },
+      {
+        "fecha": "2026-08-19",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular a la vez",
+        "sesion": "52/374"
+      },
+      {
+        "fecha": "2026-08-19",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular a la vez",
+        "sesion": "52/374"
+      },
+      {
+        "fecha": "2026-08-19",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio de ley a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-09-01",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión Medio Ambiente y Recursos Naturales",
+        "sesion": "62/374"
+      },
+      {
+        "fecha": "2026-09-02",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 293-374 que hace presente la urgencia Suma",
+        "sesion": "63/374"
+      },
+      {
+        "fecha": "2026-09-02",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Primer informe de comisión Medio Ambiente y Recursos Naturales.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-09-07",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 303-374 que retira y hace presente la urgencia Suma",
+        "sesion": "64/374"
+      },
+      {
+        "fecha": "2026-09-08",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  Queda para tabla.",
+        "sesion": "65/374"
+      },
+      {
+        "fecha": "2026-09-21",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 326-374 que retira y hace presente la urgencia Suma",
+        "sesion": "67/374"
+      },
+      {
+        "fecha": "2026-09-22",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular con modificaciones .",
+        "sesion": "68/374"
+      },
+      {
+        "fecha": "2026-09-22",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio modificaciones a Cámara de Origen .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-09-23",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta oficio con modificaciones de Cámara Revisora . Queda para tabla",
+        "sesion": "60/374"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "90086",
+      "fecha": "2026-09-22T13:05:32",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Numeral 4 del artículo único del proyecto, cuya votación separada ha sido solicitada por el diputado Jaime Bassa y que consta en las páginas 4 y 5 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90085",
+      "fecha": "2026-09-22T13:04:27",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Numeral 1 del artículo único del proyecto, cuya votación separada ha sido solicitada por el diputado Jaime Bassa y que consta en la página 1 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90084",
+      "fecha": "2026-09-22T13:03:33",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": null,
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-09-28",
+    "universo": "Los 505 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-09-28T18:51:45"
+  }
+}
