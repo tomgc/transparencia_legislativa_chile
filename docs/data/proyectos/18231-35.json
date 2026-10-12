@@ -1,0 +1,156 @@
+{
+  "boletin": "18231-35",
+  "nombre": "Establece el Día Nacional de la Teletón y el Día Nacional del Encuentro Familiar",
+  "tipo_iniciativa": "Mensaje",
+  "camara_origen": "Senado",
+  "fecha_ingreso": "2026-05-04",
+  "tramitacion": {
+    "etapa_actual": "Trámite de aprobacion presidencial (Senado)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2026-05-04",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-05-05",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión del Adulto Mayor y Discapacidad",
+        "sesion": "12/374"
+      },
+      {
+        "fecha": "2026-06-24",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "La Sala acuerda autorizar a la Comisión del Adulto Mayor y Discapacidad, para discutir en general y en particular este proyecto de ley",
+        "sesion": "37/374"
+      },
+      {
+        "fecha": "2026-07-14",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión del Adulto Mayor y Discapacidad.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-15",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .",
+        "sesion": "43/374"
+      },
+      {
+        "fecha": "2026-08-04",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular a la vez",
+        "sesion": "47/374"
+      },
+      {
+        "fecha": "2026-08-04",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio de ley a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-08-12",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Personas Mayores y Discapacidad",
+        "sesion": "56/374"
+      },
+      {
+        "fecha": "2026-09-21",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "S.E. el Presidente de la República formula indicación al proyecto. (169-374).",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-09-29",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "S.E. el Presidente de la República retira la indicación 169 formulada al proyecto. (179-374).",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-09-29",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Primer informe de comisión de Personas Mayores y Discapacidad.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-09-30",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular sin modificaciones .",
+        "sesion": "73/374"
+      },
+      {
+        "fecha": "2026-09-30",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .",
+        "sesion": "73/374"
+      },
+      {
+        "fecha": "2026-09-30",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 353-374 que hace presente la urgencia Discusión inmediata",
+        "sesion": "73/374"
+      },
+      {
+        "fecha": "2026-09-30",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio aprobación sin modificaciones a Cámara de Origen .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-09-30",
+        "camara": "Senado",
+        "etapa": "Trámite finalización en Cámara de Origen",
+        "descripcion": "Cuenta oficio aprobación sin modificaciones de C. Revisora .",
+        "sesion": "63/374"
+      },
+      {
+        "fecha": "2026-09-30",
+        "camara": "Senado",
+        "etapa": "Trámite finalización en Cámara de Origen",
+        "descripcion": "Oficio de ley al Ejecutivo .",
+        "sesion": "/"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "90226",
+      "fecha": "2026-09-30T13:30:50",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Votación general",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-10-12",
+    "universo": "Los 555 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-10-12T20:32:41"
+  }
+}

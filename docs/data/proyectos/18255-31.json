@@ -1,0 +1,216 @@
+{
+  "boletin": "18255-31",
+  "nombre": "Establece un beneficio de compensación por la compra de pañales y de medicamentos",
+  "tipo_iniciativa": "Mensaje",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2026-05-18",
+  "tramitacion": {
+    "etapa_actual": "Segundo trámite constitucional (Senado)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2026-05-18",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .  Incluye IF N° 99/15.05.2026.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-05-18",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Texto del Mensaje.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-05-18",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Desarrollo Social, Superación de la Pobreza, Planificación, y a la Comisión de Hacienda en lo que corresponda.",
+        "sesion": "25/374"
+      },
+      {
+        "fecha": "2026-05-19",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 103-374 que hace presente la urgencia Suma",
+        "sesion": "26/374"
+      },
+      {
+        "fecha": "2026-06-02",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 120-374 que hace presente la urgencia Suma",
+        "sesion": "28/374"
+      },
+      {
+        "fecha": "2026-06-15",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 145-374 que hace presente la urgencia Suma",
+        "sesion": "33/374"
+      },
+      {
+        "fecha": "2026-06-17",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 156-374 que retira y hace presente la urgencia Simple",
+        "sesion": "35/374"
+      },
+      {
+        "fecha": "2026-07-13",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 196-374 que retira y hace presente la urgencia Simple",
+        "sesion": "42/374"
+      },
+      {
+        "fecha": "2026-07-20",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 208-374 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "45/374"
+      },
+      {
+        "fecha": "2026-08-03",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 223-374 que hace presente la urgencia Discusión inmediata",
+        "sesion": "49/374"
+      },
+      {
+        "fecha": "2026-08-10",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "S.E. el Presidente de la República formula indicaciones al proyecto. (129-374). Incluye informe financiero complementario N° 192/10.08.2026.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-08-10",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 244-374 que hace presente la urgencia Discusión inmediata",
+        "sesion": "53/374"
+      },
+      {
+        "fecha": "2026-08-19",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Desarrollo Social, Superación de la Pobreza, Planificación.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-08-31",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  (Desarrollo social). Pasa a Hacienda.",
+        "sesion": "61/374"
+      },
+      {
+        "fecha": "2026-08-31",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 283-374 que hace presente la urgencia Suma",
+        "sesion": "61/374"
+      },
+      {
+        "fecha": "2026-09-07",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 303-374 que retira y hace presente la urgencia Suma",
+        "sesion": "64/374"
+      },
+      {
+        "fecha": "2026-09-08",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "S.E. el Presidente de la República formula indicaciones al proyecto. (165-374). Incluye informe financiero complementario N° 224/08.09.2026.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-09-21",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 326-374 que retira y hace presente la urgencia Suma",
+        "sesion": "67/374"
+      },
+      {
+        "fecha": "2026-09-22",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Hacienda.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-09-23",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  (Hacienda). Queda para tabla.",
+        "sesion": "70/374"
+      },
+      {
+        "fecha": "2026-09-29",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular a la vez .",
+        "sesion": "72/374"
+      },
+      {
+        "fecha": "2026-09-29",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional insistido",
+        "descripcion": "Oficio de ley a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-09-29",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Familia, Infancia y Adolescencia y a la Comisión de Hacienda en su caso",
+        "sesion": "61/374"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "90190",
+      "fecha": "2026-09-29T13:11:50",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 8 del proyecto, en los términos propuestos por la Comisión de Hacienda, cuya votación separada fue solicitada por el diputado Jorge Brito y la diputada Irací Hassler.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90189",
+      "fecha": "2026-09-29T13:10:34",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Indicación renovada de la diputada Sofía González y del diputado Gustavo Gatica, para agregar al artículo 7 del proyecto un nuevo inciso final, del siguiente tenor: \n“En la asignación y entrega de los beneficios establecidos en esta ley, la autoridad competente deberá otorgar prioridad a las personas con discapacidad que cuenten con inscripción vigente en el Registro Nacional de la Discapacidad establecido en la ley Nº20.422, especialmente cuando presenten dependencia o requieran apoyos permanentes para el desarrollo de las actividades de la vida diaria, conforme al reglamento. Sin que ello implique ampliación del universo de beneficiarios ni del gasto fiscal.”.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90188",
+      "fecha": "2026-09-29T13:07:49",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Votación general",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-10-12",
+    "universo": "Los 555 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-10-12T20:32:41"
+  }
+}
