@@ -1,0 +1,103 @@
+{
+  "boletin": "18688-24",
+  "nombre": "Consagra garantías de igualdad, libertad de creación y no discriminación en la asignación de los fondos concursables de fomento cultural",
+  "tipo_iniciativa": "Moción",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2026-09-08",
+  "tramitacion": {
+    "etapa_actual": "Primer trámite constitucional (C.Diputados)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2026-09-08",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-09-30",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Cultura, Artes y Comunicaciones",
+        "sesion": "73/374"
+      },
+      {
+        "fecha": "2026-09-30",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "A petición del diputado Irarrázaval la Sala acordó radicar el proyecto en la Comisión de Hacienda y una vez despachado por ésta, remitirlo a la Comisión de Cultura, Artes y Comunicaciones. ACORDADO.",
+        "sesion": "73/374"
+      },
+      {
+        "fecha": "2026-09-30",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio N° 21618. Comunica a la Comisión de Hacienda el acuerdo de la Sala, en orden a que el proyecto sea remitido en primer lugar a ésta y que posterioridad a su despacho sea remitido a la Comisión de Cultura, Artes y Comunicaciones.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-09-30",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio N° 21619. Comunica a la Comisión de Cultura, Artes y Comunicaciones el acuerdo de la Sala, en orden a que el proyecto sea remitido a la Comisión de Hacienda previo a su despacho.",
+        "sesion": "/"
+      }
+    ]
+  },
+  "autores": [
+    {
+      "parlamentario_id": "1073",
+      "nombre": "Juan Santana Castillo",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1122",
+      "nombre": "Luis Alberto Cuello Peña y Lillo",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1128",
+      "nombre": "Ana María Gazmuri Vieira",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1171",
+      "nombre": "Emilia Schneider Videla",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1226",
+      "nombre": "José Montalva Feuerhake",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1252",
+      "nombre": "Constanza Schonhaut Soto",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1241",
+      "nombre": "Patricio Pinilla Valencia",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1186",
+      "nombre": "Ignacio Achurra Díaz",
+      "en_padron_vigente": true
+    }
+  ],
+  "votaciones": [],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-10-12",
+    "universo": "Los 555 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": true,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-10-12T20:32:42"
+  }
+}
