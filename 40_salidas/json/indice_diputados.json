@@ -10,7 +10,7 @@
     "tendencia": "derecha",
     "n_proyectos": 6,
     "n_votaciones": 892,
-    "tasa_presencia": 0.983870967741935
+    "tasa_presencia": 0.984126984126984
   },
   {
     "id": "1257",
@@ -23,7 +23,7 @@
     "tendencia": "derecha",
     "n_proyectos": 18,
     "n_votaciones": 580,
-    "tasa_presencia": 0.967741935483871
+    "tasa_presencia": 0.968253968253968
   },
   {
     "id": "1013",
@@ -75,7 +75,7 @@
     "tendencia": "izquierda",
     "n_proyectos": 32,
     "n_votaciones": 892,
-    "tasa_presencia": 0.870967741935484
+    "tasa_presencia": 0.873015873015873
   },
   {
     "id": "1222",
@@ -88,7 +88,7 @@
     "tendencia": "centroizquierda",
     "n_proyectos": 9,
     "n_votaciones": 580,
-    "tasa_presencia": 0.967741935483871
+    "tasa_presencia": 0.968253968253968
   },
   {
     "id": "1061",
@@ -114,7 +114,7 @@
     "tendencia": "centroderecha",
     "n_proyectos": 24,
     "n_votaciones": 892,
-    "tasa_presencia": 0.935483870967742
+    "tasa_presencia": 0.936507936507937
   },
   {
     "id": "1221",
@@ -153,7 +153,7 @@
     "tendencia": null,
     "n_proyectos": 11,
     "n_votaciones": 580,
-    "tasa_presencia": 0.887096774193548
+    "tasa_presencia": 0.888888888888889
   },
   {
     "id": "1012",
@@ -166,7 +166,7 @@
     "tendencia": "izquierda",
     "n_proyectos": 9,
     "n_votaciones": 892,
-    "tasa_presencia": 0.983870967741935
+    "tasa_presencia": 0.984126984126984
   },
   {
     "id": "1187",
@@ -192,7 +192,7 @@
     "tendencia": null,
     "n_proyectos": 17,
     "n_votaciones": 892,
-    "tasa_presencia": 0.967741935483871
+    "tasa_presencia": 0.968253968253968
   },
   {
     "id": "1195",
@@ -205,7 +205,7 @@
     "tendencia": null,
     "n_proyectos": 20,
     "n_votaciones": 580,
-    "tasa_presencia": 0.983870967741935
+    "tasa_presencia": 0.984126984126984
   },
   {
     "id": "1197",
@@ -231,7 +231,7 @@
     "tendencia": "centroizquierda",
     "n_proyectos": 21,
     "n_votaciones": 580,
-    "tasa_presencia": 0.951612903225806
+    "tasa_presencia": 0.952380952380952
   },
   {
     "id": "1206",
@@ -270,7 +270,7 @@
     "tendencia": "derecha",
     "n_proyectos": 8,
     "n_votaciones": 892,
-    "tasa_presencia": 0.870967741935484
+    "tasa_presencia": 0.873015873015873
   },
   {
     "id": "1104",
@@ -283,7 +283,7 @@
     "tendencia": "derecha",
     "n_proyectos": 9,
     "n_votaciones": 892,
-    "tasa_presencia": 0.967741935483871
+    "tasa_presencia": 0.952380952380952
   },
   {
     "id": "1227",
@@ -296,7 +296,7 @@
     "tendencia": "centroderecha",
     "n_proyectos": 23,
     "n_votaciones": 580,
-    "tasa_presencia": 0.967741935483871
+    "tasa_presencia": 0.968253968253968
   },
   {
     "id": "1244",
@@ -309,7 +309,7 @@
     "tendencia": "derecha",
     "n_proyectos": 7,
     "n_votaciones": 580,
-    "tasa_presencia": 0.951612903225806
+    "tasa_presencia": 0.936507936507937
   },
   {
     "id": "1153",
@@ -322,7 +322,7 @@
     "tendencia": "izquierda",
     "n_proyectos": 13,
     "n_votaciones": 892,
-    "tasa_presencia": 0.532258064516129
+    "tasa_presencia": 0.523809523809524
   },
   {
     "id": "1214",
@@ -348,7 +348,7 @@
     "tendencia": "izquierda",
     "n_proyectos": 7,
     "n_votaciones": 580,
-    "tasa_presencia": 0.967741935483871
+    "tasa_presencia": 0.952380952380952
   },
   {
     "id": "1180",
@@ -361,7 +361,7 @@
     "tendencia": "izquierda",
     "n_proyectos": 21,
     "n_votaciones": 892,
-    "tasa_presencia": 0.967741935483871
+    "tasa_presencia": 0.968253968253968
   },
   {
     "id": "1200",
@@ -374,7 +374,7 @@
     "tendencia": "centro",
     "n_proyectos": 12,
     "n_votaciones": 580,
-    "tasa_presencia": 0.967741935483871
+    "tasa_presencia": 0.968253968253968
   },
   {
     "id": "1224",
@@ -413,7 +413,7 @@
     "tendencia": "derecha",
     "n_proyectos": 4,
     "n_votaciones": 580,
-    "tasa_presencia": 0.983870967741935
+    "tasa_presencia": 0.984126984126984
   },
   {
     "id": "1100",
@@ -426,7 +426,7 @@
     "tendencia": "derecha",
     "n_proyectos": 11,
     "n_votaciones": 892,
-    "tasa_presencia": 0.919354838709677
+    "tasa_presencia": 0.920634920634921
   },
   {
     "id": "1175",
@@ -439,7 +439,7 @@
     "tendencia": null,
     "n_proyectos": 16,
     "n_votaciones": 892,
-    "tasa_presencia": 0.870967741935484
+    "tasa_presencia": 0.873015873015873
   },
   {
     "id": "1143",
@@ -452,7 +452,7 @@
     "tendencia": "derecha",
     "n_proyectos": 18,
     "n_votaciones": 892,
-    "tasa_presencia": 0.951612903225806
+    "tasa_presencia": 0.952380952380952
   },
   {
     "id": "1082",
@@ -465,7 +465,7 @@
     "tendencia": "derecha",
     "n_proyectos": 12,
     "n_votaciones": 892,
-    "tasa_presencia": 0.951612903225806
+    "tasa_presencia": 0.952380952380952
   },
   {
     "id": "1260",
@@ -504,7 +504,7 @@
     "tendencia": "derecha",
     "n_proyectos": 16,
     "n_votaciones": 892,
-    "tasa_presencia": 0.983870967741935
+    "tasa_presencia": 0.984126984126984
   },
   {
     "id": "1142",
@@ -517,7 +517,7 @@
     "tendencia": "centroizquierda",
     "n_proyectos": 8,
     "n_votaciones": 892,
-    "tasa_presencia": 0.951612903225806
+    "tasa_presencia": 0.952380952380952
   },
   {
     "id": "1261",
@@ -530,7 +530,7 @@
     "tendencia": null,
     "n_proyectos": 25,
     "n_votaciones": 580,
-    "tasa_presencia": 0.935483870967742
+    "tasa_presencia": 0.936507936507937
   },
   {
     "id": "1173",
@@ -543,7 +543,7 @@
     "tendencia": "izquierda",
     "n_proyectos": 13,
     "n_votaciones": 892,
-    "tasa_presencia": 0.983870967741935
+    "tasa_presencia": 0.984126984126984
   },
   {
     "id": "1075",
@@ -556,7 +556,7 @@
     "tendencia": "centroderecha",
     "n_proyectos": 24,
     "n_votaciones": 892,
-    "tasa_presencia": 0.935483870967742
+    "tasa_presencia": 0.936507936507937
   },
   {
     "id": "1262",
@@ -569,7 +569,7 @@
     "tendencia": "derecha",
     "n_proyectos": 4,
     "n_votaciones": 580,
-    "tasa_presencia": 0.983870967741935
+    "tasa_presencia": 0.984126984126984
   },
   {
     "id": "1202",
@@ -608,7 +608,7 @@
     "tendencia": "centro",
     "n_proyectos": 16,
     "n_votaciones": 580,
-    "tasa_presencia": 0.983870967741935
+    "tasa_presencia": 0.984126984126984
   },
   {
     "id": "1056",
@@ -634,7 +634,7 @@
     "tendencia": "izquierda",
     "n_proyectos": 10,
     "n_votaciones": 892,
-    "tasa_presencia": 0.967741935483871
+    "tasa_presencia": 0.968253968253968
   },
   {
     "id": "1190",
@@ -660,7 +660,7 @@
     "tendencia": "derecha",
     "n_proyectos": 4,
     "n_votaciones": 580,
-    "tasa_presencia": 0.903225806451613
+    "tasa_presencia": 0.904761904761905
   },
   {
     "id": "1239",
@@ -673,7 +673,7 @@
     "tendencia": "centro",
     "n_proyectos": 14,
     "n_votaciones": 580,
-    "tasa_presencia": 0.967741935483871
+    "tasa_presencia": 0.952380952380952
   },
   {
     "id": "1116",
@@ -686,7 +686,7 @@
     "tendencia": null,
     "n_proyectos": 24,
     "n_votaciones": 892,
-    "tasa_presencia": 0.935483870967742
+    "tasa_presencia": 0.904761904761905
   },
   {
     "id": "1248",
@@ -699,7 +699,7 @@
     "tendencia": "derecha",
     "n_proyectos": 5,
     "n_votaciones": 580,
-    "tasa_presencia": 0.967741935483871
+    "tasa_presencia": 0.968253968253968
   },
   {
     "id": "1253",
@@ -725,7 +725,7 @@
     "tendencia": "centroizquierda",
     "n_proyectos": 14,
     "n_votaciones": 580,
-    "tasa_presencia": 0.935483870967742
+    "tasa_presencia": 0.936507936507937
   },
   {
     "id": "1201",
@@ -751,7 +751,7 @@
     "tendencia": "derecha",
     "n_proyectos": 12,
     "n_votaciones": 892,
-    "tasa_presencia": 0.935483870967742
+    "tasa_presencia": 0.936507936507937
   },
   {
     "id": "1054",
@@ -764,7 +764,7 @@
     "tendencia": "derecha",
     "n_proyectos": 11,
     "n_votaciones": 892,
-    "tasa_presencia": 0.983870967741935
+    "tasa_presencia": 0.984126984126984
   },
   {
     "id": "1204",
@@ -803,7 +803,7 @@
     "tendencia": "izquierda",
     "n_proyectos": 12,
     "n_votaciones": 892,
-    "tasa_presencia": 0.951612903225806
+    "tasa_presencia": 0.952380952380952
   },
   {
     "id": "1087",
@@ -816,7 +816,7 @@
     "tendencia": "izquierda",
     "n_proyectos": 22,
     "n_votaciones": 892,
-    "tasa_presencia": 0.951612903225806
+    "tasa_presencia": 0.952380952380952
   },
   {
     "id": "915",
@@ -829,7 +829,7 @@
     "tendencia": "derecha",
     "n_proyectos": 4,
     "n_votaciones": 580,
-    "tasa_presencia": 0.967741935483871
+    "tasa_presencia": 0.968253968253968
   },
   {
     "id": "1152",
@@ -842,7 +842,7 @@
     "tendencia": "derecha",
     "n_proyectos": 9,
     "n_votaciones": 892,
-    "tasa_presencia": 0.82258064516129
+    "tasa_presencia": 0.80952380952381
   },
   {
     "id": "1086",
@@ -855,7 +855,7 @@
     "tendencia": "izquierda",
     "n_proyectos": 9,
     "n_votaciones": 892,
-    "tasa_presencia": 0.903225806451613
+    "tasa_presencia": 0.904761904761905
   },
   {
     "id": "1065",
@@ -868,7 +868,7 @@
     "tendencia": "derecha",
     "n_proyectos": 9,
     "n_votaciones": 892,
-    "tasa_presencia": 0.951612903225806
+    "tasa_presencia": 0.936507936507937
   },
   {
     "id": "1258",
@@ -907,7 +907,7 @@
     "tendencia": "derecha",
     "n_proyectos": 17,
     "n_votaciones": 580,
-    "tasa_presencia": 0.967741935483871
+    "tasa_presencia": 0.968253968253968
   },
   {
     "id": "1176",
@@ -920,7 +920,7 @@
     "tendencia": null,
     "n_proyectos": 14,
     "n_votaciones": 892,
-    "tasa_presencia": 0.919354838709677
+    "tasa_presencia": 0.920634920634921
   },
   {
     "id": "1105",
@@ -933,7 +933,7 @@
     "tendencia": "centro",
     "n_proyectos": 13,
     "n_votaciones": 892,
-    "tasa_presencia": 0.919354838709677
+    "tasa_presencia": 0.904761904761905
   },
   {
     "id": "1178",
@@ -946,7 +946,7 @@
     "tendencia": null,
     "n_proyectos": 27,
     "n_votaciones": 892,
-    "tasa_presencia": 0.935483870967742
+    "tasa_presencia": 0.936507936507937
   },
   {
     "id": "1186",
@@ -998,7 +998,7 @@
     "tendencia": null,
     "n_proyectos": 23,
     "n_votaciones": 892,
-    "tasa_presencia": 0.935483870967742
+    "tasa_presencia": 0.920634920634921
   },
   {
     "id": "1189",
@@ -1011,7 +1011,7 @@
     "tendencia": "izquierda",
     "n_proyectos": 11,
     "n_votaciones": 580,
-    "tasa_presencia": 0.919354838709677
+    "tasa_presencia": 0.920634920634921
   },
   {
     "id": "1199",
@@ -1037,7 +1037,7 @@
     "tendencia": "izquierda",
     "n_proyectos": 16,
     "n_votaciones": 892,
-    "tasa_presencia": 0.903225806451613
+    "tasa_presencia": 0.904761904761905
   },
   {
     "id": "1229",
@@ -1076,7 +1076,7 @@
     "tendencia": "izquierda",
     "n_proyectos": 8,
     "n_votaciones": 892,
-    "tasa_presencia": 0.0967741935483871
+    "tasa_presencia": 0.0952380952380952
   },
   {
     "id": "1247",
@@ -1102,7 +1102,7 @@
     "tendencia": "centro",
     "n_proyectos": 16,
     "n_votaciones": 892,
-    "tasa_presencia": 0.935483870967742
+    "tasa_presencia": 0.920634920634921
   },
   {
     "id": "1009",
@@ -1115,7 +1115,7 @@
     "tendencia": "derecha",
     "n_proyectos": 7,
     "n_votaciones": 892,
-    "tasa_presencia": 0.919354838709677
+    "tasa_presencia": 0.920634920634921
   },
   {
     "id": "1015",
@@ -1128,7 +1128,7 @@
     "tendencia": "izquierda",
     "n_proyectos": 6,
     "n_votaciones": 892,
-    "tasa_presencia": 0.854838709677419
+    "tasa_presencia": 0.841269841269841
   },
   {
     "id": "1208",
@@ -1141,7 +1141,7 @@
     "tendencia": "centro",
     "n_proyectos": 14,
     "n_votaciones": 580,
-    "tasa_presencia": 0.967741935483871
+    "tasa_presencia": 0.968253968253968
   },
   {
     "id": "1132",
@@ -1154,7 +1154,7 @@
     "tendencia": "centroderecha",
     "n_proyectos": 16,
     "n_votaciones": 892,
-    "tasa_presencia": 0.983870967741935
+    "tasa_presencia": 0.984126984126984
   },
   {
     "id": "1218",
@@ -1180,7 +1180,7 @@
     "tendencia": "centroizquierda",
     "n_proyectos": 16,
     "n_votaciones": 580,
-    "tasa_presencia": 0.983870967741935
+    "tasa_presencia": 0.984126984126984
   },
   {
     "id": "1146",
@@ -1193,7 +1193,7 @@
     "tendencia": "derecha",
     "n_proyectos": 4,
     "n_votaciones": 892,
-    "tasa_presencia": 0.935483870967742
+    "tasa_presencia": 0.936507936507937
   },
   {
     "id": "1226",
@@ -1206,7 +1206,7 @@
     "tendencia": null,
     "n_proyectos": 21,
     "n_votaciones": 580,
-    "tasa_presencia": 0.951612903225806
+    "tasa_presencia": 0.952380952380952
   },
   {
     "id": "1108",
@@ -1219,7 +1219,7 @@
     "tendencia": "centroderecha",
     "n_proyectos": 18,
     "n_votaciones": 892,
-    "tasa_presencia": 0.903225806451613
+    "tasa_presencia": 0.904761904761905
   },
   {
     "id": "1133",
@@ -1232,7 +1232,7 @@
     "tendencia": "derecha",
     "n_proyectos": 7,
     "n_votaciones": 892,
-    "tasa_presencia": 0.983870967741935
+    "tasa_presencia": 0.984126984126984
   },
   {
     "id": "1259",
@@ -1245,7 +1245,7 @@
     "tendencia": "centro",
     "n_proyectos": 16,
     "n_votaciones": 580,
-    "tasa_presencia": 0.967741935483871
+    "tasa_presencia": 0.968253968253968
   },
   {
     "id": "1073",
@@ -1258,7 +1258,7 @@
     "tendencia": "centroizquierda",
     "n_proyectos": 10,
     "n_votaciones": 892,
-    "tasa_presencia": 0.935483870967742
+    "tasa_presencia": 0.936507936507937
   },
   {
     "id": "1220",
@@ -1284,7 +1284,7 @@
     "tendencia": "centro",
     "n_proyectos": 11,
     "n_votaciones": 580,
-    "tasa_presencia": 0.532258064516129
+    "tasa_presencia": 0.523809523809524
   },
   {
     "id": "1127",
@@ -1297,7 +1297,7 @@
     "tendencia": "izquierda",
     "n_proyectos": 12,
     "n_votaciones": 892,
-    "tasa_presencia": 0.935483870967742
+    "tasa_presencia": 0.920634920634921
   },
   {
     "id": "1159",
@@ -1310,7 +1310,7 @@
     "tendencia": "izquierda",
     "n_proyectos": 10,
     "n_votaciones": 892,
-    "tasa_presencia": 0.967741935483871
+    "tasa_presencia": 0.968253968253968
   },
   {
     "id": "1122",
@@ -1336,7 +1336,7 @@
     "tendencia": "centroizquierda",
     "n_proyectos": 23,
     "n_votaciones": 892,
-    "tasa_presencia": 1
+    "tasa_presencia": 0.984126984126984
   },
   {
     "id": "1060",
@@ -1349,7 +1349,7 @@
     "tendencia": "centroderecha",
     "n_proyectos": 14,
     "n_votaciones": 580,
-    "tasa_presencia": 0.983870967741935
+    "tasa_presencia": 0.984126984126984
   },
   {
     "id": "1170",
@@ -1362,7 +1362,7 @@
     "tendencia": "derecha",
     "n_proyectos": 5,
     "n_votaciones": 892,
-    "tasa_presencia": 0.983870967741935
+    "tasa_presencia": 0.984126984126984
   },
   {
     "id": "1251",
@@ -1375,7 +1375,7 @@
     "tendencia": "derecha",
     "n_proyectos": 15,
     "n_votaciones": 580,
-    "tasa_presencia": 0.935483870967742
+    "tasa_presencia": 0.920634920634921
   },
   {
     "id": "986",
@@ -1388,7 +1388,7 @@
     "tendencia": "centroizquierda",
     "n_proyectos": 19,
     "n_votaciones": 580,
-    "tasa_presencia": 0.887096774193548
+    "tasa_presencia": 0.888888888888889
   },
   {
     "id": "1174",
@@ -1401,7 +1401,7 @@
     "tendencia": "derecha",
     "n_proyectos": 17,
     "n_votaciones": 892,
-    "tasa_presencia": 0.983870967741935
+    "tasa_presencia": 0.984126984126984
   },
   {
     "id": "1188",
@@ -1427,7 +1427,7 @@
     "tendencia": "centroizquierda",
     "n_proyectos": 7,
     "n_votaciones": 892,
-    "tasa_presencia": 0.919354838709677
+    "tasa_presencia": 0.904761904761905
   },
   {
     "id": "1234",
@@ -1440,7 +1440,7 @@
     "tendencia": "derecha",
     "n_proyectos": 22,
     "n_votaciones": 580,
-    "tasa_presencia": 0.870967741935484
+    "tasa_presencia": 0.873015873015873
   },
   {
     "id": "1074",
@@ -1453,7 +1453,7 @@
     "tendencia": null,
     "n_proyectos": 18,
     "n_votaciones": 892,
-    "tasa_presencia": 0.790322580645161
+    "tasa_presencia": 0.777777777777778
   },
   {
     "id": "1157",
@@ -1466,7 +1466,7 @@
     "tendencia": null,
     "n_proyectos": 22,
     "n_votaciones": 892,
-    "tasa_presencia": 0.854838709677419
+    "tasa_presencia": 0.841269841269841
   },
   {
     "id": "1107",
@@ -1479,7 +1479,7 @@
     "tendencia": "izquierda",
     "n_proyectos": 12,
     "n_votaciones": 892,
-    "tasa_presencia": 0.032258064516129
+    "tasa_presencia": 0.0317460317460317
   },
   {
     "id": "1209",
@@ -1505,7 +1505,7 @@
     "tendencia": "centroderecha",
     "n_proyectos": 15,
     "n_votaciones": 892,
-    "tasa_presencia": 0.870967741935484
+    "tasa_presencia": 0.873015873015873
   },
   {
     "id": "1166",
@@ -1531,7 +1531,7 @@
     "tendencia": "izquierda",
     "n_proyectos": 17,
     "n_votaciones": 892,
-    "tasa_presencia": 0.725806451612903
+    "tasa_presencia": 0.73015873015873
   },
   {
     "id": "1181",
@@ -1544,7 +1544,7 @@
     "tendencia": "centroizquierda",
     "n_proyectos": 10,
     "n_votaciones": 892,
-    "tasa_presencia": 0.967741935483871
+    "tasa_presencia": 0.968253968253968
   },
   {
     "id": "1249",
@@ -1557,7 +1557,7 @@
     "tendencia": null,
     "n_proyectos": 17,
     "n_votaciones": 580,
-    "tasa_presencia": 0.983870967741935
+    "tasa_presencia": 0.984126984126984
   },
   {
     "id": "1039",
@@ -1596,7 +1596,7 @@
     "tendencia": "centro",
     "n_proyectos": 33,
     "n_votaciones": 580,
-    "tasa_presencia": 0.967741935483871
+    "tasa_presencia": 0.968253968253968
   },
   {
     "id": "1236",
@@ -1609,7 +1609,7 @@
     "tendencia": "centro",
     "n_proyectos": 22,
     "n_votaciones": 580,
-    "tasa_presencia": 0.790322580645161
+    "tasa_presencia": 0.793650793650794
   },
   {
     "id": "1228",
@@ -1648,7 +1648,7 @@
     "tendencia": "derecha",
     "n_proyectos": 17,
     "n_votaciones": 580,
-    "tasa_presencia": 0.967741935483871
+    "tasa_presencia": 0.968253968253968
   },
   {
     "id": "1196",
@@ -1674,7 +1674,7 @@
     "tendencia": "centroizquierda",
     "n_proyectos": 9,
     "n_votaciones": 892,
-    "tasa_presencia": 0.951612903225806
+    "tasa_presencia": 0.952380952380952
   },
   {
     "id": "1077",
@@ -1700,7 +1700,7 @@
     "tendencia": null,
     "n_proyectos": 2,
     "n_votaciones": 892,
-    "tasa_presencia": 0.967741935483871
+    "tasa_presencia": 0.968253968253968
   },
   {
     "id": "843",
@@ -1713,7 +1713,7 @@
     "tendencia": "centroderecha",
     "n_proyectos": 15,
     "n_votaciones": 580,
-    "tasa_presencia": 0.935483870967742
+    "tasa_presencia": 0.936507936507937
   },
   {
     "id": "1233",
@@ -1739,7 +1739,7 @@
     "tendencia": "derecha",
     "n_proyectos": 28,
     "n_votaciones": 892,
-    "tasa_presencia": 0.887096774193548
+    "tasa_presencia": 0.888888888888889
   },
   {
     "id": "1184",
@@ -1765,7 +1765,7 @@
     "tendencia": null,
     "n_proyectos": 12,
     "n_votaciones": 580,
-    "tasa_presencia": 0.967741935483871
+    "tasa_presencia": 0.968253968253968
   },
   {
     "id": "1119",
@@ -1791,7 +1791,7 @@
     "tendencia": "derecha",
     "n_proyectos": 6,
     "n_votaciones": 580,
-    "tasa_presencia": 0.983870967741935
+    "tasa_presencia": 0.984126984126984
   },
   {
     "id": "1182",
@@ -1804,7 +1804,7 @@
     "tendencia": null,
     "n_proyectos": 19,
     "n_votaciones": 892,
-    "tasa_presencia": 1
+    "tasa_presencia": 0.984126984126984
   },
   {
     "id": "1263",
@@ -1817,7 +1817,7 @@
     "tendencia": null,
     "n_proyectos": 9,
     "n_votaciones": 580,
-    "tasa_presencia": 0.983870967741935
+    "tasa_presencia": 0.984126984126984
   },
   {
     "id": "815",
@@ -1843,7 +1843,7 @@
     "tendencia": "izquierda",
     "n_proyectos": 15,
     "n_votaciones": 580,
-    "tasa_presencia": 0.967741935483871
+    "tasa_presencia": 0.968253968253968
   },
   {
     "id": "1172",
@@ -1856,7 +1856,7 @@
     "tendencia": "derecha",
     "n_proyectos": 1,
     "n_votaciones": 892,
-    "tasa_presencia": 0.919354838709677
+    "tasa_presencia": 0.920634920634921
   },
   {
     "id": "1216",
@@ -1869,7 +1869,7 @@
     "tendencia": "derecha",
     "n_proyectos": 6,
     "n_votaciones": 580,
-    "tasa_presencia": 0.919354838709677
+    "tasa_presencia": 0.920634920634921
   },
   {
     "id": "1243",
@@ -1882,7 +1882,7 @@
     "tendencia": "centro",
     "n_proyectos": 19,
     "n_votaciones": 580,
-    "tasa_presencia": 0.951612903225806
+    "tasa_presencia": 0.952380952380952
   },
   {
     "id": "1256",
@@ -1895,7 +1895,7 @@
     "tendencia": "izquierda",
     "n_proyectos": 9,
     "n_votaciones": 580,
-    "tasa_presencia": 0.951612903225806
+    "tasa_presencia": 0.936507936507937
   },
   {
     "id": "1219",
@@ -1908,7 +1908,7 @@
     "tendencia": "centroderecha",
     "n_proyectos": 19,
     "n_votaciones": 580,
-    "tasa_presencia": 0.919354838709677
+    "tasa_presencia": 0.920634920634921
   },
   {
     "id": "1191",
@@ -1921,7 +1921,7 @@
     "tendencia": "derecha",
     "n_proyectos": 7,
     "n_votaciones": 580,
-    "tasa_presencia": 0.983870967741935
+    "tasa_presencia": 0.984126984126984
   },
   {
     "id": "1207",
@@ -1934,7 +1934,7 @@
     "tendencia": null,
     "n_proyectos": 13,
     "n_votaciones": 580,
-    "tasa_presencia": 0.951612903225806
+    "tasa_presencia": 0.952380952380952
   },
   {
     "id": "1231",
@@ -1973,7 +1973,7 @@
     "tendencia": "centro",
     "n_proyectos": 17,
     "n_votaciones": 580,
-    "tasa_presencia": 0.887096774193548
+    "tasa_presencia": 0.873015873015873
   },
   {
     "id": "1017",
@@ -1986,7 +1986,7 @@
     "tendencia": "derecha",
     "n_proyectos": 6,
     "n_votaciones": 892,
-    "tasa_presencia": 0.983870967741935
+    "tasa_presencia": 0.984126984126984
   },
   {
     "id": "1215",
