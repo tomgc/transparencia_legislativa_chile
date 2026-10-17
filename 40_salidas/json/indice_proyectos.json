@@ -2578,10 +2578,10 @@
     "nombre": "Para la reconstrucción nacional y el desarrollo económico y social",
     "camara_origen": "C.Diputados",
     "fecha_ingreso": "2026-04-22",
-    "etapa_actual": "Trámite finalización en Cámara de Origen (C.Diputados)",
+    "etapa_actual": "Trámite en Tribunal Constitucional (C.Diputados)",
     "estado": "En tramitación",
     "ley_numero": null,
-    "n_tramites": 103,
+    "n_tramites": 104,
     "n_autores": 0,
     "n_votaciones": 120,
     "n_materias": 0
@@ -4258,7 +4258,7 @@
     "etapa_actual": "Segundo trámite constitucional (Senado)",
     "estado": "En tramitación",
     "ley_numero": null,
-    "n_tramites": 19,
+    "n_tramites": 21,
     "n_autores": 0,
     "n_votaciones": 4,
     "n_materias": 0
@@ -5402,7 +5402,7 @@
     "etapa_actual": "Primer trámite constitucional (C.Diputados)",
     "estado": "En tramitación",
     "ley_numero": null,
-    "n_tramites": 2,
+    "n_tramites": 3,
     "n_autores": 1,
     "n_votaciones": 0,
     "n_materias": 0
