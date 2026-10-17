@@ -16,19 +16,19 @@
   "asistencia": {
     "alcance_temporal": {
       "anio_proceso": 2026,
-      "corte_fecha": "2026-08-20",
-      "sesiones_alcance": 80,
+      "corte_fecha": "2026-09-14",
+      "sesiones_alcance": 87,
       "fecha_primera": "2026-01-05",
-      "fecha_ultima": "2026-08-18",
+      "fecha_ultima": "2026-09-09",
       "periodo_id": "11",
       "periodo_nombre": "2026-2030",
       "periodo_inicio": "2026-03-11",
-      "sesiones_periodo_vigente": 62,
-      "nota": "Cobertura parcial: solo sesiones de sala del anno 2026 hasta el 2026-08-20 (80 sesiones, de 2026-01-05 a 2026-08-18). NO es la trayectoria completa del parlamentario. El ambito 'periodo_vigente' cuenta las 62 sesiones desde la instalacion del periodo 2026-2030 (2026-03-11) y usa el mismo denominador para todos, por lo que es el comparable entre diputados; 'en_ejercicio' cuenta solo las sesiones del alcance posteriores a la asuncion de cada diputado."
+      "sesiones_periodo_vigente": 69,
+      "nota": "Cobertura parcial: solo sesiones de sala del anno 2026 hasta el 2026-09-14 (87 sesiones, de 2026-01-05 a 2026-09-09). NO es la trayectoria completa del parlamentario. El ambito 'periodo_vigente' cuenta las 69 sesiones desde la instalacion del periodo 2026-2030 (2026-03-11) y usa el mismo denominador para todos, por lo que es el comparable entre diputados; 'en_ejercicio' cuenta solo las sesiones del alcance posteriores a la asuncion de cada diputado."
     },
     "periodo_vigente": {
-      "n_sesiones": 62,
-      "n_asiste": 62,
+      "n_sesiones": 69,
+      "n_asiste": 69,
       "n_no_asiste": 0,
       "n_sin_registro": 0,
       "n_justificadas": 0,
@@ -37,8 +37,8 @@
       "tasa_presencia_o_justificada": 1
     },
     "en_ejercicio": {
-      "n_sesiones": 62,
-      "n_asiste": 62,
+      "n_sesiones": 69,
+      "n_asiste": 69,
       "n_no_asiste": 0,
       "n_sin_registro": 0,
       "n_justificadas": 0,
@@ -604,18 +604,81 @@
         "en_periodo_vigente": true,
         "asistencia": "asiste",
         "justificacion": null
+      },
+      {
+        "sesion_id": "4817",
+        "sesion_numero": "60",
+        "fecha": "2026-08-19",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4818",
+        "sesion_numero": "61",
+        "fecha": "2026-08-31",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4819",
+        "sesion_numero": "62",
+        "fecha": "2026-09-01",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4820",
+        "sesion_numero": "63",
+        "fecha": "2026-09-02",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4821",
+        "sesion_numero": "64",
+        "fecha": "2026-09-07",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4822",
+        "sesion_numero": "65",
+        "fecha": "2026-09-08",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
+      },
+      {
+        "sesion_id": "4823",
+        "sesion_numero": "66",
+        "fecha": "2026-09-09",
+        "tipo_sesion": "Ordinaria",
+        "en_periodo_vigente": true,
+        "asistencia": "asiste",
+        "justificacion": null
       }
     ]
   },
   "votaciones": {
     "anio": 2026,
-    "n_votaciones": 580,
+    "n_votaciones": 630,
     "resumen_por_sentido": {
-      "en_contra": 165,
-      "a_favor": 369,
-      "abstencion": 17,
+      "en_contra": 185,
+      "a_favor": 394,
+      "abstencion": 18,
       "dispensado": 0,
-      "no_vota": 29
+      "no_vota": 33
     },
     "votos": [
       {
@@ -8285,6 +8348,621 @@
           "tipo_iniciativa": "Moción",
           "materias": []
         }
+      },
+      {
+        "votacion_id": "89909",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-08-31",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "3-Creacion Comision Investigadora",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89919",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-09-01",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "5-Cambio de Trámite",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89920",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-09-01",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "4-Informe Comision Investigadora",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89924",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-09-01",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89925",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-09-01",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89926",
+        "boletin": null,
+        "tipo": "Proyecto de Acuerdo",
+        "fecha": "2026-09-01",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Proyecto de Acuerdo N° 26",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89927",
+        "boletin": null,
+        "tipo": "Proyecto de Resolución",
+        "fecha": "2026-09-01",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Proyecto de Resolución N° 48",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89928",
+        "boletin": "17818-24",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-09-01",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17818-24",
+        "proyecto": {
+          "boletin": "17818-24",
+          "nombre": "Modifica diversos cuerpos legales para reconocer y promover el circo tradicional chileno",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89929",
+        "boletin": "17818-24",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-09-01",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17818-24",
+        "proyecto": {
+          "boletin": "17818-24",
+          "nombre": "Modifica diversos cuerpos legales para reconocer y promover el circo tradicional chileno",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89930",
+        "boletin": "17818-24",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-09-01",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 17818-24",
+        "proyecto": {
+          "boletin": "17818-24",
+          "nombre": "Modifica diversos cuerpos legales para reconocer y promover el circo tradicional chileno",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89931",
+        "boletin": "17818-24",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-09-01",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 17818-24",
+        "proyecto": {
+          "boletin": "17818-24",
+          "nombre": "Modifica diversos cuerpos legales para reconocer y promover el circo tradicional chileno",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89932",
+        "boletin": "17662-07",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-09-01",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17662-07",
+        "proyecto": {
+          "boletin": "17662-07",
+          "nombre": "Aumenta sanciones aplicables al delito de atentado contra la autoridad cometido contra miembros de las Fuerzas de Orden y Seguridad Pública",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89933",
+        "boletin": "17662-07",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-09-01",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 17662-07",
+        "proyecto": {
+          "boletin": "17662-07",
+          "nombre": "Aumenta sanciones aplicables al delito de atentado contra la autoridad cometido contra miembros de las Fuerzas de Orden y Seguridad Pública",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89934",
+        "boletin": "17662-07",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-09-01",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 17662-07",
+        "proyecto": {
+          "boletin": "17662-07",
+          "nombre": "Aumenta sanciones aplicables al delito de atentado contra la autoridad cometido contra miembros de las Fuerzas de Orden y Seguridad Pública",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89935",
+        "boletin": "17914-13",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-09-01",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17914-13",
+        "proyecto": {
+          "boletin": "17914-13",
+          "nombre": "Modifica el Código del Trabajo para calificar el uso indebido de licencias médicas como falta de probidad del trabajador en el desempeño de sus funciones",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89936",
+        "boletin": "17914-13",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-09-01",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 17914-13",
+        "proyecto": {
+          "boletin": "17914-13",
+          "nombre": "Modifica el Código del Trabajo para calificar el uso indebido de licencias médicas como falta de probidad del trabajador en el desempeño de sus funciones",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89937",
+        "boletin": "15295-07",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-09-01",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 15295-07",
+        "proyecto": {
+          "boletin": "15295-07",
+          "nombre": "Modifica el decreto ley N°321, de 1925, a fin de restringir los requisitos necesarios para acceder al beneficio de libertad condicional",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89938",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-09-01",
+        "resultado": "Rechazado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89939",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-09-01",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89946",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-09-02",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "5-Cambio de Trámite",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89947",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-09-02",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "3-Creacion Comision Investigadora",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89949",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-09-02",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89950",
+        "boletin": null,
+        "tipo": "Proyecto de Resolución",
+        "fecha": "2026-09-02",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 49",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89951",
+        "boletin": null,
+        "tipo": "Proyecto de Resolución",
+        "fecha": "2026-09-02",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 50",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89952",
+        "boletin": null,
+        "tipo": "Proyecto de Resolución",
+        "fecha": "2026-09-02",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "Proyecto de Resolución N° 52",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89953",
+        "boletin": null,
+        "tipo": "Proyecto de Resolución",
+        "fecha": "2026-09-02",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 53",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89954",
+        "boletin": "18401-31",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-09-02",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18401-31",
+        "proyecto": {
+          "boletin": "18401-31",
+          "nombre": "Entrega un bono extraordinario de apoyo a la niñez",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89955",
+        "boletin": "18464-14",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-09-02",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18464-14",
+        "proyecto": {
+          "boletin": "18464-14",
+          "nombre": "Modifica el decreto ley N° 2.695, de 1979, estableciendo un nuevo procedimiento para la regularización de la posesión de la pequeña propiedad raíz y la constitución del dominio sobre ella, en situaciones de emergencia",
+          "tipo_iniciativa": "Mensaje",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89979",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-09-07",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89985",
+        "boletin": "16708-11",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-09-07",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16708-11",
+        "proyecto": {
+          "boletin": "16708-11",
+          "nombre": "Modifica el Código Sanitario, para incorporar entre los servicios de los profesionales que señala, la adopción de acciones para prevenir la infertilidad",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "89993",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-09-08",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "5-Cambio de Trámite",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "89994",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-09-08",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "90001",
+        "boletin": null,
+        "tipo": "Proyecto de Acuerdo",
+        "fecha": "2026-09-08",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "Proyecto de Acuerdo N° 27",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "90002",
+        "boletin": null,
+        "tipo": "Proyecto de Resolución",
+        "fecha": "2026-09-08",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 55",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "90003",
+        "boletin": null,
+        "tipo": "Proyecto de Resolución",
+        "fecha": "2026-09-08",
+        "resultado": "Aprobado",
+        "sentido": "no_vota",
+        "descripcion": "Proyecto de Resolución N° 56",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "90004",
+        "boletin": null,
+        "tipo": "Proyecto de Resolución",
+        "fecha": "2026-09-08",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Proyecto de Resolución N° 57",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "90005",
+        "boletin": null,
+        "tipo": "Proyecto de Resolución",
+        "fecha": "2026-09-08",
+        "resultado": "Aprobado",
+        "sentido": "abstencion",
+        "descripcion": "Proyecto de Resolución N° 59",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "90006",
+        "boletin": null,
+        "tipo": "Proyecto de Resolución",
+        "fecha": "2026-09-08",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Proyecto de Resolución N° 60",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "90007",
+        "boletin": null,
+        "tipo": "Proyecto de Resolución",
+        "fecha": "2026-09-08",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Proyecto de Resolución N° 61",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "90008",
+        "boletin": "18532-06",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-09-08",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18532-06",
+        "proyecto": {
+          "boletin": "18532-06",
+          "nombre": "Rehabilita la nacionalidad chilena a Adolfo José Ochagavía Hubner",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "90009",
+        "boletin": null,
+        "tipo": "Otros",
+        "fecha": "2026-09-08",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "1-Otros",
+        "proyecto": null
+      },
+      {
+        "votacion_id": "90010",
+        "boletin": "18157-33",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-09-08",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 18157-33",
+        "proyecto": {
+          "boletin": "18157-33",
+          "nombre": "Prorroga el plazo para la regularización e inscripción de derechos de aprovechamiento de aguas hasta el año 2030",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "90011",
+        "boletin": "16709-11",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-09-08",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16709-11",
+        "proyecto": {
+          "boletin": "16709-11",
+          "nombre": "Modifica la ley N° 20.418, que fija normas sobre información, orientación y prestaciones en materia de regulación de la fertilidad, para promover la información y educación sobre la infertilidad",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "90020",
+        "boletin": "16481-25",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-09-09",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16481-25",
+        "proyecto": {
+          "boletin": "16481-25",
+          "nombre": "Modifica el Código Procesal Penal, con el objeto de aumentar el plazo máximo para considerar una situación entre las hipótesis de flagrancia",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "90021",
+        "boletin": "17012-14",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-09-09",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 17012-14",
+        "proyecto": {
+          "boletin": "17012-14",
+          "nombre": "Modifica la ley N° 21.442, que aprueba nueva ley de copropiedad inmobiliaria, con el objeto de implementar sistemas de seguridad adicionales para impedir caídas accidentales desde edificaciones en altura",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "90022",
+        "boletin": "16741-15",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-09-09",
+        "resultado": "Aprobado",
+        "sentido": "a_favor",
+        "descripcion": "Boletín N° 16741-15",
+        "proyecto": {
+          "boletin": "16741-15",
+          "nombre": "Modifica la Ley del Tránsito, para establecer la reserva de los datos registrales de los vehículos pertenecientes a las Fuerzas de Orden y Seguridad Pública",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "90023",
+        "boletin": "17757-29",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-09-09",
+        "resultado": "Aprobado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 17757-29",
+        "proyecto": {
+          "boletin": "17757-29",
+          "nombre": "Modifica la ley N° 19.327 para imponer nuevas obligaciones a los organizadores de espectáculos de fútbol profesional",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "90024",
+        "boletin": "17757-29",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-09-09",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 17757-29",
+        "proyecto": {
+          "boletin": "17757-29",
+          "nombre": "Modifica la ley N° 19.327 para imponer nuevas obligaciones a los organizadores de espectáculos de fútbol profesional",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "90025",
+        "boletin": "17757-29",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-09-09",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 17757-29",
+        "proyecto": {
+          "boletin": "17757-29",
+          "nombre": "Modifica la ley N° 19.327 para imponer nuevas obligaciones a los organizadores de espectáculos de fútbol profesional",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
+      },
+      {
+        "votacion_id": "90026",
+        "boletin": "17757-29",
+        "tipo": "Proyecto de Ley",
+        "fecha": "2026-09-09",
+        "resultado": "Rechazado",
+        "sentido": "en_contra",
+        "descripcion": "Boletín N° 17757-29",
+        "proyecto": {
+          "boletin": "17757-29",
+          "nombre": "Modifica la ley N° 19.327 para imponer nuevas obligaciones a los organizadores de espectáculos de fútbol profesional",
+          "tipo_iniciativa": "Moción",
+          "materias": []
+        }
       }
     ]
   },
@@ -8326,6 +9004,6 @@
     "fuente": "opendata.camara.cl",
     "periodo": "2026-2030",
     "anio_proceso": 2026,
-    "generado": "2026-08-20T02:19:18"
+    "generado": "2026-09-14T17:12:21"
   }
 }

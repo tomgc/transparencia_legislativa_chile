@@ -1,0 +1,156 @@
+{
+  "boletin": "18464-14",
+  "nombre": "Modifica el decreto ley N° 2.695, de 1979, estableciendo un nuevo procedimiento para la regularización de la posesión de la pequeña propiedad raíz y la constitución del dominio sobre ella, en situaciones de emergencia",
+  "tipo_iniciativa": "Mensaje",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2026-07-15",
+  "tramitacion": {
+    "etapa_actual": "Segundo trámite constitucional (Senado)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2026-07-15",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .  Tiene informe financiero N°150 (03/07/2026)",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-15",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Texto del proyecto",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-15",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Vivienda y Desarrollo Urbano y a Comisión de Hacienda",
+        "sesion": "44/374"
+      },
+      {
+        "fecha": "2026-07-15",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 205-374 que hace presente la urgencia Suma",
+        "sesion": "44/374"
+      },
+      {
+        "fecha": "2026-07-22",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio N° 133/14/2026, de la Comisión de Vivienda, consulta opinión de la Corte Suprema respecto del art. 42 propuesto por el numeral 8 del artículo 1 del proyecto.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-08-03",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 225-374 que hace presente la urgencia Suma",
+        "sesion": "49/374"
+      },
+      {
+        "fecha": "2026-08-05",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Vivienda y Desarrollo Urbano. Pasa a Comisión de Hacienda",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-08-10",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  (Vivienda). Pasa a Hacienda.",
+        "sesion": "53/374"
+      },
+      {
+        "fecha": "2026-08-10",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta, oficio N° 250-2026, de la Corte Suprema, por el cual remite opinión acerca del proyecto (informe N° 39-2026).",
+        "sesion": "53/374"
+      },
+      {
+        "fecha": "2026-08-10",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta oficio N? 250-2026 de la Corte Suprema",
+        "sesion": "53/374"
+      },
+      {
+        "fecha": "2026-08-17",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 263-374 que retira y hace presente la urgencia Suma",
+        "sesion": "57/374"
+      },
+      {
+        "fecha": "2026-08-19",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 274-374 que retira y hace presente la urgencia Suma",
+        "sesion": "60/374"
+      },
+      {
+        "fecha": "2026-08-31",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  (Hacienda). Queda para tabla.",
+        "sesion": "61/374"
+      },
+      {
+        "fecha": "2026-09-02",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular a la vez .",
+        "sesion": "63/374"
+      },
+      {
+        "fecha": "2026-09-02",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio de ley a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-09-02",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Medio Ambiente, Cambio Climático y Bienes Nacionales y a Comisión de Hacienda en su caso",
+        "sesion": "54/374"
+      },
+      {
+        "fecha": "2026-09-08",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 309-374 que retira y hace presente la urgencia Suma",
+        "sesion": "56/374"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "89955",
+      "fecha": "2026-09-02T13:14:37",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": null,
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-09-14",
+    "universo": "Los 480 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-09-14T17:12:30"
+  }
+}

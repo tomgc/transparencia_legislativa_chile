@@ -5,9 +5,9 @@
   "camara_origen": "C.Diputados",
   "fecha_ingreso": "2026-06-24",
   "tramitacion": {
-    "etapa_actual": "Segundo trámite constitucional (Senado)",
-    "estado": "En tramitación",
-    "ley_numero": null,
+    "etapa_actual": "Tramitación terminada",
+    "estado": "Publicado",
+    "ley_numero": "Ley N° 21.840",
     "tramites": [
       {
         "fecha": "2026-06-24",
@@ -141,11 +141,111 @@
         "etapa": "Segundo trámite constitucional",
         "descripcion": "Discusión general . Aprobado en general Se fija como plazo para presentar indicaciones el 24/08/2026 a las 12:00",
         "sesion": "51/374"
+      },
+      {
+        "fecha": "2026-08-24",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Boletín de indicaciones .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-08-24",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio N°. I.F. N° 204",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-09-01",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Segundo informe de comisión de Hacienda.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-09-01",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 291-374 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "53/374"
+      },
+      {
+        "fecha": "2026-09-01",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Segundo informe de comisión de Familia, Infancia y Adolescencia.. Pasa a Comisión de Hacienda",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-09-01",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión particular . Aprobado con modificaciones",
+        "sesion": "53/374"
+      },
+      {
+        "fecha": "2026-09-01",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio modificaciones a Cámara de Origen .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-09-02",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Discusión única . Aprobadas las modificaciones .",
+        "sesion": "63/374"
+      },
+      {
+        "fecha": "2026-09-02",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta oficio con modificaciones de Cámara Revisora . Queda para tabla .",
+        "sesion": "63/374"
+      },
+      {
+        "fecha": "2026-09-02",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Oficio de ley al Ejecutivo .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-09-02",
+        "camara": "C.Diputados",
+        "etapa": "Trámite de aprobacion presidencial",
+        "descripcion": "Oficio N° 21551. Comunica aprobación de modificaciones.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-09-02",
+        "camara": "C.Diputados",
+        "etapa": "Trámite de aprobacion presidencial",
+        "descripcion": "Cuenta del Mensaje 296-374 que hace presente la urgencia Discusión inmediata",
+        "sesion": "63/374"
+      },
+      {
+        "fecha": "2026-09-02",
+        "camara": "C.Diputados",
+        "etapa": "Trámite de aprobacion presidencial",
+        "descripcion": "Cuenta del Oficio 21.551 que aprueba enmiendas propuestas por el Senado",
+        "sesion": "54/374"
       }
     ]
   },
   "autores": [],
   "votaciones": [
+    {
+      "votacion_id": "89954",
+      "fecha": "2026-09-02T13:13:34",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Modificaciones incorporadas por el H. Senado en el proyecto de ley, originado en mensaje, que “Entrega un bono extraordinario de apoyo a la niñez”.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
     {
       "votacion_id": "89423",
       "fecha": "2026-07-15T10:49:54",
@@ -185,13 +285,13 @@
   ],
   "materias": [],
   "metadatos": {
-    "corte": "2026-08-20",
-    "universo": "Los 464 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "corte": "2026-09-14",
+    "universo": "Los 480 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
     "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
     "cobertura_materias": false,
-    "cobertura_ley": false,
+    "cobertura_ley": true,
     "cobertura_autoria": false,
     "tramites_descartados_por_corte": 0,
-    "generado": "2026-08-20T02:19:28"
+    "generado": "2026-09-14T17:12:29"
   }
 }
