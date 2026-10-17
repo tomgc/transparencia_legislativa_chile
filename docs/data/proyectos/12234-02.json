@@ -188,14 +188,14 @@
         "fecha": "2019-11-26",
         "camara": "Senado",
         "etapa": "Primer trámite constitucional",
-        "descripcion": "Cuenta del Mensaje 1260a-367 que retira y hace presente la urgencia Discusión inmediata",
+        "descripcion": "Cuenta del Mensaje 1260-367 que retira y hace presente la urgencia Discusión inmediata",
         "sesion": "75/367"
       },
       {
         "fecha": "2019-11-26",
         "camara": "Senado",
         "etapa": "Primer trámite constitucional",
-        "descripcion": "Cuenta del Mensaje 1260-367 que retira y hace presente la urgencia Discusión inmediata",
+        "descripcion": "Cuenta del Mensaje 1260a-367 que retira y hace presente la urgencia Discusión inmediata",
         "sesion": "75/367"
       },
       {
@@ -1518,14 +1518,14 @@
         "fecha": "2026-01-28",
         "camara": "C.Diputados",
         "etapa": "Disc. informe C.Mixta por rechazo de modif. C. Revisora",
-        "descripcion": "Discusión informe de Comisión Mixta . Aprobado .",
+        "descripcion": "Cuenta oficio aprobación de informe de Comisión Mixta .  Queda para tabla.",
         "sesion": "117/373"
       },
       {
         "fecha": "2026-01-28",
         "camara": "C.Diputados",
         "etapa": "Disc. informe C.Mixta por rechazo de modif. C. Revisora",
-        "descripcion": "Cuenta oficio aprobación de informe de Comisión Mixta .  Queda para tabla.",
+        "descripcion": "Discusión informe de Comisión Mixta . Aprobado .",
         "sesion": "117/373"
       },
       {
@@ -1817,13 +1817,13 @@
     }
   ],
   "metadatos": {
-    "corte": "2026-08-20",
-    "universo": "Los 464 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "corte": "2026-09-07",
+    "universo": "Los 470 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
     "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
     "cobertura_materias": true,
     "cobertura_ley": true,
     "cobertura_autoria": false,
     "tramites_descartados_por_corte": 0,
-    "generado": "2026-08-20T02:19:27"
+    "generado": "2026-09-07T16:39:12"
   }
 }
