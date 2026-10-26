@@ -1,0 +1,1202 @@
+{
+  "boletin": "15805-07",
+  "nombre": "Establece normas generales sobre el uso de la fuerza para el personal de las fuerzas de orden y seguridad pública y de las fuerzas armadas en las circunstancias que se señala",
+  "tipo_iniciativa": "Mensaje",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2023-04-10",
+  "tramitacion": {
+    "etapa_actual": "Disc. informe C.Mixta por rechazo de modif. C. Revisora (Senado)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2023-04-10",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2023-04-11",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión Unida de Constitución, Legislación, Justicia y Reglamento, y de Seguridad Ciudadana.",
+        "sesion": "17/371"
+      },
+      {
+        "fecha": "2023-04-11",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 182-371 que hace presente la urgencia Simple",
+        "sesion": "17/371"
+      },
+      {
+        "fecha": "2023-05-10",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 367-371 que retira y hace presente la urgencia Simple",
+        "sesion": "29/371"
+      },
+      {
+        "fecha": "2023-06-07",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 515-371 que retira y hace presente la urgencia Simple",
+        "sesion": "42/371"
+      },
+      {
+        "fecha": "2023-07-05",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 658-371 que retira y hace presente la urgencia Simple",
+        "sesion": "51/371"
+      },
+      {
+        "fecha": "2023-08-02",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 831-371 que retira y hace presente la urgencia Simple",
+        "sesion": "61/371"
+      },
+      {
+        "fecha": "2023-08-07",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 872-371 que retira y hace presente la urgencia Suma",
+        "sesion": "63/371"
+      },
+      {
+        "fecha": "2023-08-21",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 946-371 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "66/371"
+      },
+      {
+        "fecha": "2023-08-28",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio del Presidente de la República (N°146-371), mediante el cual retira y formula indicaciones al proyecto. Se adjunta informe financiero complementario N°186/23.08.2023.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2023-08-28",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 988-371 que retira la urgencia Discusión inmediata",
+        "sesion": "69/371"
+      },
+      {
+        "fecha": "2023-08-28",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1006-371 que hace presente la urgencia Suma",
+        "sesion": "69/371"
+      },
+      {
+        "fecha": "2023-09-06",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1116-371 que retira la urgencia Suma",
+        "sesion": "75/371"
+      },
+      {
+        "fecha": "2023-09-11",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1118-371 que hace presente la urgencia Suma",
+        "sesion": "76/371"
+      },
+      {
+        "fecha": "2023-09-13",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1139-371 que retira la urgencia Suma",
+        "sesion": "79/371"
+      },
+      {
+        "fecha": "2023-11-28",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1563-371 que hace presente la urgencia Suma",
+        "sesion": "110/371"
+      },
+      {
+        "fecha": "2023-12-13",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1649-371 que retira y hace presente la urgencia Suma",
+        "sesion": "117/371"
+      },
+      {
+        "fecha": "2023-12-20",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1704-371 que retira y hace presente la urgencia Suma",
+        "sesion": "122/371"
+      },
+      {
+        "fecha": "2024-01-03",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1782-371 que retira y hace presente la urgencia Suma",
+        "sesion": "124/371"
+      },
+      {
+        "fecha": "2024-01-17",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1875-371 que retira y hace presente la urgencia Suma",
+        "sesion": "132/371"
+      },
+      {
+        "fecha": "2024-03-04",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio del Presidente de la República (N°329-371), por el cual retira y formula indicaciones al proyecto. Se adjunta informe financiero complementario N°49/04.03.2024.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-03-04",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1983-371 que hace presente la urgencia Suma",
+        "sesion": "140/371"
+      },
+      {
+        "fecha": "2024-03-11",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 25-372 que hace presente la urgencia Suma",
+        "sesion": "1/372"
+      },
+      {
+        "fecha": "2024-03-20",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 124-372 que retira y hace presente la urgencia Suma",
+        "sesion": "8/372"
+      },
+      {
+        "fecha": "2024-04-03",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 185-372 que retira y hace presente la urgencia Suma",
+        "sesion": "13/372"
+      },
+      {
+        "fecha": "2024-04-03",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio del Presidente de la República (N°23-372), por el cual retira y formula indicaciones al proyecto. Se adjunta informe financiero complementario N°79/02.04.2024",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-04-10",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio del Presidente de la República (N°40-372), por el cual retira y formula indicación al proyecto. Se acompaña informe financiero complementario N°89/09.04.2024.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-04-17",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 299-372 que hace presente la urgencia Suma",
+        "sesion": "20/372"
+      },
+      {
+        "fecha": "2024-04-24",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 363-372 que retira y hace presente la urgencia Suma",
+        "sesion": "23/372"
+      },
+      {
+        "fecha": "2024-05-03",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Constitución, Legislación, Justicia y Reglamento.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-05-03",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  (Certificado de Constitución y de Seguridad Ciudadana, unidas). Queda para tabla.",
+        "sesion": "24/372"
+      },
+      {
+        "fecha": "2024-05-03",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular a la vez .",
+        "sesion": "24/372"
+      },
+      {
+        "fecha": "2024-05-03",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 406-372 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "24/372"
+      },
+      {
+        "fecha": "2024-05-03",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio del Presidente de la República (N° 065-372), por el cual repone y solicita votación de indicaciones.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-05-04",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio de ley a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-05-07",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 433-372 que retira y hace presente la urgencia Suma",
+        "sesion": "17/372"
+      },
+      {
+        "fecha": "2024-05-07",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Defensa Nacional y de Seguridad Pública, unidas",
+        "sesion": "17/372"
+      },
+      {
+        "fecha": "2024-05-15",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 548-372 que retira y hace presente la urgencia Suma",
+        "sesion": "22/372"
+      },
+      {
+        "fecha": "2024-05-30",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 614-372 que retira y hace presente la urgencia Suma",
+        "sesion": "23/372"
+      },
+      {
+        "fecha": "2024-06-12",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 743-372 que retira y hace presente la urgencia Suma",
+        "sesion": "28/372"
+      },
+      {
+        "fecha": "2024-06-17",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Primer informe de comisión de Defensa Nacional.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-06-18",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .",
+        "sesion": "29/372"
+      },
+      {
+        "fecha": "2024-06-18",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general Se fija como plazo para presentar indicaciones el 18/07/2024 a las 12:00",
+        "sesion": "29/372"
+      },
+      {
+        "fecha": "2024-06-19",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 817-372 que retira y hace presente la urgencia Suma",
+        "sesion": "30/372"
+      },
+      {
+        "fecha": "2024-07-03",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 910-372 que retira y hace presente la urgencia Suma",
+        "sesion": "32/372"
+      },
+      {
+        "fecha": "2024-07-09",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "La Sala acuerda ampliar el plazo para presentar indicaciones a este proyecto de ley, hasta las 12:00 horas del día 1 de agosto de 2024, en la Secretaría del Senado.",
+        "sesion": "34/372"
+      },
+      {
+        "fecha": "2024-07-10",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 994-372 que retira y hace presente la urgencia Suma",
+        "sesion": "35/372"
+      },
+      {
+        "fecha": "2024-07-24",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1075-372 que retira y hace presente la urgencia Suma",
+        "sesion": "38/372"
+      },
+      {
+        "fecha": "2024-08-02",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Boletín de indicaciones .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-08-02",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio N° I.F. 212. Informe financiero N° 212 de 1 de agosto de 2024",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-08-06",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "La Sala acuerda fijar un nuevo plazo para presentar indicaciones a este proyecto de ley, por un término de 30 minutos, en la Secretaría de las Comisiones unidas.",
+        "sesion": "42/372"
+      },
+      {
+        "fecha": "2024-08-06",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Boletín de indicaciones .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-08-07",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1200-372 que retira y hace presente la urgencia Suma",
+        "sesion": "44/372"
+      },
+      {
+        "fecha": "2024-08-14",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1284-372 que retira y hace presente la urgencia Suma",
+        "sesion": "46/372"
+      },
+      {
+        "fecha": "2024-08-28",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1378-372 que retira y hace presente la urgencia Suma",
+        "sesion": "48/372"
+      },
+      {
+        "fecha": "2024-09-11",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1522-372 que retira y hace presente la urgencia Suma",
+        "sesion": "56/372"
+      },
+      {
+        "fecha": "2024-09-25",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1620-372 que retira y hace presente la urgencia Suma",
+        "sesion": "58/372"
+      },
+      {
+        "fecha": "2024-10-09",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1745-372 que retira y hace presente la urgencia Suma",
+        "sesion": "62/372"
+      },
+      {
+        "fecha": "2024-10-16",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1836-372 que retira y hace presente la urgencia Suma",
+        "sesion": "66/372"
+      },
+      {
+        "fecha": "2024-10-30",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1949-372 que retira y hace presente la urgencia Suma",
+        "sesion": "69/372"
+      },
+      {
+        "fecha": "2024-11-13",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2076-372 que retira y hace presente la urgencia Suma",
+        "sesion": "73/372"
+      },
+      {
+        "fecha": "2024-11-27",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2206-372 que retira y hace presente la urgencia Suma",
+        "sesion": "82/372"
+      },
+      {
+        "fecha": "2024-12-10",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2324-372 que retira y hace presente la urgencia Suma",
+        "sesion": "87/372"
+      },
+      {
+        "fecha": "2025-01-07",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2461-372 que hace presente la urgencia Suma",
+        "sesion": "92/372"
+      },
+      {
+        "fecha": "2025-01-21",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2648-372 que retira y hace presente la urgencia Suma",
+        "sesion": "96/372"
+      },
+      {
+        "fecha": "2025-03-04",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2753-372 que hace presente la urgencia Suma",
+        "sesion": "101/372"
+      },
+      {
+        "fecha": "2025-03-11",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 2-373 que hace presente la urgencia Suma",
+        "sesion": "1/373"
+      },
+      {
+        "fecha": "2025-04-08",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 106-373 que hace presente la urgencia Suma",
+        "sesion": "9/373"
+      },
+      {
+        "fecha": "2025-04-09",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Segundo informe de comisión de Defensa Nacional y de Seguridad Pública, unidas.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-04-09",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de segundo informe de comisión .",
+        "sesion": "10/373"
+      },
+      {
+        "fecha": "2025-04-21",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Los Comités acuerdan fijar un plazo para renovar o presentar indicaciones o solicitar votaciones separadas, respecto de este proyecto de ley, hasta las 14:00 horas del día 22 de abril de 2025, en la Secretaría del Senado.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-04-22",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión particular . Queda pendiente",
+        "sesion": "13/373"
+      },
+      {
+        "fecha": "2025-04-23",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "El Honorable Senador señor Latorre hizo reserva de constitucionalidad en la discusión del proyecto de ley.",
+        "sesion": "15/373"
+      },
+      {
+        "fecha": "2025-04-23",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión particular . Aprobado con modificaciones",
+        "sesion": "15/373"
+      },
+      {
+        "fecha": "2025-04-23",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio modificaciones a Cámara de Origen .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-04-30",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Oficio N°20.391. Remite el proyecto de ley a la Comisión de Seguridad Ciudadana para los efectos del artículo 120 del Reglamento de la Cámara de Diputados.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-05-05",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta oficio con modificaciones de Cámara Revisora . Queda para tabla .",
+        "sesion": "19/373"
+      },
+      {
+        "fecha": "2025-05-05",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 264-373 que hace presente la urgencia Suma",
+        "sesion": "19/373"
+      },
+      {
+        "fecha": "2025-05-07",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Informe de comisión de Seguridad Ciudadana.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-05-07",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Discusión única . Queda pendiente .",
+        "sesion": "22/373"
+      },
+      {
+        "fecha": "2025-05-07",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta informe de comisión .  Queda para tabla.",
+        "sesion": "22/373"
+      },
+      {
+        "fecha": "2025-05-07",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 307-373 que retira la urgencia Suma",
+        "sesion": "22/373"
+      },
+      {
+        "fecha": "2025-05-12",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Discusión única . Rechazadas las modificaciones parcialmente.",
+        "sesion": "23/373"
+      },
+      {
+        "fecha": "2025-05-12",
+        "camara": "C.Diputados",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Oficio rechazo modificaciones a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-05-13",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta de Oficio N° 20.417, de la Cámara de Diputados.",
+        "sesion": "19/373"
+      },
+      {
+        "fecha": "2025-05-13",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Oficio N° 146. Toma conocimiento aprobación de enmiendas con excepción de las que indica y designa integrantes Comisión Mixta",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-05-14",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta oficio integrantes de Comisión Mixta .",
+        "sesion": "25/373"
+      },
+      {
+        "fecha": "2026-06-15",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta oficio N°196/SEC/26, mediante el cual el Senado solicita a la Cámara de Diputados tener a bien designar o actualizar la nómina de sus integrantes ante la Comisión Mixta.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-02",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Oficio N° 21356  de la Cámara de Diputados que actualiza nómina de integrantes de la Comisión Mixta.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-07",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Mensaje 188-374 que hace presente la urgencia Suma",
+        "sesion": "40/374"
+      },
+      {
+        "fecha": "2026-07-14",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Mensaje 202-374 que hace presente la urgencia Suma",
+        "sesion": "42/374"
+      },
+      {
+        "fecha": "2026-07-21",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "La Sala acuerda designar como integrantes de la Comisión Mixta a los Honorables Senadores señores Bianchi, Castro, Huenchumilla, Longton y Vial",
+        "sesion": "44/374"
+      },
+      {
+        "fecha": "2026-07-21",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Oficio N° 250-26. Designa nuevos integrantes Comisión Mixta",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-22",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta oficio integrantes de Comisión Mixta .",
+        "sesion": "47/374"
+      },
+      {
+        "fecha": "2026-07-22",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Oficio N° 21.416 de la Cámara de Diputados, que comunica cambio de integrante, el Diputado señor Sánchez ocupará cupo que correspondía al exdiputado señor Calisto.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-07-22",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Se cuenta del Oficio N° 21.416 de la Cámara de Diputados",
+        "sesion": "45/374"
+      },
+      {
+        "fecha": "2026-08-04",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Mensaje 234-374 que retira y hace presente la urgencia Suma",
+        "sesion": "47/374"
+      },
+      {
+        "fecha": "2026-08-11",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Mensaje 254-374 que retira y hace presente la urgencia Suma",
+        "sesion": "49/374"
+      },
+      {
+        "fecha": "2026-08-19",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Mensaje 278-374 que hace presente la urgencia Suma",
+        "sesion": "52/374"
+      },
+      {
+        "fecha": "2026-09-01",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Mensaje 287-374 que hace presente la urgencia Suma",
+        "sesion": "53/374"
+      },
+      {
+        "fecha": "2026-09-08",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Mensaje 308-374 que hace presente la urgencia Suma",
+        "sesion": "56/374"
+      },
+      {
+        "fecha": "2026-09-22",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Mensaje 337-374 que hace presente la urgencia Suma",
+        "sesion": "59/374"
+      },
+      {
+        "fecha": "2026-09-30",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Mensaje 361-374 que hace presente la urgencia Discusión inmediata",
+        "sesion": "63/374"
+      },
+      {
+        "fecha": "2026-10-05",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Informe de Comisión Mixta Comisión Mixta para Boletín Nº 15805-07. RUF.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-05",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Cuenta del Mensaje 365-374 que hace presente la urgencia Discusión inmediata",
+        "sesion": "74/374"
+      },
+      {
+        "fecha": "2026-10-05",
+        "camara": "C.Diputados",
+        "etapa": "Disc. informe C.Mixta por rechazo de modific. en C. Origen",
+        "descripcion": "Cuenta informe Comisión Mixta .",
+        "sesion": "74/374"
+      },
+      {
+        "fecha": "2026-10-07",
+        "camara": "C.Diputados",
+        "etapa": "Disc. informe C.Mixta por rechazo de modific. en C. Origen",
+        "descripcion": "Discusión informe de Comisión Mixta . Aprobado .",
+        "sesion": "77/374"
+      },
+      {
+        "fecha": "2026-10-07",
+        "camara": "C.Diputados",
+        "etapa": "Disc. informe C.Mixta por rechazo de modific. en C. Origen",
+        "descripcion": "Se consigna reserva de constitucionalidad formulada por la diputada Lorena Pizarro.",
+        "sesion": "77/374"
+      },
+      {
+        "fecha": "2026-10-07",
+        "camara": "C.Diputados",
+        "etapa": "Disc. informe C.Mixta por rechazo de modific. en C. Origen",
+        "descripcion": "Oficio aprobación de informe de Comisión Mixta a C. Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-07",
+        "camara": "Senado",
+        "etapa": "Disc. informe C.Mixta por rechazo de modif. C. Revisora",
+        "descripcion": "Cuenta oficio aprobación de informe de Comisión Mixta .",
+        "sesion": "67/374"
+      },
+      {
+        "fecha": "2026-10-07",
+        "camara": "Senado",
+        "etapa": "Disc. informe C.Mixta por rechazo de modif. C. Revisora",
+        "descripcion": "El Honorable Senador señor Castro hace reserva de constitucionalidad",
+        "sesion": "67/374"
+      },
+      {
+        "fecha": "2026-10-07",
+        "camara": "Senado",
+        "etapa": "Disc. informe C.Mixta por rechazo de modif. C. Revisora",
+        "descripcion": "Discusión informe de Comisión Mixta . Aprobado",
+        "sesion": "67/374"
+      },
+      {
+        "fecha": "2026-10-07",
+        "camara": "Senado",
+        "etapa": "Disc. informe C.Mixta por rechazo de modif. C. Revisora",
+        "descripcion": "Oficio aprobación de informe de Comisión Mixta a C.de Origen .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-09",
+        "camara": "C.Diputados",
+        "etapa": "Trámite finalización en Cámara de Origen",
+        "descripcion": "Oficio de ley al Ejecutivo .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-19",
+        "camara": "Senado",
+        "etapa": "Disc. informe C.Mixta por rechazo de modif. C. Revisora",
+        "descripcion": "Cuenta oficio aprobación de informe de Comisión Mixta .",
+        "sesion": "78/374"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "90328",
+      "fecha": "2026-10-07T13:18:43",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Comisión Mixta",
+      "articulo": "En votación la proposición de la Comisión Mixta recaída en el proyecto de ley, originado en mensaje, que “Establece normas generales sobre el uso de la fuerza para el personal de las fuerzas de orden y seguridad pública y de las fuerzas armadas en las circunstancias que se señala.”.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "82261",
+      "fecha": "2025-05-12T19:35:55",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado para agregar un artículo 23 nuevo, cuya votación separada ha sido solicitada por las diputadas Ana María Gazmuri, Lorena Pizarro, Alejandra Placencia, Daniela Serrano, y que consta en las páginas 39 a 40 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "82260",
+      "fecha": "2025-05-12T19:34:54",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado para agregar un articulo 21 nuevo, cuya votación separada ha sido solicitada por los diputados Andrés Jouannet, Andrés Longton y Diego Schalper, y que consta en la página 34 del comparado.",
+      "resultado": "Unánime",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "82259",
+      "fecha": "2025-05-12T19:34:06",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado para sustituir el artículo 15 del texto aprobado por la Cámara de Diputados, que pasaría a ser artículo 19, cuya votación separada ha sido solicitada por los diputados Andrés Jouannet, Johannes Kaiser, Andrés Longton, Diego Schalper, y que consta en las páginas 32 a 33 del comparado.",
+      "resultado": "Unánime",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "82258",
+      "fecha": "2025-05-12T19:33:01",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado para sustituir el artículo 12 del texto aprobado por la Cámara de Diputados, que pasaría a ser artículo 16, cuya votación separada ha sido solicitada por los diputados Cristián Araya, Andrés Jouannet, Johannes Kaiser, Andrés Longton, Diego Schalper y que consta en las páginas 27 a 31 del comparado.",
+      "resultado": "Unánime",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "82257",
+      "fecha": "2025-05-12T19:32:01",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado para agregar un articulo 13 nuevo, cuya votación separada ha sido solicitada por los diputados Andrés Jouannet, Andrés Longton y Diego Schalper, y que consta en las páginas 24 a 25 del comparado.",
+      "resultado": "Unánime",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "82256",
+      "fecha": "2025-05-12T19:31:10",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado para agregar un articulo 11 nuevo, cuya votación separada ha sido solicitada por los diputados Andrés Jouannet, Andrés Longton y Diego Schalper, y que consta en la página 23 del comparado.",
+      "resultado": "Unánime",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "82255",
+      "fecha": "2025-05-12T19:30:28",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado para agregar un articulo 10 nuevo, cuya votación separada ha sido solicitada por la diputada Lorena Fries, y que consta en las páginas 22 y 23 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "82254",
+      "fecha": "2025-05-12T19:29:40",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado para sustituir el número 5 del artículo 8 del texto aprobado por la Cámara de Diputados, que pasaría a ser 9, cuya votación separada ha sido solicitada por los diputados Andrés Jouannet, Andrés Longton y Diego Schalper, y que consta en las páginas 21 a 22 del comparado.",
+      "resultado": "Unánime",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "82253",
+      "fecha": "2025-05-12T19:28:43",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado para agregar un artículo 8 nuevo, cuya votación separada ha sido solicitada por el diputado Cristián Araya, y que consta en las páginas 18 a 19 del comparado.",
+      "resultado": "Unánime",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "82252",
+      "fecha": "2025-05-12T19:27:47",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado para sustituir el número 8 (que ha pasado a ser 9) del artículo 6 del texto aprobado por la Cámara de Diputados, cuya votación separada ha sido solicitada por el diputado Johannes Kaiser, y que consta en las páginas 15 a 16 del comparado.",
+      "resultado": "Unánime",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "82251",
+      "fecha": "2025-05-12T19:26:50",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmiendas del Senado en el número 5 del artículo 6 del texto aprobado por la Cámara de Diputados, cuya votación separada ha sido solicitada por el diputado Cristián Araya, y que consta en la página 13 del comparado.",
+      "resultado": "Unánime",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "82250",
+      "fecha": "2025-05-12T19:25:56",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmiendas del Senado en el número 2 del artículo 6 del texto aprobado por la Cámara de Diputados, cuya votación separada ha sido solicitada por la diputada Lorena Fries, y que consta en la página 11 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "82249",
+      "fecha": "2025-05-12T19:24:56",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado para sustituir el artículo 5 del texto aprobado por la Cámara de Diputados, cuya votación separada ha sido solicitada por los diputados Andrés Joaunnet, Andrés Longton y Diego Schalper, y que consta en las páginas 8 a 10 del comparado.",
+      "resultado": "Unánime",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "82248",
+      "fecha": "2025-05-12T19:23:57",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado para sustituir la frase final del inciso primero del artículo 4 del texto aprobado por la Cámara de Diputados, cuya votación separada ha sido solicitada por las diputadas Ana María Gazmuri, Lorena Pizarro, Alejandra Placencia, Daniela Serrano, y que consta en la página 7 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "82247",
+      "fecha": "2025-05-12T19:22:53",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que propone suprimir el número 5 del artículo 3 del texto aprobado por la Cámara de Diputados, cuya votación separada ha sido solicitada por la diputada Lorena Fries, y que consta en las páginas 6 y 7 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "82246",
+      "fecha": "2025-05-12T19:22:01",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado para sustituir el número 4 del artículo 3 del texto aprobado por la Cámara de Diputados, cuya votación separada ha sido solicitada por la diputada Lorena Fries, y que consta en la página 6 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "82245",
+      "fecha": "2025-05-12T19:21:02",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado para sustituir el número 3 del artículo 3 del texto aprobado por la Cámara de Diputados, cuya votación separada ha sido solicitada por las diputadas Ana María Gazmuri, Lorena Pizarro, Alejandra Placencia, Daniela Serrano, y por el diputado Andrés Jouannet, y que consta en las páginas 5 y 6 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "82244",
+      "fecha": "2025-05-12T19:19:58",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmienda del Senado que propone suprimir el número 4 del artículo 2 del texto aprobado por la Cámara de Diputados, cuya votación separada ha sido solicitada por las diputadas Lorena Fries, Ana María Gazmuri, Lorena Pizarro, Alejandra Placencia, Daniela Serrano, y que consta en la página 3 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "82243",
+      "fecha": "2025-05-12T19:19:08",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmiendas del Senado en el número 1 del artículo 2 del texto aprobado por la Cámara de Diputados, cuya votación separada ha sido solicitada por las diputadas Lorena Fries, Ana María Gazmuri, Lorena Pizarro, Alejandra Placencia, Daniela Serrano, y que consta en la página 2 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "82242",
+      "fecha": "2025-05-12T19:18:17",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Tercer Trámite",
+      "articulo": "Enmiendas del Senado recaídas en el proyecto de ley, originado en mensaje, que “Establece normas generales sobre el uso de la fuerza para el personal de las fuerzas de orden y seguridad pública y de las fuerzas armadas en las circunstancias que se señala.”, con la salvedad de aquellas cuya votación separada ha sido solicitada.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "38230",
+      "fecha": "2024-05-03T22:09:08",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "19.- En votación particular el artículo primero transitorio del texto propuesto por la Comisión Unida de Constitución y Seguridad Ciudadana.",
+      "resultado": "Unánime",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "38229",
+      "fecha": "2024-05-03T22:06:21",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "16.- En votación particular el artículo 16 del texto propuesto por la Comisión Unida de Constitución y Seguridad Ciudadana.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "38228",
+      "fecha": "2024-05-03T22:05:24",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "15.- En votación particular el artículo 14 del texto propuesto por la Comisión Unida de Constitución y Seguridad Ciudadana.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "38227",
+      "fecha": "2024-05-03T22:04:28",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "En votación particular el artículo 11 del texto propuesto por la Comisión Unida de Constitución y Seguridad Ciudadana.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "38226",
+      "fecha": "2024-05-03T22:03:28",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "14.- En votación la indicación renovada del Ejecutivo que reemplaza el artículo 11 sugerido por la Comisión Unida de Constitución y Seguridad Ciudadana.",
+      "resultado": "Unánime",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "38225",
+      "fecha": "2024-05-03T21:58:34",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "13.- En votación particular el artículo 12 del texto del mensaje, que la Comisión Unida de Constitución y Seguridad Ciudadana propone rechazar.",
+      "resultado": "Unánime",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "38224",
+      "fecha": "2024-05-03T21:57:44",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "12.- Indicación renovada del Ejecutivo para agregar un artículo 9, nuevo.",
+      "resultado": "Unánime",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "38223",
+      "fecha": "2024-05-03T21:56:06",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "En votación particular el numeral 5) del artículo 7 del texto propuesto por la Comisión Unida de Constitución y Seguridad Ciudadana.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "38222",
+      "fecha": "2024-05-03T21:54:51",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "11.- En votación la indicación renovada para reemplazar el numeral 5) del artículo 7 del texto propuesto por la Comisión Unida de Constitución y Seguridad Ciudadana (Artículo 8 del Mensaje).",
+      "resultado": "Unánime",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "38221",
+      "fecha": "2024-05-03T21:53:04",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "En votación particular el numeral 4) del artículo 7 del texto propuesto por la Comisión Unida de Constitución y Seguridad Ciudadana.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "38220",
+      "fecha": "2024-05-03T21:52:10",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "10.- En votación particular el numeral 4) del artículo 7 del texto propuesto por la Comisión Unida de Constitución y Seguridad Ciudadana (artículo 8 del Mensaje.",
+      "resultado": "Unánime",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "38219",
+      "fecha": "2024-05-03T21:50:25",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "9.- En votación particular el numeral 8 del artículo 5 del texto propuesto por la Comisión Unida de Constitución y Seguridad Ciudadana.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "38218",
+      "fecha": "2024-05-03T21:49:35",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "8.- En votación particular el numeral 6 del artículo 5 del texto propuesto por la Comisión Unida de Constitución y Seguridad Ciudadana.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "38217",
+      "fecha": "2024-05-03T21:48:43",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "7.- En votación particular el numeral 1 del artículo 5 del texto propuesto por la Comisión Unida de Constitución y Seguridad Ciudadana.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "38216",
+      "fecha": "2024-05-03T21:47:47",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "6.- En votación particular el artículo 5 del texto del mensaje, que la Comisión Unida de Constitución y Seguridad Ciudadana propone rechazar.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "38215",
+      "fecha": "2024-05-03T21:46:49",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "5.- En votación particular el numeral 5 del artículo 3 del texto propuesto por la Comisión Unida de Constitución y Seguridad Ciudadana.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "38214",
+      "fecha": "2024-05-03T21:45:42",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "4.- En votación particular el numeral 3 del artículo 3 del texto del mensaje, que la Comisión Unida de Constitución y Seguridad Ciudadana propone rechazar.",
+      "resultado": "Unánime",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "38213",
+      "fecha": "2024-05-03T21:44:37",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "3.- En votación particular el numeral 4 del artículo 2 del texto propuesto por la Comisión Unida de Constitución y Seguridad Ciudadana.",
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "38212",
+      "fecha": "2024-05-03T21:42:19",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "En votación la reclamación de admisibilidad de la indicación que sugiere aprobar el artículo 17 del proyecto,",
+      "resultado": "Unánime",
+      "detalle_nominal": false
+    },
+    {
+      "votacion_id": "23276",
+      "fecha": "2024-05-03T21:32:38",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": null,
+      "resultado": "Aprobado",
+      "detalle_nominal": false
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-10-26",
+    "universo": "Los 584 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-10-26T17:33:22"
+  }
+}
