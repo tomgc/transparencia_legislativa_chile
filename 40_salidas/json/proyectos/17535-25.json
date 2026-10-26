@@ -1,0 +1,642 @@
+{
+  "boletin": "17535-25",
+  "nombre": "Modifica diversos cuerpos legales, con el objeto de modernizar el sistema de incentivos, extender la carrera a los futuros ingresos a Carabineros de Chile y establecer herramientas de gestión de la planta",
+  "tipo_iniciativa": "Mensaje",
+  "camara_origen": "Senado",
+  "fecha_ingreso": "2025-05-12",
+  "tramitacion": {
+    "etapa_actual": "Trámite de aprobacion presidencial (Senado)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2025-05-12",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-05-13",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Seguridad Pública, y a la Comisión de Hacienda, en su caso.",
+        "sesion": "19/373"
+      },
+      {
+        "fecha": "2025-05-27",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 511-373 que hace presente la urgencia Suma",
+        "sesion": "21/373"
+      },
+      {
+        "fecha": "2025-06-11",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 646-373 que retira y hace presente la urgencia Suma",
+        "sesion": "27/373"
+      },
+      {
+        "fecha": "2025-06-18",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 688-373 que retira y hace presente la urgencia Suma",
+        "sesion": "30/373"
+      },
+      {
+        "fecha": "2025-06-25",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Seguridad Pública.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-06-30",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .",
+        "sesion": "31/373"
+      },
+      {
+        "fecha": "2025-07-02",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 750-373 que retira y hace presente la urgencia Suma",
+        "sesion": "34/373"
+      },
+      {
+        "fecha": "2025-07-15",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 826-373 que retira y hace presente la urgencia Suma",
+        "sesion": "39/373"
+      },
+      {
+        "fecha": "2025-07-23",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 884-373 que retira y hace presente la urgencia Suma",
+        "sesion": "41/373"
+      },
+      {
+        "fecha": "2025-08-12",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 942-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "45/373"
+      },
+      {
+        "fecha": "2025-08-13",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general Se fija como plazo para presentar indicaciones el 05/09/2025 a las 12:00",
+        "sesion": "46/373"
+      },
+      {
+        "fecha": "2025-08-19",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 976-373 que hace presente la urgencia Discusión inmediata",
+        "sesion": "47/373"
+      },
+      {
+        "fecha": "2025-09-02",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1007-373 que hace presente la urgencia Suma",
+        "sesion": "49/373"
+      },
+      {
+        "fecha": "2025-09-05",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Boletín de indicaciones .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2025-09-15",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "La Sala acuerda fijar un nuevo plazo para presentar indicaciones a este proyecto de ley, hasta las 12:00 horas del día 6 de octubre de 2025, en la Secretaría de la Comisión de Seguridad Pública.",
+        "sesion": "54/373"
+      },
+      {
+        "fecha": "2025-09-16",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1074-373 que retira y hace presente la urgencia Suma",
+        "sesion": "55/373"
+      },
+      {
+        "fecha": "2025-10-01",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1103-373 que retira y hace presente la urgencia Suma",
+        "sesion": "58/373"
+      },
+      {
+        "fecha": "2025-10-14",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "La Sala acuerda fijar un nuevo plazo para presentar indicaciones, hasta las 19:00 horas del día 14 de octubre de 2025, en la Secretaría de la Comisión de Seguridad Pública.",
+        "sesion": "61/373"
+      },
+      {
+        "fecha": "2025-10-15",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1175-373 que retira y hace presente la urgencia Suma",
+        "sesion": "62/373"
+      },
+      {
+        "fecha": "2025-10-27",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1178-373 que retira y hace presente la urgencia Suma",
+        "sesion": "63/373"
+      },
+      {
+        "fecha": "2025-11-05",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1235-373 que retira y hace presente la urgencia Suma",
+        "sesion": "65/373"
+      },
+      {
+        "fecha": "2025-11-25",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1269-373 que hace presente la urgencia Suma",
+        "sesion": "76/373"
+      },
+      {
+        "fecha": "2025-12-10",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1362-373 que retira y hace presente la urgencia Suma",
+        "sesion": "81/373"
+      },
+      {
+        "fecha": "2025-12-10",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "La Sala acuerda fijar un nuevo plazo para presentar indicaciones a este proyecto de ley, hasta las 12:00 horas del día 15 de diciembre de 2025, en la Secretaría de la Comisión de Seguridad Pública.",
+        "sesion": "81/373"
+      },
+      {
+        "fecha": "2026-01-06",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1462-373 que hace presente la urgencia Suma",
+        "sesion": "86/373"
+      },
+      {
+        "fecha": "2026-01-09",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Segundo informe de comisión de Seguridad Pública. Pasa a Comisión de Hacienda",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-01-20",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1548-373 que retira y hace presente la urgencia Suma",
+        "sesion": "91/373"
+      },
+      {
+        "fecha": "2026-03-03",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 1605-373 que hace presente la urgencia Suma",
+        "sesion": "97/373"
+      },
+      {
+        "fecha": "2026-04-07",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 26-374 que hace presente la urgencia Suma",
+        "sesion": "5/374"
+      },
+      {
+        "fecha": "2026-08-04",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "La Sala acuerda que el proyecto de ley se remita a la Comisión de Seguridad Pública para que emita un nuevo segundo informe, y abrir un nuevo plazo para presentar indicaciones a su respecto hasta la medianoche del día de hoy, en la Secretaría de la Comisión de Seguridad Pública",
+        "sesion": "47/374"
+      },
+      {
+        "fecha": "2026-08-04",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 234-374 que retira y hace presente la urgencia Suma",
+        "sesion": "47/374"
+      },
+      {
+        "fecha": "2026-08-05",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Boletín de indicaciones .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-08-18",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 268-374 que retira y hace presente la urgencia Suma",
+        "sesion": "51/374"
+      },
+      {
+        "fecha": "2026-09-01",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 286-374 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "53/374"
+      },
+      {
+        "fecha": "2026-09-07",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Nuevo segundo informe de comisión de Seguridad Pública. Pasa a Comisión de Hacienda",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-09-08",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 310-374 que hace presente la urgencia Discusión inmediata",
+        "sesion": "56/374"
+      },
+      {
+        "fecha": "2026-09-09",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Nuevo segundo informe de comisión de Hacienda.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-09-09",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta nuevo segundo informe .",
+        "sesion": "58/374"
+      },
+      {
+        "fecha": "2026-09-09",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión particular . Aprobado",
+        "sesion": "58/374"
+      },
+      {
+        "fecha": "2026-09-11",
+        "camara": "Senado",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio de ley a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-09-21",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Seguridad Ciudadana, y a la Comisión de Hacienda en lo que corresponda.",
+        "sesion": "67/374"
+      },
+      {
+        "fecha": "2026-09-22",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 331-374 que hace presente la urgencia Discusión inmediata",
+        "sesion": "68/374"
+      },
+      {
+        "fecha": "2026-09-28",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 345-374 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "71/374"
+      },
+      {
+        "fecha": "2026-09-30",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 358-374 que hace presente la urgencia Discusión inmediata",
+        "sesion": "73/374"
+      },
+      {
+        "fecha": "2026-10-05",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 366-374 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "74/374"
+      },
+      {
+        "fecha": "2026-10-07",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 379-374 que retira y hace presente la urgencia Suma",
+        "sesion": "77/374"
+      },
+      {
+        "fecha": "2026-10-19",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 386-374 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "78/374"
+      },
+      {
+        "fecha": "2026-10-19",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Indicación del Ejecutivo (197-374)",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-19",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "(Seguridad Ciudadana). Pasa a Hacienda.",
+        "sesion": "78/374"
+      },
+      {
+        "fecha": "2026-10-19",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .",
+        "sesion": "78/374"
+      },
+      {
+        "fecha": "2026-10-20",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Primer informe de comisión de Hacienda.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-20",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Primer informe de comisión de Seguridad Ciudadana. Pasa a Comisión de Hacienda",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-20",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular con modificaciones .",
+        "sesion": "79/374"
+      },
+      {
+        "fecha": "2026-10-20",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .",
+        "sesion": "79/374"
+      },
+      {
+        "fecha": "2026-10-20",
+        "camara": "C.Diputados",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio modificaciones a Cámara de Origen .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-20",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Cuenta oficio con modificaciones de Cámara Revisora . Queda para tabla",
+        "sesion": "70/374"
+      },
+      {
+        "fecha": "2026-10-20",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Discusión única . Queda pendiente Se solicita aplazamiento de la votación",
+        "sesion": "70/374"
+      },
+      {
+        "fecha": "2026-10-21",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Discusión única . Aprobadas las modificaciones",
+        "sesion": "71/374"
+      },
+      {
+        "fecha": "2026-10-21",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Oficio N° 343-26, que comunica aprobacion de modificaciones",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-21",
+        "camara": "Senado",
+        "etapa": "Tercer trámite constitucional",
+        "descripcion": "Oficio de ley al Ejecutivo .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-23",
+        "camara": "Senado",
+        "etapa": "Trámite de aprobacion presidencial",
+        "descripcion": "Oficio N° 346-26 al Tribunal Constitucional",
+        "sesion": "/"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "90495",
+      "fecha": "2026-10-20T13:42:44",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Literal b), del numeral 20, del artículo 2, en los términos propuestos por la Comisión de Seguridad Ciudadana, cuya votación separada ha sido solicitada por el diputado Raúl Leiva, que requiere para su aprobación del voto favorable de 78 diputadas y diputados por tratarse de una norma de rango orgánico constitucional, y que consta en las páginas 172 y 173 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90494",
+      "fecha": "2026-10-20T13:41:40",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Numeral 12 del artículo 2, en los términos propuestos por la Comisión de Hacienda, que coincide con el texto del Senado, y que consta en las páginas 149 a 152 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90493",
+      "fecha": "2026-10-20T13:40:48",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Artículo 46 quinquies contenido en el numeral 8 del artículo 2 del proyecto, en los términos propuestos por la Comisión de Seguridad Ciudadana, que coincide con el texto del Senado, y que consta en la página 117 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90492",
+      "fecha": "2026-10-20T13:39:48",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Artículo 46 quinquies contenido en el numeral 8 del artículo 2 del proyecto con la indicación parlamentaria que agrega un inciso segundo nuevo, del siguiente tenor: “Sin perjuicio de las demás retenciones que procedan de conformidad con la ley N° 14.908, sobre Abandono de Familia y Pago de Pensiones Alimenticias, cuando el beneficiario de los incentivos establecidos en los artículos 46 bis y 46 sexies se encuentre inscrito en el Registro Nacional de Deudores de Pensiones de Alimentos, Carabineros de Chile deberá retener, al momento de su pago, el monto correspondiente al beneficio, hasta la concurrencia del total de la deuda alimenticia registrada, y transferir las sumas retenidas a quien corresponda conforme a dicha ley.”",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90491",
+      "fecha": "2026-10-20T13:36:38",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Artículo 46 quater contenido en el numeral 8 del artículo 2 del proyecto, en los términos propuestos por la Comisión de Seguridad Ciudadana, que coincide con el texto del Senado, y que consta en las páginas 115 a 117 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90490",
+      "fecha": "2026-10-20T13:35:43",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Artículo 46 ter contenido en el numeral 8 del artículo 2 del proyecto, en los términos propuestos por la Comisión de Seguridad Ciudadana, que coincide con el texto del Senado, y que consta en las páginas 114 y 115 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90489",
+      "fecha": "2026-10-20T13:34:26",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Admisibilidad de la indicación de la diputada Tatiana Urrutia, presentada en la Comisión de Seguridad Ciudadana, por infringir lo dispuesto en el artículo 65, inciso tercero e inciso cuarto, numeral 6 de la Constitución. Dicha indicación tiene por objeto incorporar un inciso final al artículo 46 ter, contenido en el numeral 8 del artículo 2,\n(los que votan a favor lo hacen por la admisibilidad de la indicación, los que votan en contra lo hacen por su inadmisibilidad).",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90488",
+      "fecha": "2026-10-20T13:30:51",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Admisibilidad de la indicación del diputado Jaime Araya, presentada en la Comisión de Seguridad Ciudadana, por infringir lo dispuesto en el artículo 65, inciso tercero y cuarto, numeral 6 de la Constitución. Dicha indicación tiene por objeto incorporar en el inciso final del artículo 46 bis, contenido en el numeral 8 del artículo 2.\n (los que votan a favor lo hacen por la admisibilidad de la indicación, los que votan en contra lo hacen por su inadmisibilidad).",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90487",
+      "fecha": "2026-10-20T13:28:01",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Admisibilidad de la indicación del diputado Jaime Araya, presentada en la Comisión de Seguridad Ciudadana, por infringir lo dispuesto en el artículo 65, inciso tercero y cuarto, numeral 6 de la Constitución. Dicha indicación tiene por objeto reemplazar el inciso décimo del artículo 46 bis, contenido en el numeral 8 del artículo 2.\n(los que votan a favor lo hacen por la admisibilidad de la indicación, los que votan en contra lo hacen por su inadmisibilidad).",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90486",
+      "fecha": "2026-10-20T13:25:03",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Admisibilidad de la indicación de la diputada Tatiana Urrutia, presentada en la Comisión de Seguridad Ciudadana, por infringir lo dispuesto en el artículo 65, inciso cuarto, numeral 2 de la Constitución. Dicha indicación tiene por objeto reemplazar el inciso octavo del artículo 46 bis, contenido en el numeral 8 del artículo 2.\n (los que votan a favor lo hacen por la admisibilidad de la indicación, los que votan en contra lo hacen por su inadmisibilidad).",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90485",
+      "fecha": "2026-10-20T13:20:56",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "En votación el artículo 46 bis, contenido en el numeral 8 del artículo 2, que consta en las páginas 100 a 114 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90484",
+      "fecha": "2026-10-20T13:19:50",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Admisibilidad de la indicación de la diputada Tatiana Urrutia, presentada en la Comisión de Seguridad Ciudadana, por infringir lo dispuesto en el artículo 65, inciso tercero y cuarto, numeral 6 de la Constitución. Dicha indicación tiene por objeto reemplazar el inciso quinto del artículo 46 bis, contenido en el numeral 8 del artículo 2.\n(los que votan a favor lo hacen por la admisibilidad de la indicación, los que votan en contra lo hacen por su inadmisibilidad).",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90483",
+      "fecha": "2026-10-20T13:15:14",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Numeral 5 del artículo 2, en los términos propuestos por la Comisión de Hacienda, y que consta en las páginas 58 a 62 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90482",
+      "fecha": "2026-10-20T13:14:23",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Numeral 2 del artículo 2, en los términos propuestos por la Comisión de Hacienda, que requiere para su aprobación del voto favorable de 78 diputadas y diputados por tratarse de una norma de rango orgánico constitucional, y que consta en las páginas 51 y 53 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90481",
+      "fecha": "2026-10-20T13:12:15",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Numeral 17 del artículo 1, en los términos propuestos por la Comisión de Seguridad Ciudadana, que coincide con el texto aprobado por el Senado, cuya votación separada ha sido solicitada por el diputado Hans Marowski, que requiere para su aprobación del voto favorable de 78 diputadas y diputados por tratarse de una norma de rango orgánico constitucional, y que consta en la página 33 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90480",
+      "fecha": "2026-10-20T13:10:59",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Numeral 12 del artículo 1, en los términos propuestos por la Comisión de Hacienda, y que consta en las páginas 22 y 23 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90479",
+      "fecha": "2026-10-20T13:10:10",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Numeral 11 del artículo 1, en los términos propuestos por la Comisión de Seguridad Ciudadana, que coincide con el texto aprobado por el Senado, cuya votación separada ha sido solicitada por la diputada Tatiana Urrutia, que requiere para su aprobación del voto favorable de 78 diputadas y diputados por tratarse de una norma de rango orgánico constitucional, y que consta en las páginas 21 y 22 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90478",
+      "fecha": "2026-10-20T13:09:03",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": "Numeral 9 del artículo 1, en los términos propuestos por la Comisión de Hacienda, que coincide con el texto del Senado, que requiere para su aprobación del voto favorable de 78 diputadas y diputados por tratarse de una norma de rango orgánico constitucional, y que consta en las páginas 18 a 20 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90477",
+      "fecha": "2026-10-20T13:07:23",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": null,
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90476",
+      "fecha": "2026-10-20T13:05:48",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Segundo Trámite",
+      "articulo": null,
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-10-26",
+    "universo": "Los 584 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-10-26T17:33:23"
+  }
+}
