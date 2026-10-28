@@ -97,7 +97,9 @@ estático (Fase 2) visualiza en el navegador.
 
 - Mensajes de commit, comentarios y documentación en español.
 - No pedir confirmación para operaciones git locales (commit, checkout, branch).
-- `git push` requiere visto bueno del titular.
+- `git push` requiere visto bueno del titular. Es una excepción deliberada al
+  push automático de la estación (2026-10-28): `main` sirve el sitio público
+  en GitHub Pages (`/docs`), así que cada push lo republica.
 
 ## Últimos cambios (máx. 5, más recientes primero)
 
