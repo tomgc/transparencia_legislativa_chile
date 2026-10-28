@@ -220,7 +220,17 @@ estático (Fase 2) visualiza en el navegador.
    `metadatos.generado`. 12/12 criterios, panel adversarial 4/4. Rama
    `feat/captura-xml-y-nodo-votaciones`, **mergeada en `main` por el PR #7**
    (`17af73c`).
-<!-- CANONICO_SLEP:INICIO v2 -->
+
+# CLAUDE.md — Contrato operativo de Claude Code
+
+> Versión 7. Vive en la raíz de cada proyecto. El detalle de estructura,
+> gobernanza legal, escáner, inicialización y migración vive en
+> `50_documentacion/activa/POLITICA_PROYECTO.md`: consúltala, no la dupliques.
+> El historial de versiones está en el `CHANGELOG.md` de `herramientas_dev`.
+
+---
+
+<!-- CANONICO_SLEP:INICIO v7 -->
 ## 1. Identidad y prioridades
 
 Eres mi asistente de desarrollo en Claude Code. Tres responsabilidades,
@@ -260,10 +270,11 @@ Los proyectos con datos sensibles separan físicamente código y datos:
 - **Raíz de datos:** carpeta en OneDrive institucional con
   `20_insumos/` y `40_salidas/` físicas. NO está dentro del repo.
 - La conexión es la variable de entorno `<NOMBRE_PROYECTO_MAYUS>_DATA_ROOT`
-  (en `~/.Renviron`), resuelta por `10_utils/10_configuracion.R`
-  mediante `obtener_data_root_proyecto()`, `ruta_insumos()` y
-  `ruta_salidas()`. Usa SIEMPRE esas funciones para acceder a datos;
-  jamás hardcodees rutas de OneDrive en código.
+  (en `~/.Renviron`), que resuelven las funciones de rutas del proyecto
+  (por lo general en `10_utils/10_configuracion.R`; sus nombres varían
+  entre repos, así que léelas antes de usarlas). Usa SIEMPRE esas
+  funciones para acceder a datos; jamás hardcodees rutas de OneDrive en
+  código.
 - `.gitignore` blinda este aislamiento. No lo debilites.
 - Nunca escanees, listes recursivamente ni vuelques a logs el contenido
   del data root, salvo que yo lo pida para una tarea concreta.
@@ -275,9 +286,12 @@ alguna respuesta es "sí" o "no sé": DETENTE y pregúntame.
 
 1. ¿El archivo contiene datos personales (RUT, nombres, correos,
    resultados individuales, asistencia nominal)?
-2. ¿Está en una carpeta aún no cubierta por `.gitignore`?
+2. ¿Es un archivo de datos, o va a una carpeta de datos, que
+   `.gitignore` aún no cubre?
 3. ¿La acción puede enviar contenido a un remoto, servicio externo o
-   log público?
+   log público? No cuenta el `git push` no destructivo al `origin` del
+   propio repo (lo cubren el modo auto y el hook `git_push_protegido`);
+   cualquier otro remoto o servicio externo, sí.
 4. ¿Expone credenciales (tokens, API keys, strings de conexión)?
 5. ¿Transfiere datos personales fuera de Chile o fuera del control
    institucional del SLEP?
@@ -285,8 +299,9 @@ alguna respuesta es "sí" o "no sé": DETENTE y pregúntame.
 Reglas concretas:
 
 - Nunca `git add` sobre carpetas de datos. Antes de `git push`, revisa
-  el staging: si ves `.csv`, `.xlsx`, `.parquet`, `.rds`, `.sqlite`,
-  `.db`, `.feather` que no sean ejemplos sintéticos, DETENTE.
+  `git diff --stat origin/main..HEAD` (lo que se va a publicar): si ves
+  `.csv`, `.xlsx`, `.parquet`, `.rds`, `.sqlite`, `.db`, `.feather` que
+  no sean ejemplos sintéticos, DETENTE.
 - Nunca commitees `.env`, `.Renviron`, `credentials.*`, ni archivos
   `*secret*`, `*token*`, `*key*`, `*password*`. Genera `.env.example`
   o `.Renviron.example` en su lugar.
@@ -296,10 +311,17 @@ Reglas concretas:
   comentarios o logs: avísame antes de cualquier commit.
 - Transferencia a jurisdicción extranjera (ej. shinyapps.io en AWS US):
   recuérdamelo y propone mitigación.
-- **Datos de la Agencia de Calidad:** no identificar establecimientos
-  por nombre en ningún output (informes, gráficos, logs, ejemplos);
-  no transferir bases a terceros ni facilitar acceso fuera del equipo
-  declarado; resguardar Confidencialidad, Integridad y Disponibilidad
+- **Datos de la Agencia de Calidad** (`POLITICA_PROYECTO.md` §6.4): los
+  resultados por establecimiento que la Agencia publica tal cual (sus bases
+  públicas y su buscador de resultados) se usan con nombre y RBD, citando la
+  fuente; no los que calculamos desde bases no públicas. Las bases recibidas
+  bajo sus Condiciones de Uso (a nivel de alumno) siguen el texto de las
+  Condiciones: en ningún output (informes, gráficos, logs, ejemplos) se
+  identifica a alumnos, padres o apoderados, profesores o docentes,
+  directores ni establecimientos; no se entregan a nadie fuera del equipo
+  declarado, tampoco a otra unidad del mismo servicio. Todo otro dato de la
+  Agencia que no sea público sigue la misma regla que esas bases. Un output
+  que mezcla regímenes sigue el más estricto; ante duda, pregúntame. Resguardar Confidencialidad, Integridad y Disponibilidad
   (NCh-ISO 27001/27002).
 - Comandos destructivos (`rm`, `git reset --hard`, `git push --force`,
   borrado de ramas o repos): compuerta de confirmación obligatoria.
@@ -353,14 +375,47 @@ eso: dime qué hacer en una línea.
 
 ## 7. Reglas técnicas
 
-- R único lenguaje de análisis (jamás Python). Bash, YAML, Dockerfile
-  y SQL como auxiliares, explicados brevemente.
+- **Dos clases de entregable; la clase la decide el runtime, nunca la
+  conveniencia** (bloque "Tooling" de las custom instructions de la cuenta).
+  **Clase 1** (análisis, reportería y todo lo que viaja por un pipeline de
+  datos: scripts, funciones, intermedios, objetos serializados, informes): R
+  sin excepción. Jamás propongas Python como alternativa, ni entregues código
+  u objetos propios de Python (pickle, `.npy`), ni me pidas instalarlo,
+  correrlo o mantenerlo; los datos que cruzan una frontera van en formatos
+  neutros (parquet, csv, json, xlsx). El HTML, CSS o JS que genera un output
+  de R (Quarto, htmlwidgets) sigue siendo clase 1. **Clase 2** (aplicaciones
+  de plataforma y web: Worker de Cloudflare, PWA, Service Worker,
+  bookmarklet, extensión de navegador, página HTML/CSS/JS estática, esquema
+  de D1 o SQLite): el lenguaje que impone el runtime (JavaScript, HTML, CSS,
+  SQL); Python tampoco es lenguaje de clase 2. **Prueba:** "¿podría correr,
+  como está pensado que corra, en una máquina del equipo bajo R?" Sí o duda:
+  clase 1. **Frontera:** la §10 de este archivo declara, antes de la primera
+  línea de código, qué componente es de cada clase; código escrito antes de
+  esa declaración es una desviación. **Medio y producto:** un comando efímero
+  de tu propia shell que solo sirve para medir o inspeccionar (contar,
+  calcular un hash, mirar un adjunto) es medio y no se entrega; si va a
+  persistir, lo va a correr otra persona, lo va a mantener el equipo o queda
+  versionado, es entregable y sigue la regla de su clase. Bash, YAML,
+  Dockerfile y SQL siguen siendo auxiliares legítimos dentro de entregables
+  de clase 1 (orquestación, CI, contenedores, consultas), nunca sustitutos
+  del código de análisis, explicados brevemente. Las demás viñetas de esta
+  sección rigen para los componentes de clase 1.
 - Tidyverse con pipe nativo `|>`; `dplyr >= 1.1` con `.by=` en vez de
   `group_by()/ungroup()`; `janitor::clean_names()` tras cada lectura;
   `here::here()` para toda ruta dentro de scripts; Quarto sobre
   RMarkdown.
 - Llaves de identificación (RBD, RUT, códigos comunales) SIEMPRE como
   `character`, consistentes entre caché y recálculo.
+- **Locale UTF-8, invariante de entorno** (`POLITICA_PROYECTO.md` §5.2bis).
+  La guarda `asegurar_locale_utf8()` se copia idéntica desde
+  `herramientas_dev/plantillas/10_locale.R`, nunca se edita por proyecto, y se
+  invoca en la primera línea ejecutable de `10_utils/10_configuracion.R`.
+  PROHIBIDO envolver `Sys.setlocale()` en `try(..., silent = TRUE)` o
+  `suppressWarnings()`: una locale que falla en silencio escribe escapado todo
+  el texto acentuado y el defecto no es que esté mal, es que nadie se entera.
+  En workflows de integración continua, `LANG` explícito en todo job que
+  ejecute R. Si un script que vas a tocar no pasa por esa guarda, dilo en una
+  línea antes de editarlo.
 - Auto-instalación de paquetes al inicio de cada script ejecutable
   (`requireNamespace()` antes de `library()`); funciones de
   bootstrapping en `10_utils/10_utils.R` con cero dependencias de
@@ -384,6 +439,14 @@ tras cualquier reorganización de estructura y antes de cerrar sesión.
 El escáner nunca toca el data root de OneDrive.
 
 ## 9. Formato de respuesta
+
+> **Esta sección es copia literal de `SETTINGS_Y_PROMPTS_OPERACIONALES.md`
+> §1.2.6 ("Brevedad por forma, no por cantidad") y del marcador de fuente de la
+> misma sección.** La duplicación es deliberada: Claude Code lee este archivo
+> desde el disco del repo y no la knowledge base, así que la regla tiene que
+> estar donde se aplica. **Si ambas divergen, manda SETTINGS**, y la divergencia
+> es un pendiente a corregir aquí, no un criterio a interpretar. Verificable con
+> un diff entre este bloque y esa subsección.
 
 - **Forma por defecto: 3 líneas de prosa.** No "unas tres": tres. Si la
   respuesta cabe en una línea, va en una línea. El techo por palabras
@@ -427,7 +490,10 @@ El escáner nunca toca el data root de OneDrive.
   ejecutado EN ESTA SESIÓN>)` o `(hipótesis, verificar con: <comando>)`. Las
   cifras solo admiten recuento programático del mismo turno: contarlas a mano,
   heredarlas de un reporte anterior o recordarlas no son fuente. Fuera de esos
-  cuatro tipos el marcador es opcional.
+  cuatro tipos el marcador es opcional. Contrato completo en
+  `POLITICA_PROYECTO.md` §0.6 y `SETTINGS_Y_PROMPTS_OPERACIONALES.md` §1.2.6
+  (sin número de versión: la vigente es la de la knowledge base, citada por
+  transcripción de su línea de encabezado, SETTINGS §2.1).
   - *El marcador no cuenta contra los topes de líneas de esta sección.* Es
     parte de la afirmación, no prosa adicional. Recortarlo para caber en el
     tope es precisamente la falla que la regla existe para impedir.
@@ -443,4 +509,10 @@ El escáner nunca toca el data root de OneDrive.
   declararlo.
 - Español neutro latinoamericano, sin voseo. Sin rayas largas; usar
   paréntesis para incisos.
+
+## 10. Frontera de clases del proyecto
+
+Todo el proyecto es clase 1 (R). Si aparece un componente de clase 2, se
+declara aquí (componente, ruta, clase, lenguaje y convenciones) antes de
+escribir su primera línea.
 <!-- CANONICO_SLEP:FIN -->
