@@ -5,7 +5,7 @@
   "camara_origen": "C.Diputados",
   "fecha_ingreso": "2026-06-22",
   "tramitacion": {
-    "etapa_actual": "Primer trámite constitucional (C.Diputados)",
+    "etapa_actual": "Segundo trámite constitucional (Senado)",
     "estado": "En tramitación",
     "ley_numero": null,
     "tramites": [
@@ -64,6 +64,97 @@
         "etapa": "Primer trámite constitucional",
         "descripcion": "Oficio N°21.470. Comunica que la Cámara de Diputados acordó acceder a la solicitud para refundir los proyectos de ley correspondientes a los boletines Nos. 18.236-18 y 18.414-18.",
         "sesion": "/"
+      },
+      {
+        "fecha": "2026-09-02",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 297-374 que hace presente la urgencia Suma",
+        "sesion": "63/374"
+      },
+      {
+        "fecha": "2026-09-07",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 303-374 que retira y hace presente la urgencia Suma",
+        "sesion": "64/374"
+      },
+      {
+        "fecha": "2026-09-21",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 326-374 que retira y hace presente la urgencia Suma",
+        "sesion": "67/374"
+      },
+      {
+        "fecha": "2026-09-30",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 354-374 que retira y hace presente la urgencia Suma",
+        "sesion": "73/374"
+      },
+      {
+        "fecha": "2026-10-05",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 369-374 que retira y hace presente la urgencia Suma",
+        "sesion": "74/374"
+      },
+      {
+        "fecha": "2026-10-07",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión Mujeres y Equidad de Género.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-19",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 385-374 que retira y hace presente la urgencia Suma",
+        "sesion": "78/374"
+      },
+      {
+        "fecha": "2026-10-19",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .",
+        "sesion": "78/374"
+      },
+      {
+        "fecha": "2026-10-26",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Queda pendiente",
+        "sesion": "81/374"
+      },
+      {
+        "fecha": "2026-10-28",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular a la vez",
+        "sesion": "84/374"
+      },
+      {
+        "fecha": "2026-10-28",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio de ley a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-28",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Familia, Infancia y Adolescencia.",
+        "sesion": "74/374"
+      },
+      {
+        "fecha": "2026-10-28",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "La Sala acuerda que el proyecto pase a la Comisión de Mujer y Equidad de Género, una vez que sea despachado por la Comisión de Familia, Infancia y Adolescencia",
+        "sesion": "75/374"
       }
     ]
   },
@@ -122,13 +213,13 @@
   "votaciones": [],
   "materias": [],
   "metadatos": {
-    "corte": "2026-08-20",
-    "universo": "Los 464 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "corte": "2026-11-02",
+    "universo": "Los 651 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
     "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
     "cobertura_materias": false,
     "cobertura_ley": false,
     "cobertura_autoria": true,
     "tramites_descartados_por_corte": 0,
-    "generado": "2026-08-20T02:19:28"
+    "generado": "2026-11-02T21:04:28"
   }
 }
