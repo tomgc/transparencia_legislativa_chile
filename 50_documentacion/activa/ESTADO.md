@@ -9,7 +9,7 @@ maneja_sensibles: true
 tipo_pendiente: deuda_heredada
 sesion_abierta: false
 maquina: MacBook-Pro-de-Tomas.local
-commit_cierre: 1bc9d3e
+commit_cierre: d8ca21e
 traspaso_vigente: traspaso_cierre_v24.md
 cierre_incompleto: no
 insumos_verificados: 2026-09-17
