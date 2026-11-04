@@ -1,0 +1,167 @@
+{
+  "boletin": "16948-07",
+  "nombre": "Modifica el Código Penal para tipificar el reclutamiento, transporte y traslado, por medios no autorizados, de inmigrantes ilegales",
+  "tipo_iniciativa": "Moción",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2024-06-19",
+  "tramitacion": {
+    "etapa_actual": "Segundo trámite constitucional (Senado)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2024-06-19",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2024-07-02",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento",
+        "sesion": "46/372"
+      },
+      {
+        "fecha": "2026-06-22",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta oficio N°28/3/2026 de la Comisión de Constitución, mediante el cual solicita refundir los proyectos boletines N° 16948-07 y 18315-07. ACORDADO, con consulta al Ejecutivo respecto del boletín 18315-07.",
+        "sesion": "36/374"
+      },
+      {
+        "fecha": "2026-07-06",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 182-374 que retira y hace presente la urgencia Suma",
+        "sesion": "39/374"
+      },
+      {
+        "fecha": "2026-07-06",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta, Oficio de S.E. el Presidente de la República (N° 179-374), por el cual comunica que accede a la solicitud de refundir el proyecto de ley de su autoría, contenido en el boletín N° 18315-07, con el iniciado en moción, boletín N° 16948-07.",
+        "sesion": "39/374"
+      },
+      {
+        "fecha": "2026-07-20",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 210-374 que retira y hace presente la urgencia Suma",
+        "sesion": "45/374"
+      },
+      {
+        "fecha": "2026-08-03",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 224-374 que retira y hace presente la urgencia Suma",
+        "sesion": "49/374"
+      },
+      {
+        "fecha": "2026-08-17",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 263-374 que retira y hace presente la urgencia Suma",
+        "sesion": "57/374"
+      },
+      {
+        "fecha": "2026-08-31",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 280-374 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "61/374"
+      },
+      {
+        "fecha": "2026-09-07",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 301-374 que hace presente la urgencia Suma",
+        "sesion": "64/374"
+      },
+      {
+        "fecha": "2026-09-21",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 326-374 que retira y hace presente la urgencia Suma",
+        "sesion": "67/374"
+      },
+      {
+        "fecha": "2026-10-05",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Defensa Nacional.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-05",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .  (Constitución). Queda para Tabla.",
+        "sesion": "74/374"
+      },
+      {
+        "fecha": "2026-10-06",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular a la vez .",
+        "sesion": "75/374"
+      },
+      {
+        "fecha": "2026-10-06",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio de ley a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-06",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento",
+        "sesion": "65/374"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "90286",
+      "fecha": "2026-10-06T13:11:10",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Indicación renovada del diputado Marcos Barraza para agregar un inciso final nuevo al artículo 411 bis A del Código Penal, añadido por al artículo 1, numeral 2, del proyecto, del siguiente tenor: \n“Estará exento de responsabilidad penal quien realice las conductas descritas en este artículo con la exclusiva finalidad de auxiliar a la persona migrante frente a un peligro para su vida, salud o integridad física, trasladándola a un centro asistencial o a un lugar seguro, y sin formar parte de una organización destinada al tráfico de migrantes.”",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90285",
+      "fecha": "2026-10-06T13:09:43",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Indicación renovada del diputado Marcos Barraza para agregar un inciso nuevo al artículo 411 bis A del Código Penal, añadido por el artículo 1, numeral 2, del proyecto, del siguiente tenor: \n“El tribunal podrá rebajar la pena en un grado cuando el aporte del interviniente hubiere sido de menor entidad, ocasional y desvinculado de la organización o dirección del hecho.”",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90284",
+      "fecha": "2026-10-06T13:08:05",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": null,
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-10-26",
+    "universo": "Los 584 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-10-26T17:33:23"
+  }
+}
