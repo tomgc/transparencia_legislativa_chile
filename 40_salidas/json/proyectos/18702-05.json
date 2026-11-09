@@ -1,0 +1,298 @@
+{
+  "boletin": "18702-05",
+  "nombre": "Ley de Presupuestos para el Sector Público correspondiente al año 2027",
+  "tipo_iniciativa": "Mensaje",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2026-09-30",
+  "tramitacion": {
+    "etapa_actual": "Discusión Ley de Presupuesto en Cámara de Origen (C.Diputados)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2026-09-30",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-05",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión Especial Mixta de Presupuestos",
+        "sesion": "74/374"
+      },
+      {
+        "fecha": "2026-10-20",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta Ley de Presupuesto",
+        "descripcion": "Informe de comisión Segunda Subcomisión Mixta de Presupuestos .  PARTIDA 01 Presidencia de la República",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-20",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta Ley de Presupuesto",
+        "descripcion": "Informe de comisión Cuarta Subcomisión Mixta de Presupuestos .  PARTIDA 02 Congreso Nacional",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-20",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta Ley de Presupuesto",
+        "descripcion": "Informe de comisión Tercera Subcomisión Mixta de Presupuestos .  PARTIDA 03 Poder Judicial",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-20",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta Ley de Presupuesto",
+        "descripcion": "Informe de comisión Segunda Subcomisión Mixta de Presupuestos .  PARTIDA 04 Contraloría General de la República",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-20",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta Ley de Presupuesto",
+        "descripcion": "Informe de comisión Cuarta Subcomisión Mixta de Presupuestos .  PARTIDA 05 Ministerio del Interior",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-20",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta Ley de Presupuesto",
+        "descripcion": "Informe de comisión Tercera Subcomisión Mixta de Presupuestos .  PARTIDA 06 Ministerio de Relaciones Exteriores",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-20",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta Ley de Presupuesto",
+        "descripcion": "Informe de comisión Primera Subcomisión Mixta de Presupuestos.  PARTIDA 07 Ministerio de Economía, Fomento y Turismo",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-20",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta Ley de Presupuesto",
+        "descripcion": "Informe de comisión Primera Subcomisión Mixta de Presupuestos.  PARTIDA 08 Ministerio de Hacienda",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-20",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta Ley de Presupuesto",
+        "descripcion": "Informe de comisión Cuarta Subcomisión Mixta de Presupuestos .  PARTIDA 09 Ministerio de Educación",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-20",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta Ley de Presupuesto",
+        "descripcion": "Informe de comisión Tercera Subcomisión Mixta de Presupuestos .  PARTIDA 10 Ministerio de Justicia y Derechos Humanos",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-20",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta Ley de Presupuesto",
+        "descripcion": "Informe de comisión Segunda Subcomisión Mixta de Presupuestos .  PARTIDA 11 Ministerio de Defensa Nacional",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-20",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta Ley de Presupuesto",
+        "descripcion": "Informe de comisión Quinta Subcomisión Mixta de Presupuestos .  PARTIDA 12 Ministerio de Obras Públicas",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-20",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta Ley de Presupuesto",
+        "descripcion": "Informe de comisión Quinta Subcomisión Mixta de Presupuestos .  PARTIDA 13 Ministerio de Agricultura",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-20",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta Ley de Presupuesto",
+        "descripcion": "Informe de comisión Cuarta Subcomisión Mixta de Presupuestos .  PARTIDA 14 Ministerio de Bienes Nacionales",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-20",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta Ley de Presupuesto",
+        "descripcion": "Informe de comisión Tercera Subcomisión Mixta de Presupuestos .  PARTIDA 15 Ministerio del Trabajo y Previsión social",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-20",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta Ley de Presupuesto",
+        "descripcion": "Informe de comisión Tercera Subcomisión Mixta de Presupuestos .  PARTIDA 16 Ministerio de Salud",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-20",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta Ley de Presupuesto",
+        "descripcion": "Informe de comisión Quinta Subcomisión Mixta de Presupuestos .  PARTIDA 17 Ministerio de Minería",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-20",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta Ley de Presupuesto",
+        "descripcion": "Informe de comisión Cuarta Subcomisión Mixta de Presupuestos .  PARTIDA 18 Ministerio de Vivienda y Urbanismo",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-20",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta Ley de Presupuesto",
+        "descripcion": "Informe de comisión Quinta Subcomisión Mixta de Presupuestos .  PARTIDA 19 Ministerio de Transportes y Telecomunicaciones",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-20",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta Ley de Presupuesto",
+        "descripcion": "Informe de comisión Segunda Subcomisión Mixta de Presupuestos .  PARTIDA 20 Ministerio Secretaría General de Gobierno",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-20",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta Ley de Presupuesto",
+        "descripcion": "Informe de comisión Primera Subcomisión Mixta de Presupuestos.  PARTIDA 21 Ministerio de Desarrollo Social y Familia",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-20",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta Ley de Presupuesto",
+        "descripcion": "Informe de comisión Segunda Subcomisión Mixta de Presupuestos .  PARTIDA 22 Ministerio Secretaría General de la Presidencia de la República",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-20",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta Ley de Presupuesto",
+        "descripcion": "Informe de comisión Tercera Subcomisión Mixta de Presupuestos .  PARTIDA 23 Ministerio Público",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-20",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta Ley de Presupuesto",
+        "descripcion": "Informe de comisión Quinta Subcomisión Mixta de Presupuestos .  PARTIDA 24 Ministerio de Energía",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-20",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta Ley de Presupuesto",
+        "descripcion": "Informe de comisión Segunda Subcomisión Mixta de Presupuestos .  PARTIDA 25 Ministerio del Medio Ambiente",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-20",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta Ley de Presupuesto",
+        "descripcion": "Informe de comisión Segunda Subcomisión Mixta de Presupuestos .  PARTIDA 26 Ministerio del Deporte",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-20",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta Ley de Presupuesto",
+        "descripcion": "Informe de comisión Primera Subcomisión Mixta de Presupuestos.  PARTIDA 27 Ministerio de la Mujer y la equidad de genero",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-20",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta Ley de Presupuesto",
+        "descripcion": "Informe de comisión Cuarta Subcomisión Mixta de Presupuestos .  PARTIDA 28 Servicio Electoral",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-20",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta Ley de Presupuesto",
+        "descripcion": "Informe de comisión Cuarta Subcomisión Mixta de Presupuestos .  PARTIDA 29 Ministerio de las Culturas, las Artes y el Patrimonio",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-20",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta Ley de Presupuesto",
+        "descripcion": "Informe de comisión Cuarta Subcomisión Mixta de Presupuestos .  PARTIDA 30 Ministerio de Ciencia, Tecnología, Conocimiento e Innovación.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-20",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta Ley de Presupuesto",
+        "descripcion": "Informe de comisión Cuarta Subcomisión Mixta de Presupuestos .  PARTIDA 31 Gobiernos Regionales",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-20",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta Ley de Presupuesto",
+        "descripcion": "Informe de comisión Tercera Subcomisión Mixta de Presupuestos .  PARTIDA 32 Ministerio de Seguridad Pública",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-20",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta Ley de Presupuesto",
+        "descripcion": "Informe de comisión Primera Subcomisión Mixta de Presupuestos.  PARTIDA 50 Tesoro Publico",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-11-09",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta Ley de Presupuesto",
+        "descripcion": "Informe de comisión Especial Mixta de Presupuestos.",
+        "sesion": "/"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "90885",
+      "fecha": "2026-11-09T18:13:34",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": null,
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90884",
+      "fecha": "2026-11-09T18:12:35",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": null,
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-11-09",
+    "universo": "Los 673 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-11-09T21:46:29"
+  }
+}

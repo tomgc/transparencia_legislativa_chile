@@ -1,0 +1,142 @@
+{
+  "boletin": "18644-14",
+  "nombre": "Modifica la Ley General de Urbanismo y Construcciones, con el objeto facilitar el emplazamiento y construcción de edificaciones destinadas a los fines propios de Bomberos de Chile, y establece un nuevo período para la regularización de edificaciones preexistentes",
+  "tipo_iniciativa": "Mensaje",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2026-09-21",
+  "tramitacion": {
+    "etapa_actual": "Segundo trámite constitucional (Senado)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2026-09-11",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .  Incluye IF N° 221/07.09.2026.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-09-11",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Texto del Mensaje",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-09-21",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de  Vivienda, Desarrollo Urbano y Bienes Nacionales; y a la de Emergencia, Desastres y Bomberos.",
+        "sesion": "67/374"
+      },
+      {
+        "fecha": "2026-09-21",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "A petición del diputado Fernando Ugarte, la Sala acordó omitir el trámite a la Comisión de Vivienda.",
+        "sesion": "67/374"
+      },
+      {
+        "fecha": "2026-09-21",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 324-374 que hace presente la urgencia Simple",
+        "sesion": "67/374"
+      },
+      {
+        "fecha": "2026-09-21",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio N° 21581. Comunica a la Comisión de Emergencia, Desastres y Bomberos el acuerdo de la Sala en orden  a remitirle en calidad de única comisión el proyecto asignado originalmente a la Comisión de Vivienda, Desarrollo Urbano y Bienes Nacionales, como primera Comisión, y a esa comisión como segunda.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-09-29",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta, Oficio de la Comisión de Vivienda, Desarrollo Urbano y Bienes Nacionales, por el cual solicita recabar el acuerdo de la Sala para que le sea remitido el proyecto, una vez despachado por la Comisión de Emergencia, Desastres y Bomberos (187/14/2026) RECHAZADO.",
+        "sesion": "72/374"
+      },
+      {
+        "fecha": "2026-09-29",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio N°21.599. Comunica que la Cámara de Diputados no accedió a la solicitud de la Comisión de Vivienda, Desarrollo Urbano y Bienes Nacionales para que se le remita el proyecto una vez despachado por la Comisión de Emergencia, Desastres y Bomberos.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-07",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 379-374 que retira y hace presente la urgencia Suma",
+        "sesion": "77/374"
+      },
+      {
+        "fecha": "2026-10-20",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Indicación del Ejecutivo (198-374)",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-23",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Gobierno Interior Nacionalidad Ciudadanía y Regionalización.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-26",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .",
+        "sesion": "81/374"
+      },
+      {
+        "fecha": "2026-10-26",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 405-374 que hace presente la urgencia Suma",
+        "sesion": "81/374"
+      },
+      {
+        "fecha": "2026-11-04",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular a la vez .",
+        "sesion": "88/374"
+      },
+      {
+        "fecha": "2026-11-04",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio de ley a Cámara Revisora .",
+        "sesion": "/"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "90852",
+      "fecha": "2026-11-04T13:29:16",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Votación general",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-11-09",
+    "universo": "Los 673 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-11-09T21:46:29"
+  }
+}

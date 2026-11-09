@@ -5,7 +5,7 @@
   "camara_origen": "C.Diputados",
   "fecha_ingreso": "2023-10-03",
   "tramitacion": {
-    "etapa_actual": "Comisión Mixta por rechazo de modificaciones (Senado)",
+    "etapa_actual": "Disc. informe C.Mixta por rechazo de modif. C. Revisora (Senado)",
     "estado": "En tramitación",
     "ley_numero": null,
     "tramites": [
@@ -855,11 +855,62 @@
         "etapa": "Comisión Mixta por rechazo de modificaciones",
         "descripcion": "Cuenta del Oficio N° 21.486, de la Cámara de Diputados, por el cual reemplaza a diputado que indica de los integrantes de la Comisión Mixta",
         "sesion": "50/374"
+      },
+      {
+        "fecha": "2026-10-21",
+        "camara": "Senado",
+        "etapa": "Comisión Mixta por rechazo de modificaciones",
+        "descripcion": "Informe de Comisión Mixta Comisión Mixta para Boletín Nº 16335-14.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-26",
+        "camara": "C.Diputados",
+        "etapa": "Disc. informe C.Mixta por rechazo de modific. en C. Origen",
+        "descripcion": "Cuenta informe Comisión Mixta .",
+        "sesion": "81/374"
+      },
+      {
+        "fecha": "2026-10-28",
+        "camara": "C.Diputados",
+        "etapa": "Disc. informe C.Mixta por rechazo de modific. en C. Origen",
+        "descripcion": "Cuenta del Mensaje 424-374 que hace presente la urgencia Discusión inmediata",
+        "sesion": "84/374"
+      },
+      {
+        "fecha": "2026-11-03",
+        "camara": "C.Diputados",
+        "etapa": "Disc. informe C.Mixta por rechazo de modific. en C. Origen",
+        "descripcion": "Discusión informe de Comisión Mixta . Aprobado .",
+        "sesion": "87/374"
+      },
+      {
+        "fecha": "2026-11-03",
+        "camara": "C.Diputados",
+        "etapa": "Disc. informe C.Mixta por rechazo de modific. en C. Origen",
+        "descripcion": "Cuenta del Mensaje 440-374 que hace presente la urgencia Discusión inmediata",
+        "sesion": "87/374"
+      },
+      {
+        "fecha": "2026-11-03",
+        "camara": "C.Diputados",
+        "etapa": "Disc. informe C.Mixta por rechazo de modific. en C. Origen",
+        "descripcion": "Oficio aprobación de informe de Comisión Mixta a C. Revisora .",
+        "sesion": "/"
       }
     ]
   },
   "autores": [],
   "votaciones": [
+    {
+      "votacion_id": "90815",
+      "fecha": "2026-11-03T13:06:33",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Comisión Mixta",
+      "articulo": "Proposición de la Comisión Mixta recaída en el proyecto de ley, originado en mensaje, que “Regula la prevención y mitigación de incendios forestales, y otras materias que indica”.\nSe hace presente que el artículo 38, que ha pasado a ser 47, y el número 4 del artículo 39, que ha pasado a ser 48, requieren para su aprobación del voto favorable de 78 diputadas y diputados, por tratarse de normas de rango orgánico constitucional.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
     {
       "votacion_id": "87697",
       "fecha": "2026-03-03T13:17:12",
@@ -1007,13 +1058,13 @@
   ],
   "materias": [],
   "metadatos": {
-    "corte": "2026-08-20",
-    "universo": "Los 464 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "corte": "2026-11-09",
+    "universo": "Los 673 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
     "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
     "cobertura_materias": false,
     "cobertura_ley": false,
     "cobertura_autoria": false,
     "tramites_descartados_por_corte": 0,
-    "generado": "2026-08-20T02:19:27"
+    "generado": "2026-11-09T21:46:27"
   }
 }

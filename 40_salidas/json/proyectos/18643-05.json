@@ -1,0 +1,627 @@
+{
+  "boletin": "18643-05",
+  "nombre": "Reforma al mercado de capitales y financiamiento de la casa propia",
+  "tipo_iniciativa": "Mensaje",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2026-09-09",
+  "tramitacion": {
+    "etapa_actual": "Segundo trámite constitucional (Senado)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2026-09-09",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .  Incluye IF N° 225/09.09.2026.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-09-09",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Texto del Mensaje",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-09-09",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Hacienda.",
+        "sesion": "66/374"
+      },
+      {
+        "fecha": "2026-09-09",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta, Informe de impacto regulatorio relativo al proyecto.",
+        "sesion": "66/374"
+      },
+      {
+        "fecha": "2026-09-09",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 318-374 que hace presente la urgencia Suma",
+        "sesion": "66/374"
+      },
+      {
+        "fecha": "2026-09-21",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 326-374 que retira y hace presente la urgencia Suma",
+        "sesion": "67/374"
+      },
+      {
+        "fecha": "2026-10-05",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 369-374 que retira y hace presente la urgencia Suma",
+        "sesion": "74/374"
+      },
+      {
+        "fecha": "2026-10-19",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Indicación del Ejecutivo, N° 193-374",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-19",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 385-374 que retira y hace presente la urgencia Suma",
+        "sesion": "78/374"
+      },
+      {
+        "fecha": "2026-10-21",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 397-374 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "80/374"
+      },
+      {
+        "fecha": "2026-10-21",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Indicación del Ejecutivo, N° 203-374.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-26",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Oficio N° 49/5/2026, de la Comisión de Hacienda, consulta a la Corte Suprema su opinión sobre determinadas disposiciones del proyecto.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-26",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Primer informe de comisión de Hacienda.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-26",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de primer informe de comisión .",
+        "sesion": "81/374"
+      },
+      {
+        "fecha": "2026-10-27",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "S.E. el Presidente de la República renueva indicaciones al proyecto. (221-374).",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-27",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Discusión general . Aprobado en general y particular a la vez .",
+        "sesion": "82/374"
+      },
+      {
+        "fecha": "2026-10-27",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio de ley a Cámara Revisora .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-10-28",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Hacienda",
+        "sesion": "74/374"
+      },
+      {
+        "fecha": "2026-10-28",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta del Mensaje 431-374 que retira y hace presente la urgencia Discusión inmediata",
+        "sesion": "74/374"
+      },
+      {
+        "fecha": "2026-11-04",
+        "camara": "Senado",
+        "etapa": "Segundo trámite constitucional",
+        "descripcion": "Cuenta oficio N° 300-2026 de la Corte Suprema.",
+        "sesion": "88/374"
+      }
+    ]
+  },
+  "autores": [],
+  "votaciones": [
+    {
+      "votacion_id": "90706",
+      "fecha": "2026-10-27T19:24:44",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Votación particular del artículo trigésimo primero transitorio del proyecto, cuya votación separada ha sido solicitada por las diputadas Irací Hassler y Daniela Serrano, y que consta en la página 823 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90705",
+      "fecha": "2026-10-27T19:23:22",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Votación particular del artículo vigésimo segundo transitorio del proyecto, aprobado por la Comisión de Hacienda, cuya votación separada ha sido solicitada por las diputadas Irací Hassler y Daniela Serrano, que consta en las páginas 813 a 814 del comparado; y que requiere para su aprobación del voto favorable de 78 diputadas y diputados por tratarse de una norma de quorum calificado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90704",
+      "fecha": "2026-10-27T19:22:14",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Votación particular del artículo décimo tercero transitorio del proyecto, aprobado por la Comisión de Hacienda, cuya votación separada ha sido solicitada por las diputadas Irací Hassler y Daniela Serrano, y que consta en las páginas 802 a 806 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90703",
+      "fecha": "2026-10-27T19:20:51",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Votación particular del artículo undécimo transitorio del proyecto, aprobado por la Comisión de Hacienda, cuya votación separada ha sido solicitada por las diputadas Irací Hassler y Daniela Serrano, y que consta en las páginas 800 a 802 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90702",
+      "fecha": "2026-10-27T19:20:01",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Votación particular del artículo vigésimo tercero del proyecto, cuya votación separada ha sido solicitada por las diputadas Irací Hassler y Daniela Serrano; y por el diputado Jorge Brito y otros señores y señoras diputadas; y que consta en las páginas 770 a 789 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90701",
+      "fecha": "2026-10-27T19:18:39",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Votación particular del artículo 8, contenido en el artículo vigésimo segundo del proyecto, cuya votación separada ha sido solicitada por el diputado Jorge Brito y otras señoras y señores diputados; y que consta en las páginas 754 a 758 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90700",
+      "fecha": "2026-10-27T19:17:33",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Indicación renovada del diputado Jorge Brito, rechazada en la Comisión de Hacienda, para modificar el artículo vigésimo (página 710 a 728 del comparado) en el siguiente sentido:\nPara reemplazar la letra b) del número 2) por una expresión del siguiente tenor:\n\"b) Para agregar un nuevo inciso primero, en la letra c) del número 21, reordenando correlativamente el orden de los incisos, del siguiente tenor:\n“Las comisiones, remuneraciones o gastos cobrados por vehículos de inversión, mandatarios, administradores u otros intermediarios no podrán ser cargo de los Fondos de Pensiones, debiendo ser soportados por la Administradora sin variar la comisión, tanto para vehículos a nivel nacional como internacional.”.”\n(Requiere para su aprobación del voto favorable de 78 diputadas y diputados por tratarse de una norma de quorum calificado).",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90699",
+      "fecha": "2026-10-27T19:15:42",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Votación particular de las letras c) y d) del numeral 15 del artículo décimo sexto del mensaje, con la siguiente indicación renovada del Ejecutivo:\nIndicación al artículo décimo sexto del mensaje, numeral 15 (páginas 659 a 660 del comparado), y que la Comisión de Hacienda sugiere rechazar, modificándolo de la siguiente forma: \na)\tPara eliminar, en la letra c), la expresión “emitidas y con derecho a voto”.\nb)\tPara reemplazar la letra d) por la siguiente: \n        d) Suprímase los números 15 y 16.”.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90698",
+      "fecha": "2026-10-27T19:13:55",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Votación particular del literal a) del numeral 15 del artículo décimo sexto del proyecto, en los términos propuestos por el mensaje, y que la Comisión de Hacienda sugiere rechazar; cuya votación separada ha sido solicitada por el diputado Benjamín Moreno, y que consta en la página 657 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90697",
+      "fecha": "2026-10-27T19:12:39",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Votación particular del numeral 10 del artículo décimo sexto del proyecto, en los términos propuestos por el mensaje, y que la Comisión de Hacienda sugiere rechazar, cuya votación separada ha sido solicitada por el diputado Benjamín Moreno, y que consta en las páginas 636 a 637 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90696",
+      "fecha": "2026-10-27T19:11:18",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Votación particular del literal b) del numeral 9 del artículo décimo sexto del proyecto, en los términos propuestos por el mensaje, y que la Comisión de Hacienda sugiere rechazar, cuya votación separada ha sido solicitada por el diputado Benjamín Moreno, y que consta en las páginas 633 a 634 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90695",
+      "fecha": "2026-10-27T19:10:08",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Votación particular del numeral 1 del artículo décimo sexto del proyecto, en los términos propuestos por el mensaje, y que la Comisión de Hacienda sugiere rechazar, cuya votación separada ha sido solicitada por el diputado Benjamín Moreno, y que consta en las páginas 616 a 619 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90694",
+      "fecha": "2026-10-27T19:08:45",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Numeral 6 del artículo décimo tercero del proyecto, cuya votación separada ha sido solicitada por las diputadas Irací Hassler y Daniela Serrano, que consta en las páginas 559 a 560 del comparado; y que requiere para su aprobación del voto favorable de 78 diputadas y diputados por tratarse de una norma de quorum calificado.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90693",
+      "fecha": "2026-10-27T19:07:33",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Numeral 6 del artículo décimo tercero del proyecto, con la indicación renovada; y que requiere para su aprobación del voto favorable de 78 diputadas y diputados por tratarse de una norma de quorum calificado.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90692",
+      "fecha": "2026-10-27T19:06:25",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Admisibilidad de una indicación de las diputadas Irací Hassler y Daniela Serrano, presentada en la Comisión de Hacienda, que elimina la frase “no serán aplicables la inembargabilidad” en el numeral 6 del artículo décimo tercero del proyecto.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90691",
+      "fecha": "2026-10-27T19:04:55",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Admisibilidad de una indicación del diputado Jorge Brito, para agregar un nuevo numeral al artículo décimo tercero del proyecto,  del siguiente tenor: \n\n“X.- Incorpórase en el decreto ley N.º 3.500, de 1980, el siguiente artículo 39 bis, nuevo:\n“Artículo 39 bis.- Cuando la Superintendencia de Pensiones haya advertido formal y fundadamente a una Administradora sobre riesgos relevantes asociados a determinadas operaciones o inversiones, y esta no adopte medidas razonables para prevenirlos o mitigarlos, será civilmente responsable, con cargo a su propio patrimonio, de los perjuicios que dicha omisión cause a los Fondos de Pensiones o a sus afiliados.\nLa responsabilidad será determinada por los tribunales de justicia, considerando las advertencias efectuadas por la Superintendencia, las medidas adoptadas por la Administradora y la relación causal entre su conducta y los perjuicios ocasionados.\nLas indemnizaciones que correspondan deberán destinarse a la restitución de los recursos de los Fondos de Pensiones o de las cuentas individuales afectadas, según corresponda.”",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90690",
+      "fecha": "2026-10-27T19:00:37",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Numeral 2 del artículo décimo tercero del proyecto, cuya votación separada ha sido solicitada por las diputadas Irací Hassler y Daniela Serrano, que consta en las páginas 541 a 542 del comparado; y que requiere para su aprobación del voto favorable de 78 diputadas y diputados por tratarse de una norma de quorum calificado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90689",
+      "fecha": "2026-10-27T18:58:27",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Numeral 2 del artículo décimo tercero del proyecto, con la indicación renovada; y que requiere para su aprobación del voto favorable de 78 diputadas y diputados por tratarse de una norma de quorum calificado.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90688",
+      "fecha": "2026-10-27T18:56:59",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Admisibilidad de una indicación de las diputadas Irací Hassler y Daniela Serrano, presentada en la Comisión de Hacienda, que elimina la frase “cesará la inembargabilidad” en el numeral 2 del artículo décimo tercero del proyecto.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90687",
+      "fecha": "2026-10-27T18:54:18",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Nuevo numeral incorporado al artículo décimo tercero del proyecto; y que requiere para su aprobación del voto favorable de 78 diputadas y diputados por tratarse de una norma de quorum calificado.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90686",
+      "fecha": "2026-10-27T18:53:17",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Admisibilidad de una indicación del diputado Jorge Brito, para agregar un nuevo numeral al artículo décimo tercero del proyecto, del siguiente tenor: \n“X.- Agrégase en el artículo 29 del decreto ley N.º 3.500, de 1980, el siguiente inciso final:\n“Sin perjuicio de las demás disposiciones de este artículo, las Administradoras de Fondos de Pensiones estarán sujetas a un mecanismo de corresponsabilidad por desempeño, que vinculará una proporción de las comisiones percibidas a los resultados de la gestión de los recursos previsionales, evaluados en el largo plazo y ajustados por riesgo.\nCuando el desempeño de un Fondo resulte persistentemente inferior al de su cartera de referencia, la Administradora deberá reintegrar, con cargo exclusivo a su patrimonio, la proporción de las comisiones que corresponda. Los montos reintegrados serán abonados a las cuentas individuales de los afiliados afectados.\nLa Superintendencia de Pensiones establecerá, mediante norma de carácter general, los parámetros de evaluación, la proporción y forma de los reintegros y los procedimientos para su aplicación.”.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90685",
+      "fecha": "2026-10-27T18:49:14",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Admisibilidad de una indicación de los diputados  (as) Carlos Bianchi, Jorge Brito e Irací Hassler, presentada en la Comisión de Hacienda, que agrega un artículo duodécimo nuevo al proyecto, del siguiente tenor:\n“Agréguese un nuevo artículo 473 bis en el Código Penal , del siguiente tenor:\nArt. 473 bis. Será sancionado con la pena de presidio mayor en su grado mínimo el que suministre valores de cualquier manera que sea a un interés que exceda al máximo que la ley permita estipular y que para su cobro incurra en alguna de las siguientes hipótesis:\nN°1: Utilice violencia, amenaza o intimidación en contra del deudor o su familia;\nN°2: Obligue al deudor a la suscripción de documentos u otras acciones de disposición patrimonial, valiéndose de alguna de las vías señaladas en la circunstancia precedente; o\nN°3: Se valga de engaño o se apropie ilícitamente de bienes del deudor o de su familia.\nSe impondrá la pena de presidio mayor en su grado medio si se cometiera este delito en forma habitual o masiva, o sirva para financiar una asociación ilícita.”.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90683",
+      "fecha": "2026-10-27T18:45:27",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Admisibilidad de una indicación de los diputados (as) Barraza, Cucumides, Cuello, Gatica, Gazmuri, Sofía González, Hassler, Pizarro, Salinas y Serrano, presentada en la Comisión de Hacienda, para intercalar el siguiente numeral 9, nuevo, al artículo décimo primero del proyecto:\n“9. Modifícase el artículo 6 en el siguiente sentido:\na) Intercálase, a continuación del inciso segundo, el siguiente inciso tercero, nuevo, pasando los actuales incisos tercero, cuarto y quinto a ser incisos cuarto, quinto y sexto, respectivamente:\n‘Tratándose de lo dispuesto en la letra a) del inciso anterior, si los emisores detectaren operaciones que no correspondan al comportamiento habitual del usuario precedidas por un cambio de clave, deberán realizar un bloqueo preventivo temporal de los canales digitales y medios de pago afectados, manteniendo el acceso del titular a sus fondos por canales presenciales. La reactivación solo procederá previa verificación de identidad del titular por un mecanismo independiente del dispositivo desde el cual se originaron las operaciones, el que podrá ser presencial o el que determine la Comisión mediante la norma del inciso siguiente. El emisor deberá informar de inmediato al titular del bloqueo y del procedimiento de reactivación, por un medio seguro y distinto del canal afectado.’.\nb) Sustitúyese, en el actual inciso tercero, que ha pasado a ser cuarto, la expresión ‘inciso precedente’ por ‘inciso segundo’.”.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90682",
+      "fecha": "2026-10-27T18:41:21",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Admisibilidad de una indicación de los diputados (as) Barraza, Cucumides, Cuello, Gatica, Gazmuri, Sofía González, Hassler, Pizarro, Salinas y Serrano, presentada en la Comisión de Hacienda, para intercalar el siguiente numeral 7, nuevo, al artículo décimo primero del proyecto:\n“7. Agrégase, en el artículo 5 ter, el siguiente inciso final:\n‘Las presunciones establecidas en este artículo no tendrán lugar si el emisor no acompañare, en la solicitud a que se refiere el artículo 5° bis o en la demanda, según corresponda, y respecto de cada operación reclamada, un informe técnico suscrito por quien lo elabore, que lo individualice con su nombre y cargo, y que dé cuenta del cumplimiento de los requisitos y estándares que establezca la Comisión para el Mercado Financiero conforme al inciso cuarto del artículo 6. Dicho informe deberá incorporar, a lo menos: a) los registros contemporáneos de la dirección de protocolo de internet (IP) y del dispositivo de origen; b) los factores de autenticación empleados y su enrolamiento; c) el contenido desplegado al usuario al requerirse su aprobación; d) las alertas generadas o la constancia de que no se generaron; y e) los límites y controles aplicables al canal utilizado, establecidos conforme a la letra d) del inciso segundo del artículo 6°’.”.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90681",
+      "fecha": "2026-10-27T18:37:52",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Votación particular del numeral 3 del artículo décimo del proyecto, cuya votación separada ha sido solicitada por las diputadas Irací Hassler y Daniela Serrano; y por el diputado Jorge Brito y otros señores y señoras diputadas; y que consta en las páginas 492 a 494 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90680",
+      "fecha": "2026-10-27T18:36:34",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Votación de la indicación renovada de las diputadas Hassler y Serrano, para intercalar un nuevo numeral al artículo décimo del proyecto, del siguiente tenor: \n\"x. Introduzcase un Artículo 7° nuevo, reordenando los demás, del siguiente tenor:\n\"Artículo 7°. - En el caso de las operaciones crediticias por montos inferiores a 25 unidades de fomento, las personas naturales solicitantes de créditos podrán presentar de manera voluntaria y complementaria, a los Bancos comerciales e instituciones financieras acreditadas, un \"Plan de inversión de Microcrédito\", que contenga una propuesta o proyecto a realizar para generar rendimiento o frutos a partir del monto del crédito solicitado.\nAnte el cabal cumplimiento copulativo del Plan de inversión propuesto y del pago íntegro sin mora del crédito pactado, el Banco o institución financiera deberá, a solicitud del usuario, emitir un Certificado de \"Yo Cumplo\" que contendrá la afirmación del Banco o institución correspondiente, de que el usuario cumplió con todos los términos del crédito pactado, omitiendo cualquier información adicional protegida por la Ley 21.719 sobre Protección de Datos Personales. Este Certificado será a título del usuario y podrá utilizarlo como antecedentes de referencia crediticia para posteriores solicitudes de créditos por montos bajo las 25 unidades de fomento, que las instituciones financieras deberán considerar adicionalmente a sus análisis de riesgo y solvencia.\".”.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90679",
+      "fecha": "2026-10-27T18:34:16",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Votación particular del numeral 24 del artículo noveno del proyecto, cuya votación separada ha sido solicitada por las diputadas Irací Hassler y Daniela Serrano; y por el diputado Jorge Brito y otros señores y señoras diputadas, y que consta en las páginas 454 a 468 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90678",
+      "fecha": "2026-10-27T18:32:54",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Votación particular del numeral 23 del artículo noveno del proyecto, cuya votación separada ha sido solicitada por las diputadas Irací Hassler y Daniela Serrano; y por el diputado Jorge Brito y otros señores y señoras diputadas, y que consta en las páginas 438 a 444 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90677",
+      "fecha": "2026-10-27T18:32:01",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Votación particular del numeral 22 del artículo noveno del proyecto, cuya votación separada ha sido solicitada por las diputadas Irací Hassler y Daniela Serrano, y que consta en las páginas 436 a 437 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90676",
+      "fecha": "2026-10-27T18:30:27",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Votación particular del numeral 4 del artículo octavo del proyecto, cuya votación separada ha sido solicitada por el diputado Jorge Brito y otros señores y señoras diputadas, y que consta en las páginas 356 a 375 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90675",
+      "fecha": "2026-10-27T18:29:31",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Votación particular del artículo séptimo del proyecto, cuya votación separada ha sido solicitada por el diputado Jorge Brito y otros señores y señoras diputadas, y que consta en las páginas 339 a 350 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90674",
+      "fecha": "2026-10-27T18:28:29",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Votación particular del artículo sexto del proyecto, aprobado por la Comisión de Hacienda; cuya votación separada ha sido solicitada por las diputadas Irací Hassler y Daniela Serrano; y por el diputado Jorge Brito y otros señores y señoras diputadas, y que consta en las páginas 333 a 335 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90673",
+      "fecha": "2026-10-27T18:27:22",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Votación particular del numeral 11 del artículo quinto del proyecto, aprobado por la Comisión de Hacienda; cuya votación separada ha sido solicitada por las diputadas Irací Hassler y Daniela Serrano, y que consta en las páginas 303 a 308 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90672",
+      "fecha": "2026-10-27T18:26:32",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Votación particular del numeral 10 del artículo quinto del proyecto, aprobado por la Comisión de Hacienda; cuya votación separada ha sido solicitada por las diputadas Irací Hassler y Daniela Serrano, y que consta en las páginas 268 a 299 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90671",
+      "fecha": "2026-10-27T18:25:23",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Votación particular del numeral 9 del artículo quinto del proyecto, aprobado por la Comisión de Hacienda; cuya votación separada ha sido solicitada por las diputadas Irací Hassler y Daniela Serrano, y que consta en las páginas 253 a 261 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90670",
+      "fecha": "2026-10-27T18:24:17",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Votación particular del artículo cuarto del proyecto, cuya votación separada ha sido solicitada por las diputadas Irací Hassler y Daniela Serrano; y el diputado Jorge Brito y otras señoras y señores diputados, y que consta en las páginas 149 a 150 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90669",
+      "fecha": "2026-10-27T18:23:13",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Votación particular del artículo 29 contenido en el artículo tercero del proyecto, en los términos propuestos por la Comisión de Hacienda.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90668",
+      "fecha": "2026-10-27T18:22:14",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Admisibilidad de una indicación de las diputadas Irací Hassler y Daniela Serrano, presentada en la Comisión de Hacienda, para incorporar un inciso final nuevo al artículo 29 contenido en el artículo tercero del proyecto (página 145 del comparado), del siguiente tenor:\n\"Sin perjuicio de lo anterior, una vez que las ventas anuales del emisor superen las 300.000 unidades de fomento durante dos años tributarios consecutivos, se entenderán como grandes empresas, pasando del segmento Junior al segmento general de la Bolsa.\".",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90667",
+      "fecha": "2026-10-27T18:18:35",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Admisibilidad de una indicación de los diputados (as) Irací Hassler y Juan Santana, presentada en la Comisión de Hacienda, para incorporar un nuevo artículo tercero al proyecto.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90666",
+      "fecha": "2026-10-27T18:10:26",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Votación particular del artículo 12 contenido en el artículo segundo del proyecto, en los términos propuestos por la Comisión de Hacienda.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90665",
+      "fecha": "2026-10-27T18:09:17",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Admisibilidad de una indicación de los diputados Jorge Brito, Irací Hassler y Daniela Serrano, presentada en la Comisión de Hacienda, que modifica el artículo 12 contenido en el artículo segundo del proyecto, en el siguiente sentido: \n\na) Para agregar, al final del inciso tercero, a continuación del punto final que pasa a ser seguido, la siguiente oración: “Con todo, el monto de la bonificación no podrá exceder de 90 unidades de fomento.”.\nb) Para reemplazar en el inciso tercero, el guarismo “6.000” por “4.000”.\nc) Para reemplazar, en el inciso séptimo, la expresión “del tres por ciento del valor señalado en el inciso tercero» por «del monto señalado en la oración final del inciso tercero”.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90664",
+      "fecha": "2026-10-27T18:07:08",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Votación particular del literal h) del artículo 6 contenido en el artículo segundo del proyecto; cuya votación separada ha sido solicitada por las diputadas Irací Hassler y Daniela Serrano, que consta en la página 54 del comparado; y que requiere para su aprobación del voto favorable de 78 diputadas y diputados por tratarse de una norma de quorum calificado.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90663",
+      "fecha": "2026-10-27T18:05:55",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Votación particular del artículo 6 contenido en el artículo segundo del proyecto (con la salvedad de su literal h), cuya votación separada ha sido solicitada por el diputado Juan Marcelo Valenzuela, y que consta en las páginas 51 a 55 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90662",
+      "fecha": "2026-10-27T18:04:49",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Votación particular del literal f) del artículo 5 contenido en el artículo segundo del proyecto, cuya votación separada ha sido solicitada por las diputadas Irací Hassler y Daniela Serrano; por la diputada Flor Waisse; por el diputado Carlos Bianchi; y por el diputado Jorge Brito y otras señoras y señores diputados, que consta en las páginas 47 a 48 del comparado; y que requiere para su aprobación del voto favorable de 78 diputadas y diputados por tratarse de una norma de quorum calificado.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90661",
+      "fecha": "2026-10-27T18:03:31",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Votación particular del artículo 5 contenido en el artículo segundo del proyecto (con la salvedad de su literal f), cuya votación separada ha sido solicitada por el diputado Juan Marcelo Valenzuela, y que consta en las páginas 45 a 51 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90660",
+      "fecha": "2026-10-27T18:01:33",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Votación particular del artículo segundo del proyecto (con la salvedad de sus artículos 5, 6 y 12), cuya votación separada ha sido solicitada por el diputado Jorge Brito y otras señoras y señores diputados, y que consta en las páginas 37 a 91 del comparado.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90658",
+      "fecha": "2026-10-27T18:00:03",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Admisibilidad de una indicación de los diputados Jorge Brito, Irací Hassler y Daniela Serrano, presentada en la Comisión de Hacienda, que agrega un artículo 10, nuevo, al artículo primero del proyecto, alterando el orden correlativo, del siguiente tenor: \n\n“Artículo 10.- Límite a la exposición al Riesgo. Respecto a la Retención de riesgo y primera pérdida, el porcentaje mínimo del deducible no podrá ser inferior al cinco por ciento (5%) del saldo insoluto de la cartera respectiva, los que deberán reflejar la morosidad histórica del sistema y el riesgo específico de cada originador.\nCon todo, las instituciones financieras acreditadas deberán verificar que al momento de invertir en un mutuo hipotecario, se cumpla que el valor dela obligación vigente del deudor comprendida en el respectivo mutuo no sea superior al ochenta por ciento (80%) del valor de la tasación de la garantía hipotecaria.\nSin perjuicio de que, el exceso de pérdida sobre el deducible será asumido por el FONAVI, si el originador hubiera incurrido en infracción a las normas de originación, evaluación o información, responderá solidariamente por las pérdidas que dicha infracción haya causado, sin perjuicio de las sanciones administrativas y penales que correspondan.”.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90657",
+      "fecha": "2026-10-27T17:56:10",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Artículo 1, contenido en el artículo primero del proyecto, en los términos propuestos por la Comisión de Hacienda.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90656",
+      "fecha": "2026-10-27T17:55:12",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Votación del artículo 1, contenido en el artículo primero del proyecto, con la indicación renovada  de los diputados (as) Jorge Brito, Irací Hassler y Daniela Serrano, para intercalar en su inciso segundo, entre las expresiones “primera vivienda”  y  “, sin que ello limite”, la frase “para uso exclusivamente habitacional”.",
+      "resultado": "Unánime",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90655",
+      "fecha": "2026-10-27T17:52:58",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Votación general de la letra b) del numeral 3 y el inciso segundo del artículo 131 de la Ley de Mercado de Valores contenido en el numeral 5, ambos del artículo décimo quinto permanente y del artículo vigésimo tercero transitorio; de los artículos décimo octavo permanente y vigésimo séptimo transitorio; de la letra f) del artículo 5º y la letra h) del artículo 6º, ambos contenidos en el artículo segundo; del numeral 4 del artículo undécimo y del artículo décimo noveno transitorio; y de los artículos décimo tercero permanente, vigésimo permanente y vigésimo segundo transitorio del proyecto de ley, los cuales requieren para su aprobación del voto favorable de 78 diputadas y diputados, por tratarse de normas de rango orgánico constitucional o de quorum calificado, respectivamente.",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    },
+    {
+      "votacion_id": "90654",
+      "fecha": "2026-10-27T17:51:25",
+      "tipo": "Proyecto de Ley",
+      "tramite_constitucional": "Primer Trámite",
+      "articulo": "Votación general",
+      "resultado": "Aprobado",
+      "detalle_nominal": true
+    }
+  ],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-11-09",
+    "universo": "Los 673 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": false,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-11-09T21:46:29"
+  }
+}
