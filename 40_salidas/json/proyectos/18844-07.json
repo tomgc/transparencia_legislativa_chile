@@ -1,0 +1,113 @@
+{
+  "boletin": "18844-07",
+  "nombre": "Modifica la Carta Fundamental para establecer la imposibilidad del retiro de utilidades por parte de las administradoras de fondos de pensiones en caso de pérdidas atribuidas a decisiones de inversión cuyo riesgo haya sido advertido por el ente regulador",
+  "tipo_iniciativa": "Moción",
+  "camara_origen": "C.Diputados",
+  "fecha_ingreso": "2026-11-02",
+  "tramitacion": {
+    "etapa_actual": "Primer trámite constitucional (C.Diputados)",
+    "estado": "En tramitación",
+    "ley_numero": null,
+    "tramites": [
+      {
+        "fecha": "2026-11-02",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Ingreso de proyecto .",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-11-04",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento",
+        "sesion": "88/374"
+      },
+      {
+        "fecha": "2026-11-04",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "A solicitud del diputado Luis Sánchez, la Sala acordó remitir el proyecto a la Comisión de Trabajo y Seguridad Social una vez informado por la de Constitución, Legislación, Justicia y Reglamento.",
+        "sesion": "88/374"
+      },
+      {
+        "fecha": "2026-11-04",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio N°21718. Comunica a la Comisión de Constitución, Legislación, Justicia y Reglamento el acuerdo de la Sala, orden a remitir el proyecto de ley a la Comisión de Trabajo y Seguridad Social, con posterioridad a su despacho.",
+        "sesion": "/"
+      },
+      {
+        "fecha": "2026-11-04",
+        "camara": "C.Diputados",
+        "etapa": "Primer trámite constitucional",
+        "descripcion": "Oficio N°21719. Comunica a la Comisión de Trabajo y Seguridad Social el acuerdo de la Sala, en orden a asignarle el proyecto, una vez despachado por la Comisión de Constitución, Legislación, Justicia y Reglamento.",
+        "sesion": "/"
+      }
+    ]
+  },
+  "autores": [
+    {
+      "parlamentario_id": "1102",
+      "nombre": "Roberto Arroyo Muñoz",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1243",
+      "nombre": "Tamara Ramírez Ramírez",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1258",
+      "nombre": "Guillermo Valdés Carmona",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1240",
+      "nombre": "Zandra Parisi Fernández",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1236",
+      "nombre": "Paula Olmos Contreras",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1255",
+      "nombre": "Eileen Urqueta Rojas",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1201",
+      "nombre": "Flor Contreras Vivallo",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1239",
+      "nombre": "Fabián Ossandón Briceño",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1193",
+      "nombre": "Patricio Briones Moller",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1192",
+      "nombre": "Lilian Betancurt Delgado",
+      "en_padron_vigente": true
+    }
+  ],
+  "votaciones": [],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-11-09",
+    "universo": "Los 673 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": true,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-11-09T21:46:29"
+  }
+}

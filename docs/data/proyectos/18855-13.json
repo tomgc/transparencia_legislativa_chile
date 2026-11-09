@@ -1,0 +1,72 @@
+{
+  "boletin": "18855-13",
+  "nombre": "Modifica la ley N° 19.728, para eliminar la posibilidad de que el empleador descuente sus aportes al seguro de cesantía, luego de realizar un despido por necesidades de la empresa",
+  "tipo_iniciativa": "Moción",
+  "camara_origen": null,
+  "fecha_ingreso": null,
+  "tramitacion": {
+    "etapa_actual": null,
+    "estado": null,
+    "ley_numero": null,
+    "tramites": []
+  },
+  "autores": [
+    {
+      "parlamentario_id": "1087",
+      "nombre": "Gael Yeomans Araya",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1105",
+      "nombre": "Héctor Barría Angulo",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1122",
+      "nombre": "Luis Alberto Cuello Peña y Lillo",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1178",
+      "nombre": "Héctor Ulloa Aguilera",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1224",
+      "nombre": "Cristian Mella Andaur",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1243",
+      "nombre": "Tamara Ramírez Ramírez",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1205",
+      "nombre": "Carlos Cuadrado Prats",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1241",
+      "nombre": "Patricio Pinilla Valencia",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1204",
+      "nombre": "Francisco Crisóstomo Llanos",
+      "en_padron_vigente": true
+    }
+  ],
+  "votaciones": [],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-11-09",
+    "universo": "Los 673 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": true,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-11-09T21:46:29"
+  }
+}

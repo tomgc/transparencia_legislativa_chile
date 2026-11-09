@@ -1,0 +1,57 @@
+{
+  "boletin": "18861-14",
+  "nombre": "Modifica cuerpos legales que indica en materia de inembargabilidad de la residencia principal del deudor y demás bienes muebles que indica, en las condiciones y con los requisitos que señala",
+  "tipo_iniciativa": "Moción",
+  "camara_origen": null,
+  "fecha_ingreso": null,
+  "tramitacion": {
+    "etapa_actual": null,
+    "estado": null,
+    "ley_numero": null,
+    "tramites": []
+  },
+  "autores": [
+    {
+      "parlamentario_id": "1054",
+      "nombre": "Francesca Muñoz González",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1240",
+      "nombre": "Zandra Parisi Fernández",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1236",
+      "nombre": "Paula Olmos Contreras",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1201",
+      "nombre": "Flor Contreras Vivallo",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1239",
+      "nombre": "Fabián Ossandón Briceño",
+      "en_padron_vigente": true
+    },
+    {
+      "parlamentario_id": "1193",
+      "nombre": "Patricio Briones Moller",
+      "en_padron_vigente": true
+    }
+  ],
+  "votaciones": [],
+  "materias": [],
+  "metadatos": {
+    "corte": "2026-11-09",
+    "universo": "Los 673 boletines de este corpus son los TOCADOS POR UN DIPUTADO DEL ROSTER VIGENTE: la union de los autorados (mociones con al menos un firmante del roster) y los votados (boletines con al menos una votacion nominal del anno de proceso). NO son los proyectos ingresados en el anno: un boletin antiguo votado este anno entra, y uno ingresado este anno sin firmante del roster y sin votar no entra.",
+    "autoria_cubre": "La autoria cubre SOLO diputados: la fuente entrega los firmantes senadores en un nodo que este pipeline no consume, asi que un proyecto de origen Senado puede aparecer sin autores sin que eso signifique que no los tiene.",
+    "cobertura_materias": false,
+    "cobertura_ley": false,
+    "cobertura_autoria": true,
+    "tramites_descartados_por_corte": 0,
+    "generado": "2026-11-09T21:46:29"
+  }
+}
